@@ -1,42 +1,42 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/hooks/useLanguage';
 
-// Traductions pour la page À propos
+// Traduções para a página Sobre
 const translations = {
   pt: {
-    title: 'Sobre Nós',
-    welcome: 'Bem-vindo ao nosso aplicativo de aprendizagem de idiomas e estudos bíblicos.',
-    mission: 'Nossa Missão',
-    missionText: 'Nosso objetivo é fornecer ferramentas de aprendizado de qualidade para facilitar o estudo de idiomas e o aprofundamento do conhecimento bíblico.',
-    features: 'Funcionalidades',
-    feature1: 'Dicionário interativo com tradução',
-    feature2: 'Aulas de gramática detalhadas',
-    feature3: 'Recursos para pregação',
-    feature4: 'Estudos bíblicos completos',
-    contact: 'Contato',
-    contactText: 'Para quaisquer dúvidas ou sugestões, não hesite em nos contatar no seguinte endereço:',
-    email: 'contato@exemplo.com'
+    titulo: 'Sobre Nós',
+    boasVindas: 'Bem-vindo ao nosso aplicativo de aprendizagem de idiomas e estudos bíblicos.',
+    missao: 'Nossa Missão',
+    textoMissao: 'Nosso objetivo é fornecer ferramentas de aprendizado de qualidade para facilitar o estudo de idiomas e o aprofundamento do conhecimento bíblico.',
+    funcionalidades: 'Funcionalidades',
+    funcionalidade1: 'Dicionário interativo com tradução',
+    funcionalidade2: 'Aulas de gramática detalhadas',
+    funcionalidade3: 'Recursos para pregação',
+    funcionalidade4: 'Estudos bíblicos completos',
+    contato: 'Contato',
+    textoContato: 'Para quaisquer dúvidas ou sugestões, não hesite em nos contatar no seguinte endereço:',
+    email: 'pinto12397@gmail.com'
   },
   cv: {
-    title: 'Sobre Nós',
-    welcome: 'Bem-vindo na nos aplikativu di apréndizajen di línguas i studu bíbliku.',
-    mission: 'Nha Misãu',
-    missionText: 'Nos obijetivu é fornesi ferramentas di aprendizajen di kualidadi pa fasilitá studu di línguas i aprofundamentu di konximentu bíbliku.',
-    features: 'Funksionalidadis',
-    feature1: 'Disionáriu interativu ku traduson',
-    feature2: 'Lison di gramátika detalhadu',
-    feature3: 'Resursa pa pregaçon',
-    feature4: 'Studu bíbliku kompletu',
-    contact: 'Kontatu',
-    contactText: 'Pa kualker pregunta ka sujeston, ka ten vergonha di kontata-nos na direkson siguinti:',
-    email: 'kontatu@ezemplu.cv'
+    titulo: 'Sobre Nós', // Mantido "Sobre Nós" para CV, pode ser ajustado se necessário para algo como "Konsernu Nos"
+    boasVindas: 'Bem-vindo na nos aplikativu di apréndizajen di línguas i studu bíbliku.',
+    missao: 'Nha Misãu',
+    textoMissao: 'Nos obijetivu é fornesi ferramentas di aprendizajen di kualidadi pa fasilitá studu di línguas i aprofundamentu di konximentu bíbliku.',
+    funcionalidades: 'Funksionalidadis',
+    funcionalidade1: 'Disionáriu interativu ku traduson',
+    funcionalidade2: 'Lison di gramátika detalhadu',
+    funcionalidade3: 'Resursa pa pregaçon',
+    funcionalidade4: 'Studu bíbliku kompletu',
+    contato: 'Kontatu',
+    textoContato: 'Pa kualker pregunta ka sujeston, ka ten vergonha di kontata-nos na direkson siguinti:',
+    email: 'pinto12397@gmail.com'
   }
 };
 
 export default function AboutPage() {
   const { language } = useLanguage();
   
-  // Sélectionner les traductions en fonction de la langue actuelle
+  // Selecionar as traduções com base no idioma atual
   const content = translations[language as keyof typeof translations] || translations.pt;
 
   return (
@@ -47,29 +47,29 @@ export default function AboutPage() {
         transition={{ duration: 0.5 }}
         className="max-w-3xl mx-auto"
       >
-        <h1 className="text-3xl font-bold mb-6">{content.title}</h1>
+        <h1 className="text-3xl font-bold mb-6">{content.titulo}</h1>
         
         <div className="prose dark:prose-invert">
           <p className="text-lg mb-4">
-            {content.welcome}
+            {content.boasVindas}
           </p>
           
-          <h2 className="text-2xl font-semibold mt-8 mb-4">{content.mission}</h2>
+          <h2 className="text-2xl font-semibold mt-8 mb-4">{content.missao}</h2>
           <p className="mb-4">
-            {content.missionText}
+            {content.textoMissao}
           </p>
           
-          <h2 className="text-2xl font-semibold mt-8 mb-4">{content.features}</h2>
+          <h2 className="text-2xl font-semibold mt-8 mb-4">{content.funcionalidades}</h2>
           <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>{content.feature1}</li>
-            <li>{content.feature2}</li>
-            <li>{content.feature3}</li>
-            <li>{content.feature4}</li>
+            <li>{content.funcionalidade1}</li>
+            <li>{content.funcionalidade2}</li>
+            <li>{content.funcionalidade3}</li>
+            <li>{content.funcionalidade4}</li>
           </ul>
           
-          <h2 className="text-2xl font-semibold mt-8 mb-4">{content.contact}</h2>
+          <h2 className="text-2xl font-semibold mt-8 mb-4">{content.contato}</h2>
           <p>
-            {content.contactText}
+            {content.textoContato}
             <br />
             <a href={`mailto:${content.email}`} className="text-primary hover:underline">
               {content.email}

@@ -11,50 +11,50 @@ const PreachingPage: React.FC = () => {
   
   return (
     <div className="page-transition py-2 bg-gray-100 min-h-screen">
-      <div className="container mx-auto px-2">
-        <div className="text-center mb-2">
-          <h1 className="text-xl font-bold mb-1">{t('preaching.title')}</h1>
-          <p className="text-xs text-gray-600 max-w-3xl mx-auto">
-            {t('preaching.subtitle')}
+      <div className="container mx-auto px-3 sm:px-4"> {/* px-2 à px-3 sm:px-4 */}
+        <div className="text-center mb-3 sm:mb-4"> {/* mb-2 à mb-3 sm:mb-4 */}
+          <h1 className="text-xl sm:text-2xl font-bold mb-1">{t('predicacao.titulo')}</h1>
+          <p className="text-sm text-gray-600 max-w-3xl mx-auto"> {/* text-xs à text-sm */}
+            {t('predicacao.subtitulo')}
           </p>
         </div>
         
         {!activePresentation ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4"> {/* gap-2 à gap-3 sm:gap-4 */}
             {preachingPresentations.map((presentation) => (
               <div 
                 key={presentation.id}
-                className="card cursor-pointer hover:shadow-md transition-shadow"
+                className="card cursor-pointer hover:shadow-lg transition-shadow rounded-lg overflow-hidden" // Ajout de rounded-lg overflow-hidden, hover:shadow-md à hover:shadow-lg
                 onClick={() => setActivePresentation(presentation)}
               >
-                <div className="h-32 overflow-hidden">
+                <div className="aspect-video overflow-hidden"> {/* h-32 remplacé par aspect-video pour un ratio responsive */}
                   <OptimizedImage 
                     src={presentation.image} 
                     alt={presentation.title[language]} 
                     className="w-full h-full object-cover"
-                    width={400}
-                    height={160}
+                    width={400} // Ces valeurs sont pour l'optimisation, le CSS gère l'affichage
+                    height={225} // (16:9 ratio pour 400px de large)
                   />
                 </div>
-                <div className="p-2">
-                  <h3 className="font-bold mb-1 text-sm">
+                <div className="p-3"> {/* p-2 à p-3 */}
+                  <h3 className="font-bold mb-1 text-base"> {/* text-sm à text-base */}
                     {presentation.title[language]}
                   </h3>
-                  <p className="text-gray-600 text-xs mb-2 line-clamp-2">
+                  <p className="text-gray-600 text-sm mb-2 line-clamp-3 leading-snug"> {/* text-xs à text-sm, line-clamp-2 à line-clamp-3, ajout de leading-snug */}
                     {presentation.introduction[language]}
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-xs text-gray-500">
+                    <span className="text-sm text-gray-500"> {/* text-xs à text-sm */}
                       {presentation.scripture.reference}
                     </span>
                     <button 
-                      className="text-primary-dark hover:text-primary font-medium text-[10px] inline-flex items-center"
+                      className="text-primary-dark hover:text-primary font-medium text-xs inline-flex items-center" // text-[10px] à text-xs
                       onClick={(e) => {
                         e.stopPropagation();
                         setActivePresentation(presentation);
                       }}
                     >
-                      {t('ui.next')} <ChevronRight size={12} className="ml-0.5" />
+                      {t('iu.proximo')} <ChevronRight size={14} className="ml-0.5" /> {/* size 12 à 14 */}
                     </button>
                   </div>
                 </div>
@@ -62,21 +62,21 @@ const PreachingPage: React.FC = () => {
             ))}
           </div>
         ) : (
-          <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-4xl mx-auto">
-            <div className="relative h-32 overflow-hidden">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl mx-auto"> {/* shadow-md à shadow-lg */}
+            <div className="relative aspect-video sm:aspect-[2/1] overflow-hidden"> {/* h-32 remplacé par aspect-video sm:aspect-[2/1] */}
               <OptimizedImage 
                 src={activePresentation.image} 
                 alt={activePresentation.title[language]} 
                 className="w-full h-full object-cover"
-                width={800}
-                height={192}
+                width={800} // Pour optimisation
+                height={450} // (16:9 ratio pour 800px de large)
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-                <div className="p-2 text-white">
-                  <h2 className="text-base font-bold mb-0.5">
+                <div className="p-3 sm:p-4 text-white"> {/* p-2 à p-3 sm:p-4 */}
+                  <h2 className="text-lg sm:text-xl font-bold mb-0.5"> {/* text-base à text-lg sm:text-xl */}
                     {activePresentation.title[language]}
                   </h2>
-                  <p className="text-white/80 text-xs">
+                  <p className="text-white/80 text-sm"> {/* text-xs à text-sm */}
                     {activePresentation.scripture.reference}
                   </p>
                 </div>
@@ -85,16 +85,16 @@ const PreachingPage: React.FC = () => {
                         <div className="p-4">
               <div className="mb-3">
                 <h3 className="font-bold mb-1 text-primary-dark text-base">
-                  {t('preaching.introduction')}
+                  {t('predicacao.introducao')}
                 </h3>
                 <p className="text-gray-700 text-sm">
                   {activePresentation.introduction[language]}
                 </p>
               </div>
               
-              <div className="mb-3 bg-gray-50 p-3 rounded border-l-2 border-primary text-sm">
-                <h3 className="font-bold mb-1 text-primary-dark">
-                  {t('preaching.scripture')}
+              <div className="mb-3 bg-gray-50 p-3 rounded border-l-4 border-primary text-sm"> {/* border-l-2 à border-l-4 */}
+                <h3 className="font-bold mb-1 text-primary-dark text-base"> {/* Ajout de text-base */}
+                  {t('predicacao.textoBiblico')}
                 </h3>
                 <p className="text-gray-700 italic">
                   <span className="font-semibold">{activePresentation.scripture.reference}:</span> {activePresentation.scripture.text[language]}
@@ -102,45 +102,45 @@ const PreachingPage: React.FC = () => {
               </div>
               
               <div className="mb-4">
-                <h3 className="text-lg font-bold mb-2 text-primary-dark">
-                  {t('preaching.question')}
+                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
+                  {t('predicacao.pergunta')}
                 </h3>
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700 text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
                   {activePresentation.question[language]}
                 </p>
               </div>
               
               <div className="mb-4">
-                <h3 className="text-lg font-bold mb-2 text-primary-dark">
-                  {t('preaching.explanation')}
+                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
+                  {t('predicacao.explicacao')}
                 </h3>
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700 text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
                   {activePresentation.explanation[language]}
                 </p>
               </div>
               
               <div className="mb-4">
-                <h3 className="text-lg font-bold mb-2 text-primary-dark">
-                  {t('preaching.conclusion')}
+                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
+                  {t('predicacao.conclusao')}
                 </h3>
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700 text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
                   {activePresentation.conclusion[language]}
                 </p>
               </div>
               
-              <div className="flex justify-between items-center mt-4">
+              <div className="flex flex-col sm:flex-row justify-between items-center mt-6 gap-2"> {/* mt-4 à mt-6, ajout de flex-col sm:flex-row gap-2 */}
                 <button
-                  className="btn btn-outline flex items-center text-xs py-1 px-2"
+                  className="btn btn-outline flex items-center text-sm py-1.5 px-3 w-full sm:w-auto justify-center" // text-xs à text-sm, py-1 px-2 à py-1.5 px-3, ajout de w-full sm:w-auto justify-center
                   onClick={() => setActivePresentation(null)}
                 >
-                  <ChevronLeft size={12} className="mr-0.5" /> {t('ui.previous')}
+                  <ChevronLeft size={16} className="mr-1" /> {t('iu.anterior')} {/* size 12 à 16, mr-0.5 à mr-1 */}
                 </button>
                 
                 <button
-                  className="btn btn-primary flex items-center text-xs py-1 px-2"
+                  className="btn btn-primary flex items-center text-sm py-1.5 px-3 w-full sm:w-auto justify-center" // text-xs à text-sm, py-1 px-2 à py-1.5 px-3, ajout de w-full sm:w-auto justify-center
                   onClick={() => setShowPracticeModal(true)}
                 >
-                  <BookOpen size={12} className="mr-0.5" /> {language === 'pt' ? 'Praticar' : 'Pratika'}
+                  <BookOpen size={16} className="mr-1" /> {t('predicacao.botaoPraticar')} {/* Modifié pour utiliser la clé de traduction */}
                 </button>
               </div>
             </div>
@@ -153,7 +153,7 @@ const PreachingPage: React.FC = () => {
             <div className="bg-white rounded w-full max-w-2xl max-h-[90vh] overflow-y-auto">
               <div className="p-3">
                 <h2 className="text-lg font-bold mb-2">
-                  {t('preaching.practiceButton')}: {activePresentation.title[language]}
+                  {t('predicacao.botaoPraticar')}: {activePresentation.title[language]}
                 </h2>
                 
                 <div className="mb-4">
@@ -226,7 +226,7 @@ const PreachingPage: React.FC = () => {
                     className="btn btn-outline text-xs py-1 px-2"
                     onClick={() => setShowPracticeModal(false)}
                   >
-                    {t('ui.close')}
+                    {t('iu.fechar')}
                   </button>
                   <button
                     className="btn btn-primary text-xs py-1 px-2"

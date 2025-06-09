@@ -3,6 +3,7 @@
 import { Moon, Sun, Laptop } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
+import { useLanguage } from "@/hooks/useLanguage" // Ajout de useLanguage
 
 import { Button } from "@/components/ui/button"
 import {
@@ -15,6 +16,7 @@ import {
 export function ThemeToggle() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
+  const { t } = useLanguage() // Ajout pour obtenir la fonction de traduction
 
   // Éviter l'hydratation côté serveur
   useEffect(() => {
@@ -38,29 +40,29 @@ export function ThemeToggle() {
           ) : (
             <Sun className="h-4 w-4" />
           )}
-          <span className="sr-only">Changer de thème</span>
+          <span className="sr-only">{t('iu.tema.mudar')}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-40">
+      <DropdownMenuContent align="end" className="w-40 border-2 shadow-lg bg-white dark:bg-zinc-950 z-[60]"> {/* Remplacé bg-popover par bg-white dark:bg-zinc-950 et ajouté z-[60] */}
         <DropdownMenuItem 
           onClick={() => setTheme("light")}
           className="flex items-center justify-between"
         >
-          <span>Clair</span>
+          <span>{t('iu.tema.claro')}</span>
           <Sun className="h-4 w-4" />
         </DropdownMenuItem>
         <DropdownMenuItem 
           onClick={() => setTheme("dark")}
           className="flex items-center justify-between"
         >
-          <span>Sombre</span>
+          <span>{t('iu.tema.sombrio')}</span>
           <Moon className="h-4 w-4" />
         </DropdownMenuItem>
         <DropdownMenuItem 
           onClick={() => setTheme("system")}
           className="flex items-center justify-between"
         >
-          <span>Système</span>
+          <span>{t('iu.tema.sistema')}</span>
           <Laptop className="h-4 w-4" />
         </DropdownMenuItem>
       </DropdownMenuContent>

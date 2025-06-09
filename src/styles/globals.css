@@ -37,46 +37,49 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Thème clair inspiré de jw.org */
+    --background: 0 0% 98%; /* #F9F9F9 - Blanc cassé/gris très clair */
+    --foreground: 222.2 84% 4.9%; /* #0A2540 - Noir/bleu très foncé (inchangé pour l'instant) */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* #FFFFFF - Blanc pour les cartes */
+    --card-foreground: 222.2 84% 4.9%; /* Identique à foreground */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%; /* #FFFFFF - Blanc pour les popovers */
+    --popover-foreground: 222.2 84% 4.9%; /* Identique à foreground */
 
-    --primary: 221.2 83.2% 53.3%; /* Default primary */
-    --primary-foreground: 210 40% 98%; /* Default primary foreground */
-    --primary-light: 217 100% 68%; /* #5EA1FF */
-    --primary-dark: 217 100% 35%; /* #0049B5 */
-    --primary-color-default: 217 83% 50%; /* #1A73E8 */
+    --primary: 205 56% 41%; /* #2A73A3 - Bleu jw.org pour les accents */
+    --primary-foreground: 0 0% 100%; /* #FFFFFF - Blanc pour le texte sur fond primaire */
+    
+    /* Variables de couleur primaire spécifiques (peuvent être utilisées directement ou via primary) */
+    --primary-light: 205 56% 55%; /* Un bleu plus clair pour hover/focus si nécessaire */
+    --primary-dark: 218 23% 35%;  /* #4A506A - Bleu foncé pour la barre de navigation principale */
+    /* --primary-color-default: 217 83% 50%; /* #1A73E8 */ /* Ancienne valeur, peut être supprimée ou ajustée */
 
-    --secondary: 210 40% 96.1%; /* Default secondary */
-    --secondary-foreground: 222.2 47.4% 11.2%; /* Default secondary foreground */
-    --secondary-light: 188 100% 70%; /* #62E7FF */
-    --secondary-default: 190 100% 42%; /* #00B4D8 */
-    --secondary-dark: 190 100% 33%; /* #0084A6 */
+    --secondary: 210 30% 90%; /* #DCE3EB - Gris bleuâtre clair */
+    --secondary-foreground: 215 25% 25%; /* #313B47 - Gris foncé pour texte sur fond secondaire */
+    /* --secondary-light: 188 100% 70%; */
+    /* --secondary-default: 190 100% 42%; */
+    /* --secondary-dark: 190 100% 33%; */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 30% 94%; /* #EAEFF4 - Gris clair pour éléments discrets */
+    --muted-foreground: 215 15% 45%; /* #656E7B - Gris moyen pour texte sur fond muted */
 
-    --accent: 210 40% 96.1%; /* Default accent */
-    --accent-foreground: 222.2 47.4% 11.2%; /* Default accent foreground */
-    --accent-light: 39 100% 80%; /* #FFD99B */
-    --accent-default: 35 50% 62%; /* #D4A76A */
-    --accent-dark: 35 50% 36%; /* #8B5A2B */
+    --accent: 205 56% 41%; /* Utilise la couleur primaire comme accent par défaut */
+    --accent-foreground: 0 0% 100%; /* Blanc pour texte sur fond accent */
+    --accent-light: 205 56% 75%; /* #A8D8F0 - Version plus claire de l'accent primaire */
+    /* --accent-default: 35 50% 62%; */ /* Ancienne valeur */
+    /* --accent-dark: 35 50% 36%; */ /* Ancienne valeur */
 
-    --success: 122 47% 33%; /* #2E7D32 */
-    --warning: 31 100% 48%; /* #F57C00 */
-    --error: 0 70% 50%; /* #D32F2F */
+    --success: 145 63% 42%; /* #2E8555 - Vert succès */
+    --warning: 35 85% 55%; /* #F0AD4E - Orange avertissement */
+    --error: 0 72% 51%;   /* #D9534F - Rouge erreur */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 72% 51%; /* Identique à error */
+    --destructive-foreground: 0 0% 100%; /* Blanc pour texte sur fond destructive */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --border: 210 20% 88%; /* #D6DCE1 - Gris pour les bordures */
+    --input: 210 20% 96%; /* #F0F3F5 - Gris très clair pour fond d'input */
+    --ring: 205 56% 41%; /* Utilise la couleur primaire pour l'anneau de focus */
 
     --radius: 0.5rem;
   }

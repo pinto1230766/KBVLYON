@@ -8,7 +8,7 @@ export default defineConfig({
   // Configuration du serveur de développement
   server: {
     port: 5174,
-    strictPort: true,
+    strictPort: false,
     open: true,
     host: '0.0.0.0', // Écoute sur toutes les interfaces réseau
     cors: true,

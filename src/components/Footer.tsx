@@ -1,107 +1,65 @@
-import React from 'react';
+import React from 'react'; // useState et Button supprimés des imports
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
-import { Button } from './ui/button';
+// import { Button } from './ui/button'; // Supprimé car non utilisé
 import { ExternalLink } from 'lucide-react';
 
 const Footer: React.FC = () => {
-  const { t } = useLanguage();
+  const { t } = useLanguage(); // language et états/fonction pour newsletter supprimés
   const currentYear = new Date().getFullYear();
   
-  const navigation = [
-    { name: t('nav.home'), href: '/', current: true },
-    { name: t('nav.preaching'), href: '/preaching', current: false },
-    { name: t('nav.bibleStudies'), href: '/bible-studies', current: false },
-  ];
+  // La constante 'navigation' a été supprimée car elle n'est plus utilisée.
 
   const resources = [
     { name: 'jw.org/kea', href: 'https://www.jw.org/kea/', icon: ExternalLink },
-    { name: 'JW Library', href: 'https://www.jw.org/en/online-help/jwl/', icon: ExternalLink },
-    { name: 'JW Broadcasting', href: 'https://tv.jw.org/', icon: ExternalLink },
+    { name: 'JW Library', href: 'https://www.jw.org/kea/ajuda/jw-library/', icon: ExternalLink },
+    { name: 'JW Broadcasting', href: 'https://www.jw.org/kea/biblioteka-online/tv-jw-org/', icon: ExternalLink },
   ];
 
 
   return (
-    <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-[11px]">
-      <div className="container py-2">
-        {/* Première ligne : Logo et navigation principale */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-2 mb-2">
-          <div className="flex items-center space-x-2">
-            <div className="h-6 w-6 rounded-full bg-primary flex-shrink-0"></div>
-            <span className="font-bold">KBVLYON</span>
-          </div>
-          
-          <nav className="flex flex-wrap justify-center gap-3">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className="text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </nav>
-        </div>
+    <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-xs"> {/* text-[11px] à text-xs */}
+      <div className="container py-4"> {/* py-2 à py-4 */}
+        {/* La première ligne (Logo et navigation principale) a été supprimée comme demandé */}
         
         {/* Deuxième ligne : Ressources */}
-        <div className="border-t border-border pt-2 mb-2">
-          <h3 className="font-medium text-[11px] mb-1">{t('nav.resources')}</h3>
-          <div className="flex flex-wrap gap-2">
+        <div className="border-t border-border pt-3 mb-3"> {/* pt-2 à pt-3, mb-2 à mb-3 */}
+          <h3 className="font-medium text-sm mb-1.5">{t('paginaInicial.tituloRecursos')}</h3> {/* Changé de nav.resources */}
+          <div className="flex flex-wrap gap-x-3 gap-y-1"> {/* gap-2 à gap-x-3 gap-y-1 */}
             {resources.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+                className="flex items-center text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap text-xs" // Ajout de text-xs
               >
                 {item.name}
-                <item.icon className="ml-1 h-3 w-3" />
+                <item.icon className="ml-1 h-3.5 w-3.5" /> {/* h-3 w-3 à h-3.5 w-3.5 */}
               </a>
             ))}
           </div>
         </div>
         
-        {/* Troisième ligne : Newsletter */}
-        <div className="border-t border-border pt-2 mb-2">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
-            <div className="flex-1 min-w-0">
-              <h3 className="font-medium text-[11px]">Newsletter</h3>
-              <p className="text-muted-foreground text-[10px] line-clamp-1">
-                {t('footer.newsletter')}
-              </p>
-            </div>
-            <div className="w-full sm:w-auto flex">
-              <input
-                type="email"
-                placeholder="Votre email"
-                className="flex-1 min-w-0 rounded-l-sm border border-r-0 border-input bg-background px-1.5 py-0.5 text-xs focus:outline-none focus:ring-1 focus:ring-primary h-6"
-                aria-label="Email"
-              />
-              <Button type="submit" className="rounded-l-none h-6 px-2 text-[10px]">
-                {t('footer.subscribe')}
-              </Button>
-            </div>
-          </div>
-        </div>
+        {/* La section Newsletter a été supprimée */}
         
         {/* Dernière ligne : Copyright et mentions légales */}
-        <div className="border-t border-border pt-2">
+        {/* Ajustement de la marge supérieure si la section newsletter était la seule avant */}
+        <div className="border-t border-border pt-3"> 
           <div className="flex flex-col md:flex-row justify-between items-center gap-1">
-            <p className="text-muted-foreground text-[10px] text-nowrap">
-              &copy; {currentYear} DicoCrioulo. {t('footer.rights')}
+            <p className="text-muted-foreground text-xs text-center md:text-left">
+              &copy; {currentYear} KBVLYON. {t('rodape.direitos')}
             </p>
-            <div className="flex flex-wrap justify-center gap-2">
-              <a href="#" className="text-muted-foreground hover:text-foreground text-[10px]">
-                {t('footer.privacy')}
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground text-[10px]">
-                {t('footer.terms')}
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground text-[10px]">
-                {t('footer.cookies')}
-              </a>
+            <div className="flex flex-wrap justify-center gap-x-3 gap-y-1">
+              <Link to="/privacy-policy" className="text-muted-foreground hover:text-foreground text-xs">
+                {t('rodape.privacidade')}
+              </Link>
+              <Link to="/terms-of-service" className="text-muted-foreground hover:text-foreground text-xs">
+                {t('rodape.termos')}
+              </Link>
+              <Link to="/cookie-policy" className="text-muted-foreground hover:text-foreground text-xs">
+                {t('rodape.cookies')}
+              </Link>
             </div>
           </div>
         </div>

@@ -1,111 +1,143 @@
+// As chaves principais foram traduzidas para o português
+// Os comentários também foram traduzidos ou removidos se redundantes
 export const translations = {
-  // Common
-  loading: {
+  // Comum
+  carregando: { // loading
     pt: 'Carregando...',
     cv: 'Ta karga...'
   },
   
-  // Navigation
-  nav: {
-    home: {
+  // Navegação
+  navegacao: { // nav
+    inicio: { // home
       pt: 'Início',
       cv: 'Inísiu'
     },
-    preaching: {
+    predicacao: { // preaching
       pt: 'Pregação',
       cv: 'Prédika'
     },
-    grammarDictionary: {
+    gramaticaDicionario: { // grammarDictionary
       pt: 'Gramática & Dicionário',
       cv: 'Gramátika & Disionáriu'
     },
-    grammar: {
+    gramatica: { // grammar
       pt: 'Gramática',
       cv: 'Gramátika'
     },
-    lessonsExercises: {
+    licoesExercicios: { // lessonsExercises
       pt: 'Lições & Exercícios',
       cv: 'Lisons & Izersísiu'
     },
-    bibleStudies: {
+    estudosBiblicos: { // bibleStudies
       pt: 'Estudos Bíblicos',
       cv: 'Studus Bíblikus'
     },
-    about: {
+    sobre: { // about
       pt: 'Sobre',
       cv: 'Konsernu'
     },
-    changeToCrioulo: {
+    notas: { // Nouvelle clé pour la page Notes
+      pt: 'Notas',
+      cv: 'Apontamentus' // Mis à jour
+    },
+    notasGerais: {
+      pt: 'Notas Gerais',
+      cv: 'Apontamentus Jeral'
+    },
+    alunos: {
+      pt: 'Alunos',
+      cv: 'Alunus'
+    },
+    adicionarAluno: {
+      pt: 'Adicionar Aluno',
+      cv: 'Adisiona Alunu'
+    },
+    nome: {
+      pt: 'Nome',
+      cv: 'Nomi'
+    },
+    telefone: {
+      pt: 'Telefone',
+      cv: 'Telifoni'
+    },
+    // email já existe em iu.email ou similar, mas pode ser específico aqui si besoin
+    // iu.email: { pt: 'Email', cv: 'Email' }
+    email: { // Ajouté pour contexte spécifique si iu.email n'est pas utilisé
+      pt: 'Email',
+      cv: 'Email'
+    },
+    mudarParaCrioulo: { // changeToCrioulo
       pt: 'Mudar para Crioulo',
       cv: 'Muda pa Kriolu'
     },
-    changeToPortuguese: {
+    mudarParaPortugues: { // changeToPortuguese
       pt: 'Mudar para Português',
       cv: 'Muda pa Português'
     },
     menu: {
-      open: {
+      abrir: { // open
         pt: 'Abrir menu',
         cv: 'Abre menu'
       },
-      close: {
+      fechar: { // close
         pt: 'Fechar menu',
         cv: 'Fecha menu'
       }
     }
   },
   
-  // Common translations
-  common: {
-    favorites: {
+  // Traduções Comuns
+  comum: { // common
+    favoritos: { // favorites
       pt: 'Favoritos',
       cv: 'Favoritus'
     },
-    clearSearch: {
+    limparPesquisa: { // clearSearch
       pt: 'Limpar pesquisa',
       cv: 'Limpá busca'
     },
-    removeFromFavorites: {
+    removerDosFavoritos: { // removeFromFavorites
       pt: 'Remover dos favoritos',
       cv: 'Tira di favoritus'
     },
-    addToFavorites: {
+    adicionarAosFavoritos: { // addToFavorites
       pt: 'Adicionar aos favoritos',
       cv: 'Adisiona na favoritus'
     },
-    searchLessons: {
+    pesquisarLicoes: { // searchLessons
       pt: 'Pesquisar lições...',
       cv: 'Buska lisons...'
     },
-    selectLesson: {
+    selecionarLicao: { // selectLesson
       pt: 'Selecione uma lição',
       cv: 'Seklisiona un lison'
     },
-    translation: {
+    traducao: { // translation
       pt: 'Tradução',
       cv: 'Traduson'
     },
-    example: {
+    exemplo: { // example
       pt: 'Exemplo',
       cv: 'Ezemplu'
     }
   },
   
-  // Dictionary
-  dictionary: {
-    searchWords: {
+  // Dicionário
+  dicionario: { // dictionary
+    pesquisarPalavras: { // searchWords
       pt: 'Pesquisar palavras...',
       cv: 'Buska palavras...'
     },
-    title: {
+    titulo: { // title
       pt: 'Dicionário',
       cv: 'Disionáriu'
     }
   },
   
-  // Search
-  search: {
-    results: {
+  // Pesquisa
+  pesquisa: { // search
+    resultados: { // results
       pt: 'resultados para',
       cv: 'rezultadu pa'
     },
@@ -113,209 +145,207 @@ export const translations = {
       pt: 'Digite para pesquisar...',
       cv: 'Skrebe pa buska...'
     },
-    searching: {
+    pesquisando: { // searching
       pt: 'Pesquisando',
       cv: 'Ta buska'
     },
-    noResults: {
+    semResultados: { // noResults
       pt: 'Nenhum resultado encontrado',
       cv: 'Nada atxadu'
     }
   },
   
-  // Grammar Dictionary
-  grammarDictionary: {
-    title: {
+  // Página de Gramática e Dicionário (seção específica, diferente de navegacao.gramaticaDicionario)
+  paginaGramaticaDicionario: { // grammarDictionary (page specific section)
+    titulo: { // title
       pt: 'Gramática & Dicionário',
       cv: 'Gramátika & Disionáriu'
     }
   },
   
-  // Favorites
-  favorites: {
-    emptyTitle: {
+  // Favoritos
+  favoritos: { // favorites (page specific section)
+    tituloVazio: { // emptyTitle
       pt: 'Nenhum favorito',
       cv: 'Nada favoritu'
     },
-    emptyDescription: {
+    descricaoVazia: { // emptyDescription
       pt: 'Adicione palavras aos seus favoritos clicando na estrela ao lado de cada palavra.',
       cv: 'Adisiona palavras na bu lista di favoritu ku klik na strela li' 
     },
-    browseDictionary: {
+    procurarNoDicionario: { // browseDictionary
       pt: 'Procurar no dicionário',
       cv: 'Buska na disionáriu'
     }
   },
   
-  // Common translations already merged above
-  
-  // Home Page
-  home: {
-    title: {
+  // Página Inicial
+  paginaInicial: { // home
+    titulo: { // title
       pt: 'Aprenda Cabo-verdiano para Pregação',
       cv: 'Prendi Kriolu pa Prédika'
     },
-    subtitle: {
+    subtitulo: { // subtitle
       pt: 'Um recurso para Testemunhas de Jeová',
       cv: 'Un rekursu pa Testemunhas di Jeová'
     },
-    intro: {
+    introducao: { // intro
       pt: 'Este site foi criado para ajudar as Testemunhas de Jeová a aprender o crioulo cabo-verdiano para usar na pregação. Aqui você encontrará apresentações, gramática, vocabulário e exercícios práticos.',
       cv: 'Es site foi kriadu pa djuda Testemunhas di Jeová a prendi kriolu kabuverdianu pa uza na prédika. Li bu ta atxa apresentasons, gramátika, vokabuláriu y izersísiu prátiku.'
     },
-    startButton: {
+    botaoComecar: { // startButton
       pt: 'Começar a Aprender',
       cv: 'Kumesa Prendi'
     },
-    featuresTitle: {
+    tituloRecursos: { // featuresTitle
       pt: 'Recursos Disponíveis',
       cv: 'Rekursus Dispunível'
     },
-    feature1Title: {
+    recurso1Titulo: { // feature1Title
       pt: 'Apresentações para Pregação',
       cv: 'Apresentasons pa Prédika'
     },
-    feature1Desc: {
+    recurso1Desc: { // feature1Desc
       pt: '10 apresentações baseadas em publicações da jw.org para usar na pregação.',
       cv: '10 apresentason baziadu na publikasons di jw.org pa uza na prédika.'
     },
-    feature2Title: {
+    recurso2Titulo: { // feature2Title
       pt: 'Gramática & Dicionário',
       cv: 'Gramátika & Disionáriu'
     },
-    feature2Desc: {
+    recurso2Desc: { // feature2Desc
       pt: 'Aprenda a estrutura básica da língua e amplie seu vocabulário.',
       cv: 'Prendi strutura báziku di língua y aumenta bu vokabuláriu.'
     },
-    feature3Title: {
-      pt: 'Exercícios Práticos',
-      cv: 'Izersísiu Prátiku'
+    recurso3Titulo: { // feature3Title (agora Estudos Bíblicos)
+      pt: 'Estudos Bíblicos', // Atualizado
+      cv: 'Studus Bíblikus' // Atualizado
     },
-    feature3Desc: {
-      pt: 'Teste seu conhecimento com exercícios interativos e simulações de conversas.',
-      cv: 'Testa bu kunhesimentu ku izersísiu interativu y simulasons di konversa.'
+    recurso3Desc: { // feature3Desc (agora Estudos Bíblicos)
+      pt: 'Recursos e guias para seus estudos bíblicos pessoais.', // Atualizado
+      cv: 'Rekursus y gias pa bus studus bíblikus pesoal.' // Atualizado
     }
   },
   
-  // Preaching Page
-  preaching: {
-    title: {
+  // Página de Pregação
+  predicacao: { // preaching
+    titulo: { // title
       pt: 'Apresentações para Pregação',
       cv: 'Apresentasons pa Prédika'
     },
-    subtitle: {
+    subtitulo: { // subtitle
       pt: 'Use estas apresentações adaptadas de jw.org para a pregação em cabo-verdiano',
       cv: 'Uza kes apresentason adaptadu di jw.org pa prédika na kriolu'
     },
-    presentationTitle: {
+    tituloApresentacao: { // presentationTitle
       pt: 'Apresentação',
       cv: 'Apresentason'
     },
-    introduction: {
+    introducao: { // introduction
       pt: 'Introdução',
       cv: 'Introduson'
     },
-    scripture: {
+    textoBiblico: { // scripture
       pt: 'Texto Bíblico',
       cv: 'Téstu Bíbliku'
     },
-    question: {
+    pergunta: { // question
       pt: 'Pergunta',
       cv: 'Purgunta'
     },
-    explanation: {
+    explicacao: { // explanation
       pt: 'Explicação',
       cv: 'Splikason'
     },
-    conclusion: {
+    conclusao: { // conclusion
       pt: 'Conclusão',
       cv: 'Konkluson'
     },
-    practiceButton: {
+    botaoPraticar: { // practiceButton
       pt: 'Praticar',
       cv: 'Pratika'
     }
   },
   
-  // Grammar & Dictionary Page
-  grammar: {
-    title: {
+  // Seção de Gramática (dentro da página Gramática & Dicionário)
+  gramaticaSecao: { // grammar (section within GrammarDictionaryPage)
+    titulo: { // title (já existe em navegacao.gramaticaDicionario, mas pode ser específico aqui)
       pt: 'Gramática & Dicionário',
       cv: 'Gramátika & Disionáriu'
     },
-    grammarTitle: {
+    tituloGramatica: { // grammarTitle
       pt: 'Gramática',
       cv: 'Gramátika'
     },
-    dictionaryTitle: {
+    tituloDicionario: { // dictionaryTitle
       pt: 'Dicionário',
       cv: 'Disionáriu'
     },
-    searchPlaceholder: {
+    placeholderPesquisa: { // searchPlaceholder
       pt: 'Pesquisar palavra...',
       cv: 'Piskiza palavra...'
     },
-    noResults: {
+    semResultados: { // noResults
       pt: 'Nenhum resultado encontrado',
       cv: 'Ninhun resultadu atxadu'
     },
-    grammarIntro: {
+    introducaoGramatica: { // grammarIntro
       pt: 'Aprenda as regras básicas da gramática cabo-verdiana. Cada lição inclui exemplos e exercícios práticos.',
       cv: 'Prendi regras báziku di gramátika kabuverdianu. Kada lison ta inklui izemplu y izersísiu prátiku.'
     },
-    lesson: {
+    licao: { // lesson
       pt: 'Lição',
       cv: 'Lison'
     },
-    example: {
+    exemplo: { // example (já existe em comum.exemplo, mas pode ser específico aqui)
       pt: 'Exemplo',
       cv: 'Ezemplu'
     }
   },
   
-  // Lessons & Exercises Page
-  lessons: {
-    title: {
+  // Página de Lições e Exercícios
+  licoes: { // lessons
+    titulo: { // title
       pt: 'Lições & Exercícios',
       cv: 'Lisons & Izersísiu'
     },
-    subtitle: {
+    subtitulo: { // subtitle
       pt: 'Aprenda e pratique com exercícios interativos',
       cv: 'Prendi y pratika ku izersísiu interativu'
     },
-    quizTitle: {
+    tituloQuiz: { // quizTitle
       pt: 'Quiz',
       cv: 'Quiz'
     },
-    matchingTitle: {
+    tituloCorrespondencia: { // matchingTitle
       pt: 'Exercício de Correspondência',
       cv: 'Izersísiu di Korespondensia'
     },
-    roleplayTitle: {
+    tituloSimulacao: { // roleplayTitle
       pt: 'Simulação de Conversa',
       cv: 'Simulason di Konversa'
     },
-    startExercise: {
+    iniciarExercicio: { // startExercise
       pt: 'Iniciar Exercício',
       cv: 'Inisia Izersísiu'
     },
-    correct: {
+    correto: { // correct
       pt: 'Correto!',
       cv: 'Sertu!'
     },
-    incorrect: {
+    incorreto: { // incorrect
       pt: 'Incorreto! Tente novamente.',
       cv: 'Inkoretu! Tenta di novu.'
     },
-    score: {
+    pontuacao: { // score
       pt: 'Pontuação',
       cv: 'Pontuason'
     }
   },
   
-  // Footer
-  footer: {
-    description: {
+  // Rodapé
+  rodape: { // footer
+    descricao: { // description
       pt: 'Recursos para aprender crioulo cabo-verdiano e melhorar suas habilidades de pregação.',
       cv: 'Rekursus pa prendi kriolu kabuverdianu y melhora bu abilidadis di prédika.'
     },
@@ -323,19 +353,19 @@ export const translations = {
       pt: 'Inscreva-se para receber atualizações',
       cv: 'Inskrebe-bo pa resebe atualizasons'
     },
-    subscribe: {
+    inscrever: { // subscribe
       pt: 'Inscrever',
       cv: 'Inskrebe'
     },
-    rights: {
+    direitos: { // rights
       pt: 'Todos os direitos reservados',
       cv: 'Tudu dretus rezervadu'
     },
-    privacy: {
+    privacidade: { // privacy
       pt: 'Privacidade',
       cv: 'Privasidadi'
     },
-    terms: {
+    termos: { // terms
       pt: 'Termos',
       cv: 'Termus'
     },
@@ -345,143 +375,168 @@ export const translations = {
     }
   },
   
-  // Bible Studies Page
-  bibleStudies: {
-    title: {
+  // Página de Estudos Bíblicos
+  estudosBiblicosPagina: { // bibleStudies (page specific section)
+    titulo: { // title
       pt: 'Estudos Bíblicos',
       cv: 'Studus Bíblikus'
     },
-    subtitle: {
+    subtitulo: { // subtitle
       pt: 'Recursos para estudos bíblicos em cabo-verdiano',
       cv: 'Rekursus pa studus bíblikus na kriolu'
     },
-    study: {
+    estudo: { // study
       pt: 'Estudo',
       cv: 'Studu'
     },
-    duration: {
+    duracao: { // duration
       pt: 'Duração',
       cv: 'Durason'
     },
-    minutes: {
+    minutos: {
       pt: 'minutos',
       cv: 'minutu'
     },
-    requestStudy: {
+    solicitarEstudo: { // requestStudy
       pt: 'Solicitar Estudo',
       cv: 'Sulisita Studu'
     },
-    howToStart: {
+    comoComecar: { // howToStart
       pt: 'Como Começar',
       cv: 'Modi ki Kumesa'
     },
-    newToStudy: {
+    novoNoEstudo: { // newToStudy
       pt: 'Novo nos Estudos Bíblicos?',
       cv: 'Nobu na Studus Bíblikus?'
     },
-    schedule: {
+    horarioEstudos: { // schedule
       pt: 'Horário dos Estudos',
       cv: 'Oráriu di Studus'
     }
   },
   
-  // Common UI elements
-  ui: {
-    loading: {
+  // Elementos Comuns da IU
+  iu: { // ui
+    carregando: { // loading (já existe em comum.carregando, mas pode ser específico para IU)
       pt: 'Carregando...',
       cv: 'Ta karrega...'
     },
-    changeLanguage: {
+    mudarIdioma: { // changeLanguage
       pt: 'Mudar Idioma',
       cv: 'Muda Língua'
     },
-    download: {
+    baixar: { // download
       pt: 'Baixar',
       cv: 'Baixa'
     },
-    next: {
+    proximo: { // next
       pt: 'Próximo',
       cv: 'Prósimu'
     },
-    previous: {
+    anterior: { // previous
       pt: 'Anterior',
       cv: 'Anterior'
     },
-    close: {
+    fechar: { // close (já existe em navegacao.menu.fechar, mas pode ser genérico aqui)
       pt: 'Fechar',
       cv: 'Fitxa'
     },
-    submit: {
+    enviar: { // submit
       pt: 'Enviar',
       cv: 'Manda'
     },
-    search: {
+    pesquisar: { // search (genérico)
       pt: 'Pesquisar',
       cv: 'Piskiza'
     },
-    cancel: {
+    cancelar: { // cancel
       pt: 'Cancelar',
       cv: 'Kanboka'
     },
-    save: {
+    salvar: { // save
       pt: 'Salvar',
       cv: 'Salva'
     },
-    delete: {
+    excluir: { // delete
       pt: 'Excluir',
       cv: 'Elimina'
     },
-    confirm: {
+    confirmar: { // confirm
       pt: 'Confirmar',
       cv: 'Konfirma'
     },
-    back: {
+    voltar: { // back
       pt: 'Voltar',
       cv: 'Volta'
     },
-    select: {
+    selecionar: { // select
       pt: 'Selecionar',
       cv: 'Sielesiona'
     },
-    view: {
+    visualizar: { // view
       pt: 'Visualizar',
       cv: 'Vizualiza'
     },
-    edit: {
+    editar: { // edit
       pt: 'Editar',
       cv: 'Edita'
     },
-    add: {
+    adicionar: { // add
       pt: 'Adicionar',
       cv: 'Adisiona'
     },
-    remove: {
+    remover: { // remove
       pt: 'Remover',
       cv: 'Tira'
     },
-    print: {
+    imprimir: { // print
       pt: 'Imprimir',
       cv: 'Imprime'
     },
-    downloadPdf: {
+    baixarPdf: { // downloadPdf
       pt: 'Baixar PDF',
       cv: 'Baixa PDF'
     },
-    share: {
+    compartilhar: { // share
       pt: 'Compartilhar',
       cv: 'Partilha'
     },
-    help: {
+    ajuda: { // help
       pt: 'Ajuda',
       cv: 'Ajuda'
     },
-    settings: {
+    configuracoes: { // settings
       pt: 'Configurações',
       cv: 'Konfigurason'
     },
-    logout: {
+    sair: { // logout
       pt: 'Sair',
       cv: 'Sai'
+    },
+    tema: { // theme
+      pt: 'Tema',
+      cv: 'Tema',
+      // Sous-clés pour ThemeToggle
+      mudar: { 
+        pt: 'Mudar tema', 
+        cv: 'Muda tema' 
+      },
+      claro: { 
+        pt: 'Claro', 
+        cv: 'Klaru' 
+      },
+      sombrio: { 
+        pt: 'Escuro', // "Sombrio" est moins courant que "Escuro" pour le thème sombre en PT
+        cv: 'Skuru' 
+      },
+      sistema: { 
+        pt: 'Sistema', 
+        cv: 'Sistema' 
+      }
+    },
+    idioma: { // language
+      pt: 'Idioma',
+      cv: 'Língua'
     }
   }
 };

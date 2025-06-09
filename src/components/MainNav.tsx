@@ -6,13 +6,14 @@ import { Link } from 'react-router-dom';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { useLanguage } from '@/hooks/useLanguage';
 
-
-const navigation = [
-  { name: 'Accueil', href: '/' },
-  { name: 'Dictionnaire', href: '/grammar-dictionary' },
-  { name: 'Prédication', href: '/preaching' },
-  { name: 'Études Bibliques', href: '/bible-studies' },
-  { name: 'À propos', href: '/a-propos' },
+// Les clés correspondent aux sous-clés de translations.navegacao
+const navigationItems = [
+  { translationKey: 'inicio', href: '/' },
+  { translationKey: 'gramaticaDicionario', href: '/grammar-dictionary' },
+  { translationKey: 'predicacao', href: '/preaching' },
+  { translationKey: 'estudosBiblicos', href: '/bible-studies' },
+  { translationKey: 'notas', href: '/notes' }, // Ajout du lien Notes
+  { translationKey: 'sobre', href: '/a-propos' },
 ];
 
 export function MainNav() {
@@ -30,8 +31,8 @@ export function MainNav() {
   
   const getLanguageTitle = () => {
     return language === 'pt' 
-      ? t('nav.changeToCrioulo.pt') 
-      : t('nav.changeToPortuguese.pt');
+      ? t('navegacao.mudarParaCrioulo.pt') 
+      : t('navegacao.mudarParaPortugues.pt');
   };
 
   // Éviter l'hydratation côté serveur
@@ -59,32 +60,35 @@ export function MainNav() {
 
         {/* Navigation desktop */}
         <nav className="hidden items-center space-x-1 md:flex">
-          {navigation.map((item) => (
+          {navigationItems.map((item) => (
             <Link
-              key={item.name}
+              key={item.translationKey}
               to={item.href}
               className="rounded-md px-2 py-1 text-xs font-medium text-foreground/70 transition-colors hover:text-foreground"
             >
-              {item.name}
+              {t(`navegacao.${item.translationKey}`)}
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center space-x-2">
-          <div className="hidden md:flex items-center space-x-2">
-            <Button
-              variant="ghost"
-              size="sm"
-              className="h-8 w-8 p-0"
-              onClick={toggleLanguage}
-              title={getLanguageTitle()}
-            >
-              <Globe className="h-4 w-4" />
-              <span className="sr-only">
-                {getLanguageTitle()}
-              </span>
-              <span className="ml-1 text-xs">{getLanguageLabel()}</span>
-            </Button>
+        <div className="flex items-center space-x-1"> {/* Réduit space-x-2 à space-x-1 pour mobile */}
+          {/* Bouton de langue visible sur tous les écrans */}
+          <Button
+            variant="ghost"
+            size="sm"
+            className="h-8 w-8 p-0" // Reste visible, ajuster si nécessaire pour l'alignement
+            onClick={toggleLanguage}
+            title={getLanguageTitle()}
+          >
+            <Globe className="h-4 w-4" />
+            <span className="sr-only">
+              {getLanguageTitle()}
+            </span>
+            <span className="ml-1 text-xs">{getLanguageLabel()}</span>
+          </Button>
+          
+          {/* Bouton de thème visible uniquement sur md et plus, et dans le menu mobile */}
+          <div className="hidden md:flex">
             <ThemeToggle />
           </div>
 
@@ -100,7 +104,7 @@ export function MainNav() {
               <Menu className="h-4 w-4" />
             )}
             <span className="sr-only">
-              {isOpen ? t('nav.menu.close.pt') : t('nav.menu.open.pt')}
+              {isOpen ? t('navegacao.menu.fechar.pt') : t('navegacao.menu.abrir.pt')}
             </span>
           </Button>
         </div>
@@ -114,10 +118,10 @@ export function MainNav() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-x-0 top-10 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden"
+            className="fixed inset-x-0 top-10 z-50 w-full border-b bg-background backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden" // Changé bg-background/95 en bg-background
           >
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => {
+              {navigationItems.map((item) => {
                 const handleClick = () => {
                   setIsOpen(false);
                   // Délai pour permettre l'animation de fermeture
@@ -128,37 +132,40 @@ export function MainNav() {
                 
                 return (
                   <Link
-                    key={item.name}
+                    key={item.translationKey}
                     to={item.href}
-                    className="block px-3 py-2 text-xs font-medium text-foreground/70 hover:bg-muted/50 hover:text-foreground"
+                    className="block px-3 py-3 text-sm font-medium text-foreground/80 hover:bg-muted/50 hover:text-foreground rounded-md" // py-2 à py-3, text-xs à text-sm, text-foreground/70 à text-foreground/80, ajout de rounded-md
                     onClick={handleClick}
                   >
-                    {item.name}
+                    {t(`navegacao.${item.translationKey}`)}
                   </Link>
                 );
               })}
-              <div className="border-t border-border pt-2 px-3 py-2 space-y-2">
+              <div className="border-t border-border pt-3 px-3 pb-2 space-y-3"> {/* pt-2 à pt-3, py-2 à pb-2, space-y-2 à space-y-3 */}
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-sm font-medium">
-                    {t('ui.theme')}
+                    {t('iu.tema')}
                   </span>
-                  <ThemeToggle />
+                  <ThemeToggle /> {/* Le bouton Thème reste dans le menu mobile */}
                 </div>
+                {/* Le bouton de langue a été déplacé hors du menu mobile pour être toujours visible */}
+                {/* 
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium">
-                    {t('ui.language')}
+                    {t('iu.idioma')}
                   </span>
                   <Button
                     variant="outline"
                     size="sm"
-                    className="h-8 px-3 text-xs"
+                    className="h-9 px-3 text-sm"
                     onClick={toggleLanguage}
                     title={getLanguageTitle()}
                   >
-                    <Globe className="h-3.5 w-3.5 mr-1" />
+                    <Globe className="h-4 w-4 mr-1.5" />
                     {getLanguageLabel()}
                   </Button>
                 </div>
+                */}
               </div>
             </div>
           </motion.div>

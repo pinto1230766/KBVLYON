@@ -5,80 +5,80 @@ import { MessageCircle, Book, BookOpen } from 'lucide-react';
 import OptimizedImage from '../components/OptimizedImage';
 
 const HomePage: React.FC = () => {
-  const { t } = useLanguage();
+  const { t } = useLanguage(); // language supprimé car non utilisé directement ici
   
   return (
     <div className="page-transition">
       {/* Hero Section */}
-      <section className="h-[100px] bg-blue-100 flex items-center">
-        <div className="container mx-auto px-3">
+      <section className="bg-blue-100 flex items-center py-2 sm:py-3"> {/* py-4 sm:py-6 à py-2 sm:py-3 */}
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-2xl">
-            <h1 className="text-lg font-bold mb-0.5 text-gray-800">
-              {t('home.title')}
+            <h1 className="text-xl sm:text-2xl font-bold mb-0.5 text-gray-800"> {/* mb-1 à mb-0.5 */}
+              {t('paginaInicial.titulo')}
             </h1>
-            <p className="text-xs font-semibold mb-0.5 text-gray-700">
-              {t('home.subtitle')}
+            <p className="text-sm sm:text-base font-semibold mb-0.5 text-gray-700"> {/* mb-1 à mb-0.5 */}
+              {t('paginaInicial.subtitulo')}
             </p>
-            <p className="text-[11px] text-gray-600 leading-tight line-clamp-2">
-              {t('home.intro')}
+            <p className="text-xs sm:text-sm text-gray-600 leading-normal line-clamp-2 sm:line-clamp-none"> {/* line-clamp-3 à line-clamp-2 */}
+              {t('paginaInicial.introducao')}
             </p>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-1 bg-white">
-        <div className="container mx-auto px-2">
-          <h2 className="text-xs font-bold text-center mb-1">
-            {t('home.featuresTitle')}
+      <section className="py-2 sm:py-3 bg-white"> {/* py-4 sm:py-6 à py-2 sm:py-3 */}
+        <div className="container mx-auto px-3 sm:px-4">
+          <h2 className="text-base sm:text-lg font-bold text-center mb-2 sm:mb-3"> {/* mb-3 sm:mb-4 à mb-2 sm:mb-3 */}
+            {t('paginaInicial.tituloRecursos')}
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-3"> {/* gap-3 sm:gap-4 à gap-2 sm:gap-3 */}
             {/* Feature 1 - Pregação */}
             <Link 
               to="/preaching" 
-              className="card p-1 text-center block hover:shadow-sm transition-shadow rounded-sm"
+              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md" // p-3 à p-2
             >
-              <div className="w-5 h-5 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-0.5">
-                <MessageCircle size={12} className="text-white" />
+              <div className="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-0.5"> {/* mb-1 à mb-0.5 */}
+                <MessageCircle size={16} className="text-white" />
               </div>
-              <h3 className="text-xs font-bold mb-0.5">
-                {t('home.feature1Title')}
+              <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
+                {t('paginaInicial.recurso1Titulo')}
               </h3>
-              <p className="text-[11px] text-gray-600 mb-0.5 line-clamp-2 leading-tight">
-                {t('home.feature1Desc')}
+              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
+                {t('paginaInicial.recurso1Desc')}
               </p>
             </Link>
             
             {/* Feature 2 - Dicionário */}
             <Link 
               to="/grammar-dictionary" 
-              className="card p-1 text-center block hover:shadow-sm transition-shadow rounded-sm"
+              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md" // p-3 à p-2
             >
-              <div className="w-5 h-5 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-0.5">
-                <Book size={12} className="text-white" />
+              <div className="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-0.5"> {/* mb-1 à mb-0.5 */}
+                <Book size={16} className="text-white" />
               </div>
-              <h3 className="text-xs font-bold mb-0.5">
-                {t('home.feature2Title')}
+              <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
+                {t('paginaInicial.recurso2Titulo')}
               </h3>
-              <p className="text-[11px] text-gray-600 mb-0.5 line-clamp-2 leading-tight">
-                {t('home.feature2Desc')}
+              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
+                {t('paginaInicial.recurso2Desc')}
               </p>
             </Link>
 
             {/* Feature 3 - Estudos Bíblicos */}
             <Link 
               to="/bible-studies" 
-              className="card p-1 text-center block hover:shadow-sm transition-shadow rounded-sm"
+              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md" // p-3 à p-2
             >
-              <div className="w-5 h-5 bg-accent-light rounded-full flex items-center justify-center mx-auto mb-0.5">
-                <BookOpen size={12} className="text-white" />
+              <div className="w-8 h-8 bg-accent-light rounded-full flex items-center justify-center mx-auto mb-0.5"> {/* mb-1 à mb-0.5 */}
+                <BookOpen size={16} className="text-white" />
               </div>
-              <h3 className="text-xs font-bold mb-0.5">
-                {t('home.feature3Title')}
+              <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
+                {t('navegacao.estudosBiblicos')}
               </h3>
-              <p className="text-[11px] text-gray-600 mb-0.5 line-clamp-2 leading-tight">
-                {t('home.feature3Desc')}
+              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
+                {t('paginaInicial.recurso3Desc')}
               </p>
             </Link>
           </div>
@@ -86,9 +86,9 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Image Gallery */}
-      <section className="py-3 bg-gray-100">
+      <section className="py-2 bg-gray-100"> {/* py-3 à py-2 */}
         <div className="container mx-auto px-2">
-          <h2 className="text-sm font-bold text-center mb-1">Cabo Verde</h2>
+          <h2 className="text-sm font-bold text-center mb-0.5">Cabo Verde</h2> {/* mb-1 à mb-0.5 */}
           <div className="grid grid-cols-2 gap-1">
             <div className="h-14 overflow-hidden rounded">
               <OptimizedImage 

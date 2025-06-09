@@ -1,108 +1,9 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../hooks/useLanguage';
-import { Heart, ChevronDown, ChevronUp, BookOpen, X } from 'lucide-react';
+import { Heart, ChevronDown, ChevronUp } from 'lucide-react'; // X et BookOpen supprimés
 import OptimizedImage from '../components/OptimizedImage';
 
-interface BibleStudyRequest {
-  name: string;
-  phone: string;
-  email: string;
-}
-
-const BibleStudyRequestModal: React.FC<{ isOpen: boolean; onClose: () => void; language: 'pt' | 'cv' }> = ({ 
-  isOpen, 
-  onClose,
-  language 
-}) => {
-  const [formData, setFormData] = useState<BibleStudyRequest>({
-    name: '',
-    phone: '',
-    email: ''
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Ici, vous pourriez ajouter la logique pour envoyer les données
-    console.log('Form submitted:', formData);
-    onClose();
-  };
-
-  if (!isOpen) return null;
-
-  return (
-    <div className="min-h-screen bg-gray-50 py-4 px-3 sm:px-4 lg:px-6">
-      <div className="bg-white rounded-lg w-full max-w-md relative">
-        <button 
-          onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
-          title={language === 'pt' ? 'Fechar' : 'Fechá'}
-          aria-label={language === 'pt' ? 'Fechar modal' : 'Fechá modal'}
-        >
-          <X size={24} />
-        </button>
-        
-        <div className="p-6">
-          <h1 className="text-2xl font-bold text-gray-900 mb-1">
-            {language === 'pt' ? 'Solicitar Estudo Bíblico' : 'Sulisita Studu Bíbliku'}
-          </h1>
-          
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                {language === 'pt' ? 'Nome Completo' : 'Nume Kompletu'}
-              </label>
-              <input
-                type="text"
-                id="name"
-                required
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                value={formData.name}
-                onChange={(e) => setFormData({...formData, name: e.target.value})}
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                {language === 'pt' ? 'Telefone' : 'Telifone'}
-              </label>
-              <input
-                type="tel"
-                id="phone"
-                required
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                value={formData.phone}
-                onChange={(e) => setFormData({...formData, phone: e.target.value})}
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                E-mail
-              </label>
-              <input
-                type="email"
-                id="email"
-                required
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                value={formData.email}
-                onChange={(e) => setFormData({...formData, email: e.target.value})}
-              />
-            </div>
-            
-            <div className="pt-4">
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors"
-              >
-                {language === 'pt' ? 'Enviar Solicitação' : 'Envia Sulisitason'}
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  );
-};
+// Les interfaces BibleStudyRequestFormData, StudyRequest et le composant BibleStudyRequestModal ont été supprimés.
 
 interface BibleStudy {
   id: number;
@@ -819,7 +720,7 @@ const sortedBibleStudies = [...bibleStudies].sort((a, b) => a.id - b.id);
 const BibleStudiesPage: React.FC = () => {
   const { language, t } = useLanguage();
   const [expandedStudy, setExpandedStudy] = useState<number | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // isModalOpen et setIsModalOpen supprimés
   
   const toggleStudy = (id: number) => {
     if (expandedStudy === id) {
@@ -830,68 +731,68 @@ const BibleStudiesPage: React.FC = () => {
   };
   
   return (
-    <div className="page-transition min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      <div className="container mx-auto px-0.5">
-        <div className="text-center mb-2">
-          <div className="flex items-center justify-center mb-0.5">
-            <Heart className="w-2.5 h-2.5 text-primary-dark mr-0.5" />
-            <h1 className="text-xs font-bold text-gray-900">
-              {t('bibleStudies.title')}
+    <div className="page-transition min-h-screen bg-gradient-to-b from-blue-50 to-white py-4"> {/* Ajout de py-4 */}
+      <div className="container mx-auto px-3 sm:px-4"> {/* px-0.5 à px-3 sm:px-4 */}
+        <div className="text-center mb-4 sm:mb-6"> {/* mb-2 à mb-4 sm:mb-6 */}
+          <div className="flex items-center justify-center mb-1"> {/* mb-0.5 à mb-1 */}
+            <Heart className="w-5 h-5 text-primary-dark mr-1.5" /> {/* w-2.5 h-2.5 à w-5 h-5, mr-0.5 à mr-1.5 */}
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900"> {/* text-xs à text-xl sm:text-2xl */}
+              {t('estudosBiblicosPagina.titulo')}
             </h1>
           </div>
-          <p className="text-xs text-gray-600 max-w-2xl mx-auto mt-0">
-            {t('bibleStudies.subtitle')}
+          <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto"> {/* text-xs à text-sm sm:text-base, mt-0 enlevé */}
+            {t('estudosBiblicosPagina.subtitulo')}
           </p>
         </div>
         
-        <div className="max-w-6xl mx-auto mt-0">
+        <div className="max-w-3xl mx-auto"> {/* max-w-6xl à max-w-3xl, mt-0 enlevé */}
           {sortedBibleStudies.map((study: BibleStudy) => (
             <div 
               key={study.id} 
-              className="mb-4 bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-200 hover:shadow-xl"
+              className="mb-3 sm:mb-4 bg-white rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg" // rounded-xl à rounded-lg, shadow-lg à shadow-md, hover:shadow-xl à hover:shadow-lg
             >
               <div className="cursor-pointer"
                 onClick={() => toggleStudy(study.id)}
               >
                 <div className="relative">
-                  <div className="w-full h-28 overflow-hidden">
+                  <div className="w-full aspect-video sm:aspect-[2.5/1] overflow-hidden"> {/* h-28 remplacé par aspect-video sm:aspect-[2.5/1] */}
                     <OptimizedImage 
                       src={study.image} 
                       alt={study.title[language]} 
                       className="w-full h-full object-cover"
-                      width={800}
-                      height={256}
+                      width={800} // Ces valeurs sont pour l'optimisation
+                      height={320} // (Ratio 2.5:1 pour 800px de large)
                     />
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-2">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-3 sm:p-4"> {/* p-2 à p-3 sm:p-4 */}
                     <div className="text-white">
-                      <h2 className="text-[16px] font-extrabold text-white [text-shadow:_0_1px_0_rgb(0,0,0,0.8),_1px_0_0_rgb(0,0,0,0.8),_-1px_0_0_rgb(0,0,0,0.8),0_-1px_0_rgb(0,0,0,0.8)] leading-tight">
+                      <h2 className="text-base sm:text-lg font-bold text-white [text-shadow:_0_1px_0_rgb(0,0,0,0.8),_1px_0_0_rgb(0,0,0,0.8),_-1px_0_0_rgb(0,0,0,0.8),0_-1px_0_rgb(0,0,0,0.8)] leading-tight"> {/* text-[16px] à text-base sm:text-lg, font-extrabold à font-bold */}
                         {study.title[language]}
                       </h2>
                     </div>
                   </div>
                 </div>
                 
-                <div className="px-3 py-2 flex justify-between items-center text-[13px]">
+                <div className="px-3 py-2 sm:px-4 sm:py-3 flex justify-between items-center text-sm"> {/* text-[13px] à text-sm, padding ajusté */}
                   <span className="text-gray-700 font-medium">
-                    {expandedStudy === study.id ? t('ui.close') : t('ui.next')}
+                    {expandedStudy === study.id ? t('iu.fechar') : t('iu.proximo')}
                   </span>
                   {expandedStudy === study.id ? (
-                    <ChevronUp className="text-primary-dark" />
+                    <ChevronUp size={20} className="text-primary-dark" /> /* Taille icône augmentée */
                   ) : (
-                    <ChevronDown className="text-primary-dark" />
+                    <ChevronDown size={20} className="text-primary-dark" /> /* Taille icône augmentée */
                   )}
                 </div>
               </div>
               
               {expandedStudy === study.id && (
-                <div className="px-1 pb-0.5">
-                  <div className="border-t border-gray-200 pt-0.5">
+                <div className="px-3 sm:px-4 pb-3 sm:pb-4"> {/* px-1 pb-0.5 à px-3 sm:px-4 pb-3 sm:pb-4 */}
+                  <div className="border-t border-gray-200 pt-3 sm:pt-4"> {/* pt-0.5 à pt-3 sm:pt-4 */}
                     <div className="mb-3">
-                      <h3 className="text-[14px] font-bold mb-2 text-primary-dark">
+                      <h3 className="text-sm sm:text-base font-bold mb-2 text-primary-dark"> {/* text-[14px] à text-sm sm:text-base */}
                         {language === 'pt' ? 'Conteúdo do Estudo' : 'Kontéudu di Studu'}
                       </h3>
-                      <ul className="list-disc pl-5 space-y-2 text-[13px] leading-relaxed">
+                      <ul className="list-disc pl-5 space-y-1.5 text-sm leading-relaxed"> {/* text-[13px] à text-sm, space-y-2 à space-y-1.5 */}
                         {study.content[language].map((point: string, index: number) => (
                           <li key={index} className="text-gray-700">
                             {point}
@@ -905,49 +806,7 @@ const BibleStudiesPage: React.FC = () => {
             </div>
           ))}
         </div>
-        <div className="mt-2 max-w-2xl mx-auto bg-white rounded shadow-sm p-1.5">
-          <div className="flex items-center mb-0.5">
-            <BookOpen className="w-3 h-3 text-primary-dark mr-1" />
-            <h2 className="text-xs font-bold text-gray-900">
-              {language === 'pt' ? 'Como Estudar a Bíblia' : 'Modi ki Studa Bíblia'}
-            </h2>
-          </div>
-          
-          <div className="text-gray-700 text-[10px] space-y-1">
-            <p>
-              {language === 'pt' 
-                ? 'Os estudos bíblicos são gratuitos e podem ser realizados no horário e local de sua preferência. Cada estudo dura aproximadamente 30 minutos e utiliza a Bíblia como fonte principal.'
-                : 'Studus bíblikus é gratuitu y pode ser realizadu na oráriu y lugar di bu preferénsia. Kada studu ta dura aproximadamenti 30 minutu y ta utiliza Bíblia sima fonti prinsipal.'}
-            </p>
-            <p>
-              {language === 'pt'
-                ? 'Durante o estudo, você terá a oportunidade de fazer perguntas e expressar suas opiniões. O objetivo é ajudá-lo a entender o que a Bíblia realmente ensina sobre diversos assuntos importantes.'
-                : 'Duranti studu, bu ta ten oportunidadi di faze perguntas y spresa bu opinions. Objetivu é djuda-bu entendi kuze ki Bíblia realmenti ta ensina sobri diversus asuntus importanti.'}
-            </p>
-            <p>
-              {language === 'pt'
-                ? 'Para solicitar um estudo bíblico gratuito ou obter mais informações, entre em contato conosco através do formulário abaixo.'
-                : 'Pa sulisita un studu bíbliku gratuitu ou obten más informasons, entra en kontatu ku nós através di formuláriu baxu.'}
-            </p>
-          </div>
-          
-          <div className="mt-2 bg-blue-50 p-1.5 rounded">
-            <h3 className="text-sm font-semibold text-gray-800 mb-1">
-              {language === 'pt' ? 'Solicitar um Estudo Bíblico' : 'Sulisita un Studu Bíbliku'}
-            </h3>
-            <button 
-              onClick={() => setIsModalOpen(true)}
-              className="bg-primary-dark text-white px-2 py-1 rounded hover:bg-primary transition-colors text-[10px]"
-            >
-              {language === 'pt' ? 'Solicitar Agora' : 'Sulisita Gosi'}
-            </button>
-            <BibleStudyRequestModal 
-              isOpen={isModalOpen} 
-              onClose={() => setIsModalOpen(false)}
-              language={language}
-            />
-          </div>
-        </div>
+        {/* La section "Como Estudar a Bíblia" et "Solicitar um Estudo Bíblico" a été supprimée. */}
       </div>
     </div>
   );
