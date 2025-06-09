@@ -1,0 +1,77 @@
+/* Styles pour le conteneur d'image */
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6; /* bg-gray-100 */
+}
+
+/* Classes pour la largeur */
+.image-container-full {
+  width: 100%;
+}
+
+.image-container-auto {
+  width: auto;
+}
+
+/* Classes pour la hauteur */
+.image-container-height-auto {
+  height: auto;
+  min-height: 200px;
+}
+
+.image-container-height-fixed {
+  height: auto;
+  /* Utilisation d'une valeur minimale très petite pour remplacer 'auto' */
+  min-height: 0;
+}
+
+/* Classes prédéfinies pour les largeurs courantes */
+.image-w-100 { width: 100%; }
+.image-w-75 { width: 75%; }
+.image-w-50 { width: 50%; }
+.image-w-33 { width: 33.333%; }
+.image-w-25 { width: 25%; }
+
+/* Classes prédéfinies pour les hauteurs courantes */
+.image-h-auto { height: auto; }
+.image-h-100 { height: 100px; }
+.image-h-150 { height: 150px; }
+.image-h-200 { height: 200px; }
+.image-h-250 { height: 250px; }
+.image-h-300 { height: 300px; }
+
+/* Classes utilitaires pour les dimensions fixes */
+.image-fixed-width { width: 100%; }
+.image-fixed-height { height: auto; }
+
+/* Styles pour le placeholder de chargement */
+.image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-loading {
+  width: 3rem;
+  height: 3rem;
+  background-color: #e5e7eb; /* bg-gray-300 */
+  border-radius: 9999px; /* rounded-full */
+  margin-bottom: 0.5rem; /* mb-2 */
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.image-loading-text {
+  font-size: 0.875rem; /* text-sm */
+  color: #6b7280; /* text-gray-500 */
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

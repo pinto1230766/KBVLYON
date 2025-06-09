@@ -1,0 +1,69 @@
+/* Styles pour le composant OptimizedImage */
+.optimized-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f6; /* bg-gray-100 */
+}
+
+/* Classes pour la largeur */
+.optimized-image-container-full {
+  width: 100%;
+}
+
+.optimized-image-container-auto {
+  width: auto;
+}
+
+/* Classes pour la hauteur */
+.optimized-image-container-height-auto {
+  height: auto;
+  min-height: 200px;
+}
+
+.optimized-image-container-height-fixed {
+  height: auto;
+  /* Suppression de min-height: auto qui cause des problèmes de compatibilité */
+  /* Utilisation d'une valeur minimale très petite pour remplacer 'auto' */
+  min-height: 0;
+}
+
+/* Classes pour les dimensions fixes */
+.optimized-image-fixed-width {
+  width: var(--optimized-image-width);
+}
+
+.optimized-image-fixed-height {
+  height: var(--optimized-image-height);
+}
+
+.optimized-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.optimized-image-loading {
+  width: 3rem; /* w-12 */
+  height: 3rem; /* h-12 */
+  background-color: #e5e7eb; /* bg-gray-300 */
+  border-radius: 9999px; /* rounded-full */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.optimized-image-loading-text {
+  font-size: 0.875rem; /* text-sm */
+  color: #6b7280; /* text-gray-500 */
+}
+
+.optimized-image {
+  transition: opacity 300ms; /* transition-opacity duration-300 */
+}
+
+.optimized-image.loading {
+  opacity: 0;
+}
+
+.optimized-image.loaded {
+  opacity: 1;
+}
