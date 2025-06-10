@@ -172,3 +172,13 @@ html {
 .animate-fade-in {
   animation: fadeIn 0.3s ease-in-out;
 }
+
+/* Safe area padding pour la barre d'état sur mobile */
+.safe-area-padding-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+/* Safe area padding pour la barre de navigation en bas sur mobile */
+.safe-area-padding-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}

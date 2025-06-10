@@ -65,19 +65,29 @@ const GrammarDictionaryPage: React.FC = () => {
       <h1 className="text-3xl font-bold mb-6 text-center">{secaoGramaticaTrad.titulo[language]}</h1>
 
       {/* Onglets */}
-      <div style={{ marginBottom: '1rem', borderBottom: '1px solid #e5e7eb' }}>
-        <button
-          style={{ padding: '1rem', borderBottom: activeTab === 'grammar' ? '2px solid blue' : '2px solid transparent', color: activeTab === 'grammar' ? 'blue' : 'inherit' }}
-          onClick={() => { console.log("Attempting to switch to grammar tab"); setActiveTab('grammar'); }}
-        >
-          {secaoGramaticaTrad.tituloGramatica[language]}
-        </button>
-        <button
-          style={{ padding: '1rem', borderBottom: activeTab === 'dictionary' ? '2px solid blue' : '2px solid transparent', color: activeTab === 'dictionary' ? 'blue' : 'inherit', marginLeft: '0.5rem' }}
-          onClick={() => { console.log("Attempting to switch to dictionary tab"); setActiveTab('dictionary'); }}
-        >
-          {dicionarioTrad.titulo[language]}
-        </button>
+      <div className="mb-4 border-b border-gray-200 dark:border-zinc-700">
+        <nav className="-mb-px flex space-x-4" aria-label="Tabs">
+          <button
+            onClick={() => { console.log("Attempting to switch to grammar tab"); setActiveTab('grammar'); }}
+            className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${
+              activeTab === 'grammar'
+                ? 'border-primary text-primary'
+                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:border-gray-600'
+            }`}
+          >
+            {secaoGramaticaTrad.tituloGramatica[language]}
+          </button>
+          <button
+            onClick={() => { console.log("Attempting to switch to dictionary tab"); setActiveTab('dictionary'); }}
+            className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ml-2 ${ // ml-2 pour le marginLeft
+              activeTab === 'dictionary'
+                ? 'border-primary text-primary'
+                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:border-gray-600'
+            }`}
+          >
+            {dicionarioTrad.titulo[language]}
+          </button>
+        </nav>
       </div>
 
       {/* Contenu des Onglets */}

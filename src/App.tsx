@@ -1,7 +1,9 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react'; // Ajout de useEffect
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { ThemeProvider } from './components/theme-provider'; // Import ThemeProvider
+import { StatusBar, Style } from '@capacitor/status-bar'; // Réimport de Style
+import { Capacitor } from '@capacitor/core'; // Import Capacitor
 import Layout from './components/Layout';
 import LoadingSpinner from './components/LoadingSpinner';
 import './App.css';
@@ -20,6 +22,26 @@ const NotesPage = lazy(() => import('./pages/NotesPage')); // Nouvelle page Note
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 function App() {
+  useEffect(() => {
+    // Configuration de la barre d'état pour Android et iOS
+    const configureStatusBar = async () => {
+      try {
+        if (Capacitor.isPluginAvailable('StatusBar')) {
+          await StatusBar.setOverlaysWebView({ overlay: false });
+          await StatusBar.setStyle({ style: Style.Dark }); // Icônes claires
+          await StatusBar.setBackgroundColor({ color: '#333333' }); // Fond gris foncé
+          console.log('StatusBar configured: overlay=false, style=Dark, background=#333333');
+        }
+      } catch (e) {
+        console.error('Failed to configure StatusBar', e);
+      }
+    };
+
+    if (Capacitor.isNativePlatform()) {
+      configureStatusBar();
+    }
+  }, []);
+
   return (
     <ThemeProvider defaultTheme="system" attribute="class"> {/* Wrap with ThemeProvider */}
       <LanguageProvider>

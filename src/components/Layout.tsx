@@ -19,7 +19,7 @@ const Layout: React.FC = () => {
   }, []);
   
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="flex min-h-screen flex-col bg-background safe-area-padding-bottom">
       <MainNav />
       <main className="flex-1">
         <div className="container py-6 md:py-10">
