@@ -10,6 +10,21 @@ export interface DictionaryEntry {
     cv: string;
   };
   note?: string;
+  synonyms?: string[];
+  antonyms?: string[];
+  relatedWords?: string[];
+  isVerb?: boolean;
+  conjugations?: VerbTenseConjugation[];
+}
+
+export interface VerbForm {
+  person: string; // Ex: "N (Eu)", "Bu (Tu)", "El/Ela (Ele/Ela)", "Nu (Nós)", "Nhos (Vós/Vocês)", "Es (Eles/Elas)"
+  form: string;   // Ex: "ta papia", "papiâ", "ta ben papia"
+}
+
+export interface VerbTenseConjugation {
+  tenseName: string; // Ex: "Prezenti Indicativu", "Pretéritu Perfetu Indicativu", "Futuru Indicativu", etc.
+  forms: VerbForm[];
 }
 
 // Dictionnaire trié par ordre alphabétique
