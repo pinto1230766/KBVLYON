@@ -72,6 +72,7 @@ export default defineConfig({
   },
   // Configuration pour le build de production
   build: {
+    sourcemap: true,
     // Activer la génération de rapports de bundle
     reportCompressedSize: true,
     // Activer le chunking des dépendances

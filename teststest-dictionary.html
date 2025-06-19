@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Dictionary Loading</title>
+    <script src="https://unpkg.com/fuse.js@6.6.2"></script>
+</head>
+<body>
+    <h1>Test Dictionary Loading</h1>
+    <div id="status">Loading...</div>
+    <div id="results"></div>
+
+    <script>
+        // Interface pour les données brutes du dictionnaire
+        const transformDictionaryData = (rawData) => {
+            return rawData.map((item) => {
+                // Assurer que les champs obligatoires existent
+                const id = item.id || `entry-${Math.random().toString(36).substr(2, 9)}`;
+                const word = item.word || '';
+                
+                // Transformer la structure translation
+                let translation = { pt: '', cv: '' };
+                if (typeof item.translation === 'object' && item.translation !== null) {
+                    translation = {
+                        pt: item.translation.pt || '',
+                        cv: item.translation.cv || ''
+                    };
+                }
+                
+                // Transformer la structure example
+                let example = { pt: '', cv: '' };
+                if (typeof item.example === 'object' && item.example !== null) {
+                    example = {
+                        pt: item.example.pt || '',
+                        cv: item.example.cv || ''
+                    };
+                }
+                
+                return {
+                    id,
+                    word,
+                    translation,
+                    example,
+                    note: item.note || undefined,
+                    synonyms: Array.isArray(item.synonyms) ? item.synonyms : undefined,
+                    category: item.category || undefined
+                };
+            }).filter(entry => entry.word.trim() !== ''); // Filtrer les entrées vides
+        };
+
+        // Test de chargement du dictionnaire
+        const testFetchDictionary = async () => {
+            const possiblePaths = [
+                '/dictionary.json',
+                './dictionary.json',
+                '/public/dictionary.json',
+                '../public/dictionary.json',
+                '/assets/dictionary.json'
+            ];
+
+            let lastError = null;
+            const statusDiv = document.getElementById('status');
+            const resultsDiv = document.getElementById('results');
+
+            for (const path of possiblePaths) {
+                try {
+                    console.log(`Tentative de chargement du dictionnaire depuis: ${path}`);
+                    statusDiv.innerHTML = `Testando: ${path}`;
+                    
+                    const response = await fetch(path);
+                    if (response.ok) {
+                        console.log(`Dictionnaire chargé avec succès depuis: ${path}`);
+                        const rawData = await response.json();
+                        
+                        // Valider que c'est un tableau
+                        if (!Array.isArray(rawData)) {
+                            throw new Error('Le fichier dictionnaire doit contenir un tableau d\'entrées');
+                        }
+                        
+                        console.log(`Nombre d'entrées brutes: ${rawData.length}`);
+                        const transformedData = transformDictionaryData(rawData);
+                        console.log(`Nombre d'entrées transformées: ${transformedData.length}`);
+                        
+                        statusDiv.innerHTML = `✅ Succès! Chemin: ${path}`;
+                        resultsDiv.innerHTML = `
+                            <h3>Résultats:</h3>
+                            <p><strong>Entrées brutes:</strong> ${rawData.length}</p>
+                            <p><strong>Entrées transformées:</strong> ${transformedData.length}</p>
+                            <h4>Premières 5 entrées:</h4>
+                            <pre>${JSON.stringify(transformedData.slice(0, 5), null, 2)}</pre>
+                        `;
+                        return transformedData;
+                    } else {
+                        console.warn(`Erreur HTTP ${response.status} pour ${path}`);
+                        statusDiv.innerHTML = `❌ Erreur HTTP ${response.status} pour ${path}`;
+                    }
+                } catch (error) {
+                    console.warn(`Échec du chargement depuis ${path}:`, error);
+                    statusDiv.innerHTML = `❌ Erreur pour ${path}: ${error.message}`;
+                    lastError = error;
+                }
+            }
+
+            // Si on arrive ici, aucun chemin n'a fonctionné
+            console.error("Impossible de charger le dictionnaire depuis tous les chemins testés");
+            statusDiv.innerHTML = `❌ Impossible de charger le dictionnaire depuis tous les chemins testés`;
+            throw lastError || new Error("Impossible de charger le dictionnaire");
+        };
+
+        // Démarrer le test
+        testFetchDictionary().catch(console.error);
+    </script>
+</body>
+</html>

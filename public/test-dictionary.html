@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de chargement du dictionnaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .entry {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    .word {
+      font-weight: bold;
+      color: #0066cc;
+    }
+    .translation {
+      margin-top: 5px;
+    }
+    .example {
+      margin-top: 5px;
+      font-style: italic;
+      color: #666;
+    }
+    #status {
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+    .loading {
+      background-color: #cce5ff;
+      color: #004085;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #dictionary-container {
+      max-height: 500px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test de chargement du dictionnaire</h1>
+  
+  <div id="status" class="loading">Chargement...</div>
+  
+  <div>
+    <button id="load-btn">Charger le dictionnaire</button>
+    <button id="clear-btn">Effacer</button>
+  </div>
+  
+  <div id="dictionary-container"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const statusEl = document.getElementById('status');
+      const dictionaryContainer = document.getElementById('dictionary-container');
+      const loadBtn = document.getElementById('load-btn');
+      const clearBtn = document.getElementById('clear-btn');
+      
+      // Chemins possibles pour le dictionnaire
+      const possiblePaths = [
+        '/dictionary.json',
+        './dictionary.json',
+        '/public/dictionary.json',
+        '../dictionary.json',
+        'dictionary.json'
+      ];
+      
+      loadBtn.addEventListener('click', loadDictionary);
+      clearBtn.addEventListener('click', clearDictionary);
+      
+      function updateStatus(message, type) {
+        statusEl.textContent = message;
+        statusEl.className = type;
+      }
+      
+      function clearDictionary() {
+        dictionaryContainer.innerHTML = '';
+        updateStatus('Dictionnaire effacé', 'loading');
+      }
+      
+      async function loadDictionary() {
+        clearDictionary();
+        updateStatus('Chargement du dictionnaire...', 'loading');
+        
+        for (const path of possiblePaths) {
+          try {
+            updateStatus(`Tentative de chargement depuis: ${path}...`, 'loading');
+            
+            const response = await fetch(path, {
+              headers: {
+                'Cache-Control': 'no-cache',
+                'Pragma': 'no-cache'
+              }
+            });
+            
+            if (!response.ok) {
+              console.warn(`Échec du chargement depuis ${path}: ${response.status} ${response.statusText}`);
+              continue;
+            }
+            
+            const rawText = await response.text();
+            console.log(`Taille du texte brut: ${rawText.length} caractères`);
+            
+            if (rawText.trim() === '') {
+              console.error(`Le fichier ${path} est vide!`);
+              continue;
+            }
+            
+            try {
+              const data = JSON.parse(rawText);
+              
+              if (!Array.isArray(data)) {
+                updateStatus(`Le contenu de ${path} n'est pas un tableau`, 'error');
+                continue;
+              }
+              
+              updateStatus(`Dictionnaire chargé avec succès depuis ${path}: ${data.length} entrées`, 'success');
+              displayDictionary(data);
+              return; // Sortir de la boucle si le chargement a réussi
+              
+            } catch (parseError) {
+              console.error(`Erreur de parsing JSON pour ${path}:`, parseError);
+              console.error(`Début du texte: ${rawText.substring(0, 100)}...`);
+              updateStatus(`Erreur de parsing JSON pour ${path}: ${parseError.message}`, 'error');
+            }
+            
+          } catch (error) {
+            console.error(`Erreur lors du chargement depuis ${path}:`, error);
+            updateStatus(`Erreur lors du chargement depuis ${path}: ${error.message}`, 'error');
+          }
+        }
+        
+        // Si on arrive ici, aucun chemin n'a fonctionné
+        updateStatus('Impossible de charger le dictionnaire depuis tous les chemins testés', 'error');
+      }
+      
+      function displayDictionary(data) {
+        // Limiter à 50 entrées pour des raisons de performance
+        const entries = data.slice(0, 50);
+        
+        entries.forEach(entry => {
+          const entryEl = document.createElement('div');
+          entryEl.className = 'entry';
+          
+          const wordEl = document.createElement('div');
+          wordEl.className = 'word';
+          wordEl.textContent = entry.word || 'Sans mot';
+          entryEl.appendChild(wordEl);
+          
+          if (entry.translation) {
+            const translationEl = document.createElement('div');
+            translationEl.className = 'translation';
+            translationEl.innerHTML = `<strong>PT:</strong> ${entry.translation.pt || ''}<br><strong>CV:</strong> ${entry.translation.cv || ''}`;
+            entryEl.appendChild(translationEl);
+          }
+          
+          if (entry.example) {
+            const exampleEl = document.createElement('div');
+            exampleEl.className = 'example';
+            exampleEl.innerHTML = `<strong>Exemple PT:</strong> ${entry.example.pt || ''}<br><strong>Exemple CV:</strong> ${entry.example.cv || ''}`;
+            entryEl.appendChild(exampleEl);
+          }
+          
+          dictionaryContainer.appendChild(entryEl);
+        });
+        
+        if (data.length > 50) {
+          const moreEl = document.createElement('div');
+          moreEl.textContent = `... et ${data.length - 50} entrées supplémentaires`;
+          moreEl.style.textAlign = 'center';
+          moreEl.style.marginTop = '10px';
+          moreEl.style.fontStyle = 'italic';
+          dictionaryContainer.appendChild(moreEl);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

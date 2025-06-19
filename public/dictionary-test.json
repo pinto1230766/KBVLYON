@@ -1,0 +1,41 @@
+[
+  {
+    "id": "agu",
+    "word": "agu",
+    "translation": {
+      "pt": "água",
+      "cv": "agu"
+    },
+    "example": {
+      "pt": "Precisamos de agu para viver",
+      "cv": "Nhu meste di agu pa vive"
+    },
+    "category": "natureza"
+  },
+  {
+    "id": "bai",
+    "word": "bai",
+    "translation": {
+      "pt": "ir",
+      "cv": "bai"
+    },
+    "example": {
+      "pt": "Vou bai para a escola",
+      "cv": "N ta bai pa skola"
+    },
+    "category": "ações"
+  },
+  {
+    "id": "bon",
+    "word": "bon",
+    "translation": {
+      "pt": "bom",
+      "cv": "bon"
+    },
+    "example": {
+      "pt": "O dia está bon",
+      "cv": "Dia sta bon"
+    },
+    "category": "adjetivos"
+  }
+]

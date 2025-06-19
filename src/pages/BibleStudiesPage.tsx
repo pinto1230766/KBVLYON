@@ -714,8 +714,6 @@ const bibleStudies: BibleStudy[] = [
   }
 ];
 
-// Trier les études bibliques par ID
-const sortedBibleStudies = [...bibleStudies].sort((a, b) => a.id - b.id);
 
 const BibleStudiesPage: React.FC = () => {
   const { language, t } = useLanguage();
@@ -746,7 +744,7 @@ const BibleStudiesPage: React.FC = () => {
         </div>
         
         <div className="max-w-3xl mx-auto"> {/* max-w-6xl à max-w-3xl, mt-0 enlevé */}
-          {sortedBibleStudies.map((study: BibleStudy) => (
+          {[...bibleStudies].sort((a, b) => a.id - b.id).map((study: BibleStudy) => (
             <div 
               key={study.id} 
               className="mb-3 sm:mb-4 bg-white rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg" // rounded-xl à rounded-lg, shadow-lg à shadow-md, hover:shadow-xl à hover:shadow-lg

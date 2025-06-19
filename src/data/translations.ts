@@ -49,6 +49,18 @@ export const translations = {
       pt: 'Alunos',
       cv: 'Alunus'
     },
+    pessoasInteressadas: {
+      pt: 'Pessoas Interessadas',
+      cv: 'Pesoas Interesadu'
+    },
+    adicionarPessoaInteressada: {
+      pt: 'Adicionar Pessoa Interessada',
+      cv: 'Adisiona Pesoa Interesadu'
+    },
+    territorio: {
+      pt: 'Território',
+      cv: 'Teritóriu'
+    },
     adicionarAluno: {
       pt: 'Adicionar Aluno',
       cv: 'Adisiona Alunu'
@@ -84,7 +96,15 @@ export const translations = {
         pt: 'Fechar menu',
         cv: 'Fecha menu'
       }
-    }
+    },
+    timer: {
+      pt: "Cronômetro",
+      cv: "Kronometru"
+    },
+    calendar: {
+      pt: "Calendário",
+      cv: "Kalendariu"
+    },
   },
   
   // Traduções Comuns
@@ -184,6 +204,10 @@ export const translations = {
     titulo: { // title
       pt: 'Aprenda Cabo-verdiano para Pregação',
       cv: 'Prendi Kriolu pa Prédika'
+    },
+    recurso4Desc: {
+      pt: 'Acompanhe suas notas e atividades de pregação',
+      cv: 'Kontrola bu notis i atividadis di prédika'
     },
     subtitulo: { // subtitle
       pt: 'Um recurso para Testemunhas de Jeová',
@@ -537,6 +561,110 @@ export const translations = {
     idioma: { // language
       pt: 'Idioma',
       cv: 'Língua'
+    },
+    adicionarPessoaInteressada: {
+      pt: 'Adicionar Pessoa Interessada',
+      cv: 'Adisiona Pesoa Interesadu'
+    },
+    territorio: {
+      pt: 'Território',
+      cv: 'Territoriu'
+    },
+    digiteNotas: {
+      pt: 'Digite suas notas...',
+      cv: 'Skrebe bus notas...'
+    },
+    start: {
+      pt: "Iniciar", 
+      cv: "Kumisa"
+    },
+    pause: {
+      pt: "Pausar",
+      cv: "Para"
+    },
+    reset: {
+      pt: "Zerar",
+      cv: "Limpu"
+    },
+    lap: {
+      pt: "Volta",
+      cv: "Volta"
+    },
+    laps: {
+      pt: "Voltas",
+      cv: "Voltas"
+    },
+    saveSession: {
+      pt: "Salvar Sessão",
+      cv: "Salva Sesaun"
+    },
+    history: {
+      pt: "Histórico",
+      cv: "Istoriku"
+    },
+    bestShort: {
+      pt: "Melhor tempo (curto)",
+      cv: "Tempu mas kurta"
+    },
+    bestLong: {
+      pt: "Melhor tempo (longo)", 
+      cv: "Tempu mas longu"
+    },
+    average: {
+      pt: "Média",
+      cv: "Mèdia"
+    },
+    timeline: {
+      pt: "Evolução Temporal",
+      cv: "Evolusaun Tempu"
+    },
+    duration: {
+      pt: "Duração (HH:MM:SS)", 
+      cv: "Durasaun (HH:MM:SS)"
+    },
+    addHours: {
+      pt: "Adicionar Horas",
+      cv: "Adisiona Ora"
+    },
+    preachingHours: {
+      pt: "Horas de Pregação",
+      cv: "Ora Predikason"
+    },
+    studyHours: {
+      pt: "Horas de Estudo", 
+      cv: "Ora Studu"
+    },
+    notes: {
+      pt: "Notas",
+      cv: "Notas"
+    },
+    save: {
+      pt: "Salvar",
+      cv: "Salva"
+    },
+    cancel: {
+      pt: "Cancelar",
+      cv: "Kansela"
+    },
+    addSession: {
+      pt: "Adicionar Sessão",
+      cv: "Adisiona Sesaun"
+    },
+    monthStats: {
+      pt: "Estatísticas do Mês",
+      cv: "Estatistika Mensal"
+    },
+    preaching: {
+      pt: "Prédicação",
+      cv: "Predikason"
+    },
+    study: {
+      pt: "Estudo",
+      cv: "Studu"
+    },
+    totalHours: {
+      pt: "Total Horas",
+      cv: "Total Ora"
     }
   }
 };
