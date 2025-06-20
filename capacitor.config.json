@@ -1,5 +1,5 @@
 {
-  "appId": "com.kriolujw.app",
+  "appId": "com.kbvlyon.app",
   "appName": "KBVLYON",
   "webDir": "dist",
   "bundledWebRuntime": false,
@@ -8,6 +8,6 @@
   },
   "plugins": {},
   "android": {
-    "fullscreen": false 
+    "fullscreen": false
   }
 }

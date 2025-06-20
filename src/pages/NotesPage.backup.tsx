@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { FileText, Users, Calendar, UserPlus, Clock, BarChart2 } from 'lucide-react';
+import React, { useState, useEffect, ReactNode } from 'react';
+import { FileText, Users, Calendar, UserPlus } from 'lucide-react';
 
 // Composants
-import EventModal from '@/components/modals/EventModal';
+import EventModal from '@/components/modals/EventModal'; // Importation du composant EventModal
 
 // Types
-type TabType = 'general' | 'students' | 'interessed' | 'calendar' | 'timer' | 'stats';
+type TabType = 'general' | 'students' | 'interessed' | 'calendar';
 
 interface CalendarEvent {
   id: string;
@@ -14,44 +14,20 @@ interface CalendarEvent {
   notes: string;
 }
 
-interface TimerState {
-  isRunning: boolean;
-  time: number;
-  startTime: number;
-}
-
-interface HistoryEntry {
-  id: string;
-  date: string;
-  duration: number;
-  notes?: string;
-}
-
 // Configuration des onglets
 const tabs = [
   { id: 'general' as const, label: 'Général', icon: FileText },
   { id: 'students' as const, label: 'Étudiants', icon: Users },
   { id: 'interessed' as const, label: 'Personnes Intéressées', icon: UserPlus },
-  { id: 'calendar' as const, label: 'Calendrier', icon: Calendar },
-  { id: 'timer' as const, label: 'Chronomètre', icon: Clock },
-  { id: 'stats' as const, label: 'Statistiques', icon: BarChart2 }
+  { id: 'calendar' as const, label: 'Calendrier', icon: Calendar }
 ];
 
 const NotesPage: React.FC = () => {
   // États principaux
   const [activeTab, setActiveTab] = useState<TabType>('general');
   const [notes, setNotes] = useState('');
-  const [history, setHistory] = useState<HistoryEntry[]>([]);
+  const [history, setHistory] = useState<any[]>([]);
   const [currentMonth, setCurrentMonth] = useState<Date>(new Date());
-  
-  // États pour le chronomètre
-  const [timer, setTimer] = useState<TimerState>({
-    isRunning: false,
-    time: 0,
-    startTime: 0
-  });
-  const [laps, setLaps] = useState<number[]>([]);
-  const timerIntervalRef = useRef<number | null>(null);
   const [events, setEvents] = useState<CalendarEvent[]>([]); // Ajout de l'état pour les événements
   const [selectedDate, setSelectedDate] = useState<Date | null>(null); // Ajout de l'état pour la date sélectionnée
   
@@ -202,147 +178,8 @@ const NotesPage: React.FC = () => {
     });
   };
 
-  // Formatage du temps pour le chronomètre
-  const formatTime = useCallback((milliseconds: number): string => {
-    const totalSeconds = Math.floor(milliseconds / 1000);
-    const hours = Math.floor(totalSeconds / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
-    const seconds = totalSeconds % 60;
-    
-    return [
-      hours.toString().padStart(2, '0'),
-      minutes.toString().padStart(2, '0'),
-      seconds.toString().padStart(2, '0')
-    ].join(':');
-  }, []);
-
-  // Gestion du chronomètre
-  const toggleTimer = useCallback(() => {
-    setTimer(prevTimer => {
-      const newState = {
-        isRunning: !prevTimer.isRunning,
-        time: prevTimer.time,
-        startTime: Date.now() - (prevTimer.isRunning ? prevTimer.time : 0)
-      };
-      
-      // Sauvegarder l'état dans le localStorage
-      localStorage.setItem('timerState', JSON.stringify(newState));
-      return newState;
-    });
-  }, []);
-
-  const resetTimer = useCallback(() => {
-    const newState = {
-      isRunning: false,
-      time: 0,
-      startTime: 0
-    };
-    
-    setTimer(newState);
-    setLaps([]);
-    localStorage.setItem('timerState', JSON.stringify(newState));
-  }, []);
-
-  const addLap = useCallback(() => {
-    setLaps(prevLaps => [...prevLaps, timer.time]);
-  }, [timer.time]);
-
-  // Effet pour gérer l'intervalle du chronomètre
-  useEffect(() => {
-    if (timer.isRunning) {
-      timerIntervalRef.current = window.setInterval(() => {
-        setTimer(prevTimer => ({
-          ...prevTimer,
-          time: Date.now() - prevTimer.startTime
-        }));
-      }, 1000);
-    } else if (timerIntervalRef.current) {
-      clearInterval(timerIntervalRef.current);
-    }
-
-    return () => {
-      if (timerIntervalRef.current) {
-        clearInterval(timerIntervalRef.current);
-      }
-    };
-  }, [timer.isRunning, timer.startTime]);
-
-  // Fonction pour calculer les statistiques
-  const calculateStats = useCallback(() => {
-    const total = history.reduce((sum, entry) => sum + entry.duration, 0);
-    const avg = history.length > 0 ? total / history.length : 0;
-    return { total, avg };
-  }, [history]);
-
-  // Fonction pour afficher les statistiques
-  const renderStatsTab = useCallback(() => {
-    const stats = calculateStats();
-    
-    return (
-      <div className="p-4">
-        <h2 className="text-xl font-semibold mb-4">Statistiques</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">Temps total</h3>
-            <p className="text-2xl font-bold">{formatTime(stats.total)}</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">Sessions</h3>
-            <p className="text-2xl font-bold">{history.length}</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">Moyenne par session</h3>
-            <p className="text-2xl font-bold">{formatTime(stats.avg)}</p>
-          </div>
-        </div>
-        
-        <div className="bg-white p-4 rounded-lg shadow">
-          <h3 className="text-lg font-medium mb-4">Historique récent</h3>
-          {history.length > 0 ? (
-            <div className="overflow-x-auto">
-              <table className="min-w-full">
-                <thead>
-                  <tr className="border-b">
-                    <th className="text-left py-2">Date</th>
-                    <th className="text-right py-2">Durée</th>
-                    <th className="text-left py-2">Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {history.slice(0, 10).map((entry) => (
-                    <tr key={entry.id} className="border-b">
-                      <td className="py-2">{entry.date}</td>
-                      <td className="text-right py-2">{formatTime(entry.duration)}</td>
-                      <td className="py-2">{entry.notes || '-'}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          ) : (
-            <p className="text-gray-500">Aucune donnée d'historique disponible</p>
-          )}
-        </div>
-      </div>
-    );
-  }, [calculateStats, formatTime, history]);
-
-  // Charger l'état du chronomètre au démarrage
-  useEffect(() => {
-    const savedTimer = localStorage.getItem('timerState');
-    if (savedTimer) {
-      setTimer(JSON.parse(savedTimer));
-    }
-    
-    const savedHistory = localStorage.getItem('timerHistory');
-    if (savedHistory) {
-      setHistory(JSON.parse(savedHistory));
-    }
-  }, []);
-
   // Rendu du contenu en fonction de l'onglet actif
-  const renderTabContent = (tab: TabType): React.ReactNode => {
+  const renderTabContent = (tab: TabType): ReactNode => {
     if (!tab) return null;
     
     switch (tab) {
@@ -366,56 +203,6 @@ const NotesPage: React.FC = () => {
         );
       case 'calendar':
         return renderCalendarTab();
-      case 'timer':
-        return (
-          <div className="p-4">
-            <h2 className="text-xl font-semibold mb-4">Chronomètre</h2>
-            <div className="text-center">
-              <div className="text-5xl font-mono mb-8">
-                {formatTime(timer.time)}
-              </div>
-              <div className="flex justify-center gap-4 mb-8">
-                <button
-                  onClick={toggleTimer}
-                  className={`px-6 py-2 rounded-lg ${
-                    timer.isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-green-500 hover:bg-green-600'
-                  } text-white`}
-                >
-                  {timer.isRunning ? 'Arrêter' : 'Démarrer'}
-                </button>
-                <button
-                  onClick={resetTimer}
-                  className="px-6 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-lg"
-                >
-                  Réinitialiser
-                </button>
-                <button
-                  onClick={addLap}
-                  disabled={!timer.isRunning}
-                  className="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg disabled:opacity-50"
-                >
-                  Tour
-                </button>
-              </div>
-              
-              {laps.length > 0 && (
-                <div className="mt-8">
-                  <h3 className="text-lg font-medium mb-2">Tours</h3>
-                  <div className="max-h-48 overflow-y-auto border rounded">
-                    {laps.map((lap, index) => (
-                      <div key={index} className="p-2 border-b flex justify-between">
-                        <span>Tour {index + 1}</span>
-                        <span>{formatTime(lap)}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        );
-      case 'stats':
-        return renderStatsTab();
       default:
         return null;
     }

@@ -26,6 +26,7 @@ export default defineConfig({
       { find: "@/lib", replacement: path.resolve(__dirname, "./src/lib") },
       { find: "@/styles", replacement: path.resolve(__dirname, "./src/styles") },
       { find: "@/types", replacement: path.resolve(__dirname, "./src/types") },
+      { find: "@/data", replacement: path.resolve(__dirname, "./src/data") },
     ],
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
   },

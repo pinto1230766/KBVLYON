@@ -1,10 +1,22 @@
+import { Translations } from '@/types/translations';
+
 // As chaves principais foram traduzidas para o português
 // Os comentários também foram traduzidos ou removidos se redundantes
-export const translations = {
+const translations: Translations = {
   // Comum
   carregando: { // loading
     pt: 'Carregando...',
     cv: 'Ta karga...'
+  },
+  
+  // Notas
+  notas: {
+    pt: 'Notas',
+    cv: 'Notas'
+  },
+  notasGerais: {
+    pt: 'Suas notas gerais...',
+    cv: 'Notas gerais...'
   },
   
   // Navegação
@@ -445,6 +457,22 @@ export const translations = {
       pt: 'Carregando...',
       cv: 'Ta karrega...'
     },
+    cronometro: {
+      pt: 'Cronômetro',
+      cv: 'Kronometru'
+    },
+    calendario: {
+      pt: 'Calendário',
+      cv: 'Kalendariu'
+    },
+    estatisticas: {
+      pt: 'Estatísticas',
+      cv: 'Estatistika'
+    },
+    pessoasInteressadas: {
+      pt: 'Pessoas Interessadas',
+      cv: 'Pesoas Interesadas'
+    },
     mudarIdioma: { // changeLanguage
       pt: 'Mudar Idioma',
       cv: 'Muda Língua'
@@ -668,3 +696,5 @@ export const translations = {
     }
   }
 };
+
+export { translations };
