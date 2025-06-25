@@ -18,7 +18,7 @@ const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
 const TermsOfServicePage = lazy(() => import('./pages/TermsOfServicePage'));
 const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage'));
 // const AdminStudyRequestsPage = lazy(() => import('./pages/AdminStudyRequestsPage')); // Supprimé
-const NotesPage = lazy(() => import('./pages/NotesPage')); // Nouvelle page Notes
+const NotesPage = lazy(() => import('./pages/NotesPage')); // Page Notes complète
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 function App() {
@@ -57,7 +57,7 @@ function App() {
                 <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
                 <Route path="terms-of-service" element={<TermsOfServicePage />} />
                 <Route path="cookie-policy" element={<CookiePolicyPage />} />
-                <Route path="notes" element={<NotesPage />} /> {/* Nouvelle route Notes */}
+                <Route path="notes" element={<NotesPage />} /> {/* Page Notes complète */}
                 {/* <Route path="admin/study-requests" element={<AdminStudyRequestsPage />} /> {/* Supprimé */}
                 <Route path="*" element={<NotFoundPage />} />
               </Route>

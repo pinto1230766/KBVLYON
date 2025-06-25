@@ -1,19 +1,35 @@
 import * as React from "react"
 import { cn } from "@/lib/utils"
 
+type CardProps = {
+  title: string;
+  icon?: React.ReactNode;
+  children: React.ReactNode;
+  onClick?: () => void;
+  className?: string;
+};
+
 const Card = React.forwardRef<
   HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
+  CardProps
+>(({ title, icon, children, onClick, className, ...props }, ref) => (
   <div
     ref={ref}
+    onClick={onClick}
     className={cn(
-      "rounded-xl border bg-card text-card-foreground shadow-sm transition-all hover:shadow-md",
+      "rounded-xl border bg-card text-card-foreground shadow-sm transition-all hover:shadow-md p-4",
       className
     )}
     {...props}
-  />
+  >
+    <div className="flex items-center gap-2 mb-2">
+      {icon}
+      <h3 className="font-bold">{title}</h3>
+    </div>
+    <p className="text-sm">{children}</p>
+  </div>
 ))
+
 Card.displayName = "Card"
 
 const CardHeader = React.forwardRef<

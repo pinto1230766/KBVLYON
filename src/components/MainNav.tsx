@@ -12,7 +12,7 @@ const navigationItems = [
   { translationKey: 'gramaticaDicionario', href: '/grammar-dictionary' },
   { translationKey: 'predicacao', href: '/preaching' },
   { translationKey: 'estudosBiblicos', href: '/bible-studies' },
-  { translationKey: 'notas', href: '/notes' }, // Ajout du lien Notes
+  { translationKey: 'notas', href: '/notes' },
   { translationKey: 'sobre', href: '/a-propos' },
 ];
 

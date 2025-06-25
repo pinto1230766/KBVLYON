@@ -41,6 +41,30 @@ export const translations = {
       pt: 'Notas',
       cv: 'Apontamentus' // Mis à jour
     },
+    notasModernas: {
+      pt: 'Notes Modernes',
+      cv: 'Apontamentus Modernu'
+    },
+    cronometro: {
+      pt: 'Cronômetro',
+      cv: 'Kronómetru'
+    },
+    pessoasInteressadas: {
+      pt: 'Pessoas Interessadas',
+      cv: 'Pesoas Interesadu'
+    },
+    estudantes: {
+      pt: 'Estudantes',
+      cv: 'Studantis'
+    },
+    estatisticas: {
+      pt: 'Estatísticas',
+      cv: 'Statístika'
+    },
+    calendario: {
+      pt: 'Calendário',
+      cv: 'Kalendáriu'
+    },
     notasGerais: {
       pt: 'Notas Gerais',
       cv: 'Apontamentus Jeral'
@@ -224,6 +248,14 @@ export const translations = {
     recurso3Desc: { // feature3Desc (agora Estudos Bíblicos)
       pt: 'Recursos e guias para seus estudos bíblicos pessoais.', // Atualizado
       cv: 'Rekursus y gias pa bus studus bíblikus pesoal.' // Atualizado
+    },
+    minhasNotas: {
+      pt: 'Minhas Notas',
+      cv: 'Nhas Notas'
+    },
+    acessarNotas: {
+      pt: 'Acesse suas anotações pessoais',
+      cv: 'Bai na bu notis pessual'
     }
   },
   
@@ -375,6 +407,170 @@ export const translations = {
     }
   },
   
+  // Página de Notes
+  paginaNotas: {
+    novaNota: {
+      pt: 'Nova Nota',
+      cv: 'Novu Apontamentu'
+    },
+    tituloNota: {
+      pt: 'Título da nota',
+      cv: 'Títulu di apontamentu'
+    },
+    comecerEscrever: {
+      pt: 'Comece a escrever aqui...',
+      cv: 'Kumesa skrebe li...'
+    },
+    etiquetas: {
+      pt: 'etiquetas...',
+      cv: 'etiketas...'
+    },
+    semTitulo: {
+      pt: 'Sem título',
+      cv: 'Sin títulu'
+    },
+    nenhumaNota: {
+      pt: 'Nenhuma nota selecionada',
+      cv: 'Ninhun apontamentu selisionadu'
+    },
+    criarNova: {
+      pt: 'Selecione uma nota existente ou crie uma nova para começar.',
+      cv: 'Selisiona un apontamentu ki ja ten o kria un novu pa kumesa.'
+    },
+    adicionarAtividade: {
+      pt: 'Adicionar atividade',
+      cv: 'Adisiona atividade'
+    },
+    novaAtividade: {
+      pt: 'Nova atividade',
+      cv: 'Novu atividade'
+    },
+    titulo: {
+      pt: 'Título',
+      cv: 'Títulu'
+    },
+    horas: {
+      pt: 'Horas',
+      cv: 'Oras'
+    },
+    predicacao: {
+      pt: 'Pregação',
+      cv: 'Prédika'
+    },
+    estudo: {
+      pt: 'Estudo',
+      cv: 'Studu'
+    },
+    adicionar: {
+      pt: 'Adicionar',
+      cv: 'Adisiona'
+    },
+    atividadesProgramadas: {
+      pt: 'Atividades programadas',
+      cv: 'Atividades programadu'
+    },
+    nenhumaAtividade: {
+      pt: 'Nenhuma atividade programada',
+      cv: 'Ninhun atividade programadu'
+    },
+    iniciar: {
+      pt: 'Iniciar',
+      cv: 'Inisia'
+    },
+    parar: {
+      pt: 'Parar',
+      cv: 'Para'
+    },
+    reinicializar: {
+      pt: 'Reinicializar',
+      cv: 'Reinisia'
+    },
+    adicionarPessoa: {
+      pt: 'Adicionar uma pessoa',
+      cv: 'Adisiona un pesoa'
+    },
+    nome: {
+      pt: 'Nome',
+      cv: 'Nomi'
+    },
+    telefone: {
+      pt: 'Telefone',
+      cv: 'Telifoni'
+    },
+    territorio: {
+      pt: 'Território',
+      cv: 'Territóriu'
+    },
+    nenhumaPessoa: {
+      pt: 'Nenhuma pessoa adicionada',
+      cv: 'Ninhun pesoa adisionadu'
+    },
+    adicionadoEm: {
+      pt: 'Adicionado em',
+      cv: 'Adisionadu na'
+    },
+    adicionarEstudante: {
+      pt: 'Adicionar um estudante',
+      cv: 'Adisiona un studanti'
+    },
+    progresso: {
+      pt: 'Progresso',
+      cv: 'Progresu'
+    },
+    nenhumEstudante: {
+      pt: 'Nenhum estudante adicionado',
+      cv: 'Ninhun studanti adisionadu'
+    },
+    comecouEm: {
+      pt: 'Começou em',
+      cv: 'Kumesa na'
+    },
+    tempoCronometro: {
+      pt: 'Tempo cronômetro',
+      cv: 'Tempu kronómetru'
+    },
+    horasPredicacao: {
+      pt: 'H. Pregação',
+      cv: 'H. Prédika'
+    },
+    horasEstudo: {
+      pt: 'H. Estudo',
+      cv: 'H. Studu'
+    },
+    caracteres: {
+      pt: 'caracteres',
+      cv: 'karáteris'
+    },
+    palavras: {
+      pt: 'palavras',
+      cv: 'palavras'
+    },
+    enregistrer: {
+      pt: 'Salvar',
+      cv: 'Salva'
+    },
+    epingler: {
+      pt: 'Fixar',
+      cv: 'Fixa'
+    },
+    desepingler: {
+      pt: 'Desfixar',
+      cv: 'Disfixa'
+    },
+    modifier: {
+      pt: 'Editar',
+      cv: 'Edita'
+    },
+    supprimer: {
+      pt: 'Excluir',
+      cv: 'Elimina'
+    },
+    confirmerSuppression: {
+      pt: 'Tem certeza de que deseja excluir esta nota?',
+      cv: 'Bu ten serteza ki bu kre elimina es apontamentu?'
+    }
+  },
+
   // Página de Estudos Bíblicos
   estudosBiblicosPagina: { // bibleStudies (page specific section)
     titulo: { // title
@@ -537,6 +733,14 @@ export const translations = {
     idioma: { // language
       pt: 'Idioma',
       cv: 'Língua'
+    },
+    minimizar: {
+      pt: 'Reduzir',
+      cv: 'Reduzi'
+    },
+    maximizar: {
+      pt: 'Tela cheia',
+      cv: 'Tela xeiu'
     }
   }
 };
