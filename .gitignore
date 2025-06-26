@@ -67,3 +67,7 @@ Thumbs.db
 .env.local
 
 .vercel
+
+keystore.properties
+my-release-key.jks
+

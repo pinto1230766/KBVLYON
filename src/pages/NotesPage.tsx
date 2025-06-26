@@ -172,7 +172,7 @@ const NotesPage: React.FC = () => {
       title: noteForm.title || 'Sans titre',
       content: noteForm.content,
       updatedAt: new Date().toISOString(),
-      tags: noteForm.tags.split(',').map(tag => tag.trim()).filter(tag => tag),
+      tags: (noteForm.tags || '').split(',').map(tag => tag.trim()).filter(tag => tag),
       color: noteForm.color,
       isPinned: noteForm.isPinned,
       categoryId: noteForm.categoryId,
@@ -187,7 +187,7 @@ const NotesPage: React.FC = () => {
     saveNotes(updatedNotes);
     setCurrentNote(updatedNote);
     setIsEditing(false);
-  }, [currentNote, noteForm, notes, saveNotes]);
+  }, [currentNote, noteForm, notes, saveNotes]); // t supprimé car utilisé via le contexte
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -577,7 +577,7 @@ const NotesPage: React.FC = () => {
                       />
                       <div className="mt-4 flex justify-between items-center">
                         <div className="text-sm text-gray-500 dark:text-gray-400">
-                          {noteForm.content.length} {t('paginaNotas.caracteres')} • {noteForm.content.split(/\s+/).filter(Boolean).length} {t('paginaNotas.palavras')}
+                          {noteForm.content.length} {t('paginaNotas.caracteres')} • {(noteForm.tags || '').split(',').filter(Boolean).length} {t('paginaNotas.etiquetas')} • {noteForm.content.split(/\s+/).filter(Boolean).length} {t('paginaNotas.palavras')}
                         </div>
                         <div className="flex space-x-2">
                           <button
