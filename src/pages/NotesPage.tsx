@@ -8,7 +8,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus, vs } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from "../hooks/useLanguage";
 import '../styles/NotesPage.css';
 
 interface Note {

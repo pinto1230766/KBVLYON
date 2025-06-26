@@ -2,7 +2,7 @@ console.log('Démarrage de l\'application...');
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ThemeProvider } from '@/components/theme-provider';
+import { ThemeProvider } from "./components/theme-provider";
 import App from './App';
 import './index.css';
 import './styles/globals.css';

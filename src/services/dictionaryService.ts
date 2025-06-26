@@ -1,4 +1,4 @@
-import { prisma } from '@/lib/db/prisma';
+import { prisma } from "../../lib/db/prisma"
 import { DictionaryEntry as PrismaDictionaryEntry, Translation as PrismaTranslation, Example as PrismaExample } from '@prisma/client';
 
 export interface DictionaryEntry {

@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from "./ui/button";
 import { Link } from 'react-router-dom';
-import { ThemeToggle } from '@/components/theme-toggle';
-import { useLanguage } from '@/hooks/useLanguage';
+import { ThemeToggle } from "./theme-toggle";
+import { useLanguage } from "../hooks/useLanguage";
 
 // Les clés correspondent aux sous-clés de translations.navegacao
 const navigationItems = [

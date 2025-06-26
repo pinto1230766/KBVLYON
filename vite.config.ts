@@ -19,14 +19,17 @@ export default defineConfig({
   },
   // Configuration de la résolution des imports
   resolve: {
-    alias: [
-      { find: "@/", replacement: path.resolve(__dirname, "./src/") },
-      { find: "@/components", replacement: path.resolve(__dirname, "./src/components") },
-      { find: "@/hooks", replacement: path.resolve(__dirname, "./src/hooks") },
-      { find: "@/lib", replacement: path.resolve(__dirname, "./src/lib") },
-      { find: "@/styles", replacement: path.resolve(__dirname, "./src/styles") },
-      { find: "@/types", replacement: path.resolve(__dirname, "./src/types") },
-    ],
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+      '@components': path.resolve(__dirname, './src/components'),
+      '@containers': path.resolve(__dirname, './src/containers'),
+      '@assets': path.resolve(__dirname, './src/assets'),
+      '@utils': path.resolve(__dirname, './src/utils'),
+      '@hooks': path.resolve(__dirname, './src/hooks'),
+      '@services': path.resolve(__dirname, './src/services'),
+      '@store': path.resolve(__dirname, './src/store'),
+      '@lib': path.resolve(__dirname, './src/lib')
+    },
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
   },
   // Configuration pour le chargement des modules
@@ -74,14 +77,16 @@ export default defineConfig({
   build: {
     // Activer la génération de rapports de bundle
     reportCompressedSize: true,
-    // Activer le chunking des dépendances
     rollupOptions: {
       output: {
         manualChunks: {
-          // Créer des chunks séparés pour les dépendances volumineuses
-          react: ['react', 'react-dom', 'react-router-dom'],
-        },
+          react: ['react', 'react-dom'],
+          ui: ['@radix-ui/react-dropdown-menu', 'class-variance-authority'],
+          vendor: ['lodash', 'date-fns']
+        }
       },
-    },
+      chunkSizeWarningLimit: 1000
+    }
   },
+  assetsInclude: ['**/*.woff', '**/*.woff2']
 });

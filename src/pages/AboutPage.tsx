@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from "../hooks/useLanguage";
 
 // Traduções para a página Sobre
 const translations = {
