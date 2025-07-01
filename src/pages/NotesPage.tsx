@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
 import { 
-  Plus, Trash2, Edit, Save, Tag, X, Pin, 
-  Maximize2, Minimize2, FileText, Calendar,
+  Plus, Trash2, Edit, Save, X, Pin, 
+  FileText, Calendar,
   Clock, Users, BarChart3
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
@@ -49,12 +49,11 @@ const NotesPage: React.FC = () => {
   const [notes, setNotes] = useState<Note[]>([]);
   const [currentNote, setCurrentNote] = useState<Note | null>(null);
   const [isEditing, setIsEditing] = useState(false);
-  const [isFullscreen, setIsFullscreen] = useState(false);
   const [isDarkMode] = useState(false);
   
   const [time, setTime] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
-  const timerRef = useRef<number | null>(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const [people, setPeople] = useState<Array<{id: string, name: string, email: string, phone: string, territory: string, dateAdded: string}>>([]);
   const [personForm, setPersonForm] = useState({name: '', email: '', phone: '', territory: ''});
@@ -173,7 +172,7 @@ const NotesPage: React.FC = () => {
       content: noteForm.content,
       updatedAt: new Date().toISOString(),
       tags: (noteForm.tags || '').split(',').map(tag => tag.trim()).filter(tag => tag),
-      color: noteForm.color,
+      color: noteForm.color || '',
       isPinned: noteForm.isPinned,
       categoryId: noteForm.categoryId,
       wordCount: noteForm.content.trim() === '' ? 0 : noteForm.content.trim().split(/\s+/).length,
@@ -236,7 +235,7 @@ const NotesPage: React.FC = () => {
             content: updatedNotes[0].content,
             isPinned: updatedNotes[0].isPinned,
             tags: updatedNotes[0].tags.join(', '),
-            color: updatedNotes[0].color || colorOptions[0],
+            color: updatedNotes[0].color || '',
             categoryId: updatedNotes[0].categoryId
           });
         }
@@ -320,14 +319,14 @@ const NotesPage: React.FC = () => {
   const totalStudyHours = calendarEvents.filter(e => e.type === 'etude').reduce((sum, e) => sum + e.hours, 0);
 
   return (
-    <div className={`flex flex-col h-screen ${isDarkMode ? 'dark bg-gray-900' : 'bg-gray-100'}`}>
+    <div className={`flex flex-col h-screen overflow-hidden ${isDarkMode ? 'dark bg-gray-900' : 'bg-gray-100'}`}>
       <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 notes-tabs">
         <nav className="space-x-1 justify-start md:justify-center">
           <button
             title={t('accessibility.notesTab')}
             aria-label={t('accessibility.notesTab')}
             onClick={() => setActiveTab('notes')}
-            className={`tab-button rounded-md flex items-center ${activeTab === 'notes' ? 'bg-blue-500 text-white' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'}`}
+            className={`tab-button rounded-md flex items-center btn-animated ${activeTab === 'notes' ? 'bg-blue-500 text-white' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'}`}
           >
             <FileText className="w-4 h-4 mr-2" />
             {t('navegacao.notas')}
@@ -381,20 +380,19 @@ const NotesPage: React.FC = () => {
       </div>
 
       {activeTab === 'notes' && (
-        <div className="flex-1 notes-container overflow-hidden">
-          <div className="notes-sidebar bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 overflow-y-auto">
-            <div className="p-4 border-b bg-white dark:bg-gray-800">
-              <button
-                title={t('accessibility.newNoteButton')}
-                aria-label={t('accessibility.newNoteButton')}
-                onClick={createNewNote}
-                className="w-full flex items-center justify-center px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
-              >
-                <Plus className="w-4 h-4 mr-2" />
-                {t('paginaNotas.novaNota')}
-              </button>
-            </div>
-            <div className="p-2">
+        <div className="flex flex-col md:flex-row flex-1 min-h-0">
+          {/* Sidebar */}
+          <aside className="w-full md:w-[160px] flex-shrink-0 bg-white dark:bg-gray-800 border-b md:border-b-0 md:border-r border-gray-200 dark:border-gray-700 flex flex-col p-1">
+            <button
+              title={t('accessibility.newNoteButton')}
+              aria-label={t('accessibility.newNoteButton')}
+              onClick={createNewNote}
+              className="w-full flex items-center justify-center px-2 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded mb-1 text-xs btn-animated"
+            >
+              <Plus className="w-3 h-3 mr-1" />
+              {t('paginaNotas.novaNota')}
+            </button>
+            <div className="flex-1 overflow-auto space-y-1">
               {notes.map(note => (
                 <div
                   key={note.id}
@@ -405,34 +403,30 @@ const NotesPage: React.FC = () => {
                       content: note.content,
                       isPinned: note.isPinned,
                       tags: note.tags.join(', '),
-                      color: note.color || colorOptions[0],
+                      color: note.color || '',
                       categoryId: note.categoryId
                     });
                     setIsEditing(false);
                   }}
-                  className={`p-3 mb-2 rounded-lg cursor-pointer transition-colors ${
-                    currentNote?.id === note.id
-                      ? 'bg-blue-100 dark:bg-blue-900/50 border-l-4 border-blue-500'
-                      : 'hover:bg-gray-100 dark:hover:bg-gray-700'
-                  }`}
+                  className={`p-1 rounded cursor-pointer text-xs ${currentNote?.id === note.id ? 'bg-blue-100 dark:bg-blue-900/50 border-l-4 border-blue-500' : 'hover:bg-gray-100 dark:hover:bg-gray-700'}`}
                 >
-                  <h3 className="font-medium text-sm truncate flex items-center">
+                  <div className="flex items-center font-medium truncate">
                     {note.isPinned && <Pin className="w-3 h-3 mr-1 text-yellow-500" />}
                     {note.title}
-                  </h3>
-                  <p className="text-xs text-gray-500 mt-1 line-clamp-2">
-                    {note.content.replace(/[#*`]/g, '').substring(0, 60)}...
-                  </p>
-                  <span className="text-xs text-gray-400">{formatDate(note.updatedAt)}</span>
+                  </div>
+                  <div className="text-[10px] text-gray-500 truncate">
+                    {note.content.replace(/[#*`]/g, '').substring(0, 30)}...
+                  </div>
                 </div>
               ))}
             </div>
-          </div>
-
-          <div className="notes-content flex flex-col">
+          </aside>
+          {/* Contenu principal */}
+          <section className="flex-1 flex flex-col min-h-0 p-2 md:p-4">
             {currentNote ? (
-              <div className={`h-full flex flex-col ${currentNote.color} transition-colors`}>
-                <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center bg-white dark:bg-gray-800">
+              <>
+                {/* En-tête note */}
+                <div className="flex items-center justify-between border-b pb-1 mb-1">
                   <div>
                     {isEditing ? (
                       <input
@@ -441,180 +435,72 @@ const NotesPage: React.FC = () => {
                         value={noteForm.title}
                         onChange={handleInputChange}
                         placeholder={t('paginaNotas.tituloNota')}
-                        className="w-full text-2xl font-bold bg-transparent focus:outline-none dark:text-white"
+                        className="text-lg font-bold bg-transparent focus:outline-none dark:text-white w-full"
                         autoFocus
                         aria-label={t('accessibility.noteTitleInput')}
                       />
                     ) : (
-                      <h1 className="text-2xl font-bold dark:text-white">
+                      <h1 className="text-lg font-bold dark:text-white truncate">
                         {currentNote.title || t('paginaNotas.semTitulo')}
                       </h1>
                     )}
-                    <div className="flex items-center mt-1">
-                      <span className="text-sm text-gray-500 dark:text-gray-400">
-                        {formatDate(currentNote.updatedAt)}
-                      </span>
-                      {currentNote.isPinned && (
-                        <Pin size={14} className="ml-2 text-yellow-500 fill-current" />
-                      )}
+                    <div className="flex items-center gap-2 text-xs text-gray-500 mt-0.5">
+                      <span>{formatDate(currentNote.updatedAt)}</span>
+                      {currentNote.isPinned && <Pin size={12} className="text-yellow-500" />}
                     </div>
                   </div>
-                  <div className="flex space-x-2">
+                  <div className="flex gap-1">
                     {!isEditing && (
-                      <button
-                        title={t('accessibility.pinNoteButton')}
-                        aria-label={t('accessibility.pinNoteButton')}
-                        onClick={() => togglePinNote(currentNote)}
-                        className={`p-2 rounded-full ${currentNote.isPinned ? 'text-yellow-500' : 'text-gray-400 hover:text-yellow-500'} hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors`}
-                      >
-                        {currentNote.isPinned ? <Pin size={18} className="fill-current" /> : <Pin size={18} />}
+                      <button title={t('accessibility.pinNoteButton')} aria-label={t('accessibility.pinNoteButton')} onClick={() => togglePinNote(currentNote)} className="p-1 rounded text-yellow-500 hover:bg-gray-100 btn-animated">
+                        <Pin size={14} />
                       </button>
                     )}
                     {isEditing ? (
                       <>
-                        <button
-                          title={t('accessibility.saveButton')}
-                          aria-label={t('accessibility.saveButton')}
-                          onClick={handleSave}
-                          className="p-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 transition-colors"
-                        >
-                          <Save size={18} />
+                        <button title={t('accessibility.saveButton')} aria-label={t('accessibility.saveButton')} onClick={handleSave} className="p-1 text-white bg-blue-500 rounded hover:bg-blue-600 btn-animated">
+                          <Save size={14} />
                         </button>
-                        <button
-                          title={t('accessibility.cancelButton')}
-                          aria-label={t('accessibility.cancelButton')}
-                          onClick={() => setIsEditing(false)}
-                          className="p-2 text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-                        >
-                          <X size={18} />
+                        <button title={t('accessibility.cancelButton')} aria-label={t('accessibility.cancelButton')} onClick={() => setIsEditing(false)} className="p-1 text-gray-600 bg-gray-100 rounded hover:bg-gray-200 btn-animated">
+                          <X size={14} />
                         </button>
                       </>
                     ) : (
                       <>
-                        <button
-                          title={t('accessibility.editButton')}
-                          aria-label={t('accessibility.editButton')}
-                          onClick={() => {
-                            setNoteForm({
-                              title: currentNote.title,
-                              content: currentNote.content,
-                              isPinned: currentNote.isPinned,
-                              tags: currentNote.tags.join(', '),
-                              color: currentNote.color || colorOptions[0],
-                              categoryId: currentNote.categoryId
-                            });
-                            setIsEditing(true);
-                            setTimeout(() => {
-                              if (editorRef.current) editorRef.current.focus();
-                            }, 100);
-                          }}
-                          className="p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition-colors"
-                        >
-                          <Edit size={18} />
+                        <button title={t('accessibility.editButton')} aria-label={t('accessibility.editButton')} onClick={() => { setNoteForm({ title: currentNote.title, content: currentNote.content, isPinned: currentNote.isPinned, tags: currentNote.tags.join(', '), color: currentNote.color || '', categoryId: currentNote.categoryId }); setIsEditing(true); setTimeout(() => { if (editorRef.current) editorRef.current.focus(); }, 100); }} className="p-1 text-gray-600 hover:bg-gray-100 rounded btn-animated">
+                          <Edit size={14} />
                         </button>
-                        <button
-                          title={t('accessibility.deleteButton')}
-                          aria-label={t('accessibility.deleteButton')}
-                          onClick={() => deleteNote(currentNote.id)}
-                          className="p-2 text-red-500 hover:text-red-700"
-                        >
-                          <Trash2 size={18} />
+                        <button title={t('accessibility.deleteButton')} aria-label={t('accessibility.deleteButton')} onClick={() => deleteNote(currentNote.id)} className="p-1 text-red-500 hover:bg-red-100 rounded btn-animated">
+                          <Trash2 size={14} />
                         </button>
                       </>
                     )}
-                    <button
-                      title={t('accessibility.fullscreenButton')}
-                      aria-label={t('accessibility.fullscreenButton')}
-                      onClick={() => setIsFullscreen(!isFullscreen)}
-                      className="p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md transition-colors hidden md:block"
-                    >
-                      {isFullscreen ? <Minimize2 size={18} /> : <Maximize2 size={18} />}
-                    </button>
                   </div>
                 </div>
-
-                <div className="flex-1 overflow-auto p-6 bg-white dark:bg-gray-800">
+                {/* Contenu note */}
+                <div className="flex-1 overflow-auto text-sm">
                   {isEditing ? (
-                    <div className="h-full flex flex-col">
-                      <div className="flex gap-2 mb-4 flex-wrap">
-                        <div className="relative">
-                          <div className="flex items-center bg-gray-100 dark:bg-gray-800 rounded-md px-3 py-1 text-sm">
-                            <Tag size={14} className="mr-1 text-gray-500" />
-                            <input
-                              type="text"
-                              name="tags"
-                              value={noteForm.tags}
-                              onChange={handleInputChange}
-                              placeholder={t('paginaNotas.etiquetas')}
-                              className="bg-transparent border-none focus:ring-0 focus:outline-none text-sm w-32 dark:text-white"
-                              aria-label={t('accessibility.noteTagsInput')}
-                            />
-                          </div>
-                        </div>
-                        <div className="flex items-center space-x-1">
-                          {colorOptions.map((color) => (
-                            <button
-                              key={color}
-                              type="button"
-                              onClick={() => setNoteForm({ ...noteForm, color })}
-                              className={`w-5 h-5 rounded-full ${color.split(' ')[0]} border-2 ${
-                                noteForm.color === color ? 'ring-2 ring-offset-1 ring-blue-500' : 'border-transparent'
-                              }`}
-                              title={color.split('-')[1]}
-                              aria-label={t('accessibility.noteColorButton')}
-                            />
-                          ))}
-                        </div>
-                      </div>
-                      <textarea
-                        ref={editorRef}
-                        name="content"
-                        value={noteForm.content}
-                        onChange={handleInputChange}
-                        className="flex-1 w-full p-4 font-mono text-sm border border-gray-200 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white resize-none"
-                        placeholder={t('paginaNotas.comecerEscrever')}
-                        aria-label={t('accessibility.noteContentInput')}
-                      />
-                      <div className="mt-4 flex justify-between items-center">
-                        <div className="text-sm text-gray-500 dark:text-gray-400">
-                          {noteForm.content.length} {t('paginaNotas.caracteres')} • {(noteForm.tags || '').split(',').filter(Boolean).length} {t('paginaNotas.etiquetas')} • {noteForm.content.split(/\s+/).filter(Boolean).length} {t('paginaNotas.palavras')}
-                        </div>
-                        <div className="flex space-x-2">
-                          <button
-                            type="button"
-                            onClick={() => setIsEditing(false)}
-                            className="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                            title={t('accessibility.cancelButton')}
-                            aria-label={t('accessibility.cancelButton')}
-                          >
-                            {t('iu.cancelar')}
-                          </button>
-                          <button
-                            type="button"
-                            onClick={handleSave}
-                            className="px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 flex items-center"
-                            title={t('accessibility.saveButton')}
-                            aria-label={t('accessibility.saveButton')}
-                          >
-                            <Save size={16} className="mr-1" />
-                            {t('paginaNotas.enregistrer')}
-                          </button>
-                        </div>
-                      </div>
-                    </div>
+                    <textarea
+                      ref={editorRef}
+                      name="content"
+                      value={noteForm.content}
+                      onChange={handleInputChange}
+                      className="w-full h-full min-h-[120px] max-h-[400px] p-2 border border-gray-200 dark:border-gray-700 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white resize-none"
+                      placeholder={t('paginaNotas.comecerEscrever')}
+                      aria-label={t('accessibility.noteContentInput')}
+                    />
                   ) : (
                     <div className="prose dark:prose-invert max-w-none">
                       <ReactMarkdown
                         remarkPlugins={[remarkGfm]}
                         components={{
-                          code: ({ inline, className, children, ...props }: React.HTMLAttributes<HTMLElement> & { inline?: boolean }) => {
+                          code: ({ className, children, ...props }) => {
                             const match = /language-(\w+)/.exec(className || '');
-                            return !inline && match ? (
+                            return match ? (
                               <SyntaxHighlighter
-                                style={isDarkMode ? vscDarkPlus as { [key: string]: React.CSSProperties } : vs as { [key: string]: React.CSSProperties }}
+                                style={isDarkMode ? vscDarkPlus : vs}
                                 language={match[1]}
                                 PreTag="div"
-                                {...props as React.HTMLAttributes<HTMLDivElement>}
+                                {...props as React.ComponentProps<typeof SyntaxHighlighter>}
                               >
                                 {String(children).replace(/\n$/, '')}
                               </SyntaxHighlighter>
@@ -631,38 +517,21 @@ const NotesPage: React.FC = () => {
                     </div>
                   )}
                 </div>
-              </div>
+              </>
             ) : (
-              <div className="flex-1 flex flex-col items-center justify-center p-8 text-center">
-                <div className="max-w-md">
-                  <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">
-                    <FileText size={32} />
-                  </div>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                    {t('paginaNotas.nenhumaNota')}
-                  </h2>
-                  <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    {t('paginaNotas.criarNova')}
-                  </p>
-                  <button
-                    onClick={createNewNote}
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                    title={t('accessibility.newNoteButton')}
-                    aria-label={t('accessibility.newNoteButton')}
-                  >
-                    <Plus size={16} className="mr-2" />
-                    {t('paginaNotas.novaNota')}
-                  </button>
-                </div>
+              <div className="flex-1 flex flex-col items-center justify-center text-center text-xs text-gray-500">
+                <FileText size={24} className="mb-2 text-blue-400" />
+                <div>{t('paginaNotas.nenhumaNota')}</div>
+                <button onClick={createNewNote} className="mt-2 px-2 py-1 bg-blue-500 text-white rounded text-xs btn-animated">{t('paginaNotas.novaNota')}</button>
               </div>
             )}
-          </div>
+          </section>
         </div>
       )}
 
       {activeTab === 'calendar' && (
-        <div className="flex-1 p-6">
-          <div className="flex justify-between items-center mb-6">
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden p-1">
+          <div className="flex-shrink-0 flex justify-between items-center mb-1">
             <h2 className="text-2xl font-bold">{t('navegacao.calendario')}</h2>
             <button
               onClick={() => setShowEventForm(true)}
@@ -735,43 +604,45 @@ const NotesPage: React.FC = () => {
             </div>
           )}
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-            <h3 className="text-lg font-semibold mb-4">{t('paginaNotas.atividadesProgramadas')}</h3>
-            {calendarEvents.length === 0 ? (
-              <p className="text-gray-500 text-center py-8">{t('paginaNotas.nenhumaAtividade')}</p>
-            ) : (
-              <div className="space-y-3">
-                {calendarEvents.map(event => (
-                  <div key={event.id} className="flex justify-between items-center p-3 border rounded-lg">
-                    <div>
-                      <h4 className="font-semibold">{event.title}</h4>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">
-                        {new Date(event.date).toLocaleDateString()} - {event.hours}h - 
-                        <span className={`ml-1 px-2 py-1 rounded text-xs ${
-                          event.type === 'predication' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'
-                        }`}>
-                          {event.type === 'predication' ? t('paginaNotas.predicacao') : t('paginaNotas.estudo')}
-                        </span>
-                      </p>
+          <div className="flex-1 overflow-auto min-h-0">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+              <h3 className="text-lg font-semibold mb-4">{t('paginaNotas.atividadesProgramadas')}</h3>
+              {calendarEvents.length === 0 ? (
+                <p className="text-gray-500 text-center py-8">{t('paginaNotas.nenhumaAtividade')}</p>
+              ) : (
+                <div className="space-y-3">
+                  {calendarEvents.map(event => (
+                    <div key={event.id} className="flex justify-between items-center p-3 border rounded-lg">
+                      <div>
+                        <h4 className="font-semibold">{event.title}</h4>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                          {new Date(event.date).toLocaleDateString()} - {event.hours}h - 
+                          <span className={`ml-1 px-2 py-1 rounded text-xs ${
+                            event.type === 'predication' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'
+                          }`}>
+                            {event.type === 'predication' ? t('paginaNotas.predicacao') : t('paginaNotas.estudo')}
+                          </span>
+                        </p>
+                      </div>
+                      <button
+                        onClick={() => deleteEvent(event.id)}
+                        className="text-red-500 hover:text-red-700 p-2"
+                        title={t('accessibility.deleteButton')}
+                        aria-label={t('accessibility.deleteButton')}
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
                     </div>
-                    <button
-                      onClick={() => deleteEvent(event.id)}
-                      className="text-red-500 hover:text-red-700 p-2"
-                      title={t('accessibility.deleteButton')}
-                      aria-label={t('accessibility.deleteButton')}
-                    >
-                      <Trash2 className="w-4 h-4" />
-                    </button>
-                  </div>
-                ))}
-              </div>
-            )}
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}
 
       {activeTab === 'chronometer' && (
-        <div className="flex-1 p-4 sm:p-6 max-w-full sm:max-w-md mx-auto">
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden items-center justify-center p-1">
           <h2 className="text-2xl font-bold mb-6 text-center">{t('navegacao.cronometro')}</h2>
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
             <div className="text-4xl font-mono text-center mb-6 text-gray-800 dark:text-gray-200">
@@ -804,188 +675,198 @@ const NotesPage: React.FC = () => {
       )}
 
       {activeTab === 'interestedPeople' && (
-        <div className="flex-1 p-6">
-          <h2 className="text-2xl font-bold mb-6">{t('navegacao.pessoasInteressadas')}</h2>
-          
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
-            <h3 className="text-lg font-semibold mb-4">{t('paginaNotas.adicionarPessoa')}</h3>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <input
-                type="text"
-                placeholder={t('paginaNotas.nome')}
-                value={personForm.name}
-                onChange={(e) => setPersonForm(prev => ({...prev, name: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.personNameInput')}
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                value={personForm.email}
-                onChange={(e) => setPersonForm(prev => ({...prev, email: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.personEmailInput')}
-              />
-              <input
-                type="tel"
-                placeholder={t('paginaNotas.telefone')}
-                value={personForm.phone}
-                onChange={(e) => setPersonForm(prev => ({...prev, phone: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.personPhoneInput')}
-              />
-              <input
-                type="text"
-                placeholder="Territoire"
-                value={personForm.territory}
-                onChange={(e) => setPersonForm(prev => ({...prev, territory: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.personTerritoryInput')}
-              />
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden p-1">
+          <div className="flex-shrink-0 mb-1">
+            <h2 className="text-2xl font-bold mb-6">{t('navegacao.pessoasInteressadas')}</h2>
+            
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
+              <h3 className="text-lg font-semibold mb-4">{t('paginaNotas.adicionarPessoa')}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <input
+                  type="text"
+                  placeholder={t('paginaNotas.nome')}
+                  value={personForm.name}
+                  onChange={(e) => setPersonForm(prev => ({...prev, name: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.personNameInput')}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={personForm.email}
+                  onChange={(e) => setPersonForm(prev => ({...prev, email: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.personEmailInput')}
+                />
+                <input
+                  type="tel"
+                  placeholder={t('paginaNotas.telefone')}
+                  value={personForm.phone}
+                  onChange={(e) => setPersonForm(prev => ({...prev, phone: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.personPhoneInput')}
+                />
+                <input
+                  type="text"
+                  placeholder="Territoire"
+                  value={personForm.territory}
+                  onChange={(e) => setPersonForm(prev => ({...prev, territory: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.personTerritoryInput')}
+                />
+              </div>
+              <button
+                onClick={addPerson}
+                className="mt-4 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
+                title={t('accessibility.addPersonButton')}
+                aria-label={t('accessibility.addPersonButton')}
+              >
+                {t('paginaNotas.adicionar')}
+              </button>
             </div>
-            <button
-              onClick={addPerson}
-              className="mt-4 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
-              title={t('accessibility.addPersonButton')}
-              aria-label={t('accessibility.addPersonButton')}
-            >
-              {t('paginaNotas.adicionar')}
-            </button>
           </div>
 
-          <div className="space-y-3">
-            {people.length === 0 ? (
-              <p className="text-gray-500 text-center py-8">Aucune personne ajoutée</p>
-            ) : (
-              people.map(person => (
-                <div key={person.id} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex justify-between items-center">
-                  <div>
-                    <h4 className="font-semibold">{person.name}</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">{person.email}</p>
-                    {person.phone && <p className="text-sm text-gray-600 dark:text-gray-400">{person.phone}</p>}
-                    {person.territory && <p className="text-sm text-gray-600 dark:text-gray-400">Territoire: {person.territory}</p>}
-                    <p className="text-xs text-gray-400">Ajouté le {new Date(person.dateAdded).toLocaleDateString()}</p>
+          <div className="flex-1 overflow-auto min-h-0">
+            <div className="space-y-3">
+              {people.length === 0 ? (
+                <p className="text-gray-500 text-center py-8">Aucune personne ajoutée</p>
+              ) : (
+                people.map(person => (
+                  <div key={person.id} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex justify-between items-center">
+                    <div>
+                      <h4 className="font-semibold">{person.name}</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">{person.email}</p>
+                      {person.phone && <p className="text-sm text-gray-600 dark:text-gray-400">{person.phone}</p>}
+                      {person.territory && <p className="text-sm text-gray-600 dark:text-gray-400">Territoire: {person.territory}</p>}
+                      <p className="text-xs text-gray-400">Ajouté le {new Date(person.dateAdded).toLocaleDateString()}</p>
+                    </div>
+                    <button
+                      onClick={() => deletePerson(person.id)}
+                      className="text-red-500 hover:text-red-700 p-2"
+                      title={t('accessibility.deleteButton')}
+                      aria-label={t('accessibility.deleteButton')}
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
                   </div>
-                  <button
-                    onClick={() => deletePerson(person.id)}
-                    className="text-red-500 hover:text-red-700 p-2"
-                    title={t('accessibility.deleteButton')}
-                    aria-label={t('accessibility.deleteButton')}
-                  >
-                    <Trash2 className="w-4 h-4" />
-                  </button>
-                </div>
-              ))
-            )}
+                ))
+              )}
+            </div>
           </div>
         </div>
       )}
 
       {activeTab === 'students' && (
-        <div className="flex-1 p-6">
-          <h2 className="text-2xl font-bold mb-6">{t('navegacao.estudantes')}</h2>
-          
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
-            <h3 className="text-lg font-semibold mb-4">{t('paginaNotas.adicionarEstudante')}</h3>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              <input
-                type="text"
-                placeholder={t('paginaNotas.nome')}
-                value={studentForm.name}
-                onChange={(e) => setStudentForm(prev => ({...prev, name: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.studentNameInput')}
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                value={studentForm.email}
-                onChange={(e) => setStudentForm(prev => ({...prev, email: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.studentEmailInput')}
-              />
-              <input
-                type="tel"
-                placeholder={t('paginaNotas.telefone')}
-                value={studentForm.phone}
-                onChange={(e) => setStudentForm(prev => ({...prev, phone: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.studentPhoneInput')}
-              />
-              <input
-                type="text"
-                placeholder={t('paginaNotas.progresso')}
-                value={studentForm.progress}
-                onChange={(e) => setStudentForm(prev => ({...prev, progress: e.target.value}))}
-                className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
-                aria-label={t('accessibility.studentProgressInput')}
-              />
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden p-1">
+          <div className="flex-shrink-0 mb-1">
+            <h2 className="text-2xl font-bold mb-6">{t('navegacao.estudantes')}</h2>
+            
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-6">
+              <h3 className="text-lg font-semibold mb-4">{t('paginaNotas.adicionarEstudante')}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <input
+                  type="text"
+                  placeholder={t('paginaNotas.nome')}
+                  value={studentForm.name}
+                  onChange={(e) => setStudentForm(prev => ({...prev, name: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.studentNameInput')}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={studentForm.email}
+                  onChange={(e) => setStudentForm(prev => ({...prev, email: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.studentEmailInput')}
+                />
+                <input
+                  type="tel"
+                  placeholder={t('paginaNotas.telefone')}
+                  value={studentForm.phone}
+                  onChange={(e) => setStudentForm(prev => ({...prev, phone: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.studentPhoneInput')}
+                />
+                <input
+                  type="text"
+                  placeholder={t('paginaNotas.progresso')}
+                  value={studentForm.progress}
+                  onChange={(e) => setStudentForm(prev => ({...prev, progress: e.target.value}))}
+                  className="px-3 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                  aria-label={t('accessibility.studentProgressInput')}
+                />
+              </div>
+              <button
+                onClick={addStudent}
+                className="mt-4 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
+                title={t('accessibility.addStudentButton')}
+                aria-label={t('accessibility.addStudentButton')}
+              >
+                {t('paginaNotas.adicionar')}
+              </button>
             </div>
-            <button
-              onClick={addStudent}
-              className="mt-4 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
-              title={t('accessibility.addStudentButton')}
-              aria-label={t('accessibility.addStudentButton')}
-            >
-              {t('paginaNotas.adicionar')}
-            </button>
           </div>
 
-          <div className="space-y-3">
-            {students.length === 0 ? (
-              <p className="text-gray-500 text-center py-8">{t('paginaNotas.nenhumEstudante')}</p>
-            ) : (
-              students.map(student => (
-                <div key={student.id} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex justify-between items-center">
-                  <div>
-                    <h4 className="font-semibold">{student.name}</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">{student.email}</p>
-                    {student.phone && <p className="text-sm text-gray-600 dark:text-gray-400">{student.phone}</p>}
-                    {student.progress && <p className="text-sm text-gray-600 dark:text-gray-400">{t('paginaNotas.progresso')}: {student.progress}</p>}
-                    <p className="text-xs text-gray-400">{t('paginaNotas.comecouEm')} {new Date(student.startDate).toLocaleDateString()}</p>
+          <div className="flex-1 overflow-auto min-h-0">
+            <div className="space-y-3">
+              {students.length === 0 ? (
+                <p className="text-gray-500 text-center py-8">{t('paginaNotas.nenhumEstudante')}</p>
+              ) : (
+                students.map(student => (
+                  <div key={student.id} className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex justify-between items-center">
+                    <div>
+                      <h4 className="font-semibold">{student.name}</h4>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">{student.email}</p>
+                      {student.phone && <p className="text-sm text-gray-600 dark:text-gray-400">{student.phone}</p>}
+                      {student.progress && <p className="text-sm text-gray-600 dark:text-gray-400">{t('paginaNotas.progresso')}: {student.progress}</p>}
+                      <p className="text-xs text-gray-400">{t('paginaNotas.comecouEm')} {new Date(student.startDate).toLocaleDateString()}</p>
+                    </div>
+                    <button
+                      onClick={() => deleteStudent(student.id)}
+                      className="text-red-500 hover:text-red-700 p-2"
+                      title={t('accessibility.deleteButton')}
+                      aria-label={t('accessibility.deleteButton')}
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
                   </div>
-                  <button
-                    onClick={() => deleteStudent(student.id)}
-                    className="text-red-500 hover:text-red-700 p-2"
-                    title={t('accessibility.deleteButton')}
-                    aria-label={t('accessibility.deleteButton')}
-                  >
-                    <Trash2 className="w-4 h-4" />
-                  </button>
-                </div>
-              ))
-            )}
+                ))
+              )}
+            </div>
           </div>
         </div>
       )}
 
       {activeTab === 'statistics' && (
-        <div className="flex-1 p-6">
-          <h2 className="text-2xl font-bold mb-6">{t('navegacao.estatisticas')}</h2>
-          <div className="responsive-grid">
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
-              <h3 className="text-lg font-semibold mb-2">{t('navegacao.notas')}</h3>
-              <p className="text-3xl font-bold text-blue-500">{notes.length}</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
-              <h3 className="text-lg font-semibold mb-2">{t('navegacao.pessoasInteressadas')}</h3>
-              <p className="text-3xl font-bold text-green-500">{people.length}</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
-              <h3 className="text-lg font-semibold mb-2">{t('navegacao.estudantes')}</h3>
-              <p className="text-3xl font-bold text-purple-500">{students.length}</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
-              <h3 className="text-lg font-semibold mb-2">{t('paginaNotas.tempoCronometro')}</h3>
-              <p className="text-3xl font-bold text-orange-500">{formatTime(time)}</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
-              <h3 className="text-lg font-semibold mb-2">{t('paginaNotas.horasPredicacao')}</h3>
-              <p className="text-3xl font-bold text-green-600">{totalPredicationHours}h</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
-              <h3 className="text-lg font-semibold mb-2">{t('paginaNotas.horasEstudo')}</h3>
-              <p className="text-3xl font-bold text-blue-600">{totalStudyHours}h</p>
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden p-1 text-[10px]">
+          <div className="flex-1 overflow-auto min-h-0">
+            <h2 className="text-2xl font-bold mb-6">{t('navegacao.estatisticas')}</h2>
+            <div className="responsive-grid">
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                <h3 className="text-lg font-semibold mb-2">{t('navegacao.notas')}</h3>
+                <p className="text-3xl font-bold text-blue-500">{notes.length}</p>
+              </div>
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                <h3 className="text-lg font-semibold mb-2">{t('navegacao.pessoasInteressadas')}</h3>
+                <p className="text-3xl font-bold text-green-500">{people.length}</p>
+              </div>
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                <h3 className="text-lg font-semibold mb-2">{t('navegacao.estudantes')}</h3>
+                <p className="text-3xl font-bold text-purple-500">{students.length}</p>
+              </div>
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                <h3 className="text-lg font-semibold mb-2">{t('paginaNotas.tempoCronometro')}</h3>
+                <p className="text-3xl font-bold text-orange-500">{formatTime(time)}</p>
+              </div>
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                <h3 className="text-lg font-semibold mb-2">{t('paginaNotas.horasPredicacao')}</h3>
+                <p className="text-3xl font-bold text-green-600">{totalPredicationHours}h</p>
+              </div>
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                <h3 className="text-lg font-semibold mb-2">{t('paginaNotas.horasEstudo')}</h3>
+                <p className="text-3xl font-bold text-blue-600">{totalStudyHours}h</p>
+              </div>
             </div>
           </div>
         </div>
@@ -994,4 +875,6 @@ const NotesPage: React.FC = () => {
   );
 };
 
-export default NotesPage;
+const NotesPageMemo = memo(NotesPage);
+
+export default NotesPageMemo;

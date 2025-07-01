@@ -177,7 +177,7 @@ const GrammarDictionaryPage: React.FC = () => {
                     <p className="mb-2 text-xs text-muted-foreground">{lesson.content[language]}</p>
                     <h4 className="text-sm font-semibold mb-1">{secaoGramaticaTrad.exemplo[language]}s:</h4>
                     <ul className="list-disc list-inside space-y-0.5 text-xs">
-                      {lesson.examples.map((example, index) => (
+                      {lesson.examples.slice(0, 10).map((example, index) => (
                         <li key={index}>
                           <span className="font-medium">{language === 'pt' ? 'PT:' : 'CV:'}</span> {example[language]}
                         </li>

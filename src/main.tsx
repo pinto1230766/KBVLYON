@@ -6,18 +6,11 @@ import { ThemeProvider } from "./components/theme-provider";
 import App from './App';
 import './index.css';
 import './styles/globals.css';
-import { setupStagewise } from './utils/stagewise';
 
 // Vérifier que l'élément root existe
 const rootElement = document.getElementById('root');
 if (!rootElement) {
   throw new Error("L'élément avec l'ID 'root' est introuvable dans le DOM");
-}
-
-// Initialiser Stagewise Toolbar en développement
-if (import.meta.env.DEV) {
-  console.log('Mode développement - Initialisation de Stagewise Toolbar');
-  setupStagewise();
 }
 
 try {

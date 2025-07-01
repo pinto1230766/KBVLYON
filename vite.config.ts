@@ -7,13 +7,14 @@ import path from 'path';
 export default defineConfig({
   // Configuration du serveur de développement
   server: {
-    port: 5174,
-    strictPort: false,
+    port: 8080,
+    strictPort: true,
     open: true,
     host: '0.0.0.0', // Écoute sur toutes les interfaces réseau
     cors: true,
     hmr: {
       host: 'localhost',
+      port: 8080,
       protocol: 'ws',
     },
   },
@@ -81,12 +82,15 @@ export default defineConfig({
       output: {
         manualChunks: {
           react: ['react', 'react-dom'],
-          ui: ['@radix-ui/react-dropdown-menu', 'class-variance-authority'],
-          vendor: ['lodash', 'date-fns']
+          ui: ['@radix-ui/react-dropdown-menu', 'class-variance-authority']
         }
-      },
-      chunkSizeWarningLimit: 1000
+      }
     }
   },
-  assetsInclude: ['**/*.woff', '**/*.woff2']
+  assetsInclude: ['**/*.woff', '**/*.woff2'],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/setupTests.ts'
+  }
 });

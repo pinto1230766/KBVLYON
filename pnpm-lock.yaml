@@ -20,6 +20,9 @@ importers:
       '@capacitor/status-bar':
         specifier: ^7.0.1
         version: 7.0.1(@capacitor/core@7.4.0)
+      '@prisma/client':
+        specifier: ^6.10.1
+        version: 6.10.1(typescript@5.8.3)
       '@radix-ui/react-dialog':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -120,6 +123,9 @@ importers:
       '@eslint/js':
         specifier: ^9.28.0
         version: 9.28.0
+      '@stagewise-plugins/react':
+        specifier: ^0.4.9
+        version: 0.4.9(@stagewise/toolbar@0.4.9)
       '@stagewise/toolbar':
         specifier: ^0.4.9
         version: 0.4.9
@@ -1828,6 +1834,18 @@ packages:
   '@prettier/plugin-xml@2.2.0':
     resolution: {integrity: sha512-UWRmygBsyj4bVXvDiqSccwT1kmsorcwQwaIy30yVh8T+Gspx4OlC0shX1y+ZuwXZvgnafmpRYKks0bAu9urJew==}
 
+  '@prisma/client@6.10.1':
+    resolution: {integrity: sha512-Re4pMlcUsQsUTAYMK7EJ4Bw2kg3WfZAAlr8GjORJaK4VOP6LxRQUQ1TuLnxcF42XqGkWQ36q5CQF1yVadANQ6w==}
+    engines: {node: '>=18.18'}
+    peerDependencies:
+      prisma: '*'
+      typescript: '>=5.1.0'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+      typescript:
+        optional: true
+
   '@radix-ui/primitive@1.1.2':
     resolution: {integrity: sha512-XnbHrrprsNqZKQhStrSwgRUQzoCI1glLzdw79xiZPoofhGICeZRSQ3dIxAKH1gb3OHfNf4d6f+vAv3kil2eggA==}
 
@@ -2231,6 +2249,11 @@ packages:
 
   '@sinonjs/fake-timers@13.0.5':
     resolution: {integrity: sha512-36/hTbH2uaWuGVERyC6da9YwGWnzUZXuPro/F2LfsdOsLnCojz/iSH8MxUt/FD2S5XBSVPhmArFUXcpCQ2Hkiw==}
+
+  '@stagewise-plugins/react@0.4.9':
+    resolution: {integrity: sha512-njlmHe92sAAvEGPeeyZS+a+twuVBNNaEmjFuUGs02WWnG20HquoXMHRgdUFH5Ecr0cxHS2SP/AbKq/kYEFwMjA==}
+    peerDependencies:
+      '@stagewise/toolbar': 0.4.9
 
   '@stagewise/toolbar-react@0.4.9':
     resolution: {integrity: sha512-K27i8GT20EWQJTmY+XQTvgiZh4EDq83W82zSUdSF7Fo8v9ogypn+wZbyFlLg97F2OYysc0uhILwUlS5eVItpyQ==}
@@ -8481,6 +8504,10 @@ snapshots:
       '@xml-tools/parser': 1.0.11
       prettier: 2.8.8
 
+  '@prisma/client@6.10.1(typescript@5.8.3)':
+    optionalDependencies:
+      typescript: 5.8.3
+
   '@radix-ui/primitive@1.1.2': {}
 
   '@radix-ui/react-arrow@1.1.7(@types/react-dom@19.1.5(@types/react@19.1.6))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
@@ -8830,6 +8857,10 @@ snapshots:
   '@sinonjs/fake-timers@13.0.5':
     dependencies:
       '@sinonjs/commons': 3.0.1
+
+  '@stagewise-plugins/react@0.4.9(@stagewise/toolbar@0.4.9)':
+    dependencies:
+      '@stagewise/toolbar': 0.4.9
 
   '@stagewise/toolbar-react@0.4.9(@types/react@19.1.6)(react@19.1.0)':
     dependencies:

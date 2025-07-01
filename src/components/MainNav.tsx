@@ -54,7 +54,7 @@ export function MainNav() {
         <div className="flex items-center space-x-4">
           <Link to="/" className="flex items-center space-x-2">
             <span className="inline-block h-6 w-6 rounded-full bg-primary"></span>
-            <span className="text-lg font-bold">KBVLYON</span>
+            <span className="text-base font-bold">KBVLYON</span>
           </Link>
         </div>
 
@@ -64,7 +64,7 @@ export function MainNav() {
             <Link
               key={item.translationKey}
               to={item.href}
-              className="rounded-md px-2 py-1 text-xs font-medium text-foreground/70 transition-colors hover:text-foreground"
+              className="rounded-md px-2 py-1 text-base font-medium text-foreground/80 transition-colors hover:text-foreground"
             >
               {t(`navegacao.${item.translationKey}`)}
             </Link>
@@ -134,7 +134,7 @@ export function MainNav() {
                   <Link
                     key={item.translationKey}
                     to={item.href}
-                    className="block px-3 py-3 text-sm font-medium text-foreground/80 hover:bg-muted/50 hover:text-foreground rounded-md" // py-2 à py-3, text-xs à text-sm, text-foreground/70 à text-foreground/80, ajout de rounded-md
+                    className="block px-3 py-3 text-base font-bold text-foreground/80 hover:bg-muted/50 hover:text-foreground rounded-md border-2 border-black"
                     onClick={handleClick}
                   >
                     {t(`navegacao.${item.translationKey}`)}
@@ -143,7 +143,7 @@ export function MainNav() {
               })}
               <div className="border-t border-border pt-3 px-3 pb-2 space-y-3"> {/* pt-2 à pt-3, py-2 à pb-2, space-y-2 à space-y-3 */}
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-medium">
+                  <span className="text-base font-bold">
                     {t('iu.tema')}
                   </span>
                   <ThemeToggle /> {/* Le bouton Thème reste dans le menu mobile */}

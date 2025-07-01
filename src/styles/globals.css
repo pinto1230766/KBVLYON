@@ -182,3 +182,11 @@ html {
 .safe-area-padding-bottom {
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+.btn-animated {
+  transition: transform 0.2s cubic-bezier(0.4,0,0.2,1), box-shadow 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+.btn-animated:hover, .btn-animated:focus {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
+}

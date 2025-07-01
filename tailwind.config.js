@@ -52,6 +52,10 @@ export default {
         success: 'hsl(var(--success))',
         warning: 'hsl(var(--warning))',
         error: 'hsl(var(--error))',
+        'jw-blue': '#0071CE',
+        'jw-dark': '#003366',
+        'jw-gray': '#F5F5F5',
+        'jw-black': '#222222',
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],

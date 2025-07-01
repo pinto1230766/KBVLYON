@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { MainNav } from './MainNav';
 import Footer from './Footer';
@@ -8,15 +8,6 @@ import { useLanguage } from '../hooks/useLanguage';
 
 const Layout: React.FC = () => {
   useLanguage();
-  
-  // Initialisation de Stagewise en développement
-  useEffect(() => {
-    if (import.meta.env.DEV) {
-      import('../utils/stagewise').then(({ setupStagewise }) => {
-        setupStagewise();
-      });
-    }
-  }, []);
   
   return (
     <div className="flex min-h-screen flex-col bg-background safe-area-padding-bottom">
