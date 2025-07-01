@@ -42,10 +42,6 @@ export default defineConfig({
   plugins: [
     react({
       // Ajouter des options supplémentaires pour le plugin React si nécessaire
-      jsxImportSource: '@emotion/react',
-      babel: {
-        plugins: ['@emotion/babel-plugin'],
-      },
     }),
     ViteImageOptimizer({
       // Désactiver le cache pour éviter les problèmes de chemin
@@ -87,10 +83,5 @@ export default defineConfig({
       }
     }
   },
-  assetsInclude: ['**/*.woff', '**/*.woff2'],
-  test: {
-    globals: true,
-    environment: 'jsdom',
-    setupFiles: './src/setupTests.ts'
-  }
+  assetsInclude: ['**/*.woff', '**/*.woff2']
 });
