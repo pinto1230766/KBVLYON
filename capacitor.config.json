@@ -4,10 +4,33 @@
   "webDir": "dist",
   "bundledWebRuntime": false,
   "server": {
-    "androidScheme": "https"
+    "androidScheme": "https",
+    "hostname": "kbvlyon.app"
   },
-  "plugins": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffffff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
   "android": {
-    "fullscreen": false
+    "includePlugins": ["@capacitor-community/keep-awake"],
+    "includeDirs": ["public/dictionary.json"],
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": true,
+    "fullscreen": false,
+    "buildOptions": {
+      "keystorePath": "path/to/your/keystore.jks",
+      "keystoreAlias": "key0"
+    }
   }
 }

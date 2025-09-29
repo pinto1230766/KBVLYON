@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
     <div className="page-transition">
 
       {/* Features Section */}
-      <section className="py-2 sm:py-3 bg-white"> {/* py-4 sm:py-6 à py-2 sm:py-3 */}
+      <section className="py-2 sm:py-3 bg-background"> {/* py-4 sm:py-6 à py-2 sm:py-3 */}
         <div className="container mx-auto px-3 sm:px-4">
           <h2 className="text-base sm:text-lg font-bold text-center mb-2 sm:mb-3"> {/* mb-3 sm:mb-4 à mb-2 sm:mb-3 */}
             {t('paginaInicial.tituloRecursos')}
@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
               <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
                 {t('paginaInicial.recurso1Titulo')}
               </h3>
-              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
+              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
                 {t('paginaInicial.recurso1Desc')}
               </p>
             </Link>
@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
               <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
                 {t('paginaInicial.recurso2Titulo')}
               </h3>
-              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
+              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
                 {t('paginaInicial.recurso2Desc')}
               </p>
             </Link>
@@ -61,7 +61,7 @@ const HomePage: React.FC = () => {
               <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
                 {t('navegacao.estudosBiblicos')}
               </h3>
-              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug">
+              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug">
                 {t('paginaInicial.recurso3Desc')}
               </p>
             </Link>
@@ -69,15 +69,15 @@ const HomePage: React.FC = () => {
             {/* Feature 4 - Notes */}
             <Link 
               to="/notes" 
-              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md bg-blue-50"
+              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md"
             >
-              <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-0.5">
+              <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center mx-auto mb-0.5">
                 <BookOpen size={16} className="text-white" />
               </div>
               <h3 className="text-sm sm:text-base font-bold mb-0.5">
                 {t('navegacao.notas')}
               </h3>
-              <p className="text-xs sm:text-sm text-gray-600 mb-0.5 line-clamp-2 leading-snug">
+              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug">
                 {t('paginaInicial.recurso4Desc')}
               </p>
             </Link>
@@ -86,7 +86,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Image Gallery */}
-      <section className="py-2 bg-gray-100"> {/* py-3 à py-2 */}
+      <section className="py-2 bg-muted"> {/* py-3 à py-2 */}
         <div className="container mx-auto px-2">
           <h2 className="text-sm font-bold text-center mb-0.5">Cabo Verde</h2> {/* mb-1 à mb-0.5 */}
           <div className="grid grid-cols-2 gap-1">

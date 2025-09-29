@@ -1,0 +1,95 @@
+/* Styles spécifiques pour les tablettes */
+
+/* Taille de police de base ajustée pour les tablettes */
+@media (min-width: 768px) {
+  html {
+    font-size: 20px !important; /* Taille de police de base réduite */
+  }
+  
+  /* Taille des titres ajustée */
+  h1 { font-size: 2.5rem !important; }
+  h2 { font-size: 2.2rem !important; }
+  h3 { font-size: 2rem !important; }
+  h4 { font-size: 1.8rem !important; }
+  h5 { font-size: 1.6rem !important; }
+  h6 { font-size: 1.4rem !important; }
+  
+  /* Taille du texte standard */
+  body, p, li, a, span, div {
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  /* Boutons */
+  .btn {
+    font-size: 1.2rem !important;
+    padding: 0.8rem 1.6rem !important;
+    min-height: 50px !important;
+    border-radius: 12px !important;
+    margin: 0.8rem 0 !important;
+  }
+  
+  /* Champs de formulaire */
+  input, textarea, select {
+    font-size: 1.1rem !important;
+    padding: 0.8rem 1.2rem !important;
+    min-height: 50px !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Étiquettes */
+  label {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    max-width: 2000px !important; /* Largeur maximale considérablement augmentée */
+    padding: 0 4rem !important; /* Marge latérale légèrement réduite */
+    margin: 0 auto !important;
+    width: 95% !important; /* Utilisation de 95% de la largeur disponible */
+  }
+  
+  /* Espacement entre les éléments */
+  .space-y-4 > * + * {
+    margin-top: 2.5rem !important;
+  }
+}
+
+/* Ajustements spécifiques pour le Samsung Tab S10 Ultra */
+@media (min-width: 900px) and (max-width: 2000px) and (min-height: 1800px) {
+  html {
+    font-size: 22px !important;
+  }
+  
+  .container {
+    max-width: 95% !important; /* Utilisation de 95% de la largeur disponible */
+    width: 95% !important;
+    padding: 0 2% !important; /* Marge latérale réduite en pourcentage */
+    margin: 0 auto !important;
+  }
+  
+  /* Ajustement des cartes et conteneurs pour utiliser tout l'espace */
+  .card, .content-container, .main-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  h1 { font-size: 2.8rem !important; }
+  h2 { font-size: 2.4rem !important; }
+  h3 { font-size: 2.1rem !important; }
+  
+  .btn {
+    min-height: 60px !important;
+    font-size: 1.3rem !important;
+    padding: 1rem 2rem !important;
+  }
+  
+  input, textarea, select {
+    min-height: 55px !important;
+    font-size: 1.2rem !important;
+  }
+}

@@ -32,11 +32,57 @@ app.get('/api/dictionary', (req, res) => {
   });
 });
 
-// La route pour l'inscription à la newsletter a été supprimée.
-// Le fichier server/subscribers.json peut être supprimé manuellement s'il a été créé.
+// Nouvelle route pour /api/dictionary/entries
+app.get('/api/dictionary/entries', (req, res) => {
+  const dictionaryPath = path.join(__dirname, 'dictionary.json');
+  fs.readFile(dictionaryPath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading dictionary.json:', err);
+      return res.status(500).json({ error: 'Unable to read dictionary data' });
+    }
+    res.json(JSON.parse(data));
+  });
+});
 
-// Les routes pour /api/study-requests (GET et POST) ont été supprimées car la gestion se fait maintenant côté client avec localStorage.
-// Le fichier server/study_requests.json peut être supprimé manuellement s'il a été créé.
+// Nouvelle route pour /api/dictionary/entries/:id
+app.get('/api/dictionary/entries/:id', (req, res) => {
+  const entryId = req.params.id;
+  const dictionaryPath = path.join(__dirname, 'dictionary.json');
+  fs.readFile(dictionaryPath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading dictionary.json:', err);
+      return res.status(500).json({ error: 'Unable to read dictionary data' });
+    }
+    const dictionary = JSON.parse(data);
+    const entry = dictionary.find(item => item.id === entryId); // Assuming each entry has an 'id' field
+    if (entry) {
+      res.json(entry);
+    } else {
+      res.status(404).json({ error: 'Entry not found' });
+    }
+  });
+});
+
+// Nouvelle route pour /api/dictionary/search
+app.get('/api/dictionary/search', (req, res) => {
+  const query = req.query.q;
+  const language = req.query.lang; // You might use this for language-specific search
+  const dictionaryPath = path.join(__dirname, 'dictionary.json');
+  fs.readFile(dictionaryPath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading dictionary.json:', err);
+      return res.status(500).json({ error: 'Unable to read dictionary data' });
+    }
+    const dictionary = JSON.parse(data);
+    // Basic search logic: filter entries that contain the query in any string field
+    const results = dictionary.filter(entry =>
+      Object.values(entry).some(value =>
+        typeof value === 'string' && value.toLowerCase().includes(query.toLowerCase())
+      )
+    );
+    res.json(results);
+  });
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

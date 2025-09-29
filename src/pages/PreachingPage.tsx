@@ -10,11 +10,11 @@ const PreachingPage: React.FC = () => {
   const [showPracticeModal, setShowPracticeModal] = useState(false);
   
   return (
-    <div className="page-transition py-2 bg-gray-100 min-h-screen">
+    <div className="page-transition py-2 bg-muted min-h-screen">
       <div className="container mx-auto px-3 sm:px-4"> {/* px-2 à px-3 sm:px-4 */}
         <div className="text-center mb-3 sm:mb-4"> {/* mb-2 à mb-3 sm:mb-4 */}
           <h1 className="text-xl sm:text-2xl font-bold mb-1">{t('predicacao.titulo')}</h1>
-          <p className="text-sm text-gray-600 max-w-3xl mx-auto"> {/* text-xs à text-sm */}
+          <p className="text-sm text-muted-foreground max-w-3xl mx-auto"> {/* text-xs à text-sm */}
             {t('predicacao.subtitulo')}
           </p>
         </div>
@@ -40,11 +40,11 @@ const PreachingPage: React.FC = () => {
                   <h3 className="font-bold mb-1 text-base"> {/* text-sm à text-base */}
                     {presentation.title[language]}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-2 line-clamp-3 leading-snug"> {/* text-xs à text-sm, line-clamp-2 à line-clamp-3, ajout de leading-snug */}
+                  <p className="text-muted-foreground text-sm mb-2 line-clamp-3 leading-snug"> {/* text-xs à text-sm, line-clamp-2 à line-clamp-3, ajout de leading-snug */}
                     {presentation.introduction[language]}
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-500"> {/* text-xs à text-sm */}
+                    <span className="text-sm text-muted-foreground"> {/* text-xs à text-sm */}
                       {presentation.scripture.reference}
                     </span>
                     <button 
@@ -62,7 +62,7 @@ const PreachingPage: React.FC = () => {
             ))}
           </div>
         ) : (
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl mx-auto"> {/* shadow-md à shadow-lg */}
+          <div className="bg-card rounded-lg shadow-lg overflow-hidden max-w-4xl mx-auto"> {/* shadow-md à shadow-lg */}
             <div className="relative aspect-video sm:aspect-[2/1] overflow-hidden"> {/* h-32 remplacé par aspect-video sm:aspect-[2/1] */}
               <OptimizedImage 
                 src={activePresentation.image} 
@@ -87,16 +87,16 @@ const PreachingPage: React.FC = () => {
                 <h3 className="font-bold mb-1 text-primary-dark text-base">
                   {t('predicacao.introducao')}
                 </h3>
-                <p className="text-gray-700 text-sm">
+                <p className="text-card-foreground text-sm">
                   {activePresentation.introduction[language]}
                 </p>
               </div>
               
-              <div className="mb-3 bg-gray-50 p-3 rounded border-l-4 border-primary text-sm"> {/* border-l-2 à border-l-4 */}
+              <div className="mb-3 bg-muted p-3 rounded border-l-4 border-primary text-sm"> {/* border-l-2 à border-l-4 */}
                 <h3 className="font-bold mb-1 text-primary-dark text-base"> {/* Ajout de text-base */}
                   {t('predicacao.textoBiblico')}
                 </h3>
-                <p className="text-gray-700 italic">
+                <p className="text-card-foreground italic">
                   <span className="font-semibold">{activePresentation.scripture.reference}:</span> {activePresentation.scripture.text[language]}
                 </p>
               </div>
@@ -105,7 +105,7 @@ const PreachingPage: React.FC = () => {
                 <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
                   {t('predicacao.pergunta')}
                 </h3>
-                <p className="text-gray-700 text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
+                <p className="text-card-foreground text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
                   {activePresentation.question[language]}
                 </p>
               </div>
@@ -114,7 +114,7 @@ const PreachingPage: React.FC = () => {
                 <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
                   {t('predicacao.explicacao')}
                 </h3>
-                <p className="text-gray-700 text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
+                <p className="text-card-foreground text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
                   {activePresentation.explanation[language]}
                 </p>
               </div>
@@ -123,7 +123,7 @@ const PreachingPage: React.FC = () => {
                 <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
                   {t('predicacao.conclusao')}
                 </h3>
-                <p className="text-gray-700 text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
+                <p className="text-card-foreground text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
                   {activePresentation.conclusion[language]}
                 </p>
               </div>
@@ -150,17 +150,17 @@ const PreachingPage: React.FC = () => {
         {/* Practice Modal */}
         {showPracticeModal && activePresentation && (
           <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-2">
-            <div className="bg-white rounded w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+            <div className="bg-card rounded w-full max-w-2xl max-h-[90vh] overflow-y-auto">
               <div className="p-3">
                 <h2 className="text-lg font-bold mb-2">
                   {t('predicacao.botaoPraticar')}: {activePresentation.title[language]}
                 </h2>
                 
                 <div className="mb-4">
-                  <h3 className="text-base font-bold mb-1 text-gray-700">
+                  <h3 className="text-base font-bold mb-1 text-card-foreground">
                     {language === 'pt' ? 'Dicas para prática:' : 'Dikas pa prátika:'}
                   </h3>
-                  <ul className="list-disc pl-4 space-y-1 text-sm text-gray-600">
+                  <ul className="list-disc pl-4 space-y-1 text-sm text-muted-foreground">
                     <li>
                       {language === 'pt' 
                         ? 'Pratique a introdução em voz alta várias vezes.' 
@@ -184,8 +184,8 @@ const PreachingPage: React.FC = () => {
                   </ul>
                 </div>
                 
-                <div className="bg-gray-50 p-2 rounded mb-4 text-sm">
-                  <h3 className="text-base font-bold mb-1 text-gray-700">
+                <div className="bg-muted p-2 rounded mb-4 text-sm">
+                  <h3 className="text-base font-bold mb-1 text-card-foreground">
                     {language === 'pt' ? 'Exemplo de diálogo:' : 'Izemplu di diálogu:'}
                   </h3>
                   <div className="space-y-2">

@@ -4,6 +4,7 @@ import { Star } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import { grammarLessons, GrammarLesson } from '../data/grammarData';
 import { translations } from '../data/translations';
+import { dictionaryData } from '../data/dictionaryData';
 
 interface DictionaryEntry {
   id: string;
@@ -21,14 +22,19 @@ interface DictionaryEntry {
 
 const GrammarDictionaryPage: React.FC = () => {
   const { language } = useLanguage();
-  const secaoGramaticaTrad = translations.gramaticaSecao;
-  const dicionarioTrad = translations.dicionario;
-  const comumTrad = translations.comum;
-  const iuTrad = translations.iu;
-  const favoritosTrad = translations.favoritos;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const secaoGramaticaTrad = translations.gramaticaSecao as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const dicionarioTrad = translations.dicionario as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const comumTrad = translations.comum as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const iuTrad = translations.iu as any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const favoritosTrad = translations.favoritos as any;
 
   const [activeTab, setActiveTab] = useState<'grammar' | 'dictionary' | 'favorites'>('grammar');
-  const [dictionaryData, setDictionaryData] = useState<DictionaryEntry[]>([]);
+  const [dictionaryDataState, setDictionaryData] = useState<DictionaryEntry[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loadingDictionary, setLoadingDictionary] = useState(true);
   const [errorDictionary, setErrorDictionary] = useState<string | null>(null);
@@ -57,56 +63,59 @@ const GrammarDictionaryPage: React.FC = () => {
 
   // Charger les données du dictionnaire
   useEffect(() => {
-    if ((activeTab === 'dictionary' || activeTab === 'favorites') && dictionaryData.length === 0 && loadingDictionary) {
-      const fetchDictionaryData = async () => {
-        try {
-          const response = await fetch('/dictionary.json');
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          const data = await response.json();
-          setDictionaryData(data);
-          const fuseOptions = {
-            keys: [
-              { name: 'word', weight: 0.4 },
-              { name: 'translation.pt', weight: 0.3 },
-              { name: 'translation.cv', weight: 0.3 },
-            ],
-            includeScore: true,
-            threshold: 0.6,
-            minMatchCharLength: 1,
-            ignoreLocation: true,
-          };
-          setFuse(new Fuse(data, fuseOptions));
-        } catch (error) {
-          console.error("Failed to load dictionary data:", error);
-          setErrorDictionary(language === 'pt' ? 'Falha ao carregar dados do dicionário.' : 'Falha na karga dadus di disionáriu.');
-        } finally {
-          setLoadingDictionary(false);
-        }
-      };
-      fetchDictionaryData();
-    } else if (activeTab !== 'dictionary' && activeTab !== 'favorites' && dictionaryData.length > 0 && !loadingDictionary) {
-      // Optionnel: décharger les données du dictionnaire si on n'est plus sur les onglets concernés pour économiser la mémoire
-      // setDictionaryData([]);
-      // setLoadingDictionary(true); // Pour recharger si on revient
-      // setFuse(null);
+    if ((activeTab === 'dictionary' || activeTab === 'favorites') && dictionaryDataState.length === 0) {
+      try {
+        console.log('Chargement du dictionnaire...');
+        
+        // Utiliser les données intégrées depuis dictionaryData.ts
+        console.log('Données du dictionnaire chargées :', dictionaryData.length, 'entrées');
+        
+        setDictionaryData(dictionaryData);
+        
+        const fuseOptions = {
+          keys: [
+            { name: 'word', weight: 0.4 },
+            { name: 'translation.pt', weight: 0.3 },
+            { name: 'translation.cv', weight: 0.3 },
+          ],
+          includeScore: true,
+          threshold: 0.6,
+          minMatchCharLength: 1,
+          ignoreLocation: true,
+        };
+        
+        setFuse(new Fuse(dictionaryData, fuseOptions));
+        setLoadingDictionary(false);
+        console.log('Dictionnaire chargé avec succès');
+      } catch (error) {
+        console.error("ERREUR DICTIONNAIRE:", error);
+        setErrorDictionary('Erreur technique. Veuillez réessayer.');
+        setLoadingDictionary(false);
+      }
     }
-  }, [activeTab, language, dictionaryData.length, loadingDictionary]);
+  }, [activeTab, language, dictionaryDataState.length, loadingDictionary]);
 
   const filteredDictionary = useMemo(() => {
-    if (!searchTerm.trim()) {
-      return dictionaryData;
+    try {
+      if (!searchTerm.trim()) {
+        return dictionaryDataState;
+      }
+      
+      if (fuse) {
+        return fuse.search(searchTerm).map(result => result.item);
+      }
+      
+      // Fallback si Fuse n'est pas disponible
+      return dictionaryDataState.filter(entry => 
+        entry.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (entry.translation.pt && entry.translation.pt.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        (entry.translation.cv && entry.translation.cv.toLowerCase().includes(searchTerm.toLowerCase()))
+      );
+    } catch (error) {
+      console.error('Erreur lors de la recherche:', error);
+      return [];
     }
-    if (fuse) {
-      return fuse.search(searchTerm).map(result => result.item);
-    }
-    return dictionaryData.filter(entry =>
-      entry.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      entry.translation.pt.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      entry.translation.cv.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-  }, [searchTerm, dictionaryData, fuse]);
+  }, [searchTerm, dictionaryDataState, fuse]);
 
   const toggleFavorite = useCallback((id: string) => {
     setFavorites(prev => {
@@ -122,16 +131,16 @@ const GrammarDictionaryPage: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6 text-center">{secaoGramaticaTrad.titulo[language]}</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-foreground">{secaoGramaticaTrad.titulo[language]}</h1>
 
-      <div className="mb-4 border-b border-gray-200 dark:border-zinc-700">
+      <div className="mb-4 border-b border-border">
         <nav className="-mb-px flex space-x-4" aria-label="Tabs">
           <button
             onClick={() => setActiveTab('grammar')}
             className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${
               activeTab === 'grammar'
                 ? 'border-primary text-primary'
-                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:border-gray-600'
+                : 'border-transparent text-muted-foreground hover:text-foreground hover:border-border'
             }`}
           >
             {secaoGramaticaTrad.tituloGramatica[language]}
@@ -141,7 +150,7 @@ const GrammarDictionaryPage: React.FC = () => {
             className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ml-2 ${
               activeTab === 'dictionary'
                 ? 'border-primary text-primary'
-                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:border-gray-600'
+                : 'border-transparent text-muted-foreground hover:text-foreground hover:border-border'
             }`}
           >
             {dicionarioTrad.titulo[language]}
@@ -151,7 +160,7 @@ const GrammarDictionaryPage: React.FC = () => {
             className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ml-2 ${
               activeTab === 'favorites'
                 ? 'border-primary text-primary'
-                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:border-gray-600'
+                : 'border-transparent text-muted-foreground hover:text-foreground hover:border-border'
             }`}
           >
             {comumTrad.favoritos[language]}
@@ -205,15 +214,15 @@ const GrammarDictionaryPage: React.FC = () => {
                 {searchTerm && (
                   <button
                     onClick={() => setSearchTerm('')}
-                    className="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                    className="absolute inset-y-0 right-0 flex items-center pr-3 text-muted-foreground hover:text-foreground"
                     aria-label={comumTrad.limparPesquisa[language]}
                   >
                     {'\u2715'}
                   </button>
                 )}
               </div>
-              {loadingDictionary && dictionaryData.length === 0 && <p>{iuTrad.carregando[language]}</p>}
-              {errorDictionary && <p className="text-red-500">{errorDictionary}</p>}
+              {loadingDictionary && dictionaryData.length === 0 && <p className="text-muted-foreground">{iuTrad.carregando[language]}</p>}
+              {errorDictionary && <p className="text-destructive">{errorDictionary}</p>}
               {!loadingDictionary && !errorDictionary && (
                 <div className="space-y-3">
                   {filteredDictionary.length > 0 ? (
@@ -226,7 +235,7 @@ const GrammarDictionaryPage: React.FC = () => {
                               <button
                                 onClick={() => toggleFavorite(entry.id)}
                                 className={`p-1 -mt-1 -mr-1 ${
-                                  favorites.has(entry.id) ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400 dark:text-gray-600 dark:hover:text-yellow-400'
+                                  favorites.has(entry.id) ? 'text-yellow-400' : 'text-muted-foreground hover:text-yellow-400'
                                 }`}
                                 aria-label={favorites.has(entry.id) ? comumTrad.removerDosFavoritos[language] : comumTrad.adicionarAosFavoritos[language]}
                               >
@@ -250,7 +259,7 @@ const GrammarDictionaryPage: React.FC = () => {
                       ))}
                     </div>
                   ) : (
-                    <p>{secaoGramaticaTrad.semResultados[language]}</p>
+                    <p className="text-muted-foreground">{secaoGramaticaTrad.semResultados[language]}</p>
                   )}
                 </div>
               )}
@@ -262,11 +271,11 @@ const GrammarDictionaryPage: React.FC = () => {
           <div id="favorites-content" role="tabpanel" aria-labelledby="favorites-tab">
             <section>
               <h2 className="text-2xl font-semibold mb-4 sr-only">{comumTrad.favoritos[language]}</h2>
-              {loadingDictionary && dictionaryData.length === 0 && <p>{iuTrad.carregando[language]}</p>}
-              {errorDictionary && <p className="text-red-500">{errorDictionary}</p>}
+              {loadingDictionary && dictionaryData.length === 0 && <p className="text-muted-foreground">{iuTrad.carregando[language]}</p>}
+              {errorDictionary && <p className="text-destructive">{errorDictionary}</p>}
               {!loadingDictionary && !errorDictionary && (
                 (() => {
-                  const favoriteEntries = dictionaryData.filter(entry => favorites.has(entry.id));
+                  const favoriteEntries = dictionaryDataState.filter(entry => favorites.has(entry.id));
                   if (favoriteEntries.length > 0) {
                     return (
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -303,9 +312,9 @@ const GrammarDictionaryPage: React.FC = () => {
                   } else {
                     return (
                       <div className="text-center py-8">
-                        <Star className="mx-auto h-12 w-12 text-gray-300 dark:text-gray-600" fill="currentColor" />
-                        <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-white">{favoritosTrad.tituloVazio[language]}</h3>
-                        <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">{favoritosTrad.descricaoVazia[language]}</p>
+                        <Star className="mx-auto h-12 w-12 text-muted-foreground" fill="currentColor" />
+                        <h3 className="mt-2 text-lg font-medium text-foreground">{favoritosTrad.tituloVazio[language]}</h3>
+                        <p className="mt-1 text-sm text-muted-foreground">{favoritosTrad.descricaoVazia[language]}</p>
                         <div className="mt-6">
                           <button
                             type="button"

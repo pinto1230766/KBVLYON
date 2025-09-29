@@ -729,16 +729,16 @@ const BibleStudiesPage: React.FC = () => {
   };
   
   return (
-    <div className="page-transition min-h-screen bg-gradient-to-b from-blue-50 to-white py-4"> {/* Ajout de py-4 */}
+    <div className="page-transition min-h-screen bg-gradient-to-b from-muted to-background py-4"> {/* Ajout de py-4 */}
       <div className="container mx-auto px-3 sm:px-4"> {/* px-0.5 à px-3 sm:px-4 */}
         <div className="text-center mb-4 sm:mb-6"> {/* mb-2 à mb-4 sm:mb-6 */}
           <div className="flex items-center justify-center mb-1"> {/* mb-0.5 à mb-1 */}
             <Heart className="w-5 h-5 text-primary-dark mr-1.5" /> {/* w-2.5 h-2.5 à w-5 h-5, mr-0.5 à mr-1.5 */}
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-900"> {/* text-xs à text-xl sm:text-2xl */}
+            <h1 className="text-xl sm:text-2xl font-bold text-foreground"> {/* text-xs à text-xl sm:text-2xl */}
               {t('estudosBiblicosPagina.titulo')}
             </h1>
           </div>
-          <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto"> {/* text-xs à text-sm sm:text-base, mt-0 enlevé */}
+          <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto"> {/* text-xs à text-sm sm:text-base, mt-0 enlevé */}
             {t('estudosBiblicosPagina.subtitulo')}
           </p>
         </div>
@@ -747,7 +747,7 @@ const BibleStudiesPage: React.FC = () => {
           {[...bibleStudies].sort((a, b) => a.id - b.id).map((study: BibleStudy) => (
             <div 
               key={study.id} 
-              className="mb-3 sm:mb-4 bg-white rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg" // rounded-xl à rounded-lg, shadow-lg à shadow-md, hover:shadow-xl à hover:shadow-lg
+              className="mb-3 sm:mb-4 bg-card rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg" // rounded-xl à rounded-lg, shadow-lg à shadow-md, hover:shadow-xl à hover:shadow-lg
             >
               <div className="cursor-pointer"
                 onClick={() => toggleStudy(study.id)}
@@ -772,7 +772,7 @@ const BibleStudiesPage: React.FC = () => {
                 </div>
                 
                 <div className="px-3 py-2 sm:px-4 sm:py-3 flex justify-between items-center text-sm"> {/* text-[13px] à text-sm, padding ajusté */}
-                  <span className="text-gray-700 font-medium">
+                  <span className="text-card-foreground font-medium">
                     {expandedStudy === study.id ? t('iu.fechar') : t('iu.proximo')}
                   </span>
                   {expandedStudy === study.id ? (
@@ -792,7 +792,7 @@ const BibleStudiesPage: React.FC = () => {
                       </h3>
                       <ul className="list-disc pl-5 space-y-1.5 text-sm leading-relaxed"> {/* text-[13px] à text-sm, space-y-2 à space-y-1.5 */}
                         {study.content[language].map((point: string, index: number) => (
-                          <li key={index} className="text-gray-700">
+                          <li key={index} className="text-card-foreground">
                             {point}
                           </li>
                         ))}

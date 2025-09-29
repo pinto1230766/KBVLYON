@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { BookOpen, Home, MessageCircle, Heart, Globe } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
+import { ThemeToggle } from './theme-toggle';
 
 const Navbar: React.FC = () => {
   const { t, language, setLanguage } = useLanguage();
@@ -21,10 +22,10 @@ const Navbar: React.FC = () => {
   const menuRef = React.useRef<HTMLDivElement>(null);
 
   return (
-    <header className="bg-primary-dark text-white sticky top-0 z-40 shadow-md" ref={menuRef}>
+    <header className="bg-primary sticky top-0 z-40 shadow-md" ref={menuRef}>
       <div className="container mx-auto px-3">
         <nav className="flex justify-between items-center h-10">
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2 text-black dark:text-white">
             <BookOpen size={16} className="flex-shrink-0" />
             <span className="font-bold whitespace-nowrap text-sm">KBVLYON</span>
           </Link>
@@ -35,8 +36,8 @@ const Navbar: React.FC = () => {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`flex items-center space-x-1 px-2 py-1 text-sm rounded transition-colors hover:bg-primary-light ${
-                  location.pathname === link.to ? 'bg-primary-light' : ''
+                className={`flex items-center space-x-1 px-2 py-1 text-sm rounded transition-colors text-black dark:text-white hover:bg-black/10 dark:hover:bg-white/20 ${
+                  location.pathname === link.to ? 'bg-black/20 dark:bg-white/30' : ''
                 }`}
               >
                 {React.cloneElement(link.icon, { className: 'flex-shrink-0' })}
@@ -44,11 +45,12 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
           </div>
-          {/* Sélecteur de langue à droite */}
-          <div className="flex items-center">
+          {/* Sélecteur de langue et thème à droite */}
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
             <button
               onClick={toggleLanguage}
-              className="flex items-center space-x-1 bg-white/20 hover:bg-white/30 px-3 py-1 rounded-full text-sm transition-colors"
+              className="flex items-center space-x-1 bg-black/10 dark:bg-white/20 hover:bg-black/20 dark:hover:bg-white/30 px-3 py-1 rounded-full text-sm transition-colors text-black dark:text-white"
               aria-label="Changer de langue"
             >
               <Globe size={16} />

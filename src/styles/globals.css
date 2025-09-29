@@ -19,12 +19,30 @@
     @apply font-heading font-bold tracking-tight;
   }
   
-  h1 { @apply text-4xl md:text-5xl lg:text-6xl; }
-  h2 { @apply text-3xl md:text-4xl; }
-  h3 { @apply text-2xl md:text-3xl; }
-  h4 { @apply text-xl md:text-2xl; }
-  h5 { @apply text-lg md:text-xl; }
-  h6 { @apply text-base md:text-lg; }
+  /* Taille des titres réduite pour un meilleur espacement */
+  h1 { @apply text-3xl md:text-4xl lg:text-5xl; }
+  h2 { @apply text-2xl md:text-3xl lg:text-4xl; }
+  h3 { @apply text-xl md:text-2xl lg:text-3xl; }
+  h4 { @apply text-lg md:text-xl lg:text-2xl; }
+  h5 { @apply text-base md:text-lg lg:text-xl; }
+  h6 { @apply text-sm md:text-base lg:text-lg; }
+  
+  /* Taille de police de base réduite */
+  html {
+    font-size: 14px; /* Taille de base réduite */
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 15px; /* Légèrement plus grand sur tablettes */
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    html {
+      font-size: 16px; /* Taille standard sur grands écrans */
+    }
+  }
   
   p {
     @apply leading-relaxed text-foreground/90;
@@ -39,92 +57,104 @@
   :root {
     /* Thème clair inspiré de jw.org */
     --background: 0 0% 98%; /* #F9F9F9 - Blanc cassé/gris très clair */
-    --foreground: 222.2 84% 4.9%; /* #0A2540 - Noir/bleu très foncé (inchangé pour l'instant) */
-
-    --card: 0 0% 100%; /* #FFFFFF - Blanc pour les cartes */
-    --card-foreground: 222.2 84% 4.9%; /* Identique à foreground */
-
-    --popover: 0 0% 100%; /* #FFFFFF - Blanc pour les popovers */
-    --popover-foreground: 222.2 84% 4.9%; /* Identique à foreground */
-
-    --primary: 205 56% 41%; /* #2A73A3 - Bleu jw.org pour les accents */
-    --primary-foreground: 0 0% 100%; /* #FFFFFF - Blanc pour le texte sur fond primaire */
+    --foreground: 222.2 84% 4.9%; /* #0A2540 - Noir/bleu très foncé */
     
-    /* Variables de couleur primaire spécifiques (peuvent être utilisées directement ou via primary) */
-    --primary-light: 205 56% 55%; /* Un bleu plus clair pour hover/focus si nécessaire */
-    --primary-dark: 218 23% 35%;  /* #4A506A - Bleu foncé pour la barre de navigation principale */
-    /* --primary-color-default: 217 83% 50%; /* #1A73E8 */ /* Ancienne valeur, peut être supprimée ou ajustée */
-
-    --secondary: 210 30% 90%; /* #DCE3EB - Gris bleuâtre clair */
-    --secondary-foreground: 215 25% 25%; /* #313B47 - Gris foncé pour texte sur fond secondaire */
-    /* --secondary-light: 188 100% 70%; */
-    /* --secondary-default: 190 100% 42%; */
-    /* --secondary-dark: 190 100% 33%; */
-
-    --muted: 210 30% 94%; /* #EAEFF4 - Gris clair pour éléments discrets */
-    --muted-foreground: 215 15% 45%; /* #656E7B - Gris moyen pour texte sur fond muted */
-
-    --accent: 205 56% 41%; /* Utilise la couleur primaire comme accent par défaut */
-    --accent-foreground: 0 0% 100%; /* Blanc pour texte sur fond accent */
-    --accent-light: 205 56% 75%; /* #A8D8F0 - Version plus claire de l'accent primaire */
-    /* --accent-default: 35 50% 62%; */ /* Ancienne valeur */
-    /* --accent-dark: 35 50% 36%; */ /* Ancienne valeur */
-
-    --success: 145 63% 42%; /* #2E8555 - Vert succès */
-    --warning: 35 85% 55%; /* #F0AD4E - Orange avertissement */
-    --error: 0 72% 51%;   /* #D9534F - Rouge erreur */
-
-    --destructive: 0 72% 51%; /* Identique à error */
-    --destructive-foreground: 0 0% 100%; /* Blanc pour texte sur fond destructive */
-
-    --border: 210 20% 88%; /* #D6DCE1 - Gris pour les bordures */
-    --input: 210 20% 96%; /* #F0F3F5 - Gris très clair pour fond d'input */
-    --ring: 205 56% 41%; /* Utilise la couleur primaire pour l'anneau de focus */
-
+    /* Couleurs primaires */
+    --primary: 205 56% 41%; /* #2A73A3 - Bleu jw.org */
+    --primary-foreground: 0 0% 100%; /* Blanc pour texte sur fond primaire */
+    --primary-light: 205 56% 55%; /* Bleu plus clair pour hover/focus */
+    --primary-dark: 218 23% 35%; /* #4A506A - Bleu foncé pour la barre de navigation */
+    
+    /* Couleurs secondaires */
+    --secondary: 194 100% 42%; /* #00B4D8 - Bleu cyan */
+    --secondary-foreground: 0 0% 100%; /* Blanc pour texte sur fond secondaire */
+    --secondary-light: 194 100% 60%; /* #4DD2FF - Version plus claire */
+    --secondary-dark: 194 100% 32%; /* #0084A6 - Version plus foncée */
+    
+    /* Accents */
+    --accent: 35 80% 65%; /* #D4A76A - Beige doré */
+    --accent-foreground: 0 0% 20%; /* Gris très foncé pour texte sur accent */
+    --accent-light: 35 80% 80%; /* #FFD99B - Version plus claire */
+    
+    /* Cartes et conteneurs */
+    --card: 0 0% 100%; /* Blanc pur pour les cartes */
+    --card-foreground: 222.2 84% 4.9%; /* Couleur du texte sur les cartes */
+    
+    /* Popovers */
+    --popover: 0 0% 100%; /* Blanc pour les popovers */
+    --popover-foreground: 222.2 84% 4.9%; /* Couleur du texte sur les popovers */
+    
+    /* Éléments en sourdine */
+    --muted: 210 20% 98%; /* Gris très clair pour éléments discrets */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Gris moyen pour texte en sourdine */
+    
+    /* Bordures et champs */
+    --border: 214.3 31.8% 91.4%; /* Gris clair pour les bordures */
+    --input: 214.3 31.8% 91.4%; /* Gris clair pour les champs de formulaire */
+    --ring: 205 56% 41%; /* Bleu jw.org pour les anneaux de focus */
+    
+    /* États et rétroactions */
+    --destructive: 0 84.2% 60.2%; /* Rouge pour les actions destructrices */
+    --destructive-foreground: 0 0% 100%; /* Blanc pour texte sur fond destructeur */
+    
+    /* Couleurs sémantiques */
+    --success: 142 76% 36%; /* Vert pour les succès */
+    --warning: 38 92% 50%; /* Orange pour les avertissements */
+    --error: 0 84% 60%; /* Rouge pour les erreurs */
+    --info: 199 89% 48%; /* Bleu pour les informations */
+    
+    /* Rayon des coins arrondis */
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 217.2 91.2% 59.8%; /* Dark primary */
-    --primary-foreground: 222.2 47.4% 11.2%; /* Dark primary foreground */
-    --primary-light: 217 100% 40%; /* Dark equivalent of #5EA1FF */
-    --primary-dark: 217 100% 70%; /* Dark equivalent of #0049B5 */
-    --primary-color-default: 217 83% 60%; /* Dark equivalent of #1A73E8 */
-
-    --secondary: 217.2 32.6% 17.5%; /* Dark secondary */
-    --secondary-foreground: 210 40% 98%; /* Dark secondary foreground */
-    --secondary-light: 188 100% 40%; /* Dark equivalent of #62E7FF */
-    --secondary-default: 190 100% 60%; /* Dark equivalent of #00B4D8 */
-    --secondary-dark: 190 100% 70%; /* Dark equivalent of #0084A6 */
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%; /* Dark accent */
-    --accent-foreground: 210 40% 98%; /* Dark accent foreground */
-    --accent-light: 39 100% 40%; /* Dark equivalent of #FFD99B */
-    --accent-default: 35 50% 40%; /* Dark equivalent of #D4A76A */
-    --accent-dark: 35 50% 60%; /* Dark equivalent of #8B5A2B */
-
-    --success: 122 47% 60%; /* Dark equivalent of #2E7D32 */
-    --warning: 31 100% 60%; /* Dark equivalent of #F57C00 */
-    --error: 0 70% 60%; /* Dark equivalent of #D32F2F */
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.3% 48%;
+    /* Thème sombre - optimisé pour la lisibilité */
+    --background: 222.2 84% 4.9%; /* #0A2540 - Noir/bleu très foncé */
+    --foreground: 210 40% 98%; /* #F8FAFC - Blanc cassé pour le texte */
+    
+    /* Couleurs primaires plus claires en mode sombre */
+    --primary: 205 56% 51%; /* #3A8BC3 - Bleu plus clair pour le mode sombre */
+    --primary-foreground: 0 0% 100%; /* Blanc pour texte sur fond primaire */
+    --primary-light: 205 80% 70%; /* Version plus claire pour les interactions */
+    --primary-dark: 205 56% 36%; /* Version plus foncée pour les éléments actifs */
+    
+    /* Couleurs secondaires adaptées au mode sombre */
+    --secondary: 194 70% 50%; /* #00B4D8 - Version plus claire pour le mode sombre */
+    --secondary-foreground: 0 0% 100%; /* Blanc pour texte sur fond secondaire */
+    --secondary-light: 194 100% 70%; /* Version plus claire pour les interactions */
+    --secondary-dark: 194 70% 35%; /* Version plus foncée pour les éléments actifs */
+    
+    /* Accents adaptés au mode sombre */
+    --accent: 35 80% 60%; /* #D4A76A - Version plus claire pour le mode sombre */
+    --accent-foreground: 0 0% 98%; /* Presque blanc pour texte sur fond d'accent */
+    --accent-light: 35 80% 75%; /* Version plus claire pour les interactions */
+    
+    /* Cartes et conteneurs en mode sombre */
+    --card: 222.2 84% 7.9%; /* #0F2D4F - Bleu foncé pour les cartes */
+    --card-foreground: 210 40% 98%; /* Blanc cassé pour le texte sur les cartes */
+    
+    /* Popovers en mode sombre */
+    --popover: 222.2 84% 7.9%; /* #0F2D4F - Bleu foncé pour les popovers */
+    --popover-foreground: 210 40% 98%; /* Blanc cassé pour le texte sur les popovers */
+    
+    /* Éléments en sourdine en mode sombre */
+    --muted: 217.2 32.6% 17.5%; /* Gris bleuté foncé pour éléments discrets */
+    --muted-foreground: 215 20.2% 65.1%; /* Gris clair pour texte en sourdine */
+    
+    /* Bordures et champs en mode sombre */
+    --border: 215 16% 25%; /* #2D3748 - Gris bleuté pour les bordures */
+    --input: 215 16% 25%; /* #2D3748 - Gris bleuté pour les champs de formulaire */
+    --ring: 205 56% 51%; /* #3A8BC3 - Bleu plus clair pour les anneaux de focus */
+    
+    /* États et rétroactions en mode sombre */
+    --destructive: 0 62.8% 40.6%; /* Rouge plus foncé pour les actions destructrices */
+    --destructive-foreground: 0 0% 98%; /* Presque blanc pour texte sur fond destructeur */
+    
+    /* Couleurs sémantiques en mode sombre (plus claires pour plus de visibilité) */
+    --success: 142 76% 50%; /* #10B981 - Vert plus clair pour le mode sombre */
+    --warning: 38 92% 55%; /* #F59E0B - Orange plus clair pour le mode sombre */
+    --error: 0 84% 65%; /* #EF4444 - Rouge plus clair pour le mode sombre */
+    --info: 199 89% 55%; /* #0EA5E9 - Bleu plus clair pour le mode sombre */
   }
 }
 
@@ -174,6 +204,35 @@ html {
 }
 
 /* Safe area padding pour la barre d'état sur mobile */
+.btn {
+  @apply text-2xl md:text-3xl py-4 px-8 rounded-xl min-h-[80px] md:min-h-[100px] flex items-center justify-center font-bold;
+}
+
+/* Augmentation de la taille des champs de formulaire */
+input, textarea, select {
+  @apply text-2xl md:text-3xl p-4 rounded-lg border-2 border-gray-300 w-full;
+  min-height: 80px;
+}
+
+/* Augmentation de la taille des étiquettes */
+label {
+  @apply text-2xl md:text-3xl font-medium mb-2 block;
+}
+
+/* Augmentation de l'espacement entre les éléments */
+.space-y-6 > * + * {
+  margin-top: 2.5rem;
+}
+
+/* Ajustement pour les tablettes */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+
 .safe-area-padding-top {
   padding-top: env(safe-area-inset-top);
 }

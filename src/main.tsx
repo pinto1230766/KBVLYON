@@ -6,6 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import App from './App';
 import './index.css';
 import './styles/globals.css';
+import './styles/tablet.css'; // Styles spécifiques pour les tablettes
 import { setupStagewise } from './utils/stagewise';
 
 // Vérifier que l'élément root existe

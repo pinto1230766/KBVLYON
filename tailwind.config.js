@@ -36,22 +36,37 @@ export default {
           light: 'hsl(var(--primary-light))',
           dark: 'hsl(var(--primary-dark))',
         },
-        primaryColor: {
-          DEFAULT: 'hsl(var(--primary-color-default))',
-        },
         secondary: {
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))',
           light: 'hsl(var(--secondary-light))',
-          DEFAULT: 'hsl(var(--secondary-default))',
           dark: 'hsl(var(--secondary-dark))',
         },
         accent: {
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))',
           light: 'hsl(var(--accent-light))',
-          DEFAULT: 'hsl(var(--accent-default))',
-          dark: 'hsl(var(--accent-dark))',
+        },
+        card: {
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))',
+        },
+        popover: {
+          DEFAULT: 'hsl(var(--popover))',
+          foreground: 'hsl(var(--popover-foreground))',
+        },
+        muted: {
+          DEFAULT: 'hsl(var(--muted))',
+          foreground: 'hsl(var(--muted-foreground))',
+        },
+        destructive: {
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))',
         },
         success: 'hsl(var(--success))',
         warning: 'hsl(var(--warning))',
         error: 'hsl(var(--error))',
+        info: 'hsl(var(--info))',
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
