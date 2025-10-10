@@ -1,63 +1,80 @@
-import React from 'react';
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { BookOpen, Home, MessageCircle, Heart, Globe } from 'lucide-react';
-import { useLanguage } from '../hooks/useLanguage';
-import { ThemeToggle } from './theme-toggle';
+import { useTranslation } from 'react-i18next';
+import { Button } from '@/components/ui/button';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Menu } from 'lucide-react';
+import { ThemeToggle } from '@/components/theme-toggle';
+import { LanguageSwitcher } from './language-switcher';
 
-const Navbar: React.FC = () => {
-  const { t, language, setLanguage } = useLanguage();
+const Navbar = () => {
+  const { t } = useTranslation();
   const location = useLocation();
-  
-  const toggleLanguage = () => {
-    setLanguage(language === 'pt' ? 'cv' : 'pt');
-  };
-  
-  const navLinks = [
-    { to: '/', label: t('nav.home'), icon: <Home size={20} /> },
-    { to: '/preaching', label: t('nav.preaching'), icon: <MessageCircle size={20} /> },
-    { to: '/bible-studies', label: t('nav.bibleStudies'), icon: <Heart size={20} /> }
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navigation = [
+    { name: t('navbar.home'), href: '/' },
+    { name: 'Gramática', href: '/grammar-dictionary' },
+    { name: 'Dicionário', href: '/dictionary' },
+    { name: 'Lições', href: '/lessons' },
+    { name: t('navbar.preaching'), href: '/preaching' },
+    { name: t('navbar.bibleStudies'), href: '/bible-studies' },
+    { name: t('navbar.notes'), href: '/notes' },
+    { name: t('navbar.about'), href: '/about' },
   ];
-  
-  // Référence pour le conteneur de la barre de navigation
-  const menuRef = React.useRef<HTMLDivElement>(null);
 
   return (
-    <header className="bg-primary sticky top-0 z-40 shadow-md" ref={menuRef}>
-      <div className="container mx-auto px-3">
-        <nav className="flex justify-between items-center h-10">
-          <Link to="/" className="flex items-center space-x-2 text-black dark:text-white">
-            <BookOpen size={16} className="flex-shrink-0" />
-            <span className="font-bold whitespace-nowrap text-sm">KBVLYON</span>
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-14 items-center">
+        <div className="mr-4 flex items-center space-x-2">
+          <Link to="/" className="mr-6 flex items-center space-x-2">
+            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-sm">K</span>
+            </div>
+            <span className="font-bold inline-block text-foreground">KBVLYON</span>
           </Link>
-          
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-2 lg:space-x-4">
-            {navLinks.map((link) => (
+        </div>
+
+        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
+          <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+            {navigation.map((item) => (
               <Link
-                key={link.to}
-                to={link.to}
-                className={`flex items-center space-x-1 px-2 py-1 text-sm rounded transition-colors text-black dark:text-white hover:bg-black/10 dark:hover:bg-white/20 ${
-                  location.pathname === link.to ? 'bg-black/20 dark:bg-white/30' : ''
-                }`}
+                key={item.href}
+                to={item.href}
+                className={`transition-colors hover:text-foreground/80 ${location.pathname === item.href ? 'text-foreground' : 'text-foreground/60'}`}
               >
-                {React.cloneElement(link.icon, { className: 'flex-shrink-0' })}
-                <span className="whitespace-nowrap">{link.label}</span>
+                {item.name}
               </Link>
             ))}
-          </div>
-          {/* Sélecteur de langue et thème à droite */}
-          <div className="flex items-center gap-2">
+          </nav>
+
+          <div className="flex items-center space-x-2">
+            <LanguageSwitcher />
             <ThemeToggle />
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center space-x-1 bg-black/10 dark:bg-white/20 hover:bg-black/20 dark:hover:bg-white/30 px-3 py-1 rounded-full text-sm transition-colors text-black dark:text-white"
-              aria-label="Changer de langue"
-            >
-              <Globe size={16} />
-              <span>{language === 'pt' ? 'PT' : 'CV'}</span>
-            </button>
           </div>
-        </nav>
+
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon" className="md:hidden">
+                <Menu className="h-5 w-5" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+              <div className="flex flex-col space-y-4 mt-4">
+                {navigation.map((item) => (
+                  <Link
+                    key={item.href}
+                    to={item.href}
+                    className={`transition-colors hover:text-foreground/80 ${location.pathname === item.href ? 'text-foreground' : 'text-foreground/60'}`}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

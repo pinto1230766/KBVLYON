@@ -30,12 +30,6 @@ export default defineConfig({
     ],
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
   },
-  // Configuration pour le chargement des modules
-  esbuild: {
-    loader: 'tsx',
-    include: /src\/.*\.tsx?$/,
-    exclude: [],
-  },
   plugins: [
     react({
       // Ajouter des options supplémentaires pour le plugin React si nécessaire

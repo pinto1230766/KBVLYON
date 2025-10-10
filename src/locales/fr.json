@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "title": "Paramètres",
+    "notifications": "Notifications",
+    "kingdomHalls": "Salles du Royaume",
+    "appInfo": "Informations sur l'application",
+    "version": "Version",
+    "developedBy": "Développé par",
+    "notifications": {
+      "bibleStudies": "Études bibliques",
+      "meetings": "Réunions",
+      "preaching": "Prédication",
+      "dailyText": "Texte quotidien"
+    },
+    "kingdomHalls": {
+      "findNearby": "Trouver les plus proches"
+    }
+  },
+  "navbar": {
+    "settings": "Paramètres"
+  }
+}

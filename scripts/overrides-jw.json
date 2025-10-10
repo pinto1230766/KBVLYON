@@ -1,0 +1,450 @@
+{
+  "Bíblia": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Bíblia",
+    "example": {
+      "pt": "A Bíblia é a Palavra de Deus.",
+      "cv": "Bíblia é Palabra di Deus."
+    }
+  },
+  "Deus": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Deus",
+    "example": {
+      "pt": "Deus ama a humanidade.",
+      "cv": "Deus ta ama humanidade."
+    }
+  },
+  "congregação": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "congregação",
+    "example": {
+      "pt": "Vamos à reunião da congregação.",
+      "cv": "Nu ta bai na runion di kongregason."
+    }
+  },
+  "estudo bíblico": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "estudo bíblico",
+    "example": {
+      "pt": "Gostaria de marcar um estudo bíblico?",
+      "cv": "Bu ta gosta pa marka un estúdiu bíbliku?"
+    }
+  },
+  "reunião": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "reunião",
+    "example": {
+      "pt": "A reunião começa às 19h.",
+      "cv": "Runion ta kumesa ás 19."
+    }
+  },
+  "Reino de Deus": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Reino de Deus",
+    "example": {
+      "pt": "Falamos sobre o Reino de Deus.",
+      "cv": "Nu ta papia sobri Reino di Deus."
+    }
+  },
+  "Boas Novas": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Boas Novas",
+    "example": {
+      "pt": "Estamos a partilhar as Boas Novas.",
+      "cv": "Nu ta partilha Boas Novas."
+    }
+  },
+  "oração": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "oração",
+    "example": {
+      "pt": "Podemos fazer uma oração?",
+      "cv": "Nu podi fazi un orason?"
+    }
+  },
+  "batismo": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "batismo",
+    "example": {
+      "pt": "O batismo é um passo importante.",
+      "cv": "Batiziu é un pasi importanti."
+    }
+  },
+  "ancião": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "ancião",
+    "example": {
+      "pt": "O ancião vai ajudar você.",
+      "cv": "Ansiãu ta djuda bo."
+    }
+  },
+  "servo ministerial": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "servo ministerial",
+    "example": {
+      "pt": "Ele é servo ministerial.",
+      "cv": "El é servu ministerial."
+    }
+  },
+  "publicação": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "publicação",
+    "example": {
+      "pt": "Esta é uma publicação bíblica.",
+      "cv": "Es é un publikason bíbliku."
+    }
+  },
+  "A Sentinela": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "A Sentinela",
+    "example": {
+      "pt": "Você já leu A Sentinela?",
+      "cv": "Bu dja le A Sentinela?"
+    }
+  },
+  "Despertai!": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Despertai!",
+    "example": {
+      "pt": "Esta edição do Despertai! é recente.",
+      "cv": "Es edison di Despertai! é rezenti."
+    }
+  },
+  "assembleia": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "assembleia",
+    "example": {
+      "pt": "Vamos à assembleia no fim de semana.",
+      "cv": "Nu ta bai na asémbleia na fin di simana."
+    }
+  },
+  "congresso": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "congresso",
+    "example": {
+      "pt": "O congresso foi muito encorajador.",
+      "cv": "Kongresu foi txeu di enkorejamentu."
+    }
+  },
+  "testemunha": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "testemunha",
+    "example": {
+      "pt": "Sou testemunha de Jeová.",
+      "cv": "N é tstimunha di Jeová."
+    }
+  },
+  "curso bíblico": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "curso bíblico",
+    "example": {
+      "pt": "Oferecemos curso bíblico gratuito.",
+      "cv": "Nu ta ofrese korsu bíbliku gratís."
+    }
+  },
+  "texto do dia": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "texto do dia",
+    "example": {
+      "pt": "Você já leu o texto do dia?",
+      "cv": "Bu dja le textu di dia?"
+    }
+  },
+  "publicador": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "publicador",
+    "example": {
+      "pt": "Sou publicador da congregação.",
+      "cv": "N é publikador na kongregason."
+    }
+  },
+  "pioneiro": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "pioneiro",
+    "example": {
+      "pt": "Ela serve como pioneira.",
+      "cv": "El ta servi komu pionéru."
+    }
+  },
+  "pioneiro auxiliar": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "pioneiro auxiliar",
+    "example": {
+      "pt": "Estou a servir como pioneiro auxiliar este mês.",
+      "cv": "N sta sirvi komu pionéru awziliar es mes."
+    }
+  },
+  "pioneiro regular": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "pioneiro regular",
+    "example": {
+      "pt": "Ele é pioneiro regular há dois anos.",
+      "cv": "El é pionéru regular dja tén dus anu."
+    }
+  },
+  "pioneiro especial": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "pioneiro especial",
+    "example": {
+      "pt": "Conhecemos um pioneiro especial.",
+      "cv": "Nu konxe un pionéru spesial."
+    }
+  },
+  "Salão do Reino": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Salão do Reino",
+    "example": {
+      "pt": "A reunião será no Salão do Reino.",
+      "cv": "Runion ta ser na Salon di Reino."
+    }
+  },
+  "superintendente de circuito": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "superintendente de circuito",
+    "example": {
+      "pt": "O superintendente de circuito visitará a congregação.",
+      "cv": "Superintendente di sirkuitu ta vizita kongregason."
+    }
+  },
+  "circuito": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "circuito",
+    "example": {
+      "pt": "Temos assembleia de circuito em novembro.",
+      "cv": "Nu ten asémbleia di sirkuitu na novembru."
+    }
+  },
+  "memorial": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Memorial da morte de Cristo",
+    "example": {
+      "pt": "Convidamos você para o Memorial da morte de Cristo.",
+      "cv": "Nu ta invita bo pa Memorial di morti di Kristu."
+    }
+  },
+  "Jesus": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Jesus",
+    "example": {
+      "pt": "Jesus ensinou com amor.",
+      "cv": "Jesus ta insina ku amor."
+    }
+  },
+  "Cristo": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Cristo",
+    "example": {
+      "pt": "Seguimos a Cristo.",
+      "cv": "Nu ta sigi Kristu."
+    }
+  },
+  "Jeová": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Jeová",
+    "example": {
+      "pt": "Jeová é nosso Deus.",
+      "cv": "Jeová é nos Deus."
+    }
+  },
+  "Espírito Santo": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Espírito Santo",
+    "example": {
+      "pt": "Pedimos ajuda do espírito santo.",
+      "cv": "Nu ta pidi ajuda di spiritu santu."
+    }
+  },
+  "ressurreição": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "ressurreição",
+    "example": {
+      "pt": "A Bíblia fala da ressurreição.",
+      "cv": "Bíblia ta fala di resureson."
+    }
+  },
+  "paraíso": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "paraíso",
+    "example": {
+      "pt": "Esperamos viver no paraíso.",
+      "cv": "Nu spera pa vivi na paraizu."
+    }
+  },
+  "fé": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "fé",
+    "example": {
+      "pt": "A fé nos fortalece.",
+      "cv": "Fé ta da nos forsa."
+    }
+  },
+  "esperança": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "esperança",
+    "example": {
+      "pt": "Temos esperança no Reino de Deus.",
+      "cv": "Nu ten speransa na Reino di Deus."
+    }
+  },
+  "amor": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "amor",
+    "example": {
+      "pt": "O amor é essencial para os cristãos.",
+      "cv": "Amor é esensiál pa kriston."
+    }
+  },
+  "humildade": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "humildade",
+    "example": {
+      "pt": "Devemos mostrar humildade.",
+      "cv": "Nos mesti mostra umildadi."
+    }
+  },
+  "arrependimento": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "arrependimento",
+    "example": {
+      "pt": "O arrependimento sincero agrada a Deus.",
+      "cv": "Arrependimentu sinseru ta agradá Deus."
+    }
+  },
+  "adorar": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "adorar",
+    "example": {
+      "pt": "Adoramos a Jeová.",
+      "cv": "Nu ta adora Jeová."
+    }
+  },
+  "ministério": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "ministério",
+    "example": {
+      "pt": "Gostamos do ministério de campo.",
+      "cv": "Nu gosta di ministréu di kampu."
+    }
+  },
+  "território": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "território",
+    "example": {
+      "pt": "Hoje vamos trabalhar no território.",
+      "cv": "Oji nu ta trabadja na territori."
+    }
+  },
+  "revisita": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "revisita",
+    "example": {
+      "pt": "Faremos uma revisita amanhã.",
+      "cv": "Manhan nu ta fazi un revisita."
+    }
+  },
+  "literatura": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "literatura",
+    "example": {
+      "pt": "Temos muita literatura bíblica.",
+      "cv": "Nu ten txeu literatura bíbliku."
+    }
+  },
+  "assembleia de circuito": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "assembleia de circuito",
+    "example": {
+      "pt": "A assembleia de circuito será em dezembro.",
+      "cv": "Asémbleia di sirkuitu ta ser na dezembru."
+    }
+  },
+  "congresso regional": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "congresso regional",
+    "example": {
+      "pt": "O congresso regional foi emocionante.",
+      "cv": "Kongresu rejional foi emocionanti."
+    }
+  },
+  "memorial da morte de Cristo": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Memorial da morte de Cristo",
+    "example": {
+      "pt": "O Memorial acontece uma vez por ano.",
+      "cv": "Memorial ta kontese un bês pa anu."
+    }
+  },
+  "Jesus Cristo": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Jesus Cristo",
+    "example": {
+      "pt": "Cremos em Jesus Cristo.",
+      "cv": "Nu kre na Jesus Kristu."
+    }
+  },
+  "Satanás": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "Satanás",
+    "example": {
+      "pt": "Satanás é o nosso inimigo.",
+      "cv": "Satanás é nos inimigu."
+    }
+  },
+  "demônios": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "demônios",
+    "example": {
+      "pt": "Os demônios enganam as pessoas.",
+      "cv": "Démon ta engana pesoas."
+    }
+  },
+  "obediência": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "obediência",
+    "example": {
+      "pt": "A obediência a Deus traz bênçãos.",
+      "cv": "Obediénsia a Deus ta traz bênson."
+    }
+  },
+  "orar": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "orar",
+    "example": {
+      "pt": "Devemos orar todos os dias.",
+      "cv": "Nos mesti ora tudu dia."
+    }
+  },
+  "pregar": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "pregar",
+    "example": {
+      "pt": "Vamos pregar esta tarde.",
+      "cv": "Nu ta prega es tardi."
+    }
+  },
+  "estudar": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "estudar",
+    "example": {
+      "pt": "Gosto de estudar a Bíblia.",
+      "cv": "N gusta di studa Bíblia."
+    }
+  },
+  "meditar": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "meditar",
+    "example": {
+      "pt": "É bom meditar nas Escrituras.",
+      "cv": "É bon medita na Skriduras."
+    }
+  },
+  "obedecer": {
+    "category": "Vocabulário Religioso",
+    "translation_pt": "obedecer",
+    "example": {
+      "pt": "Queremos obedecer a Deus.",
+      "cv": "Nu kre obeese Deus."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "Inisiu",
+    "preaching": "Pregason",
+    "grammarDictionary": "Disionariu",
+    "bibleStudies": "Studu Bibliku",
+    "notes": "Nota",
+    "about": "Sobri",
+    "settings": "Konfigurason"
+  },
+  "navegacao": {
+    "inicio": "Inisiu",
+    "pregacao": "Pregason",
+    "gramaticaDicionario": "Gramatika",
+    "estudosBiblicos": "Studu Bibliku",
+    "notas": "Nota",
+    "sobre": "Sobri",
+    "licoes": "Lison di Kriol",
+    "configuracoes": "Konfigurason"
+  },
+  "paginaInicial": {
+    "titulo": "Aprendi Kabuverdianu pa Pregason",
+    "textoDia": "Testu di Dia",
+    "tituloRecursos": "Rekursu Disponivel",
+    "recurso1Titulo": "Aprezentason pa Pregason",
+    "recurso1Desc": "10 aprezentason baziadu na publikason di JW.org pa uza na pregason.",
+    "recurso2Titulo": "Gramatika & Disionariu",
+    "recurso2Desc": "Aprendi estrutura baziku di lingua y amplia bu vokabulariu.",
+    "recurso3Titulo": "Studu Bibliku",
+    "recurso3Desc": "Rekursu y gia pa bu studu bibliku pesual.",
+    "recurso4Desc": "Akonpanha bu nota y atividadi di pregason",
+    "recurso5Desc": "Aprendi kriol pa prega di porta na porta",
+    "recurso6Desc": "Konfigura notifikason y preferensia"
+  },
+  "settings": {
+    "title": "Konfigurason",
+    "notificationsTitle": "Notifikason",
+    "kingdomHallsTitle": "Salon di Reino",
+    "appInfo": "Informason di aplikason",
+    "version": "Verson",
+    "developedBy": "Disenvolvido pa",
+    "language": "Lingua",
+    "theme": "Tema",
+    "darkMode": "Modu Skuru",
+    "lightMode": "Modu Klaru",
+    "systemMode": "Sistema",
+    "notifications": {
+      "bibleStudies": "Studu bibliku",
+      "meetings": "Runion",
+      "preaching": "Pregason",
+      "dailyText": "Testu dial"
+    },
+    "kingdomHalls": {
+      "findNearby": "Buska mas proximu"
+    },
+    "viewAll": "Odja tudu",
+    "shareApp": "Partilha App",
+    "copyright": "© 2024 Pinto Francisco"
+  }
+}

@@ -1,0 +1,30 @@
+Validation du dictionnaire
+Total: 4691
+Exemples vides: 0
+Traductions suspectes: 0
+
+Exemples vides (échantillon):
+
+Traductions suspectes (échantillon):
+
+Traductions contenant des tokens anglais (total: 4658)
+- aux auxiliary -> conjunction :: conjunction,
+- exclamation -> expression, id :: expression id
+- number -> past, particple :: past particple
+- preposition -> pro :: pro
+- form -> verb, alfabeto, Disonariu, Kabuverdianu :: verb alfabeto a o b p Disonariu   Kabuverdianu
+- u i -> dj, tx :: j w dj x l tx
+- a   a -> nhos, what, sobre, all, es, expr, what, is, this :: e.      a-­nhos?      e   what   sobre   você   (all)?   a   es?      expr      what   is   this?
+- a -> what, sobre, bo, what, sobre, bo :: e,   as   para,   e   what   sobre?   ~   bo   e   você,   e   what   sobre   você?      =y   bo.
+- aba -> aba, arredores :: 1   aba   (de   chapéu).      2   arredores.
+- abakati -> abacate, bakati, abal :: abacate.      =   bakati.   abal,
+- abala -> agitar, tocar :: agitar,   tocar.
+- abaladu -> shaken, touched :: shaken,   touched.
+- abandona -> abandonar :: abandonar.
+- abastesimentu -> fornecimento :: fornecimento,
+- abaxu -> down, below, sob, Abe, Maria, Ave :: down   below,   sob.   Abe   Maria,   Ave   M
+- aria -> expression, especially, Santiago :: expression   de   admiração   especially   em   Santiago.
+- abedja -> abelha, mel, mel :: abelha.      mel   d'~      mel.
+- abensa -> bb, see, benson :: bb      see   benson.
+- abensu -> blessings, blessed, said, por, parents, bride, groom, occasion, marriage :: com   blessings,   blessed   (said   por   parents   de   bride   e   groom   em   o/a   occasion   de   marriage).
+- abensua -> wish, well :: abençoar,   wish   well.

@@ -1,10 +1,5 @@
-import React, { useEffect, useState, useMemo, useCallback } from 'react';
-import Fuse from 'fuse.js';
-import { Star } from 'lucide-react';
-import { useLanguage } from '../hooks/useLanguage';
-import { grammarLessons, GrammarLesson } from '../data/grammarData';
-import { translations } from '../data/translations';
-import { dictionaryData } from '../data/dictionaryData';
+import { useState } from 'react';
+import { ChevronRight, Star } from 'lucide-react';
 
 interface DictionaryEntry {
   id: string;

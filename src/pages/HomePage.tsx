@@ -1,129 +1,212 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
-import { MessageCircle, Book, BookOpen } from 'lucide-react';
+import { MessageCircle, Book, BookOpen, StickyNote, Settings, BookMarked } from 'lucide-react';
 import OptimizedImage from '../components/OptimizedImage';
 
-const HomePage: React.FC = () => {
-  const { t } = useLanguage(); // language supprimé car non utilisé directement ici
+const HomePage = () => {
+  const { t } = useLanguage();
+  
+  // Obtenir la date actuelle
+  const currentDate = new Date().toLocaleDateString('pt-PT', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  });
   
   return (
-    <div className="page-transition">
+    <div className="min-h-screen bg-background">
+      {/* Hero Section avec Titre Principal */}
+      <section className="py-12 px-4 bg-gradient-to-b from-primary/5 to-background">
+        <div className="container mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+            {t('paginaInicial.titulo') || 'Aprenda Cabo-verdiano para Pregação'}
+          </h1>
+          
+          {/* Texto do Dia Card */}
+          <div className="max-w-2xl mx-auto bg-card border border-border rounded-lg p-6 mb-8 shadow-sm">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2">
+                <BookMarked className="w-5 h-5 text-primary" />
+                <h2 className="text-lg font-semibold text-foreground">
+                  {t('paginaInicial.textoDia') || 'Texto do Dia'}
+                </h2>
+              </div>
+              <button className="text-primary hover:text-primary/80">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </button>
+            </div>
+            
+            <p className="text-primary font-medium mb-3">Salmo 83:18</p>
+            
+            <p className="text-foreground text-lg leading-relaxed mb-4">
+              "Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra."
+            </p>
+            
+            <p className="text-muted-foreground text-sm">{currentDate}</p>
+          </div>
+        </div>
+      </section>
 
-      {/* Features Section */}
-      <section className="py-2 sm:py-3 bg-background"> {/* py-4 sm:py-6 à py-2 sm:py-3 */}
-        <div className="container mx-auto px-3 sm:px-4">
-          <h2 className="text-base sm:text-lg font-bold text-center mb-2 sm:mb-3"> {/* mb-3 sm:mb-4 à mb-2 sm:mb-3 */}
-            {t('paginaInicial.tituloRecursos')}
+      {/* Recursos Disponíveis Section */}
+      <section className="py-8 px-4">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-bold text-foreground text-center mb-8">
+            {t('paginaInicial.tituloRecursos') || 'Recursos Disponíveis'}
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-3"> {/* gap-3 sm:gap-4 à gap-2 sm:gap-3 */}
-            {/* Feature 1 - Pregação */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+            {/* Apresentações para Pregação */}
             <Link 
               to="/preaching" 
-              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md" // p-3 à p-2
+              className="group bg-card border border-border rounded-lg p-6 hover:shadow-lg hover:border-primary transition-all duration-300"
             >
-              <div className="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-0.5"> {/* mb-1 à mb-0.5 */}
-                <MessageCircle size={16} className="text-white" />
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                  <MessageCircle className="w-7 h-7 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {t('paginaInicial.recurso1Titulo') || 'Apresentações para Pregação'}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t('paginaInicial.recurso1Desc') || '10 apresentações baseadas em publicações da JW.org...'}
+                </p>
               </div>
-              <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
-                {t('paginaInicial.recurso1Titulo')}
-              </h3>
-              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
-                {t('paginaInicial.recurso1Desc')}
-              </p>
             </Link>
-            
-            {/* Feature 2 - Dicionário */}
+
+            {/* Gramática & Dicionário */}
             <Link 
               to="/grammar-dictionary" 
-              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md" // p-3 à p-2
+              className="group bg-card border border-border rounded-lg p-6 hover:shadow-lg hover:border-primary transition-all duration-300"
             >
-              <div className="w-8 h-8 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-0.5"> {/* mb-1 à mb-0.5 */}
-                <Book size={16} className="text-white" />
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                  <Book className="w-7 h-7 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {t('paginaInicial.recurso2Titulo') || 'Gramática & Dicionário'}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t('paginaInicial.recurso2Desc') || 'Aprenda a estrutura básica da língua e amplie seu...'}
+                </p>
               </div>
-              <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
-                {t('paginaInicial.recurso2Titulo')}
-              </h3>
-              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug"> {/* mb-1 à mb-0.5, line-clamp-3 à line-clamp-2 */}
-                {t('paginaInicial.recurso2Desc')}
-              </p>
             </Link>
 
-            {/* Feature 3 - Estudos Bíblicos */}
+            {/* Estudos Bíblicos */}
             <Link 
               to="/bible-studies" 
-              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md" // p-3 à p-2
+              className="group bg-card border border-border rounded-lg p-6 hover:shadow-lg hover:border-accent transition-all duration-300"
             >
-              <div className="w-8 h-8 bg-accent-light rounded-full flex items-center justify-center mx-auto mb-0.5"> {/* mb-1 à mb-0.5 */}
-                <BookOpen size={16} className="text-white" />
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-accent/20 transition-colors">
+                  <BookOpen className="w-7 h-7 text-accent" />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {t('navegacao.estudosBiblicos') || 'Estudos Bíblicos'}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t('paginaInicial.recurso3Desc') || 'Recursos e guias para seus estudos bíblicos pessoais.'}
+                </p>
               </div>
-              <h3 className="text-sm sm:text-base font-bold mb-0.5"> {/* mb-1 à mb-0.5 */}
-                {t('navegacao.estudosBiblicos')}
-              </h3>
-              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug">
-                {t('paginaInicial.recurso3Desc')}
-              </p>
             </Link>
 
-            {/* Feature 4 - Notes */}
+            {/* Notas */}
             <Link 
               to="/notes" 
-              className="card p-2 text-center block hover:shadow-md transition-shadow rounded-md"
+              className="group bg-card border border-border rounded-lg p-6 hover:shadow-lg hover:border-primary transition-all duration-300"
             >
-              <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center mx-auto mb-0.5">
-                <BookOpen size={16} className="text-white" />
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                  <StickyNote className="w-7 h-7 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {t('navegacao.notas') || 'Notas'}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t('paginaInicial.recurso4Desc') || 'Acompanhe suas notas e atividades de pregação'}
+                </p>
               </div>
-              <h3 className="text-sm sm:text-base font-bold mb-0.5">
-                {t('navegacao.notas')}
-              </h3>
-              <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 line-clamp-2 leading-snug">
-                {t('paginaInicial.recurso4Desc')}
-              </p>
+            </Link>
+
+            {/* Lições de Crioulo */}
+            <Link 
+              to="/lessons" 
+              className="group bg-card border border-border rounded-lg p-6 hover:shadow-lg hover:border-secondary transition-all duration-300"
+            >
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-secondary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-secondary/20 transition-colors">
+                  <BookMarked className="w-7 h-7 text-secondary" />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {t('navegacao.licoes') || 'Lições de Crioulo'}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t('paginaInicial.recurso5Desc') || 'Aprenda crioulo para pregar de porta em porta'}
+                </p>
+              </div>
+            </Link>
+
+            {/* Configurações */}
+            <Link 
+              to="/settings" 
+              className="group bg-card border border-border rounded-lg p-6 hover:shadow-lg hover:border-primary transition-all duration-300"
+            >
+              <div className="flex flex-col items-center text-center">
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                  <Settings className="w-7 h-7 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold text-foreground mb-2">
+                  {t('navegacao.configuracoes') || 'Configurações'}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t('paginaInicial.recurso6Desc') || 'Configure notificações e preferências'}
+                </p>
+              </div>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Image Gallery */}
-      <section className="py-2 bg-muted"> {/* py-3 à py-2 */}
-        <div className="container mx-auto px-2">
-          <h2 className="text-sm font-bold text-center mb-0.5">Cabo Verde</h2> {/* mb-1 à mb-0.5 */}
-          <div className="grid grid-cols-2 gap-1">
-            <div className="h-14 overflow-hidden rounded">
+      {/* Cabo Verde Image Gallery */}
+      <section className="py-12 px-4 bg-muted/30">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-bold text-foreground text-center mb-6">Cabo Verde</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+            <div className="aspect-video overflow-hidden rounded-lg border border-border shadow-sm">
               <OptimizedImage 
                 src="/images/lessons/page 1.1.jpg" 
-                alt="Cabo Verde - Vue 1" 
-                className="w-full h-full object-cover"
-                width={300}
-                height={60}
+                alt="Cabo Verde - Vista 1" 
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                width={400}
+                height={225}
               />
             </div>
-            <div className="h-14 overflow-hidden rounded">
+            <div className="aspect-video overflow-hidden rounded-lg border border-border shadow-sm">
               <OptimizedImage 
                 src="/images/lessons/page 1.2.jpg" 
-                alt="Cabo Verde - Vue 2" 
-                className="w-full h-full object-cover"
-                width={300}
-                height={60}
+                alt="Cabo Verde - Vista 2" 
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                width={400}
+                height={225}
               />
             </div>
-            <div className="h-14 overflow-hidden rounded">
+            <div className="aspect-video overflow-hidden rounded-lg border border-border shadow-sm">
               <OptimizedImage 
                 src="/images/lessons/page 1.3.jpg" 
-                alt="Cabo Verde - Vue 3" 
-                className="w-full h-full object-cover"
-                width={300}
-                height={60}
+                alt="Cabo Verde - Vista 3" 
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                width={400}
+                height={225}
               />
             </div>
-            <div className="h-14 overflow-hidden rounded">
+            <div className="aspect-video overflow-hidden rounded-lg border border-border shadow-sm">
               <OptimizedImage 
                 src="/images/lessons/page 1.4.jpg" 
-                alt="Cabo Verde - Vue 4" 
-                className="w-full h-full object-cover"
-                width={300}
-                height={60}
+                alt="Cabo Verde - Vista 4" 
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                width={400}
+                height={225}
               />
             </div>
           </div>

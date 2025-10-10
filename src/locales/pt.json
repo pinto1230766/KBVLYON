@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "Início",
+    "preaching": "Pregação",
+    "grammarDictionary": "Dicionário",
+    "bibleStudies": "Estudos Bíblicos",
+    "notes": "Notas",
+    "about": "Sobre",
+    "settings": "Configurações"
+  },
+  "navegacao": {
+    "inicio": "Início",
+    "pregacao": "Pregação",
+    "gramaticaDicionario": "Gramática",
+    "estudosBiblicos": "Estudos Bíblicos",
+    "notas": "Notas",
+    "sobre": "Sobre",
+    "licoes": "Lições de Crioulo",
+    "configuracoes": "Configurações"
+  },
+  "paginaInicial": {
+    "titulo": "Aprenda Cabo-verdiano para Pregação",
+    "textoDia": "Texto do Dia",
+    "tituloRecursos": "Recursos Disponíveis",
+    "recurso1Titulo": "Apresentações para Pregação",
+    "recurso1Desc": "10 apresentações baseadas em publicações da JW.org para usar na pregação.",
+    "recurso2Titulo": "Gramática & Dicionário",
+    "recurso2Desc": "Aprenda a estrutura básica da língua e amplie seu vocabulário.",
+    "recurso3Titulo": "Estudos Bíblicos",
+    "recurso3Desc": "Recursos e guias para seus estudos bíblicos pessoais.",
+    "recurso4Desc": "Acompanhe suas notas e atividades de pregação",
+    "recurso5Desc": "Aprenda crioulo para pregar de porta em porta",
+    "recurso6Desc": "Configure notificações e preferências"
+  },
+  "settings": {
+    "title": "Configurações",
+    "notificationsTitle": "Notificações",
+    "kingdomHallsTitle": "Salões do Reino",
+    "appInfo": "Informações do aplicativo",
+    "version": "Versão",
+    "developedBy": "Desenvolvido por",
+    "language": "Idioma",
+    "theme": "Tema",
+    "darkMode": "Modo Escuro",
+    "lightMode": "Modo Claro",
+    "systemMode": "Sistema",
+    "notifications": {
+      "bibleStudies": "Estudos bíblicos",
+      "meetings": "Reuniões",
+      "preaching": "Pregação",
+      "dailyText": "Texto diário"
+    },
+    "kingdomHalls": {
+      "findNearby": "Encontrar próximos"
+    },
+    "viewAll": "Ver todos",
+    "shareApp": "Partilhar App",
+    "copyright": "© 2024 Pinto Francisco"
+  }
+}

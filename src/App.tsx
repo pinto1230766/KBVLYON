@@ -6,12 +6,15 @@ import { StatusBar, Style } from '@capacitor/status-bar';
 import { Capacitor } from '@capacitor/core';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import LoadingSkeleton from './components/LoadingSkeleton';
 import './App.css';
 
 // Composants chargés de manière paresseuse
 const HomePage = lazy(() => import('./pages/HomePage'));
 const PreachingPage = lazy(() => import('./pages/PreachingPage'));
-const GrammarDictionaryPage = lazy(() => import('./pages/GrammarDictionaryPage'));
+const GrammarPage = lazy(() => import('./pages/GrammarPage'));
+const DictionaryPage = lazy(() => import('./pages/DictionaryPage'));
+const LessonsPage = lazy(() => import('./pages/LessonsPage'));
 const BibleStudiesPage = lazy(() => import('./pages/BibleStudiesPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
@@ -19,6 +22,7 @@ const TermsOfServicePage = lazy(() => import('./pages/TermsOfServicePage'));
 const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage'));
 const NotesPage = lazy(() => import('./pages/NotesPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 
 function AppLayout() {
   return (
@@ -57,18 +61,21 @@ function App() {
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <LanguageProvider>
         <Router>
-          <Suspense fallback={<div>Chargement...</div>}>
+          <Suspense fallback={<LoadingSkeleton />}>
             <Routes>
               <Route path="/" element={<AppLayout />}>
                 <Route index element={<HomePage />} />
                 <Route path="preaching" element={<PreachingPage />} />
-                <Route path="grammar-dictionary" element={<GrammarDictionaryPage />} />
+                <Route path="grammar-dictionary" element={<GrammarPage />} />
+                <Route path="dictionary" element={<DictionaryPage />} />
+                <Route path="lessons" element={<LessonsPage />} />
                 <Route path="bible-studies" element={<BibleStudiesPage />} />
                 <Route path="about" element={<AboutPage />} />
                 <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
                 <Route path="terms-of-service" element={<TermsOfServicePage />} />
                 <Route path="cookie-policy" element={<CookiePolicyPage />} />
                 <Route path="notes" element={<NotesPage />} />
+                <Route path="settings" element={<SettingsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>
             </Routes>

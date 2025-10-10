@@ -1,0 +1,23 @@
+{
+  "Bíblia": {
+    "translation_pt": "Bíblia",
+    "example": {
+      "pt": "A Bíblia é a Palavra de Deus.",
+      "cv": "Bíblia é Palabra di Deus."
+    }
+  },
+  "Deus": {
+    "translation_pt": "Deus",
+    "example": {
+      "pt": "Deus ama a humanidade.",
+      "cv": "Deus ta ama humanidade."
+    }
+  },
+  "congregação": {
+    "translation_pt": "congregação",
+    "example": {
+      "pt": "Vamos à reunião da congregação.",
+      "cv": "Nu ta bai na runion di kongregason."
+    }
+  }
+}

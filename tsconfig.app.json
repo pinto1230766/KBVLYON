@@ -24,8 +24,7 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react",
-    "types": ["vite/client"],
+    "types": ["vite/client", "node", "react", "react-dom"],
 
     /* Linting */
     "strict": true,
