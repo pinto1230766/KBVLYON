@@ -14,7 +14,7 @@ const HomePage = () => {
   });
   
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background">
       {/* Hero Section avec Titre Principal */}
       <section className="py-12 px-4 bg-gradient-to-b from-primary/5 to-background">
         <div className="container mx-auto text-center">
