@@ -65,7 +65,7 @@ const DictionaryPage = () => {
   const filteredDictionary = useMemo(() => {
     // Base list optionally filtered by category
     const base = selectedCategory
-      ? dictionaryData.filter(e => (e.category || 'divers') === selectedCategory)
+      ? dictionaryData.filter(e => (e.category || 'Geral') === selectedCategory)
       : dictionaryData;
 
     if (!searchTerm.trim()) {
@@ -76,7 +76,7 @@ const DictionaryPage = () => {
       // Fuse over full dataset then refilter by category
       const results = fuse.search(searchTerm).map(r => r.item);
       return selectedCategory
-        ? results.filter(e => (e.category || 'divers') === selectedCategory)
+        ? results.filter(e => (e.category || 'Geral') === selectedCategory)
         : results;
     }
 
@@ -87,19 +87,45 @@ const DictionaryPage = () => {
     );
   }, [searchTerm, fuse, selectedCategory]);
 
-  // Derive categories from data
+  // Derive categories from data, prioritizing preaching categories
   const categories = useMemo(() => {
+    const preachingCategories = ['Pregação', 'Bíblia', 'Religião', 'Esperança', 'Sofrimento', 'Família', 'Vida', 'Pecado', 'Perdão', 'Oração', 'Reino de Deus'];
     const map = new Map<string, number>();
     for (const e of dictionaryData) {
-      const c = e.category || 'divers';
+      const c = e.category || 'Geral';
       map.set(c, (map.get(c) || 0) + 1);
     }
-    return Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
+    return Array.from(map.entries()).sort((a, b) => {
+      const aIsPreaching = preachingCategories.includes(a[0]);
+      const bIsPreaching = preachingCategories.includes(b[0]);
+      if (aIsPreaching && !bIsPreaching) return -1;
+      if (!aIsPreaching && bIsPreaching) return 1;
+      return b[1] - a[1]; // Then by count
+    });
   }, []);
 
   const favoriteEntries = useMemo(() => {
     return dictionaryData.filter(entry => favorites.has(entry.id));
   }, [favorites]);
+
+  // AI Suggestions: related words based on search term
+  const aiSuggestions = useMemo(() => {
+    if (!searchTerm.trim()) return [];
+
+    const term = searchTerm.toLowerCase();
+    const relatedCategories = ['Religião', 'Esperança', 'Sofrimento', 'Família', 'Vida', 'Pecado', 'Perdão', 'Oração', 'Reino de Deus'];
+
+    // Find words in related categories that match or are similar
+    const suggestions = dictionaryData
+      .filter(entry => {
+        const entryText = `${entry.word} ${entry.translation.pt} ${entry.translation.cv}`.toLowerCase();
+        return relatedCategories.includes(entry.category || 'Geral') &&
+               (entryText.includes(term) || term.includes(entry.word.toLowerCase()));
+      })
+      .slice(0, 10); // Limit to 10 suggestions
+
+    return suggestions;
+  }, [searchTerm]);
 
   const toggleFavorite = useCallback((id: string) => {
     setFavorites(prev => {
@@ -191,6 +217,26 @@ const DictionaryPage = () => {
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
+
+            {/* Suggestions IA */}
+            {aiSuggestions.length > 0 && (
+              <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+                <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-3">
+                  💡 Suggestions IA pour prédication
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {aiSuggestions.map((entry) => (
+                    <button
+                      key={entry.id}
+                      onClick={() => setSearchTerm(entry.word)}
+                      className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+                    >
+                      {entry.word} ({entry.category})
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Compteur */}
             <div className="mb-6 p-4 bg-muted/30 rounded-lg">

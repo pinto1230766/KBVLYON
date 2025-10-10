@@ -33,16 +33,19 @@ KBVLYON/
 Le script reconnaît plusieurs formats :
 
 **Format 1 :** `mot - PT: traduction - CV: traduction - Ex: exemple`
+
 ```text
 abadu - PT: abade, padre - CV: abadu - Ex: O abade da igreja é muito sábio
 ```
 
 **Format 2 :** `mot (traduction PT) (traduction CV)`
+
 ```text
 abanu (abanão, abano) (abanu)
 ```
 
 **Format 3 :** `mot PT: traduction CV: traduction`
+
 ```text
 abaxu PT: abaixo CV: abaxu Ex: Assine seu nome abaixo da linha
 ```
@@ -50,6 +53,7 @@ abaxu PT: abaixo CV: abaxu Ex: Assine seu nome abaixo da linha
 ### Leçons
 
 Le script détecte automatiquement les leçons basées sur :
+
 - Titres commençant par "Lição" ou "Lesson"
 - Catégories détectées automatiquement (Pronomes, Verbos, Sintaxe, etc.)
 
@@ -58,10 +62,12 @@ Le script détecte automatiquement les leçons basées sur :
 ### 1. Préparez vos PDFs
 
 Placez vos fichiers PDF dans le dossier `pdfs/` :
+
 - Nommez les fichiers de dictionnaire avec "dicionario" ou "dictionary"
 - Nommez les fichiers de leçons avec "licao" ou "lesson" ou "gramatica"
 
 Exemples :
+
 - `dicionario-caboverdiano.pdf`
 - `licoes-gramatica-crioulo.pdf`
 - `dictionary-kabuverdianu.pdf`
@@ -75,12 +81,13 @@ node scripts/extractPdfData.js
 ### 3. Vérifiez les résultats
 
 Le script génère automatiquement :
+
 - `src/data/dictionaryData.ts` - Toutes les entrées du dictionnaire
 - `src/data/lessonsData.ts` - Toutes les leçons extraites
 
 ## 📊 Exemple de sortie
 
-```text
+```console
 🚀 Extraction des données des PDFs...
 
 📚 2 fichier(s) PDF trouvé(s):
@@ -158,6 +165,7 @@ if (lowerText.includes('votre-mot-cle')) return 'Votre-Categorie';
 ## 📞 Support
 
 Si vous avez des questions ou des problèmes, vérifiez :
+
 - Le format de vos PDFs
 - Les logs du script pour voir où ça bloque
 - Testez avec un seul PDF d'abord

@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, X } from 'lucide-react';
+import { lessonsData, type Lesson as LessonData } from '../data/lessonsData';
 
-interface Lesson {
+interface LessonSummary {
   id: number;
   title: string;
   description: string;
@@ -10,156 +11,20 @@ interface Lesson {
   completed: boolean;
 }
 
-const lessons: Lesson[] = [
-  {
-    id: 1,
-    title: 'Formação de Palavras - Verbos',
-    description: 'Aprenda como os verbos são formados em crioulo cabo-verdiano e suas terminações',
-    level: 'Iniciante',
-    category: 'Verbos',
-    completed: false,
-  },
-  {
-    id: 2,
-    title: 'Derivação Lexical - Criando Novas Palavras',
-    description: 'Como criar substantivos a partir de verbos e adjetivos',
-    level: 'Intermediário',
-    category: 'Morfologia',
-    completed: false,
-  },
-  {
-    id: 3,
-    title: 'Pluralização - Singular e Plural',
-    description: 'Como formar o plural em crioulo cabo-verdiano',
-    level: 'Iniciante',
-    category: 'Morfologia',
-    completed: false,
-  },
-  {
-    id: 4,
-    title: 'Ordem das Palavras - Estrutura SVO',
-    description: 'A ordem básica das frases em crioulo: Sujeito-Verbo-Objeto',
-    level: 'Iniciante',
-    category: 'Sintaxe',
-    completed: false,
-  },
-  {
-    id: 5,
-    title: 'Negação - Como Negar em Crioulo',
-    description: 'Uso da partícula "ka" para formar frases negativas',
-    level: 'Iniciante',
-    category: 'Sintaxe',
-    completed: false,
-  },
-  {
-    id: 6,
-    title: 'Formação de Perguntas',
-    description: 'Como fazer perguntas eficazes durante a pregação',
-    level: 'Intermediário',
-    category: 'Sintaxe',
-    completed: false,
-  },
-  {
-    id: 7,
-    title: 'Sistema TAM - Tempo, Aspecto e Modo',
-    description: 'Como expressar diferentes tempos verbais usando partículas',
-    level: 'Iniciante',
-    category: 'Verbos',
-    completed: false,
-  },
-  {
-    id: 8,
-    title: 'Verbos Essenciais para Pregação',
-    description: 'Os verbos mais importantes para usar no ministério de porta em porta',
-    level: 'Intermediário',
-    category: 'Verbos',
-    completed: false,
-  },
-  {
-    id: 9,
-    title: 'Verbos Modais e Auxiliares',
-    description: 'Verbos que expressam possibilidade, necessidade e desejo',
-    level: 'Avançado',
-    category: 'Verbos',
-    completed: false,
-  },
-  {
-    id: 10,
-    title: 'Pronúncia Básica - Sons do Crioulo',
-    description: 'Como pronunciar corretamente os sons característicos do crioulo',
-    level: 'Iniciante',
-    category: 'Fonologia',
-    completed: false,
-  },
-  {
-    id: 11,
-    title: 'Acentuação e Ritmo',
-    description: 'Onde colocar o acento tônico nas palavras',
-    level: 'Intermediário',
-    category: 'Fonologia',
-    completed: false,
-  },
-  {
-    id: 12,
-    title: 'Vocabulário Religioso Essencial',
-    description: 'Palavras-chave para falar sobre temas bíblicos',
-    level: 'Iniciante',
-    category: 'Vocabulário',
-    completed: false,
-  },
-  {
-    id: 13,
-    title: 'Frases Prontas para Pregação',
-    description: 'Expressões completas para usar na pregação de porta em porta',
-    level: 'Intermediário',
-    category: 'Prática',
-    completed: false,
-  },
-  {
-    id: 14,
-    title: 'Vocabulário Temático - Sofrimento e Esperança',
-    description: 'Palavras para falar sobre problemas atuais e a esperança bíblica',
-    level: 'Avançado',
-    category: 'Vocabulário',
-    completed: false,
-  },
-  {
-    id: 15,
-    title: 'Diálogo 1 - Primeira Abordagem',
-    description: 'Como iniciar uma conversa na porta',
-    level: 'Iniciante',
-    category: 'Prática',
-    completed: false,
-  },
-  {
-    id: 16,
-    title: 'Diálogo 2 - Apresentando um Texto Bíblico',
-    description: 'Como ler e explicar um versículo da Bíblia',
-    level: 'Intermediário',
-    category: 'Prática',
-    completed: false,
-  },
-  {
-    id: 17,
-    title: 'Diálogo 3 - Oferecendo um Estudo Bíblico',
-    description: 'Como propor um estudo bíblico regular',
-    level: 'Avançado',
-    category: 'Prática',
-    completed: false,
-  },
-  {
-    id: 18,
-    title: 'Lidando com Objeções Comuns',
-    description: 'Como responder a objeções frequentes',
-    level: 'Intermediário',
-    category: 'Prática',
-    completed: false,
-  },
-];
+// Convert lessonsData to the format expected by the component
+const lessons: LessonSummary[] = lessonsData.map(lesson => ({
+  id: lesson.id,
+  title: lesson.title.pt,
+  description: lesson.description.pt,
+  level: lesson.level as 'Iniciante' | 'Intermediário' | 'Avançado',
+  category: lesson.category as 'Morfologia' | 'Sintaxe' | 'Verbos' | 'Fonologia' | 'Vocabulário' | 'Prática',
+  completed: false, // TODO: Add completion tracking
+}));
 
 const LessonsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todas');
   const [selectedLevel, setSelectedLevel] = useState<string>('Todos os Níveis');
+  const [selectedLesson, setSelectedLesson] = useState<LessonData | null>(null);
 
   const categories = ['Todas', 'Morfologia', 'Sintaxe', 'Verbos', 'Fonologia', 'Vocabulário', 'Prática'];
   const levels = ['Todos os Níveis', 'Iniciante', 'Intermediário', 'Avançado'];
@@ -270,6 +135,7 @@ const LessonsPage = () => {
           {filteredLessons.map((lesson) => (
             <div
               key={lesson.id}
+              onClick={() => setSelectedLesson(lessonsData.find(l => l.id === lesson.id) || null)}
               className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow cursor-pointer group"
             >
               <div className="flex items-start justify-between">
@@ -311,6 +177,75 @@ const LessonsPage = () => {
           </p>
         </div>
       </div>
+
+      {/* Modal de détail de leçon */}
+      {selectedLesson && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+          <div className="bg-background rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="p-6">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <h2 className="text-2xl font-bold text-foreground mb-2">
+                    {selectedLesson.title.pt}
+                  </h2>
+                  <div className="flex items-center gap-2">
+                    <span className={`px-2 py-1 rounded text-sm font-medium ${getLevelColor(selectedLesson.level)}`}>
+                      {selectedLesson.level}
+                    </span>
+                    <span className="text-sm text-muted-foreground">
+                      {selectedLesson.category}
+                    </span>
+                  </div>
+                </div>
+                <button
+                  onClick={() => setSelectedLesson(null)}
+                  className="p-2 hover:bg-muted rounded-lg transition-colors"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+
+              <div className="space-y-6">
+                {/* Contenu */}
+                <div>
+                  <h3 className="text-lg font-semibold mb-3">Conteúdo</h3>
+                  <div className="prose prose-sm max-w-none text-foreground">
+                    {selectedLesson.content.pt.split('\n').map((paragraph: string, index: number) => (
+                      <p key={index} className="mb-3">{paragraph}</p>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Exemples */}
+                {selectedLesson.examples && selectedLesson.examples.length > 0 && (
+                  <div>
+                    <h3 className="text-lg font-semibold mb-3">Exemplos</h3>
+                    <div className="space-y-2">
+                      {selectedLesson.examples.map((example: {pt: string, cv: string}, index: number) => (
+                        <div key={index} className="bg-muted/50 p-3 rounded-lg">
+                          <p className="font-medium text-foreground">{example.pt}</p>
+                          <p className="text-muted-foreground">{example.cv}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Conseils pratiques */}
+                {selectedLesson.practicalTips && (
+                  <div>
+                    <h3 className="text-lg font-semibold mb-3">💡 Dicas Práticas</h3>
+                    <div className="bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg border border-blue-200 dark:border-blue-800">
+                      <p className="text-foreground">{selectedLesson.practicalTips.pt}</p>
+                      <p className="text-muted-foreground mt-2">{selectedLesson.practicalTips.cv}</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

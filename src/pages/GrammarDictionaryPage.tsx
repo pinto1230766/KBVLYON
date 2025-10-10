@@ -1,5 +1,11 @@
-import { useState } from 'react';
-import { ChevronRight, Star } from 'lucide-react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
+import { Star } from 'lucide-react';
+import Fuse from 'fuse.js';
+
+import { useLanguage } from '@/hooks/useLanguage';
+import { translations } from '@/data/translations';
+import { dictionaryData } from '@/data/dictionaryData';
+import { grammarLessons, type GrammarLesson } from '@/data/grammarLessons';
 
 interface DictionaryEntry {
   id: string;
@@ -97,7 +103,7 @@ const GrammarDictionaryPage: React.FC = () => {
       }
       
       if (fuse) {
-        return fuse.search(searchTerm).map(result => result.item);
+        return fuse.search(searchTerm).map((result) => result.item);
       }
       
       // Fallback si Fuse n'est pas disponible
@@ -216,7 +222,9 @@ const GrammarDictionaryPage: React.FC = () => {
                   </button>
                 )}
               </div>
-              {loadingDictionary && dictionaryData.length === 0 && <p className="text-muted-foreground">{iuTrad.carregando[language]}</p>}
+              {loadingDictionary && dictionaryDataState.length === 0 && (
+                <p className="text-muted-foreground">{iuTrad.carregando[language]}</p>
+              )}
               {errorDictionary && <p className="text-destructive">{errorDictionary}</p>}
               {!loadingDictionary && !errorDictionary && (
                 <div className="space-y-3">
@@ -266,7 +274,9 @@ const GrammarDictionaryPage: React.FC = () => {
           <div id="favorites-content" role="tabpanel" aria-labelledby="favorites-tab">
             <section>
               <h2 className="text-2xl font-semibold mb-4 sr-only">{comumTrad.favoritos[language]}</h2>
-              {loadingDictionary && dictionaryData.length === 0 && <p className="text-muted-foreground">{iuTrad.carregando[language]}</p>}
+              {loadingDictionary && dictionaryDataState.length === 0 && (
+                <p className="text-muted-foreground">{iuTrad.carregando[language]}</p>
+              )}
               {errorDictionary && <p className="text-destructive">{errorDictionary}</p>}
               {!loadingDictionary && !errorDictionary && (
                 (() => {
