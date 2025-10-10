@@ -11,24 +11,28 @@ Application mobile complète pour apprendre le crioulo cabo-verdiano, spécialem
 ## ✨ Fonctionnalités Principales
 
 ### 📖 Dictionnaire
+
 - **4794+ mots** en portugais et crioulo
 - Recherche rapide avec Fuse.js
 - Système de favoris
 - Exemples d'utilisation pour chaque mot
 
 ### 📚 Gramática
+
 - **7 leçons complètes** de grammaire
 - Modales interactives avec navigation multi-pages
 - Catégories : Pronomes, Verbos, Sintaxe, Morfologia, Geral
 - Contenu détaillé avec exemples
 
 ### 🎓 Lições de Crioulo
+
 - **18 leçons** pour la pregação
 - Filtres par catégorie et niveau
 - 3 niveaux : Iniciante, Intermediário, Avançado
 - Dialogues pratiques et vocabulaire religieux
 
 ### 🌐 Fonctionnalités Mobiles
+
 - ✅ Mode hors-ligne complet avec Service Worker
 - ✅ Notifications push intelligentes
 - ✅ Géolocalisation des Salons du Reino
@@ -39,21 +43,25 @@ Application mobile complète pour apprendre le crioulo cabo-verdiano, spécialem
 ## 🚀 Installation
 
 ### Prérequis
-- Node.js 18+ 
+
+- Node.js 18+
 - npm ou yarn
 
 ### Cloner le projet
+
 ```bash
 git clone https://github.com/pinto1230766/KBVLYON.git
 cd KBVLYON
 ```
 
 ### Installer les dépendances
+
 ```bash
 npm install
 ```
 
 ### Lancer en développement
+
 ```bash
 npm run dev
 ```
@@ -63,6 +71,7 @@ L'application sera disponible sur `http://localhost:5174`
 ## 📱 Build pour Mobile
 
 ### Android
+
 ```bash
 npm run build
 npx cap add android
@@ -71,6 +80,7 @@ npx cap open android
 ```
 
 ### iOS
+
 ```bash
 npm run build
 npx cap add ios
@@ -83,6 +93,7 @@ npx cap open ios
 L'application inclut un script pour extraire automatiquement les données de vos PDFs de dictionnaire et leçons.
 
 ### Utilisation
+
 1. Placez vos PDFs dans le dossier `pdfs/`
 2. Lancez l'extraction :
 ```bash
