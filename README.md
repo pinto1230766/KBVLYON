@@ -96,11 +96,13 @@ L'application inclut un script pour extraire automatiquement les données de vos
 
 1. Placez vos PDFs dans le dossier `pdfs/`
 2. Lancez l'extraction :
+
 ```bash
 npm run extract-pdf
 ```
 
 Le script génère automatiquement :
+
 - `src/data/dictionaryData.ts` - Entrées du dictionnaire
 - `src/data/lessonsData.ts` - Leçons extraites
 
@@ -108,7 +110,7 @@ Voir `scripts/README.md` pour plus de détails.
 
 ## 🏗️ Structure du Projet
 
-```
+```text
 KBVLYON/
 ├── src/
 │   ├── components/       # Composants React
@@ -183,4 +185,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou un
 
 ---
 
-**Développé avec ❤️ pour les Témoins de Jéhovah du Cap-Vert**
+Développé avec ❤️ pour les Témoins de Jéhovah du Cap-Vert

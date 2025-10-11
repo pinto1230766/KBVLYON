@@ -7,6 +7,7 @@ import { Capacitor } from '@capacitor/core';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LoadingSkeleton from './components/LoadingSkeleton';
+import Chatbot from './components/Chatbot';
 import './App.css';
 
 // Composants chargés de manière paresseuse
@@ -32,6 +33,7 @@ function AppLayout() {
         <Outlet />
       </main>
       <Footer />
+      <Chatbot />
       {/* Padding pour la barre de navigation système */}
       <div className="h-[env(safe-area-inset-bottom,20px)] bg-background" />
     </div>
