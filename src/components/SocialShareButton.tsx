@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useSocialShare } from '@/hooks/useSocialShare';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -19,6 +20,7 @@ export const SocialShareButton: React.FC<SocialShareButtonProps> = ({
   variant = 'button',
   className
 }) => {
+  const { t } = useTranslation();
   const {
     share,
     isSupported,
@@ -65,7 +67,7 @@ export const SocialShareButton: React.FC<SocialShareButtonProps> = ({
       case 'clipboard':
         try {
           await copyToClipboard(shareText);
-          alert('Copié dans le presse-papiers!');
+          alert(t('compartilhar.copiado'));
         } catch (error) {
           console.error('Erreur lors de la copie:', error);
         }
@@ -86,7 +88,7 @@ export const SocialShareButton: React.FC<SocialShareButtonProps> = ({
           disabled={isSharing}
         >
           <Share2 className="w-4 h-4 mr-2" />
-          Partager
+          {t('compartilhar.partager')}
         </Button>
 
         {showMenu && (
@@ -102,7 +104,7 @@ export const SocialShareButton: React.FC<SocialShareButtonProps> = ({
                     disabled={isSharing}
                   >
                     <Share2 className="w-4 h-4 mr-2" />
-                    Partage natif
+                    {t('compartilhar.partageNatif')}
                   </Button>
                 )}
 
@@ -116,11 +118,11 @@ export const SocialShareButton: React.FC<SocialShareButtonProps> = ({
                   };
 
                   const labels = {
-                    email: 'Email',
-                    whatsapp: 'WhatsApp',
-                    twitter: 'Twitter',
-                    facebook: 'Facebook',
-                    clipboard: 'Copier'
+                    email: t('compartilhar.email'),
+                    whatsapp: t('compartilhar.whatsapp'),
+                    twitter: t('compartilhar.twitter'),
+                    facebook: t('compartilhar.facebook'),
+                    clipboard: t('compartilhar.copier')
                   };
 
                   const Icon = icons[platform as keyof typeof icons];
@@ -155,7 +157,7 @@ export const SocialShareButton: React.FC<SocialShareButtonProps> = ({
       className={className}
     >
       <Share2 className="w-4 h-4 mr-2" />
-      {isSharing ? 'Partage...' : 'Partager'}
+      {isSharing ? t('compartilhar.partageEnCours') : t('compartilhar.partager')}
     </Button>
   );
 };

@@ -3,14 +3,17 @@ export interface GrammarLesson {
   title: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   content: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   examples: Array<{
     pt: string;
     cv: string;
+    fr?: string;
   }>;
 }
 

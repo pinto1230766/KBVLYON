@@ -1,9 +1,9 @@
-import { ExerciseType } from '../data/lessonsData';
+export type Language = 'pt' | 'cv';
 
 declare module '../data/lessonsData' {
   interface ExerciseBase {
     id: string;
-    type: ExerciseType;
+    type: string;
     title: string;
     description: string;
     difficulty: 'beginner' | 'intermediate' | 'advanced';
@@ -14,16 +14,16 @@ declare module '../data/lessonsData' {
   interface DictationExercise extends ExerciseBase {
     type: 'dictation';
     audioUrl: string;
-    text: Record<string, string>; // lang => text
+    text: Record<Language, string>; // lang => text
     language: string;
   }
 
   interface GrammarExercise extends ExerciseBase {
     type: 'grammar';
-    question: Record<string, string>;
-    options: Record<string, string[]>;
-    correctAnswer: Record<string, string>;
-    explanation?: Record<string, string>;
+    question: Record<Language, string>;
+    options: Record<Language, string[]>;
+    correctAnswer: Record<Language, string>;
+    explanation?: Record<Language, string>;
   }
 
   interface MatchingExercise extends ExerciseBase {
@@ -37,14 +37,14 @@ declare module '../data/lessonsData' {
 
   interface RoleplayExercise extends ExerciseBase {
     type: 'roleplay';
-    scenario: Record<string, string>;
+    scenario: Record<Language, string>;
     roles: {
       user: string;
       bot: string;
     };
     conversation: Array<{
       role: 'user' | 'bot';
-      text: Record<string, string>;
+      text: Record<Language, string>;
     }>;
   }
 

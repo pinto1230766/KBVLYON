@@ -154,13 +154,13 @@ const GrammarDictionaryPage: React.FC = () => {
               <div className="space-y-4">
                 {grammarLessons.map((lesson: GrammarLesson) => (
                   <div key={lesson.id} className="p-3 border rounded-lg shadow-sm bg-card">
-                    <h3 className="text-lg font-semibold mb-1 text-primary">{`${secaoGramaticaTrad.licao[language]} ${lesson.id}: ${lesson.title[language]}`}</h3>
-                    <p className="mb-2 text-xs text-muted-foreground">{lesson.content[language]}</p>
+                    <h3 className="text-lg font-semibold mb-1 text-primary">{`${secaoGramaticaTrad.licao[language] || secaoGramaticaTrad.licao.pt} ${lesson.id}: ${lesson.title[language] || lesson.title.pt}`}</h3>
+                    <p className="mb-2 text-xs text-muted-foreground">{lesson.content[language] || lesson.content.pt}</p>
                     <h4 className="text-sm font-semibold mb-1">{secaoGramaticaTrad.exemplo[language]}s:</h4>
                     <ul className="list-disc list-inside space-y-0.5 text-xs">
                       {lesson.examples.map((example, index) => (
                         <li key={index}>
-                          <span className="font-medium">{language === 'pt' ? 'PT:' : 'CV:'}</span> {example[language]}
+                          <span className="font-medium">{language === 'pt' ? 'PT:' : language === 'cv' ? 'CV:' : 'PT:'}</span> {example[language] || example.pt}
                         </li>
                       ))}
                     </ul>

@@ -6,7 +6,8 @@ const translations: Translations = {
   // Comum
   carregando: { // loading
     pt: 'Carregando...',
-    cv: 'Ta karga...'
+    cv: 'Ta karga...',
+    fr: 'Chargement...'
   },
   
   // Notas

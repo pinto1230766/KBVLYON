@@ -72,36 +72,43 @@ node scripts/unified_pdf_extractor.cjs --type <extraction-type> [options]
 ## 📋 Examples
 
 ### Extract Text from PDFs
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type pdf-text
 ```
 
 ### Extract Dictionary Data
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type dictionary
 ```
 
 ### Extract Grammar Lessons
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type lessons
 ```
 
 ### Extract Preaching Lessons from Source Map
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type preaching --source-map "C:/path/to/app.js.map"
 ```
 
 ### Extract Lessons from APK JavaScript
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type apk-lessons --input "path/to/extracted/app.js"
 ```
 
 ### Generate 18-Lesson Curriculum
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type generate-18
 ```
 
 ### Custom Output Location
+
 ```bash
 node scripts/unified_pdf_extractor.cjs --type dictionary --output src/data/myDictionary.ts
 ```
@@ -113,16 +120,19 @@ node scripts/unified_pdf_extractor.cjs --type dictionary --output src/data/myDic
 The script recognizes multiple dictionary formats:
 
 **Format 1:** `word - PT: translation - CV: translation - Ex: example`
+
 ```text
 abadu - PT: abade, padre - CV: abadu - Ex: O abade da igreja é muito sábio
 ```
 
 **Format 2:** `word (PT translation) (CV translation)`
+
 ```text
 abanu (abanão, abano) (abanu)
 ```
 
 **Format 3:** `word PT: translation CV: translation`
+
 ```text
 abaxu PT: abaixo CV: abaxu Ex: Assine seu nome abaixo da linha
 ```
@@ -130,6 +140,7 @@ abaxu PT: abaixo CV: abaxu Ex: Assine seu nome abaixo da linha
 ### Lessons Format
 
 Lessons are automatically detected based on:
+
 - Titles starting with "Lição" or "Lesson"
 - Auto-detected categories (Pronomes, Verbos, Sintaxe, etc.)
 
@@ -203,12 +214,14 @@ The following scripts have been consolidated into `unified_pdf_extractor.cjs`:
 
 ## 🎯 Migration Guide
 
-### Old usage:
+### Old usage
+
 ```bash
 node scripts/extractPdfData.cjs
 ```
 
-### New usage:
+### New usage
+
 ```bash
 # Extract dictionary
 node scripts/unified_pdf_extractor.cjs --type dictionary

@@ -3,29 +3,35 @@ export interface Presentation {
   title: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   introduction: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   scripture: {
     reference: string;
     text: {
       pt: string;
       cv: string;
+      fr?: string;
     };
   };
   question: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   explanation: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   conclusion: {
     pt: string;
     cv: string;
+    fr?: string;
   };
   image: string;
 }
@@ -35,30 +41,36 @@ export const preachingPresentations: Presentation[] = [
     id: 1,
     title: {
       pt: 'O que é o Reino de Deus?',
-      cv: 'Kuze ki é Reinu di Deus?'
+      cv: 'Kuze ki é Reinu di Deus?',
+      fr: 'Qu\'est-ce que le Royaume de Dieu?'
     },
     introduction: {
       pt: 'Muitas pessoas oram "Venha o teu Reino" mas não sabem exatamente o que é o Reino de Deus. A Bíblia nos ajuda a entender o que é esse Reino e o que ele fará.',
-      cv: 'Txeu pesoas ta ora "Ben bu Reinu" mas es ka sabe ezatamenti kuze ki é Reinu di Deus. Bíblia ta djuda-nu entendi kuze ki é es Reinu y kuze ki el ta faze.'
+      cv: 'Txeu pesoas ta ora "Ben bu Reinu" mas es ka sabe ezatamenti kuze ki é Reinu di Deus. Bíblia ta djuda-nu entendi kuze ki é es Reinu y kuze ki el ta faze.',
+      fr: 'Beaucoup de personnes prient "Que ton royaume vienne" mais ne savent pas exactement ce qu\'est le Royaume de Dieu. La Bible nous aide à comprendre ce qu\'est ce Royaume et ce qu\'il fera.'
     },
     scripture: {
       reference: 'Daniel 2:44',
       text: {
         pt: 'No tempo desses reis, o Deus do céu estabelecerá um reino que nunca será destruído. Esse reino não passará a nenhum outro povo. Ele esmagará e dará fim a todos esses reinos, mas ele mesmo durará para sempre.',
-        cv: 'Na tempu di kes rei, Deus di séu ta stabelese un reinu ki nunka ta ser destruidu. Es reinu ka ta pasa pa ninhun otu povu. El ta smaga y da fin pa tudu kes reinu, mas el mesmu ta dura pa sempri.'
+        cv: 'Na tempu di kes rei, Deus di séu ta stabelese un reinu ki nunka ta ser destruidu. Es reinu ka ta pasa pa ninhun otu povu. El ta smaga y da fin pa tudu kes reinu, mas el mesmu ta dura pa sempri.',
+        fr: 'Au temps de ces rois, le Dieu du ciel établira un royaume qui ne sera jamais détruit. Ce royaume ne passera pas à un autre peuple. Il écrasera et mettra fin à tous ces royaumes, mais lui-même durera éternellement.'
       }
     },
     question: {
       pt: 'O que este texto nos ensina sobre o Reino de Deus?',
-      cv: 'Kuze ki es téstu ta ensina-nu sobri Reinu di Deus?'
+      cv: 'Kuze ki es téstu ta ensina-nu sobri Reinu di Deus?',
+      fr: 'Que nous apprend ce texte sur le Royaume de Dieu?'
     },
     explanation: {
       pt: 'O Reino de Deus é um governo real estabelecido por Deus no céu. Ele substituirá todos os governos humanos e trará paz e segurança eternas para a Terra.',
-      cv: 'Reinu di Deus é un governu real stabelesidu pa Deus na séu. El ta substitui tudu governus umanu y traze paz y seguransa eternu pa Terra.'
+      cv: 'Reinu di Deus é un governu real stabelesidu pa Deus na séu. El ta substitui tudu governus umanu y traze paz y seguransa eternu pa Terra.',
+      fr: 'Le Royaume de Dieu est un gouvernement réel établi par Dieu dans les cieux. Il remplacera tous les gouvernements humains et apportera la paix et la sécurité éternelles sur la Terre.'
     },
     conclusion: {
       pt: 'Em breve, o Reino de Deus transformará a Terra num paraíso, onde todas as pessoas viverão em paz e harmonia.',
-      cv: 'En brevi, Reinu di Deus ta transforma Terra nun paraízu, undi tudu pesoas ta vive na paz y armonia.'
+      cv: 'En brevi, Reinu di Deus ta transforma Terra nun paraízu, undi tudu pesoas ta vive na paz y armonia.',
+      fr: 'Bientôt, le Royaume de Dieu transformera la Terre en un paradis, où toutes les personnes vivront en paix et en harmonie.'
     },
     image: '/images/preaching/o que é o reino de deus!.jpg'
   },

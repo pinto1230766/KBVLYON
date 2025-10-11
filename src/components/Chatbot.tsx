@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   Sheet,
   SheetContent,
@@ -19,30 +20,31 @@ interface Message {
 }
 
 const Chatbot: React.FC = () => {
+  const { t } = useTranslation();
   const location = useLocation();
   const pathname = location.pathname;
 
   const getInitialMessage = () => {
     if (pathname === '/dictionary') {
-      return 'Salut ! Je peux vous aider avec le dictionnaire. Posez-moi des questions sur les mots, leur prononciation ou leur usage.';
+      return 'Olá! Posso ajudar-te com o dicionário. Faz-me perguntas sobre palavras, pronúncia ou uso.';
     } else if (pathname === '/grammar-dictionary') {
-      return 'Bienvenue dans la section grammaire ! Je peux expliquer les règles grammaticales et donner des exemples.';
+      return 'Bem-vindo à secção de gramática! Posso explicar regras gramaticais e dar exemplos.';
     } else if (pathname.startsWith('/lessons')) {
-      return 'Dans les leçons, je peux vous aider à comprendre le contenu et les exercices.';
+      return 'Nas lições, posso ajudar-te a entender o conteúdo e os exercícios.';
     } else {
-      return 'Salut ! Je suis votre assistant IA pour apprendre le créole capverdien. Comment puis-je vous aider aujourd\'hui ?';
+      return 'Olá! Sou o teu assistente IA para aprender crioulo cabo-verdiano. Como posso ajudar-te hoje?';
     }
   };
 
   const getSuggestions = () => {
     if (pathname === '/dictionary') {
-      return ['Explique-moi ce mot en créole', 'Comment prononcer ce mot ?', 'Donne-moi des exemples d\'usage'];
+      return ['Explica-me esta palavra em crioulo', 'Como se pronuncia esta palavra?', 'Dá-me exemplos de uso'];
     } else if (pathname === '/grammar-dictionary') {
-      return ['Explique-moi cette règle grammaticale', 'Donne-moi des exemples', 'Comment appliquer cette règle ?'];
+      return ['Explica-me esta regra gramatical', 'Dá-me exemplos', 'Como aplicar esta regra?'];
     } else if (pathname.startsWith('/lessons')) {
-      return ['Explique-moi cette leçon', 'Aide-moi avec cet exercice', 'Traduis cette phrase'];
+      return ['Explica-me esta lição', 'Ajuda-me com este exercício', 'Traduz esta frase'];
     } else {
-      return ['Aide-moi à apprendre le créole', 'Questions générales sur l\'app'];
+      return ['Ajuda-me a aprender crioulo', 'Perguntas gerais sobre a app'];
     }
   };
 
@@ -106,7 +108,7 @@ const Chatbot: React.FC = () => {
       console.error('Erreur:', error);
       setMessages(prev => [...prev, {
         role: 'assistant',
-        content: 'Désolé, une erreur s\'est produite. Veuillez réessayer.',
+        content: 'Desculpa, ocorreu um erro. Tenta novamente.',
       }]);
     } finally {
       setLoading(false);
@@ -125,9 +127,9 @@ const Chatbot: React.FC = () => {
       </SheetTrigger>
       <SheetContent side="right" className="w-full sm:w-96">
         <SheetHeader>
-          <SheetTitle>Assistant IA</SheetTitle>
+          <SheetTitle>Assistente IA</SheetTitle>
           <SheetDescription>
-            Posez vos questions sur l'application ou la langue capverdienne.
+            Faz as tuas perguntas sobre a aplicação ou a língua cabo-verdiana.
           </SheetDescription>
         </SheetHeader>
         <div className="flex flex-col h-full">
@@ -155,7 +157,7 @@ const Chatbot: React.FC = () => {
             {loading && (
               <div className="flex justify-start">
                 <div className="bg-muted px-4 py-2 rounded-lg">
-                  En train de réfléchir...
+                  A pensar...
                 </div>
               </div>
             )}
@@ -163,7 +165,7 @@ const Chatbot: React.FC = () => {
           </div>
           {!loading && suggestions.length > 0 && (
             <div className="p-4 border-t">
-              <p className="text-sm text-muted-foreground mb-2">Suggestions :</p>
+              <p className="text-sm text-muted-foreground mb-2">Sugestões :</p>
               <div className="flex flex-wrap gap-2">
                 {suggestions.map((suggestion, index) => (
                   <Button
@@ -183,12 +185,12 @@ const Chatbot: React.FC = () => {
               <Textarea
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Tapez votre message..."
+                placeholder={t('chatbot.digiteMensagem')}
                 className="flex-1 min-h-[40px] max-h-32"
                 disabled={loading}
               />
               <Button type="submit" disabled={loading || !input.trim()}>
-                Envoyer
+                Enviar
               </Button>
             </div>
           </form>

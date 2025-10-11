@@ -2,7 +2,7 @@ import React, { useState, ReactNode } from 'react';
 import { LanguageContext } from './LanguageContextDefinition';
 import { translations } from '../data/translations';
 import { Language } from '../types/language.d';
-import { NestedTranslation, TranslationText, Translations } from '../types/translations.d';
+import { NestedTranslation, TranslationValue } from '../types/translations.d';
 
 interface LanguageProviderProps {
   children: ReactNode;
@@ -13,7 +13,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 
   const t = (key: string): string => {
     const keys = key.split('.');
-    let currentTranslation: Translations | NestedTranslation | TranslationText = translations;
+    let currentTranslation: NestedTranslation | TranslationValue | string = translations;
 
     for (const k of keys) {
       if (typeof currentTranslation === 'object' && currentTranslation !== null && k in currentTranslation) {
@@ -24,7 +24,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     }
     
     if (typeof currentTranslation === 'object' && currentTranslation !== null && 'pt' in currentTranslation && 'cv' in currentTranslation) {
-      return (currentTranslation as TranslationText)[language] || key;
+      return (currentTranslation as TranslationValue)[language] || key;
     }
     
     return key; // Fallback if the final result is not a TranslationText

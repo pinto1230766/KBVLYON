@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { FileText, Users, Calendar, UserPlus, Clock, BarChart2, Trash2, Plus } from 'lucide-react';
 import { useOfflineStorage } from '../hooks/useOfflineStorage';
+import { useTranslation } from 'react-i18next';
 
 // Types
 type TabType = 'general' | 'students' | 'interessed' | 'calendar' | 'timer' | 'stats';
@@ -42,18 +43,23 @@ interface InterestedContact {
 }
 
 // Configuration des onglets
-const tabs = [
-  { id: 'general' as const, label: 'Général', icon: FileText },
-  { id: 'students' as const, label: 'Étudiants', icon: Users },
-  { id: 'interessed' as const, label: 'Personnes Intéressées', icon: UserPlus },
-  { id: 'calendar' as const, label: 'Calendrier', icon: Calendar },
-  { id: 'timer' as const, label: 'Chronomètre', icon: Clock },
-  { id: 'stats' as const, label: 'Statistiques', icon: BarChart2 }
+const getTabs = (t: (key: string) => string) => [
+  { id: 'general' as const, label: t('notas.tabs.general'), icon: FileText },
+  { id: 'students' as const, label: t('notas.tabs.students'), icon: Users },
+  { id: 'interessed' as const, label: t('notas.tabs.interessed'), icon: UserPlus },
+  { id: 'calendar' as const, label: t('notas.tabs.calendar'), icon: Calendar },
+  { id: 'timer' as const, label: t('notas.tabs.timer'), icon: Clock },
+  { id: 'stats' as const, label: t('notas.tabs.stats'), icon: BarChart2 }
 ];
 
 const NotesPage: React.FC = () => {
+  const { t } = useTranslation();
+
   // États principaux
   const [activeTab, setActiveTab] = useState<TabType>('general');
+
+  // Configuration des onglets
+  const tabs = useMemo(() => getTabs(t), [t]);
   const { value: notes, setValue: setNotes } = useOfflineStorage<string>('notes', '');
   const [history] = useState<HistoryEntry[]>([]);
   const [currentMonth, setCurrentMonth] = useState<Date>(new Date());
@@ -184,7 +190,7 @@ const NotesPage: React.FC = () => {
                   <div key={event.id} className="flex flex-col gap-2 rounded-lg border border-border bg-card/50 p-3 text-sm">
                     <div className="flex items-center justify-between">
                       <span className="font-medium text-foreground">
-                        {new Date(event.date).toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' })}
+                        {new Date(event.date).toLocaleDateString('pt-PT', { day: '2-digit', month: 'short', year: 'numeric' })}
                       </span>
                       <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${event.type === 'predication' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300' : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300'}`}>
                         {event.type === 'predication' ? 'Prédication' : 'Étude'}
@@ -209,7 +215,7 @@ const NotesPage: React.FC = () => {
               <label className="text-xs font-medium text-muted-foreground">Date sélectionnée</label>
               <input
                 type="text"
-                value={selectedDate ? selectedDate.toLocaleDateString('fr-FR') : 'Sélectionnez une date dans le calendrier'}
+                value={selectedDate ? selectedDate.toLocaleDateString('pt-PT') : 'Selecione uma data no calendário'}
                 readOnly
                 className="w-full cursor-not-allowed rounded-md border border-border bg-muted px-3 py-2 text-sm"
               />
@@ -252,7 +258,7 @@ const NotesPage: React.FC = () => {
 
   const handleAddEvent = () => {
     if (!selectedDate) {
-      setToast({ message: 'Sélectionnez une date dans le calendrier.', type: 'error' });
+      setToast({ message: t('notas.selecionarData'), type: 'error' });
       return;
     }
 
@@ -265,18 +271,18 @@ const NotesPage: React.FC = () => {
 
     setEvents(prev => [...prev, newEvent]);
     setEventForm({ type: 'predication', notes: '' });
-    setToast({ message: 'Événement ajouté au calendrier.', type: 'success' });
+    setToast({ message: t('notas.eventoAdicionado'), type: 'success' });
   };
 
   const handleDeleteEvent = (id: string) => {
     setEvents(prev => prev.filter(event => event.id !== id));
-    setToast({ message: 'Événement supprimé.', type: 'success' });
+    setToast({ message: t('notas.eventoRemovido'), type: 'success' });
   };
 
   const handleStudentSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!studentForm.name.trim()) {
-      setToast({ message: 'Veuillez renseigner un nom.', type: 'error' });
+      setToast({ message: t('notas.nomeObrigatorio'), type: 'error' });
       return;
     }
 
@@ -288,18 +294,18 @@ const NotesPage: React.FC = () => {
 
     setStudents(prev => [newStudent, ...prev]);
     setStudentForm({ id: '', name: '', phone: '', progress: '', lastVisit: '' });
-    setToast({ message: 'Étudiant ajouté.', type: 'success' });
+    setToast({ message: t('notas.estudanteAdicionado'), type: 'success' });
   };
 
   const handleDeleteStudent = (id: string) => {
     setStudents(prev => prev.filter(student => student.id !== id));
-    setToast({ message: 'Étudiant supprimé.', type: 'success' });
+    setToast({ message: t('notas.estudanteRemovido'), type: 'success' });
   };
 
   const handleInterestedSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!interestedForm.name.trim()) {
-      setToast({ message: 'Veuillez renseigner un nom.', type: 'error' });
+      setToast({ message: t('notas.nomeObrigatorio'), type: 'error' });
       return;
     }
 
@@ -311,12 +317,12 @@ const NotesPage: React.FC = () => {
 
     setInterested(prev => [newInterested, ...prev]);
     setInterestedForm({ id: '', name: '', address: '', notes: '', followUpDate: '' });
-    setToast({ message: 'Personne intéressée ajoutée.', type: 'success' });
+    setToast({ message: t('notas.pessoaInteressadaAdicionada'), type: 'success' });
   };
 
   const handleDeleteInterested = (id: string) => {
     setInterested(prev => prev.filter(contact => contact.id !== id));
-    setToast({ message: 'Personne supprimée.', type: 'success' });
+    setToast({ message: t('notas.pessoaRemovida'), type: 'success' });
   };
 
   // Fonction pour obtenir les événements d'un jour
@@ -474,14 +480,14 @@ const NotesPage: React.FC = () => {
                 <button
                   onClick={() => {
                     setNotes('');
-                    setToast({ message: 'Notes réinitialisées.', type: 'success' });
+                    setToast({ message: t('notas.notasReiniciadas'), type: 'success' });
                   }}
                   className="rounded-md border border-gray-300 px-3 py-1.5 text-gray-600 transition hover:bg-gray-100 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-700"
                 >
                   Effacer
                 </button>
                 <button
-                  onClick={() => setToast({ message: 'Notes sauvegardées.', type: 'success' })}
+                  onClick={() => setToast({ message: t('notas.notasSalvas'), type: 'success' })}
                   className="rounded-md bg-blue-600 px-3 py-1.5 font-medium text-white transition hover:bg-blue-700"
                 >
                   Sauvegarder

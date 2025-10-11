@@ -56,5 +56,155 @@
     "viewAll": "Odja tudu",
     "shareApp": "Partilha App",
     "copyright": "© 2024 Pinto Francisco"
+  },
+  "predicacao": {
+    "titulo": "Pregason",
+    "subtitulo": "Ferramenta y rekursu pa pregason efetivu",
+    "introducao": "Introduson",
+    "textoBiblico": "Testu Bibliku",
+    "pergunta": "Pergunta",
+    "explicacao": "Esplikason",
+    "conclusao": "Konkluzon",
+    "botaoPraticar": "Pratika",
+    "dicasPratica": "Dikas di Pratica",
+    "praticaIntroducao": "Pratika introduson",
+    "praticaMemorizar": "Memoriza testu bibliku",
+    "praticaPergunta": "Faz pergunta",
+    "praticaExplicacao": "Esplika resposta",
+    "exemploDialogo": "Ezemplu di Dialogu",
+    "voce": "Bu",
+    "morador": "Morador",
+    "olaPossoAjudar": "Ola, pozu djuda bu?",
+    "nuncaPensei": "Nunka pensa na kes.",
+    "iniciarPratica": "Kumsa Pratica"
+  },
+  "licoes": {
+    "titulo": "Lison di Kriol",
+    "subtitulo": "Aprendi kriol di Kabu Verdi pasu pasu",
+    "iniciante": "Kuminsanti",
+    "intermediario": "Intermediariu",
+    "avancado": "Avansadu",
+    "general": "Jeral",
+    "pronouns": "Pronomi",
+    "verbos": "Verbu",
+    "sintaxe": "Sintaxi",
+    "morfologia": "Morfolojia",
+    "vocabulario": "Vokabulariu",
+    "phrases": "Frazi",
+    "numbers": "Numeru",
+    "culture": "Kultura",
+    "todas": "Tudu",
+    "todosNiveis": "Tudu nivel",
+    "licoes": "lison",
+    "completas": "kompletu",
+    "categorias": "Kategoria",
+    "nivel": "Nivel",
+    "nenhumaLicao": "Nenhuma lison otu",
+    "continueAprendendo": "Kontinua Aprendi",
+    "cadaLicao": "Kada lison leva bu mas pertu di dominu di kriol",
+    "conteudo": "Konteudu",
+    "exemplos": "Ezemplu",
+    "dicasPraticas": "Dikas Pratik"
+  },
+  "gramatica": {
+    "titulo": "Gràmatika",
+    "todas": "Tudu",
+    "fonologia": "Fonolojia",
+    "morfologia": "Morfolojia",
+    "sintaxe": "Sintaxi",
+    "verbos": "Verbu",
+    "pronomes": "Pronomi",
+    "geral": "Jeral",
+    "pesquisarLicoes": "Piskiza lison...",
+    "licacao": "Lison",
+    "adicionarAosFavoritos": "Junta na Favoritu",
+    "nenhumaLicaoEncontrada": "Nenhuma lison otu"
+  },
+  "dicionario": {
+    "titulo": "Disionariu",
+    "todos": "Tudu",
+    "pesquisarPalavras": "Piskiza palavra...",
+    "suggestionsIA": "Sugeston IA",
+    "palavrasNoDicionario": "palavra na disionariu",
+    "removerDosFavoritos": "Tira di Favoritu",
+    "adicionarAosFavoritos": "Junta na Favoritu",
+    "nenhumaPalavraEncontrada": "Nenhuma palavra otu"
+  },
+  "favoritos": {
+    "tituloVazio": "Nenhum Favoritu",
+    "descricaoVazia": "Bu nun junta ainda palavra na favoritu.",
+    "procurarNoDicionario": "Piskiza na Disionariu"
+  },
+  "estudosBiblicosPagina": {
+    "titulo": "Studu Bibliku",
+    "subtitulo": "Rekursu pa bu studu bibliku pesual"
+  },
+  "iu": {
+    "proximo": "Prosimu",
+    "anterior": "Anterior",
+    "fechar": "Fecha",
+    "tema": "Tema",
+    "tema.mudar": "Muda tema",
+    "tema.claro": "Klaru",
+    "tema.sombrio": "Skuru",
+    "tema.sistema": "Sistema",
+    "idioma": "Lingua",
+    "tudu": "Tudu"
+  },
+  "loading": "Kargandu...",
+  "comum": {
+    "favoritos": "Favoritu",
+    "carregarMais": "Karga Mas",
+    "removerDosFavoritos": "Tira di Favoritu",
+    "adicionarAosFavoritos": "Junta na Favoritu",
+    "exemplo": "Ezemplu",
+    "sinonimos": "Sinonimu",
+    "categoria": "Kategoria"
+  },
+  "rodape": {
+    "recursosExternos": {
+      "jwOrg": "JW.ORG",
+      "jwLibrary": "JW Library",
+      "jwBroadcasting": "JW Broadcasting"
+    },
+    "direitos": "Tudu direitu reservadu.",
+    "privacidade": "Privacidade",
+    "termos": "Termu di Uzu",
+    "cookies": "Cookie"
+  },
+  "notas": {
+    "tabs": {
+      "general": "Jeral",
+      "students": "Estudanti",
+      "interessed": "Pessoa Interesada",
+      "calendar": "Kalendariu",
+      "timer": "Kronometru",
+      "stats": "Statistika"
+    },
+    "adicionarEvento": "Junta Eventu",
+    "selecionarData": "Seleksiona data na kalendariu.",
+    "eventoAdicionado": "Evento juntadu.",
+    "eventoRemovido": "Evento tiradu.",
+    "nomeObrigatorio": "Pli favor skrevi n'um nomi.",
+    "estudanteAdicionado": "Estudanti juntadu.",
+    "estudanteRemovido": "Estudanti tiradu.",
+    "pessoaInteressadaAdicionada": "Pessoa interessada juntada.",
+    "pessoaRemovida": "Pessoa tirada.",
+    "notasReiniciadas": "Nota reinisiadu.",
+    "notasSalvas": "Nota salbu."
+  },
+  "compartilhar": {
+    "copiado": "Kopiá na clipboard!",
+    "partager": "Partilha",
+    "partageNatif": "Partilha nativu",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copier": "Kopia",
+    "partageEnCours": "Partilhando..."
+  },
+  "chatbot": {
+    "digiteMensagem": "Skrevi bu mensagem..."
   }
 }

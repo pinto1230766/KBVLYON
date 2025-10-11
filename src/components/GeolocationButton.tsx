@@ -136,7 +136,7 @@ export const GeolocationButton: React.FC<GeolocationButtonProps> = ({
               <div>
                 <strong>Dernière mise à jour:</strong>
                 <br />
-                {new Date(position.timestamp).toLocaleString('fr-FR')}
+                {new Date(position.timestamp).toLocaleString('pt-PT')}
               </div>
             </div>
           </CardContent>

@@ -99,7 +99,7 @@ app.post('/api/chat', async (req, res) => {
 
     const model = genAI.getGenerativeModel({
       model: 'gemini-1.5-flash',
-      systemInstruction: "Vous êtes un assistant IA spécialisé dans l'apprentissage du créole capverdien. Aidez les utilisateurs à apprendre la langue, fournissez des traductions, expliquez la grammaire, le vocabulaire, et répondez aux questions sur la culture capverdienne et l'application. Répondez en français ou en créole selon le contexte."
+      systemInstruction: "Você é um assistente IA especializado no aprendizado do crioulo cabo-verdiano. Ajude os usuários a aprender a língua, forneça traduções, explique a gramática, o vocabulário, e responda a perguntas sobre a cultura cabo-verdiana e a aplicação. Responda em português ou em crioulo conforme o contexto."
     });
 
     const contents = messages.map(msg => ({
