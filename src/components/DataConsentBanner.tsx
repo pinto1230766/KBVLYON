@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useState, useEffect } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Shield, X } from 'lucide-react';
 
 const DataConsentBanner = () => {
-  const { t } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
   const [hasConsented, setHasConsented] = useState(false);
 
