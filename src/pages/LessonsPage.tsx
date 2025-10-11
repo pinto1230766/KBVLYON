@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
-import { ChevronRight, X } from 'lucide-react';
+import { ChevronRight, X, Star, CheckCircle, BookOpen } from 'lucide-react';
 import { lessonsData, type Lesson as LessonData } from '../data/lessonsData_fixed';
 import { useLanguage } from '../hooks/useLanguage';
+import { useOfflineStorage } from '../hooks/useOfflineStorage';
 
 interface LessonSummary {
   id: number;
@@ -68,10 +69,12 @@ const normalizeCategory = (category: string): CategoryKey => {
 };
 
 const LessonsPage = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
   const [selectedLevel, setSelectedLevel] = useState<LevelFilter>('all');
   const [selectedLesson, setSelectedLesson] = useState<LessonData | null>(null);
+  const { value: completedLessons, setValue: setCompletedLessons } = useOfflineStorage<number[]>('completedLessons', []);
+  const { value: favoriteLessons, setValue: setFavoriteLessons } = useOfflineStorage<number[]>('favoriteLessons', []);
 
   const levelLabels = useMemo(() => ({
     beginner: t('licoes.iniciante'),
@@ -98,16 +101,16 @@ const LessonsPage = () => {
 
       return {
         id: lesson.id,
-        title: lesson.title.pt,
-        description: lesson.description.pt,
+        title: lesson.title[language] || lesson.title.pt,
+        description: lesson.description[language] || lesson.description.pt,
         levelKey,
         levelLabel: levelLabels[levelKey],
         categoryKey,
         categoryLabel: categoryLabels[categoryKey],
-        completed: false
+        completed: completedLessons.includes(lesson.id)
       } as LessonSummary;
     })
-  ), [categoryLabels, levelLabels]);
+  ), [categoryLabels, levelLabels, language, completedLessons]);
 
   const categoryOrder: CategoryKey[] = useMemo(
     () => ['general', 'pronouns', 'verbs', 'syntax', 'morphology', 'vocabulary', 'phrases', 'numbers', 'culture'],
@@ -139,6 +142,31 @@ const LessonsPage = () => {
   });
 
   const completedCount = lessons.filter(l => l.completed).length;
+  const progressPercentage = lessons.length > 0 ? Math.round((completedCount / lessons.length) * 100) : 0;
+
+  const toggleLessonCompletion = (lessonId: number) => {
+    setCompletedLessons(prev => {
+      const newCompleted = new Set(prev);
+      if (newCompleted.has(lessonId)) {
+        newCompleted.delete(lessonId);
+      } else {
+        newCompleted.add(lessonId);
+      }
+      return Array.from(newCompleted);
+    });
+  };
+
+  const toggleLessonFavorite = (lessonId: number) => {
+    setFavoriteLessons(prev => {
+      const newFavorites = new Set(prev);
+      if (newFavorites.has(lessonId)) {
+        newFavorites.delete(lessonId);
+      } else {
+        newFavorites.add(lessonId);
+      }
+      return Array.from(newFavorites);
+    });
+  };
 
   const getLevelColor = (level: LevelKey) => {
     switch (level) {
@@ -178,15 +206,31 @@ const LessonsPage = () => {
              {t('licoes.subtitulo')}
            </p>
           
-          {/* Statistiques */}
-          <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-6 sm:gap-10 mb-8">
-            <div className="text-center">
-              <span className="text-4xl font-bold text-primary">{lessons.length}</span>
-              <span className="text-muted-foreground ml-2">{t('licoes.licoes')}</span>
+          {/* Statistiques avec barre de progression */}
+          <div className="bg-card border border-border rounded-xl p-6 mb-8 max-w-md mx-auto">
+            <div className="flex justify-between items-center mb-4">
+              <div className="text-center">
+                <span className="text-3xl font-bold text-primary">{lessons.length}</span>
+                <span className="text-muted-foreground text-sm block">{t('licoes.licoes')}</span>
+              </div>
+              <div className="text-center">
+                <span className="text-3xl font-bold text-green-500">{completedCount}</span>
+                <span className="text-muted-foreground text-sm block">{t('licoes.completas')}</span>
+              </div>
             </div>
-            <div className="text-center">
-              <span className="text-4xl font-bold text-green-500">{completedCount}</span>
-              <span className="text-muted-foreground ml-2">{t('licoes.completas')}</span>
+
+            {/* Barre de progression */}
+            <div className="space-y-2">
+              <div className="flex justify-between text-sm">
+                <span className="text-muted-foreground">Progression</span>
+                <span className="font-medium text-foreground">{progressPercentage}%</span>
+              </div>
+              <div className="w-full bg-muted rounded-full h-3">
+                <div
+                  className="bg-gradient-to-r from-green-500 to-blue-500 h-3 rounded-full transition-all duration-500 ease-out"
+                  style={{ width: `${progressPercentage}%` }}
+                ></div>
+              </div>
             </div>
           </div>
         </div>
@@ -235,41 +279,78 @@ const LessonsPage = () => {
           </div>
         </div>
 
-        {/* Liste des leçons */}
-        <div className="space-y-3 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-2 lg:gap-6 xl:grid-cols-3 xl:gap-6">
-          {filteredLessons.map((lesson) => (
-            <div
-              key={lesson.id}
-              onClick={() => setSelectedLesson(lessonsData.find(l => l.id === lesson.id) || null)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault();
-                  setSelectedLesson(lessonsData.find(l => l.id === lesson.id) || null);
-                }
-              }}
-              tabIndex={0}
-              role="button"
-              aria-labelledby={`lesson-card-${lesson.id}-title`}
-              className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-all cursor-pointer group active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-            >
-              <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className={`px-2 py-1 rounded text-xs font-medium ${getLevelColor(lesson.levelKey)}`}>
+        {/* Liste des leçons améliorée */}
+        <div className="lesson-grid">
+          {filteredLessons.map((lesson) => {
+            const isFavorite = favoriteLessons.includes(lesson.id);
+            const isCompleted = lesson.completed;
+
+            return (
+              <div
+                key={lesson.id}
+                className={`bg-card border border-border rounded-xl p-5 hover:shadow-lg transition-all cursor-pointer group active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ${
+                  isCompleted ? 'ring-2 ring-green-500/50' : ''
+                }`}
+                onClick={() => setSelectedLesson(lessonsData.find(l => l.id === lesson.id) || null)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setSelectedLesson(lessonsData.find(l => l.id === lesson.id) || null);
+                  }
+                }}
+                tabIndex={0}
+                role="button"
+                aria-labelledby={`lesson-card-${lesson.id}-title`}
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getLevelColor(lesson.levelKey)}`}>
                       {lesson.levelLabel}
                     </span>
+                    {isCompleted && (
+                      <CheckCircle className="w-5 h-5 text-green-500" aria-hidden="true" />
+                    )}
                   </div>
-                  <h3 id={`lesson-card-${lesson.id}-title`} className="text-lg font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleLessonFavorite(lesson.id);
+                      }}
+                      className={`p-2 rounded-lg transition-colors ${
+                        isFavorite
+                          ? 'text-yellow-500 bg-yellow-50 dark:bg-yellow-950/20'
+                          : 'text-muted-foreground hover:text-yellow-500 hover:bg-yellow-50 dark:hover:bg-yellow-950/20'
+                      }`}
+                      aria-label={isFavorite ? 'Retirer des favoris' : 'Ajouter aux favoris'}
+                    >
+                      <Star className={`w-5 h-5 ${isFavorite ? 'fill-current' : ''}`} aria-hidden="true" />
+                    </button>
+                    <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" aria-hidden="true" />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <h3 id={`lesson-card-${lesson.id}-title`} className="text-xl font-bold text-foreground group-hover:text-primary transition-colors leading-tight">
                     {lesson.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-muted-foreground leading-relaxed">
                     {lesson.description}
                   </p>
+                  <div className="flex items-center justify-between pt-2">
+                    <span className="text-xs text-muted-foreground">
+                      {lesson.categoryLabel}
+                    </span>
+                    {isCompleted && (
+                      <span className="text-xs font-medium text-green-600 dark:text-green-400">
+                        Terminée ✓
+                      </span>
+                    )}
+                  </div>
                 </div>
-                <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0 ml-4" aria-hidden="true" />
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {filteredLessons.length === 0 && (
@@ -292,38 +373,61 @@ const LessonsPage = () => {
          </div>
       </div>
 
-      {/* Modal de détail de leçon */}
-      {selectedLesson && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-          <div className="bg-background rounded-lg max-w-4xl md:max-w-3xl w-full max-h-[90vh] overflow-y-auto" role="dialog" aria-labelledby="lesson-modal-title" aria-modal="true">
-            <div className="p-6">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h2 id="lesson-modal-title" className="text-2xl font-bold text-foreground mb-2">
-                    {selectedLesson.title.pt}
-                  </h2>
-                  <div className="flex items-center gap-2">
-                    {(() => {
-                      const levelKey = normalizeLevel(selectedLesson.level);
-                      return (
-                        <span className={`px-2 py-1 rounded text-sm font-medium ${getLevelColor(levelKey)}`}>
-                          {levelLabels[levelKey]}
-                        </span>
-                      );
-                    })()}
-                    <span className="text-sm text-muted-foreground">
-                      {categoryLabels[normalizeCategory(selectedLesson.category)]}
-                    </span>
-                  </div>
-                </div>
-                <button
-                  onClick={() => setSelectedLesson(null)}
-                  className="p-2 hover:bg-muted rounded-lg transition-colors"
-                  aria-label={t('iu.fechar')}
-                >
-                  <X className="w-5 h-5" aria-hidden="true" />
-                </button>
-              </div>
+      {/* Modal de détail de leçon amélioré */}
+     {selectedLesson && (
+       <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+         <div className="bg-background rounded-xl max-w-4xl md:max-w-3xl w-full max-h-[90vh] overflow-y-auto" role="dialog" aria-labelledby="lesson-modal-title" aria-modal="true">
+           <div className="p-6">
+             <div className="flex items-start justify-between mb-6">
+               <div className="flex-1">
+                 <div className="flex items-center gap-3 mb-3">
+                   <BookOpen className="w-8 h-8 text-primary" aria-hidden="true" />
+                   <div>
+                     <h2 id="lesson-modal-title" className="text-2xl font-bold text-foreground">
+                       {selectedLesson.title[language] || selectedLesson.title.pt}
+                     </h2>
+                     <p className="text-sm text-muted-foreground">
+                       {selectedLesson.title.pt !== (selectedLesson.title[language] || selectedLesson.title.pt) &&
+                         `[translate:] ${selectedLesson.title.pt}`
+                       }
+                     </p>
+                   </div>
+                 </div>
+                 <div className="flex items-center gap-2 flex-wrap">
+                   {(() => {
+                     const levelKey = normalizeLevel(selectedLesson.level);
+                     return (
+                       <span className={`px-3 py-1 rounded-full text-sm font-medium ${getLevelColor(levelKey)}`}>
+                         {levelLabels[levelKey]}
+                       </span>
+                     );
+                   })()}
+                   <span className="text-sm text-muted-foreground">
+                     {categoryLabels[normalizeCategory(selectedLesson.category)]}
+                   </span>
+                 </div>
+               </div>
+               <div className="flex items-center gap-2">
+                 <button
+                   onClick={() => toggleLessonCompletion(selectedLesson.id)}
+                   className={`p-2 rounded-lg transition-colors ${
+                     completedLessons.includes(selectedLesson.id)
+                       ? 'text-green-500 bg-green-50 dark:bg-green-950/20'
+                       : 'text-muted-foreground hover:text-green-500 hover:bg-green-50 dark:hover:bg-green-950/20'
+                   }`}
+                   aria-label={completedLessons.includes(selectedLesson.id) ? 'Marquer comme non terminée' : 'Marquer comme terminée'}
+                 >
+                   <CheckCircle className={`w-5 h-5 ${completedLessons.includes(selectedLesson.id) ? 'fill-current' : ''}`} aria-hidden="true" />
+                 </button>
+                 <button
+                   onClick={() => setSelectedLesson(null)}
+                   className="p-2 hover:bg-muted rounded-lg transition-colors"
+                   aria-label={t('iu.fechar')}
+                 >
+                   <X className="w-5 h-5" aria-hidden="true" />
+                 </button>
+               </div>
+             </div>
 
               <div className="space-y-6">
                 {/* Contenu */}
@@ -336,15 +440,31 @@ const LessonsPage = () => {
                   </div>
                 </div>
 
-                {/* Exemples */}
+                {/* Exemples côte à côte */}
                 {selectedLesson.examples && selectedLesson.examples.length > 0 && (
                   <div>
-                    <h3 className="text-lg font-semibold mb-3">{t('licoes.exemplos')}</h3>
-                    <div className="space-y-2">
+                    <h3 className="text-lg font-semibold mb-4">{t('licoes.exemplos')}</h3>
+                    <div className="space-y-3">
                       {selectedLesson.examples.map((example: {pt: string, cv: string}, index: number) => (
-                        <div key={index} className="bg-muted/50 p-3 rounded-lg">
-                          <p className="font-medium text-foreground">{example.pt}</p>
-                          <p className="text-muted-foreground">{example.cv}</p>
+                        <div key={index} className="bg-muted/30 p-4 rounded-xl border border-border">
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="space-y-2">
+                              <div className="flex items-center gap-2">
+                                <span className="text-xs font-semibold px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">
+                                  🇵🇹 Português
+                                </span>
+                              </div>
+                              <p className="text-foreground font-medium leading-relaxed">{example.pt}</p>
+                            </div>
+                            <div className="space-y-2">
+                              <div className="flex items-center gap-2">
+                                <span className="text-xs font-semibold px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
+                                  🇨🇻 Kriolu
+                                </span>
+                              </div>
+                              <p className="text-foreground font-medium leading-relaxed">{example.cv}</p>
+                            </div>
+                          </div>
                         </div>
                       ))}
                     </div>
