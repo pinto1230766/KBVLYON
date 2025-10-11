@@ -56,5 +56,84 @@
     "viewAll": "Ver todos",
     "shareApp": "Partilhar App",
     "copyright": "© 2024 Pinto Francisco"
+  },
+  "notas": {
+    "titulo": "Painel de Controle",
+    "tabs": {
+      "general": "Geral",
+      "students": "Estudantes",
+      "interessed": "Pessoas Interessadas",
+      "calendar": "Calendário",
+      "timer": "Cronômetro",
+      "stats": "Estatísticas"
+    },
+    "placeholder": {
+      "notasGerais": "Escreva suas notas gerais aqui..."
+    },
+    "botoes": {
+      "limpar": "Limpar",
+      "guardar": "Guardar",
+      "adicionar": "Adicionar",
+      "suprimir": "Suprimir",
+      "arrancar": "Arrancar",
+      "reinicializar": "Reinicializar",
+      "tour": "Tour"
+    },
+    "adicionarEvento": "Adicionar Evento",
+    "selecionarData": "Selecione uma data no calendário.",
+    "eventoAdicionado": "Evento adicionado.",
+    "eventoRemovido": "Evento removido.",
+    "nomeObrigatorio": "Por favor, escreva um nome.",
+    "estudanteAdicionado": "Estudante adicionado.",
+    "estudanteRemovido": "Estudante removido.",
+    "pessoaInteressadaAdicionada": "Pessoa interessada adicionada.",
+    "pessoaRemovida": "Pessoa removida.",
+    "notasReiniciadas": "Notas reiniciadas.",
+    "notasSalvas": "Notas salvas.",
+    "eventosDoMes": "Eventos do mês",
+    "nenhumEvento": "Nenhum evento registado. Selecione uma data e preencha o formulário.",
+    "formulario": {
+      "dataSelecionada": "Data seleccionada",
+      "tipoEvento": "Tipo de evento",
+      "predicacao": "Predicação",
+      "etude": "Estudo",
+      "notas": "Notas",
+      "detalhesParticipantes": "Detalhes, participantes, local...",
+      "nomeEstudante": "Nome do estudante*",
+      "telefone": "Telefone",
+      "progressoObservacoes": "Progresso / Observações",
+      "ultimaVisita": "Última visita",
+      "nomePessoa": "Nome da pessoa*",
+      "enderecoZona": "Endereço / Zona",
+      "dataRelancamento": "Data de relançamento",
+      "impressoes": "Impressões, assuntos discutidos, necessidades..."
+    },
+    "mensagens": {
+      "adicionarEstudantes": "Adicione os seus estudantes para acompanhar a sua progressão.",
+      "nenhumProgresso": "Nenhum progresso anotado.",
+      "ultimaVisita": "Última visita:",
+      "proximaVisita": "Próxima visita:",
+      "enderecoNaoInformado": "Endereço não informado.",
+      "adicionarPessoasInteressadas": "Adicione as suas pessoas interessadas e planeie os seus retornos de visita."
+    },
+    "cronometro": {
+      "titulo": "Cronômetro",
+      "arrancar": "Arrancar",
+      "parar": "Parar",
+      "reinicializar": "Reinicializar",
+      "tour": "Tour",
+      "tours": "Tours"
+    },
+    "estatisticas": {
+      "titulo": "Estatísticas",
+      "tempoTotal": "Tempo total",
+      "sessoes": "Sessões",
+      "mediaPorSessao": "Média por sessão",
+      "historicoRecente": "Histórico recente",
+      "data": "Data",
+      "duracao": "Duração",
+      "notas": "Notas",
+      "nenhumaDados": "Nenhuma dados de histórico disponível"
+    }
   }
 }

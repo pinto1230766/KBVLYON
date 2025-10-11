@@ -21,13 +21,12 @@ interface DictionaryEntry {
 }
 
 const DictionaryPage = () => {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState<'dictionary' | 'favorites'>('dictionary');
   const [searchTerm, setSearchTerm] = useState('');
   const [fuse, setFuse] = useState<Fuse<DictionaryEntry> | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [sortOrder, setSortOrder] = useState<'alphabetical' | 'thematic'>('thematic');
-  const [showSearchHistory, setShowSearchHistory] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const { value: favoritesArray, setValue: setFavoritesArray } = useOfflineStorage<string[]>('dictionaryFavorites', []);
@@ -201,7 +200,6 @@ const DictionaryPage = () => {
   // Handle search history selection
   const handleHistorySelect = useCallback((term: string) => {
     setSearchTerm(term);
-    setShowSearchHistory(false);
     searchInputRef.current?.focus();
   }, []);
 

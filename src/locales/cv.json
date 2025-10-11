@@ -181,17 +181,74 @@
       "timer": "Kronometru",
       "stats": "Statistika"
     },
+    "placeholder": {
+      "notasGerais": "Skribi bu noti jenéral li..."
+    },
+    "botoes": {
+      "limpar": "Limpâ",
+      "guardar": "Graba",
+      "adicionar": "Junta",
+      "suprimir": "Tira",
+      "arrancar": "Arranka",
+      "reinicializar": "Reinisia",
+      "tour": "Volta"
+    },
     "adicionarEvento": "Junta Eventu",
     "selecionarData": "Seleksiona data na kalendariu.",
-    "eventoAdicionado": "Evento juntadu.",
-    "eventoRemovido": "Evento tiradu.",
+    "eventoAdicionado": "Eventu juntadu.",
+    "eventoRemovido": "Eventu tiradu.",
     "nomeObrigatorio": "Pli favor skrevi n'um nomi.",
     "estudanteAdicionado": "Estudanti juntadu.",
     "estudanteRemovido": "Estudanti tiradu.",
     "pessoaInteressadaAdicionada": "Pessoa interessada juntada.",
     "pessoaRemovida": "Pessoa tirada.",
     "notasReiniciadas": "Nota reinisiadu.",
-    "notasSalvas": "Nota salbu."
+    "notasSalvas": "Nota salbu.",
+    "eventosDoMes": "Eventu di mezi",
+    "nenhumEvento": "Nenhum eventu rejistradu. Seleksiona data y prenxe formulariu.",
+    "formulario": {
+      "dataSelecionada": "Data seleksionadu",
+      "tipoEvento": "Tipu di eventu",
+      "predicacao": "Pregason",
+      "etude": "Studu",
+      "notas": "Nota",
+      "detalhesParticipantes": "Detalhi, partisipanti, luga...",
+      "nomeEstudante": "Nomi di studanti*",
+      "telefone": "Telefone",
+      "progressoObservacoes": "Progresu / Observason",
+      "ultimaVisita": "Ultimu vizita",
+      "nomePessoa": "Nomi di pessoa*",
+      "enderecoZona": "Enderesu / Zona",
+      "dataRelancamento": "Data di relansu",
+      "impressoes": "Impreson, asuntu diskutidu, nesesidadi..."
+    },
+    "mensagens": {
+      "adicionarEstudantes": "Junta bu studanti pa akonpanha s progresu.",
+      "nenhumProgresso": "Nenhum progresu notadu.",
+      "ultimaVisita": "Ultimu vizita:",
+      "proximaVisita": "Prosimu vizita:",
+      "enderecoNaoInformado": "Enderesu nun informadu.",
+      "adicionarPessoasInteressadas": "Junta bu pessoa interessada y plania bu retornu di vizita."
+    },
+    "cronometro": {
+      "titulo": "Kronometru",
+      "arrancar": "Arranka",
+      "parar": "Para",
+      "reinicializar": "Reinisia",
+      "tour": "Volta",
+      "tours": "Volta"
+    },
+    "estatisticas": {
+      "titulo": "Statistika",
+      "tempoTotal": "Tempu total",
+      "sessoes": "Sesons",
+      "mediaPorSessao": "Media pa seson",
+      "historicoRecente": "Istoria resenti",
+      "data": "Data",
+      "duracao": "Durason",
+      "notas": "Nota",
+      "nenhumaDados": "Nenhum dadu di istoria disponivel"
+    }
   },
   "compartilhar": {
     "copiado": "Kopiá na clipboard!",
