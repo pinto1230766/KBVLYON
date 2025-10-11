@@ -1,6 +1,6 @@
 {
   "name": "dictionary-api",
-  "version": "1.0.0",
+  "version": "1.10.1",
   "description": "Local API server for dictionary data",
   "main": "server.js",
   "scripts": {

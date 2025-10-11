@@ -1,4 +1,5 @@
 import { useLanguage } from '../hooks/useLanguage';
+import { NotificationSettings } from '../components/NotificationSettings';
 
 const SettingsPage = () => {
   const { t } = useLanguage();
@@ -7,6 +8,9 @@ const SettingsPage = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">{t('navegacao.configuracoes')}</h1>
 
+      <section className="mb-8">
+        <NotificationSettings />
+      </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">{t('configuracoes.infoApp')}</h2>

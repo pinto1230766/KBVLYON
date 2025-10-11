@@ -4,6 +4,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { OfflineIndicator } from '@/components/OfflineIndicator';
 import { useLanguage } from '@/hooks/useLanguage';
 
 // Les clés correspondent aux sous-clés de translations.navegacao
@@ -88,7 +89,8 @@ export function MainNav() {
           </Button>
           
           {/* Bouton de thème visible uniquement sur md et plus, et dans le menu mobile */}
-          <div className="hidden md:flex">
+          <div className="hidden md:flex items-center space-x-1">
+            <OfflineIndicator showText={false} />
             <ThemeToggle />
           </div>
 

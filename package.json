@@ -1,8 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "vite-react-typescript-starter",
+  "name": "kbvlyon",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.10.1",
+  "description": "Application mobile complète pour apprendre le crioulo cabo-verdiano, spécialement conçue pour les Témoins de Jéhovah du Cap-Vert.",
+  "author": "Pinto Francisco",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

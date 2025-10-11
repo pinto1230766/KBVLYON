@@ -4,7 +4,7 @@ const pdfParse = require('pdf-parse');
 
 const SOURCE_DIRECTORIES = [
   path.resolve('pdfs'),
-  path.resolve('project/public/pdfs')
+  path.resolve('public/pdfs')
 ];
 
 const OUTPUT_FILE = path.resolve('src/data/lessons_extracted.json');

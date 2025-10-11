@@ -3,6 +3,7 @@
 This document provides an analysis of each module in the project based on structure mapping, workflow checks, and quality checks.
 
 ## Status Legend
+
 - **OK**: Module is well-structured, functional, and meets quality standards
 - **À revoir**: Module needs review or refactoring (e.g., cleanup, consolidation)
 - **A faire**: Module requires significant work or implementation
@@ -32,11 +33,13 @@ This document provides an analysis of each module in the project based on struct
 ## Summary of Checks
 
 ### Structure Mapping
+
 - Project follows a logical modular structure with clear separation of concerns
 - Components, pages, and utilities are well-organized
 - Some consolidation needed in data and types modules
 
 ### Workflow Checks
+
 - Development server runs without errors
 - Preview build works correctly
 - Linting passes with no issues
@@ -44,6 +47,7 @@ This document provides an analysis of each module in the project based on struct
 - Build process configured properly
 
 ### Quality Checks
+
 - ESLint passes with no errors or warnings
 - No TODO/FIXME comments found in codebase
 - TypeScript compilation successful

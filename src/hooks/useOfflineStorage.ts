@@ -8,6 +8,13 @@ interface StoredData<T> {
   version: number;
 }
 
+// Fonction utilitaire pour communiquer avec le Service Worker
+const sendMessageToSW = (message: { type: string; data?: unknown }) => {
+  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+    navigator.serviceWorker.controller.postMessage(message);
+  }
+};
+
 // Interface pour les options du hook
 interface UseOfflineStorageOptions {
   backupBeforeClean?: boolean;
@@ -44,6 +51,24 @@ export function useOfflineStorage<T>(
       if (item) {
         const parsed: StoredData<T> = JSON.parse(item);
         return parsed.data;
+      }
+      // Essayer de restaurer depuis le cache SW si localStorage est vide
+      if ('caches' in window) {
+        caches.open('kbvlyon-api-v1').then((cache) => {
+          const userDataUrl = `/user-data/${key}`;
+          return cache.match(userDataUrl);
+        }).then((cachedResponse) => {
+          if (cachedResponse) {
+            return cachedResponse.json();
+          }
+        }).then((cachedData) => {
+          if (cachedData) {
+            localStorage.setItem(key, JSON.stringify(cachedData));
+            setStoredValue(cachedData.data);
+          }
+        }).catch(() => {
+          // Ignore errors
+        });
       }
       return initialValue;
     } catch (error) {
@@ -141,6 +166,12 @@ export function useOfflineStorage<T>(
         syncWithOtherDevices(key, storedData);
       }
 
+      // Intégration avec le Service Worker pour la persistance
+      sendMessageToSW({
+        type: 'CACHE_USER_DATA',
+        data: { key, value: storedData }
+      });
+
       setStoredValue(valueToStore);
     } catch (error) {
       console.error(`Erreur lors de la sauvegarde de ${key}:`, error);
@@ -181,6 +212,28 @@ export function useOfflineStorage<T>(
     channel.onmessage = handleMessage;
     return () => channel.close();
   }, [key, syncAcrossDevices, getDeviceId]);
+
+  // Restaurer depuis le cache du Service Worker
+  const restoreFromSWCache = useCallback(async () => {
+    if (!('serviceWorker' in navigator)) return false;
+
+    try {
+      const cache = await caches.open('kbvlyon-api-v1');
+      const userDataUrl = `/user-data/${key}`;
+      const cachedResponse = await cache.match(userDataUrl);
+
+      if (cachedResponse) {
+        const cachedData = await cachedResponse.json();
+        localStorage.setItem(key, JSON.stringify(cachedData));
+        setStoredValue(cachedData.data);
+        return true;
+      }
+      return false;
+    } catch (error) {
+      console.error(`Erreur lors de la restauration depuis SW de ${key}:`, error);
+      return false;
+    }
+  }, [key]);
 
   // Restaurer depuis la sauvegarde
   const restoreFromBackup = useCallback(() => {
@@ -261,6 +314,7 @@ export function useOfflineStorage<T>(
     value: storedValue,
     setValue,
     clearData,
-    restoreFromBackup
+    restoreFromBackup,
+    restoreFromSWCache
   };
 }

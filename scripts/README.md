@@ -1,175 +1,231 @@
-# 📄 Script d'extraction de données PDF
+# 🔧 Unified PDF Extraction Tool
 
-Ce script permet d'extraire automatiquement les mots du dictionnaire et les leçons à partir de vos fichiers PDF en cap-verdien.
+A consolidated, well-documented script that handles all PDF processing needs for the KBVLYON project. This unified tool replaces multiple individual extraction scripts with a single, comprehensive solution.
+
+## ✨ Features
+
+- **PDF Text Extraction**: Extract raw text from PDF files
+- **Dictionary Processing**: Parse dictionary entries from PDFs with multiple format support
+- **Lessons Processing**: Extract and categorize grammar lessons from PDFs
+- **Preaching Lessons**: Extract lessons from source maps (APK extraction)
+- **APK JavaScript Processing**: Extract lessons from compiled JavaScript files
+- **18-Lesson Curriculum**: Generate complete 18-lesson learning curriculum
+- **TypeScript Generation**: Auto-generate properly typed TypeScript data files
 
 ## 🚀 Installation
 
-1. Installez la dépendance nécessaire :
+1. Install the required dependency:
 
 ```bash
 npm install pdf-parse
 ```
 
-## 📁 Structure des fichiers
+## 📁 File Structure
 
 ```text
 KBVLYON/
 ├── scripts/
-│   ├── extractPdfData.js    # Script d'extraction
-│   └── README.md            # Ce fichier
-├── pdfs/                    # Placez vos PDFs ici
+│   ├── unified_pdf_extractor.cjs    # Main unified extraction script
+│   ├── extractPdfData.cjs           # Legacy - consolidated into unified script
+│   ├── extract_lessons_from_pdfs.cjs # Legacy - consolidated
+│   ├── extract_preaching_lessons.js # Legacy - consolidated
+│   ├── generate_18_lessons.cjs      # Legacy - consolidated
+│   └── README.md                    # This documentation
+├── pdfs/                            # Place your PDFs here
 │   ├── dicionario-cv.pdf
 │   ├── licoes-gramatica.pdf
 │   └── ...
-└── src/data/               # Fichiers générés
+├── assets/public/
+│   └── grammar_lessons_extracted.json
+└── src/data/                        # Generated files
     ├── dictionaryData.ts
-    └── lessonsData.ts
+    ├── lessonsData.ts
+    └── preachingLessons_from_apk.ts
 ```
 
-## 📖 Formats de PDF supportés
+## 🎯 Usage
 
-### Dictionnaire
+### Command Line Interface
 
-Le script reconnaît plusieurs formats :
+```bash
+node scripts/unified_pdf_extractor.cjs --type <extraction-type> [options]
+```
 
-**Format 1 :** `mot - PT: traduction - CV: traduction - Ex: exemple`
+### Extraction Types
 
+| Type | Description | Input Required |
+|------|-------------|----------------|
+| `pdf-text` | Extract raw text from all PDFs | None |
+| `dictionary` | Extract dictionary entries from PDFs | None (scans pdfs/ folder) |
+| `lessons` | Extract grammar lessons from PDFs | None (scans pdfs/ folder) |
+| `preaching` | Extract preaching lessons from source map | `--source-map <path>` |
+| `apk-lessons` | Extract lessons from APK JavaScript | `--input <js-file>` |
+| `generate-18` | Generate complete 18-lesson curriculum | None |
+
+### Options
+
+- `--input <path>`: Input file path (for apk-lessons)
+- `--output <path>`: Custom output file path
+- `--source-map <path>`: Source map file path (for preaching)
+- `--help`: Show help information
+
+## 📋 Examples
+
+### Extract Text from PDFs
+```bash
+node scripts/unified_pdf_extractor.cjs --type pdf-text
+```
+
+### Extract Dictionary Data
+```bash
+node scripts/unified_pdf_extractor.cjs --type dictionary
+```
+
+### Extract Grammar Lessons
+```bash
+node scripts/unified_pdf_extractor.cjs --type lessons
+```
+
+### Extract Preaching Lessons from Source Map
+```bash
+node scripts/unified_pdf_extractor.cjs --type preaching --source-map "C:/path/to/app.js.map"
+```
+
+### Extract Lessons from APK JavaScript
+```bash
+node scripts/unified_pdf_extractor.cjs --type apk-lessons --input "path/to/extracted/app.js"
+```
+
+### Generate 18-Lesson Curriculum
+```bash
+node scripts/unified_pdf_extractor.cjs --type generate-18
+```
+
+### Custom Output Location
+```bash
+node scripts/unified_pdf_extractor.cjs --type dictionary --output src/data/myDictionary.ts
+```
+
+## 📖 Supported PDF Formats
+
+### Dictionary Formats
+
+The script recognizes multiple dictionary formats:
+
+**Format 1:** `word - PT: translation - CV: translation - Ex: example`
 ```text
 abadu - PT: abade, padre - CV: abadu - Ex: O abade da igreja é muito sábio
 ```
 
-**Format 2 :** `mot (traduction PT) (traduction CV)`
-
+**Format 2:** `word (PT translation) (CV translation)`
 ```text
 abanu (abanão, abano) (abanu)
 ```
 
-**Format 3 :** `mot PT: traduction CV: traduction`
-
+**Format 3:** `word PT: translation CV: translation`
 ```text
 abaxu PT: abaixo CV: abaxu Ex: Assine seu nome abaixo da linha
 ```
 
-### Leçons
+### Lessons Format
 
-Le script détecte automatiquement les leçons basées sur :
+Lessons are automatically detected based on:
+- Titles starting with "Lição" or "Lesson"
+- Auto-detected categories (Pronomes, Verbos, Sintaxe, etc.)
 
-- Titres commençant par "Lição" ou "Lesson"
-- Catégories détectées automatiquement (Pronomes, Verbos, Sintaxe, etc.)
+## 📊 Output Files
 
-## 🎯 Utilisation
+The script generates properly typed TypeScript files:
 
-### 1. Préparez vos PDFs
+- `src/data/dictionaryData.ts` - Dictionary entries with translations
+- `src/data/lessonsData.ts` - Grammar lessons with categories
+- `src/data/preachingLessons_from_apk.ts` - Preaching lessons from APK
+- `src/data/lessons_extracted.json` - Raw PDF extraction results
 
-Placez vos fichiers PDF dans le dossier `pdfs/` :
+## 🔧 Customization
 
-- Nommez les fichiers de dictionnaire avec "dicionario" ou "dictionary"
-- Nommez les fichiers de leçons avec "licao" ou "lesson" ou "gramatica"
+### Modifying Parsing Formats
 
-Exemples :
+If your PDFs have different formats, modify the parsing functions in `unified_pdf_extractor.cjs`:
 
-- `dicionario-caboverdiano.pdf`
-- `licoes-gramatica-crioulo.pdf`
-- `dictionary-kabuverdianu.pdf`
+- `parseDictionaryText()` - For dictionary entries
+- `parseLessonsText()` - For lesson content
+- `detectCategory()` - For automatic lesson categorization
 
-### 2. Exécutez le script
+### Adding Categories
 
-```bash
-node scripts/extractPdfData.js
-```
-
-### 3. Vérifiez les résultats
-
-Le script génère automatiquement :
-
-- `src/data/dictionaryData.ts` - Toutes les entrées du dictionnaire
-- `src/data/lessonsData.ts` - Toutes les leçons extraites
-
-## 📊 Exemple de sortie
-
-```console
-🚀 Extraction des données des PDFs...
-
-📚 2 fichier(s) PDF trouvé(s):
-   - dicionario-cv.pdf
-   - licoes-gramatica.pdf
-
-📖 Traitement de: dicionario-cv.pdf
-   ✓ Texte extrait (125430 caractères)
-   → Type: Dictionnaire
-   ✓ 4794 mots extraits
-
-📖 Traitement de: licoes-gramatica.pdf
-   ✓ Texte extrait (45230 caractères)
-   → Type: Leçons
-   ✓ 18 leçons extraites
-
-📝 Génération des fichiers...
-
-✅ Fichier dictionnaire généré: src/data/dictionaryData.ts
-   4794 entrées créées
-✅ Fichier leçons généré: src/data/lessonsData.ts
-   18 leçons créées
-
-✅ Extraction terminée avec succès!
-
-📊 Résumé:
-   - 4794 mots de dictionnaire
-   - 18 leçons
-```
-
-## 🔧 Personnalisation
-
-### Modifier le format de parsing
-
-Si vos PDFs ont un format différent, modifiez les fonctions dans `extractPdfData.js` :
-
-- `parseDictionaryText()` - Pour le dictionnaire
-- `parseLessonsText()` - Pour les leçons
-- `detectCategory()` - Pour la catégorie des leçons
-
-### Ajouter des catégories
-
-Dans la fonction `detectCategory()`, ajoutez vos propres mots-clés :
+In the `detectCategory()` function, add your own keywords:
 
 ```javascript
-if (lowerText.includes('votre-mot-cle')) return 'Votre-Categorie';
+if (lowerText.includes('your-keyword')) return 'Your-Category';
 ```
 
-## ⚠️ Notes importantes
+## ⚠️ Important Notes
 
-1. **Qualité du PDF** : Les PDFs scannés (images) ne fonctionneront pas. Utilisez des PDFs avec du texte sélectionnable.
+1. **PDF Quality**: Scanned PDFs (images) won't work. Use PDFs with selectable text.
 
-2. **Format du texte** : Le script fonctionne mieux avec des PDFs bien formatés. Si l'extraction ne fonctionne pas bien, vous devrez peut-être ajuster les regex dans le script.
+2. **Text Format**: The script works best with well-formatted PDFs. You may need to adjust regex patterns for your specific format.
 
-3. **Encodage** : Assurez-vous que vos PDFs utilisent l'encodage UTF-8 pour les caractères spéciaux portugais/crioulo.
+3. **Encoding**: Ensure PDFs use UTF-8 encoding for Portuguese/Creole special characters.
 
-4. **Sauvegarde** : Le script écrase les fichiers existants. Faites une sauvegarde avant de lancer !
+4. **Backup**: The script overwrites existing files. Make backups before running!
 
-## 🐛 Dépannage
+## 🐛 Troubleshooting
 
-### Aucun mot extrait ?
+### No words extracted?
 
-- Vérifiez que le PDF contient du texte sélectionnable (pas une image scannée)
-- Ouvrez le PDF et copiez quelques lignes pour voir le format exact
-- Ajustez les regex dans `parseDictionaryText()` pour correspondre à votre format
+- Verify PDF contains selectable text (not scanned images)
+- Open PDF and copy some lines to see exact format
+- Adjust regex in `parseDictionaryText()` to match your format
 
-### Catégories incorrectes ?
+### Wrong categories?
 
-- Modifiez la fonction `detectCategory()` avec vos propres mots-clés
+- Modify `detectCategory()` function with your keywords
 
-### Erreur "Cannot find module 'pdf-parse'" ?
+### "Cannot find module 'pdf-parse'" error?
 
-- Installez la dépendance : `npm install pdf-parse`
+- Install dependency: `npm install pdf-parse`
+
+### APK extraction issues?
+
+- Ensure JavaScript file contains the expected array format `A = [...]`
+- Check that the file was properly extracted from APK
+
+## 📚 Legacy Scripts
+
+The following scripts have been consolidated into `unified_pdf_extractor.cjs`:
+
+- `extractPdfData.cjs` → Use `--type dictionary` or `--type lessons`
+- `extract_lessons_from_pdfs.cjs` → Use `--type pdf-text`
+- `extract_preaching_lessons.js` → Use `--type preaching`
+- `generate_18_lessons.cjs` → Use `--type generate-18`
+- `extract_lessons_manual.py` → Use `--type apk-lessons`
+
+## 🎯 Migration Guide
+
+### Old usage:
+```bash
+node scripts/extractPdfData.cjs
+```
+
+### New usage:
+```bash
+# Extract dictionary
+node scripts/unified_pdf_extractor.cjs --type dictionary
+
+# Extract lessons
+node scripts/unified_pdf_extractor.cjs --type lessons
+```
 
 ## 📞 Support
 
-Si vous avez des questions ou des problèmes, vérifiez :
+For questions or issues:
 
-- Le format de vos PDFs
-- Les logs du script pour voir où ça bloque
-- Testez avec un seul PDF d'abord
+1. Check PDF formats and script logs
+2. Test with one PDF at a time
+3. Verify file paths and permissions
+4. Ensure all dependencies are installed
 
-## 🎉 Résultat
+## 🎉 Result
 
-Une fois le script exécuté avec succès, vos données seront automatiquement disponibles dans l'application KBVLYON !
+Once successfully executed, your data will be automatically available in the KBVLYON application with proper TypeScript types and validation!
