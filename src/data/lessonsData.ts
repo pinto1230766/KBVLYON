@@ -39,7 +39,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 1,
     "category": "general",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Introdução ao Crioulo Cabo-verdiano",
       "cv": "Introduson pa Kriolu Kabuverdianu"
@@ -74,7 +74,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 2,
     "category": "pronouns",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Sistema de Pronomes Pessoais",
       "cv": "Sistema di Pronomi Pesual"
@@ -117,7 +117,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 3,
     "category": "verbs",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Marcadores de Tempo, Modo e Aspecto (TMA)",
       "cv": "Markador di Tenpu, Modu y Aspetu (TMA)"
@@ -168,7 +168,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 4,
     "category": "verbs",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Verbos Copulativos: É e STA",
       "cv": "Berbu Kopulativu: É y STA"
@@ -207,7 +207,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 5,
     "category": "syntax",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Ordem das Palavras e Estrutura da Frase",
       "cv": "Orden di Parabra y Strutura di Frazi"
@@ -250,7 +250,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 6,
     "category": "pronouns",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Possessivos e Demonstrativos",
       "cv": "Posesivu y Demonstrativu"
@@ -285,7 +285,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 7,
     "category": "morphology",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Formação do Plural",
       "cv": "Formason di Plural"
@@ -320,7 +320,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 8,
     "category": "Verbos",
-    "level": "Intermediário",
+    "level": "intermédiaire",
     "title": {
       "pt": "Verbos Essenciais para Pregação",
       "cv": "Berbus Esensial pa Pregason"
@@ -355,7 +355,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 9,
     "category": "Verbos",
-    "level": "Avançado",
+    "level": "avancé",
     "title": {
       "pt": "Verbos Modais e Auxiliares",
       "cv": "Berbus Modal y Auxiliar"
@@ -390,7 +390,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 10,
     "category": "Fonologia",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Pronúncia Básica - Sons do Crioulo",
       "cv": "Pronúnsia Báziku - Sons di Kriolu"
@@ -425,7 +425,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 11,
     "category": "Fonologia",
-    "level": "Intermediário",
+    "level": "intermédiaire",
     "title": {
       "pt": "Acentuação e Ritmo",
       "cv": "Asentuason y Ritmu"
@@ -460,7 +460,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 12,
     "category": "Vocabulário",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Vocabulário Religioso Essencial",
       "cv": "Vokabuláriu Relijozu Esensial"
@@ -495,7 +495,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 13,
     "category": "Prática",
-    "level": "Intermediário",
+    "level": "intermédiaire",
     "title": {
       "pt": "Frases Prontas para Pregação",
       "cv": "Frasis Prontu pa Pregason"
@@ -530,7 +530,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 14,
     "category": "Vocabulário",
-    "level": "Avançado",
+    "level": "avancé",
     "title": {
       "pt": "Vocabulário Temático - Sofrimento e Esperança",
       "cv": "Vokabuláriu Temátiku - Sofrimented y Speransa"
@@ -565,7 +565,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 15,
     "category": "Prática",
-    "level": "Iniciante",
+    "level": "débutant",
     "title": {
       "pt": "Diálogo 1 - Primeira Abordagem",
       "cv": "Diálogu 1 - Primeru Abordaji"
@@ -600,7 +600,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 16,
     "category": "Prática",
-    "level": "Intermediário",
+    "level": "intermédiaire",
     "title": {
       "pt": "Diálogo 2 - Apresentando um Texto Bíblico",
       "cv": "Diálogu 2 - Apresentandu un Téstu Bíbliku"
@@ -635,7 +635,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 17,
     "category": "Prática",
-    "level": "Avançado",
+    "level": "avancé",
     "title": {
       "pt": "Diálogo 3 - Oferecendo um Estudo Bíblico",
       "cv": "Diálogu 3 - Ofereséndu un Studu Bíbliku"
@@ -670,7 +670,7 @@ export const lessonsData: Lesson[] = [
   {
     "id": 18,
     "category": "Prática",
-    "level": "Intermediário",
+    "level": "intermédiaire",
     "title": {
       "pt": "Lidando com Objeções Comuns",
       "cv": "Lida ku Objesons Komun"

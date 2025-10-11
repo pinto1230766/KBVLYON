@@ -316,5 +316,390 @@ export const lessonsData: Lesson[] = [
       "pt": "Pratique estas estruturas na pregação para melhorar sua comunicação.",
       "cv": "Pratika es strutura na pregason pa midjora bu komunikason."
     }
+  },
+  {
+    "id": 8,
+    "category": "vocabulary",
+    "level": "débutant",
+    "title": {
+      "pt": "Saudações e Apresentações",
+      "cv": "Saudaçon y Apresentason"
+    },
+    "description": {
+      "pt": "Saudações e Apresentações",
+      "cv": "Saudaçon y Apresentason"
+    },
+    "content": {
+      "pt": "Aprenda as saudações básicas em crioulo cabo-verdiano. As saudações variam ao longo do dia: 'Bon dia' (bom dia), 'Bo tardi' (boa tarde), 'Bo noti' (boa noite). Para apresentações, use 'Nha nômi é ___' (meu nome é ___) e 'Kumô k'é bu nômi?' (qual é o seu nome?). Também aprenda cores: azul (azul), branku (branco), pretu (preto), verdi (verde), etc.",
+      "cv": "Aprende saudaçon báziku in kriolu kabuverdianu. Saudaçon varia ku dia: 'Bon dia', 'Bo tardi', 'Bo noti'. Pa apresentason, uza 'Nha nômi é ___' y 'Kumô k'é bu nômi?'. Tanbe aprende kôr: azul, branku, pretu, verdi, etc."
+    },
+    "examples": [
+      {
+        "pt": "Bom dia! Meu nome é João.",
+        "cv": "Bon dia! Nha nômi é João."
+      },
+      {
+        "pt": "Qual é o seu nome?",
+        "cv": "Kumô k'é bu nômi?"
+      },
+      {
+        "pt": "Esta casa é azul.",
+        "cv": "Es kaza é azul."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Pratique estas saudações diariamente para se familiarizar.",
+      "cv": "Pratika es saudaçon kada dia pa familjariza."
+    }
+  },
+  {
+    "id": 9,
+    "category": "phrases",
+    "level": "débutant",
+    "title": {
+      "pt": "Como Você Está?",
+      "cv": "Kumô Bu Sta?"
+    },
+    "description": {
+      "pt": "Como Você Está?",
+      "cv": "Kumô Bu Sta?"
+    },
+    "content": {
+      "pt": "Expressões para perguntar e responder como alguém está. Use 'Kumô bu sta?' (como você está?). Respostas: 'N sta bon' (estou bem), 'N sta kansadu' (estou cansado), 'N sta kontenti' (estou contente). Estados de saúde: 'dretu' (bem), 'duenti' (doente), 'tristi' (triste).",
+      "cv": "Espreson pa pergunta y responde kumô algen sta. Uza 'Kumô bu sta?'. Resposta: 'N sta bon', 'N sta kansadu', 'N sta kontenti'. Stadus di saúde: 'dretu', 'duenti', 'tristi'."
+    },
+    "examples": [
+      {
+        "pt": "Como você está?",
+        "cv": "Kumô bu sta?"
+      },
+      {
+        "pt": "Estou bem, obrigado.",
+        "cv": "N sta bon, obrigadu."
+      },
+      {
+        "pt": "Estou cansado hoje.",
+        "cv": "N sta kansadu oji."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Use estas expressões em conversas diárias.",
+      "cv": "Uza es espeson in konversa diaria."
+    }
+  },
+  {
+    "id": 10,
+    "category": "vocabulary",
+    "level": "débutant",
+    "title": {
+      "pt": "Família e Relacionamentos",
+      "cv": "Familia y Relasyonamentu"
+    },
+    "description": {
+      "pt": "Família e Relacionamentos",
+      "cv": "Familia y Relasyonamentu"
+    },
+    "content": {
+      "pt": "Vocabulário para família: pai (pai), mai (mãe), fidju (filho), fidja (filha), irmon (irmão), irma (irmã), avô (avô), avó (avó). Relacionamentos: maridu (marido), mudjer (mulher), namoradu (namorado), namorada (namorada).",
+      "cv": "Vokabuláriu pa familia: pai, mai, fidju, fidja, irmon, irma, vovô, vovó. Relasyonamentu: maridu, mudjer, namoradu, namorada."
+    },
+    "examples": [
+      {
+        "pt": "Meu pai é cabo-verdiano.",
+        "cv": "Nha pai é kabuverdianu."
+      },
+      {
+        "pt": "Ela é minha namorada.",
+        "cv": "El é nha namorada."
+      },
+      {
+        "pt": "Temos três filhos.",
+        "cv": "Nu ten tres fidju."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Aprenda os termos familiares para conversas pessoais.",
+      "cv": "Aprende terminu familiari pa konversa pessoal."
+    }
+  },
+  {
+    "id": 11,
+    "category": "vocabulary",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Compras e Alimentação",
+      "cv": "Kônpra y Alimentason"
+    },
+    "description": {
+      "pt": "Compras e Alimentação",
+      "cv": "Kônpra y Alimentason"
+    },
+    "content": {
+      "pt": "Vocabulário para compras: loja (loja), dinheiro (dinheiro), preço (preço), barato (barato), caro (caro). Alimentos: pão (pão), leite (leite), carne (carne), peixe (peixe), frutas (frutas), legumes (legumes).",
+      "cv": "Vokabuláriu pa kônpra: loja, dinheru, preçu, baratu, karu. Alimentu: pão, leti, karni, pexi, fruta, legumi."
+    },
+    "examples": [
+      {
+        "pt": "Quanto custa este pão?",
+        "cv": "Kantu kusta es pão?"
+      },
+      {
+        "pt": "Quero comprar leite.",
+        "cv": "N kre kunpra leti."
+      },
+      {
+        "pt": "Esta fruta é cara.",
+        "cv": "Es fruta é kara."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Pratique no mercado local.",
+      "cv": "Pratika na merkadu lokal."
+    }
+  },
+  {
+    "id": 12,
+    "category": "vocabulary",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Saúde e Corpo Humano",
+      "cv": "Saúde y Korpu Umanu"
+    },
+    "description": {
+      "pt": "Saúde e Corpo Humano",
+      "cv": "Saúde y Korpu Umanu"
+    },
+    "content": {
+      "pt": "Partes do corpo: cabeça (cabeça), olho (olho), nariz (nariz), boca (boca), braço (braço), mão (mão), perna (perna), pé (pé). Saúde: doente (doente), dor de cabeça (dor de cabeça), médico (médico), remédio (remédio).",
+      "cv": "Parti di korpu: kabésa, odju, naris, bôka, brasu, mon, perna, pé. Saúde: duenti, dor di kabésa, dotor, ramédi."
+    },
+    "examples": [
+      {
+        "pt": "Tenho dor de cabeça.",
+        "cv": "N tene dor di kabésa."
+      },
+      {
+        "pt": "Vou ao médico.",
+        "cv": "N ta bai dotor."
+      },
+      {
+        "pt": "Meus olhos doem.",
+        "cv": "Nha odju ta doi."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Aprenda para situações de emergência.",
+      "cv": "Aprende pa sitwason di emergénsia."
+    }
+  },
+  {
+    "id": 13,
+    "category": "numbers",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Números e Expressões de Tempo",
+      "cv": "Númeru y Espreson di Tenpu"
+    },
+    "description": {
+      "pt": "Números e Expressões de Tempo",
+      "cv": "Númeru y Espreson di Tenpu"
+    },
+    "content": {
+      "pt": "Números cardinais: 1 un, 2 dos, 3 tres, 4 kuatu, 5 sinku, 10 dés, 20 vinti, 100 sen. Ordinais: primeiro purmeru, segundo segundu. Tempo: hoje oji, ontem onti, amanhã manhan, hora 6ra, dia dia, mês mês, ano anu.",
+      "cv": "Númeru kardinal: 1 un, 2 dos, 3 tres, 4 kuatu, 5 sinku, 10 dés, 20 vinti, 100 sen. Ordinal: purmeru, segundu. Tenpu: oji, onti, manhan, 6ra, dia, mês, anu."
+    },
+    "examples": [
+      {
+        "pt": "São duas horas.",
+        "cv": "É duas 6ra."
+      },
+      {
+        "pt": "Hoje é segunda-feira.",
+        "cv": "Oji é segunda-fera."
+      },
+      {
+        "pt": "Tenho vinte anos.",
+        "cv": "N ten vinti anu."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Pratique contar e dizer as horas.",
+      "cv": "Pratika konta y dise 6ra."
+    }
+  },
+  {
+    "id": 14,
+    "category": "phrases",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Aluguel e Moradia",
+      "cv": "Aluguel y Moradia"
+    },
+    "description": {
+      "pt": "Aluguel e Moradia",
+      "cv": "Aluguel y Moradia"
+    },
+    "content": {
+      "pt": "Expressões para aluguel: quero alugar um apartamento (N kre aluga un apartamentu), quanto custa? (kantu kusta?), casa (kaza), quarto (kuartu), banheiro (banheru). Moradia: morar (mora), vizinho (vizinhu), rua (rua).",
+      "cv": "Espreson pa aluguel: N kre aluga un apartamentu, kantu kusta?, kaza, kuartu, banheru. Moradia: mora, vizinhu, rua."
+    },
+    "examples": [
+      {
+        "pt": "Onde você mora?",
+        "cv": "Undi bu ta mora?"
+      },
+      {
+        "pt": "Quero alugar uma casa.",
+        "cv": "N kre aluga un kaza."
+      },
+      {
+        "pt": "O apartamento custa 200 dólares.",
+        "cv": "Apartamentu kusta 200 d6lar."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Útil para conversas sobre habitação.",
+      "cv": "Útil pa konversa sobri abitason."
+    }
+  },
+  {
+    "id": 15,
+    "category": "vocabulary",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Presentes e Festas",
+      "cv": "Prizenti y Festas"
+    },
+    "description": {
+      "pt": "Presentes e Festas",
+      "cv": "Prizenti y Festas"
+    },
+    "content": {
+      "pt": "Presentes: presente (prizenti), aniversário (anuversariu), Natal (Natal), casamento (kazamentu). Festas: festa (festa), música (múzika), dança (dansa), comida (kumida).",
+      "cv": "Prizenti: prizenti, anuversariu, Natal, kazamentu. Festas: festa, múzika, dansa, kumida."
+    },
+    "examples": [
+      {
+        "pt": "Feliz aniversário!",
+        "cv": "Felis anuversariu!"
+      },
+      {
+        "pt": "Este é meu presente.",
+        "cv": "Es é nha prizenti."
+      },
+      {
+        "pt": "Vamos dançar na festa.",
+        "cv": "Nu ta bai dansa na festa."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Aprenda para celebrar com a comunidade.",
+      "cv": "Aprende pa selebra ku komunidadi."
+    }
+  },
+  {
+    "id": 16,
+    "category": "verbs",
+    "level": "avancé",
+    "title": {
+      "pt": "Verbos no Progressivo",
+      "cv": "Berbu na Progresivu"
+    },
+    "description": {
+      "pt": "Verbos no Progressivo",
+      "cv": "Berbu na Progresivu"
+    },
+    "content": {
+      "pt": "Formas progressivas: estou falando (N sa ta papia), estava comendo (N staba ta kume). Uso: ações em andamento. Diferenças entre ilhas: sa, sta, ti ta.",
+      "cv": "Forma progresiva: N sa ta papia, N staba ta kume. Uzu: ason in andamento. Diferénsia entre ilha: sa, sta, ti ta."
+    },
+    "examples": [
+      {
+        "pt": "Estou comendo agora.",
+        "cv": "N sa ta kume agora."
+      },
+      {
+        "pt": "Ela estava dormindo.",
+        "cv": "El staba ta durmi."
+      },
+      {
+        "pt": "Estamos falando.",
+        "cv": "Nu sa ta papia."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Pratique para descrever ações atuais.",
+      "cv": "Pratika pa deskreve ason atual."
+    }
+  },
+  {
+    "id": 17,
+    "category": "verbs",
+    "level": "avancé",
+    "title": {
+      "pt": "Passado e Imperativo",
+      "cv": "Pasadu y Imperativu"
+    },
+    "description": {
+      "pt": "Passado e Imperativo",
+      "cv": "Pasadu y Imperativu"
+    },
+    "content": {
+      "pt": "Passado simples: comi (N kume), fui (N ba). Imperativo: fala! (papia!), não fales (ka papia!). Uso em comandos e narrativas.",
+      "cv": "Pasadu sinplis: N kume, N ba. Imperativu: papia!, ka papia!. Uzu in komandu y narrativa."
+    },
+    "examples": [
+      {
+        "pt": "Comi pão ontem.",
+        "cv": "N kume pão onti."
+      },
+      {
+        "pt": "Fala devagar!",
+        "cv": "Papia devagar!"
+      },
+      {
+        "pt": "Não vá agora.",
+        "cv": "Ka bai agora."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Útil para contar histórias e dar ordens.",
+      "cv": "Útil pa konta stória y da orden."
+    }
+  },
+  {
+    "id": 18,
+    "category": "culture",
+    "level": "avancé",
+    "title": {
+      "pt": "Cultura e Tradições Cabo-Verdianas",
+      "cv": "Kultura y Tradison Kabuverdianu"
+    },
+    "description": {
+      "pt": "Cultura e Tradições Cabo-Verdianas",
+      "cv": "Kultura y Tradison Kabuverdianu"
+    },
+    "content": {
+      "pt": "Feriados: Ano Novo (Anu Nôbu), Dia da Independência (Dia di Independénsia), Natal (Natal). Tradições: música (múzika), dança (dansa), culinária (kulinária). Figuras históricas: Amílcar Cabral.",
+      "cv": "Feriadu: Anu Nôbu, Dia di Independénsia, Natal. Tradison: múzika, dansa, kulinária. Figura istóriku: Amílcar Cabral."
+    },
+    "examples": [
+      {
+        "pt": "Celebramos a independência em 5 de julho.",
+        "cv": "Nu selebra independénsia na 5 di Julhu."
+      },
+      {
+        "pt": "A música cabo-verdiana é rica.",
+        "cv": "Múzika kabuverdiana é riku."
+      },
+      {
+        "pt": "Comemos cachupa no Natal.",
+        "cv": "Nu ta kume katxupa na Natal."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Aprenda sobre a cultura para se integrar.",
+      "cv": "Aprende sobri kultura pa integra."
+    }
   }
 ];
