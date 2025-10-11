@@ -158,64 +158,52 @@ const PreachingPage: React.FC = () => {
                 
                 <div className="mb-4">
                   <h3 className="text-base font-bold mb-1 text-card-foreground">
-                    {language === 'pt' ? 'Dicas para prática:' : 'Dikas pa prátika:'}
+                    {t('predicacao.dicasPratica')}
                   </h3>
                   <ul className="list-disc pl-4 space-y-1 text-sm text-muted-foreground">
                     <li>
-                      {language === 'pt' 
-                        ? 'Pratique a introdução em voz alta várias vezes.' 
-                        : 'Pratika introduson en voz alta várias vez.'}
+                      {t('predicacao.praticaIntroducao')}
                     </li>
                     <li>
-                      {language === 'pt' 
-                        ? 'Memorize o texto bíblico chave para citá-lo com confiança.' 
-                        : 'Memoriza téstu bíbliku chavi pa sita-l ku konfiansa.'}
+                      {t('predicacao.praticaMemorizar')}
                     </li>
                     <li>
-                      {language === 'pt' 
-                        ? 'Ensaie como fazer a pergunta de forma natural.' 
-                        : 'Ensaia modi ki ta faze pergunta di forma natural.'}
+                      {t('predicacao.praticaPergunta')}
                     </li>
                     <li>
-                      {language === 'pt' 
-                        ? 'Adapte a explicação ao seu próprio estilo, mantendo os pontos principais.' 
-                        : 'Adapta splikason pa bu própriu stilu, mantendo pontos prinsipais.'}
+                      {t('predicacao.praticaExplicacao')}
                     </li>
                   </ul>
                 </div>
                 
                 <div className="bg-muted p-2 rounded mb-4 text-sm">
                   <h3 className="text-base font-bold mb-1 text-card-foreground">
-                    {language === 'pt' ? 'Exemplo de diálogo:' : 'Izemplu di diálogu:'}
+                    {t('predicacao.exemploDialogo')}
                   </h3>
                   <div className="space-y-2">
                     <p>
                       <span className="font-bold text-primary-dark">
-                        {language === 'pt' ? 'Você:' : 'Bo:'}
+                        {t('predicacao.voce')}
                       </span> {activePresentation.introduction[language]}
                     </p>
                     <p>
                       <span className="font-bold text-secondary-dark">
-                        {language === 'pt' ? 'Morador:' : 'Moradu:'}
-                      </span> {language === 'pt' 
-                        ? 'Olá, posso ajudar?' 
-                        : 'Ola, ka mi djuda?'}
+                        {t('predicacao.morador')}
+                      </span> {t('predicacao.olaPossoAjudar')}
                     </p>
                     <p>
                       <span className="font-bold text-primary-dark">
-                        {language === 'pt' ? 'Você:' : 'Bo:'}
+                        {t('predicacao.voce')}
                       </span> {activePresentation.question[language]}
                     </p>
                     <p>
                       <span className="font-bold text-secondary-dark">
-                        {language === 'pt' ? 'Morador:' : 'Moradu:'}
-                      </span> {language === 'pt' 
-                        ? 'Nunca pensei nisso. O que a Bíblia diz?' 
-                        : 'Nunka pensa na kel-li. Kusa ki Bíblia ta fla?'}
+                        {t('predicacao.morador')}
+                      </span> {t('predicacao.nuncaPensei')}
                     </p>
                     <p>
                       <span className="font-bold text-primary-dark">
-                        {language === 'pt' ? 'Você:' : 'Bo:'}
+                        {t('predicacao.voce')}
                       </span> {activePresentation.explanation[language]}
                     </p>
                   </div>
@@ -235,7 +223,7 @@ const PreachingPage: React.FC = () => {
                       // Ici, vous pourriez ajouter une logique pour démarrer un enregistrement ou un minuteur
                     }}
                   >
-                    {language === 'pt' ? 'Iniciar Prática' : 'Kumisa Prátika'}
+                    {t('predicacao.iniciarPratica')}
                   </button>
                 </div>
               </div>

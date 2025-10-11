@@ -152,6 +152,10 @@ const translations: Translations = {
     exemplo: { // example
       pt: 'Exemplo',
       cv: 'Ezemplu'
+    },
+    sinonimos: { // synonyms
+      pt: 'Sinônimos',
+      cv: 'Sinônimus'
     }
   },
   
@@ -164,6 +168,34 @@ const translations: Translations = {
     titulo: { // title
       pt: 'Dicionário',
       cv: 'Disionáriu'
+    },
+    todos: {
+      pt: 'Todos',
+      cv: 'Tudu'
+    },
+    palavrasNoDicionario: {
+      pt: 'palavras no dicionário',
+      cv: 'palavras na disionáriu'
+    },
+    nenhumaPalavraEncontrada: {
+      pt: 'Nenhuma palavra encontrada.',
+      cv: 'Ka ten palavra atxadu.'
+    },
+    adicionarAosFavoritos: {
+      pt: 'Adicionar aos favoritos',
+      cv: 'Adisiona na favoritus'
+    },
+    removerDosFavoritos: {
+      pt: 'Remover dos favoritos',
+      cv: 'Tira di favoritus'
+    },
+    procurarNoDicionario: {
+      pt: 'Procurar no dicionário',
+      cv: 'Buska na disionáriu'
+    },
+    suggestionsIA: {
+      pt: '💡 Suggestions IA pour prédication',
+      cv: '💡 Sugestons IA pa prédika'
     }
   },
   
@@ -260,6 +292,38 @@ const translations: Translations = {
     recurso3Desc: { // feature3Desc (agora Estudos Bíblicos)
       pt: 'Recursos e guias para seus estudos bíblicos pessoais.', // Atualizado
       cv: 'Rekursus y gias pa bus studus bíblikus pesoal.' // Atualizado
+    },
+    recurso5Desc: {
+      pt: 'Aprenda crioulo para pregar de porta em porta',
+      cv: 'Prendi kriolu pa prega di porta na porta'
+    },
+    recurso6Desc: {
+      pt: 'Configure notificações e preferências',
+      cv: 'Konfigura notifikasons i preferensias'
+    },
+    textoDia: {
+      pt: 'Texto do Dia',
+      cv: 'Téstu di Dia'
+    },
+    descricao: {
+      pt: 'Ferramentas, lições e recursos essenciais para servir no ministério em Cabo Verde.',
+      cv: 'Ferramentas, lisons i rekursus esensiais pa servi na ministériu na Kabu Verdi.'
+    },
+    galeriaLegenda: {
+      pt: 'Momentos do ministério',
+      cv: 'Momentus di ministériu'
+    },
+    galeriaTitulo: {
+      pt: 'Cabo Verde',
+      cv: 'Kabu Verdi'
+    },
+    salmo: {
+      pt: 'Salmo 83:18',
+      cv: 'Salmu 83:18'
+    },
+    versiculo: {
+      pt: '"Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra."',
+      cv: '"Pa ki bu povu konxe ki bo, ku nomi é Jeová, só bo é Altísimu riba tudu térra."'
     }
   },
   
@@ -384,45 +448,7 @@ const translations: Translations = {
   },
   
   // Página de Lições e Exercícios
-  licoes: { // lessons
-    titulo: { // title
-      pt: 'Lições & Exercícios',
-      cv: 'Lisons & Izersísiu'
-    },
-    subtitulo: { // subtitle
-      pt: 'Aprenda e pratique com exercícios interativos',
-      cv: 'Prendi y pratika ku izersísiu interativu'
-    },
-    tituloQuiz: { // quizTitle
-      pt: 'Quiz',
-      cv: 'Quiz'
-    },
-    tituloCorrespondencia: { // matchingTitle
-      pt: 'Exercício de Correspondência',
-      cv: 'Izersísiu di Korespondensia'
-    },
-    tituloSimulacao: { // roleplayTitle
-      pt: 'Simulação de Conversa',
-      cv: 'Simulason di Konversa'
-    },
-    iniciarExercicio: { // startExercise
-      pt: 'Iniciar Exercício',
-      cv: 'Inisia Izersísiu'
-    },
-    correto: { // correct
-      pt: 'Correto!',
-      cv: 'Sertu!'
-    },
-    incorreto: { // incorrect
-      pt: 'Incorreto! Tente novamente.',
-      cv: 'Inkoretu! Tenta di novu.'
-    },
-    pontuacao: { // score
-      pt: 'Pontuação',
-      cv: 'Pontuason'
-    }
-  },
-  
+
   // Rodapé
   rodape: { // footer
     descricao: { // description
@@ -452,6 +478,20 @@ const translations: Translations = {
     cookies: {
       pt: 'Cookies',
       cv: 'Kukis'
+    },
+    recursosExternos: {
+      jwOrg: {
+        pt: 'jw.org/kea',
+        cv: 'jw.org/kea'
+      },
+      jwLibrary: {
+        pt: 'JW Library',
+        cv: 'JW Library'
+      },
+      jwBroadcasting: {
+        pt: 'JW Broadcasting',
+        cv: 'JW Broadcasting'
+      }
     }
   },
   
@@ -740,13 +780,31 @@ const translations: Translations = {
     }
   },
 
-  estudosBiblicos: {
-    conteudoEstudo: { pt: 'Conteúdo do Estudo', cv: 'Kontéudu di Studu' }
+  configuracoes: {
+    infoApp: {
+      pt: 'Informações da Aplicação',
+      cv: 'Informasons di Aplikason'
+    },
+    versao: {
+      pt: 'Versão',
+      cv: 'Versan'
+    },
+    desenvolvidoPor: {
+      pt: 'Desenvolvido por',
+      cv: 'Dizenvolvidu por'
+    }
   },
 
-  licoesDetalhes: {
-    titulo: { pt: 'Lições de Crioulo para Pregação', cv: 'Lisons di Kriolu pa Pregason' },
-    subtitulo: { pt: 'Aprenda crioulo cabo-verdiano para pregar de porta em porta', cv: 'Prendi kriolu kabuverdianu pa prega di porta na porta' },
+  licoes: {
+    titulo: { pt: 'Lições & Exercícios', cv: 'Lisons & Izersísiu' },
+    subtitulo: { pt: 'Aprenda e pratique com exercícios interativos', cv: 'Prendi y pratika ku izersísiu interativu' },
+    tituloQuiz: { pt: 'Quiz', cv: 'Quiz' },
+    tituloCorrespondencia: { pt: 'Exercício de Correspondência', cv: 'Izersísiu di Korespondensia' },
+    tituloSimulacao: { pt: 'Simulação de Conversa', cv: 'Simulason di Konversa' },
+    iniciarExercicio: { pt: 'Iniciar Exercício', cv: 'Inisia Izersísiu' },
+    correto: { pt: 'Correto!', cv: 'Sertu!' },
+    incorreto: { pt: 'Incorreto! Tente novamente.', cv: 'Inkoretu! Tenta di novu.' },
+    pontuacao: { pt: 'Pontuação', cv: 'Pontuason' },
     licoes: { pt: 'Lições', cv: 'Lisons' },
     completas: { pt: 'Completas', cv: 'Kompletu' },
     categorias: { pt: 'Categorias', cv: 'Kategorias' },
@@ -762,12 +820,32 @@ const translations: Translations = {
     conteudo: { pt: 'Conteúdo', cv: 'Kontedu' },
     exemplos: { pt: 'Exemplos', cv: 'Ezemplu' },
     dicasPraticas: { pt: '💡 Dicas Práticas', cv: '💡 Dikas Prátiku' },
+    general: { pt: 'Geral', cv: 'Jeral' },
+    pronouns: { pt: 'Pronomes', cv: 'Pronomis' },
+    verbos: { pt: 'Verbos', cv: 'Berbus' },
+    sintaxe: { pt: 'Sintaxe', cv: 'Sintaxi' },
+    morfologia: { pt: 'Morfologia', cv: 'Morfolojia' },
+    vocabulario: { pt: 'Vocabulário', cv: 'Vokabuláriu' },
+    fonologia: { pt: 'Fonologia', cv: 'Fonolojia' },
+    frases: { pt: 'Frases', cv: 'Frázi' },
+    numeros: { pt: 'Números', cv: 'Númeru' },
+    cultura: { pt: 'Cultura', cv: 'Kultura' },
+    pratica: { pt: 'Prática', cv: 'Prátika' }
+  },
+
+  gramatica: {
+    titulo: { pt: 'Gramática', cv: 'Gramátika' },
+    pesquisarLicoes: { pt: 'Pesquisar lições...', cv: 'Buska lisons...' },
+    todas: { pt: 'Todas', cv: 'Tudu' },
+    fonologia: { pt: 'Fonologia', cv: 'Fonolojia' },
     morfologia: { pt: 'Morfologia', cv: 'Morfolojia' },
     sintaxe: { pt: 'Sintaxe', cv: 'Sintaxi' },
     verbos: { pt: 'Verbos', cv: 'Berbus' },
-    fonologia: { pt: 'Fonologia', cv: 'Fonolojia' },
-    vocabulario: { pt: 'Vocabulário', cv: 'Vokabuláriu' },
-    pratica: { pt: 'Prática', cv: 'Prátika' }
+    pronomes: { pt: 'Pronomes', cv: 'Pronomis' },
+    geral: { pt: 'Geral', cv: 'Jeral' },
+    licacao: { pt: 'Lição', cv: 'Lison' },
+    nenhumaLicaoEncontrada: { pt: 'Nenhuma lição encontrada.', cv: 'Ka ten lison atxadu.' },
+    adicionarAosFavoritos: { pt: 'Adicionar aos favoritos', cv: 'Adisiona na favoritus' }
   }
 };
 

@@ -1,4 +1,5 @@
 @import './fonts.css';
+@import './mobile.css';
 
 @tailwind base;
 @tailwind components;
@@ -167,6 +168,9 @@
     font-feature-settings: "rlig" 1, "calt" 1;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    /* Assurer que le contenu n'est pas caché par les éléments système */
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
 }
 
@@ -210,11 +214,11 @@ html {
   @apply text-2xl md:text-3xl py-4 px-8 rounded-xl min-h-[80px] md:min-h-[100px] flex items-center justify-center font-bold;
 }
 
-/* Augmentation de la taille des champs de formulaire */
-input, textarea, select {
+/* Augmentation de la taille des champs de formulaire - commenté pour éviter conflits */
+/* input, textarea, select {
   @apply text-2xl md:text-3xl p-4 rounded-lg border-2 border-gray-300 w-full;
   min-height: 80px;
-}
+} */
 
 /* Augmentation de la taille des étiquettes */
 label {
@@ -239,7 +243,31 @@ label {
   padding-top: env(safe-area-inset-top);
 }
 
-/* Safe area padding pour la barre de navigation en bas sur mobile */
+/* Safe area padding pour mobile */
+.safe-area-padding-top {
+  padding-top: env(safe-area-inset-top);
+}
+
 .safe-area-padding-bottom {
   padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Padding plus robuste pour appareils mobiles avec boutons de navigation */
+@media (max-width: 768px) {
+  .safe-area-padding-top {
+    padding-top: max(env(safe-area-inset-top), 24px);
+  }
+
+  .safe-area-padding-bottom {
+    padding-bottom: max(env(safe-area-inset-bottom), 120px);
+  }
+}
+
+/* Classes utilitaires pour forcer le padding sur mobile */
+.mobile-safe-bottom {
+  padding-bottom: 120px !important;
+}
+
+.mobile-safe-top {
+  padding-top: 24px !important;
 }

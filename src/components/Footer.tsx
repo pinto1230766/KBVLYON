@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
   // La constante 'navigation' a été supprimée car elle n'est plus utilisée.
 
   const resources = [
-    { name: 'jw.org/kea', href: 'https://www.jw.org/kea/', icon: ExternalLink },
-    { name: 'JW Library', href: 'https://www.jw.org/kea/ajuda/jw-library/', icon: ExternalLink },
-    { name: 'JW Broadcasting', href: 'https://www.jw.org/kea/biblioteka-online/tv-jw-org/', icon: ExternalLink },
+    { name: t('rodape.recursosExternos.jwOrg'), href: 'https://www.jw.org/kea/', icon: ExternalLink },
+    { name: t('rodape.recursosExternos.jwLibrary'), href: 'https://www.jw.org/kea/ajuda/jw-library/', icon: ExternalLink },
+    { name: t('rodape.recursosExternos.jwBroadcasting'), href: 'https://www.jw.org/kea/biblioteka-online/tv-jw-org/', icon: ExternalLink },
   ];
 
 

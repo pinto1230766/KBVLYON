@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Star } from 'lucide-react';
 import Fuse from 'fuse.js';
 
@@ -6,6 +6,7 @@ import { useLanguage } from '@/hooks/useLanguage';
 import { translations } from '@/data/translations';
 import { dictionaryData } from '@/data/dictionaryData';
 import { grammarLessons, type GrammarLesson } from '@/data/grammarLessons';
+import { useCloudFavorites } from '@/hooks/useCloudFavorites';
 
 interface DictionaryEntry {
   id: string;
@@ -40,27 +41,8 @@ const GrammarDictionaryPage: React.FC = () => {
   const [loadingDictionary, setLoadingDictionary] = useState(true);
   const [errorDictionary, setErrorDictionary] = useState<string | null>(null);
   const [fuse, setFuse] = useState<Fuse<DictionaryEntry> | null>(null);
-  const [favorites, setFavorites] = useState<Set<string>>(new Set()); // Système de favoris simple
-
-  // Charger les favoris depuis localStorage
-  useEffect(() => {
-    const savedFavorites = localStorage.getItem('dictionaryFavorites');
-    if (savedFavorites) {
-      try {
-        const parsedFavorites = JSON.parse(savedFavorites);
-        if (Array.isArray(parsedFavorites)) {
-          setFavorites(new Set(parsedFavorites));
-        }
-      } catch (e) {
-        console.error('Erreur lors du chargement des favoris:', e);
-      }
-    }
-  }, []);
-
-  // Sauvegarder les favoris dans localStorage
-  useEffect(() => {
-    localStorage.setItem('dictionaryFavorites', JSON.stringify(Array.from(favorites)));
-  }, [favorites]);
+  const { favorites: favoritesArray, toggleFavorite, isFavorite } = useCloudFavorites();
+  const favorites = useMemo(() => new Set(favoritesArray), [favoritesArray]);
 
   // Charger les données du dictionnaire
   useEffect(() => {
@@ -118,17 +100,6 @@ const GrammarDictionaryPage: React.FC = () => {
     }
   }, [searchTerm, dictionaryDataState, fuse]);
 
-  const toggleFavorite = useCallback((id: string) => {
-    setFavorites(prev => {
-      const newFavorites = new Set(prev);
-      if (newFavorites.has(id)) {
-        newFavorites.delete(id);
-      } else {
-        newFavorites.add(id);
-      }
-      return newFavorites;
-    });
-  }, []);
 
   return (
     <div className="container mx-auto p-4">
@@ -238,11 +209,11 @@ const GrammarDictionaryPage: React.FC = () => {
                               <button
                                 onClick={() => toggleFavorite(entry.id)}
                                 className={`p-1 -mt-1 -mr-1 ${
-                                  favorites.has(entry.id) ? 'text-yellow-400' : 'text-muted-foreground hover:text-yellow-400'
+                                  isFavorite(entry.id) ? 'text-yellow-400' : 'text-muted-foreground hover:text-yellow-400'
                                 }`}
-                                aria-label={favorites.has(entry.id) ? comumTrad.removerDosFavoritos[language] : comumTrad.adicionarAosFavoritos[language]}
+                                aria-label={isFavorite(entry.id) ? comumTrad.removerDosFavoritos[language] : comumTrad.adicionarAosFavoritos[language]}
                               >
-                                <Star className="h-4 w-4" fill={favorites.has(entry.id) ? 'currentColor' : 'none'} />
+                                <Star className="h-4 w-4" fill={isFavorite(entry.id) ? 'currentColor' : 'none'} />
                               </button>
                             </div>
                             <p className="text-xs">
@@ -280,7 +251,7 @@ const GrammarDictionaryPage: React.FC = () => {
               {errorDictionary && <p className="text-destructive">{errorDictionary}</p>}
               {!loadingDictionary && !errorDictionary && (
                 (() => {
-                  const favoriteEntries = dictionaryDataState.filter(entry => favorites.has(entry.id));
+                  const favoriteEntries = dictionaryDataState.filter(entry => isFavorite(entry.id));
                   if (favoriteEntries.length > 0) {
                     return (
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">

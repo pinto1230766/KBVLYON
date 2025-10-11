@@ -59,35 +59,37 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="bg-background">
+    <div className="bg-background page-container">
       {/* Hero Section */}
       <section className="px-4 py-8 bg-gradient-to-b from-primary/5 to-background">
-        <div className="container mx-auto text-center max-w-5xl">
-          <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            {t('paginaInicial.titulo') || 'Aprenda Cabo-verdiano para Pregação'}
-          </h1>
+        <div className="container mx-auto flex flex-col items-center gap-6 text-center max-w-4xl">
+          <div className="w-full space-y-6">
+            <h1 className="text-3xl md:text-4xl font-bold text-foreground">
+              {t('paginaInicial.titulo') || 'Aprenda Cabo-verdiano para Pregação'}
+            </h1>
 
-          <div className="mx-auto mb-6 w-full max-w-xl rounded-2xl border border-border bg-card/90 p-4 shadow-sm">
-            <div className="mb-3 flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <BookMarked className="h-4 w-4 text-primary" />
-                <h2 className="text-sm font-semibold text-foreground">
-                  {t('paginaInicial.textoDia') || 'Texto do Dia'}
-                </h2>
+            <div className="mx-auto w-full max-w-xl rounded-2xl border border-border bg-card/90 p-4 shadow-sm">
+              <div className="mb-3 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <BookMarked className="h-4 w-4 text-primary" />
+                  <h2 className="text-sm font-semibold text-foreground">
+                    {t('paginaInicial.textoDia') || 'Texto do Dia'}
+                  </h2>
+                </div>
+                <span className="rounded-md bg-primary/10 px-2 py-1 text-[10px] font-medium text-primary">
+                  {currentDate}
+                </span>
               </div>
-              <span className="rounded-md bg-primary/10 px-2 py-1 text-[10px] font-medium text-primary">
-                {currentDate}
-              </span>
+              <p className="mb-2 text-xs font-semibold text-primary">{t('paginaInicial.salmo')}</p>
+              <p className="text-sm leading-relaxed text-foreground">
+                {t('paginaInicial.versiculo')}
+              </p>
             </div>
-            <p className="mb-2 text-xs font-semibold text-primary">Salmo 83:18</p>
-            <p className="text-sm leading-relaxed text-foreground">
-              "Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra."
+
+            <p className="mx-auto md:mx-0 max-w-3xl text-sm text-muted-foreground">
+              {t('paginaInicial.descricao') || 'Ferramentas, lições e recursos essenciais para servir no ministério em Cabo Verde.'}
             </p>
           </div>
-
-          <p className="mx-auto max-w-3xl text-sm text-muted-foreground">
-            {t('paginaInicial.descricao') || 'Ferramentas, lições e recursos essenciais para servir no ministério em Cabo Verde.'}
-          </p>
         </div>
       </section>
 
@@ -98,7 +100,7 @@ const HomePage = () => {
             {t('paginaInicial.tituloRecursos') || 'Recursos Disponíveis'}
           </h2>
 
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {cards.map((card) => {
               const Icon = card.icon;
               return (
@@ -127,20 +129,20 @@ const HomePage = () => {
       <section className="px-4 pb-10">
         <div className="container mx-auto max-w-5xl">
           <div className="mb-4 flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-foreground">Cabo Verde</h2>
+            <h2 className="text-lg font-semibold text-foreground">{t('paginaInicial.galeriaTitulo')}</h2>
             <span className="text-xs text-muted-foreground">
-              {t('paginaInicial.galeriaLegenda') || 'Momentos do ministério'}
+              {t('paginaInicial.galeriaLegenda')}
             </span>
           </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {gallery.map((item) => (
-              <div key={item.src} className="overflow-hidden rounded-lg border border-border">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {gallery.map((item, index) => (
+              <div key={`${item.src}-${index}`} className="overflow-hidden rounded-lg border border-border">
                 <OptimizedImage
                   src={item.src}
                   alt={item.alt}
-                  className="h-24 w-full object-cover transition-transform duration-300 hover:scale-110"
-                  width={240}
-                  height={135}
+                  className="h-36 w-full object-cover"
+                  width={320}
+                  height={180}
                 />
               </div>
             ))}

@@ -31,6 +31,8 @@
     "buildOptions": {
       "keystorePath": "path/to/your/keystore.jks",
       "keystoreAlias": "key0"
-    }
+    },
+    "gradlePath": "gradlew.bat",
+    "backgroundColor": "#ffffff"
   }
 }

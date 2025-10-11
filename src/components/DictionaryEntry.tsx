@@ -9,13 +9,12 @@ interface DictionaryEntryProps {
   onToggleFavorite: (id: string) => void;
 }
 
-const DictionaryEntry: React.FC<DictionaryEntryProps> = React.memo(({ 
-  entry, 
-  isFavorite, 
-  onToggleFavorite 
+const DictionaryEntry: React.FC<DictionaryEntryProps> = React.memo(({
+  entry,
+  isFavorite,
+  onToggleFavorite
 }) => {
   const { language, t } = useLanguage();
-  const comumTrad = t('comum');
 
   // Traduire le nom de la catégorie
   const translateCategory = (category: string): string => {
@@ -51,9 +50,9 @@ const DictionaryEntry: React.FC<DictionaryEntryProps> = React.memo(({
             className={`p-1 -mt-1 -mr-1 ${
               isFavorite ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400 dark:text-gray-600 dark:hover:text-yellow-400'
             }`}
-            aria-label={isFavorite ? comumTrad.removerDosFavoritos[language] : comumTrad.adicionarAosFavoritos[language]}
+            aria-label={isFavorite ? t('comum.removerDosFavoritos') : t('comum.adicionarAosFavoritos')}
           >
-            <Star className="h-4 w-4" fill={isFavorite ? 'currentColor' : 'none'} />
+            <Star className="h-4 w-4" fill={isFavorite ? 'currentColor' : 'none'} aria-hidden="true" />
           </button>
         </div>
         <p className="text-xs">
@@ -66,8 +65,8 @@ const DictionaryEntry: React.FC<DictionaryEntryProps> = React.memo(({
       
       {entry.example && (
         <div className="mt-1 text-xs text-muted-foreground pt-1 border-t border-dashed">
-          <p><strong>{comumTrad.exemplo[language]} (PT):</strong> {entry.example.pt}</p>
-          <p><strong>{comumTrad.exemplo[language]} (CV):</strong> {entry.example.cv}</p>
+          <p><strong>{t('comum.exemplo')} (PT):</strong> {entry.example.pt}</p>
+          <p><strong>{t('comum.exemplo')} (CV):</strong> {entry.example.cv}</p>
         </div>
       )}
       
@@ -81,7 +80,7 @@ const DictionaryEntry: React.FC<DictionaryEntryProps> = React.memo(({
         {entry.synonyms && entry.synonyms.length > 0 && (
           <div className="mt-1 w-full">
             <p className="text-xs text-muted-foreground">
-              <strong>{comumTrad.sinonimos[language]}:</strong> {entry.synonyms.join(', ')}
+              <strong>{t('comum.sinonimos')}:</strong> {entry.synonyms.join(', ')}
             </p>
           </div>
         )}

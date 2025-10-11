@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useLanguage } from '../hooks/useLanguage';
 import { Button } from '@/components/ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Languages } from 'lucide-react';
@@ -9,10 +9,10 @@ const languages = [
 ];
 
 export const LanguageSwitcher = () => {
-  const { i18n } = useTranslation();
-  
+  const { language, setLanguage } = useLanguage();
+
   const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng);
+    setLanguage(lng as 'pt' | 'cv');
   };
 
   return (
@@ -28,7 +28,7 @@ export const LanguageSwitcher = () => {
           <DropdownMenuItem
             key={lang.code}
             onClick={() => changeLanguage(lang.code)}
-            className={i18n.language === lang.code ? 'bg-accent' : ''}
+            className={language === lang.code ? 'bg-accent' : ''}
           >
             {lang.name}
           </DropdownMenuItem>

@@ -31,8 +31,8 @@ const EventModal: React.FC<EventModalProps> = ({ date, onClose, onSave }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg w-96">
-        <h3 className="text-xl font-semibold mb-4">Ajouter événement pour le {date.toLocaleDateString()}</h3>
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg w-96" role="dialog" aria-labelledby="event-modal-title" aria-modal="true">
+        <h3 id="event-modal-title" className="text-xl font-semibold mb-4">Ajouter événement pour le {date.toLocaleDateString()}</h3>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="event-type" className="block text-sm font-medium mb-1">Type</label>

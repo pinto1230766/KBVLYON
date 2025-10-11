@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ChevronRight, Star } from 'lucide-react';
 import LessonModal from '../components/LessonModal';
 import { grammarLessonContent } from '../data/grammarLessonContent';
+import { useLanguage } from '../hooks/useLanguage';
 
 interface GrammarLesson {
   id: number;
@@ -64,8 +65,9 @@ const grammarLessons: GrammarLesson[] = [
 ];
 
 const GrammarPage = () => {
+  const { t } = useLanguage();
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('Todas');
+  const [selectedCategory, setSelectedCategory] = useState<string>(t('gramatica.todas'));
   const [selectedLesson, setSelectedLesson] = useState<GrammarLesson | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -79,7 +81,15 @@ const GrammarPage = () => {
     setSelectedLesson(null);
   };
 
-  const categories = ['Todas', 'Fonologia', 'Morfologia', 'Sintaxe', 'Verbos', 'Pronomes', 'Geral'];
+  const categories = [
+    { key: 'Todas', label: t('gramatica.todas') },
+    { key: 'Fonologia', label: t('gramatica.fonologia') },
+    { key: 'Morfologia', label: t('gramatica.morfologia') },
+    { key: 'Sintaxe', label: t('gramatica.sintaxe') },
+    { key: 'Verbos', label: t('gramatica.verbos') },
+    { key: 'Pronomes', label: t('gramatica.pronomes') },
+    { key: 'Geral', label: t('gramatica.geral') }
+  ];
 
   const getCategoryIcon = (category: string) => {
     switch (category) {
@@ -117,13 +127,13 @@ const GrammarPage = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8">
         {/* Titre */}
-        <h1 className="text-4xl font-bold text-center text-foreground mb-8">Gramática</h1>
+        <h1 className="text-4xl font-bold text-center text-foreground mb-8">{t('gramatica.titulo')}</h1>
 
         {/* Barre de recherche */}
         <div className="mb-6">
           <input
             type="text"
-            placeholder="Pesquisar lições..."
+            placeholder={t('gramatica.pesquisarLicoes')}
             className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -133,21 +143,21 @@ const GrammarPage = () => {
         {/* Onglets avec compteurs */}
         <div className="flex flex-wrap gap-2 mb-8">
           {categories.map((category) => {
-            const count = getCategoryCount(category);
-            const isActive = selectedCategory === category;
-            
+            const count = getCategoryCount(category.key);
+            const isActive = selectedCategory === category.key;
+
             return (
               <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
+                key={category.key}
+                onClick={() => setSelectedCategory(category.key)}
                 className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   isActive
                     ? 'bg-primary text-primary-foreground'
                     : 'bg-muted text-muted-foreground hover:bg-muted/80'
                 }`}
               >
-                <span>{getCategoryIcon(category)}</span>
-                <span>{category}</span>
+                <span>{getCategoryIcon(category.key)}</span>
+                <span>{category.label}</span>
                 <span className={`ml-1 ${isActive ? 'text-primary-foreground' : 'text-muted-foreground'}`}>
                   ({count})
                 </span>
@@ -162,18 +172,27 @@ const GrammarPage = () => {
             <div
               key={lesson.id}
               onClick={() => openLesson(lesson)}
-              className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow cursor-pointer group"
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  openLesson(lesson);
+                }
+              }}
+              tabIndex={0}
+              role="button"
+              aria-labelledby={`grammar-lesson-${lesson.id}-title`}
+              className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-primary text-sm font-medium">Lição {lesson.id}</span>
+                    <span className="text-primary text-sm font-medium">{t('gramatica.licacao')} {lesson.id}</span>
                     <span className="flex items-center gap-1 text-xs text-muted-foreground">
                       <span>{lesson.icon}</span>
                       <span>{lesson.category}</span>
                     </span>
                   </div>
-                  <h3 className="text-lg font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+                  <h3 id={`grammar-lesson-${lesson.id}-title`} className="text-lg font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
                     {lesson.title}
                   </h3>
                   <p className="text-sm text-muted-foreground line-clamp-2">
@@ -183,11 +202,11 @@ const GrammarPage = () => {
                 <div className="flex items-center gap-2 ml-4 flex-shrink-0">
                   <button
                     className="p-1 text-muted-foreground hover:text-yellow-400 transition-colors"
-                    aria-label="Adicionar aos favoritos"
+                    aria-label={t('gramatica.adicionarAosFavoritos')}
                   >
-                    <Star className="w-5 h-5" />
+                    <Star className="w-5 h-5" aria-hidden="true" />
                   </button>
-                  <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                  <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" aria-hidden="true" />
                 </div>
               </div>
             </div>
@@ -197,7 +216,7 @@ const GrammarPage = () => {
         {filteredLessons.length === 0 && (
           <div className="text-center py-12">
             <p className="text-muted-foreground text-lg">
-              Nenhuma lição encontrada.
+              {t('gramatica.nenhumaLicaoEncontrada')}
             </p>
           </div>
         )}

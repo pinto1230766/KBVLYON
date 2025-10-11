@@ -2,6 +2,8 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import Fuse from 'fuse.js';
 import { Star } from 'lucide-react';
 import { dictionaryData } from '../data/dictionaryData';
+import { useLanguage } from '../hooks/useLanguage';
+import { useOfflineStorage } from '../hooks/useOfflineStorage';
 
 interface DictionaryEntry {
   id: string;
@@ -19,31 +21,13 @@ interface DictionaryEntry {
 }
 
 const DictionaryPage = () => {
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState<'dictionary' | 'favorites'>('dictionary');
   const [searchTerm, setSearchTerm] = useState('');
   const [fuse, setFuse] = useState<Fuse<DictionaryEntry> | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [favorites, setFavorites] = useState<Set<string>>(new Set());
-
-  // Charger les favoris depuis localStorage
-  useEffect(() => {
-    const savedFavorites = localStorage.getItem('dictionaryFavorites');
-    if (savedFavorites) {
-      try {
-        const parsedFavorites = JSON.parse(savedFavorites);
-        if (Array.isArray(parsedFavorites)) {
-          setFavorites(new Set(parsedFavorites));
-        }
-      } catch (e) {
-        console.error('Erreur lors du chargement des favoris:', e);
-      }
-    }
-  }, []);
-
-  // Sauvegarder les favoris dans localStorage
-  useEffect(() => {
-    localStorage.setItem('dictionaryFavorites', JSON.stringify(Array.from(favorites)));
-  }, [favorites]);
+  const { value: favoritesArray, setValue: setFavoritesArray } = useOfflineStorage<string[]>('dictionaryFavorites', []);
+  const favorites = useMemo(() => new Set(favoritesArray), [favoritesArray]);
 
   // Initialiser Fuse.js pour la recherche
   useEffect(() => {
@@ -128,22 +112,22 @@ const DictionaryPage = () => {
   }, [searchTerm]);
 
   const toggleFavorite = useCallback((id: string) => {
-    setFavorites(prev => {
+    setFavoritesArray(prev => {
       const newFavorites = new Set(prev);
       if (newFavorites.has(id)) {
         newFavorites.delete(id);
       } else {
         newFavorites.add(id);
       }
-      return newFavorites;
+      return Array.from(newFavorites);
     });
-  }, []);
+  }, [setFavoritesArray]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background page-container">
       <div className="container mx-auto px-4 py-8">
         {/* Titre */}
-        <h1 className="text-4xl font-bold text-center text-foreground mb-8">Dicionário</h1>
+        <h1 className="text-4xl font-bold text-center text-foreground mb-8">{t('dicionario.titulo')}</h1>
 
         {/* Onglets */}
         <div className="flex gap-8 mb-6 border-b border-border">
@@ -155,7 +139,7 @@ const DictionaryPage = () => {
                 : 'text-muted-foreground hover:text-foreground'
             }`}
           >
-            Dicionário
+            {t('dicionario.titulo')}
             {activeTab === 'dictionary' && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary"></div>
             )}
@@ -168,7 +152,7 @@ const DictionaryPage = () => {
                 : 'text-muted-foreground hover:text-foreground'
             }`}
           >
-            Favoritos
+            {t('comum.favoritos')}
             {activeTab === 'favorites' && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary"></div>
             )}
@@ -189,7 +173,7 @@ const DictionaryPage = () => {
                       : 'bg-muted hover:bg-muted/70'
                   }`}
                 >
-                  Todos
+                  {t('dicionario.todos')}
                 </button>
                 {categories.map(([name, count]) => (
                   <button
@@ -211,7 +195,7 @@ const DictionaryPage = () => {
             <div className="mb-6">
               <input
                 type="text"
-                placeholder="Pesquisar palavras..."
+                placeholder={t('dicionario.pesquisarPalavras')}
                 className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -222,7 +206,7 @@ const DictionaryPage = () => {
             {aiSuggestions.length > 0 && (
               <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg">
                 <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-3">
-                  💡 Suggestions IA pour prédication
+                  {t('dicionario.suggestionsIA')}
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {aiSuggestions.map((entry) => (
@@ -242,7 +226,7 @@ const DictionaryPage = () => {
             <div className="mb-6 p-4 bg-muted/30 rounded-lg">
               <p className="text-lg">
                 <span className="text-3xl font-bold text-primary">{filteredDictionary.length}</span>
-                <span className="text-muted-foreground ml-2">palavras no dicionário</span>
+                <span className="text-muted-foreground ml-2">{t('dicionario.palavrasNoDicionario')}</span>
               </p>
             </div>
 
@@ -257,9 +241,9 @@ const DictionaryPage = () => {
                       className={`p-1 ${
                         favorites.has(entry.id) ? 'text-yellow-400' : 'text-muted-foreground hover:text-yellow-400'
                       }`}
-                      aria-label={favorites.has(entry.id) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+                      aria-label={favorites.has(entry.id) ? t('dicionario.removerDosFavoritos') : t('dicionario.adicionarAosFavoritos')}
                     >
-                      <Star className="h-5 w-5" fill={favorites.has(entry.id) ? 'currentColor' : 'none'} />
+                      <Star className="h-5 w-5" fill={favorites.has(entry.id) ? 'currentColor' : 'none'} aria-hidden="true" />
                     </button>
                   </div>
                   
@@ -292,7 +276,7 @@ const DictionaryPage = () => {
 
             {filteredDictionary.length === 0 && (
               <div className="text-center py-12">
-                <p className="text-muted-foreground text-lg">Nenhuma palavra encontrada.</p>
+                <p className="text-muted-foreground text-lg">{t('dicionario.nenhumaPalavraEncontrada')}</p>
               </div>
             )}
           </div>
@@ -307,9 +291,9 @@ const DictionaryPage = () => {
                       <button
                         onClick={() => toggleFavorite(entry.id)}
                         className="p-1 text-yellow-400 hover:text-yellow-500"
-                        aria-label="Remover dos favoritos"
+                        aria-label={t('dicionario.removerDosFavoritos')}
                       >
-                        <Star className="h-5 w-5" fill="currentColor" />
+                        <Star className="h-5 w-5" fill="currentColor" aria-hidden="true" />
                       </button>
                     </div>
                     
@@ -341,16 +325,16 @@ const DictionaryPage = () => {
               </div>
             ) : (
               <div className="text-center py-16">
-                <Star className="mx-auto h-16 w-16 text-muted-foreground mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-2">Nenhum favorito</h3>
+                <Star className="mx-auto h-16 w-16 text-muted-foreground mb-4" aria-hidden="true" />
+                <h3 className="text-xl font-semibold text-foreground mb-2">{t('favoritos.tituloVazio')}</h3>
                 <p className="text-muted-foreground mb-6">
-                  Adicione palavras aos seus favoritos clicando na estrela ao lado de cada palavra.
+                  {t('favoritos.descricaoVazia')}
                 </p>
                 <button
                   onClick={() => setActiveTab('dictionary')}
                   className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-colors"
                 >
-                  Procurar no dicionário
+                  {t('favoritos.procurarNoDicionario')}
                 </button>
               </div>
             )}

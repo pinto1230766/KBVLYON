@@ -6,6 +6,7 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
+  SheetDescription,
   SheetTrigger,
 } from './ui/sheet';
 import { Button } from './ui/button';
@@ -69,39 +70,36 @@ const Chatbot: React.FC = () => {
     if (!input.trim() || loading) return;
 
     const userMessage: Message = { role: 'user', content: input };
-    setMessages(prev => [...prev, userMessage]);
+    const newMessages = [...messages, userMessage];
+    setMessages(newMessages);
     setInput('');
     setLoading(true);
 
     try {
-      const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      const response = await fetch('http://localhost:3001/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
         },
         body: JSON.stringify({
-          model: 'gpt-3.5-turbo',
-          messages: [
-            {
-              role: 'system',
-              content: 'Vous êtes un assistant IA spécialisé dans l\'apprentissage du créole capverdien. Aidez les utilisateurs à apprendre la langue, fournissez des traductions, expliquez la grammaire, le vocabulaire, et répondez aux questions sur la culture capverdienne et l\'application. Répondez en français ou en créole selon le contexte.',
-            },
-            ...messages,
-            userMessage,
-          ],
-          max_tokens: 500,
+          messages: newMessages,
         }),
       });
 
       if (!response.ok) {
-        throw new Error('Erreur API');
+        throw new Error('Erreur serveur');
       }
 
       const data = await response.json();
+      const assistantResponse = data.response;
+
+      if (!assistantResponse) {
+        throw new Error('Réponse vide');
+      }
+
       const assistantMessage: Message = {
         role: 'assistant',
-        content: data.choices[0].message.content,
+        content: assistantResponse,
       };
       setMessages(prev => [...prev, assistantMessage]);
     } catch (error) {
@@ -128,6 +126,9 @@ const Chatbot: React.FC = () => {
       <SheetContent side="right" className="w-full sm:w-96">
         <SheetHeader>
           <SheetTitle>Assistant IA</SheetTitle>
+          <SheetDescription>
+            Posez vos questions sur l'application ou la langue capverdienne.
+          </SheetDescription>
         </SheetHeader>
         <div className="flex flex-col h-full">
           <div className="flex-1 overflow-y-auto p-4 space-y-4">

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { useLanguage } from '../hooks/useLanguage';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
@@ -8,23 +8,23 @@ import { ThemeToggle } from '@/components/theme-toggle';
 import { LanguageSwitcher } from './language-switcher';
 
 const Navbar = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: t('navbar.home'), href: '/' },
-    { name: 'Gramática', href: '/grammar-dictionary' },
-    { name: 'Dicionário', href: '/dictionary' },
-    { name: 'Lições', href: '/lessons' },
-    { name: t('navbar.preaching'), href: '/preaching' },
-    { name: t('navbar.bibleStudies'), href: '/bible-studies' },
-    { name: t('navbar.notes'), href: '/notes' },
-    { name: t('navbar.about'), href: '/about' },
+    { name: t('navegacao.inicio'), href: '/' },
+    { name: t('navegacao.predicacao'), href: '/preaching' },
+    { name: t('navegacao.gramaticaDicionario'), href: '/grammar-dictionary' },
+    { name: t('dicionario.titulo'), href: '/dictionary' },
+    { name: t('navegacao.licoesExercicios'), href: '/lessons' },
+    { name: t('navegacao.estudosBiblicos'), href: '/bible-studies' },
+    { name: t('navegacao.notas'), href: '/notes' },
+    { name: t('navegacao.sobre'), href: '/about' },
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 safe-area-padding-top mobile-safe-top">
       <div className="container flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground font-semibold">K</div>

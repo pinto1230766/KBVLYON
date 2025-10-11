@@ -1,9 +1,13 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
+require('dotenv').config({ path: path.join(__dirname, '..', '.env.local') });
 
 const app = express();
 const PORT = 3001; // Choose a different port for the API server
+
+const genAI = new GoogleGenerativeAI(process.env.VITE_GEMINI_API_KEY);
 
 // Middleware pour permettre les requêtes CORS depuis le frontend
 app.use((req, res, next) => {
@@ -82,6 +86,42 @@ app.get('/api/dictionary/search', (req, res) => {
     );
     res.json(results);
   });
+});
+
+// Endpoint pour le chatbot IA
+app.post('/api/chat', async (req, res) => {
+  try {
+    const { messages } = req.body;
+
+    if (!messages || !Array.isArray(messages)) {
+      return res.status(400).json({ error: 'Messages array is required' });
+    }
+
+    const model = genAI.getGenerativeModel({
+      model: 'gemini-1.5-flash',
+      systemInstruction: "Vous êtes un assistant IA spécialisé dans l'apprentissage du créole capverdien. Aidez les utilisateurs à apprendre la langue, fournissez des traductions, expliquez la grammaire, le vocabulaire, et répondez aux questions sur la culture capverdienne et l'application. Répondez en français ou en créole selon le contexte."
+    });
+
+    const contents = messages.map(msg => ({
+      role: msg.role === 'assistant' ? 'model' : 'user',
+      parts: [{ text: msg.content }],
+    }));
+
+    const result = await model.generateContent({
+      contents,
+      generationConfig: {
+        maxOutputTokens: 1000,
+      },
+    });
+
+    const response = await result.response;
+    const text = response.text();
+
+    res.json({ response: text });
+  } catch (error) {
+    console.error('Error in chat endpoint:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
 });
 
 app.listen(PORT, () => {

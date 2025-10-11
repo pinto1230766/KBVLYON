@@ -52,13 +52,13 @@ const LessonModal = ({
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
       onClick={handleBackdropClick}
     >
-      <div className="bg-background rounded-lg shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col overflow-hidden">
+      <div className="bg-background rounded-lg shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col overflow-hidden" role="dialog" aria-labelledby="lesson-modal-title" aria-modal="true">
         {/* En-tête bleu */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 md:px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <BookOpen className="w-6 h-6" />
+            <BookOpen className="w-6 h-6" aria-hidden="true" />
             <div>
-              <h2 className="text-xl font-bold">
+              <h2 id="lesson-modal-title" className="text-xl font-bold">
                 Lição {lessonNumber} / {totalLessons}
               </h2>
               <p className="text-sm text-blue-100">{category}</p>
@@ -72,6 +72,7 @@ const LessonModal = ({
             >
               <Star
                 className={`w-5 h-5 ${isFavorite ? 'fill-yellow-400 text-yellow-400' : 'text-white'}`}
+                aria-hidden="true"
               />
             </button>
             <button
@@ -79,7 +80,7 @@ const LessonModal = ({
               className="p-2 hover:bg-white/10 rounded-lg transition-colors"
               aria-label="Fechar"
             >
-              <X className="w-5 h-5" />
+              <X className="w-5 h-5" aria-hidden="true" />
             </button>
           </div>
         </div>
@@ -106,7 +107,7 @@ const LessonModal = ({
                 : 'text-primary hover:bg-primary/10'
             }`}
           >
-            <ChevronLeft className="w-5 h-5" />
+            <ChevronLeft className="w-5 h-5" aria-hidden="true" />
             Anterior
           </button>
 
@@ -124,7 +125,7 @@ const LessonModal = ({
             }`}
           >
             Próxima
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight className="w-5 h-5" aria-hidden="true" />
           </button>
         </div>
       </div>

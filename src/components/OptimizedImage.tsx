@@ -11,7 +11,6 @@ interface OptimizedImageProps {
   width?: number;
   height?: number;
   loading?: 'eager' | 'lazy';
-  placeholder?: string;
 }
 
 const OptimizedImage: React.FC<OptimizedImageProps> = ({
@@ -21,21 +20,17 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
   width,
   height,
   loading = 'lazy',
-  placeholder = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlZWVlZWUiLz48L3N2Zz4=',
 }) => {
-  const [imageSrc, setImageSrc] = useState(placeholder);
   const [isLoading, setIsLoading] = useState(true);
   const { t } = useLanguage();
 
   useEffect(() => {
-    // Si l'image est déjà chargée, ne rien faire
-    if (!src || imageSrc === src) return;
+    if (!src) return;
 
     const img = new Image();
-    
+
     const handleLoad = () => {
       setIsLoading(false);
-      setImageSrc(src);
     };
 
     const handleError = () => {
@@ -51,7 +46,14 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
       img.onload = null;
       img.onerror = null;
     };
-  }, [src, imageSrc]);
+  }, [src]);
+
+  // Générer les chemins WebP
+  const generateWebPSrcSet = (originalSrc: string) => {
+    const basePath = originalSrc.replace('.jpg', '');
+    const sizes = [480, 768, 1024, 1280];
+    return sizes.map(size => `${basePath}-${size}.webp ${size}w`).join(', ');
+  };
 
   // Si l'image est en cours de chargement, afficher un placeholder
   if (isLoading) {
@@ -65,30 +67,35 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
     );
   }
 
-  // Déterminer les classes en fonction de l'état de chargement
+  // Déterminer les classes
   const imageClasses = clsx(
     'optimized-image',
     className,
     {
-      'optimized-image-loading': isLoading,
       'optimized-image-loaded': !isLoading
     }
   );
 
   return (
-    <img
-      src={imageSrc}
-      alt={alt}
-      className={imageClasses}
-      width={width}
-      height={height}
-      loading={loading}
-      onError={(e) => {
-        // En cas d'erreur de chargement, afficher une image de remplacement
-        e.currentTarget.onerror = null;
-        e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlZWVlZWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzk5OSI+SW1hZ2Ugbm90IGZvdW5kPC90ZXh0Pjwvc3ZnPg=';
-      }}
-    />
+    <picture>
+      <source
+        srcSet={generateWebPSrcSet(src)}
+        type="image/webp"
+      />
+      <img
+        src={src}
+        alt={alt}
+        className={imageClasses}
+        width={width}
+        height={height}
+        loading={loading}
+        onError={(e) => {
+          // En cas d'erreur de chargement, afficher une image de remplacement
+          e.currentTarget.onerror = null;
+          e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlZWVlZWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzk5OSI+SW1hZ2Ugbm90IGZvdW5kPC90ZXh0Pjwvc3ZnPg=';
+        }}
+      />
+    </picture>
   );
 };
 

@@ -10,7 +10,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "extract-pdf": "node scripts/extractPdfData.cjs"
+    "extract-pdf": "node scripts/extractPdfData.cjs",
+    "extract-lessons": "node scripts/extract_lessons_from_pdfs.cjs",
+    "test": "playwright test",
+    "test:mobile": "playwright test --project=\"Mobile Chrome\" --project=\"Mobile Safari\"",
+    "test:ui": "playwright test --ui"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.0",
@@ -23,22 +27,26 @@
     "@radix-ui/react-tabs": "^1.1.12",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "firebase": "^12.4.0",
+    "framer-motion": "^12.23.24",
+    "fuse.js": "^7.1.0",
     "i18next": "^23.11.5",
     "lucide-react": "^0.344.0",
     "next-themes": "^0.3.0",
+    "pdf-parse": "^1.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^13.5.0",
     "react-loading-skeleton": "^3.5.0",
     "react-router-dom": "^6.22.3",
-    "tailwind-merge": "^3.3.0",
-    "pdf-parse": "^1.1.1"
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",
     "@emotion/babel-plugin": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@eslint/js": "^9.28.0",
+    "@playwright/test": "^1.56.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/line-clamp": "^0.4.4",

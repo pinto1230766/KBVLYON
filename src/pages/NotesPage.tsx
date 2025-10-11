@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { FileText, Users, Calendar, UserPlus, Clock, BarChart2, Trash2, Plus } from 'lucide-react';
+import { useOfflineStorage } from '../hooks/useOfflineStorage';
 
 // Types
 type TabType = 'general' | 'students' | 'interessed' | 'calendar' | 'timer' | 'stats';
@@ -53,60 +54,29 @@ const tabs = [
 const NotesPage: React.FC = () => {
   // États principaux
   const [activeTab, setActiveTab] = useState<TabType>('general');
-  const [notes, setNotes] = useState('');
-  const [history, setHistory] = useState<HistoryEntry[]>([]);
+  const { value: notes, setValue: setNotes } = useOfflineStorage<string>('notes', '');
+  const [history] = useState<HistoryEntry[]>([]);
   const [currentMonth, setCurrentMonth] = useState<Date>(new Date());
-  
+
   // États pour le chronomètre
-  const [timer, setTimer] = useState<TimerState>({
+  const { value: timer, setValue: setTimer } = useOfflineStorage<TimerState>('timerState', {
     isRunning: false,
     time: 0,
     startTime: 0
   });
   const [laps, setLaps] = useState<number[]>([]);
   const timerIntervalRef = useRef<number | null>(null);
-  const [events, setEvents] = useState<CalendarEvent[]>([]);
+  const { value: events, setValue: setEvents } = useOfflineStorage<CalendarEvent[]>('notesEvents', []);
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [eventForm, setEventForm] = useState<{ type: CalendarEvent['type']; notes: string }>({ type: 'predication', notes: '' });
-  const [students, setStudents] = useState<StudentContact[]>([]);
-  const [interested, setInterested] = useState<InterestedContact[]>([]);
+  const { value: students, setValue: setStudents } = useOfflineStorage<StudentContact[]>('notesStudents', []);
+  const { value: interested, setValue: setInterested } = useOfflineStorage<InterestedContact[]>('notesInterested', []);
   const [studentForm, setStudentForm] = useState<StudentContact>({ id: '', name: '', phone: '', progress: '', lastVisit: '' });
   const [interestedForm, setInterestedForm] = useState<InterestedContact>({ id: '', name: '', address: '', notes: '', followUpDate: '' });
   
   // État pour les notifications
   const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
 
-  // Charger les données depuis le localStorage
-  useEffect(() => {
-    try {
-      const savedNotes = localStorage.getItem('notes');
-      const savedHistory = localStorage.getItem('history');
-      const savedEvents = localStorage.getItem('notesEvents');
-      const savedStudents = localStorage.getItem('notesStudents');
-      const savedInterested = localStorage.getItem('notesInterested');
-      
-      if (savedNotes) setNotes(savedNotes);
-      if (savedHistory) setHistory(JSON.parse(savedHistory));
-      if (savedEvents) setEvents(JSON.parse(savedEvents));
-      if (savedStudents) setStudents(JSON.parse(savedStudents));
-      if (savedInterested) setInterested(JSON.parse(savedInterested));
-    } catch (error) {
-      console.error('Erreur lors du chargement des données:', error);
-    }
-  }, []);
-  
-  // Sauvegarder les données dans le localStorage
-  useEffect(() => {
-    try {
-      localStorage.setItem('notes', notes);
-      localStorage.setItem('history', JSON.stringify(history));
-      localStorage.setItem('notesEvents', JSON.stringify(events));
-      localStorage.setItem('notesStudents', JSON.stringify(students));
-      localStorage.setItem('notesInterested', JSON.stringify(interested));
-    } catch (error) {
-      console.error('Erreur lors de la sauvegarde des données:', error);
-    }
-  }, [notes, history, events, students, interested]);
 
   // Fonction pour afficher le calendrier
   const renderCalendarTab = () => {
@@ -382,12 +352,10 @@ const NotesPage: React.FC = () => {
         time: prevTimer.time,
         startTime: Date.now() - (prevTimer.isRunning ? prevTimer.time : 0)
       };
-      
-      // Sauvegarder l'état dans le localStorage
-      localStorage.setItem('timerState', JSON.stringify(newState));
+
       return newState;
     });
-  }, []);
+  }, [setTimer]);
 
   const resetTimer = useCallback(() => {
     const newState = {
@@ -395,11 +363,10 @@ const NotesPage: React.FC = () => {
       time: 0,
       startTime: 0
     };
-    
+
     setTimer(newState);
     setLaps([]);
-    localStorage.setItem('timerState', JSON.stringify(newState));
-  }, []);
+  }, [setTimer]);
 
   const addLap = useCallback(() => {
     setLaps(prevLaps => [...prevLaps, timer.time]);
@@ -423,7 +390,7 @@ const NotesPage: React.FC = () => {
         clearInterval(timerIntervalRef.current);
       }
     };
-  }, [timer.isRunning, timer.startTime]);
+  }, [timer.isRunning, timer.startTime, setTimer]);
 
   // Fonction pour calculer les statistiques
   const calculateStats = useCallback(() => {
@@ -486,18 +453,6 @@ const NotesPage: React.FC = () => {
     );
   }, [calculateStats, formatTime, history]);
 
-  // Charger l'état du chronomètre au démarrage
-  useEffect(() => {
-    const savedTimer = localStorage.getItem('timerState');
-    if (savedTimer) {
-      setTimer(JSON.parse(savedTimer));
-    }
-    
-    const savedHistory = localStorage.getItem('timerHistory');
-    if (savedHistory) {
-      setHistory(JSON.parse(savedHistory));
-    }
-  }, []);
 
   // Rendu du contenu en fonction de l'onglet actif
   const renderTabContent = (tab: TabType): React.ReactNode => {
@@ -769,7 +724,7 @@ const NotesPage: React.FC = () => {
               }`}
               aria-label={tab.label}
             >
-              <tab.icon className="h-4 w-4" />
+              <tab.icon className="h-4 w-4" aria-hidden="true" />
               <span className="font-medium">{tab.label}</span>
             </button>
           ))}

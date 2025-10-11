@@ -1,0 +1,54 @@
+/* Styles spécifiques pour appareils mobiles */
+
+/* Forcer le padding pour les appareils avec boutons de navigation */
+@media (max-width: 768px) and (max-height: 1000px) {
+  /* Appareils mobiles modernes */
+  body {
+    padding-bottom: 140px !important;
+    padding-top: 32px !important;
+  }
+
+  /* Conteneurs principaux */
+  main {
+    padding-bottom: 140px !important;
+  }
+
+  /* Navbar */
+  header {
+    padding-top: 32px !important;
+  }
+
+  /* Pages individuelles */
+  .page-container {
+    padding-bottom: 140px !important;
+    padding-top: 16px !important;
+  }
+}
+
+/* Pour les appareils très petits ou avec boutons logiciels */
+@media (max-width: 480px) {
+  body {
+    padding-bottom: 160px !important;
+  }
+
+  main {
+    padding-bottom: 160px !important;
+  }
+}
+
+/* Styles pour les modales et overlays */
+.modal-overlay {
+  padding-top: env(safe-area-inset-top, 32px) !important;
+  padding-bottom: env(safe-area-inset-bottom, 140px) !important;
+}
+
+/* Assurer que les éléments fixes ne sont pas cachés */
+.fixed, .sticky {
+  z-index: 1000;
+}
+
+/* Boutons et éléments interactifs */
+button, a, input, textarea, select {
+  min-height: 44px; /* Taille minimale recommandée pour l'accessibilité mobile */
+  min-width: 44px;
+}

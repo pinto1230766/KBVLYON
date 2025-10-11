@@ -8,6 +8,8 @@ export interface DictionaryEntry {
   translation: Record<Language, string>;
   example?: Record<Language, string>;
   note?: string;
+  category?: string;
+  synonyms?: string[];
 }
 
 export interface GrammarLesson {

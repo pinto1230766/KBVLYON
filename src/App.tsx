@@ -27,15 +27,13 @@ const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 
 function AppLayout() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col safe-area-padding-top">
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 safe-area-padding-bottom mobile-safe-bottom">
         <Outlet />
       </main>
       <Footer />
       <Chatbot />
-      {/* Padding pour la barre de navigation système */}
-      <div className="h-[env(safe-area-inset-bottom,20px)] bg-background" />
     </div>
   );
 }

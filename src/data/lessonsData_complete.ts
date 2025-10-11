@@ -701,5 +701,184 @@ export const lessonsData: Lesson[] = [
       "pt": "Aprenda sobre a cultura para se integrar.",
       "cv": "Aprende sobri kultura pa integra."
     }
+  },
+  {
+    "id": 19,
+    "category": "phrases",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Visitas de Revisita Espirituais",
+      "cv": "Vizita di Retornu Espirituau"
+    },
+    "description": {
+      "pt": "Expressões úteis para revisitar interessados na mensagem bíblica.",
+      "cv": "Frázi útil pa torna vizita algen interesa na mensajen bíbliku."
+    },
+    "content": {
+      "pt": "Planeje uma revisita calorosa: \\n+\\n1. Saudação amigável\\n   - \"Bon regresso, nôs torna pa partilha más un pensamentu bíblicu.\"\\n2. Retomar o assunto\\n   - \"Bu lembre di es versu ku nu lê dja?\"\\n   - Cite expressões de esperança (1 Coríntios 15:26).\\n3. Convidar à reflexão\\n   - Pergunte como a pessoa se sentiu após a última conversa.\\n4. Encerrar com incentivo\\n   - Combine próxima visita: \"Nu ta torna simana que ben ku más informason.\"",
+      "cv": "Planea un retornu kaentri: \\n+\\n1. Saudaçon amigável\\n   - \"Bon di nôs torna, nu bin partilha más un pensamentu di Biblia.\"\\n2. Retoma asuntu\\n   - \"Bu lembra di kel versu ku nu lê dja?\"\\n   - Uzá espreson di speransa (1 Koríntius 15:26).\\n3. Konvida pa refleksyon\\n   - Pergunta kuma pesoa sinti dipois di últimu konversa.\\n4. Txaba ku ansi\\n   - Kombina próksimu vizita: \"Nu ta torna simana ki bin ku más informason.\""
+    },
+    "examples": [
+      {
+        "pt": "Trouxe um folheto que explica por que Deus eliminará a morte.",
+        "cv": "N traze un folhetu ki splika pamodi Diós ta tira more."
+      },
+      {
+        "pt": "Podemos ler juntos um parágrafo curto?",
+        "cv": "Nu pode lê djuntu un paragrafu kurtu?"
+      },
+      {
+        "pt": "Espero você na próxima semana, ao mesmo horário.",
+        "cv": "N spera bu simana ki ben, na mesmu ora."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Prepare perguntas abertas e tenha um versículo destacado em `jw.org/kea` para apoio.",
+      "cv": "Prepara pergunta abertu y ten un versiklu marckadu na `jw.org/kea` pa apoiu."
+    },
+    "exercises": [
+      {
+        "type": "pergunta",
+        "question": {
+          "pt": "Que expressão pode usar para lembrar o último tema estudado?",
+          "cv": "Ki frézi bu pode uza pa lembra últimu tema ki estudadu?"
+        },
+        "answer": {
+          "pt": "Use: 'Bu lembre di es versu ku nu lê dja?'",
+          "cv": "Uza: 'Bu lembra di kel versu ku nu lê dja?'"
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "phrases",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Conduzindo Estudos Bíblicos Domésticos",
+      "cv": "Konduzi Studu Bíbliku na Kaza"
+    },
+    "description": {
+      "pt": "Vocabulário e estrutura para apresentar e manter um estudo bíblico semanal.",
+      "cv": "Vokabuláriu y strutura pa apresentá y manten un studu bíbliku semanal."
+    },
+    "content": {
+      "pt": "Componentes de um estudo eficaz: \\n+\\n1. Iniciar com oração simples\\n   - \"Nu pode kumesa ku un oraçon kurtu?\"\\n2. Ler o tema\\n   - Utilize publicações em crioulo disponíveis em `jw.org/kea`.\\n3. Estimular participação\\n   - Peça que a pessoa leia a pergunta do quadro lateral.\\n4. Aplicação prática\\n   - Ajude a relacionar o texto com desafios locais (família, trabalho, saúde).",
+      "cv": "Komponenti di un studu efikaz: \\n+\\n1. Kumesa ku oraçon sinplis\\n   - \"Nu pode kumesa ku un oraçon kurtu?\"\\n2. Le tema\\n   - Uza publikason na kriolu disponivel na `jw.org/kea`.\\n3. Stimula participason\\n   - Pidi pesoa lê pergunta di kuadru lateral.\\n4. Aplikason prátiku\\n   - Djuda relaciona tekstu ku dezafiu lokal (familia, trabadju, saúde)."
+    },
+    "examples": [
+      {
+        "pt": "Vamos ler o parágrafo 3 e ver o que ele ensina sobre oração.",
+        "cv": "Nu lê paragrafu 3 y odja ku es ta ensiña sobri oraçon."
+      },
+      {
+        "pt": "Como você aplicaria este conselho na sua família?",
+        "cv": "Kuma bu ta aplikal es konselhu na bu familia?"
+      },
+      {
+        "pt": "Na próxima vez, veremos como fortalecer a fé.",
+        "cv": "Na próksima bêz, nu ta odja kuma pa reforsa fé."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Use recursos de áudio e vídeo de `jw.org/kea` para complementar lições em crioulo.",
+      "cv": "Uza rekursu di áudiu y vídeo di `jw.org/kea` pa kompleta lisons na kriolu."
+    },
+    "exercises": [
+      {
+        "type": "pergunta",
+        "question": {
+          "pt": "Qual pergunta pode incentivar o estudante a aplicar o parágrafo?",
+          "cv": "Ki pergunta ta podi incentiva studanti pa aplikal paragrafu?"
+        },
+        "answer": {
+          "pt": "Pergunte: 'Como você aplicaria este conselho na sua família?'",
+          "cv": "Pergunta: 'Kuma bu ta aplikal es konselhu na bu familia?'"
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "culture",
+    "level": "avancé",
+    "title": {
+      "pt": "Reuniões Congregacionais e Terminologia",
+      "cv": "Reunion di Kongregason y Terminolojia"
+    },
+    "description": {
+      "pt": "Entenda vocabulário e costumes das reuniões cristãs em Cabo Verde.",
+      "cv": "Intende vokabuláriu y kustumi di reunion kriston na Kabu Verdi."
+    },
+    "content": {
+      "pt": "Vocabulário chave: \\n+\\n- Assembleia (Assembleia), Congresso (Kongresu), Reunião do meio de semana (Reunion di meiu di simana)\\n- Dirigente (Dirijent), Leitor (Letor), Comentário (Kumentáriu)\\nProtocolos culturais:\\n1. Chegar cedo para cumprimentar todos com \"Bon dia, irmaõ/irmon\"\\n2. Participação voluntária respeitando turnos\\n3. Uso de materiais digitais (JW Library, jw.org) sem perturbar outros participantes",
+      "cv": "Vokabuláriu xabé: \\n+\\n- Asambleia, Kongresu, Reunion di meiu di simana\\n- Dirijent, Letor, Kumentáriu\\nProtukolu kulturau:\\n1. Txiga sedu pa saluda tudu ku \"Bon dia, irmãn/irmon\"\\n2. Participason voluntáriu respetandu vez\\n3. Uzu di material digital (JW Library, jw.org) sin perturba otus partisipantis"
+    },
+    "examples": [
+      {
+        "pt": "A assembleia regional começa às 9h na Praia.",
+        "cv": "Asambleia rejional ta kumesa 9 oras na Praia."
+      },
+      {
+        "pt": "Quem dirige a reunião hoje?",
+        "cv": "Ken ki ta dirigi reunion oji?"
+      },
+      {
+        "pt": "Obrigado pelo comentário encorajador!",
+        "cv": "Obrigadu pa kel kumentáriu di ansi!"
+      }
+    ],
+    "practicalTips": {
+      "pt": "Anote termos novos durante as reuniões para revisar com outros proclamadores.",
+      "cv": "Toma nota di termus nôvu durante reunion pa revê ku otu proclamador."
+    }
+  },
+  {
+    "id": 22,
+    "category": "vocabulary",
+    "level": "intermédiaire",
+    "title": {
+      "pt": "Palavras de Encorajamento e Consolo",
+      "cv": "Palavra di Ansi y Konxolu"
+    },
+    "description": {
+      "pt": "Aprenda expressões positivas para confortar irmãos e interessados.",
+      "cv": "Prendi espreson pozitivu pa konfórta irmon y algen interesa."
+    },
+    "content": {
+      "pt": "Expressões curtas inspiradas em publicações da congregação: \\n+\\n- \"Diós ka ta skeci di bu esforsu.\" (Hebreus 6:10)\\n- \"Konta ku nos pa bu ka sinti só.\"\\n- \"Oraçon ta da forsa kada dia.\"\\nEstruture mensagens de voz ou textos com três partes: saudação, versículo ou pensamento, e oferta de ajuda.",
+      "cv": "Espreson kurtu inspiradu na publikason di kongregason: \\n+\\n- \"Diós ka ta skesi di bu esforsu.\" (Hebreus 6:10)\\n- \"Konta ku nu pa bu ka sinti só.\"\\n- \"Oraçon ta da forsa kada dia.\"\\nStrutura mensajen di voz o texi ku tres parti: saudaçon, versiklu o pansementu, y oferta di ajuda."
+    },
+    "examples": [
+      {
+        "pt": "Deus não esquece do seu esforço. Conte comigo para ajudar.",
+        "cv": "Diós ka ta skesi di bu esforsu. Konta ku mi pa djuda."
+      },
+      {
+        "pt": "Estamos orando por você continuar firme.",
+        "cv": "Nu sta ta ora pa bu kontínua firmi."
+      },
+      {
+        "pt": "Se precisar conversar, estou disponível hoje à noite.",
+        "cv": "Si bu presisa papia, N sta diponivel oji noti."
+      }
+    ],
+    "practicalTips": {
+      "pt": "Personalize frases com o nome da pessoa e um versículo relevante de `jw.org/kea`.",
+      "cv": "Personaliza frázi ku nômi di pesoa y un versiklu relevanti di `jw.org/kea`."
+    },
+    "exercises": [
+      {
+        "type": "pergunta",
+        "question": {
+          "pt": "Qual expressão cita Hebreus 6:10 em crioulo?",
+          "cv": "Ki frézi ta sita Hebreus 6:10 na kriolu?"
+        },
+        "answer": {
+          "pt": "'Diós ka ta skesi di bu esforsu.'",
+          "cv": "'Diós ka ta skesi di bu esforsu.'"
+        }
+      }
+    ]
   }
 ];
