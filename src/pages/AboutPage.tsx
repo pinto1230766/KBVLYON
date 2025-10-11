@@ -43,17 +43,17 @@ const translations = {
 
 export default function AboutPage() {
   const { language } = useLanguage();
-  
+
   // Selecionar as traduções com base no idioma atual
   const content = translations[language as keyof typeof translations] || translations.pt;
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-3xl mx-auto"
+        className="max-w-4xl mx-auto"
       >
         <div className="flex flex-col gap-2 mb-6">
           <h1 className="text-3xl font-bold">{content.titulo}</h1>
@@ -61,17 +61,46 @@ export default function AboutPage() {
             {content.versao}
           </span>
         </div>
-        
+
         <div className="prose dark:prose-invert">
-          <p className="text-lg mb-4">
-            {content.boasVindas}
-          </p>
-          
+          {/* Welcome message with bilingual display */}
+          <div className="bg-gradient-to-r from-primary/5 to-secondary/5 p-6 rounded-xl mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-semibold px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">
+                    🇵🇹 Português
+                  </span>
+                </div>
+                <p className="text-lg font-medium leading-relaxed">
+                  {translations.pt.boasVindas}
+                </p>
+              </div>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-semibold px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
+                    🇨🇻 Kriolu
+                  </span>
+                </div>
+                <p className="text-lg font-medium leading-relaxed">
+                  {translations.cv.boasVindas}
+                </p>
+              </div>
+            </div>
+          </div>
+
           <h2 className="text-2xl font-semibold mt-8 mb-4">{content.missao}</h2>
-          <p className="mb-4">
-            {content.textoMissao}
-          </p>
-          
+          <div className="bg-muted/30 p-4 rounded-lg mb-4">
+            <p className="leading-relaxed">
+              {content.textoMissao}
+            </p>
+            {language !== 'cv' && (
+              <p className="text-sm text-muted-foreground mt-2 italic">
+                [translate:] {translations.cv.textoMissao}
+              </p>
+            )}
+          </div>
+
           <h2 className="text-2xl font-semibold mt-8 mb-4">{content.funcionalidades}</h2>
           <div className="rounded-xl border border-border bg-card/50 p-5">
             <ul className="grid gap-3 text-sm md:grid-cols-2">
@@ -99,20 +128,34 @@ export default function AboutPage() {
             <p className="text-sm leading-relaxed text-foreground/80">
               {content.textoCompromisso}
             </p>
+            {language !== 'cv' && (
+              <div className="mt-4 p-3 bg-muted/50 rounded-lg">
+                <p className="text-xs text-muted-foreground mb-1">[translate:] Versão em Crioulo:</p>
+                <p className="text-sm leading-relaxed text-foreground/80">
+                  {translations.cv.textoCompromisso}
+                </p>
+              </div>
+            )}
           </div>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">{content.suporte}</h2>
-          <p className="text-sm leading-relaxed text-foreground/80">
-            {content.textoSuporte}
-            <br />
-            <a href={`mailto:${content.email}`} className="text-primary hover:underline">
-              {content.email}
-            </a>
-          </p>
+          <div className="bg-card border border-border p-4 rounded-lg">
+            <p className="text-sm leading-relaxed text-foreground/80 mb-3">
+              {content.textoSuporte}
+            </p>
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-medium">Email:</span>
+              <a href={`mailto:${content.email}`} className="text-primary hover:underline font-medium">
+                {content.email}
+              </a>
+            </div>
+          </div>
 
-          <p className="mt-8 text-sm text-muted-foreground">
-            {content.agradecimento}
-          </p>
+          <div className="mt-8 p-4 bg-muted/30 rounded-lg">
+            <p className="text-sm text-muted-foreground text-center">
+              {content.agradecimento}
+            </p>
+          </div>
         </div>
       </motion.div>
     </div>
