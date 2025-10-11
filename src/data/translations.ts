@@ -300,6 +300,50 @@ const translations: Translations = {
     botaoPraticar: { // practiceButton
       pt: 'Praticar',
       cv: 'Pratika'
+    },
+    dicasPratica: {
+      pt: 'Dicas para prática:',
+      cv: 'Dikas pa prátika:'
+    },
+    praticaIntroducao: {
+      pt: 'Pratique a introdução em voz alta várias vezes.',
+      cv: 'Pratika introduson en voz alta várias vez.'
+    },
+    praticaMemorizar: {
+      pt: 'Memorize o texto bíblico chave para citá-lo com confiança.',
+      cv: 'Memoriza téstu bíbliku chavi pa sita-l ku konfiansa.'
+    },
+    praticaPergunta: {
+      pt: 'Ensaie como fazer a pergunta de forma natural.',
+      cv: 'Ensaia modi ki ta faze pergunta di forma natural.'
+    },
+    praticaExplicacao: {
+      pt: 'Adapte a explicação ao seu próprio estilo, mantendo os pontos principais.',
+      cv: 'Adapta splikason pa bu própriu stilu, mantendo pontos prinsipais.'
+    },
+    exemploDialogo: {
+      pt: 'Exemplo de diálogo:',
+      cv: 'Izemplu di diálogu:'
+    },
+    voce: {
+      pt: 'Você:',
+      cv: 'Bo:'
+    },
+    morador: {
+      pt: 'Morador:',
+      cv: 'Moradu:'
+    },
+    olaPossoAjudar: {
+      pt: 'Olá, posso ajudar?',
+      cv: 'Ola, ka mi djuda?'
+    },
+    nuncaPensei: {
+      pt: 'Nunca pensei nisso. O que a Bíblia diz?',
+      cv: 'Nunka pensa na kel-li. Kusa ki Bíblia ta fla?'
+    },
+    iniciarPratica: {
+      pt: 'Iniciar Prática',
+      cv: 'Kumisa Prátika'
     }
   },
   
@@ -694,6 +738,36 @@ const translations: Translations = {
       pt: "Total Horas",
       cv: "Total Ora"
     }
+  },
+
+  estudosBiblicos: {
+    conteudoEstudo: { pt: 'Conteúdo do Estudo', cv: 'Kontéudu di Studu' }
+  },
+
+  licoesDetalhes: {
+    titulo: { pt: 'Lições de Crioulo para Pregação', cv: 'Lisons di Kriolu pa Pregason' },
+    subtitulo: { pt: 'Aprenda crioulo cabo-verdiano para pregar de porta em porta', cv: 'Prendi kriolu kabuverdianu pa prega di porta na porta' },
+    licoes: { pt: 'Lições', cv: 'Lisons' },
+    completas: { pt: 'Completas', cv: 'Kompletu' },
+    categorias: { pt: 'Categorias', cv: 'Kategorias' },
+    nivel: { pt: 'Nível', cv: 'Nível' },
+    todas: { pt: 'Todas', cv: 'Tudu' },
+    todosNiveis: { pt: 'Todos os Níveis', cv: 'Tudu Nível' },
+    iniciante: { pt: 'Iniciante', cv: 'Inisiante' },
+    intermediario: { pt: 'Intermediário', cv: 'Intermediáriu' },
+    avancado: { pt: 'Avançado', cv: 'Avansadu' },
+    nenhumaLicao: { pt: 'Nenhuma lição encontrada com os filtros selecionados.', cv: 'Nenhuma lison atxadu ku es filtru.' },
+    continueAprendendo: { pt: 'Continue Aprendendo!', cv: 'Kontinua Prendendu!' },
+    cadaLicao: { pt: 'Cada lição o aproxima de pregar eficazmente em crioulo cabo-verdiano', cv: 'Kada lison bu txiga mas serka di prega efikasimenti na kriolu kabuverdianu' },
+    conteudo: { pt: 'Conteúdo', cv: 'Kontedu' },
+    exemplos: { pt: 'Exemplos', cv: 'Ezemplu' },
+    dicasPraticas: { pt: '💡 Dicas Práticas', cv: '💡 Dikas Prátiku' },
+    morfologia: { pt: 'Morfologia', cv: 'Morfolojia' },
+    sintaxe: { pt: 'Sintaxe', cv: 'Sintaxi' },
+    verbos: { pt: 'Verbos', cv: 'Berbus' },
+    fonologia: { pt: 'Fonologia', cv: 'Fonolojia' },
+    vocabulario: { pt: 'Vocabulário', cv: 'Vokabuláriu' },
+    pratica: { pt: 'Prática', cv: 'Prátika' }
   }
 };
 
