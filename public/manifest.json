@@ -1,29 +1,68 @@
 {
-  "name": "KBVLYON - Application de gestion",
+  "name": "KBVLYON - Aprenda Crioulo Cabo-verdiano",
   "short_name": "KBVLYON",
   "start_url": "/?utm_source=pwa_homescreen",
   "display": "standalone",
-  "background_color": "#1A73E8",
-  "theme_color": "#1A73E8",
-  "orientation": "any",
+  "background_color": "#2A73A3",
+  "theme_color": "#2A73A3",
+  "orientation": "portrait-primary",
   "scope": "/",
   "version": "1.10.1",
-  "description": "Application d'apprentissage de créole cap-verdien",
+  "description": "Aplicação para aprender crioulo cabo-verdiano para pregação",
   "prefer_related_applications": false,
-  "categories": ["education", "languages", "productivity"],
-  "screenshots": [],
-  "shortcuts": [
+  "categories": ["education", "languages", "productivity", "books"],
+  "lang": "pt",
+  "dir": "ltr",
+  "screenshots": [
     {
-      "name": "Commencer l'apprentissage",
-      "short_name": "Apprendre",
-      "description": "Commencer une nouvelle leçon",
-      "url": "/lessons?source=pwa_shortcut"
+      "src": "/images/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "name": "Révision",
-      "short_name": "Révision",
-      "description": "Réviser les leçons précédentes",
-      "url": "/revision?source=pwa_shortcut"
+      "src": "/images/screenshots/lessons.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Começar Aprendizagem",
+      "short_name": "Aprender",
+      "description": "Começar uma nova lição",
+      "url": "/lessons?source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "../icons/icon-96.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Dicionário",
+      "short_name": "Dicionário",
+      "description": "Buscar palavras no dicionário",
+      "url": "/dictionary?source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "../icons/icon-96.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Pregação",
+      "short_name": "Pregação",
+      "description": "Acessar apresentações para pregação",
+      "url": "/preaching?source=pwa_shortcut",
+      "icons": [
+        {
+          "src": "../icons/icon-96.webp",
+          "sizes": "96x96"
+        }
+      ]
     }
   ],
   "handle_links": "preferred",

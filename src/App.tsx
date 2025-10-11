@@ -1,6 +1,7 @@
 import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
+import { useLanguage } from './hooks/useLanguage';
 import { ThemeProvider } from './components/theme-provider';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { Capacitor } from '@capacitor/core';
@@ -8,7 +9,19 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LoadingSkeleton from './components/LoadingSkeleton';
 import Chatbot from './components/Chatbot';
+import DataConsentBanner from './components/DataConsentBanner';
 import './App.css';
+
+// Component to set document language dynamically
+const LanguageSetter = () => {
+  const { language } = useLanguage();
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
+
+  return null;
+};
 
 // Composants chargés de manière paresseuse
 const HomePage = lazy(() => import('./pages/HomePage'));
@@ -34,6 +47,7 @@ function AppLayout() {
       </main>
       <Footer />
       <Chatbot />
+      <DataConsentBanner />
     </div>
   );
 }
@@ -60,6 +74,7 @@ function App() {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <LanguageProvider>
+        <LanguageSetter />
         <Router>
           <Suspense fallback={<LoadingSkeleton />}>
             <Routes>
