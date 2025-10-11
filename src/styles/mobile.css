@@ -1,5 +1,24 @@
 /* Styles spécifiques pour appareils mobiles */
 
+/* Optimisation pour smartphones et tablettes Samsung */
+@media (max-width: 600px) {
+  .menu, .section {
+    font-size: 1.1em;
+  }
+  body {
+    padding: 8px;
+  }
+}
+
+@media (min-width: 601px) {
+  .menu, .section {
+    font-size: 1.3em;
+  }
+  body {
+    padding: 18px;
+  }
+}
+
 /* Forcer le padding pour les appareils avec boutons de navigation */
 @media (max-width: 768px) and (max-height: 1000px) {
   /* Appareils mobiles modernes */
@@ -49,6 +68,18 @@
 
 /* Boutons et éléments interactifs */
 button, a, input, textarea, select {
-  min-height: 44px; /* Taille minimale recommandée pour l'accessibilité mobile */
-  min-width: 44px;
+  min-height: 48px; /* Taille augmentée pour une meilleure accessibilité tactile */
+  min-width: 48px;
+  margin: 4px; /* Espacement entre les éléments */
+}
+
+/* Amélioration de l'interlignage pour mobile */
+p, li, div {
+  line-height: 1.6 !important;
+}
+
+/* Espacement des boutons et éléments interactifs */
+.btn, button, .button {
+  margin: 8px 4px !important;
+  padding: 12px 16px !important;
 }

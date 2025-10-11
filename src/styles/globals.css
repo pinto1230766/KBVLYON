@@ -54,6 +54,59 @@
   }
 }
 
+/* Automatic theme switching based on system preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Thème sombre automatique */
+    --background: 222.2 84% 4.9%; /* #0A2540 - Noir/bleu très foncé */
+    --foreground: 210 40% 98%; /* #F8FAFC - Blanc cassé pour le texte */
+
+    /* Couleurs primaires plus claires en mode sombre */
+    --primary: 205 56% 51%; /* #3A8BC3 - Bleu plus clair pour le mode sombre */
+    --primary-foreground: 0 0% 100%; /* Blanc pour texte sur fond primaire */
+    --primary-light: 205 80% 70%; /* Version plus claire pour les interactions */
+    --primary-dark: 205 56% 36%; /* Version plus foncée pour les éléments actifs */
+
+    /* Couleurs secondaires adaptées au mode sombre */
+    --secondary: 194 70% 50%; /* #00B4D8 - Version plus claire pour le mode sombre */
+    --secondary-foreground: 0 0% 100%; /* Blanc pour texte sur fond secondaire */
+    --secondary-light: 194 100% 70%; /* Version plus claire pour les interactions */
+    --secondary-dark: 194 70% 35%; /* Version plus foncée pour les éléments actifs */
+
+    /* Accents adaptés au mode sombre */
+    --accent: 35 80% 60%; /* #D4A76A - Version plus claire pour le mode sombre */
+    --accent-foreground: 0 0% 98%; /* Presque blanc pour texte sur fond d'accent */
+    --accent-light: 35 80% 75%; /* Version plus claire pour les interactions */
+
+    /* Cartes et conteneurs en mode sombre */
+    --card: 222.2 84% 7.9%; /* #0F2D4F - Bleu foncé pour les cartes */
+    --card-foreground: 210 40% 98%; /* Blanc cassé pour le texte sur les cartes */
+
+    /* Popovers en mode sombre */
+    --popover: 222.2 84% 7.9%; /* #0F2D4F - Bleu foncé pour les popovers */
+    --popover-foreground: 210 40% 98%; /* Blanc cassé pour le texte sur les popovers */
+
+    /* Éléments en sourdine en mode sombre */
+    --muted: 217.2 32.6% 17.5%; /* Gris bleuté foncé pour éléments discrets */
+    --muted-foreground: 215 20.2% 65.1%; /* Gris clair pour texte en sourdine */
+
+    /* Bordures et champs en mode sombre */
+    --border: 215 16% 25%; /* #2D3748 - Gris bleuté pour les bordures */
+    --input: 215 16% 25%; /* #2D3748 - Gris bleuté pour les champs de formulaire */
+    --ring: 205 56% 51%; /* #3A8BC3 - Bleu plus clair pour les anneaux de focus */
+
+    /* États et rétroactions en mode sombre */
+    --destructive: 0 62.8% 40.6%; /* Rouge plus foncé pour les actions destructrices */
+    --destructive-foreground: 0 0% 98%; /* Presque blanc pour texte sur fond destructeur */
+
+    /* Couleurs sémantiques en mode sombre (plus claires pour plus de visibilité) */
+    --success: 142 76% 50%; /* #10B981 - Vert plus clair pour le mode sombre */
+    --warning: 38 92% 55%; /* #F59E0B - Orange plus clair pour le mode sombre */
+    --error: 0 84% 65%; /* #EF4444 - Rouge plus clair pour le mode sombre */
+    --info: 199 89% 55%; /* #0EA5E9 - Bleu plus clair pour le mode sombre */
+  }
+}
+
 @layer base {
   :root {
     /* Thème clair inspiré de jw.org */

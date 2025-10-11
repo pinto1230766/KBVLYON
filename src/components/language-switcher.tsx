@@ -4,8 +4,8 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Languages } from 'lucide-react';
 
 const languages = [
-  { code: 'pt', name: 'Português' },
-  { code: 'cv', name: 'Kriolu' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+  { code: 'cv', name: 'Kriolu', flag: '🇨🇻' },
 ];
 
 export const LanguageSwitcher = () => {
@@ -30,6 +30,7 @@ export const LanguageSwitcher = () => {
             onClick={() => changeLanguage(lang.code)}
             className={language === lang.code ? 'bg-accent' : ''}
           >
+            <span className="mr-2">{lang.flag}</span>
             {lang.name}
           </DropdownMenuItem>
         ))}
