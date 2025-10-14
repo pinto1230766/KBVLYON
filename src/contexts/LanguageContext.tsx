@@ -1,8 +1,7 @@
-import React, { useState, ReactNode } from 'react';
+import React, { useState, ReactNode, useEffect } from 'react';
 import { LanguageContext } from './LanguageContextDefinition';
-import { translations } from '../data/translations';
 import { Language } from '../types/language.d';
-import { NestedTranslation, TranslationValue } from '../types/translations.d';
+import i18n from 'i18next';
 
 interface LanguageProviderProps {
   children: ReactNode;
@@ -11,23 +10,14 @@ interface LanguageProviderProps {
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('pt');
 
-  const t = (key: string): string => {
-    const keys = key.split('.');
-    let currentTranslation: NestedTranslation | TranslationValue | string = translations;
+  // Mettre à jour i18n lorsque la langue change
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language]);
 
-    for (const k of keys) {
-      if (typeof currentTranslation === 'object' && currentTranslation !== null && k in currentTranslation) {
-        currentTranslation = (currentTranslation as NestedTranslation)[k];
-      } else {
-        return key; // Fallback to key if translation not found
-      }
-    }
-    
-    if (typeof currentTranslation === 'object' && currentTranslation !== null && 'pt' in currentTranslation && 'cv' in currentTranslation) {
-      return (currentTranslation as TranslationValue)[language] || key;
-    }
-    
-    return key; // Fallback if the final result is not a TranslationText
+  // Utiliser directement i18n pour les traductions
+  const t = (key: string): string => {
+    return i18n.t(key);
   };
 
   return (

@@ -11,50 +11,50 @@ const PreachingPage: React.FC = () => {
   
   return (
     <div className="page-transition py-2 bg-muted min-h-screen">
-      <div className="container mx-auto px-3 sm:px-4"> {/* px-2 à px-3 sm:px-4 */}
-        <div className="text-center mb-3 sm:mb-4"> {/* mb-2 à mb-3 sm:mb-4 */}
-          <h1 className="text-xl sm:text-2xl font-bold mb-1">{t('predicacao.titulo')}</h1>
-          <p className="text-sm text-muted-foreground max-w-3xl mx-auto"> {/* text-xs à text-sm */}
-            {t('predicacao.subtitulo')}
+      <div className="container mx-auto px-3 sm:px-3"> 
+        <div className="text-center mb-3 sm:mb-2"> 
+          <h1 className="text-xl sm:text-2xl font-bold mb-1">{t('preaching.title')}</h1>
+          <p className="text-sm text-muted-foreground dark:text-gray-300 max-w-3xl mx-auto"> 
+            {t('preaching.subtitle')}
           </p>
         </div>
         
         {!activePresentation ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4"> {/* gap-2 à gap-3 sm:gap-4 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-2"> 
             {preachingPresentations.map((presentation) => (
               <div 
                 key={presentation.id}
-                className="card cursor-pointer hover:shadow-lg transition-shadow rounded-lg overflow-hidden" // Ajout de rounded-lg overflow-hidden, hover:shadow-md à hover:shadow-lg
+                className="card cursor-pointer hover:shadow-lg transition-shadow rounded-lg overflow-hidden bg-card dark:bg-gray-800 border border-border dark:border-gray-600" 
                 onClick={() => setActivePresentation(presentation)}
               >
-                <div className="aspect-video overflow-hidden"> {/* h-32 remplacé par aspect-video pour un ratio responsive */}
+                <div className="aspect-video overflow-hidden"> 
                   <OptimizedImage 
                     src={presentation.image} 
                     alt={presentation.title[language]} 
                     className="w-full h-full object-cover"
-                    width={400} // Ces valeurs sont pour l'optimisation, le CSS gère l'affichage
-                    height={225} // (16:9 ratio pour 400px de large)
+                    width={400} 
+                    height={225} 
                   />
                 </div>
-                <div className="p-3"> {/* p-2 à p-3 */}
-                  <h3 className="font-bold mb-1 text-base"> {/* text-sm à text-base */}
+                <div className="p-3 bg-white dark:bg-gray-800"> 
+                  <h3 className="font-bold mb-1 text-base text-gray-900 dark:text-gray-100"> 
                     {presentation.title[language]}
                   </h3>
-                  <p className="text-muted-foreground text-sm mb-2 line-clamp-3 leading-snug"> {/* text-xs à text-sm, line-clamp-2 à line-clamp-3, ajout de leading-snug */}
+                  <p className="text-gray-700 dark:text-gray-300 text-sm mb-2 line-clamp-3 leading-snug"> 
                     {presentation.introduction[language]}
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-muted-foreground"> {/* text-xs à text-sm */}
+                    <span className="text-sm text-gray-600 dark:text-gray-400"> 
                       {presentation.scripture.reference}
                     </span>
                     <button 
-                      className="text-primary-dark hover:text-primary font-medium text-xs inline-flex items-center" // text-[10px] à text-xs
+                      className="text-primary-dark hover:text-primary font-medium text-xs inline-flex items-center" 
                       onClick={(e) => {
                         e.stopPropagation();
                         setActivePresentation(presentation);
                       }}
                     >
-                      {t('iu.proximo')} <ChevronRight size={14} className="ml-0.5" /> {/* size 12 à 14 */}
+                      {t('common.next')} <ChevronRight size={14} className="ml-0.5" /> 
                     </button>
                   </div>
                 </div>
@@ -62,21 +62,21 @@ const PreachingPage: React.FC = () => {
             ))}
           </div>
         ) : (
-          <div className="bg-card rounded-lg shadow-lg overflow-hidden max-w-4xl mx-auto"> {/* shadow-md à shadow-lg */}
-            <div className="relative aspect-video sm:aspect-[2/1] overflow-hidden"> {/* h-32 remplacé par aspect-video sm:aspect-[2/1] */}
+          <div className="bg-card rounded-lg shadow-lg overflow-hidden max-w-4xl mx-auto"> 
+            <div className="relative aspect-video sm:aspect-[2/1] overflow-hidden"> 
               <OptimizedImage 
                 src={activePresentation.image} 
                 alt={activePresentation.title[language]} 
                 className="w-full h-full object-cover"
-                width={800} // Pour optimisation
-                height={450} // (16:9 ratio pour 800px de large)
+                width={800} 
+                height={450} 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-                <div className="p-3 sm:p-4 text-white"> {/* p-2 à p-3 sm:p-4 */}
-                  <h2 className="text-lg sm:text-xl font-bold mb-0.5"> {/* text-base à text-lg sm:text-xl */}
+                <div className="p-3 sm:p-4 text-white"> 
+                  <h2 className="text-lg sm:text-xl font-bold mb-1"> 
                     {activePresentation.title[language]}
                   </h2>
-                  <p className="text-white/80 text-sm"> {/* text-xs à text-sm */}
+                  <p className="text-white/80 text-sm"> 
                     {activePresentation.scripture.reference}
                   </p>
                 </div>
@@ -85,62 +85,62 @@ const PreachingPage: React.FC = () => {
                         <div className="p-4">
               <div className="mb-3">
                 <h3 className="font-bold mb-1 text-primary-dark text-base">
-                  {t('predicacao.introducao')}
+                  {t('preaching.introduction')}
                 </h3>
                 <p className="text-card-foreground text-sm">
                   {activePresentation.introduction[language]}
                 </p>
               </div>
               
-              <div className="mb-3 bg-muted p-3 rounded border-l-4 border-primary text-sm"> {/* border-l-2 à border-l-4 */}
-                <h3 className="font-bold mb-1 text-primary-dark text-base"> {/* Ajout de text-base */}
-                  {t('predicacao.textoBiblico')}
+              <div className="mb-3 bg-muted p-3 rounded border-l-4 border-primary text-sm"> 
+                <h3 className="font-bold mb-1 text-primary-dark text-base"> 
+                  {t('preaching.scripture')}
                 </h3>
                 <p className="text-card-foreground italic">
                   <span className="font-semibold">{activePresentation.scripture.reference}:</span> {activePresentation.scripture.text[language]}
                 </p>
               </div>
               
-              <div className="mb-4">
-                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
-                  {t('predicacao.pergunta')}
+              <div className="mb-2">
+                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> 
+                  {t('preaching.question')}
                 </h3>
-                <p className="text-card-foreground text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
+                <p className="text-card-foreground text-sm sm:text-base"> 
                   {activePresentation.question[language]}
                 </p>
               </div>
               
-              <div className="mb-4">
-                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
-                  {t('predicacao.explicacao')}
+              <div className="mb-2">
+                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> 
+                  {t('preaching.explanation')}
                 </h3>
-                <p className="text-card-foreground text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
+                <p className="text-card-foreground text-sm sm:text-base"> 
                   {activePresentation.explanation[language]}
                 </p>
               </div>
               
-              <div className="mb-4">
-                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> {/* text-lg à text-base sm:text-lg, mb-2 à mb-1.5 */}
-                  {t('predicacao.conclusao')}
+              <div className="mb-2">
+                <h3 className="text-base sm:text-lg font-bold mb-1.5 text-primary-dark"> 
+                  {t('preaching.conclusion')}
                 </h3>
-                <p className="text-card-foreground text-sm sm:text-base"> {/* text-base à text-sm sm:text-base */}
+                <p className="text-card-foreground text-sm sm:text-base"> 
                   {activePresentation.conclusion[language]}
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row justify-between items-center mt-6 gap-2"> {/* mt-4 à mt-6, ajout de flex-col sm:flex-row gap-2 */}
+              <div className="flex flex-col sm:flex-row justify-between items-center mt-6 gap-2"> 
                 <button
-                  className="btn btn-outline flex items-center text-sm py-1.5 px-3 w-full sm:w-auto justify-center" // text-xs à text-sm, py-1 px-2 à py-1.5 px-3, ajout de w-full sm:w-auto justify-center
+                  className="btn btn-outline flex items-center text-sm py-2 px-3 w-full sm:w-auto justify-center" 
                   onClick={() => setActivePresentation(null)}
                 >
-                  <ChevronLeft size={16} className="mr-1" /> {t('iu.anterior')} {/* size 12 à 16, mr-0.5 à mr-1 */}
+                  <ChevronLeft size={16} className="mr-1" /> {t('common.back')} 
                 </button>
                 
                 <button
-                  className="btn btn-primary flex items-center text-sm py-1.5 px-3 w-full sm:w-auto justify-center" // text-xs à text-sm, py-1 px-2 à py-1.5 px-3, ajout de w-full sm:w-auto justify-center
+                  className="btn btn-primary flex items-center text-sm py-2 px-3 w-full sm:w-auto justify-center" 
                   onClick={() => setShowPracticeModal(true)}
                 >
-                  <BookOpen size={16} className="mr-1" /> {t('predicacao.botaoPraticar')} {/* Modifié pour utiliser la clé de traduction */}
+                  <BookOpen size={16} className="mr-1" /> {t('preaching.practice')} 
                 </button>
               </div>
             </div>
@@ -153,57 +153,57 @@ const PreachingPage: React.FC = () => {
             <div className="bg-card rounded w-full max-w-2xl max-h-[90vh] overflow-y-auto">
               <div className="p-3">
                 <h2 className="text-lg font-bold mb-2">
-                  {t('predicacao.botaoPraticar')}: {activePresentation.title[language]}
+                  {t('preaching.practice')}: {activePresentation.title[language]}
                 </h2>
                 
-                <div className="mb-4">
+                <div className="mb-2">
                   <h3 className="text-base font-bold mb-1 text-card-foreground">
-                    {t('predicacao.dicasPratica')}
+                    {t('preaching.practiceTips')}
                   </h3>
-                  <ul className="list-disc pl-4 space-y-1 text-sm text-muted-foreground">
+                  <ul className="list-disc pl-4 space-y-1 text-sm text-muted-foreground dark:text-gray-300">
                     <li>
-                      {t('predicacao.praticaIntroducao')}
+                      Pratique a introdução com naturalidade
                     </li>
                     <li>
-                      {t('predicacao.praticaMemorizar')}
+                      Memorize o texto bíblico e sua referência
                     </li>
                     <li>
-                      {t('predicacao.praticaPergunta')}
+                      Faça a pergunta de forma envolvente
                     </li>
                     <li>
-                      {t('predicacao.praticaExplicacao')}
+                      Explique com clareza e simplicidade
                     </li>
                   </ul>
                 </div>
                 
-                <div className="bg-muted p-2 rounded mb-4 text-sm">
+                <div className="bg-muted p-2 rounded mb-2 text-sm">
                   <h3 className="text-base font-bold mb-1 text-card-foreground">
-                    {t('predicacao.exemploDialogo')}
+                    {t('preaching.dialogue')}
                   </h3>
                   <div className="space-y-2">
                     <p>
                       <span className="font-bold text-primary-dark">
-                        {t('predicacao.voce')}
+                        {t('preaching.you')}
                       </span> {activePresentation.introduction[language]}
                     </p>
                     <p>
                       <span className="font-bold text-secondary-dark">
-                        {t('predicacao.morador')}
-                      </span> {t('predicacao.olaPossoAjudar')}
+                        {t('preaching.resident')}
+                      </span> {t('preaching.hello')}
                     </p>
                     <p>
                       <span className="font-bold text-primary-dark">
-                        {t('predicacao.voce')}
+                        {t('preaching.you')}
                       </span> {activePresentation.question[language]}
                     </p>
                     <p>
                       <span className="font-bold text-secondary-dark">
-                        {t('predicacao.morador')}
-                      </span> {t('predicacao.nuncaPensei')}
+                        {t('preaching.resident')}
+                      </span> {t('preaching.bibleAnswer')}
                     </p>
                     <p>
                       <span className="font-bold text-primary-dark">
-                        {t('predicacao.voce')}
+                        {t('preaching.you')}
                       </span> {activePresentation.explanation[language]}
                     </p>
                   </div>
@@ -214,7 +214,7 @@ const PreachingPage: React.FC = () => {
                     className="btn btn-outline text-xs py-1 px-2"
                     onClick={() => setShowPracticeModal(false)}
                   >
-                    {t('iu.fechar')}
+                    {t('common.close')}
                   </button>
                   <button
                     className="btn btn-primary text-xs py-1 px-2"
@@ -223,7 +223,7 @@ const PreachingPage: React.FC = () => {
                       // Ici, vous pourriez ajouter une logique pour démarrer un enregistrement ou un minuteur
                     }}
                   >
-                    {t('predicacao.iniciarPratica')}
+                    {t('preaching.startPractice')}
                   </button>
                 </div>
               </div>

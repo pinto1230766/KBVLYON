@@ -44,12 +44,12 @@ interface InterestedContact {
 
 // Configuration des onglets
 const getTabs = (t: (key: string) => string) => [
-  { id: 'general' as const, label: t('notas.tabs.general'), icon: FileText },
-  { id: 'students' as const, label: t('notas.tabs.students'), icon: Users },
-  { id: 'interessed' as const, label: t('notas.tabs.interessed'), icon: UserPlus },
-  { id: 'calendar' as const, label: t('notas.tabs.calendar'), icon: Calendar },
-  { id: 'timer' as const, label: t('notas.tabs.timer'), icon: Clock },
-  { id: 'stats' as const, label: t('notas.tabs.stats'), icon: BarChart2 }
+  { id: 'general' as const, label: t('notes.tabs.general'), icon: FileText },
+  { id: 'students' as const, label: t('notes.tabs.students'), icon: Users },
+  { id: 'interessed' as const, label: t('notes.tabs.interessed'), icon: UserPlus },
+  { id: 'calendar' as const, label: t('notes.tabs.calendar'), icon: Calendar },
+  { id: 'timer' as const, label: t('notes.tabs.timer'), icon: Clock },
+  { id: 'stats' as const, label: t('notes.tabs.stats'), icon: BarChart2 }
 ];
 
 const NotesPage: React.FC = () => {
@@ -118,7 +118,7 @@ const NotesPage: React.FC = () => {
     const isCurrentMonth = currentMonth.getMonth() === today.getMonth() && currentMonth.getFullYear() === today.getFullYear();
 
     return (
-      <div className="space-y-6">
+      <div className="space-y-2">
         <div className="flex justify-between items-center">
           <button 
             onClick={() => setCurrentMonth(prev => new Date(prev.getFullYear(), prev.getMonth() - 1, 1))}
@@ -179,11 +179,11 @@ const NotesPage: React.FC = () => {
           })}
         </div>
 
-        <div className="grid gap-6 md:grid-cols-[1.5fr_1fr]">
+        <div className="grid gap-2 md:grid-cols-[1.5fr_1fr]">
           <div className="space-y-3">
-            <h3 className="font-semibold text-sm text-foreground">{t('notas.eventosDoMes')}</h3>
+            <h3 className="font-semibold text-sm text-foreground">{t('notes.eventosDoMes')}</h3>
             {events.length === 0 ? (
-              <p className="text-sm text-muted-foreground">{t('notas.nenhumEvento')}</p>
+              <p className="text-sm text-muted-foreground">{t('notes.nenhumEvento')}</p>
             ) : (
               <div className="space-y-2">
                 {events.map((event) => (
@@ -193,7 +193,7 @@ const NotesPage: React.FC = () => {
                         {new Date(event.date).toLocaleDateString('pt-PT', { day: '2-digit', month: 'short', year: 'numeric' })}
                       </span>
                       <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${event.type === 'predication' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300' : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300'}`}>
-                        {event.type === 'predication' ? t('notas.formulario.predicacao') : t('notas.formulario.etude')}
+                        {event.type === 'predication' ? t('notes.formulario.predicacao') : t('notes.formulario.etude')}
                       </span>
                     </div>
                     {event.notes && <p className="text-xs text-muted-foreground">{event.notes}</p>}
@@ -201,7 +201,7 @@ const NotesPage: React.FC = () => {
                       onClick={() => handleDeleteEvent(event.id)}
                       className="inline-flex w-fit items-center gap-1 self-end rounded-md border border-border px-2 py-1 text-xs font-medium text-red-500 transition hover:bg-red-50"
                     >
-                      <Trash2 className="h-3.5 w-3.5" /> {t('notas.botoes.suprimir')}
+                      <Trash2 className="h-3.5 w-3.5" /> {t('notes.botoes.suprimir')}
                     </button>
                   </div>
                 ))}
@@ -210,40 +210,40 @@ const NotesPage: React.FC = () => {
           </div>
 
           <form onSubmit={(e) => { e.preventDefault(); handleAddEvent(); }} className="space-y-3 rounded-lg border border-border bg-card/40 p-4 text-sm">
-            <h3 className="font-semibold text-foreground">{t('notas.adicionarEvento')}</h3>
+            <h3 className="font-semibold text-foreground">{t('notes.adicionarEvento')}</h3>
             <div className="space-y-1">
-              <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.dataSelecionada')}</label>
+              <label className="text-xs font-medium text-muted-foreground dark:text-gray-200">{t('notes.formulario.dataSelecionada')}</label>
               <input
                 type="text"
-                value={selectedDate ? selectedDate.toLocaleDateString('pt-PT') : t('notas.selecionarData')}
+                value={selectedDate ? selectedDate.toLocaleDateString('pt-PT') : t('notes.selecionarData')}
                 readOnly
                 className="w-full cursor-not-allowed rounded-md border border-border bg-muted px-3 py-2 text-sm"
               />
             </div>
             <div className="space-y-1">
-              <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.tipoEvento')}</label>
+              <label className="text-xs font-medium text-muted-foreground dark:text-gray-200">{t('notes.formulario.tipoEvento')}</label>
               <select
                 value={eventForm.type}
                 onChange={(e) => setEventForm(prev => ({ ...prev, type: e.target.value as CalendarEvent['type'] }))}
                 className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                <option value="predication">{t('notas.formulario.predicacao')}</option>
-                <option value="etude">{t('notas.formulario.etude')}</option>
+                <option value="predication">{t('notes.formulario.predicacao')}</option>
+                <option value="etude">{t('notes.formulario.etude')}</option>
               </select>
             </div>
             <div className="space-y-1">
-              <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.notas')}</label>
+              <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.notas')}</label>
               <textarea
                 value={eventForm.notes}
                 onChange={(e) => setEventForm(prev => ({ ...prev, notes: e.target.value }))}
-                placeholder={t('notas.formulario.detalhesParticipantes')}
-                rows={3}
+                placeholder={t('notes.formulario.notasPlaceholder')}
                 className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                rows={3}
               />
             </div>
             <button type="submit" className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-blue-700">
               <Plus className="h-4 w-4" />
-              {t('notas.botoes.adicionar')}
+              {t('notes.botoes.adicionar')}
             </button>
           </form>
         </div>
@@ -258,7 +258,7 @@ const NotesPage: React.FC = () => {
 
   const handleAddEvent = () => {
     if (!selectedDate) {
-      setToast({ message: t('notas.selecionarData'), type: 'error' });
+      setToast({ message: t('notes.selecionarData'), type: 'error' });
       return;
     }
 
@@ -271,18 +271,18 @@ const NotesPage: React.FC = () => {
 
     setEvents(prev => [...prev, newEvent]);
     setEventForm({ type: 'predication', notes: '' });
-    setToast({ message: t('notas.eventoAdicionado'), type: 'success' });
+    setToast({ message: t('notes.eventoAdicionado'), type: 'success' });
   };
 
   const handleDeleteEvent = (id: string) => {
     setEvents(prev => prev.filter(event => event.id !== id));
-    setToast({ message: t('notas.eventoRemovido'), type: 'success' });
+    setToast({ message: t('notes.eventoRemovido'), type: 'success' });
   };
 
   const handleStudentSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!studentForm.name.trim()) {
-      setToast({ message: t('notas.nomeObrigatorio'), type: 'error' });
+      setToast({ message: t('notes.nomeObrigatorio'), type: 'error' });
       return;
     }
 
@@ -294,18 +294,18 @@ const NotesPage: React.FC = () => {
 
     setStudents(prev => [newStudent, ...prev]);
     setStudentForm({ id: '', name: '', phone: '', progress: '', lastVisit: '' });
-    setToast({ message: t('notas.estudanteAdicionado'), type: 'success' });
+    setToast({ message: t('notes.estudanteAdicionado'), type: 'success' });
   };
 
   const handleDeleteStudent = (id: string) => {
     setStudents(prev => prev.filter(student => student.id !== id));
-    setToast({ message: t('notas.estudanteRemovido'), type: 'success' });
+    setToast({ message: t('notes.estudanteRemovido'), type: 'success' });
   };
 
   const handleInterestedSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!interestedForm.name.trim()) {
-      setToast({ message: t('notas.nomeObrigatorio'), type: 'error' });
+      setToast({ message: t('notes.nomeObrigatorio'), type: 'error' });
       return;
     }
 
@@ -317,12 +317,12 @@ const NotesPage: React.FC = () => {
 
     setInterested(prev => [newInterested, ...prev]);
     setInterestedForm({ id: '', name: '', address: '', notes: '', followUpDate: '' });
-    setToast({ message: t('notas.pessoaInteressadaAdicionada'), type: 'success' });
+    setToast({ message: t('notes.pessoaInteressadaAdicionada'), type: 'success' });
   };
 
   const handleDeleteInterested = (id: string) => {
     setInterested(prev => prev.filter(contact => contact.id !== id));
-    setToast({ message: t('notas.pessoaRemovida'), type: 'success' });
+    setToast({ message: t('notes.pessoaRemovida'), type: 'success' });
   };
 
   // Fonction pour obtenir les événements d'un jour
@@ -411,33 +411,33 @@ const NotesPage: React.FC = () => {
     
     return (
       <div className="p-4">
-        <h2 className="text-xl font-semibold mb-4">{t('notas.estatisticas.titulo')}</h2>
+        <h2 className="text-xl font-semibold mb-4">{t('notes.estatisticas.titulo')}</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-2">
           <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">{t('notas.estatisticas.tempoTotal')}</h3>
+            <h3 className="text-gray-500 text-sm">{t('notes.estatisticas.tempoTotal')}</h3>
             <p className="text-2xl font-bold">{formatTime(stats.total)}</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">{t('notas.estatisticas.sessoes')}</h3>
+            <h3 className="text-gray-500 text-sm">{t('notes.estatisticas.sessoes')}</h3>
             <p className="text-2xl font-bold">{history.length}</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">{t('notas.estatisticas.mediaPorSessao')}</h3>
+            <h3 className="text-gray-500 text-sm">{t('notes.estatisticas.mediaPorSessao')}</h3>
             <p className="text-2xl font-bold">{formatTime(stats.avg)}</p>
           </div>
         </div>
         
         <div className="bg-white p-4 rounded-lg shadow">
-          <h3 className="text-lg font-medium mb-4">{t('notas.estatisticas.historicoRecente')}</h3>
+          <h3 className="text-lg font-medium mb-4">{t('notes.estatisticas.historicoRecente')}</h3>
           {history.length > 0 ? (
             <div className="overflow-x-auto">
               <table className="min-w-full">
                 <thead>
                   <tr className="border-b">
-                    <th className="text-left py-2">{t('notas.estatisticas.data')}</th>
-                    <th className="text-right py-2">{t('notas.estatisticas.duracao')}</th>
-                    <th className="text-left py-2">{t('notas.estatisticas.notas')}</th>
+                    <th className="text-left py-2">{t('notes.estatisticas.data')}</th>
+                    <th className="text-right py-2">{t('notes.estatisticas.duracao')}</th>
+                    <th className="text-left py-2">{t('notes.estatisticas.notas')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -452,7 +452,7 @@ const NotesPage: React.FC = () => {
               </table>
             </div>
           ) : (
-            <p className="text-gray-500">{t('notas.estatisticas.nenhumaDados')}</p>
+            <p className="text-gray-500">{t('notes.estatisticas.nenhumaDados')}</p>
           )}
         </div>
       </div>
@@ -471,7 +471,7 @@ const NotesPage: React.FC = () => {
             <textarea
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              placeholder={t('notas.placeholder.notasGerais')}
+              placeholder={t('notes.placeholder.notasGerais')}
               className="w-full min-h-[200px] rounded-lg border border-gray-200 dark:border-gray-700 bg-transparent p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-gray-500 dark:text-gray-400">
@@ -480,17 +480,17 @@ const NotesPage: React.FC = () => {
                 <button
                   onClick={() => {
                     setNotes('');
-                    setToast({ message: t('notas.notasReiniciadas'), type: 'success' });
+                    setToast({ message: t('notes.notasReiniciadas'), type: 'success' });
                   }}
                   className="rounded-md border border-gray-300 px-3 py-1.5 text-gray-600 transition hover:bg-gray-100 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-700"
                 >
-                  {t('notas.botoes.limpar')}
+                  {t('notes.botoes.limpar')}
                 </button>
                 <button
-                  onClick={() => setToast({ message: t('notas.notasSalvas'), type: 'success' })}
+                  onClick={() => setToast({ message: t('notes.notasSalvas'), type: 'success' })}
                   className="rounded-md bg-blue-600 px-3 py-1.5 font-medium text-white transition hover:bg-blue-700"
                 >
-                  {t('notas.botoes.guardar')}
+                  {t('notes.botoes.guardar')}
                 </button>
               </div>
             </div>
@@ -498,10 +498,10 @@ const NotesPage: React.FC = () => {
         );
       case 'students':
         return (
-          <div className="space-y-6">
+          <div className="space-y-2">
             <form onSubmit={handleStudentSubmit} className="grid gap-3 rounded-lg border border-border bg-card/40 p-4 md:grid-cols-2">
               <div className="md:col-span-2">
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.nomeEstudante')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.nomeEstudante')}</label>
                 <input
                   value={studentForm.name}
                   onChange={(e) => setStudentForm(prev => ({ ...prev, name: e.target.value }))}
@@ -510,7 +510,7 @@ const NotesPage: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.telefone')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.telefone')}</label>
                 <input
                   value={studentForm.phone}
                   onChange={(e) => setStudentForm(prev => ({ ...prev, phone: e.target.value }))}
@@ -519,7 +519,7 @@ const NotesPage: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.progressoObservacoes')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.progressoObservacoes')}</label>
                 <input
                   value={studentForm.progress}
                   onChange={(e) => setStudentForm(prev => ({ ...prev, progress: e.target.value }))}
@@ -528,7 +528,7 @@ const NotesPage: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.ultimaVisita')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.ultimaVisita')}</label>
                 <input
                   type="date"
                   value={studentForm.lastVisit}
@@ -539,30 +539,30 @@ const NotesPage: React.FC = () => {
               <div className="md:col-span-2 flex justify-end">
                 <button type="submit" className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-blue-700">
                   <Plus className="h-4 w-4" />
-                  {t('notas.botoes.adicionar')}
+                  {t('notes.botoes.adicionar')}
                 </button>
               </div>
             </form>
 
             <div className="space-y-3">
               {students.length === 0 ? (
-                <p className="text-sm text-muted-foreground">{t('notas.mensagens.adicionarEstudantes')}</p>
+                <p className="text-sm text-muted-foreground">{t('notes.mensagens.adicionarEstudantes')}</p>
               ) : (
                 students.map((student) => (
                   <div key={student.id} className="flex flex-col gap-2 rounded-lg border border-border bg-card/60 p-4 text-sm md:flex-row md:items-center md:justify-between">
                     <div>
                       <p className="font-medium text-foreground">{student.name}</p>
-                      <p className="text-muted-foreground">{student.progress || t('notas.mensagens.nenhumProgresso')}</p>
+                      <p className="text-muted-foreground">{student.progress || t('notes.mensagens.nenhumProgresso')}</p>
                       <p className="text-muted-foreground text-xs mt-1">
                         {student.phone && <>📞 {student.phone} · </>}
-                        {t('notas.mensagens.ultimaVisita')} {student.lastVisit || '—'}
+                        {t('notes.mensagens.ultimaVisita')} {student.lastVisit || '—'}
                       </p>
                     </div>
                     <button
                       onClick={() => handleDeleteStudent(student.id)}
                       className="inline-flex items-center gap-1 self-start rounded-md border border-border px-2 py-1 text-xs font-medium text-red-500 transition hover:bg-red-50"
                     >
-                      <Trash2 className="h-3.5 w-3.5" /> {t('notas.botoes.suprimir')}
+                      <Trash2 className="h-3.5 w-3.5" /> {t('notes.botoes.suprimir')}
                     </button>
                   </div>
                 ))
@@ -572,10 +572,10 @@ const NotesPage: React.FC = () => {
         );
       case 'interessed':
         return (
-          <div className="space-y-6">
+          <div className="space-y-2">
             <form onSubmit={handleInterestedSubmit} className="grid gap-3 rounded-lg border border-border bg-card/40 p-4 md:grid-cols-2">
               <div className="md:col-span-2">
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.nomePessoa')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.nomePessoa')}</label>
                 <input
                   value={interestedForm.name}
                   onChange={(e) => setInterestedForm(prev => ({ ...prev, name: e.target.value }))}
@@ -584,7 +584,7 @@ const NotesPage: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.enderecoZona')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.enderecoZona')}</label>
                 <input
                   value={interestedForm.address}
                   onChange={(e) => setInterestedForm(prev => ({ ...prev, address: e.target.value }))}
@@ -593,7 +593,7 @@ const NotesPage: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.dataRelancamento')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.dataRelancamento')}</label>
                 <input
                   type="date"
                   value={interestedForm.followUpDate}
@@ -602,11 +602,11 @@ const NotesPage: React.FC = () => {
                 />
               </div>
               <div className="md:col-span-2">
-                <label className="text-xs font-medium text-muted-foreground">{t('notas.formulario.notas')}</label>
+                <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.notas')}</label>
                 <textarea
                   value={interestedForm.notes}
                   onChange={(e) => setInterestedForm(prev => ({ ...prev, notes: e.target.value }))}
-                  placeholder={t('notas.formulario.impressoes')}
+                  placeholder={t('notes.formulario.impressoes')}
                   className="mt-1 w-full rounded-md border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                   rows={3}
                 />
@@ -614,22 +614,22 @@ const NotesPage: React.FC = () => {
               <div className="md:col-span-2 flex justify-end">
                 <button type="submit" className="inline-flex items-center gap-2 rounded-md bg-green-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-green-700">
                   <Plus className="h-4 w-4" />
-                  {t('notas.botoes.adicionar')}
+                  {t('notes.botoes.adicionar')}
                 </button>
               </div>
             </form>
 
             <div className="space-y-3">
               {interested.length === 0 ? (
-                <p className="text-sm text-muted-foreground">{t('notas.mensagens.adicionarPessoasInteressadas')}</p>
+                <p className="text-sm text-muted-foreground">{t('notes.mensagens.adicionarPessoasInteressadas')}</p>
               ) : (
                 interested.map((contact) => (
                   <div key={contact.id} className="flex flex-col gap-2 rounded-lg border border-border bg-card/60 p-4 text-sm md:flex-row md:items-center md:justify-between">
                     <div>
                       <p className="font-medium text-foreground">{contact.name}</p>
-                      <p className="text-muted-foreground">{contact.address || t('notas.mensagens.enderecoNaoInformado')}</p>
+                      <p className="text-muted-foreground">{contact.address || t('notes.mensagens.enderecoNaoInformado')}</p>
                       <p className="text-muted-foreground text-xs mt-1">
-                        {t('notas.mensagens.proximaVisita')} {contact.followUpDate || '—'}
+                        {t('notes.mensagens.proximaVisita')} {contact.followUpDate || '—'}
                       </p>
                       {contact.notes && (
                         <p className="mt-2 text-xs text-muted-foreground/80">{contact.notes}</p>
@@ -639,7 +639,7 @@ const NotesPage: React.FC = () => {
                       onClick={() => handleDeleteInterested(contact.id)}
                       className="inline-flex items-center gap-1 self-start rounded-md border border-border px-2 py-1 text-xs font-medium text-red-500 transition hover:bg-red-50"
                     >
-                      <Trash2 className="h-3.5 w-3.5" /> {t('notas.botoes.suprimir')}
+                      <Trash2 className="h-3.5 w-3.5" /> {t('notes.botoes.suprimir')}
                     </button>
                   </div>
                 ))
@@ -652,42 +652,42 @@ const NotesPage: React.FC = () => {
       case 'timer':
         return (
           <div className="p-4">
-            <h2 className="text-xl font-semibold mb-4">{t('notas.cronometro.titulo')}</h2>
+            <h2 className="text-xl font-semibold mb-4">{t('notes.cronometro.titulo')}</h2>
             <div className="text-center">
-              <div className="text-5xl font-mono mb-8">
+              <div className="text-5xl font-mono mb-2">
                 {formatTime(timer.time)}
               </div>
-              <div className="flex justify-center gap-4 mb-8">
+              <div className="flex justify-center gap-4 mb-2">
                 <button
                   onClick={toggleTimer}
-                  className={`px-6 py-2 rounded-lg ${
+                  className={`px-3 py-2 rounded-lg ${
                     timer.isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-green-500 hover:bg-green-600'
                   } text-white`}
                 >
-                  {timer.isRunning ? t('notas.cronometro.parar') : t('notas.cronometro.arrancar')}
+                  {timer.isRunning ? t('notes.cronometro.parar') : t('notes.cronometro.arrancar')}
                 </button>
                 <button
                   onClick={resetTimer}
-                  className="px-6 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-lg"
+                  className="px-3 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-lg"
                 >
-                  {t('notas.cronometro.reinicializar')}
+                  {t('notes.cronometro.reinicializar')}
                 </button>
                 <button
                   onClick={addLap}
                   disabled={!timer.isRunning}
-                  className="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg disabled:opacity-50"
+                  className="px-3 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg disabled:opacity-50"
                 >
-                  {t('notas.cronometro.tour')}
+                  {t('notes.cronometro.tour')}
                 </button>
               </div>
               
               {laps.length > 0 && (
-                <div className="mt-8">
-                  <h3 className="text-lg font-medium mb-2">{t('notas.cronometro.tours')}</h3>
+                <div className="mt-2">
+                  <h3 className="text-lg font-medium mb-2">{t('notes.cronometro.tours')}</h3>
                   <div className="max-h-48 overflow-y-auto border rounded">
                     {laps.map((lap, index) => (
                       <div key={index} className="p-2 border-b flex justify-between">
-                        <span>{t('notas.cronometro.tour')} {index + 1}</span>
+                        <span>{t('notes.cronometro.tour')} {index + 1}</span>
                         <span>{formatTime(lap)}</span>
                       </div>
                     ))}
@@ -713,11 +713,11 @@ const NotesPage: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4 max-w-6xl">
-      <h1 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
-        {t('notas.titulo')}
+      <h1 className="text-2xl font-bold mb-2 text-gray-800 dark:text-white">
+        {t('notes.titulo')}
       </h1>
       
-      <div className="mb-6">
+      <div className="mb-2">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
           {tabs.map((tab) => (
             <button

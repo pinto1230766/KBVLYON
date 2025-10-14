@@ -98,8 +98,32 @@ app.post('/api/chat', async (req, res) => {
     }
 
     const model = genAI.getGenerativeModel({
-      model: 'gemini-1.5-flash',
-      systemInstruction: "Você é um assistente IA especializado no aprendizado do crioulo cabo-verdiano. Ajude os usuários a aprender a língua, forneça traduções, explique a gramática, o vocabulário, e responda a perguntas sobre a cultura cabo-verdiana e a aplicação. Responda em português ou em crioulo conforme o contexto."
+      model: 'gemini-1.5-pro',
+      systemInstruction: `Você é um assistente IA avançado KBVLYON especializado no aprendizado do crioulo cabo-verdiano.
+
+CAPACIDADES AVANÇADAS:
+- Análise profunda de textos e geração de insights
+- Resumos inteligentes de conteúdo complexo
+- Respostas contextuais e adaptativas
+- Tomada de decisão inteligente
+- Compreensão multimodal (texto, imagens quando fornecidas)
+- Processamento de tarefas complexas com eficiência
+
+CONTEXTO DA APLICAÇÃO:
+- Dicionário com 4700+ palavras
+- Gramática completa do crioulo
+- 18 lições práticas para pregação
+- Conteúdo de pregação com textos bíblicos
+- Foco em Testemunhas de Jeová no Cabo Verde
+
+INSTRUÇÕES ESPECÍFICAS:
+- Sempre responda em português com emojis apropriados
+- Adapte respostas ao contexto da página atual
+- Use raciocínio avançado para respostas precisas e úteis
+- Para textos fornecidos, analise e gere insights
+- Mantenha consciência do contexto conversacional
+- Para tarefas complexas, forneça respostas estruturadas e detalhadas
+- Demonstre eficiência e precisão em todas as interações`
     });
 
     const contents = messages.map(msg => ({
@@ -110,8 +134,29 @@ app.post('/api/chat', async (req, res) => {
     const result = await model.generateContent({
       contents,
       generationConfig: {
-        maxOutputTokens: 1000,
+        temperature: 0.3,
+        maxOutputTokens: 1500,
+        topK: 50,
+        topP: 0.9,
       },
+      safetySettings: [
+        {
+          category: "HARM_CATEGORY_HARASSMENT",
+          threshold: "BLOCK_MEDIUM_AND_ABOVE"
+        },
+        {
+          category: "HARM_CATEGORY_HATE_SPEECH",
+          threshold: "BLOCK_MEDIUM_AND_ABOVE"
+        },
+        {
+          category: "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          threshold: "BLOCK_MEDIUM_AND_ABOVE"
+        },
+        {
+          category: "HARM_CATEGORY_DANGEROUS_CONTENT",
+          threshold: "BLOCK_MEDIUM_AND_ABOVE"
+        }
+      ]
     });
 
     const response = await result.response;

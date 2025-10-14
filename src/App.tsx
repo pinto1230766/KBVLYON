@@ -37,6 +37,7 @@ const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage'));
 const NotesPage = lazy(() => import('./pages/NotesPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const SettingsPage = lazy(() => import('./pages/SettingsPage'));
+const ScoresPage = lazy(() => import('./pages/ScoresPage'));
 
 function AppLayout() {
   return (
@@ -75,7 +76,7 @@ function App() {
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <LanguageProvider>
         <LanguageSetter />
-        <Router>
+        <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           <Suspense fallback={<LoadingSkeleton />}>
             <Routes>
               <Route path="/" element={<AppLayout />}>
@@ -90,6 +91,7 @@ function App() {
                 <Route path="terms-of-service" element={<TermsOfServicePage />} />
                 <Route path="cookie-policy" element={<CookiePolicyPage />} />
                 <Route path="notes" element={<NotesPage />} />
+                <Route path="scores" element={<ScoresPage />} />
                 <Route path="settings" element={<SettingsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>

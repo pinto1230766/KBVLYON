@@ -49,6 +49,87 @@
     @apply leading-relaxed text-foreground/90;
   }
   
+  /* Amélioration lisibilité mode sombre */
+  .dark .text-muted-foreground {
+    @apply text-gray-300 !important;
+  }
+  
+  .dark .bg-card {
+    @apply bg-gray-800/90 !important;
+  }
+  
+  .dark .bg-card\/40 {
+    @apply bg-gray-700/60 !important;
+  }
+  
+  .dark .bg-card\/60 {
+    @apply bg-gray-700/80 !important;
+  }
+  
+  .dark .bg-card\/80 {
+    @apply bg-gray-700/90 !important;
+  }
+  
+  .dark .border-border {
+    @apply border-gray-600 !important;
+  }
+  
+  .dark .text-foreground {
+    @apply text-gray-100 !important;
+  }
+  
+  .dark .bg-muted {
+    @apply bg-gray-700 !important;
+  }
+  
+  .dark .bg-muted\/30 {
+    @apply bg-gray-700/50 !important;
+  }
+  
+  /* Amélioration des formulaires en mode sombre */
+  .dark input,
+  .dark textarea,
+  .dark select {
+    @apply bg-gray-800 border-gray-600 text-gray-100 placeholder-gray-400 !important;
+  }
+  
+  .dark input:focus,
+  .dark textarea:focus,
+  .dark select:focus {
+    @apply border-primary/50 ring-primary/20 !important;
+  }
+  
+  /* Amélioration des boutons en mode sombre */
+  .dark button {
+    @apply text-gray-100 !important;
+  }
+  
+  .dark .bg-primary {
+    @apply bg-blue-600 hover:bg-blue-700 !important;
+  }
+  
+  /* Amélioration des labels en mode sombre */
+  .dark label {
+    @apply text-gray-200 !important;
+  }
+  
+  /* Amélioration des cartes en mode sombre */
+  .dark .card {
+    @apply bg-gray-800 border-gray-600 !important;
+  }
+  
+  .dark .card h3 {
+    @apply text-gray-100 !important;
+  }
+  
+  .dark .card p {
+    @apply text-gray-300 !important;
+  }
+  
+  .dark .card span {
+    @apply text-gray-400 !important;
+  }
+  
   a {
     @apply text-primary hover:text-primary/80 transition-colors duration-200;
   }
@@ -216,14 +297,40 @@
   * {
     @apply border-border;
   }
+
+  html {
+    height: 100dvh; /* Utilisation de 100dvh pour hauteur dynamique */
+    min-height: 100dvh;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    /* Assurer que le contenu n'est pas caché par les éléments système */
-    padding-top: env(safe-area-inset-top, 0px);
-    padding-bottom: env(safe-area-inset-bottom, 0px);
+    height: 100dvh;
+    min-height: 100dvh;
+
+    /* Safe area pour appareils mobiles modernes */
+    padding-top: max(16px, env(safe-area-inset-top));
+    padding-bottom: max(100px, env(safe-area-inset-bottom) + 80px);
+    padding-left: max(8px, env(safe-area-inset-left));
+    padding-right: max(8px, env(safe-area-inset-right));
+  }
+
+  /* Optimisation pour appareils tactiles */
+  @media (pointer: coarse) {
+    body {
+      font-size: 16px; /* Évite le zoom automatique sur mobile */
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Amélioration des interactions tactiles */
+    button, a, input, textarea, select {
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    }
   }
 }
 
@@ -348,10 +455,10 @@ label {
 
 @media (max-width: 480px) {
   .lesson-grid {
-    gap: 8px;
+    gap: 6px;
   }
 
   .lesson-grid > * {
-    padding: 16px !important;
+    padding: 12px !important;
   }
 }

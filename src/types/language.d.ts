@@ -1,1 +1,1 @@
-export type Language = 'pt' | 'cv';
+export type Language = 'pt' | 'kea';

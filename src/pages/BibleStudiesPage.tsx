@@ -9,11 +9,11 @@ interface BibleStudy {
   id: number;
   title: {
     pt: string;
-    cv: string;
+    kea: string;
   };
   content: {
     pt: string[];
-    cv: string[];
+    kea: string[];
   };
   image: string;
 }
@@ -23,7 +23,7 @@ const bibleStudies: BibleStudy[] = [
     id: 1,
     title: {
       pt: "Lição 1 — Falar de Coisas que Interessam às Pessoas", 
-      cv: "Lison 1 — Pâpia di kuzas ki ta interesa otus algen"
+      kea: "Lison 1 — Pâpia di kuzas ki ta interesa otus algen"
     },
     content: {
       pt: [
@@ -48,7 +48,7 @@ const bibleStudies: BibleStudy[] = [
         "• Não fale demais.",
         "• Incentive a pessoa a falar. Sempre que possível, faça perguntas."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Amor... ka ta djobe se própi interesi'. — 1 Kor. 13:4, 5",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta pâpia ku un mudjer na posu.",
@@ -76,7 +76,7 @@ const bibleStudies: BibleStudy[] = [
     id: 2,
     title: {
       pt: "Lição 2 — Escutar com Atenção", 
-      cv: "Lison 2 — Obí ku atenson"
+      kea: "Lison 2 — Obí ku atenson"
     },
     content: {
       pt: [
@@ -93,7 +93,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Evite interromper quando a pessoa estiver falando.",
         "5. Mostre que está prestando atenção com sinais verbais e não verbais."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Séu sklubidu pa obi, má ka skis di pâpia.' — Tiagu 1:19",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta pâpia ku un mudjer samaritanu.",
@@ -114,7 +114,7 @@ const bibleStudies: BibleStudy[] = [
     id: 3,
     title: {
       pt: "Lição 3 — Usar a Bíblia de Maneira Eficaz", 
-      cv: "Lison 3 — Uza Bíblia di manera efikas"
+      kea: "Lison 3 — Uza Bíblia di manera efikas"
     },
     content: {
       pt: [
@@ -131,7 +131,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Mostre como os princípios bíblicos se aplicam à vida diária.",
         "5. Incentive a leitura pessoal da Bíblia."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Palavra di Deus é bibu i ta ten forsa.' — Heb. 4:12",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta inxina pesoas na sinagoga.",
@@ -152,7 +152,7 @@ const bibleStudies: BibleStudy[] = [
     id: 4,
     title: {
       pt: "Lição 4 — Fazer Perguntas que Estimulam o Raciocínio", 
-      cv: "Lison 4 — Faze perguntas ki ta stimula pensamentu"
+      kea: "Lison 4 — Faze perguntas ki ta stimula pensamentu"
     },
     content: {
       pt: [
@@ -169,7 +169,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Dê tempo para a pessoa pensar antes de responder.",
         "5. Use perguntas para guiar a pessoa a entender princípios bíblicos."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Korason di sabiu ta faze-l pâpia ku sabixensa.' — Pro. 16:23",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta inxina na sinagoga.",
@@ -190,7 +190,7 @@ const bibleStudies: BibleStudy[] = [
     id: 5,
     title: {
       pt: "Lição 5 — Ser Paciente com os Outros", 
-      cv: "Lison 5 — Ten paxénxia ku otus"
+      kea: "Lison 5 — Ten paxénxia ku otus"
     },
     content: {
       pt: [
@@ -207,7 +207,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Não espere perfeição imediata.",
         "5. Celebre pequenos progressos."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Ten paxénxia uns ku otus, ku amor.' — Efé. 4:2",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta pâpia ku Pedru sobri pirdon.",
@@ -228,7 +228,7 @@ const bibleStudies: BibleStudy[] = [
     id: 6,
     title: {
       pt: "Lição 6 — Ajudar os Outros a Ver o Valor da Bíblia", 
-      cv: "Lison 6 — Djuda otus odja balor di Bíblia"
+      kea: "Lison 6 — Djuda otus odja balor di Bíblia"
     },
     content: {
       pt: [
@@ -245,7 +245,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Mostre como a Bíblia se aplica à vida delas.",
         "5. Aponte como os princípios bíblicos trazem benefícios."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Tudu Skritura é inspirada pa Deus i ta útil.' — 2 Tim. 3:16",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta splika Skrituras pa dôs disipulu.",
@@ -266,7 +266,7 @@ const bibleStudies: BibleStudy[] = [
     id: 7,
     title: {
       pt: "Lição 7 — Ajudar as Pessoas a Tomar Decisões Sábias", 
-      cv: "Lison 7 — Djuda pesoas toma disizon sabiu"
+      kea: "Lison 7 — Djuda pesoas toma disizon sabiu"
     },
     content: {
       pt: [
@@ -283,7 +283,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Mostre como os princípios bíblicos se aplicam à situação.",
         "5. Incentive a oração por orientação divina."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Pesoadu sabiu ta asaia ku sabixensa.' — Pro. 13:16",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta da konselhu na un jóven riku.",
@@ -304,7 +304,7 @@ const bibleStudies: BibleStudy[] = [
     id: 8,
     title: {
       pt: "Lição 8 — Mostrar Amor aos Outros", 
-      cv: "Lison 8 — Mostra amor pa otus"
+      kea: "Lison 8 — Mostra amor pa otus"
     },
     content: {
       pt: [
@@ -321,7 +321,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Sirva sem esperar nada em troca.",
         "5. Seja sensível às necessidades dos outros."
       ],
-      cv: [
+      kea: [
         'Konsedju di Bíblia: "Pamodi ki tudu lei ta kumpri-dja na un só palavra: \'Ama bu prósimi sima bu mes.\'" — Gál. 5:14',
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta laba pés di disiplus.",
@@ -342,7 +342,7 @@ const bibleStudies: BibleStudy[] = [
     id: 9,
     title: {
       pt: "Lição 9 — Ajudar as Pessoas a Progredir para o Batismo", 
-      cv: "Lison 9 — Djuda pesoas progredi pa batismu"
+      kea: "Lison 9 — Djuda pesoas progredi pa batismu"
     },
     content: {
       pt: [
@@ -359,7 +359,7 @@ const bibleStudies: BibleStudy[] = [
         "4. Explique os requisitos para o batismo",
         "5. Apoie aqueles que decidem se batizar"
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Faze disiplus... ta batiza-s.' — Mat. 28:19",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta inxina ses disiplus sobri batismu.",
@@ -380,7 +380,7 @@ const bibleStudies: BibleStudy[] = [
     id: 10,
     title: {
       pt: "Lição 10 — Ajudar as Pessoas a se Tornarem Discípulos", 
-      cv: "Lison 10 — Djuda pesoas bira disiplus"
+      kea: "Lison 10 — Djuda pesoas bira disiplus"
     },
     content: {
       pt: [
@@ -401,7 +401,7 @@ const bibleStudies: BibleStudy[] = [
         "• Você pode pedir para outra pessoa ir fazer o estudo?",
         "5. Ore para ter uma boa atitude. Peça a Jeová para ajudá-lo a não desistir de seu estudante, mesmo que ele não estude toda semana ou se estiver tendo dificuldade em aplicar o que está aprendendo. (Fil. 2:13) Seu estudante pode ter boas qualidades, por isso ore pedindo ajuda para se concentrar em suas qualidades."
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Nu staba disididu ka sô na pâpia ku nhos di kes notísia sábi di Deus, má tanbê na da nos vida pa pode djuda nhos.' — 1 Tes. 2:8",
         "KUZÊ KI JIZUS FAZE",
         "Jizus ku Nikodemus sta ta pâpia di noti na un kintal.",
@@ -426,7 +426,7 @@ const bibleStudies: BibleStudy[] = [
     id: 11,
     title: {
       pt: "Lição 11 — Ensinar de Maneira Simples",
-      cv: "Lison 11 — Inxina di un manera sinplis"
+      kea: "Lison 11 — Inxina di un manera sinplis"
     },
     content: {
       pt: [
@@ -447,7 +447,7 @@ const bibleStudies: BibleStudy[] = [
         "• 'Será fácil para meu estudante entendê-la?'",
         "• 'Ela vai ajudar meu estudante a lembrar do ponto principal em vez de lembrar só da ilustração?'"
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Pâpia un kuza ki é fásil di intende'. — 1 Kor. 14:9",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta inxina un grupu di algen pértu di agu.Pasus sta bua na séu i tanbê sta floris la pértu di es.",
@@ -472,7 +472,7 @@ const bibleStudies: BibleStudy[] = [
     id: 12,
     title: {
       pt: "Lição 12 — Mostrar Coragem",
-      cv: "Lison 12 — Mostra koraji"
+      kea: "Lison 12 — Mostra koraji"
     },
     content: {
       pt: [
@@ -505,7 +505,7 @@ const bibleStudies: BibleStudy[] = [
         "  'Explique-lhe com jeito por que você está parando seu estudo.'",
         "  'Deixe-o saber o que ele precisa fazer se depois quiser estudar novamente.'"
       ],
-      cv: [
+      kea: [
         "Konsedju di Bíblia: 'Óliu ku insénsu ta poi korason kontenti, sima un amizadi dósi ki ta nase pamodi un konsedju sinseru.' — Pro. 27:9",
         "KUZÊ KI JIZUS FAZE",
         "Jizus sta ta pâpia ku amor ku un ómi ki sta ku juelhu na txon na frenti di el ku se disiplus.",
@@ -542,7 +542,7 @@ const bibleStudies: BibleStudy[] = [
     id: 13,
     title: {
       pt: "Apêndice 1 — Verdades da Bíblia que Gostamos de Ensinar",
-      cv: "Apéndisi 1 — Verdadis di Bíblia ki nu gosta di inxina"
+      kea: "Apéndisi 1 — Verdadis di Bíblia ki nu gosta di inxina"
     },
     content: {
       pt: [
@@ -591,7 +591,7 @@ const bibleStudies: BibleStudy[] = [
         "33. Deus odeia fingimento. — Isa. 29:13; Miq. 3:11; Mar. 7:6-8.",
         "34. O amor verdadeiro identifica a religião verdadeira. — Miq. 4:3; João 13:34, 35."
       ],
-      cv: [
+      kea: [
         "Jizus fla ma kes algen sinseru ta ben rekonhese verdadi óras ki es obi-l. (Juan 10:4, 27) Nton, sénpri ki nu pâpia ku pesoas, nu krê mostra-s kes verdadi sinplis di Bíblia. Pa bu kumesa ta pâpia sobri un verdadi sprimenta faze perguntas sima: 'Bu sabia ma... ?' ô 'Dja bu obi ta papiadu di... ?' Dipôs uza un ô más testu di Bíblia pa splika kel verdadi. Pâpia sô un verdadi sinplis di Bíblia pode txiga pa planta un simenti na korason di un algen, i Deus pode poi kel simenti ta kria! — 1 Kor. 3:6, 7.",
         "FUTURU",
         "1. Kes kuza ki nu sta odja ta kontise i modi ki pesoas sta konporta, ta mostra ma ka ta dura kuzas ta ben muda. — Mat. 24:3, 7, 8; Luk. 21:10, 11; 2 Tim. 3:1-5.",
@@ -644,14 +644,14 @@ const bibleStudies: BibleStudy[] = [
     id: 14,
     title: {
       pt: "Apêndice 2 — Você Deve Parar a Conversa?",
-      cv: "Apéndisi 2 — Bu debe para kel konbérsu?"
+      kea: "Apéndisi 2 — Bu debe para kel konbérsu?"
     },
     content: {
       pt: [
         "Quando alguém nos faz uma pergunta com sinceridade ou não concorda conosco, ficamos felizes em continuar falando com ele. Queremos falar com as pessoas que podem ter uma 'boa atitude para ganhar vida eterna'. — Atos 13:48",
         "Mas, e se alguém está chateado, quer discutir ou não quer falar naquele momento? Com calma e jeito você pode parar a conversa. (Pro. 17:14) Tente mostrar respeito e bondade, assim para que a pessoa esteja disposta a falar conosco em outro dia. — 1 Ped. 2:12"
       ],
-      cv: [
+      kea: [
         "Óras ki un algen ta faze-nu un pergunta ku sinseridadi ô el ka ta konkorda ku nos, nu ta fika kontenti di kontinua ta pâpia ku el. Nu krê pâpia ku kes algen ki pode ten un 'bon atitudi pa ganha vida pa tudu ténpu'. — Atus 13:48",
         "Má, i si un algen sta xatiadu, krê diskuti ô el ka krê pâpia na kel óra? Ku kalma i ku jetu bu pode para kel konbérsu. (Pro. 17:14) Tenta mostra ruspetu i bondadi, asi pa kel algen sta dispostu na pâpia ku nos na un otu dia. — 1 Ped. 2:12"
       ]
@@ -662,7 +662,7 @@ const bibleStudies: BibleStudy[] = [
     id: 15,
     title: {
       pt: "Apêndice 3 — Como Usar 'Viva Feliz Para Sempre!' para Fazer Estudos Bíblicos",
-      cv: "Apéndisi 3 — Modi ki uza 'Vive filís pa tudu ténpu!' pa faze studus di Bíblia"
+      kea: "Apéndisi 3 — Modi ki uza 'Vive filís pa tudu ténpu!' pa faze studus di Bíblia"
     },
     content: {
       pt: [
@@ -687,7 +687,7 @@ const bibleStudies: BibleStudy[] = [
         "DEPOIS DO ESTUDO",
         "7. Continue pensando em seu estudante. Faça oração pedindo a Jeová para ele abençoar o progresso que seu estudante está fazendo e para ele dar-lhe sabedoria para continuar ajudando-o."
       ],
-      cv: [
+      kea: [
         "Irmons faze txeu orason i es djobe ku kuidadu ki informasons ki es ta poba na livru Vive filís pa tudu ténpu!. Pa bu uza es publikason midjór, sigi kes instruson ki sta dibaxu óras ki bu ta faze un studu di Bíblia.",
         "ANTIS DI STUDU",
         "1. Pripara dretu. Óras ki bu sta ta pripara, pensa na kuzê ki bu studanti meste, pensa na se situason i na kuzê ki el ta kridita na el. Pensa na kes kuza ki pode ser difísil pa el intende ô pa el aplika. Djobe modi ki kes informason ki sta na párti 'Djobe más' pode djuda bu studanti, i sta prontu pa uza-s duránti studu, si meste.",
@@ -735,11 +735,11 @@ const BibleStudiesPage: React.FC = () => {
           <div className="flex items-center justify-center mb-1"> {/* mb-0.5 à mb-1 */}
             <Heart className="w-5 h-5 text-primary-dark mr-1.5" /> {/* w-2.5 h-2.5 à w-5 h-5, mr-0.5 à mr-1.5 */}
             <h1 className="text-xl sm:text-2xl font-bold text-foreground"> {/* text-xs à text-xl sm:text-2xl */}
-              {t('estudosBiblicosPagina.titulo')}
+              {t('bibleStudies.titulo')}
             </h1>
           </div>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto"> {/* text-xs à text-sm sm:text-base, mt-0 enlevé */}
-            {t('estudosBiblicosPagina.subtitulo')}
+            {t('bibleStudies.subtitulo')}
           </p>
         </div>
         
@@ -773,7 +773,7 @@ const BibleStudiesPage: React.FC = () => {
                 
                 <div className="px-3 py-2 sm:px-4 sm:py-3 flex justify-between items-center text-sm"> {/* text-[13px] à text-sm, padding ajusté */}
                   <span className="text-card-foreground font-medium">
-                    {expandedStudy === study.id ? t('iu.fechar') : t('iu.proximo')}
+                    {expandedStudy === study.id ? t('common.close') : t('common.next')}
                   </span>
                   {expandedStudy === study.id ? (
                     <ChevronUp size={20} className="text-primary-dark" /> /* Taille icône augmentée */
@@ -788,7 +788,7 @@ const BibleStudiesPage: React.FC = () => {
                   <div className="border-t border-gray-200 pt-3 sm:pt-4"> {/* pt-0.5 à pt-3 sm:pt-4 */}
                     <div className="mb-3">
                       <h3 className="text-sm sm:text-base font-bold mb-2 text-primary-dark"> {/* text-[14px] à text-sm sm:text-base */}
-                        {language === 'pt' ? 'Conteúdo do Estudo' : 'Kontéudu di Studu'}
+                        {t('bibleStudies.conteudoDoEstudo')}
                       </h3>
                       <ul className="list-disc pl-5 space-y-1.5 text-sm leading-relaxed"> {/* text-[13px] à text-sm, space-y-2 à space-y-1.5 */}
                         {study.content[language].map((point: string, index: number) => (

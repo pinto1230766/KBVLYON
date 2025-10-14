@@ -1,10 +1,8 @@
-export type Language = 'pt' | 'cv' | 'fr' | 'en';
+export type Language = 'pt' | 'kea';
 
 export interface LocalizedText {
   pt: string;
-  cv: string;
-  fr?: string;
-  en?: string;
+  kea: string;
 }
 
 export interface ExerciseBase {

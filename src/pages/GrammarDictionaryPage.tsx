@@ -13,17 +13,17 @@ interface DictionaryEntry {
   word: string;
   translation: {
     pt: string;
-    cv: string;
+    kea: string;
   };
   example: {
     pt: string;
-    cv: string;
+    kea: string;
   };
   note?: string;
 }
 
 const GrammarDictionaryPage: React.FC = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const secaoGramaticaTrad = translations.gramaticaSecao as any;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -59,7 +59,7 @@ const GrammarDictionaryPage: React.FC = () => {
           keys: [
             { name: 'word', weight: 0.4 },
             { name: 'translation.pt', weight: 0.3 },
-            { name: 'translation.cv', weight: 0.3 },
+            { name: 'translation.kea', weight: 0.3 },
           ],
           includeScore: true,
           threshold: 0.6,
@@ -89,10 +89,10 @@ const GrammarDictionaryPage: React.FC = () => {
       }
       
       // Fallback si Fuse n'est pas disponible
-      return dictionaryDataState.filter(entry => 
+      return dictionaryDataState.filter(entry =>
         entry.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
         (entry.translation.pt && entry.translation.pt.toLowerCase().includes(searchTerm.toLowerCase())) ||
-        (entry.translation.cv && entry.translation.cv.toLowerCase().includes(searchTerm.toLowerCase()))
+        (entry.translation.kea && entry.translation.kea.toLowerCase().includes(searchTerm.toLowerCase()))
       );
     } catch (error) {
       console.error('Erreur lors de la recherche:', error);
@@ -160,7 +160,7 @@ const GrammarDictionaryPage: React.FC = () => {
                     <ul className="list-disc list-inside space-y-0.5 text-xs">
                       {lesson.examples.map((example, index) => (
                         <li key={index}>
-                          <span className="font-medium">{language === 'pt' ? 'PT:' : language === 'cv' ? 'CV:' : 'PT:'}</span> {example[language] || example.pt}
+                          <span className="font-medium">{language === 'pt' ? t('grammar.etiquetaPT') : t('grammar.etiquetaKEA')}</span> {example[language] || example.pt}
                         </li>
                       ))}
                     </ul>
@@ -220,14 +220,14 @@ const GrammarDictionaryPage: React.FC = () => {
                               <strong>PT:</strong> {entry.translation.pt}
                             </p>
                             <p className="text-xs mb-1">
-                              <strong>CV:</strong> {entry.translation.cv}
+                              <strong>KEA:</strong> {entry.translation.kea}
                             </p>
                           </div>
                           {entry.example && (
-                            <div className="mt-1 text-xs text-muted-foreground pt-1 border-t border-dashed">
-                              <p><strong>{comumTrad.exemplo[language]} (PT):</strong> {entry.example.pt}</p>
-                              <p><strong>{comumTrad.exemplo[language]} (CV):</strong> {entry.example.cv}</p>
-                            </div>
+                          <div className="mt-1 text-xs text-muted-foreground pt-1 border-t border-dashed">
+                            <p><strong>{comumTrad.exemplo[language]} (PT):</strong> {entry.example.pt}</p>
+                            <p><strong>{comumTrad.exemplo[language]} (KEA):</strong> {entry.example.kea}</p>
+                          </div>
                           )}
                         </div>
                       ))}
@@ -272,14 +272,14 @@ const GrammarDictionaryPage: React.FC = () => {
                                 <strong>PT:</strong> {entry.translation.pt}
                               </p>
                               <p className="text-xs mb-1">
-                                <strong>CV:</strong> {entry.translation.cv}
+                                <strong>KEA:</strong> {entry.translation.kea}
                               </p>
                             </div>
                             {entry.example && (
-                              <div className="mt-1 text-xs text-muted-foreground pt-1 border-t border-dashed">
-                                <p><strong>{comumTrad.exemplo[language]} (PT):</strong> {entry.example.pt}</p>
-                                <p><strong>{comumTrad.exemplo[language]} (CV):</strong> {entry.example.cv}</p>
-                              </div>
+                            <div className="mt-1 text-xs text-muted-foreground pt-1 border-t border-dashed">
+                              <p><strong>{comumTrad.exemplo[language]} (PT):</strong> {entry.example.pt}</p>
+                              <p><strong>{comumTrad.exemplo[language]} (KEA):</strong> {entry.example.kea}</p>
+                            </div>
                             )}
                           </div>
                         ))}

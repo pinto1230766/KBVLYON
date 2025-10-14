@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from '../hooks/useLanguage';
 import { cn } from '@/lib/utils';
 
 interface OfflineIndicatorProps {
@@ -11,6 +12,7 @@ export const OfflineIndicator: React.FC<OfflineIndicatorProps> = ({
   showText = true
 }) => {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
@@ -43,7 +45,7 @@ export const OfflineIndicator: React.FC<OfflineIndicatorProps> = ({
       />
       {showText && (
         <span>
-          {isOnline ? 'En ligne' : 'Hors ligne'}
+          {isOnline ? t('ui.online') : t('ui.offline')}
         </span>
       )}
     </div>

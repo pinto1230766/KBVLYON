@@ -48,12 +48,14 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
     };
   }, [src]);
 
-  // Générer les chemins WebP
+  // Générer les chemins WebP avec optimisation mobile
   const generateWebPSrcSet = (originalSrc: string) => {
-    const basePath = originalSrc.replace('.jpg', '');
-    const sizes = [480, 768, 1024, 1280];
-    return sizes.map(size => `${basePath}-${size}.webp ${size}w`).join(', ');
+    const basePath = originalSrc.replace(/\.(jpg|jpeg|png)$/i, '');
+    // Tailles optimisées pour mobile Samsung
+    const sizes = [320, 480, 640, 768, 1024, 1280];
+    return sizes.map(size => `${encodeURI(`${basePath}-${size}.webp`)} ${size}w`).join(', ');
   };
+
 
   // Si l'image est en cours de chargement, afficher un placeholder
   if (isLoading) {
@@ -77,11 +79,24 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
   );
 
   return (
-    <picture>
+    <picture className="optimized-image-container">
+      {/* WebP sources pour différents écrans */}
       <source
-        srcSet={generateWebPSrcSet(src)}
+        media="(max-width: 480px)"
+        srcSet={generateWebPSrcSet(src).split(', ').filter(s => s.includes('320w') || s.includes('480w')).join(', ')}
         type="image/webp"
       />
+      <source
+        media="(max-width: 768px)"
+        srcSet={generateWebPSrcSet(src).split(', ').filter(s => s.includes('640w') || s.includes('768w')).join(', ')}
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 769px)"
+        srcSet={generateWebPSrcSet(src).split(', ').filter(s => s.includes('1024w') || s.includes('1280w')).join(', ')}
+        type="image/webp"
+      />
+      {/* Fallback pour navigateurs sans WebP */}
       <img
         src={src}
         alt={alt}
@@ -89,10 +104,13 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
         width={width}
         height={height}
         loading={loading}
+        decoding="async"
+        // @ts-expect-error fetchpriority is a valid HTML attribute but not in React types yet
+        fetchpriority={loading === 'eager' ? 'high' : 'auto'}
         onError={(e) => {
           // En cas d'erreur de chargement, afficher une image de remplacement
           e.currentTarget.onerror = null;
-          e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlZWVlZWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzk5OSI+SW1hZ2Ugbm90IGZvdW5kPC90ZXh0Pjwvc3ZnPg=';
+          e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlZWVlZWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzk5OSI+SW1hZ2VtIG7Dum4gZGlzcG9uw612ZWw8L3RleHQ+PC9zdmc+';
         }}
       />
     </picture>

@@ -1,85 +1,205 @@
-/* Styles spécifiques pour appareils mobiles */
+/* Styles spécifiques pour appareils mobiles - Optimisation Samsung */
 
-/* Optimisation pour smartphones et tablettes Samsung */
+/* Utilisation de 100dvh pour hauteur dynamique */
+html, body {
+  height: 100dvh;
+  min-height: 100dvh;
+}
+
+/* Optimisation pour smartphones Samsung */
 @media (max-width: 600px) {
-  .menu, .section {
-    font-size: 1.1em;
+  /* Polices lisibles pour mobile */
+  body, .menu, .section, button, input, textarea {
+    font-size: 16px; /* Évite le zoom automatique sur iOS */
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
+
+  /* Espacement optimisé */
   body {
-    padding: 8px;
+    padding: 12px;
+    line-height: 1.5;
+  }
+
+  /* Boutons tactiles larges */
+  button, .btn, [role="button"], input[type="button"], input[type="submit"] {
+    min-height: 56px; /* Taille tactile recommandée */
+    min-width: 56px;
+    padding: 16px 20px;
+    margin: 8px 4px;
+    border-radius: 12px;
+    font-weight: 600;
+    touch-action: manipulation; /* Améliore les interactions tactiles */
+  }
+
+  /* Liens et éléments interactifs */
+  a, .clickable {
+    min-height: 48px;
+    min-width: 48px;
+    padding: 12px 16px;
+    display: inline-flex;
+    align-items: center;
   }
 }
 
-@media (min-width: 601px) {
-  .menu, .section {
-    font-size: 1.3em;
+/* Samsung S10 Ultra (1440x3040) et S25 Ultra (1440x3120) */
+@media (min-width: 601px) and (max-width: 1024px) and (min-height: 2800px) {
+  body, .menu, .section {
+    font-size: 19px;
+    line-height: 1.65;
   }
+
   body {
-    padding: 18px;
+    padding: 24px;
+  }
+
+  /* Boutons optimisés pour Ultra */
+  button, .btn {
+    min-height: 64px;
+    padding: 20px 28px;
+    font-size: 19px;
+    border-radius: 16px;
+  }
+
+  /* Grilles optimisées pour écrans Ultra */
+  .grid-cols-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Forcer le padding pour les appareils avec boutons de navigation */
-@media (max-width: 768px) and (max-height: 1000px) {
-  /* Appareils mobiles modernes */
+/* Tablettes Samsung standard */
+@media (min-width: 601px) and (max-width: 1024px) and (max-height: 2799px) {
+  body, .menu, .section {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
   body {
-    padding-bottom: 140px !important;
-    padding-top: 32px !important;
+    padding: 20px;
+  }
+
+  /* Boutons adaptés tablettes */
+  button, .btn {
+    min-height: 60px;
+    padding: 18px 24px;
+    font-size: 18px;
+  }
+}
+
+/* Gestion des zones sûres pour appareils modernes */
+@media (max-width: 768px) {
+  /* Appareils mobiles modernes avec encoches */
+  body {
+    padding-top: max(16px, env(safe-area-inset-top));
+    padding-bottom: max(120px, env(safe-area-inset-bottom) + 100px);
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
   }
 
   /* Conteneurs principaux */
-  main {
-    padding-bottom: 140px !important;
+  main, .page-container {
+    padding-bottom: max(80px, env(safe-area-inset-bottom) + 60px) !important;
   }
 
-  /* Navbar */
-  header {
-    padding-top: 32px !important;
-  }
-
-  /* Pages individuelles */
-  .page-container {
-    padding-bottom: 140px !important;
-    padding-top: 16px !important;
+  /* Navbar fixe */
+  header, .navbar {
+    padding-top: max(16px, env(safe-area-inset-top)) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 }
 
-/* Pour les appareils très petits ou avec boutons logiciels */
+/* Appareils très petits (Samsung A series, etc.) */
 @media (max-width: 480px) {
   body {
-    padding-bottom: 160px !important;
+    padding-bottom: max(140px, env(safe-area-inset-bottom) + 120px) !important;
+    font-size: 15px;
   }
 
-  main {
-    padding-bottom: 160px !important;
+  main, .page-container {
+    padding-bottom: max(140px, env(safe-area-inset-bottom) + 120px) !important;
+  }
+
+  /* Boutons encore plus larges pour petits écrans */
+  button, .btn {
+    min-height: 64px;
+    padding: 20px 24px;
+    font-size: 16px;
   }
 }
 
 /* Styles pour les modales et overlays */
-.modal-overlay {
-  padding-top: env(safe-area-inset-top, 32px) !important;
-  padding-bottom: env(safe-area-inset-bottom, 140px) !important;
+.modal-overlay, .drawer-overlay {
+  padding-top: max(32px, env(safe-area-inset-top)) !important;
+  padding-bottom: max(140px, env(safe-area-inset-bottom) + 120px) !important;
+  padding-left: max(16px, env(safe-area-inset-left)) !important;
+  padding-right: max(16px, env(safe-area-inset-right)) !important;
 }
 
-/* Assurer que les éléments fixes ne sont pas cachés */
-.fixed, .sticky {
-  z-index: 1000;
+/* Amélioration de l'accessibilité tactile */
+@media (pointer: coarse) {
+  /* Appareils tactiles */
+  button, a, input, textarea, select, [tabindex]:not([tabindex="-1"]) {
+    min-height: 48px;
+    min-width: 48px;
+    touch-action: manipulation;
+  }
+
+  /* Espacement entre éléments tactiles */
+  button, .btn, .card, .menu-item {
+    margin: 8px;
+  }
 }
 
-/* Boutons et éléments interactifs */
-button, a, input, textarea, select {
-  min-height: 48px; /* Taille augmentée pour une meilleure accessibilité tactile */
-  min-width: 48px;
-  margin: 4px; /* Espacement entre les éléments */
+/* Optimisation des images pour mobile */
+@media (max-width: 768px) {
+  img, .image-container img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast; /* Meilleur rendu sur Safari */
+    image-rendering: crisp-edges;
+  }
+
+  /* Images WebP avec fallback */
+  .optimized-image {
+    background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+                linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+                linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  }
 }
 
-/* Amélioration de l'interlignage pour mobile */
-p, li, div {
-  line-height: 1.6 !important;
+/* Amélioration du contraste et lisibilité */
+@media (prefers-contrast: high) {
+  body {
+    background: white;
+    color: black;
+  }
+
+  button, .btn {
+    border: 2px solid currentColor;
+  }
 }
 
-/* Espacement des boutons et éléments interactifs */
-.btn, button, .button {
-  margin: 8px 4px !important;
-  padding: 12px 16px !important;
+/* Mode sombre optimisé pour mobile */
+@media (prefers-color-scheme: dark) and (max-width: 768px) {
+  body {
+    background: #0f0f0f;
+    color: #ffffff;
+  }
+
+  button, .btn {
+    background: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+  }
 }

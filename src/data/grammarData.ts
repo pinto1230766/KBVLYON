@@ -15,8 +15,159 @@ export interface GrammarLesson {
 }
 
 export const grammarLessons: GrammarLesson[] = [
+  // FONOLOGIA
   {
     id: 1,
+    title: {
+      pt: 'Sistema Fonológico do Crioulo',
+      cv: 'Sistema Fonolójiku di Kriolu'
+    },
+    content: {
+      pt: 'O sistema fonológico do crioulo cabo-verdiano é composto por 22 fonemas consonantais e 10 vocálicos. As consoantes incluem oclusivas, fricativas, nasais, líquidas e semiconsoantes. O sistema vocálico distingue entre vogais orais e nasais, sendo fundamental para a compreensão e produção correta do crioulo.',
+      cv: 'Sistema fonolójiku di kriolu kabuverdianu é kompoztu pa 22 fonema konsonantal y 10 vokáliku. Konsonanti ta inklui oklusiva, frikativa, nazal, líkida y semikonsonanti. Sistema vokáliku ta distingui entri vogal oral y nazal, sendo fundamental pa komprensão y produson koretu di kriolu.'
+    },
+    examples: [
+      {
+        pt: 'Consoantes oclusivas: /p/, /b/, /t/, /d/, /k/, /g/',
+        cv: 'Konsonanti oklusiva: /p/, /b/, /t/, /d/, /k/, /g/'
+      },
+      {
+        pt: 'Vogais orais: /i/, /e/, /ɛ/, /a/, /ɔ/, /o/, /u/',
+        cv: 'Vogal oral: /i/, /e/, /ɛ/, /a/, /ɔ/, /o/, /u/'
+      },
+      {
+        pt: 'Vogais nasais: /ĩ/, /ẽ/, /ã/, /õ/, /ũ/',
+        cv: 'Vogal nazal: /ĩ/, /ẽ/, /ã/, /õ/, /ũ/'
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: {
+      pt: 'Acentuação e Ritmo',
+      cv: 'Asentuason y Ritmu'
+    },
+    content: {
+      pt: 'A acentuação no crioulo cabo-verdiano segue padrões específicos. Geralmente, palavras de duas sílabas são acentuadas na primeira sílaba (paroxítonas), enquanto palavras de três ou mais sílabas tendem a ser acentuadas na penúltima sílaba. O ritmo é silábico, diferente do português que é acentual.',
+      cv: 'Asentuason na kriolu kabuverdianu ta sigi padrão ispesífiku. Jeralmenti, palavra di dos sílaba ta ser asentuadu na priméru sílaba (parokítona), enkuantu palavra di tres o más sílaba ta tendi pa ser asentuadu na penúltimu sílaba. Ritmu é silábiku, diferenti di purtuges ki é asentual.'
+    },
+    examples: [
+      {
+        pt: 'Paroxítonas: \'kása (casa), \'fíku (fico), \'bóni (bom)',
+        cv: 'Parokítona: \'kása (kasa), \'fíku (fiku), \'bóni (bon)'
+      },
+      {
+        pt: 'Proparoxítonas: mé\'diku (médico), \'últimu (último)',
+        cv: 'Proparokítona: mé\'diku (médiku), \'últimu (últimu)'
+      }
+    ]
+  },
+  // MORFOLOGIA
+  {
+    id: 3,
+    title: {
+      pt: 'Formação de Palavras',
+      cv: 'Formason di Palavra'
+    },
+    content: {
+      pt: 'A morfologia do crioulo cabo-verdiano é caracterizada por processos de derivação e composição. A derivação ocorre através de prefixos e sufixos, enquanto a composição forma palavras novas pela junção de duas ou mais palavras. O crioulo também apresenta reduplicação como processo morfológico produtivo.',
+      cv: 'Morfolojia di kriolu kabuverdianu é karakterizadu pa prosesu di derivason y kompozison. Derivason ta akontese atraves di prefiksu y sufiksu, enkuantu kompozison ta forma palavra novu pa junson di dos o más palavra. Kriolu tanbé ta prezenta reduplikason kuma prosesu morfolójiku produtívu.'
+    },
+    examples: [
+      {
+        pt: 'Derivação: kasa → kasinha (casinha), trabadja → trabadjadera (trabalhadora)',
+        cv: 'Derivason: kasa → kasinha (kasinha), trabadja → trabadjadera (trabadjadera)'
+      },
+      {
+        pt: 'Composição: kasa + branku → kasabranku (casa branca)',
+        cv: 'Kompozison: kasa + branku → kasabranku (kasabranku)'
+      },
+      {
+        pt: 'Reduplicação: kore → korekore (correr muito), fala → falafala (falar muito)',
+        cv: 'Reduplikason: kore → korekore (kore txeu), fala → falafala (fala txeu)'
+      }
+    ]
+  },
+  // SINTAXE
+  {
+    id: 4,
+    title: {
+      pt: 'Ordem das Palavras',
+      cv: 'Orden di Palavra'
+    },
+    content: {
+      pt: 'A ordem básica das palavras no crioulo cabo-verdiano é Sujeito-Verbo-Objeto (SVO), similar ao português. No entanto, há flexibilidade para outras ordens em contextos específicos, como topicalização ou focalização. A posição dos elementos na frase pode alterar o significado e a ênfase.',
+      cv: 'Orden básiku di palavra na kriolu kabuverdianu é Sujétu-Verbu-Objetu (SVO), similar ku purtuges. Mas, ten fleksibilidadi pa otru orden na kontestu ispesífiku, kuma topikalizason o fokalizason. Pozison di elementu na frazi podi altera signifikadu y ênfazi.'
+    },
+    examples: [
+      {
+        pt: 'Ordem básica SVO: N kume pãu (Eu como pão)',
+        cv: 'Orden básiku SVO: N kume pãu (N ta kume pãu)'
+      },
+      {
+        pt: 'Topicalização: Pãu, n kume-l (Pão, eu como-o)',
+        cv: 'Topikalizason: Pãu, n ta kume-l (Pãu, n ta kume-l)'
+      },
+      {
+        pt: 'Focalização: É pãu ki n kume (É pão que eu como)',
+        cv: 'Fokalizason: É pãu ki n ta kume (É pãu ki n ta kume)'
+      }
+    ]
+  },
+  // VERBOS
+  {
+    id: 5,
+    title: {
+      pt: 'Sistema Verbal - Aspecto e Tempo',
+      cv: 'Sistema Verbal - Aspetu y Tempu'
+    },
+    content: {
+      pt: 'O sistema verbal do crioulo cabo-verdiano é baseado em aspecto mais do que em tempo. Os marcadores aspectuais "ta" (imperfectivo), "ba" (perfectivo futuro) e ausência de marcador (perfectivo passado) são fundamentais. Este sistema é diferente do português e requer compreensão específica.',
+      cv: 'Sistema verbal di kriolu kabuverdianu é bazéadu na aspetu más di ki na tempu. Markadó aspetual "ta" (imperfetívu), "ba" (perfetívu futuru) y ausênsia di markadó (perfetívu pasadu) é fundamental. Es sistema é diferenti di purtuges y ta presiza komprensão ispesífiku.'
+    },
+    examples: [
+      {
+        pt: 'Imperfectivo (habitual/presente): N ta kume (Eu como/estou comendo)',
+        cv: 'Imperfetívu (habitual/prezenti): N ta kume (N ta kume)'
+      },
+      {
+        pt: 'Perfectivo passado: N kume (Eu comi)',
+        cv: 'Perfetívu pasadu: N kume (N kume)'
+      },
+      {
+        pt: 'Perfectivo futuro: N ba kume (Eu vou comer)',
+        cv: 'Perfetívu futuru: N ba kume (N ba kume)'
+      }
+    ]
+  },
+  {
+    id: 6,
+    title: {
+      pt: 'Verbos Modais e Auxiliares',
+      cv: 'Verbu Modal y Auxiliar'
+    },
+    content: {
+      pt: 'Os verbos modais em crioulo expressam modalidade, possibilidade, necessidade e volição. Os principais são "podi" (poder), "debe" (dever), "kere" (querer), "sabe" (saber). Estes verbos combinam com outros verbos para formar construções complexas que expressam nuances de significado.',
+      cv: 'Verbu modal na kriolu ta espresa modalidadi, posibilidadi, nesesidadi y volison. Prinsipal é "podi" (podi), "debe" (debe), "kere" (kere), "sabe" (sabe). Es verbu ta kombina ku otru verbu pa forma konstruson kompleksu ki ta espresa nuansa di signifikadu.'
+    },
+    examples: [
+      {
+        pt: 'Possibilidade: N podi bai (Eu posso ir)',
+        cv: 'Posibilidadi: N podi bai (N podi bai)'
+      },
+      {
+        pt: 'Necessidade: N debe estudá (Eu devo estudar)',
+        cv: 'Nesesidadi: N debe studá (N debe studá)'
+      },
+      {
+        pt: 'Volição: N kere kanta (Eu quero cantar)',
+        cv: 'Volison: N kere kanta (N kere kanta)'
+      }
+    ]
+  },
+  // PRONOMES
+  {
+    id: 7,
     title: {
       pt: 'Pronomes Pessoais',
       cv: 'Pronomi Pesoal'

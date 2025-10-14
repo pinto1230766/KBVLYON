@@ -7,14 +7,14 @@ import { ThemeToggle } from '@/components/theme-toggle';
 import { OfflineIndicator } from '@/components/OfflineIndicator';
 import { useLanguage } from '@/hooks/useLanguage';
 
-// Les clés correspondent aux sous-clés de translations.navegacao
+// Les clés correspondent aux sous-clés de translations.navigation
 const navigationItems = [
-  { translationKey: 'inicio', href: '/' },
-  { translationKey: 'gramaticaDicionario', href: '/grammar-dictionary' },
-  { translationKey: 'predicacao', href: '/preaching' },
-  { translationKey: 'estudosBiblicos', href: '/bible-studies' },
-  { translationKey: 'notas', href: '/notes' }, // Ajout du lien Notes
-  { translationKey: 'sobre', href: '/a-propos' },
+  { key: 'home', href: '/' },
+  { key: 'grammar', href: '/grammar-dictionary' },
+  { key: 'preaching', href: '/preaching' },
+  { key: 'bibleStudies', href: '/bible-studies' },
+  { key: 'notes', href: '/notes' },
+  { key: 'about', href: '/about' },
 ];
 
 export function MainNav() {
@@ -23,7 +23,7 @@ export function MainNav() {
   const { language, setLanguage, t } = useLanguage();
   
   const toggleLanguage = () => {
-    setLanguage(language === 'pt' ? 'cv' : 'pt');
+    setLanguage(language === 'pt' ? 'kea' : 'pt');
   };
   
   const getLanguageLabel = () => {
@@ -32,8 +32,8 @@ export function MainNav() {
   
   const getLanguageTitle = () => {
     return language === 'pt' 
-      ? t('navegacao.mudarParaCrioulo.pt') 
-      : t('navegacao.mudarParaPortugues.pt');
+      ? 'Mudar para Crioulo' 
+      : 'Mudar para Português';
   };
 
   // Éviter l'hydratation côté serveur
@@ -51,45 +51,45 @@ export function MainNav() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 safe-area-padding-top">
-      <div className="container flex h-12 items-center justify-between">
-        <div className="flex items-center space-x-4">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="inline-block h-6 w-6 rounded-full bg-primary"></span>
+      <div className="container flex h-14 items-center justify-between px-4">
+        <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-2 touch-manipulation">
+            <span className="inline-block h-7 w-7 rounded-full bg-primary"></span>
             <span className="text-lg font-bold">KBVLYON</span>
           </Link>
         </div>
 
         {/* Navigation desktop */}
-        <nav className="hidden items-center space-x-1 md:flex">
+        <nav className="hidden items-center space-x-2 md:flex">
           {navigationItems.map((item) => (
             <Link
-              key={item.translationKey}
+              key={item.key}
               to={item.href}
-              className="rounded-md px-2 py-1 text-xs font-medium text-foreground/70 transition-colors hover:text-foreground"
+              className="rounded-lg px-3 py-2 text-sm font-medium text-foreground/70 transition-colors hover:text-foreground hover:bg-muted/50 touch-manipulation"
             >
-              {t(`navegacao.${item.translationKey}`)}
+              {t(`navigation.${item.key}`)}
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center space-x-1"> {/* Réduit space-x-2 à space-x-1 pour mobile */}
+        <div className="flex items-center space-x-2">
           {/* Bouton de langue visible sur tous les écrans */}
           <Button
             variant="ghost"
             size="sm"
-            className="h-8 w-8 p-0" // Reste visible, ajuster si nécessaire pour l'alignement
+            className="h-10 w-10 p-0 touch-manipulation" // Augmenté pour mobile
             onClick={toggleLanguage}
             title={getLanguageTitle()}
           >
-            <Globe className="h-4 w-4" />
+            <Globe className="h-5 w-5" />
             <span className="sr-only">
               {getLanguageTitle()}
             </span>
-            <span className="ml-1 text-xs">{getLanguageLabel()}</span>
+            <span className="ml-1 text-xs font-medium">{getLanguageLabel()}</span>
           </Button>
-          
+
           {/* Bouton de thème visible uniquement sur md et plus, et dans le menu mobile */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden md:flex items-center space-x-2">
             <OfflineIndicator showText={false} />
             <ThemeToggle />
           </div>
@@ -97,16 +97,16 @@ export function MainNav() {
           <Button
             variant="ghost"
             size="sm"
-            className="h-8 w-8 p-0 md:hidden"
+            className="h-10 w-10 p-0 md:hidden touch-manipulation"
             onClick={toggleMenu}
           >
             {isOpen ? (
-              <X className="h-4 w-4" />
+              <X className="h-5 w-5" />
             ) : (
-              <Menu className="h-4 w-4" />
+              <Menu className="h-5 w-5" />
             )}
             <span className="sr-only">
-              {isOpen ? t('navegacao.menu.fechar.pt') : t('navegacao.menu.abrir.pt')}
+              {isOpen ? t('common.close') : t('common.menu')}
             </span>
           </Button>
         </div>
@@ -120,9 +120,9 @@ export function MainNav() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-x-0 top-10 z-50 w-full border-b bg-background backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden" // Changé bg-background/95 en bg-background
+            className="fixed inset-x-0 top-14 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 md:hidden safe-area-padding-bottom"
           >
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="space-y-2 px-4 pb-4 pt-3 max-h-[calc(100dvh-4rem)] overflow-y-auto">
               {navigationItems.map((item) => {
                 const handleClick = () => {
                   setIsOpen(false);
@@ -131,43 +131,43 @@ export function MainNav() {
                     window.scrollTo(0, 0);
                   }, 100);
                 };
-                
+
                 return (
                   <Link
-                    key={item.translationKey}
+                    key={item.key}
                     to={item.href}
-                    className="block px-3 py-3 text-sm font-medium text-foreground/80 hover:bg-muted/50 hover:text-foreground rounded-md" // py-2 à py-3, text-xs à text-sm, text-foreground/70 à text-foreground/80, ajout de rounded-md
+                    className="block px-4 py-4 text-base font-medium text-foreground hover:bg-muted/50 hover:text-foreground rounded-lg touch-manipulation active:scale-95 transition-transform"
                     onClick={handleClick}
                   >
-                    {t(`navegacao.${item.translationKey}`)}
+                    {t(`navigation.${item.key}`)}
                   </Link>
                 );
               })}
-              <div className="border-t border-border pt-3 px-3 pb-2 space-y-3"> {/* pt-2 à pt-3, py-2 à pb-2, space-y-2 à space-y-3 */}
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-medium">
-                    {t('iu.tema')}
-                  </span>
-                  <ThemeToggle /> {/* Le bouton Thème reste dans le menu mobile */}
-                </div>
-                {/* Le bouton de langue a été déplacé hors du menu mobile pour être toujours visible */}
-                {/* 
+              <div className="border-t border-border pt-4 px-4 pb-3 space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium">
-                    {t('iu.idioma')}
+                  <span className="text-base font-medium">
+                    {t('settings.theme')}
+                  </span>
+                  <ThemeToggle />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-base font-medium">
+                    {t('settings.changeLanguage')}
                   </span>
                   <Button
                     variant="outline"
                     size="sm"
-                    className="h-9 px-3 text-sm"
-                    onClick={toggleLanguage}
+                    className="h-12 px-4 text-base touch-manipulation"
+                    onClick={() => {
+                      toggleLanguage();
+                      setIsOpen(false);
+                    }}
                     title={getLanguageTitle()}
                   >
-                    <Globe className="h-4 w-4 mr-1.5" />
+                    <Globe className="h-5 w-5 mr-2" />
                     {getLanguageLabel()}
                   </Button>
                 </div>
-                */}
               </div>
             </div>
           </motion.div>

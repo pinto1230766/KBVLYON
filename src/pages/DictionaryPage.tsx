@@ -10,11 +10,11 @@ interface DictionaryEntry {
   word: string;
   translation: {
     pt: string;
-    cv: string;
+    kea: string;
   };
   example: {
     pt: string;
-    cv: string;
+    kea: string;
   };
   note?: string;
   category?: string;
@@ -39,7 +39,7 @@ const DictionaryPage = () => {
       keys: [
         { name: 'word', weight: 0.4 },
         { name: 'translation.pt', weight: 0.3 },
-        { name: 'translation.cv', weight: 0.3 },
+        { name: 'translation.kea', weight: 0.3 },
       ],
       includeScore: true,
       threshold: 0.4,
@@ -68,7 +68,7 @@ const DictionaryPage = () => {
         base = base.filter(entry =>
           entry.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
           entry.translation.pt.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          entry.translation.cv.toLowerCase().includes(searchTerm.toLowerCase())
+          entry.translation.kea.toLowerCase().includes(searchTerm.toLowerCase())
         );
       }
     }
@@ -126,7 +126,7 @@ const DictionaryPage = () => {
     // Find words in related categories that match or are similar
     const suggestions = dictionaryData
       .filter(entry => {
-        const entryText = `${entry.word} ${entry.translation.pt} ${entry.translation.cv}`.toLowerCase();
+        const entryText = `${entry.word} ${entry.translation.pt} ${entry.translation.kea}`.toLowerCase();
         return relatedCategories.includes(entry.category || 'Geral') &&
                (entryText.includes(term) || term.includes(entry.word.toLowerCase()));
       })
@@ -168,7 +168,7 @@ const DictionaryPage = () => {
   }, [setSearchHistory]);
 
   // Text-to-speech function
-  const speakWord = useCallback((text: string, lang: 'pt' | 'cv') => {
+  const speakWord = useCallback((text: string, lang: 'pt' | 'kea') => {
     if ('speechSynthesis' in window) {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = lang === 'pt' ? 'pt-PT' : 'pt-CV'; // Use Portuguese voices
@@ -205,12 +205,12 @@ const DictionaryPage = () => {
 
   return (
     <div className="min-h-screen bg-background page-container">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-3 py-2">
         {/* Titre */}
-        <h1 className="text-4xl font-bold text-center text-foreground mb-8">{t('dicionario.titulo')}</h1>
+        <h1 className="text-2xl font-bold text-center text-foreground mb-3">{t('dictionary.titulo')}</h1>
 
         {/* Onglets */}
-        <div className="flex gap-8 mb-6 border-b border-border">
+        <div className="flex gap-2 mb-2 border-b border-border">
           <button
             onClick={() => setActiveTab('dictionary')}
             className={`pb-3 px-1 font-medium transition-colors relative ${
@@ -219,7 +219,7 @@ const DictionaryPage = () => {
                 : 'text-muted-foreground hover:text-foreground'
             }`}
           >
-            {t('dicionario.titulo')}
+            {t('dictionary.titulo')}
             {activeTab === 'dictionary' && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary"></div>
             )}
@@ -243,48 +243,48 @@ const DictionaryPage = () => {
         {activeTab === 'dictionary' ? (
           <div>
             {/* Filtres et tri */}
-            <div className="mb-4 space-y-3">
+            <div className="mb-2 space-y-2">
               {/* Tri */}
-              <div className="flex gap-2">
+              <div className="flex gap-1">
                 <button
                   onClick={() => setSortOrder('thematic')}
-                  className={`px-3 py-1 rounded-full text-sm ${
+                  className={`px-2 py-1 rounded-full text-sm ${
                     sortOrder === 'thematic'
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-muted hover:bg-muted/70'
                   }`}
                 >
-                  Tri thématique
+                  {t('dictionary.triTematico')}
                 </button>
                 <button
                   onClick={() => setSortOrder('alphabetical')}
-                  className={`px-3 py-1 rounded-full text-sm ${
+                  className={`px-2 py-1 rounded-full text-sm ${
                     sortOrder === 'alphabetical'
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-muted hover:bg-muted/70'
                   }`}
                 >
-                  Tri alphabétique
+                  {t('dictionary.triAlfabetico')}
                 </button>
               </div>
 
               {/* Filtres de catégorie */}
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-1">
                 <button
                   onClick={() => setSelectedCategory(null)}
-                  className={`px-3 py-1 rounded-full text-sm ${
+                  className={`px-2 py-1 rounded-full text-sm ${
                     selectedCategory === null
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-muted hover:bg-muted/70'
                   }`}
                 >
-                  {t('dicionario.todos')}
+                  {t('dictionary.todos')}
                 </button>
                 {categories.map(([name, count]) => (
                   <button
                     key={name}
                     onClick={() => setSelectedCategory(name)}
-                    className={`px-3 py-1 rounded-full text-sm ${
+                    className={`px-2 py-1 rounded-full text-sm ${
                       selectedCategory === name
                         ? 'bg-primary text-primary-foreground'
                         : 'bg-muted hover:bg-muted/70'
@@ -297,14 +297,14 @@ const DictionaryPage = () => {
             </div>
 
             {/* Barre de recherche améliorée */}
-            <div className="mb-6 relative">
+            <div className="mb-2 relative">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                 <input
                   ref={searchInputRef}
                   type="text"
-                  placeholder={t('dicionario.pesquisarPalavras')}
-                  className="w-full pl-10 pr-12 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
+                  placeholder={t('dictionary.pesquisarPalavras')}
+                  className="w-full pl-10 pr-12 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-background text-foreground"
                   value={searchTerm}
                   onChange={(e) => handleSearchChange(e.target.value)}
                   onFocus={() => setIsSearchFocused(true)}
@@ -324,22 +324,22 @@ const DictionaryPage = () => {
               {isSearchFocused && searchHistory.length > 0 && !searchTerm && (
                 <div className="absolute top-full left-0 right-0 mt-1 bg-card border border-border rounded-lg shadow-lg z-10 max-h-60 overflow-y-auto">
                   <div className="flex items-center justify-between p-3 border-b border-border">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1">
                       <History className="h-4 w-4 text-muted-foreground" />
-                      <span className="text-sm font-medium">Recherches récentes</span>
+                      <span className="text-sm font-medium">{t('dictionary.pesquisasRecentes')}</span>
                     </div>
                     <button
                       onClick={clearSearchHistory}
                       className="text-xs text-muted-foreground hover:text-foreground"
                     >
-                      Effacer tout
+                      {t('dictionary.limparTudo')}
                     </button>
                   </div>
                   {searchHistory.map((term, index) => (
                     <button
                       key={index}
                       onClick={() => handleHistorySelect(term)}
-                      className="w-full text-left px-3 py-2 hover:bg-muted flex items-center justify-between group"
+                      className="w-full text-left px-2 py-1 hover:bg-muted flex items-center justify-between group"
                     >
                       <span className="text-sm">{term}</span>
                       <button
@@ -359,16 +359,16 @@ const DictionaryPage = () => {
 
             {/* Suggestions IA */}
             {aiSuggestions.length > 0 && (
-              <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+              <div className="mb-2 p-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg">
                 <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-3">
-                  {t('dicionario.suggestionsIA')}
+                  {t('dictionary.suggestionsIA')}
                 </h3>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1">
                   {aiSuggestions.map((entry) => (
                     <button
                       key={entry.id}
                       onClick={() => setSearchTerm(entry.word)}
-                      className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+                      className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
                     >
                       {entry.word} ({entry.category})
                     </button>
@@ -378,22 +378,22 @@ const DictionaryPage = () => {
             )}
 
             {/* Compteur */}
-            <div className="mb-6 p-4 bg-muted/30 rounded-lg">
+            <div className="mb-2 p-4 bg-muted/30 rounded-lg">
               <p className="text-lg">
                 <span className="text-3xl font-bold text-primary">{filteredDictionary.length}</span>
-                <span className="text-muted-foreground ml-2">{t('dicionario.palavrasNoDicionario')}</span>
+                <span className="text-muted-foreground ml-2">{t('dictionary.palavrasNoDicionario')}</span>
               </p>
             </div>
 
             {/* Grille de mots améliorée */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1">
               {filteredDictionary.map((entry: DictionaryEntry) => (
                 <div key={entry.id} className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow">
                   <div className="flex justify-between items-start mb-3">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1">
                       <h3 className="text-xl font-bold text-primary">{entry.word}</h3>
                       <button
-                        onClick={() => speakWord(entry.word, 'cv')}
+                        onClick={() => speakWord(entry.word, 'kea')}
                         className="p-1 text-muted-foreground hover:text-primary transition-colors"
                         aria-label={`Prononcer ${entry.word} en créole`}
                       >
@@ -405,14 +405,14 @@ const DictionaryPage = () => {
                       className={`p-1 ${
                         favorites.has(entry.id) ? 'text-yellow-400' : 'text-muted-foreground hover:text-yellow-400'
                       }`}
-                      aria-label={favorites.has(entry.id) ? t('dicionario.removerDosFavoritos') : t('dicionario.adicionarAosFavoritos')}
+                      aria-label={favorites.has(entry.id) ? t('dictionary.removerDosFavoritos') : t('dictionary.adicionarAosFavoritos')}
                     >
                       <Star className="h-5 w-5" fill={favorites.has(entry.id) ? 'currentColor' : 'none'} aria-hidden="true" />
                     </button>
                   </div>
 
                   <div className="space-y-2 text-sm">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1">
                       <strong className="text-foreground">PT:</strong>
                       <span className="text-muted-foreground flex-1">{entry.translation.pt}</span>
                       <button
@@ -423,11 +423,11 @@ const DictionaryPage = () => {
                         <Volume2 className="h-3 w-3" />
                       </button>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-1">
                       <strong className="text-foreground">CV:</strong>
-                      <span className="text-muted-foreground flex-1">{entry.translation.cv}</span>
+                      <span className="text-muted-foreground flex-1">{entry.translation.kea}</span>
                       <button
-                        onClick={() => speakWord(entry.translation.cv, 'cv')}
+                        onClick={() => speakWord(entry.translation.kea, 'kea')}
                         className="p-1 text-muted-foreground hover:text-primary transition-colors"
                         aria-label={`Prononcer la traduction créole`}
                       >
@@ -437,13 +437,13 @@ const DictionaryPage = () => {
 
                     {entry.example && (
                       <div className="pt-2 mt-2 border-t border-border space-y-1">
-                        <div className="flex items-start gap-2">
-                          <strong className="text-foreground text-xs flex-shrink-0">Exemplo (PT):</strong>
+                        <div className="flex items-start gap-1">
+                          <strong className="text-foreground text-xs flex-shrink-0">{t('dictionary.exemploPT')}</strong>
                           <span className="text-muted-foreground italic text-xs flex-1">{entry.example.pt}</span>
                         </div>
-                        <div className="flex items-start gap-2">
-                          <strong className="text-foreground text-xs flex-shrink-0">Exemplo (CV):</strong>
-                          <span className="text-muted-foreground italic text-xs flex-1">{entry.example.cv}</span>
+                        <div className="flex items-start gap-1">
+                          <strong className="text-foreground text-xs flex-shrink-0">{t('dictionary.exemploCV')}</strong>
+                          <span className="text-muted-foreground italic text-xs flex-1">{entry.example.kea}</span>
                         </div>
                       </div>
                     )}
@@ -454,21 +454,21 @@ const DictionaryPage = () => {
 
             {filteredDictionary.length === 0 && (
               <div className="text-center py-12">
-                <p className="text-muted-foreground text-lg">{t('dicionario.nenhumaPalavraEncontrada')}</p>
+                <p className="text-muted-foreground text-lg">{t('dictionary.nenhumaPalavraEncontrada')}</p>
               </div>
             )}
           </div>
         ) : (
           <div>
             {favoriteEntries.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1">
                 {favoriteEntries.map((entry: DictionaryEntry) => (
                   <div key={entry.id} className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow">
                     <div className="flex justify-between items-start mb-3">
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-1">
                         <h3 className="text-xl font-bold text-primary">{entry.word}</h3>
                         <button
-                          onClick={() => speakWord(entry.word, 'cv')}
+                          onClick={() => speakWord(entry.word, 'kea')}
                           className="p-1 text-muted-foreground hover:text-primary transition-colors"
                           aria-label={`Prononcer ${entry.word} en créole`}
                         >
@@ -478,14 +478,14 @@ const DictionaryPage = () => {
                       <button
                         onClick={() => toggleFavorite(entry.id)}
                         className="p-1 text-yellow-400 hover:text-yellow-500"
-                        aria-label={t('dicionario.removerDosFavoritos')}
+                        aria-label={t('dictionary.removerDosFavoritos')}
                       >
                         <Star className="h-5 w-5" fill="currentColor" aria-hidden="true" />
                       </button>
                     </div>
 
                     <div className="space-y-2 text-sm">
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-1">
                         <strong className="text-foreground">PT:</strong>
                         <span className="text-muted-foreground flex-1">{entry.translation.pt}</span>
                         <button
@@ -496,11 +496,11 @@ const DictionaryPage = () => {
                           <Volume2 className="h-3 w-3" />
                         </button>
                       </div>
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-1">
                         <strong className="text-foreground">CV:</strong>
-                        <span className="text-muted-foreground flex-1">{entry.translation.cv}</span>
+                        <span className="text-muted-foreground flex-1">{entry.translation.kea}</span>
                         <button
-                          onClick={() => speakWord(entry.translation.cv, 'cv')}
+                          onClick={() => speakWord(entry.translation.kea, 'kea')}
                           className="p-1 text-muted-foreground hover:text-primary transition-colors"
                           aria-label={`Prononcer la traduction créole`}
                         >
@@ -510,13 +510,13 @@ const DictionaryPage = () => {
 
                       {entry.example && (
                         <div className="pt-2 mt-2 border-t border-border space-y-1">
-                          <div className="flex items-start gap-2">
-                            <strong className="text-foreground text-xs flex-shrink-0">Exemplo (PT):</strong>
+                          <div className="flex items-start gap-1">
+                            <strong className="text-foreground text-xs flex-shrink-0">{t('dictionary.exemploPT')}</strong>
                             <span className="text-muted-foreground italic text-xs flex-1">{entry.example.pt}</span>
                           </div>
-                          <div className="flex items-start gap-2">
-                            <strong className="text-foreground text-xs flex-shrink-0">Exemplo (CV):</strong>
-                            <span className="text-muted-foreground italic text-xs flex-1">{entry.example.cv}</span>
+                          <div className="flex items-start gap-1">
+                            <strong className="text-foreground text-xs flex-shrink-0">{t('dictionary.exemploCV')}</strong>
+                            <span className="text-muted-foreground italic text-xs flex-1">{entry.example.kea}</span>
                           </div>
                         </div>
                       )}
@@ -526,14 +526,14 @@ const DictionaryPage = () => {
               </div>
             ) : (
               <div className="text-center py-16">
-                <Star className="mx-auto h-16 w-16 text-muted-foreground mb-4" aria-hidden="true" />
+                <Star className="mx-auto h-16 w-16 text-muted-foreground mb-2" aria-hidden="true" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">{t('favoritos.tituloVazio')}</h3>
-                <p className="text-muted-foreground mb-6">
+                <p className="text-muted-foreground mb-2">
                   {t('favoritos.descricaoVazia')}
                 </p>
                 <button
                   onClick={() => setActiveTab('dictionary')}
-                  className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-colors"
+                  className="inline-flex items-center px-2 py-1 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-colors"
                 >
                   {t('favoritos.procurarNoDicionario')}
                 </button>

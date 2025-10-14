@@ -40,7 +40,7 @@ export function ThemeToggle() {
           ) : (
             <Sun className="h-4 w-4" />
           )}
-          <span className="sr-only">{t('iu.tema.mudar')}</span>
+          <span className="sr-only">{t('settings.changeTheme')}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-40 border-2 shadow-lg bg-white dark:bg-zinc-950 z-[60]"> {/* Remplacé bg-popover par bg-white dark:bg-zinc-950 et ajouté z-[60] */}
@@ -48,21 +48,21 @@ export function ThemeToggle() {
           onClick={() => setTheme("light")}
           className="flex items-center justify-between"
         >
-          <span>{t('iu.tema.claro')}</span>
+          <span>{t('settings.light')}</span>
           <Sun className="h-4 w-4" />
         </DropdownMenuItem>
         <DropdownMenuItem 
           onClick={() => setTheme("dark")}
           className="flex items-center justify-between"
         >
-          <span>{t('iu.tema.sombrio')}</span>
+          <span>{t('settings.dark')}</span>
           <Moon className="h-4 w-4" />
         </DropdownMenuItem>
         <DropdownMenuItem 
           onClick={() => setTheme("system")}
           className="flex items-center justify-between"
         >
-          <span>{t('iu.tema.sistema')}</span>
+          <span>{t('settings.system')}</span>
           <Laptop className="h-4 w-4" />
         </DropdownMenuItem>
       </DropdownMenuContent>

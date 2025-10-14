@@ -1,6 +1,6 @@
 export type TranslationValue = {
   pt: string;
-  cv: string;
+  kea: string;
   [key: string]: string; // Pour d'autres langues
 };
 
@@ -32,7 +32,7 @@ export interface Translations {
     carregando: TranslationValue;
     tema: {
       pt: string;
-      cv: string;
+      kea: string;
       mudar: TranslationValue;
       claro: TranslationValue;
       sombrio: TranslationValue;

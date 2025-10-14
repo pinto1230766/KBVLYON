@@ -1,0 +1,6 @@
+@echo off
+echo Arret du serveur...
+taskkill /F /IM node.exe 2>nul
+timeout /t 2 /nobreak >nul
+echo Redemarrage du serveur...
+start cmd /k "npm run dev"

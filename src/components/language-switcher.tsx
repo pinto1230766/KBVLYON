@@ -1,41 +1,35 @@
 import { useLanguage } from '../hooks/useLanguage';
 import { Button } from '@/components/ui/button';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Languages } from 'lucide-react';
 
 const languages = [
-  { code: 'pt', name: 'Português', flag: '🇵🇹' },
-  { code: 'cv', name: 'Kriolu', flag: '🇨🇻' },
+  { code: 'pt', label: 'Português' },
+  { code: 'kea', label: 'Crioulo' },
 ];
 
 export const LanguageSwitcher = () => {
   const { language, setLanguage, t } = useLanguage();
 
-  const changeLanguage = (lng: string) => {
-    setLanguage(lng as 'pt' | 'cv');
+  const cycleLanguage = () => {
+    const currentIndex = languages.findIndex(lang => lang.code === language);
+    const nextIndex = (currentIndex + 1) % languages.length;
+    const nextLanguage = languages[nextIndex];
+    setLanguage(nextLanguage.code as 'pt' | 'kea');
   };
 
+  const currentLanguage = languages.find(lang => lang.code === language);
+
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon">
-          <Languages className="h-5 w-5" />
-          <span className="sr-only">{t('iu.mudarIdioma')}</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        {languages.map((lang) => (
-          <DropdownMenuItem
-            key={lang.code}
-            onClick={() => changeLanguage(lang.code)}
-            className={language === lang.code ? 'bg-accent' : ''}
-          >
-            <span className="mr-2">{lang.flag}</span>
-            {lang.name}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <Button
+      variant="ghost"
+      size="default"
+      onClick={cycleLanguage}
+      className="flex items-center gap-2 px-3"
+    >
+      <span className="text-sm font-medium">{currentLanguage?.label}</span>
+      <Languages className="h-4 w-4" />
+      <span className="sr-only">{t('settings.changeLanguage')}</span>
+    </Button>
   );
 };
 

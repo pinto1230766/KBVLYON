@@ -1,11 +1,11 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import pt from './locales/pt.json';
-import cv from './locales/cv.json';
+import kea from './locales/kea.json';
 
 const resources = {
   pt: { translation: pt },
-  cv: { translation: cv },
+  kea: { translation: kea },
 };
 
 i18n

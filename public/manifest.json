@@ -13,20 +13,6 @@
   "categories": ["education", "languages", "productivity", "books"],
   "lang": "pt",
   "dir": "ltr",
-  "screenshots": [
-    {
-      "src": "/images/screenshots/home.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/images/screenshots/lessons.png",
-      "sizes": "390x844",
-      "type": "image/png",
-      "form_factor": "narrow"
-    }
-  ],
   "shortcuts": [
     {
       "name": "Começar Aprendizagem",

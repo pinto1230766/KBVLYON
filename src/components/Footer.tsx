@@ -11,9 +11,8 @@ const Footer: React.FC = () => {
   // La constante 'navigation' a été supprimée car elle n'est plus utilisée.
 
   const resources = [
-    { name: t('rodape.recursosExternos.jwOrg'), href: 'https://www.jw.org/kea/', icon: ExternalLink },
-    { name: t('rodape.recursosExternos.jwLibrary'), href: 'https://www.jw.org/kea/ajuda/jw-library/', icon: ExternalLink },
-    { name: t('rodape.recursosExternos.jwBroadcasting'), href: 'https://www.jw.org/kea/biblioteka-online/tv-jw-org/', icon: ExternalLink },
+    { name: t('footer.jwOrg'), href: 'https://www.jw.org/kea/', icon: ExternalLink },
+    { name: t('footer.jwLibrary'), href: 'https://www.jw.org/kea/ajuda/jw-library/', icon: ExternalLink },
   ];
 
 
@@ -22,7 +21,7 @@ const Footer: React.FC = () => {
       <div className="container py-2">
         {/* Section Ressources */}
         <div className="border-t border-border pt-2 mb-2">
-          <h3 className="font-medium text-xs mb-1">{t('paginaInicial.tituloRecursos')}</h3>
+          <h3 className="font-medium text-xs mb-1">{t('home.resources')}</h3>
           <div className="flex flex-wrap gap-x-2 gap-y-0.5">
             {resources.map((item) => (
               <a
@@ -43,17 +42,17 @@ const Footer: React.FC = () => {
         <div className="border-t border-border pt-2">
           <div className="flex flex-col md:flex-row justify-between items-center gap-0.5">
             <p className="text-muted-foreground text-[10px] text-center md:text-left">
-              &copy; {currentYear} KBVLYON. {t('rodape.direitos')}
+              &copy; {currentYear} KBVLYON. {t('footer.rights')}
             </p>
             <div className="flex flex-wrap justify-center gap-x-2 gap-y-0.5">
               <Link to="/privacy-policy" className="text-muted-foreground hover:text-foreground text-[10px]">
-                {t('rodape.privacidade')}
+                {t('common.privacy')}
               </Link>
               <Link to="/terms-of-service" className="text-muted-foreground hover:text-foreground text-[10px]">
-                {t('rodape.termos')}
+                {t('common.terms')}
               </Link>
               <Link to="/cookie-policy" className="text-muted-foreground hover:text-foreground text-[10px]">
-                {t('rodape.cookies')}
+                {t('common.cookies')}
               </Link>
             </div>
           </div>

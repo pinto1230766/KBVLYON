@@ -21,7 +21,7 @@ const translations = {
     email: 'pinto12397@gmail.com',
     agradecimento: 'Obrigado por utilizar o KBVLYON. Estamos constantemente a melhorar o aplicativo para o apoiar no ministério.'
   },
-  cv: {
+  kea: {
     titulo: 'Konsernu Nos',
     versao: 'Verson 1.10',
     boasVindas: 'Bem-bindu na KBVLYON, bu kumpanhé pa aprende kriolu kabuverdianu i apoiu na ministériu.',
@@ -69,7 +69,7 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-semibold px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">
-                    🇵🇹 Português
+                    🇵🇹 PT
                   </span>
                 </div>
                 <p className="text-lg font-medium leading-relaxed">
@@ -79,11 +79,11 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-semibold px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded">
-                    🇨🇻 Kriolu
+                    🇨🇻 Crioulo
                   </span>
                 </div>
                 <p className="text-lg font-medium leading-relaxed">
-                  {translations.cv.boasVindas}
+                  {translations.kea.boasVindas}
                 </p>
               </div>
             </div>
@@ -94,9 +94,9 @@ export default function AboutPage() {
             <p className="leading-relaxed">
               {content.textoMissao}
             </p>
-            {language !== 'cv' && (
+            {language !== 'kea' && (
               <p className="text-sm text-muted-foreground mt-2 italic">
-                [translate:] {translations.cv.textoMissao}
+                [translate:] {translations.kea.textoMissao}
               </p>
             )}
           </div>
@@ -128,11 +128,11 @@ export default function AboutPage() {
             <p className="text-sm leading-relaxed text-foreground/80">
               {content.textoCompromisso}
             </p>
-            {language !== 'cv' && (
+            {language !== 'kea' && (
               <div className="mt-4 p-3 bg-muted/50 rounded-lg">
                 <p className="text-xs text-muted-foreground mb-1">[translate:] Versão em Crioulo:</p>
                 <p className="text-sm leading-relaxed text-foreground/80">
-                  {translations.cv.textoCompromisso}
+                  {translations.kea.textoCompromisso}
                 </p>
               </div>
             )}

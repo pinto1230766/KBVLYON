@@ -4,14 +4,14 @@ import { useLanguage } from '../hooks/useLanguage';
 import { Home } from 'lucide-react';
 
 const NotFoundPage: React.FC = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <div className="text-center">
         <h1 className="text-9xl font-bold text-primary-dark">404</h1>
         <h2 className="text-3xl font-bold mb-6">
-          {language === 'pt' ? 'Página não encontrada' : 'Pájina ka atxadu'}
+          {t('paginaNaoEncontrada')}
         </h2>
         <p className="text-gray-600 mb-8">
           {language === 'pt' 

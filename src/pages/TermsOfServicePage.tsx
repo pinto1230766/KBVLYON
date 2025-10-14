@@ -2,12 +2,12 @@ import React from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 
 const TermsOfServicePage: React.FC = () => {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
 
   return (
     <div className="container mx-auto p-4 sm:p-6">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
-        {language === 'pt' ? 'Termos de Serviço' : 'Termus di Servisu'}
+        {t('common.terms')}
       </h1>
       <div className="prose dark:prose-invert max-w-none">
         <p>

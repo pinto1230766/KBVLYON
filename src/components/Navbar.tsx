@@ -13,22 +13,30 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: t('navegacao.inicio'), href: '/' },
-    { name: t('navegacao.predicacao'), href: '/preaching' },
-    { name: t('navegacao.gramaticaDicionario'), href: '/grammar-dictionary' },
-    { name: t('dicionario.titulo'), href: '/dictionary' },
-    { name: t('navegacao.licoesExercicios'), href: '/lessons' },
-    { name: t('navegacao.estudosBiblicos'), href: '/bible-studies' },
-    { name: t('navegacao.notas'), href: '/notes' },
-    { name: t('navegacao.sobre'), href: '/about' },
+    { name: t('navigation.home'), href: '/' },
+    { name: t('navigation.preaching'), href: '/preaching' },
+    { name: t('navigation.grammar'), href: '/grammar-dictionary' },
+    { name: t('navigation.dictionary'), href: '/dictionary' },
+    { name: t('navigation.lessons'), href: '/lessons' },
+    { name: t('navigation.scores'), href: '/scores' },
+    { name: t('navigation.bibleStudies'), href: '/bible-studies' },
+    { name: t('navigation.notes'), href: '/notes' },
+    { name: t('navigation.about'), href: '/about' },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 safe-area-padding-top mobile-safe-top">
       <div className="container flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground font-semibold">K</div>
-          <span className="hidden text-base font-semibold tracking-wide text-foreground sm:inline-block">KBVLYON</span>
+          <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 flex items-center justify-center shadow-lg">
+            <svg viewBox="0 0 100 100" className="h-8 w-8 text-white">
+              <path d="M20,80 L20,20 L50,50 L20,80 M50,50 L80,20 L80,80 L50,50" fill="currentColor" stroke="currentColor" strokeWidth="3" strokeLinejoin="miter"/>
+            </svg>
+          </div>
+          <span className="hidden text-base font-bold tracking-tight text-foreground sm:inline-block">
+            <span className="block text-sm leading-tight">KVB 1</span>
+            <span className="block text-xs font-normal opacity-70">PF.ORG</span>
+          </span>
         </Link>
 
         <nav className="hidden flex-1 items-center justify-center gap-6 text-sm font-medium text-foreground/70 md:flex">
