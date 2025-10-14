@@ -17,24 +17,60 @@ const HomePage = () => {
   // Function to get daily text from JW.ORG API
   const fetchDailyText = async () => {
     try {
+      // Try the official JW.ORG API for daily text
       const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
-      const response = await fetch(`https://www.jw.org/finder?srcid=jwlshare&wtlocale=KBV&prefer=lang&alias=daily-text&date=${today}&return=json`);
 
-      if (!response.ok) {
-        throw new Error('Failed to fetch daily text');
+      // First try the direct API endpoint
+      const apiUrl = `https://data.jw-api.org/mediator/v1/dailyText?lang=KBV&date=${today}`;
+      console.log('Fetching from JW API:', apiUrl);
+
+      const response = await fetch(apiUrl, {
+        headers: {
+          'Accept': 'application/json',
+          'User-Agent': 'KBVLYON-App/1.0'
+        }
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log('JW API Response:', data);
+
+        if (data && data.scripture && data.scripture.length > 0) {
+          const scripture = data.scripture[0];
+          setDailyText({
+            psalm: scripture.bookName || "Texto Diário",
+            verse: scripture.verse || "Texto não disponível"
+          });
+          return;
+        }
       }
 
-      const data = await response.json();
+      // Fallback: Try alternative endpoint
+      console.log('Trying alternative endpoint...');
+      const altResponse = await fetch(`https://www.jw.org/finder?wtlocale=KBV&alias=daily-text&date=${today}`, {
+        headers: {
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
+      });
 
-      // Extract the daily text from JW.ORG response
-      if (data && data.items && data.items.length > 0) {
-        const item = data.items[0];
-        setDailyText({
-          psalm: item.title || "Texto Diário",
-          verse: item.content || "Texto não disponível"
-        });
-        return;
+      if (altResponse.ok) {
+        const html = await altResponse.text();
+        console.log('HTML Response length:', html.length);
+
+        // Simple HTML parsing for daily text (fallback approach)
+        const titleMatch = html.match(/<title>(.*?)<\/title>/i);
+        const contentMatch = html.match(/<p[^>]*>(.*?)<\/p>/i);
+
+        if (titleMatch && contentMatch) {
+          setDailyText({
+            psalm: titleMatch[1] || "Texto Diário",
+            verse: contentMatch[1] || "Texto não disponível"
+          });
+          return;
+        }
       }
+
     } catch (error) {
       console.error('Error fetching daily text:', error);
     }
@@ -43,7 +79,9 @@ const HomePage = () => {
     const fallbackTexts = [
       { psalm: "Salmo 83:18", verse: "\"Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra.\"" },
       { psalm: "Salmo 100:3", verse: "\"Sabei que Jeová é Deus; foi ele que nos fez, e somos dele.\"" },
-      { psalm: "Salmo 119:105", verse: "\"A tua palavra é lâmpada para os meus pés e luz para o meu caminho.\"" }
+      { psalm: "Salmo 119:105", verse: "\"A tua palavra é lâmpada para os meus pés e luz para o meu caminho.\"" },
+      { psalm: "Provérbios 3:5-6", verse: "\"Confia em Jeová de todo o teu coração e não te apoies no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.\"" },
+      { psalm: "Filipenses 4:13", verse: "\"Tudo posso naquele que me fortalece.\"" }
     ];
 
     const now = new Date();
