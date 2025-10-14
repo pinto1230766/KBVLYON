@@ -1,10 +1,12 @@
  import { Link } from 'react-router-dom';
+ import { useEffect, useState } from 'react';
  import { useLanguage } from '../hooks/useLanguage';
  import { MessageCircle, Book, BookOpen, StickyNote, Settings, BookMarked } from 'lucide-react';
  import OptimizedImage from '../components/OptimizedImage';
 
 const HomePage = () => {
   const { t } = useLanguage();
+  const [dailyText, setDailyText] = useState({ psalm: "Carregando...", verse: "Aguarde..." });
 
   const currentDate = new Date().toLocaleDateString('pt-PT', {
     day: '2-digit',
@@ -12,26 +14,48 @@ const HomePage = () => {
     year: 'numeric'
   });
 
-  // Function to get daily text based on current date
-  const getDailyText = () => {
-    const texts = [
+  // Function to get daily text from JW.ORG API
+  const fetchDailyText = async () => {
+    try {
+      const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+      const response = await fetch(`https://www.jw.org/finder?srcid=jwlshare&wtlocale=KBV&prefer=lang&alias=daily-text&date=${today}&return=json`);
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch daily text');
+      }
+
+      const data = await response.json();
+
+      // Extract the daily text from JW.ORG response
+      if (data && data.items && data.items.length > 0) {
+        const item = data.items[0];
+        setDailyText({
+          psalm: item.title || "Texto Diário",
+          verse: item.content || "Texto não disponível"
+        });
+        return;
+      }
+    } catch (error) {
+      console.error('Error fetching daily text:', error);
+    }
+
+    // Fallback texts if API fails
+    const fallbackTexts = [
       { psalm: "Salmo 83:18", verse: "\"Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra.\"" },
       { psalm: "Salmo 100:3", verse: "\"Sabei que Jeová é Deus; foi ele que nos fez, e somos dele.\"" },
-      { psalm: "Salmo 119:105", verse: "\"A tua palavra é lâmpada para os meus pés e luz para o meu caminho.\"" },
-      { psalm: "Provérbios 3:5-6", verse: "\"Confia em Jeová de todo o teu coração e não te apoies no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.\"" },
-      { psalm: "Isaías 41:10", verse: "\"Não temas, pois eu estou contigo; não te assustes, pois eu sou o teu Deus. Eu te fortaleço, e certamente te ajudo; eu te sustento com a minha mão direita vitoriosa.\"" },
-      { psalm: "Filipenses 4:13", verse: "\"Tudo posso naquele que me fortalece.\"" },
-      { psalm: "Salmo 46:1", verse: "\"Deus é o nosso refúgio e a nossa força, auxílio sempre presente nas tribulações.\"" }
+      { psalm: "Salmo 119:105", verse: "\"A tua palavra é lâmpada para os meus pés e luz para o meu caminho.\"" }
     ];
 
     const now = new Date();
     const start = new Date(now.getFullYear(), 0, 0);
     const diff = now.getTime() - start.getTime();
     const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-    return texts[dayOfYear % texts.length];
+    setDailyText(fallbackTexts[dayOfYear % fallbackTexts.length]);
   };
 
-  const dailyText = getDailyText();
+  useEffect(() => {
+    fetchDailyText();
+  }, []);
 
   const cards = [
     {
