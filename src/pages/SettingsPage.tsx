@@ -1,9 +1,9 @@
 import { useLanguage } from '../hooks/useLanguage';
 import { NotificationSettings } from '../components/NotificationSettings';
 import { LanguageSwitcher } from '../components/language-switcher';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '../components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
+import { Badge } from '../components/ui/badge';
 import { Globe, Bell, Shield, Database, Palette, Smartphone } from 'lucide-react';
 
 const SettingsPage = () => {

@@ -1,37 +1,116 @@
- import { Link } from 'react-router-dom';
- import { useLanguage } from '../hooks/useLanguage';
- import { MessageCircle, Book, BookOpen, StickyNote, Settings, BookMarked } from 'lucide-react';
- import OptimizedImage from '../components/OptimizedImage';
+ import { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useLanguage } from '../hooks/useLanguage';
+import { MessageCircle, Book, BookOpen, StickyNote, Settings, BookMarked } from 'lucide-react';
+import OptimizedImage from '../components/OptimizedImage';
+
+type DailyTextEntry = {
+  reference: string;
+  content: string;
+};
+
+const fallbackDailyTexts: Record<'pt' | 'kea', DailyTextEntry[]> = {
+  pt: [
+    { reference: 'Salmo 83:18', content: 'Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra.' },
+    { reference: 'Salmo 100:3', content: 'Sabei que Jeová é Deus; foi ele que nos fez, e somos dele.' },
+    { reference: 'Salmo 119:105', content: 'A tua palavra é lâmpada para os meus pés e luz para o meu caminho.' },
+    { reference: 'Provérbios 3:5, 6', content: 'Confia em Jeová de todo o teu coração e não te apoies no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.' },
+    { reference: 'Isaías 41:10', content: 'Não temas, pois eu estou contigo; não te assustes, pois eu sou o teu Deus. Eu te fortaleço e te ajudo; eu te sustento com a minha mão direita vitoriosa.' },
+    { reference: 'Filipenses 4:13', content: 'Tudo posso naquele que me fortalece.' },
+    { reference: 'Salmo 46:1', content: 'Deus é o nosso refúgio e a nossa força, auxílio sempre presente nas tribulações.' }
+  ],
+  kea: [
+    { reference: 'Salmu 83:18', content: 'Pa ki tudu povu sabê ki bo, ku nomi Jeová, só bo é Altísimu riba tudu térra.' },
+    { reference: 'Salmu 100:3', content: 'Budzê ki Jeová é Deus; foi el ki fize-nu i nu perte-nha.' },
+    { reference: 'Salmu 119:105', content: 'Palavra di Jeová é lampa pa nha pé i lus pa nha kaminhu.' },
+    { reference: 'Provérbius 3:5, 6', content: 'Konfia na Jeová di tudu korason i ka konta na prôpi entendimento. Rekonoxe-l na tudu bu kaminhu, i el ta dreta bu trilhas.' },
+    { reference: 'Isaías 41:10', content: 'Ka ten medo, pamodi N sta ku bu; ka fika aflitu, pamodi N é bu Deus. N ta da-força, N ta djuda-bu, N ta sustenta-bu ku nha mon diritu.' },
+    { reference: 'Filipensis 4:13', content: 'N pode fazi tudu ku kel ki ta da-m forsa.' },
+    { reference: 'Salmu 46:1', content: 'Deus é nos refújiu i nos fôrti, un ajudu ki simpri sta presinti na trabalisa.' }
+  ]
+};
+
+const stripHtml = (value: string | undefined | null) => {
+  if (!value) {
+    return '';
+  }
+  return value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+};
+
+const getFallbackDailyText = (language: 'pt' | 'kea'): DailyTextEntry => {
+  const entries = fallbackDailyTexts[language] ?? fallbackDailyTexts.pt;
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const diff = now.getTime() - start.getTime();
+  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
+  return entries[dayOfYear % entries.length];
+};
 
 const HomePage = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const [dailyText, setDailyText] = useState<DailyTextEntry>(() => getFallbackDailyText(language));
 
-  const currentDate = new Date().toLocaleDateString('pt-PT', {
-    day: '2-digit',
-    month: '2-digit',
-    year: 'numeric'
-  });
+  const currentDate = useMemo(
+    () => new Date().toLocaleDateString(language === 'kea' ? 'pt-PT' : 'pt-PT', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    }),
+    [language]
+  );
 
-  // Function to get daily text - using static texts for now since JW.ORG API is blocked
-  const getDailyText = () => {
-    const texts = [
-      { psalm: "Salmo 83:18", verse: "\"Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra.\"" },
-      { psalm: "Salmo 100:3", verse: "\"Sabei que Jeová é Deus; foi ele que nos fez, e somos dele.\"" },
-      { psalm: "Salmo 119:105", verse: "\"A tua palavra é lâmpada para os meus pés e luz para o meu caminho.\"" },
-      { psalm: "Provérbios 3:5-6", verse: "\"Confia em Jeová de todo o teu coração e não te apoies no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.\"" },
-      { psalm: "Isaías 41:10", verse: "\"Não temas, pois eu estou contigo; não te assustes, pois eu sou o teu Deus. Eu te fortaleço, e certamente te ajudo; eu te sustento com a minha mão direita vitoriosa.\"" },
-      { psalm: "Filipenses 4:13", verse: "\"Tudo posso naquele que me fortalece.\"" },
-      { psalm: "Salmo 46:1", verse: "\"Deus é o nosso refúgio e a nossa força, auxílio sempre presente nas tribulações.\"" }
-    ];
+  useEffect(() => {
+    let isMounted = true;
+    const controller = new AbortController();
 
-    const now = new Date();
-    const start = new Date(now.getFullYear(), 0, 0);
-    const diff = now.getTime() - start.getTime();
-    const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-    return texts[dayOfYear % texts.length];
-  };
+    const loadDailyText = async () => {
+      const today = new Date().toISOString().split('T')[0];
+      const apiLang = language === 'kea' ? 'KBV' : 'PT';
 
-  const dailyText = getDailyText();
+      try {
+        const response = await fetch(`https://data.jw-api.org/mediator/v1/dailyText?lang=${apiLang}&date=${today}`, {
+          headers: {
+            Accept: 'application/json',
+          },
+          signal: controller.signal,
+        });
+
+        if (!response.ok) {
+          throw new Error(`JW API responded with ${response.status}`);
+        }
+
+        const data = await response.json();
+        const scriptureList = Array.isArray(data?.scripture) ? data.scripture : [];
+        const scripture = scriptureList[0] ?? null;
+        const dailyEntry = data?.dailyText ?? {};
+
+        const reference = stripHtml(scripture?.bookName || dailyEntry?.title);
+        const content = stripHtml(scripture?.verse || dailyEntry?.text);
+
+        if (reference && content && isMounted) {
+          setDailyText({ reference, content });
+          return;
+        }
+
+        if (isMounted) {
+          setDailyText(getFallbackDailyText(language));
+        }
+      } catch (error) {
+        console.warn('Daily text fetch failed, using fallback.', error);
+        if (isMounted) {
+          setDailyText(getFallbackDailyText(language));
+        }
+      }
+    };
+
+    setDailyText(getFallbackDailyText(language));
+    loadDailyText();
+
+    return () => {
+      isMounted = false;
+      controller.abort();
+    };
+  }, [language]);
 
   const cards = [
     {
@@ -101,9 +180,9 @@ const HomePage = () => {
                   {currentDate}
                 </span>
               </div>
-              <p className="mb-1 text-xs font-semibold text-primary">{dailyText.psalm}</p>
+              <p className="mb-1 text-xs font-semibold text-primary">{dailyText.reference}</p>
               <p className="text-xs leading-relaxed text-foreground">
-                {dailyText.verse}
+                {dailyText.content}
               </p>
             </div>
 
