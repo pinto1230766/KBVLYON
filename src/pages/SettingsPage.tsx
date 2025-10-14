@@ -1,4 +1,4 @@
-import { useLanguage } from '../hooks/useLanguage';
+aimport { useLanguage } from '../hooks/useLanguage';
 import { NotificationSettings } from '../components/NotificationSettings';
 import { LanguageSwitcher } from '../components/language-switcher';
 import { Button } from '@/components/ui/button';
@@ -13,69 +13,69 @@ const SettingsPage = () => {
     {
       icon: Globe,
       title: t('settings.changeLanguage'),
-      description: 'Alterne entre português e crioulo capverdiano',
+      description: t('settings.languageDescription'),
       component: <LanguageSwitcher />
     },
     {
       icon: Bell,
       title: t('settings.notifications'),
-      description: 'Gerencie notificações da aplicação',
+      description: t('settings.notificationsDescription'),
       component: <NotificationSettings />
     },
     {
       icon: Palette,
       title: t('settings.theme'),
-      description: 'Escolha entre tema claro, escuro ou automático',
+      description: t('settings.themeDescription'),
       component: (
         <div className="flex gap-2">
-          <Badge variant="outline">Claro</Badge>
-          <Badge variant="outline">Escuro</Badge>
-          <Badge variant="outline">Sistema</Badge>
+          <Badge variant="outline">{t('settings.light')}</Badge>
+          <Badge variant="outline">{t('settings.dark')}</Badge>
+          <Badge variant="outline">{t('settings.system')}</Badge>
         </div>
       )
     },
     {
       icon: Shield,
-      title: 'Permissões',
-      description: 'Controle de acesso à câmera, microfone e localização',
+      title: t('settings.permissions'),
+      description: t('settings.permissionsDescription'),
       component: (
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-sm">Câmera</span>
-            <Badge variant="secondary">Permitido</Badge>
+            <span className="text-sm">{t('settings.camera')}</span>
+            <Badge variant="secondary">{t('settings.allowed')}</Badge>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-sm">Microfone</span>
-            <Badge variant="secondary">Permitido</Badge>
+            <span className="text-sm">{t('settings.microphone')}</span>
+            <Badge variant="secondary">{t('settings.allowed')}</Badge>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-sm">Localização</span>
-            <Badge variant="secondary">Negado</Badge>
+            <span className="text-sm">{t('settings.location')}</span>
+            <Badge variant="secondary">{t('settings.denied')}</Badge>
           </div>
         </div>
       )
     },
     {
       icon: Database,
-      title: 'Dados',
-      description: 'Gerencie seus dados pessoais e backups',
+      title: t('settings.data'),
+      description: t('settings.dataDescription'),
       component: (
         <div className="flex gap-2">
-          <Button variant="outline" size="sm">Exportar</Button>
-          <Button variant="outline" size="sm">Importar</Button>
-          <Button variant="destructive" size="sm">Limpar Tudo</Button>
+          <Button variant="outline" size="sm">{t('settings.export')}</Button>
+          <Button variant="outline" size="sm">{t('settings.import')}</Button>
+          <Button variant="destructive" size="sm">{t('settings.reset')}</Button>
         </div>
       )
     },
     {
       icon: Smartphone,
-      title: 'Aplicação',
-      description: 'Informações sobre a versão e desenvolvedor',
+      title: t('settings.appInfo'),
+      description: t('settings.appInfoDescription'),
       component: (
         <div className="space-y-1 text-sm">
           <p><strong>{t('settings.version')}:</strong> 1.10.1</p>
           <p><strong>{t('settings.developedBy')}:</strong> Pinto Francisco</p>
-          <p><strong>Idioma atual:</strong> {language === 'pt' ? '🇵🇹 Português' : '🇨🇻 Crioulo'}</p>
+          <p><strong>{t('settings.currentLanguage')}:</strong> {language === 'pt' ? '🇵🇹 Português' : '🇨🇻 Crioulo'}</p>
           <p className="text-xs text-muted-foreground">© 2024 Pinto Francisco</p>
         </div>
       )
@@ -87,7 +87,7 @@ const SettingsPage = () => {
       <div className="mb-6">
         <h1 className="text-3xl font-bold">{t('settings.title')}</h1>
         <p className="text-muted-foreground mt-2">
-          Configure sua experiência no KBVLYON
+          {t('settings.subtitle')}
         </p>
       </div>
 
