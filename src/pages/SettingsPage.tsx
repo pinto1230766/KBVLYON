@@ -1,4 +1,4 @@
-aimport { useLanguage } from '../hooks/useLanguage';
+import { useLanguage } from '../hooks/useLanguage';
 import { NotificationSettings } from '../components/NotificationSettings';
 import { LanguageSwitcher } from '../components/language-switcher';
 import { Button } from '@/components/ui/button';

@@ -1,12 +1,10 @@
  import { Link } from 'react-router-dom';
- import { useEffect, useState } from 'react';
  import { useLanguage } from '../hooks/useLanguage';
  import { MessageCircle, Book, BookOpen, StickyNote, Settings, BookMarked } from 'lucide-react';
  import OptimizedImage from '../components/OptimizedImage';
 
 const HomePage = () => {
   const { t } = useLanguage();
-  const [dailyText, setDailyText] = useState({ psalm: "Carregando...", verse: "Aguarde..." });
 
   const currentDate = new Date().toLocaleDateString('pt-PT', {
     day: '2-digit',
@@ -14,86 +12,26 @@ const HomePage = () => {
     year: 'numeric'
   });
 
-  // Function to get daily text from JW.ORG API
-  const fetchDailyText = async () => {
-    try {
-      // Try the official JW.ORG API for daily text
-      const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
-
-      // First try the direct API endpoint
-      const apiUrl = `https://data.jw-api.org/mediator/v1/dailyText?lang=KBV&date=${today}`;
-      console.log('Fetching from JW API:', apiUrl);
-
-      const response = await fetch(apiUrl, {
-        headers: {
-          'Accept': 'application/json',
-          'User-Agent': 'KBVLYON-App/1.0'
-        }
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        console.log('JW API Response:', data);
-
-        if (data && data.scripture && data.scripture.length > 0) {
-          const scripture = data.scripture[0];
-          setDailyText({
-            psalm: scripture.bookName || "Texto Diário",
-            verse: scripture.verse || "Texto não disponível"
-          });
-          return;
-        }
-      }
-
-      // Fallback: Try alternative endpoint
-      console.log('Trying alternative endpoint...');
-      const altResponse = await fetch(`https://www.jw.org/finder?wtlocale=KBV&alias=daily-text&date=${today}`, {
-        headers: {
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
-      });
-
-      if (altResponse.ok) {
-        const html = await altResponse.text();
-        console.log('HTML Response length:', html.length);
-
-        // Simple HTML parsing for daily text (fallback approach)
-        const titleMatch = html.match(/<title>(.*?)<\/title>/i);
-        const contentMatch = html.match(/<p[^>]*>(.*?)<\/p>/i);
-
-        if (titleMatch && contentMatch) {
-          setDailyText({
-            psalm: titleMatch[1] || "Texto Diário",
-            verse: contentMatch[1] || "Texto não disponível"
-          });
-          return;
-        }
-      }
-
-    } catch (error) {
-      console.error('Error fetching daily text:', error);
-    }
-
-    // Fallback texts if API fails
-    const fallbackTexts = [
+  // Function to get daily text - using static texts for now since JW.ORG API is blocked
+  const getDailyText = () => {
+    const texts = [
       { psalm: "Salmo 83:18", verse: "\"Para que as pessoas saibam que tu, cujo nome é Jeová, só tu és o Altíssimo sobre toda a terra.\"" },
       { psalm: "Salmo 100:3", verse: "\"Sabei que Jeová é Deus; foi ele que nos fez, e somos dele.\"" },
       { psalm: "Salmo 119:105", verse: "\"A tua palavra é lâmpada para os meus pés e luz para o meu caminho.\"" },
       { psalm: "Provérbios 3:5-6", verse: "\"Confia em Jeová de todo o teu coração e não te apoies no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.\"" },
-      { psalm: "Filipenses 4:13", verse: "\"Tudo posso naquele que me fortalece.\"" }
+      { psalm: "Isaías 41:10", verse: "\"Não temas, pois eu estou contigo; não te assustes, pois eu sou o teu Deus. Eu te fortaleço, e certamente te ajudo; eu te sustento com a minha mão direita vitoriosa.\"" },
+      { psalm: "Filipenses 4:13", verse: "\"Tudo posso naquele que me fortalece.\"" },
+      { psalm: "Salmo 46:1", verse: "\"Deus é o nosso refúgio e a nossa força, auxílio sempre presente nas tribulações.\"" }
     ];
 
     const now = new Date();
     const start = new Date(now.getFullYear(), 0, 0);
     const diff = now.getTime() - start.getTime();
     const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-    setDailyText(fallbackTexts[dayOfYear % fallbackTexts.length]);
+    return texts[dayOfYear % texts.length];
   };
 
-  useEffect(() => {
-    fetchDailyText();
-  }, []);
+  const dailyText = getDailyText();
 
   const cards = [
     {
