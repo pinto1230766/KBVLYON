@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { Camera, Upload, X } from 'lucide-react';
 import { FileText, Users, Calendar, UserPlus, Clock, BarChart2, Trash2, Plus } from 'lucide-react';
 import { useOfflineStorage } from '../hooks/useOfflineStorage';
 import { useTranslation } from 'react-i18next';
@@ -11,6 +12,22 @@ interface CalendarEvent {
   date: Date;
   type: 'predication' | 'etude';
   notes: string;
+}
+
+interface Holiday {
+  id: string;
+  date: Date;
+  name: string;
+  type: 'french' | 'cape_verdean' | 'religious';
+  description?: string;
+}
+
+interface CalendarNote {
+  id: string;
+  date: Date;
+  content: string;
+  timestamp: Date;
+  photos?: string[]; // URLs des photos stockées en base64
 }
 
 interface TimerState {
@@ -73,8 +90,15 @@ const NotesPage: React.FC = () => {
   const [laps, setLaps] = useState<number[]>([]);
   const timerIntervalRef = useRef<number | null>(null);
   const { value: events, setValue: setEvents } = useOfflineStorage<CalendarEvent[]>('notesEvents', []);
+  const { value: calendarNotes, setValue: setCalendarNotes } = useOfflineStorage<CalendarNote[]>('calendarNotes', []);
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [eventForm, setEventForm] = useState<{ type: CalendarEvent['type']; notes: string }>({ type: 'predication', notes: '' });
+  const [noteForm, setNoteForm] = useState<string>('');
+  const [holidays, setHolidays] = useState<Holiday[]>([]);
+  const [photoNoteForm, setPhotoNoteForm] = useState<string>('');
+  const [capturedPhotos, setCapturedPhotos] = useState<string[]>([]);
+  const [isCapturingPhoto, setIsCapturingPhoto] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
   const { value: students, setValue: setStudents } = useOfflineStorage<StudentContact[]>('notesStudents', []);
   const { value: interested, setValue: setInterested } = useOfflineStorage<InterestedContact[]>('notesInterested', []);
   const [studentForm, setStudentForm] = useState<StudentContact>({ id: '', name: '', phone: '', progress: '', lastVisit: '' });
@@ -82,6 +106,70 @@ const NotesPage: React.FC = () => {
   
   // État pour les notifications
   const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+
+  // Fonction pour calculer Pâques et les jours fériés associés
+  const calculateEasterHolidays = useCallback((year: number): Holiday[] => {
+    // Algorithme de Butcher pour calculer la date de Pâques
+    const a = year % 19;
+    const b = Math.floor(year / 100);
+    const c = year % 100;
+    const d = Math.floor(b / 4);
+    const e = b % 4;
+    const f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4);
+    const k = c % 4;
+    const l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const month = Math.floor((h + l - 7 * m + 114) / 31);
+    const day = ((h + l - 7 * m + 114) % 31) + 1;
+
+    const easterDate = new Date(year, month - 1, day);
+
+    // Calculer lundi de Pâques et Ascension
+    const easterMonday = new Date(easterDate);
+    easterMonday.setDate(easterDate.getDate() + 1);
+
+    const ascension = new Date(easterDate);
+    ascension.setDate(easterDate.getDate() + 39);
+
+    return [
+      { id: 'fr-easter', date: easterDate, name: t('notes.holidays.paques'), type: 'french' },
+      { id: 'fr-easter-monday', date: easterMonday, name: t('notes.holidays.lundiDePaques'), type: 'french' },
+      { id: 'fr-ascension', date: ascension, name: t('notes.holidays.ascension'), type: 'french' }
+    ];
+  }, [t]);
+
+  // Données des vacances françaises et capverdiennes (mémoïsées)
+  const frenchHolidays = useMemo((): Holiday[] => [
+    { id: 'fr-01-01', date: new Date(currentMonth.getFullYear(), 0, 1), name: t('notes.holidays.jourDeLan'), type: 'french' },
+    { id: 'fr-05-01', date: new Date(currentMonth.getFullYear(), 4, 1), name: t('notes.holidays.feteDuTravail'), type: 'french' },
+    { id: 'fr-05-08', date: new Date(currentMonth.getFullYear(), 4, 8), name: t('notes.holidays.victoire1945'), type: 'french' },
+    { id: 'fr-07-14', date: new Date(currentMonth.getFullYear(), 6, 14), name: t('notes.holidays.feteNationale'), type: 'french' },
+    { id: 'fr-08-15', date: new Date(currentMonth.getFullYear(), 7, 15), name: t('notes.holidays.assomption'), type: 'french' },
+    { id: 'fr-11-01', date: new Date(currentMonth.getFullYear(), 10, 1), name: t('notes.holidays.toussaint'), type: 'french' },
+    { id: 'fr-11-11', date: new Date(currentMonth.getFullYear(), 10, 11), name: t('notes.holidays.armistice1918'), type: 'french' },
+    { id: 'fr-12-25', date: new Date(currentMonth.getFullYear(), 11, 25), name: t('notes.holidays.noel'), type: 'french' },
+    // Pâques et Ascension (calculées dynamiquement)
+    ...calculateEasterHolidays(currentMonth.getFullYear())
+  ], [currentMonth, t, calculateEasterHolidays]);
+
+  const capeVerdeanHolidays = useMemo((): Holiday[] => [
+    { id: 'cv-01-01', date: new Date(currentMonth.getFullYear(), 0, 1), name: 'Dia de Ano Novo', type: 'cape_verdean' },
+    { id: 'cv-01-13', date: new Date(currentMonth.getFullYear(), 0, 13), name: 'Dia da Democracia', type: 'cape_verdean' },
+    { id: 'cv-01-20', date: new Date(currentMonth.getFullYear(), 0, 20), name: 'Dia dos Heróis Nacionais', type: 'cape_verdean' },
+    { id: 'cv-05-01', date: new Date(currentMonth.getFullYear(), 4, 1), name: 'Dia do Trabalhador', type: 'cape_verdean' },
+    { id: 'cv-07-05', date: new Date(currentMonth.getFullYear(), 6, 5), name: 'Dia da Independência', type: 'cape_verdean' },
+    { id: 'cv-09-12', date: new Date(currentMonth.getFullYear(), 8, 12), name: 'Dia da Nossa Senhora', type: 'cape_verdean' },
+    { id: 'cv-12-25', date: new Date(currentMonth.getFullYear(), 11, 25), name: 'Natal', type: 'cape_verdean' }
+  ], [currentMonth]);
+
+  // Initialiser les vacances au changement de mois
+  useEffect(() => {
+    const allHolidays = [...frenchHolidays, ...capeVerdeanHolidays];
+    setHolidays(allHolidays);
+  }, [currentMonth, frenchHolidays, capeVerdeanHolidays]);
 
 
   // Fonction pour afficher le calendrier
@@ -124,7 +212,7 @@ const NotesPage: React.FC = () => {
             onClick={() => setCurrentMonth(prev => new Date(prev.getFullYear(), prev.getMonth() - 1, 1))}
             className="px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
           >
-            &lt; Précédent
+            &lt; {t('notes.previous')}
           </button>
           <h2 className="text-lg font-semibold">
             {currentMonth.toLocaleString('default', { month: 'long', year: 'numeric' })}
@@ -133,7 +221,7 @@ const NotesPage: React.FC = () => {
             onClick={() => setCurrentMonth(prev => new Date(prev.getFullYear(), prev.getMonth() + 1, 1))}
             className="px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
           >
-            Suivant &gt;
+            {t('notes.next')} &gt;
           </button>
         </div>
         
@@ -147,32 +235,83 @@ const NotesPage: React.FC = () => {
           {days.map((day, index) => {
             const dayOfMonth = day !== null ? new Date(year, month, day) : null;
             const isToday = isCurrentMonth && dayOfMonth && dayOfMonth.getDate() === today.getDate();
+            const dayEvents = day ? getEventsForDay(dayOfMonth) : [];
+            const dayHolidays = day ? getHolidaysForDay(dayOfMonth) : [];
+            const dayNotes = day ? getNotesForDay(dayOfMonth) : [];
+
             return (
-              <button 
-                key={index} 
+              <button
+                key={index}
                 onClick={() => day && handleDayClick(dayOfMonth)}
-                className={`relative min-h-[64px] rounded-lg border text-sm font-medium transition ${
-                  day 
+                className={`group relative min-h-[80px] rounded-lg border text-sm font-medium transition p-1 ${
+                  day
                     ? `bg-white dark:bg-gray-800 ${
-                        isToday ? 'border-blue-500 dark:border-blue-400 shadow-sm' : 'border-gray-200 dark:border-gray-700'
-                      }` 
+                        isToday ? 'border-blue-500 dark:border-blue-400 shadow-sm ring-2 ring-blue-200 dark:ring-blue-800' : 'border-gray-200 dark:border-gray-700'
+                      } ${
+                        dayHolidays.length > 0 ? 'bg-yellow-50 dark:bg-yellow-900/20 border-yellow-300 dark:border-yellow-600' : ''
+                      }`
                     : 'border-transparent'
                 } ${
-                  !day ? 'cursor-default' : 'cursor-pointer hover:border-blue-400 dark:hover:border-blue-300'
+                  !day ? 'cursor-default' : 'cursor-pointer hover:border-blue-400 dark:hover:border-blue-300 hover:shadow-md'
                 }`}
               >
-                {day}
-                {day && getEventsForDay(dayOfMonth).length > 0 && (
-                  <div className="absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1">
-                    {getEventsForDay(dayOfMonth).map((event, idx) => (
-                      <span
-                        key={event.id + idx}
-                        className={`h-2.5 w-2.5 rounded-full ${
-                          event.type === 'predication' ? 'bg-blue-500' : 'bg-emerald-500'
+                <div className="text-center font-semibold mb-1">{day}</div>
+
+                {/* Nom des jours fériés directement affiché */}
+                {dayHolidays.length > 0 && (
+                  <div className="text-xs text-center mb-1">
+                    {dayHolidays.map((holiday, idx) => (
+                      <div
+                        key={`holiday-${holiday.id}-${idx}`}
+                        className={`font-medium ${
+                          holiday.type === 'french' ? 'text-red-700 dark:text-red-300' : 'text-green-700 dark:text-green-300'
                         }`}
-                      />
+                        title={holiday.name}
+                      >
+                        {holiday.name.length > 10 ? holiday.name.substring(0, 8) + '...' : holiday.name}
+                      </div>
                     ))}
                   </div>
+                )}
+
+                {/* Indicateurs pour événements et notes */}
+                <div className="absolute bottom-1 left-1/2 flex -translate-x-1/2 gap-0.5">
+                  {/* Événements */}
+                  {dayEvents.map((event, idx) => (
+                    <span
+                      key={`event-${event.id}-${idx}`}
+                      className={`h-2 w-2 rounded-full ${
+                        event.type === 'predication' ? 'bg-blue-500' : 'bg-emerald-500'
+                      }`}
+                      title={event.type === 'predication' ? 'Predicação' : 'Estudo'}
+                    />
+                  ))}
+                  {/* Notes */}
+                  {dayNotes.length > 0 && (
+                    <span
+                      className="h-2 w-2 rounded-full bg-purple-500"
+                      title={`${dayNotes.length} nota(s)`}
+                    />
+                  )}
+                </div>
+
+                {/* Bouton pour créer une note directement */}
+                {day && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleDayClick(dayOfMonth);
+                      // Ouvrir directement le formulaire de note
+                      setTimeout(() => {
+                        const noteForm = document.querySelector('textarea[placeholder*="nota"]') as HTMLTextAreaElement;
+                        if (noteForm) noteForm.focus();
+                      }, 100);
+                    }}
+                    className="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity w-5 h-5 bg-purple-500 hover:bg-purple-600 text-white rounded-full flex items-center justify-center text-xs"
+                    title={t('notes.createNote')}
+                  >
+                    +
+                  </button>
                 )}
               </button>
             );
@@ -207,6 +346,57 @@ const NotesPage: React.FC = () => {
                 ))}
               </div>
             )}
+
+
+            {/* Section des notes du calendrier */}
+            <div className="space-y-3">
+              <h3 className="font-semibold text-sm text-foreground">{t('notes.notasDoMes')}</h3>
+              {calendarNotes.length === 0 ? (
+                <p className="text-sm text-muted-foreground">{t('notes.nenhumaNota')}</p>
+              ) : (
+                <div className="space-y-2">
+                  {calendarNotes.map((note) => (
+                    <div key={note.id} className="flex flex-col gap-2 rounded-lg border border-border bg-purple-50 dark:bg-purple-900/20 p-3 text-sm">
+                      <div className="flex items-center justify-between">
+                        <span className="font-medium text-foreground">
+                          {new Date(note.date).toLocaleDateString('pt-PT', { day: '2-digit', month: 'short', year: 'numeric' })}
+                        </span>
+                        <span className="text-xs text-muted-foreground">
+                          {note.timestamp.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' })}
+                        </span>
+                      </div>
+                      <p className="text-xs text-foreground">{note.content}</p>
+
+                      {/* Affichage des photos si présentes */}
+                      {note.photos && note.photos.length > 0 && (
+                        <div className="grid grid-cols-3 gap-1 mt-2">
+                          {note.photos.slice(0, 3).map((photo, photoIndex) => (
+                            <img
+                              key={photoIndex}
+                              src={photo}
+                              alt={`Photo ${photoIndex + 1}`}
+                              className="w-full h-12 object-cover rounded border border-border"
+                            />
+                          ))}
+                          {note.photos.length > 3 && (
+                            <div className="w-full h-12 bg-gray-100 dark:bg-gray-700 rounded border border-border flex items-center justify-center text-xs text-gray-500">
+                              +{note.photos.length - 3}
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      <button
+                        onClick={() => handleDeleteNote(note.id)}
+                        className="inline-flex w-fit items-center gap-1 self-end rounded-md border border-border px-2 py-1 text-xs font-medium text-red-500 transition hover:bg-red-50"
+                      >
+                        <Trash2 className="h-3.5 w-3.5" /> {t('notes.botoes.suprimir')}
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
 
           <form onSubmit={(e) => { e.preventDefault(); handleAddEvent(); }} className="space-y-3 rounded-lg border border-border bg-card/40 p-4 text-sm">
@@ -246,6 +436,106 @@ const NotesPage: React.FC = () => {
               {t('notes.botoes.adicionar')}
             </button>
           </form>
+
+          {/* Formulaire pour ajouter des notes au calendrier */}
+          <form onSubmit={(e) => { e.preventDefault(); handleAddNote(); }} className="space-y-3 rounded-lg border border-border bg-card/40 p-4 text-sm">
+            <h3 className="font-semibold text-foreground">{t('notes.adicionarNota')}</h3>
+            <div className="space-y-1">
+              <label className="text-xs font-medium text-muted-foreground dark:text-gray-200">{t('notes.formulario.dataSelecionada')}</label>
+              <input
+                type="text"
+                value={selectedDate ? selectedDate.toLocaleDateString('pt-PT') : t('notes.selecionarData')}
+                readOnly
+                className="w-full cursor-not-allowed rounded-md border border-border bg-muted px-3 py-2 text-sm"
+              />
+            </div>
+            <div className="space-y-1">
+              <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.conteudoNota')}</label>
+              <textarea
+                value={noteForm}
+                onChange={(e) => setNoteForm(e.target.value)}
+                placeholder={t('notes.formulario.notaPlaceholder')}
+                className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                rows={4}
+              />
+            </div>
+            <button type="submit" className="inline-flex items-center gap-2 rounded-md bg-purple-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-purple-700">
+              <Plus className="h-4 w-4" />
+              {t('notes.botoes.adicionarNota')}
+            </button>
+          </form>
+
+          {/* Formulaire pour ajouter des notes avec photos */}
+          <form onSubmit={(e) => { e.preventDefault(); handleAddPhotoNote(); }} className="space-y-3 rounded-lg border border-border bg-card/40 p-4 text-sm">
+            <h3 className="font-semibold text-foreground">{t('notes.adicionarNotaFoto')}</h3>
+            <div className="space-y-1">
+              <label className="text-xs font-medium text-muted-foreground">{t('notes.formulario.conteudoNota')}</label>
+              <textarea
+                value={photoNoteForm}
+                onChange={(e) => setPhotoNoteForm(e.target.value)}
+                placeholder={t('notes.formulario.notaFotoPlaceholder')}
+                className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+                rows={3}
+              />
+            </div>
+
+            {/* Section photos */}
+            <div className="space-y-2">
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={handleCapturePhoto}
+                  disabled={isCapturingPhoto}
+                  className="inline-flex items-center gap-2 rounded-md bg-green-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-green-700 disabled:opacity-50"
+                >
+                  <Camera className="h-4 w-4" />
+                  {isCapturingPhoto ? t('notes.capturing') : t('notes.capturePhoto')}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => fileInputRef.current?.click()}
+                  className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-blue-700"
+                >
+                  <Upload className="h-4 w-4" />
+                  {t('notes.selectPhoto')}
+                </button>
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept="image/*"
+                  onChange={handleFilePhotoSelect}
+                  className="hidden"
+                />
+              </div>
+
+              {/* Aperçu des photos */}
+              {capturedPhotos.length > 0 && (
+                <div className="grid grid-cols-2 gap-2">
+                  {capturedPhotos.map((photo, index) => (
+                    <div key={index} className="relative">
+                      <img
+                        src={photo}
+                        alt={`Photo ${index + 1}`}
+                        className="w-full h-20 object-cover rounded-md border border-border"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => handleRemovePhoto(index)}
+                        className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs hover:bg-red-600"
+                      >
+                        <X className="h-3 w-3" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <button type="submit" className="inline-flex items-center gap-2 rounded-md bg-green-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-green-700">
+              <Plus className="h-4 w-4" />
+              {t('notes.botoes.adicionarNotaFoto')}
+            </button>
+          </form>
         </div>
       </div>
     );
@@ -277,6 +567,131 @@ const NotesPage: React.FC = () => {
   const handleDeleteEvent = (id: string) => {
     setEvents(prev => prev.filter(event => event.id !== id));
     setToast({ message: t('notes.eventoRemovido'), type: 'success' });
+  };
+
+  const handleAddNote = () => {
+    if (!selectedDate) {
+      setToast({ message: t('notes.selecionarData'), type: 'error' });
+      return;
+    }
+
+    if (!noteForm.trim()) {
+      setToast({ message: t('notes.notaObrigatoria'), type: 'error' });
+      return;
+    }
+
+    const newNote: CalendarNote = {
+      id: crypto.randomUUID(),
+      date: selectedDate,
+      content: noteForm.trim(),
+      timestamp: new Date()
+    };
+
+    setCalendarNotes(prev => [...prev, newNote]);
+    setNoteForm('');
+    setToast({ message: t('notes.notaAdicionada'), type: 'success' });
+  };
+
+  const handleDeleteNote = (id: string) => {
+    setCalendarNotes(prev => prev.filter(note => note.id !== id));
+    setToast({ message: t('notes.notaRemovida'), type: 'success' });
+  };
+
+  // Gestionnaire de capture photo
+  const handleCapturePhoto = async () => {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      setToast({ message: t('notes.cameraNotSupported'), type: 'error' });
+      return;
+    }
+
+    try {
+      setIsCapturingPhoto(true);
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { facingMode: 'environment' } // Caméra arrière si disponible
+      });
+
+      const video = document.createElement('video');
+      video.srcObject = stream;
+      video.play();
+
+      // Attendre que la vidéo soit prête
+      await new Promise(resolve => {
+        video.onloadedmetadata = resolve;
+      });
+
+      const canvas = document.createElement('canvas');
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      const ctx = canvas.getContext('2d');
+
+      if (ctx) {
+        ctx.drawImage(video, 0, 0);
+        const photoDataUrl = canvas.toDataURL('image/jpeg', 0.8); // Compression JPEG 80%
+
+        setCapturedPhotos(prev => [...prev, photoDataUrl]);
+        setToast({ message: t('notes.photoCaptured'), type: 'success' });
+      }
+
+      // Arrêter le stream
+      stream.getTracks().forEach(track => track.stop());
+    } catch (error) {
+      console.error('Erreur lors de la capture photo:', error);
+      setToast({ message: t('notes.photoCaptureError'), type: 'error' });
+    } finally {
+      setIsCapturingPhoto(false);
+    }
+  };
+
+  // Gestionnaire de sélection de fichier photo
+  const handleFilePhotoSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    // Validation du type de fichier
+    if (!file.type.startsWith('image/')) {
+      setToast({ message: t('notes.invalidFileType'), type: 'error' });
+      return;
+    }
+
+    // Validation de la taille (max 5MB)
+    if (file.size > 5 * 1024 * 1024) {
+      setToast({ message: t('notes.fileTooLarge'), type: 'error' });
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const photoDataUrl = e.target?.result as string;
+      setCapturedPhotos(prev => [...prev, photoDataUrl]);
+      setToast({ message: t('notes.photoAdded'), type: 'success' });
+    };
+    reader.readAsDataURL(file);
+  };
+
+  // Supprimer une photo
+  const handleRemovePhoto = (index: number) => {
+    setCapturedPhotos(prev => prev.filter((_, i) => i !== index));
+  };
+
+  // Ajouter une note avec photos
+  const handleAddPhotoNote = () => {
+    if (!photoNoteForm.trim() && capturedPhotos.length === 0) {
+      setToast({ message: t('notes.noteOrPhotoRequired'), type: 'error' });
+      return;
+    }
+
+    const newNote: CalendarNote = {
+      id: crypto.randomUUID(),
+      date: selectedDate || new Date(),
+      content: photoNoteForm.trim(),
+      timestamp: new Date(),
+      photos: capturedPhotos.length > 0 ? capturedPhotos : undefined
+    };
+
+    setCalendarNotes(prev => [...prev, newNote]);
+    setPhotoNoteForm('');
+    setCapturedPhotos([]);
+    setToast({ message: t('notes.photoNoteAdded'), type: 'success' });
   };
 
   const handleStudentSubmit = (e: React.FormEvent) => {
@@ -333,6 +748,27 @@ const NotesPage: React.FC = () => {
       return eventDate.getDate() === date.getDate() &&
         eventDate.getMonth() === date.getMonth() &&
         eventDate.getFullYear() === date.getFullYear();
+    });
+  };
+
+  // Fonction pour obtenir les vacances d'un jour
+  const getHolidaysForDay = (date: Date | null) => {
+    if (!date) return [];
+    return holidays.filter(h => {
+      return h.date.getDate() === date.getDate() &&
+        h.date.getMonth() === date.getMonth() &&
+        h.date.getFullYear() === date.getFullYear();
+    });
+  };
+
+  // Fonction pour obtenir les notes d'un jour
+  const getNotesForDay = (date: Date | null) => {
+    if (!date) return [];
+    return calendarNotes.filter(n => {
+      const noteDate = new Date(n.date);
+      return noteDate.getDate() === date.getDate() &&
+        noteDate.getMonth() === date.getMonth() &&
+        noteDate.getFullYear() === date.getFullYear();
     });
   };
 
@@ -411,48 +847,48 @@ const NotesPage: React.FC = () => {
     
     return (
       <div className="p-4">
-        <h2 className="text-xl font-semibold mb-4">{t('notes.estatisticas.titulo')}</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-2">
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">{t('notes.estatisticas.tempoTotal')}</h3>
-            <p className="text-2xl font-bold">{formatTime(stats.total)}</p>
+        <h2 className="mb-4 text-xl font-semibold text-foreground">{t('notes.estatisticas.titulo')}</h2>
+
+        <div className="mb-2 grid grid-cols-1 gap-4 md:grid-cols-3">
+          <div className="rounded-lg border border-border bg-card/90 p-4 shadow-sm">
+            <h3 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{t('notes.estatisticas.tempoTotal')}</h3>
+            <p className="mt-1 text-2xl font-bold text-foreground">{formatTime(stats.total)}</p>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">{t('notes.estatisticas.sessoes')}</h3>
-            <p className="text-2xl font-bold">{history.length}</p>
+          <div className="rounded-lg border border-border bg-card/90 p-4 shadow-sm">
+            <h3 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{t('notes.estatisticas.sessoes')}</h3>
+            <p className="mt-1 text-2xl font-bold text-foreground">{history.length}</p>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow">
-            <h3 className="text-gray-500 text-sm">{t('notes.estatisticas.mediaPorSessao')}</h3>
-            <p className="text-2xl font-bold">{formatTime(stats.avg)}</p>
+          <div className="rounded-lg border border-border bg-card/90 p-4 shadow-sm">
+            <h3 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{t('notes.estatisticas.mediaPorSessao')}</h3>
+            <p className="mt-1 text-2xl font-bold text-foreground">{formatTime(stats.avg)}</p>
           </div>
         </div>
-        
-        <div className="bg-white p-4 rounded-lg shadow">
-          <h3 className="text-lg font-medium mb-4">{t('notes.estatisticas.historicoRecente')}</h3>
+
+        <div className="rounded-lg border border-border bg-card/90 p-4 shadow-sm">
+          <h3 className="mb-4 text-lg font-semibold text-foreground">{t('notes.estatisticas.historicoRecente')}</h3>
           {history.length > 0 ? (
             <div className="overflow-x-auto">
-              <table className="min-w-full">
+              <table className="min-w-full text-sm text-foreground">
                 <thead>
-                  <tr className="border-b">
-                    <th className="text-left py-2">{t('notes.estatisticas.data')}</th>
-                    <th className="text-right py-2">{t('notes.estatisticas.duracao')}</th>
-                    <th className="text-left py-2">{t('notes.estatisticas.notas')}</th>
+                  <tr className="border-b border-border text-left text-muted-foreground">
+                    <th className="py-2 font-medium">{t('notes.estatisticas.data')}</th>
+                    <th className="py-2 text-right font-medium">{t('notes.estatisticas.duracao')}</th>
+                    <th className="py-2 font-medium">{t('notes.estatisticas.notas')}</th>
                   </tr>
                 </thead>
                 <tbody>
                   {history.slice(0, 10).map((entry) => (
-                    <tr key={entry.id} className="border-b">
-                      <td className="py-2">{entry.date}</td>
-                      <td className="text-right py-2">{formatTime(entry.duration)}</td>
-                      <td className="py-2">{entry.notes || '-'}</td>
+                    <tr key={entry.id} className="border-b border-border last:border-0">
+                      <td className="py-2 text-foreground">{entry.date}</td>
+                      <td className="py-2 text-right text-foreground">{formatTime(entry.duration)}</td>
+                      <td className="py-2 text-muted-foreground">{entry.notes || '-'}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
           ) : (
-            <p className="text-gray-500">{t('notes.estatisticas.nenhumaDados')}</p>
+            <p className="text-sm text-muted-foreground">{t('notes.estatisticas.nenhumaDados')}</p>
           )}
         </div>
       </div>
@@ -475,7 +911,7 @@ const NotesPage: React.FC = () => {
               className="w-full min-h-[200px] rounded-lg border border-gray-200 dark:border-gray-700 bg-transparent p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-gray-500 dark:text-gray-400">
-              <span>{notes.length} caractères</span>
+              <span>{notes.length} {t('notes.characters')}</span>
               <div className="flex gap-3">
                 <button
                   onClick={() => {

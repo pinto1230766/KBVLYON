@@ -1,0 +1,25 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"pubName":"Щоденне досліджування Святого Письма 2025","parentPubName":"Щоденне досліджування 
+                    Святого Письма 
+                    2025","booknum":null,"pub":"es25","issue":"","formattedDate":"","fileformat":["PDF"],"track...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Apigw-Requestid: SeyAujqxjoEEJZw=
+                    X-Requestid: d105835d-acbc-496f-9bf2-fb441a46f8b3
+                    strict-transport-security: max-age=31536000
+                    X-Elapsed-Millis: 91
+                    X-Buil...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Apigw-Requestid, SeyAujqxjoEEJZw=], [X-Requestid, 
+                    d105835d-acbc-496f-9bf2-fb441a46f8b3], [strict-transport-security, max-age=31536000]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 1931
+
+
+

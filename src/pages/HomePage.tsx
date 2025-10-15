@@ -46,6 +46,77 @@ const getFallbackDailyText = (language: 'pt' | 'kea'): DailyTextEntry => {
   return entries[dayOfYear % entries.length];
 };
 
+const WOL_SOURCES = {
+  kea: 'https://wol.jw.org/kea/wol/h/r455/lp-kbv?output=html',
+  pt: 'https://wol.jw.org/pt/wol/h/r5/lp-t?output=html'
+} as const;
+
+type WolLanguage = keyof typeof WOL_SOURCES;
+
+const normalizeWhitespace = (value: string) => value.replace(/\s+/g, ' ').trim();
+
+const extractDailyTextFromWolHtml = (html: string, wolLanguage: WolLanguage): DailyTextEntry | null => {
+  if (typeof DOMParser === 'undefined') {
+    return null;
+  }
+
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  const headings = Array.from(doc.querySelectorAll('h2'));
+  const today = new Date();
+  const day = today.getDate();
+  const dayPattern = new RegExp(`\\b${day}\\s+(di|de)\\s+`, 'i');
+
+  for (const heading of headings) {
+    const headingText = normalizeWhitespace(heading.textContent || '');
+
+    if (!dayPattern.test(headingText)) {
+      continue;
+    }
+
+    const paragraphs: string[] = [];
+    let pointer: Element | null = heading.nextElementSibling;
+
+    while (pointer && pointer.tagName !== 'H2') {
+      if (pointer.tagName === 'P') {
+        const paragraphText = normalizeWhitespace(pointer.textContent || '');
+        if (paragraphText) {
+          paragraphs.push(paragraphText);
+        }
+      }
+      pointer = pointer.nextElementSibling;
+    }
+
+    if (paragraphs.length === 0) {
+      continue;
+    }
+
+    const firstParagraph = paragraphs[0];
+    let verseLine = firstParagraph;
+    let reference = '';
+
+    const dashIndex = firstParagraph.lastIndexOf('—');
+    if (dashIndex !== -1) {
+      verseLine = normalizeWhitespace(firstParagraph.slice(0, dashIndex));
+      reference = normalizeWhitespace(firstParagraph.slice(dashIndex + 1).replace(/\.$/, ''));
+    }
+
+    const contentParts = [verseLine, ...paragraphs.slice(1)]
+      .map((part) => normalizeWhitespace(part))
+      .filter(Boolean);
+
+    const content = normalizeWhitespace(contentParts.join(' '));
+
+    if (reference) {
+      return { reference, content };
+    }
+
+    return { reference: headingText || wolLanguage.toUpperCase(), content };
+  }
+
+  return null;
+};
+
 const HomePage = () => {
   const { t, language } = useLanguage();
   const [dailyText, setDailyText] = useState<DailyTextEntry>(() => getFallbackDailyText(language));
@@ -64,46 +135,55 @@ const HomePage = () => {
     const controller = new AbortController();
 
     const loadDailyText = async () => {
-      const today = new Date().toISOString().split('T')[0];
-      const apiLang = language === 'kea' ? 'KBV' : 'PT';
+      setDailyText(getFallbackDailyText(language));
 
-      try {
-        const response = await fetch(`https://data.jw-api.org/mediator/v1/dailyText?lang=${apiLang}&date=${today}`, {
-          headers: {
-            Accept: 'application/json',
-          },
-          signal: controller.signal,
-        });
+      const wolCandidates: WolLanguage[] = language === 'kea' ? ['kea', 'pt'] : ['pt', 'kea'];
 
-        if (!response.ok) {
-          throw new Error(`JW API responded with ${response.status}`);
-        }
-
-        const data = await response.json();
-        const scriptureList = Array.isArray(data?.scripture) ? data.scripture : [];
-        const scripture = scriptureList[0] ?? null;
-        const dailyEntry = data?.dailyText ?? {};
-
-        const reference = stripHtml(scripture?.bookName || dailyEntry?.title);
-        const content = stripHtml(scripture?.verse || dailyEntry?.text);
-
-        if (reference && content && isMounted) {
-          setDailyText({ reference, content });
+      for (const wolLang of wolCandidates) {
+        if (!isMounted || controller.signal.aborted) {
           return;
         }
 
-        if (isMounted) {
-          setDailyText(getFallbackDailyText(language));
+        try {
+          const response = await fetch(WOL_SOURCES[wolLang], {
+            headers: { Accept: 'text/html,application/xhtml+xml' },
+            signal: controller.signal
+          });
+
+          if (!response.ok) {
+            throw new Error(`WOL responded with status ${response.status}`);
+          }
+
+          const html = await response.text();
+          const parsed = extractDailyTextFromWolHtml(html, wolLang);
+
+          if (!parsed) {
+            continue;
+          }
+
+          const reference = stripHtml(parsed.reference);
+          const content = stripHtml(parsed.content);
+
+          if (reference && content && isMounted) {
+            setDailyText({ reference, content });
+            return;
+          }
+        } catch (error) {
+          if ((error as DOMException)?.name === 'AbortError') {
+            return;
+          }
+
+          if (wolLang === wolCandidates[wolCandidates.length - 1]) {
+            console.warn('Daily text fetch failed for all WOL language candidates, using fallback.', error);
+          }
         }
-      } catch (error) {
-        console.warn('Daily text fetch failed, using fallback.', error);
-        if (isMounted) {
-          setDailyText(getFallbackDailyText(language));
-        }
+      }
+
+      if (isMounted) {
+        setDailyText(getFallbackDailyText(language));
       }
     };
 
-    setDailyText(getFallbackDailyText(language));
     loadDailyText();
 
     return () => {

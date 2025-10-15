@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import Fuse from 'fuse.js';
-import { Star, Volume2, History, X, Search } from 'lucide-react';
+import { Star, History, X, Search } from 'lucide-react';
 import { dictionaryData } from '../data/dictionaryData';
 import { useLanguage } from '../hooks/useLanguage';
 import { useOfflineStorage } from '../hooks/useOfflineStorage';
@@ -167,27 +167,6 @@ const DictionaryPage = () => {
     setSearchHistory([]);
   }, [setSearchHistory]);
 
-  // Text-to-speech function
-  const speakWord = useCallback((text: string, lang: 'pt' | 'kea') => {
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang === 'pt' ? 'pt-PT' : 'pt-CV'; // Use Portuguese voices
-      utterance.rate = 0.8;
-      utterance.pitch = 1;
-
-      // Try to find a Portuguese voice
-      const voices = speechSynthesis.getVoices();
-      const portugueseVoice = voices.find(voice =>
-        voice.lang.startsWith('pt') || voice.lang.includes('Portuguese')
-      );
-
-      if (portugueseVoice) {
-        utterance.voice = portugueseVoice;
-      }
-
-      speechSynthesis.speak(utterance);
-    }
-  }, []);
 
   // Handle search input change with instant results
   const handleSearchChange = useCallback((value: string) => {
@@ -392,13 +371,6 @@ const DictionaryPage = () => {
                   <div className="flex justify-between items-start mb-3">
                     <div className="flex items-center gap-1">
                       <h3 className="text-xl font-bold text-primary">{entry.word}</h3>
-                      <button
-                        onClick={() => speakWord(entry.word, 'kea')}
-                        className="p-1 text-muted-foreground hover:text-primary transition-colors"
-                        aria-label={`Prononcer ${entry.word} en créole`}
-                      >
-                        <Volume2 className="h-4 w-4" />
-                      </button>
                     </div>
                     <button
                       onClick={() => toggleFavorite(entry.id)}
@@ -415,24 +387,10 @@ const DictionaryPage = () => {
                     <div className="flex items-center gap-1">
                       <strong className="text-foreground">PT:</strong>
                       <span className="text-muted-foreground flex-1">{entry.translation.pt}</span>
-                      <button
-                        onClick={() => speakWord(entry.translation.pt, 'pt')}
-                        className="p-1 text-muted-foreground hover:text-primary transition-colors"
-                        aria-label={`Prononcer la traduction portugaise`}
-                      >
-                        <Volume2 className="h-3 w-3" />
-                      </button>
                     </div>
                     <div className="flex items-center gap-1">
                       <strong className="text-foreground">CV:</strong>
                       <span className="text-muted-foreground flex-1">{entry.translation.kea}</span>
-                      <button
-                        onClick={() => speakWord(entry.translation.kea, 'kea')}
-                        className="p-1 text-muted-foreground hover:text-primary transition-colors"
-                        aria-label={`Prononcer la traduction créole`}
-                      >
-                        <Volume2 className="h-3 w-3" />
-                      </button>
                     </div>
 
                     {entry.example && (
@@ -467,13 +425,6 @@ const DictionaryPage = () => {
                     <div className="flex justify-between items-start mb-3">
                       <div className="flex items-center gap-1">
                         <h3 className="text-xl font-bold text-primary">{entry.word}</h3>
-                        <button
-                          onClick={() => speakWord(entry.word, 'kea')}
-                          className="p-1 text-muted-foreground hover:text-primary transition-colors"
-                          aria-label={`Prononcer ${entry.word} en créole`}
-                        >
-                          <Volume2 className="h-4 w-4" />
-                        </button>
                       </div>
                       <button
                         onClick={() => toggleFavorite(entry.id)}
@@ -488,24 +439,10 @@ const DictionaryPage = () => {
                       <div className="flex items-center gap-1">
                         <strong className="text-foreground">PT:</strong>
                         <span className="text-muted-foreground flex-1">{entry.translation.pt}</span>
-                        <button
-                          onClick={() => speakWord(entry.translation.pt, 'pt')}
-                          className="p-1 text-muted-foreground hover:text-primary transition-colors"
-                          aria-label={`Prononcer la traduction portugaise`}
-                        >
-                          <Volume2 className="h-3 w-3" />
-                        </button>
                       </div>
                       <div className="flex items-center gap-1">
                         <strong className="text-foreground">CV:</strong>
                         <span className="text-muted-foreground flex-1">{entry.translation.kea}</span>
-                        <button
-                          onClick={() => speakWord(entry.translation.kea, 'kea')}
-                          className="p-1 text-muted-foreground hover:text-primary transition-colors"
-                          aria-label={`Prononcer la traduction créole`}
-                        >
-                          <Volume2 className="h-3 w-3" />
-                        </button>
                       </div>
 
                       {entry.example && (
