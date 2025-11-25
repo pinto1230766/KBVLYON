@@ -47,8 +47,8 @@ const getFallbackDailyText = (language: 'pt' | 'kea'): DailyTextEntry => {
 };
 
 const WOL_SOURCES = {
-  kea: 'https://wol.jw.org/kea/wol/h/r455/lp-kbv?output=html',
-  pt: 'https://wol.jw.org/pt/wol/h/r5/lp-t?output=html'
+  kea: '/api/wol/kea/wol/h/r455/lp-kbv?output=html',
+  pt: '/api/wol/pt/wol/h/r5/lp-t?output=html'
 } as const;
 
 type WolLanguage = keyof typeof WOL_SOURCES;

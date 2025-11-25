@@ -19,6 +19,19 @@ export default defineConfig({
     headers: {
       'Content-Security-Policy': "default-src 'self'; img-src 'self' data: http://localhost:3001; script-src 'self' 'unsafe-inline' http://localhost:3001; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://rsms.me; font-src 'self' https://fonts.gstatic.com https://rsms.me https://r2cdn.perplexity.ai; connect-src 'self' http://localhost:3001 http://localhost:5746 http://localhost:5747 http://localhost:5748 https://generativelanguage.googleapis.com https://texttospeech.googleapis.com https://data.jw-api.org https://wol.jw.org;",
     },
+    // Proxy pour contourner CORS avec wol.jw.org
+    proxy: {
+      '/api/wol': {
+        target: 'https://wol.jw.org',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/wol/, ''),
+        secure: true,
+        headers: {
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
+      }
+    }
   },
   // Configuration de la résolution des imports
   resolve: {
