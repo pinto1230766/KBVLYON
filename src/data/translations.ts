@@ -137,6 +137,10 @@ const translations: Translations = {
       pt: "Prática",
       kea: "Prátika"
     },
+    scores: {
+      pt: "Resultados",
+      kea: "Rezultadus"
+    },
   },
   
   // Traduções Comuns

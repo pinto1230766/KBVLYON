@@ -37,7 +37,6 @@ const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage'));
 const NotesPage = lazy(() => import('./pages/NotesPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const SettingsPage = lazy(() => import('./pages/SettingsPage'));
-const ScoresPage = lazy(() => import('./pages/ScoresPage'));
 
 // Nouvelles pages Phase 2
 const PracticePage = lazy(() => import('./pages/PracticePage'));
@@ -94,7 +93,7 @@ function App() {
                 <Route path="terms-of-service" element={<TermsOfServicePage />} />
                 <Route path="cookie-policy" element={<CookiePolicyPage />} />
                 <Route path="notes" element={<NotesPage />} />
-                <Route path="scores" element={<ScoresPage />} />
+                <Route path="scores" element={<Navigate to="/practice?tab=scores" replace />} />
                 <Route path="settings" element={<SettingsPage />} />
                 <Route path="practice" element={<PracticePage />} />
                 <Route path="progress" element={<Navigate to="/practice?tab=progress" replace />} />

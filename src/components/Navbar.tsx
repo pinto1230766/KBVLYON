@@ -19,7 +19,6 @@ const Navbar = () => {
     { name: t('navigation.dictionary'), href: '/dictionary' },
     { name: t('navigation.lessons'), href: '/lessons' },
     { name: t('navigation.practice'), href: '/practice' },
-    { name: t('navigation.scores'), href: '/scores' },
     { name: t('navigation.bibleStudies'), href: '/bible-studies' },
     { name: t('navigation.notes'), href: '/notes' },
     { name: t('navigation.about'), href: '/about' },

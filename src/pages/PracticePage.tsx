@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import { Target, CreditCard, TrendingUp } from 'lucide-react';
+import { Target, CreditCard, TrendingUp, BarChart2 } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import ScenariosPage from './ScenariosPage';
 import FlashcardsPage from './FlashcardsPage';
+import ScoresPage from './ScoresPage';
 import ProgressDashboard from '../components/progress/ProgressDashboard';
 
 /**
  * Page fusionnée : Pratique
- * Combine Scénarios, Flashcards et Progression avec un système d'onglets
+ * Combine Scénarios, Flashcards, Progression et Scores avec un système d'onglets
  */
 const PracticePage = () => {
   const { language } = useLanguage();
@@ -18,8 +19,10 @@ const PracticePage = () => {
     ? 'flashcards' 
     : searchParams.get('tab') === 'progress'
     ? 'progress'
+    : searchParams.get('tab') === 'scores'
+    ? 'scores'
     : 'scenarios';
-  const [activeTab, setActiveTab] = useState<'scenarios' | 'flashcards' | 'progress'>(initialTab);
+  const [activeTab, setActiveTab] = useState<'scenarios' | 'flashcards' | 'progress' | 'scores'>(initialTab);
 
   return (
     <div className="min-h-screen bg-background">
@@ -60,6 +63,17 @@ const PracticePage = () => {
               <TrendingUp className="w-5 h-5" />
               {language === 'pt' ? 'Progresso' : 'Progresu'}
             </button>
+            <button
+              onClick={() => setActiveTab('scores')}
+              className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all whitespace-nowrap ${
+                activeTab === 'scores'
+                  ? 'bg-primary text-primary-foreground shadow-lg'
+                  : 'bg-muted text-muted-foreground hover:bg-muted/80'
+              }`}
+            >
+              <BarChart2 className="w-5 h-5" />
+              {language === 'pt' ? 'Resultados' : 'Rezultadus'}
+            </button>
           </div>
         </div>
       </div>
@@ -73,6 +87,9 @@ const PracticePage = () => {
       </div>
       <div className={activeTab === 'progress' ? 'block' : 'hidden'}>
         <ProgressDashboard />
+      </div>
+      <div className={activeTab === 'scores' ? 'block' : 'hidden'}>
+        <ScoresPage />
       </div>
     </div>
   );
