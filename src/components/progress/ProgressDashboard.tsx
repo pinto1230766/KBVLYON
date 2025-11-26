@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Trophy, Target, Flame, BookOpen, Award, TrendingUp } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 
@@ -17,8 +17,8 @@ interface ProgressStats {
 }
 
 export function ProgressDashboard() {
-  const { t, language } = useLanguage();
-  const [stats, setStats] = useState<ProgressStats>({
+  const { language } = useLanguage();
+  const [stats] = useState<ProgressStats>({
     totalLessons: 18,
     completedLessons: 7,
     totalQuizzes: 10,
@@ -33,7 +33,6 @@ export function ProgressDashboard() {
   });
 
   const progressPercentage = Math.round((stats.completedLessons / stats.totalLessons) * 100);
-  const quizProgressPercentage = Math.round((stats.completedQuizzes / stats.totalQuizzes) * 100);
 
   return (
     <div className="min-h-screen bg-background p-4">
@@ -240,3 +239,5 @@ export function ProgressDashboard() {
     </div>
   );
 }
+
+export default ProgressDashboard;

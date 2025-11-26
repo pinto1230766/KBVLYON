@@ -49,7 +49,7 @@
 
 ## 📱 Samsung Galaxy Tab S10 Ultra (Tablette)
 
-### Spécifications
+### Spécifications de la Tablette
 - **Résolution native** : 1848 x 2960 pixels
 - **Ratio d'aspect** : 16:10
 - **Taille d'écran** : 14.6 pouces

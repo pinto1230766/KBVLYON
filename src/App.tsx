@@ -39,6 +39,9 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 const ScoresPage = lazy(() => import('./pages/ScoresPage'));
 
+// Nouvelles pages Phase 2
+const ProgressDashboard = lazy(() => import('./components/progress/ProgressDashboard'));
+
 function AppLayout() {
   return (
     <div className="min-h-screen flex flex-col safe-area-padding-top">
@@ -93,6 +96,7 @@ function App() {
                 <Route path="notes" element={<NotesPage />} />
                 <Route path="scores" element={<ScoresPage />} />
                 <Route path="settings" element={<SettingsPage />} />
+                <Route path="progress" element={<ProgressDashboard />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>
             </Routes>
