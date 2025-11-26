@@ -14,7 +14,8 @@
 }
 
 .exercise-card:hover {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transform: translateY(-2px);
 }
 
@@ -49,7 +50,8 @@
 .dictation-container {
   background-color: white;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   padding: 1.5rem;
   max-width: 48rem;
   margin-left: auto;
@@ -67,44 +69,6 @@
   color: #374151;
   margin-bottom: 1.5rem;
   line-height: 1.5;
-}
-
-.dictation-audio-controls {
-  margin-bottom: 1.5rem;
-}
-
-.dictation-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.dictation-play-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 9999px;
-  background-color: #dbeafe;
-  color: white;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.dictation-play-button:hover {
-  background-color: #bfdbfe;
-}
-
-.dictation-repeat-button {
-  margin-left: 1rem;
-  padding: 0.5rem;
-  color: #4b5563;
-  transition: color 0.2s ease-in-out;
-}
-
-.dictation-repeat-button:hover {
-  color: #1f2937;
 }
 
 .dictation-input {

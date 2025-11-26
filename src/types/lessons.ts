@@ -28,7 +28,7 @@ export interface MatchingExercise extends ExerciseBase {
 export interface DialogLine {
   speaker: string;
   text: string;
-  audioUrl?: string;
+
 }
 
 export interface Roleplay extends ExerciseBase {

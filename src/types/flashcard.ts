@@ -12,7 +12,7 @@ export interface Flashcard {
     pt: string;
     kea: string;
   };
-  category: 'vocabulary' | 'grammar' | 'ministry' | 'culture' | 'verbs';
+  category: 'vocabulary' | 'grammar' | 'ministry' | 'culture' | 'verbs' | 'conversation';
   difficulty: number; // 1-5
   tags: string[];
   example?: {

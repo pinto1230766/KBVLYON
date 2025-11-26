@@ -51,8 +51,9 @@ export default function LearningPathsPage() {
             <div
               key={path.id}
               onClick={() => setSelectedPath(path)}
-              className="bg-card border-2 border-border rounded-lg p-6 hover:border-primary transition-all cursor-pointer group"
-              style={{ borderColor: selectedPath?.id === path.id ? path.color : undefined }}
+              className={`bg-card border-2 border-border rounded-lg p-6 hover:border-primary transition-all cursor-pointer group ${selectedPath?.id === path.id ? 'border-[var(--path-color)]' : ''}`}
+              // eslint-disable-next-line
+              style={{ '--path-color': path.color } as React.CSSProperties}
             >
               {/* Header */}
               <div className="flex items-start justify-between mb-4">
@@ -129,7 +130,7 @@ export default function LearningPathsPage() {
               {language === 'pt' ? 'Marcos do Percurso' : 'Marku di Perkursu'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {selectedPath.milestones.map((milestone, index) => (
+              {selectedPath.milestones.map((milestone) => (
                 <div
                   key={milestone.id}
                   className="bg-muted rounded-lg p-4 hover:bg-muted/80 transition-colors"

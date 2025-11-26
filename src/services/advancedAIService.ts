@@ -427,16 +427,16 @@ export class AdvancedAIService {
   async processMultimodalInput(input: {
     text?: string;
     image?: File;
-    audio?: File;
+
     context?: string;
   }): Promise<AIResponse> {
     try {
       if (this.geminiApiKey) {
         const hasImage = input.image && input.image.type.startsWith('image/');
-        const hasAudio = input.audio && input.audio.type.startsWith('audio/');
+
         const hasText = input.text && input.text.trim().length > 0;
 
-        if (!hasImage && !hasAudio && !hasText) {
+        if (!hasImage && !hasText) {
           return {
             content: 'Por favor, forneça texto, imagem ou áudio para processar.',
             contentType: 'insight'
@@ -447,199 +447,6 @@ export class AdvancedAIService {
 
         if (input.context) {
           prompt += `Contexto: ${input.context}\n\n`;
-        }
-
-        if (hasText) {
-          prompt += `Texto: ${input.text}\n\n`;
-        }
-
-        if (hasImage) {
-          prompt += 'Imagem fornecida para análise.\n\n';
-        }
-
-        if (hasAudio) {
-          prompt += 'Áudio fornecido para análise/transcrição.\n\n';
-        }
-
-        prompt += `Forneça análise inteligente considerando o contexto de aprendizagem de crioulo cabo-verdiano:
-        - Se imagem: descreva o conteúdo, identifique elementos culturais cabo-verdianos e sugira vocabulário relacionado
-        - Se áudio: transcreva, analise pronúncia e compare com padrões do crioulo
-        - Se texto: processe como consulta sobre crioulo, gramática ou cultura cabo-verdiana
-        - Integre múltiplas modalidades quando fornecidas
-        - Considere as 9 ilhas de Cabo Verde e variações regionais do crioulo
-
-        Resposta detalhada em português brasileiro:`;
-
-        const response = await this.callGeminiAPI(prompt);
-
-        return {
-          content: response,
-          contentType: 'insight',
-          metadata: {
-            confidence: 0.85,
-            processingTime: 0,
-            contentType: 'insight'
-          }
-        };
-      }
-
-      // Fallback multimodal processing
-      return this.localMultimodalProcessing(input);
-    } catch (error) {
-      console.error('Multimodal processing error:', error);
-      return this.localMultimodalProcessing(input);
-    }
-  }
-
-  private localMultimodalProcessing(input: {
-    text?: string;
-    image?: File;
-    audio?: File;
-    context?: string;
-  }): AIResponse {
-    const { text, image, audio } = input;
-
-    if (image) {
-      return {
-        content: `📷 **Análise de Imagem:** Processando imagem para contexto de aprendizagem de crioulo. Esta funcionalidade será expandida para reconhecer textos, identificar elementos culturais cabo-verdianos e sugerir conteúdo relacionado.`,
-        contentType: 'insight'
-      };
-    }
-
-    if (audio) {
-      return {
-        content: `🎵 **Análise de Áudio:** Processando áudio para reconhecimento de fala em crioulo. Esta funcionalidade será expandida para transcrição, análise de pronúncia e feedback de aprendizagem.`,
-        contentType: 'insight'
-      };
-    }
-
-    if (text) {
-      return {
-        content: this.enhancedLocalQuestionAnswering(text),
-        contentType: 'question'
-      };
-    }
-
-    return {
-      content: 'Por favor, forneça conteúdo para análise multimodal.',
-      contentType: 'insight'
-    };
-  }
-
-  // Image Analysis for Learning Content
-  async analyzeLearningImage(_imageFile: File, context?: string): Promise<AIResponse> {
-    try {
-      if (this.geminiApiKey) {
-        const contextInfo = context ? ` Contexto de aprendizagem: ${context}` : '';
-
-        const response = await this.callGeminiAPI(`
-          Você é especialista em cultura cabo-verdiana e crioulo. Analise esta imagem no contexto de aprendizagem de crioulo cabo-verdiano.${contextInfo}
-
-          Descreva detalhadamente:
-          1. O que a imagem mostra (pessoas, objetos, ambiente)
-          2. Relevância para aprendizagem de crioulo (contexto cultural, situações de comunicação)
-          3. Elementos culturais cabo-verdianos identificáveis (tradições, comida, música, arquitetura)
-          4. Sugestões de vocabulário relacionado em crioulo e português
-          5. Como esta imagem pode auxiliar no estudo e prática do crioulo
-
-          CONTEXTO: Cabo Verde tem 9 ilhas com culturas diversas. O crioulo reflete essa diversidade regional.
-
-          Resposta estruturada e educativa em português:
-        `);
-
-        return {
-          content: response,
-          contentType: 'insight',
-          metadata: {
-            confidence: 0.8,
-            processingTime: 0,
-            contentType: 'insight'
-          }
-        };
-      }
-
-      return {
-        content: `📖 **Análise Educacional:** A imagem foi recebida para análise no contexto de aprendizagem de crioulo cabo-verdiano. Esta funcionalidade avançada permite conectar conteúdo visual com conceitos linguísticos e culturais.`,
-        contentType: 'insight'
-      };
-    } catch (error) {
-      console.error('Image analysis error:', error);
-      return {
-        content: 'Erro ao analisar imagem. Tente novamente.',
-        contentType: 'insight'
-      };
-    }
-  }
-
-  // Audio Processing for Pronunciation
-  async processPronunciationAudio(_audioFile: File, expectedText?: string): Promise<AIResponse> {
-    try {
-      if (this.geminiApiKey) {
-        const expectedInfo = expectedText ? ` Texto esperado: "${expectedText}"` : '';
-
-        const response = await this.callGeminiAPI(`
-          Você é especialista em fonética do crioulo cabo-verdiano. Analise este áudio de pronúncia.${expectedInfo}
-
-          CONTEXTO: O crioulo cabo-verdiano varia por ilha. Sons importantes: 'tx' como 'ch' em espanhol, 'nh' como 'ñ' em espanhol, 'lh' como 'lh' português.
-
-          Forneça análise detalhada:
-          1. Transcrição fonética do áudio (se possível identificar palavras em crioulo)
-          2. Análise de pronúncia (acentos tonais, ritmo, entonação)
-          3. Feedback sobre clareza, velocidade e autenticidade cabo-verdiana
-          4. Sugestões específicas de melhoria para pronúncia correta
-          5. Comparação com pronúncia padrão do crioulo (se texto esperado fornecido)
-
-          Seja construtivo e educativo. Resposta em português:
-        `);
-
-        return {
-          content: response,
-          contentType: 'insight',
-          metadata: {
-            confidence: 0.75,
-            processingTime: 0,
-            contentType: 'insight'
-          }
-        };
-      }
-
-      return {
-        content: `🎙️ **Análise de Pronúncia:** Áudio recebido para análise de pronúncia em crioulo cabo-verdiano. Esta funcionalidade avançada oferece feedback sobre pronúncia, ritmo e autenticidade da fala.`,
-        contentType: 'insight'
-      };
-    } catch (error) {
-      console.error('Audio processing error:', error);
-      return {
-        content: 'Erro ao processar áudio. Tente novamente.',
-        contentType: 'insight'
-      };
-    }
-  }
-
-  private enhancedLocalQuestionAnswering(question: string): string {
-    const lowerQuestion = question.toLowerCase();
-
-    // Enhanced pattern matching for better responses
-    if (lowerQuestion.includes('como') && lowerQuestion.includes('dizer')) {
-      if (lowerQuestion.includes('obrigado')) return 'Para dizer "obrigado" em crioulo: "Obrigadu" (masculino) ou "Obrigada" (feminino)';
-      if (lowerQuestion.includes('olá')) return 'Para dizer "olá" em crioulo: "Olá" ou "Oi", dependendo da região';
-    }
-
-    if (lowerQuestion.includes('diferença') && lowerQuestion.includes('português')) {
-      return 'O crioulo cabo-verdiano é mais simples que o português: não tem conjugação verbal complexa, usa marcadores de tempo (ta, dja, ba), e tem ordem SVO como o português.';
-    }
-
-    if (lowerQuestion.includes('pronúncia') || lowerQuestion.includes('falar')) {
-      return 'A pronúncia do crioulo varia por ilha, mas geralmente: "tx" como "ch" em "muchacho", "nh" como "ñ" em espanhol, "lh" como "lh" em "mulher".';
-    }
-
-    // Use existing response generation
-    return this.generateLocalResponse(question);
-  }
-
-
-  private extractKeyPoints(content: string): string[] {
-    // Simple key point extraction - split by sentences and filter
     const sentences = content.split(/[.!?]+/).filter(s => s.trim().length > 20);
     return sentences.slice(0, 5).map(s => s.trim());
   }

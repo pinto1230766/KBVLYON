@@ -40,6 +40,7 @@ const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 
 // Nouvelles pages Phase 2
 const PracticePage = lazy(() => import('./pages/PracticePage'));
+const LearningPathDetailsPage = lazy(() => import('./pages/LearningPathDetailsPage'));
 
 function AppLayout() {
   return (
@@ -100,6 +101,7 @@ function App() {
                 <Route path="scenarios" element={<Navigate to="/practice?tab=scenarios" replace />} />
                 <Route path="flashcards" element={<Navigate to="/practice?tab=flashcards" replace />} />
                 <Route path="learning-paths" element={<Navigate to="/lessons?tab=paths" replace />} />
+                <Route path="learning-paths/:id" element={<LearningPathDetailsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>
             </Routes>

@@ -15,7 +15,6 @@ export interface LessonEnriched {
   vocabulary: Array<{
     cv: string;
     pt: string;
-    pronunciation?: string;
   }>;
   exercises: Array<{
     type: 'translation' | 'completion' | 'multiple_choice';
@@ -46,19 +45,19 @@ export const lessonsEnriched: LessonEnriched[] = [
     },
     content: {
       pt: 'Nesta lição, você aprenderá as palavras mais básicas e essenciais do crioulo cabo-verdiano. Estas palavras são fundamentais para qualquer conversa e são usadas diariamente pelos falantes nativos. É importante praticar a pronúncia correta desde o início.',
-      cv: 'Na es lison, bu ba aprende palavra más básiku y esensial di kriolu kabuverdianu. Es palavra é fundamental pa kualker konversa y ta ser uzadu diáriamenti pa falanti nativu. É importanti pratika pronúnsia koretu dês di inísiu.'
+      cv: 'Na es lison, bu ba aprende palavra más báziku y esensial di kriolu kabuverdianu. Es palavra é fundamental pa kualker konversa y ta ser uzadu diáriamenti pa falanti nativu. É importanti pratika pronúnsia koretu dês di inísiu.'
     },
     vocabulary: [
-      { cv: 'oi', pt: 'olá', pronunciation: 'oy' },
-      { cv: 'obrigadu', pt: 'obrigado', pronunciation: 'o-bri-ga-du' },
-      { cv: 'deskulpa', pt: 'desculpa', pronunciation: 'des-kul-pa' },
-      { cv: 'bon dia', pt: 'bom dia', pronunciation: 'bon di-a' },
-      { cv: 'boa noiti', pt: 'boa noite', pronunciation: 'bo-a noy-ti' },
-      { cv: 'té logu', pt: 'até logo', pronunciation: 'te lo-gu' },
-      { cv: 'sim', pt: 'sim', pronunciation: 'sim' },
-      { cv: 'nau', pt: 'não', pronunciation: 'nau' },
-      { cv: 'favor', pt: 'por favor', pronunciation: 'fa-vor' },
-      { cv: 'kuma bu sta?', pt: 'como está?', pronunciation: 'ku-ma bu sta' }
+      { cv: 'oi', pt: 'olá' },
+      { cv: 'obrigadu', pt: 'obrigado' },
+      { cv: 'deskulpa', pt: 'desculpa' },
+      { cv: 'bon dia', pt: 'bom dia' },
+      { cv: 'boa noiti', pt: 'boa noite' },
+      { cv: 'té logu', pt: 'até logo' },
+      { cv: 'sim', pt: 'sim' },
+      { cv: 'nau', pt: 'não' },
+      { cv: 'favor', pt: 'por favor' },
+      { cv: 'kuma bu sta?', pt: 'como está?' }
     ],
     exercises: [
       {
@@ -90,25 +89,25 @@ export const lessonsEnriched: LessonEnriched[] = [
     },
     description: {
       pt: 'Aprenda os números em crioulo e como expressar quantidades básicas.',
-      cv: 'Aprende númeru na kriolu y kuma espresa kuantidadi básiku.'
+      cv: 'Aprende númeru na kriolu y kuma espresa kuantidadi báziku.'
     },
     content: {
       pt: 'Os números são essenciais para a comunicação diária. Em crioulo cabo-verdiano, o sistema numérico é similar ao português mas com algumas diferenças na pronúncia e escrita. Esta lição cobrirá números de 1 a 100 e expressões de quantidade.',
       cv: 'Númeru é esensial pa komunikason diáriu. Na kriolu kabuverdianu, sistema numériku é similar ku purtuges mas ku alguns diferensa na pronúnsia y skritu. Es lison ba kubri númeru di 1 pa 100 y espresão di kuantidadi.'
     },
     vocabulary: [
-      { cv: 'un', pt: 'um', pronunciation: 'un' },
-      { cv: 'dos', pt: 'dois', pronunciation: 'dos' },
-      { cv: 'tres', pt: 'três', pronunciation: 'tres' },
-      { cv: 'kuatu', pt: 'quatro', pronunciation: 'kua-tu' },
-      { cv: 'sinku', pt: 'cinco', pronunciation: 'sin-ku' },
-      { cv: 'seis', pt: 'seis', pronunciation: 'seys' },
-      { cv: 'seti', pt: 'sete', pronunciation: 'se-ti' },
-      { cv: 'oitu', pt: 'oito', pronunciation: 'oy-tu' },
-      { cv: 'nóvi', pt: 'nove', pronunciation: 'no-vi' },
-      { cv: 'des', pt: 'dez', pronunciation: 'des' },
-      { cv: 'txeu', pt: 'muito', pronunciation: 'txeu' },
-      { cv: 'poku', pt: 'pouco', pronunciation: 'po-ku' }
+      { cv: 'un', pt: 'um' },
+      { cv: 'dos', pt: 'dois' },
+      { cv: 'tres', pt: 'três' },
+      { cv: 'kuatu', pt: 'quatro' },
+      { cv: 'sinku', pt: 'cinco' },
+      { cv: 'seis', pt: 'seis' },
+      { cv: 'seti', pt: 'sete' },
+      { cv: 'oitu', pt: 'oito' },
+      { cv: 'nóvi', pt: 'nove' },
+      { cv: 'des', pt: 'dez' },
+      { cv: 'txeu', pt: 'muito' },
+      { cv: 'poku', pt: 'pouco' }
     ],
     exercises: [
       {
@@ -146,19 +145,19 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Família é fundamental na kultura kabuverdianu. Konxe termu di parentesku y relacionamentu é esensial pa komunika sobri pesoa importanti na bu vida. Es lison ta aprezenta vokabuláriu kompletu sobri família y relacionamentu.'
     },
     vocabulary: [
-      { cv: 'pai', pt: 'pai', pronunciation: 'pay' },
-      { cv: 'mai', pt: 'mãe', pronunciation: 'may' },
-      { cv: 'fidju', pt: 'filho', pronunciation: 'fi-dju' },
-      { cv: 'fidja', pt: 'filha', pronunciation: 'fi-dja' },
-      { cv: 'irmãu', pt: 'irmão', pronunciation: 'ir-mãu' },
-      { cv: 'irmã', pt: 'irmã', pronunciation: 'ir-mã' },
-      { cv: 'avô', pt: 'avô', pronunciation: 'a-vô' },
-      { cv: 'avó', pt: 'avó', pronunciation: 'a-vó' },
-      { cv: 'tiu', pt: 'tio', pronunciation: 'ti-u' },
-      { cv: 'tia', pt: 'tia', pronunciation: 'ti-a' },
-      { cv: 'primu', pt: 'primo', pronunciation: 'pri-mu' },
-      { cv: 'maridu', pt: 'marido', pronunciation: 'ma-ri-du' },
-      { cv: 'mudjer', pt: 'mulher/esposa', pronunciation: 'mu-djer' }
+      { cv: 'pai', pt: 'pai' },
+      { cv: 'mai', pt: 'mãe' },
+      { cv: 'fidju', pt: 'filho' },
+      { cv: 'fidja', pt: 'filha' },
+      { cv: 'irmãu', pt: 'irmão' },
+      { cv: 'irmã', pt: 'irmã' },
+      { cv: 'avô', pt: 'avô' },
+      { cv: 'avó', pt: 'avó' },
+      { cv: 'tiu', pt: 'tio' },
+      { cv: 'tia', pt: 'tia' },
+      { cv: 'primu', pt: 'primo' },
+      { cv: 'maridu', pt: 'marido' },
+      { cv: 'mudjer', pt: 'mulher/esposa' }
     ],
     exercises: [
       {
@@ -194,21 +193,21 @@ export const lessonsEnriched: LessonEnriched[] = [
     },
     content: {
       pt: 'Conhecer cores e objetos do dia a dia é fundamental para descrever o mundo ao nosso redor. Esta lição ensina as cores básicas e objetos comuns que encontramos diariamente, permitindo descrições mais ricas e precisas.',
-      cv: 'Konxe kór y objetu di dia a dia é fundamental pa deskrebe mundu na nos redor. Es lison ta sina kór básiku y objetu komun ki nu ta topá diáriamenti, permitindu deskrison más riku y presizu.'
+      cv: 'Konxe kór y objetu di dia a dia é fundamental pa deskrebe mundu na nos redor. Es lison ta sina kór báziku y objetu komun ki nu ta topá diáriamenti, permitindu deskrison más riku y presizu.'
     },
     vocabulary: [
-      { cv: 'branku', pt: 'branco', pronunciation: 'bran-ku' },
-      { cv: 'pretu', pt: 'preto', pronunciation: 'pre-tu' },
-      { cv: 'vermédju', pt: 'vermelho', pronunciation: 'ver-mé-dju' },
-      { cv: 'azul', pt: 'azul', pronunciation: 'a-zul' },
-      { cv: 'verdi', pt: 'verde', pronunciation: 'ver-di' },
-      { cv: 'marelu', pt: 'amarelo', pronunciation: 'ma-re-lu' },
-      { cv: 'kasa', pt: 'casa', pronunciation: 'ka-sa' },
-      { cv: 'mesa', pt: 'mesa', pronunciation: 'me-sa' },
-      { cv: 'kadéra', pt: 'cadeira', pronunciation: 'ka-dé-ra' },
-      { cv: 'livru', pt: 'livro', pronunciation: 'li-vru' },
-      { cv: 'ágwa', pt: 'água', pronunciation: 'ág-wa' },
-      { cv: 'kumida', pt: 'comida', pronunciation: 'ku-mi-da' }
+      { cv: 'branku', pt: 'branco' },
+      { cv: 'pretu', pt: 'preto' },
+      { cv: 'vermédju', pt: 'vermelho' },
+      { cv: 'azul', pt: 'azul' },
+      { cv: 'verdi', pt: 'verde' },
+      { cv: 'marelu', pt: 'amarelo' },
+      { cv: 'kasa', pt: 'casa' },
+      { cv: 'mesa', pt: 'mesa' },
+      { cv: 'kadéra', pt: 'cadeira' },
+      { cv: 'livru', pt: 'livro' },
+      { cv: 'ágwa', pt: 'água' },
+      { cv: 'kumida', pt: 'comida' }
     ],
     exercises: [
       {
@@ -246,18 +245,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Papia sobri tempu é un di konversa más komun. Na Kabu Verdi, ku si klima tropikal, é importanti konxe vokabuláriu relacionadu ku tempu y klima. Es lison ta sina espresão útil pa deskrebe kondison meteorolójiku.'
     },
     vocabulary: [
-      { cv: 'sol', pt: 'sol', pronunciation: 'sol' },
-      { cv: 'txuba', pt: 'chuva', pronunciation: 'txu-ba' },
-      { cv: 'ventu', pt: 'vento', pronunciation: 'ven-tu' },
-      { cv: 'nubi', pt: 'nuvem', pronunciation: 'nu-bi' },
-      { cv: 'kalór', pt: 'calor', pronunciation: 'ka-lór' },
-      { cv: 'friu', pt: 'frio', pronunciation: 'fri-u' },
-      { cv: 'seku', pt: 'seco', pronunciation: 'se-ku' },
-      { cv: 'mólhadu', pt: 'molhado', pronunciation: 'mó-lha-du' },
-      { cv: 'dia', pt: 'dia', pronunciation: 'di-a' },
-      { cv: 'noiti', pt: 'noite', pronunciation: 'noy-ti' },
-      { cv: 'mañã', pt: 'manhã', pronunciation: 'ma-ñã' },
-      { cv: 'tardi', pt: 'tarde', pronunciation: 'tar-di' }
+      { cv: 'sol', pt: 'sol' },
+      { cv: 'txuba', pt: 'chuva' },
+      { cv: 'ventu', pt: 'vento' },
+      { cv: 'nubi', pt: 'nuvem' },
+      { cv: 'kalór', pt: 'calor' },
+      { cv: 'friu', pt: 'frio' },
+      { cv: 'seku', pt: 'seco' },
+      { cv: 'mólhadu', pt: 'molhado' },
+      { cv: 'dia', pt: 'dia' },
+      { cv: 'noiti', pt: 'noite' },
+      { cv: 'mañã', pt: 'manhã' },
+      { cv: 'tardi', pt: 'tarde' }
     ],
     exercises: [
       {
@@ -296,18 +295,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kulinária kabuverdianu é riku y diversu, misturandu influênsia afrikanu, purtuges y brasileru. Konxe nomi di pratu típiku y bebida é esensial pa apresia kultura lokal y komunika na restauranti y kasa.'
     },
     vocabulary: [
-      { cv: 'katxupa', pt: 'cachupa (prato típico)', pronunciation: 'ka-txu-pa' },
-      { cv: 'pãu', pt: 'pão', pronunciation: 'pãu' },
-      { cv: 'arós', pt: 'arroz', pronunciation: 'a-rós' },
-      { cv: 'fidju', pt: 'feijão', pronunciation: 'fi-dju' },
-      { cv: 'karni', pt: 'carne', pronunciation: 'kar-ni' },
-      { cv: 'pesi', pt: 'peixe', pronunciation: 'pe-si' },
-      { cv: 'ágwa', pt: 'água', pronunciation: 'ág-wa' },
-      { cv: 'grogue', pt: 'grogue (bebida típica)', pronunciation: 'gro-ge' },
-      { cv: 'ponti', pt: 'ponche', pronunciation: 'pon-ti' },
-      { cv: 'kafé', pt: 'café', pronunciation: 'ka-fé' },
-      { cv: 'fruta', pt: 'fruta', pronunciation: 'fru-ta' },
-      { cv: 'dósi', pt: 'doce', pronunciation: 'dó-si' }
+      { cv: 'katxupa', pt: 'cachupa (prato típico)' },
+      { cv: 'pãu', pt: 'pão' },
+      { cv: 'arós', pt: 'arroz' },
+      { cv: 'fidju', pt: 'feijão' },
+      { cv: 'karni', pt: 'carne' },
+      { cv: 'pesi', pt: 'peixe' },
+      { cv: 'ágwa', pt: 'água' },
+      { cv: 'grogue', pt: 'grogue (bebida típica)' },
+      { cv: 'ponti', pt: 'ponche' },
+      { cv: 'kafé', pt: 'café' },
+      { cv: 'fruta', pt: 'fruta' },
+      { cv: 'dósi', pt: 'doce' }
     ],
     exercises: [
       {
@@ -332,7 +331,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // CONVERSATION - LIÇÕES DE CONVERSAÇÃO (5 leçons)
   {
-    id: 3,
+    id: 7,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -348,16 +347,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Sabe aprezenta bu kabesa adequadamenti é fundamental na kualker kultura. Na Kabu Verdi, kumprimentu é importanti y ta varia dipendendu di ora di dia, di formalidadi di situason y di relason entri pesoa. Es lison ta sina forma koretu di kumprimentá y aprezenta bu kabesa.'
     },
     vocabulary: [
-      { cv: 'nomi', pt: 'nome', pronunciation: 'no-mi' },
-      { cv: 'apelidu', pt: 'sobrenome', pronunciation: 'a-pe-li-du' },
-      { cv: 'idadi', pt: 'idade', pronunciation: 'i-da-di' },
-      { cv: 'terra', pt: 'terra/país', pronunciation: 'te-ra' },
-      { cv: 'família', pt: 'família', pronunciation: 'fa-mí-lia' },
-      { cv: 'trabadju', pt: 'trabalho', pronunciation: 'tra-ba-dju' },
-      { cv: 'prazer', pt: 'prazer', pronunciation: 'pra-zer' },
-      { cv: 'konxe', pt: 'conhecer', pronunciation: 'kon-xe' },
-      { cv: 'morador', pt: 'morador', pronunciation: 'mo-ra-dor' },
-      { cv: 'vizinhu', pt: 'vizinho', pronunciation: 'vi-zi-nhu' }
+      { cv: 'nomi', pt: 'nome' },
+      { cv: 'apelidu', pt: 'sobrenome' },
+      { cv: 'idadi', pt: 'idade' },
+      { cv: 'terra', pt: 'terra/país' },
+      { cv: 'família', pt: 'família' },
+      { cv: 'trabadju', pt: 'trabalho' },
+      { cv: 'prazer', pt: 'prazer' },
+      { cv: 'konxe', pt: 'conhecer' },
+      { cv: 'morador', pt: 'morador' },
+      { cv: 'vizinhu', pt: 'vizinho' }
     ],
     exercises: [
       {
@@ -379,7 +378,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -395,18 +394,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Bai na merkadu é un esperiênsia kultural importanti na Kabu Verdi. Sabe negosia presu, pergunta sobri produtu y faze kompra é esensial. Es lison ta sina vokabuláriu y frazi útil pa situason di kompra.'
     },
     vocabulary: [
-      { cv: 'merkadu', pt: 'mercado', pronunciation: 'mer-ka-du' },
-      { cv: 'presu', pt: 'preço', pronunciation: 'pre-su' },
-      { cv: 'barátu', pt: 'barato', pronunciation: 'ba-rá-tu' },
-      { cv: 'karu', pt: 'caro', pronunciation: 'ka-ru' },
-      { cv: 'kumpra', pt: 'comprar', pronunciation: 'kum-pra' },
-      { cv: 'bende', pt: 'vender', pronunciation: 'ben-de' },
-      { cv: 'dinhéru', pt: 'dinheiro', pronunciation: 'di-nhé-ru' },
-      { cv: 'paga', pt: 'pagar', pronunciation: 'pa-ga' },
-      { cv: 'kuantu', pt: 'quanto', pronunciation: 'kuan-tu' },
-      { cv: 'kilu', pt: 'quilo', pronunciation: 'ki-lu' },
-      { cv: 'saku', pt: 'saco', pronunciation: 'sa-ku' },
-      { cv: 'troku', pt: 'troco', pronunciation: 'tro-ku' }
+      { cv: 'merkadu', pt: 'mercado' },
+      { cv: 'presu', pt: 'preço' },
+      { cv: 'barátu', pt: 'barato' },
+      { cv: 'karu', pt: 'caro' },
+      { cv: 'kumpra', pt: 'comprar' },
+      { cv: 'bende', pt: 'vender' },
+      { cv: 'dinhéru', pt: 'dinheiro' },
+      { cv: 'paga', pt: 'pagar' },
+      { cv: 'kuantu', pt: 'quanto' },
+      { cv: 'kilu', pt: 'quilo' },
+      { cv: 'saku', pt: 'saco' },
+      { cv: 'troku', pt: 'troco' }
     ],
     exercises: [
       {
@@ -429,7 +428,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -445,18 +444,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Sabe pidi y da direson é fundamental kuandu nu sta na un lokal novu. Es lison ta sina vokabuláriu sobri lokalizason, pontu di referênsia y kuma orienta na sidadi kabuverdianu.'
     },
     vocabulary: [
-      { cv: 'undi', pt: 'onde', pronunciation: 'un-di' },
-      { cv: 'diretu', pt: 'direito', pronunciation: 'di-re-tu' },
-      { cv: 'skerda', pt: 'esquerda', pronunciation: 'sker-da' },
-      { cv: 'direita', pt: 'direita', pronunciation: 'di-rey-ta' },
-      { cv: 'longi', pt: 'longe', pronunciation: 'lon-gi' },
-      { cv: 'perti', pt: 'perto', pronunciation: 'per-ti' },
-      { cv: 'rua', pt: 'rua', pronunciation: 'ru-a' },
-      { cv: 'prasa', pt: 'praça', pronunciation: 'pra-sa' },
-      { cv: 'igreja', pt: 'igreja', pronunciation: 'i-gre-ja' },
-      { cv: 'eskola', pt: 'escola', pronunciation: 'es-ko-la' },
-      { cv: 'ospital', pt: 'hospital', pronunciation: 'os-pi-tal' },
-      { cv: 'bai', pt: 'ir', pronunciation: 'bay' }
+      { cv: 'undi', pt: 'onde' },
+      { cv: 'diretu', pt: 'direito' },
+      { cv: 'skerda', pt: 'esquerda' },
+      { cv: 'direita', pt: 'direita' },
+      { cv: 'longi', pt: 'longe' },
+      { cv: 'perti', pt: 'perto' },
+      { cv: 'rua', pt: 'rua' },
+      { cv: 'prasa', pt: 'praça' },
+      { cv: 'igreja', pt: 'igreja' },
+      { cv: 'eskola', pt: 'escola' },
+      { cv: 'ospital', pt: 'hospital' },
+      { cv: 'bai', pt: 'ir' }
     ],
     exercises: [
       {
@@ -478,7 +477,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -494,18 +493,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kume na restauranti é un esperiênsia sosial importanti. Sabe pidi kumida, komprende kardápiu y interaji ku garsãu na kriolu ta torna esperiênsia más autêntiku y agradável.'
     },
     vocabulary: [
-      { cv: 'restauranti', pt: 'restaurante', pronunciation: 're-stau-ran-ti' },
-      { cv: 'kardápiu', pt: 'cardápio', pronunciation: 'kar-dá-piu' },
-      { cv: 'garsãu', pt: 'garçom', pronunciation: 'gar-sãu' },
-      { cv: 'pidi', pt: 'pedir', pronunciation: 'pi-di' },
-      { cv: 'kume', pt: 'comer', pronunciation: 'ku-me' },
-      { cv: 'bebe', pt: 'beber', pronunciation: 'be-be' },
-      { cv: 'gostózu', pt: 'gostoso', pronunciation: 'gos-tó-zu' },
-      { cv: 'salgádu', pt: 'salgado', pronunciation: 'sal-gá-du' },
-      { cv: 'dósi', pt: 'doce', pronunciation: 'dó-si' },
-      { cv: 'kénti', pt: 'quente', pronunciation: 'kén-ti' },
-      { cv: 'friu', pt: 'frio', pronunciation: 'fri-u' },
-      { cv: 'konta', pt: 'conta', pronunciation: 'kon-ta' }
+      { cv: 'restauranti', pt: 'restaurante' },
+      { cv: 'kardápiu', pt: 'cardápio' },
+      { cv: 'garsãu', pt: 'garçom' },
+      { cv: 'pidi', pt: 'pedir' },
+      { cv: 'kume', pt: 'comer' },
+      { cv: 'bebe', pt: 'beber' },
+      { cv: 'gostózu', pt: 'gostoso' },
+      { cv: 'salgádu', pt: 'salgado' },
+      { cv: 'dósi', pt: 'doce' },
+      { cv: 'kénti', pt: 'quente' },
+      { cv: 'friu', pt: 'frio' },
+      { cv: 'konta', pt: 'conta' }
     ],
     exercises: [
       {
@@ -528,7 +527,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 10,
+    id: 11,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -544,18 +543,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Espresa sentimentu y emosão é fundamental pa komunikason profundu. Es lison ta sina vokabuláriu emosional y kuma espresa diferenti stadu di spíritu na kriolu kabuverdianu.'
     },
     vocabulary: [
-      { cv: 'kontenti', pt: 'feliz/contente', pronunciation: 'kon-ten-ti' },
-      { cv: 'tristi', pt: 'triste', pronunciation: 'tris-ti' },
-      { cv: 'raivózu', pt: 'bravo/zangado', pronunciation: 'ray-vó-zu' },
-      { cv: 'medrózu', pt: 'com medo', pronunciation: 'me-dró-zu' },
-      { cv: 'kansádu', pt: 'cansado', pronunciation: 'kan-sá-du' },
-      { cv: 'animádu', pt: 'animado', pronunciation: 'a-ni-má-du' },
-      { cv: 'preokupádu', pt: 'preocupado', pronunciation: 'pre-o-ku-pá-du' },
-      { cv: 'kalmádu', pt: 'calmo', pronunciation: 'kal-má-du' },
-      { cv: 'nervózu', pt: 'nervoso', pronunciation: 'ner-vó-zu' },
-      { cv: 'saudózu', pt: 'com saudades', pronunciation: 'sau-dó-zu' },
-      { cv: 'sinti', pt: 'sentir', pronunciation: 'sin-ti' },
-      { cv: 'emosão', pt: 'emoção', pronunciation: 'e-mo-são' }
+      { cv: 'kontenti', pt: 'feliz/contente' },
+      { cv: 'tristi', pt: 'triste' },
+      { cv: 'raivózu', pt: 'bravo/zangado' },
+      { cv: 'medrózu', pt: 'com medo' },
+      { cv: 'kansádu', pt: 'cansado' },
+      { cv: 'animádu', pt: 'animado' },
+      { cv: 'preokupádu', pt: 'preocupado' },
+      { cv: 'kalmádu', pt: 'calmo' },
+      { cv: 'nervózu', pt: 'nervoso' },
+      { cv: 'saudózu', pt: 'com saudades' },
+      { cv: 'sinti', pt: 'sentir' },
+      { cv: 'emosão', pt: 'emoção' }
     ],
     exercises: [
       {
@@ -578,7 +577,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 11,
+    id: 12,
     level: 'advanced',
     category: 'conversation',
     title: {
@@ -594,18 +593,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Papia na telefoni ta presis vokabuláriu ispesífiku y espresão própryu. Es lison ta sina kuma atende, faze xamada y mantén konversa telefóniku na kriolu kabuverdianu di forma natural.'
     },
     vocabulary: [
-      { cv: 'telefoni', pt: 'telefone', pronunciation: 'te-le-fo-ni' },
-      { cv: 'xama', pt: 'chamar', pronunciation: 'xa-ma' },
-      { cv: 'atende', pt: 'atender', pronunciation: 'a-ten-de' },
-      { cv: 'alô', pt: 'alô', pronunciation: 'a-lô' },
-      { cv: 'ken ki ta papia?', pt: 'quem está falando?', pronunciation: 'ken ki ta pa-pia' },
-      { cv: 'spera', pt: 'esperar', pronunciation: 'spe-ra' },
-      { cv: 'liga', pt: 'ligar', pronunciation: 'li-ga' },
-      { cv: 'dizliga', pt: 'desligar', pronunciation: 'diz-li-ga' },
-      { cv: 'mensaji', pt: 'mensagem', pronunciation: 'men-sa-ji' },
-      { cv: 'númeru', pt: 'número', pronunciation: 'nú-me-ru' },
-      { cv: 'obi', pt: 'ouvir', pronunciation: 'o-bi' },
-      { cv: 'fala más altu', pt: 'falar mais alto', pronunciation: 'fa-la más al-tu' }
+      { cv: 'telefoni', pt: 'telefone' },
+      { cv: 'xama', pt: 'chamar' },
+      { cv: 'atende', pt: 'atender' },
+      { cv: 'alô', pt: 'alô' },
+      { cv: 'ken ki ta papia?', pt: 'quem está falando?' },
+      { cv: 'spera', pt: 'esperar' },
+      { cv: 'liga', pt: 'ligar' },
+      { cv: 'dizliga', pt: 'desligar' },
+      { cv: 'mensaji', pt: 'mensagem' },
+      { cv: 'númeru', pt: 'número' },
+      { cv: 'obi', pt: 'ouvir' },
+      { cv: 'fala más altu', pt: 'falar mais alto' }
     ],
     exercises: [
       {
@@ -629,7 +628,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // GRAMMAR - LIÇÕES DE GRAMÁTICA (5 leçons)
   {
-    id: 4,
+    id: 13,
     level: 'intermediate',
     category: 'grammar',
     title: {
@@ -645,16 +644,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Sistema verbal di kriolu kabuverdianu é diferenti di purtuges. Markadó "ta" ta indika ason habitual, kontínuu o na prezenti. É fundamental komprende es sistema pa papia koretamenti. "Ta" ta ser kolokadu antis di verbu prinsipal y ka ta varia ku pesoa.'
     },
     vocabulary: [
-      { cv: 'ta kume', pt: 'come/está comendo', pronunciation: 'ta ku-me' },
-      { cv: 'ta bebe', pt: 'bebe/está bebendo', pronunciation: 'ta be-be' },
-      { cv: 'ta durmi', pt: 'dorme/está dormindo', pronunciation: 'ta dur-mi' },
-      { cv: 'ta trabadja', pt: 'trabalha/está trabalhando', pronunciation: 'ta tra-ba-dja' },
-      { cv: 'ta studu', pt: 'estuda/está estudando', pronunciation: 'ta stu-du' },
-      { cv: 'ta bai', pt: 'vai/está indo', pronunciation: 'ta bay' },
-      { cv: 'ta ben', pt: 'vem/está vindo', pronunciation: 'ta ben' },
-      { cv: 'ta fala', pt: 'fala/está falando', pronunciation: 'ta fa-la' },
-      { cv: 'ta obi', pt: 'ouve/está ouvindo', pronunciation: 'ta o-bi' },
-      { cv: 'ta odja', pt: 'vê/está vendo', pronunciation: 'ta o-dja' }
+      { cv: 'ta kume', pt: 'come/está comendo' },
+      { cv: 'ta bebe', pt: 'bebe/está bebendo' },
+      { cv: 'ta durmi', pt: 'dorme/está dormindo' },
+      { cv: 'ta trabadja', pt: 'trabalha/está trabalhando' },
+      { cv: 'ta studu', pt: 'estuda/está estudando' },
+      { cv: 'ta bai', pt: 'vai/está indo' },
+      { cv: 'ta ben', pt: 'vem/está vindo' },
+      { cv: 'ta fala', pt: 'fala/está falando' },
+      { cv: 'ta obi', pt: 'ouve/está ouvindo' },
+      { cv: 'ta odja', pt: 'vê/está vendo' }
     ],
     exercises: [
       {
@@ -678,7 +677,7 @@ export const lessonsEnriched: LessonEnriched[] = [
   },
 
   {
-    id: 12,
+    id: 14,
     level: 'intermediate',
     category: 'grammar',
     title: {
@@ -694,14 +693,14 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Pronomi é fundamental pa evita repetison y torna fala más fluidu. Kriolu kabuverdianu ten un sistema di pronomi más simpli ki purtuges, sen variason di jéneru na muitu kazu.'
     },
     vocabulary: [
-      { cv: 'n', pt: 'eu', pronunciation: 'n' },
-      { cv: 'bu', pt: 'tu/você', pronunciation: 'bu' },
-      { cv: 'el', pt: 'ele/ela', pronunciation: 'el' },
-      { cv: 'nu', pt: 'nós', pronunciation: 'nu' },
-      { cv: 'nha', pt: 'meu/minha', pronunciation: 'nha' },
-      { cv: 'bu', pt: 'teu/tua', pronunciation: 'bu' },
-      { cv: 'si', pt: 'seu/sua', pronunciation: 'si' },
-      { cv: 'nos', pt: 'nosso/nossa', pronunciation: 'nos' }
+      { cv: 'n', pt: 'eu' },
+      { cv: 'bu', pt: 'tu/você' },
+      { cv: 'el', pt: 'ele/ela' },
+      { cv: 'nu', pt: 'nós' },
+      { cv: 'nha', pt: 'meu/minha' },
+      { cv: 'bu', pt: 'teu/tua' },
+      { cv: 'si', pt: 'seu/sua' },
+      { cv: 'nos', pt: 'nosso/nossa' }
     ],
     exercises: [
       {
@@ -724,7 +723,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 13,
+    id: 15,
     level: 'intermediate',
     category: 'grammar',
     title: {
@@ -740,11 +739,11 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Plural na kriolu é más simpli ki na purtuges. Jeralmenti ka ta marka na sustantivu, sendo indikadu pa kontestu, númeru o kuantifikadó. Es é un karakterístika importanti di kriolu.'
     },
     vocabulary: [
-      { cv: 'un kasa', pt: 'uma casa', pronunciation: 'un ka-sa' },
-      { cv: 'dos kasa', pt: 'duas casas', pronunciation: 'dos ka-sa' },
-      { cv: 'muitu kasa', pt: 'muitas casas', pronunciation: 'mui-tu ka-sa' },
-      { cv: 'alguns omi', pt: 'alguns homens', pronunciation: 'al-guns o-mi' },
-      { cv: 'txeu mudjer', pt: 'muitas mulheres', pronunciation: 'txeu mu-djer' }
+      { cv: 'un kasa', pt: 'uma casa' },
+      { cv: 'dos kasa', pt: 'duas casas' },
+      { cv: 'muitu kasa', pt: 'muitas casas' },
+      { cv: 'alguns omi', pt: 'alguns homens' },
+      { cv: 'txeu mudjer', pt: 'muitas mulheres' }
     ],
     exercises: [
       {
@@ -766,7 +765,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 14,
+    id: 16,
     level: 'advanced',
     category: 'grammar',
     title: {
@@ -782,14 +781,14 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Pergunta na kriolu ta uza palavra interrogativu ispesífiku y strutura própryu. É importanti konxe es strutura pa komunika efetivamenti y obi informason.'
     },
     vocabulary: [
-      { cv: 'ken', pt: 'quem', pronunciation: 'ken' },
-      { cv: 'kuze', pt: 'o que', pronunciation: 'ku-ze' },
-      { cv: 'undi', pt: 'onde', pronunciation: 'un-di' },
-      { cv: 'kuandu', pt: 'quando', pronunciation: 'kuan-du' },
-      { cv: 'kuma', pt: 'como', pronunciation: 'ku-ma' },
-      { cv: 'pamodi', pt: 'por que', pronunciation: 'pa-mo-di' },
-      { cv: 'kuantu', pt: 'quanto', pronunciation: 'kuan-tu' },
-      { cv: 'kal', pt: 'qual', pronunciation: 'kal' }
+      { cv: 'ken', pt: 'quem' },
+      { cv: 'kuze', pt: 'o que' },
+      { cv: 'undi', pt: 'onde' },
+      { cv: 'kuandu', pt: 'quando' },
+      { cv: 'kuma', pt: 'como' },
+      { cv: 'pamodi', pt: 'por que' },
+      { cv: 'kuantu', pt: 'quanto' },
+      { cv: 'kal', pt: 'qual' }
     ],
     exercises: [
       {
@@ -812,7 +811,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 15,
+    id: 17,
     level: 'advanced',
     category: 'grammar',
     title: {
@@ -828,11 +827,11 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Negason na kriolu ta uza prinsipalmenti partíkula "ka" antis di verbu. Ezisti tanbé otru forma di negason pa diferenti kontestu y ênfazi.'
     },
     vocabulary: [
-      { cv: 'ka', pt: 'não (negação)', pronunciation: 'ka' },
-      { cv: 'nada', pt: 'nada', pronunciation: 'na-da' },
-      { cv: 'ninhén', pt: 'ninguém', pronunciation: 'ni-nhén' },
-      { cv: 'nunka', pt: 'nunca', pronunciation: 'nun-ka' },
-      { cv: 'nenhun', pt: 'nenhum', pronunciation: 'ne-nhun' }
+      { cv: 'ka', pt: 'não (negação)' },
+      { cv: 'nada', pt: 'nada' },
+      { cv: 'ninhén', pt: 'ninguém' },
+      { cv: 'nunka', pt: 'nunca' },
+      { cv: 'nenhun', pt: 'nenhum' }
     ],
     exercises: [
       {
@@ -854,7 +853,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 16,
+    id: 18,
     level: 'advanced',
     category: 'grammar',
     title: {
@@ -870,10 +869,10 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kriolu ten tempu kompoztu formadu ku ausiliár kuma "ten" (ten), "sta" (sta) y "ser" (ser). Es tempu ta espresa aspetu ispesífiku di ason na tempu.'
     },
     vocabulary: [
-      { cv: 'ten + particípiu', pt: 'ter + particípio', pronunciation: 'ten' },
-      { cv: 'sta + gerúndiu', pt: 'estar + gerúndio', pronunciation: 'sta' },
-      { cv: 'ba + infinitivu', pt: 'ir + infinitivo', pronunciation: 'ba' },
-      { cv: 'ja', pt: 'já (aspecto perfectivo)', pronunciation: 'ja' }
+      { cv: 'ten + particípiu', pt: 'ter + particípio' },
+      { cv: 'sta + gerúndiu', pt: 'estar + gerúndio' },
+      { cv: 'ba + infinitivu', pt: 'ir + infinitivo' },
+      { cv: 'ja', pt: 'já (aspecto perfectivo)' }
     ],
     exercises: [
       {
@@ -898,7 +897,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // MINISTRY - LIÇÕES DE MINISTÉRIO (5 leçons)
   {
-    id: 5,
+    id: 19,
     level: 'intermediate',
     category: 'ministry',
     title: {
@@ -911,21 +910,21 @@ export const lessonsEnriched: LessonEnriched[] = [
     },
     content: {
       pt: 'Para compartilhar verdades bíblicas em crioulo cabo-verdiano, é essencial conhecer o vocabulário religioso básico. Esta lição apresenta termos fundamentais usados nas Escrituras e no ministério cristão, permitindo comunicação eficaz sobre temas espirituais.',
-      cv: 'Pa partilha berdadi bíbliku na kriolu kabuverdianu, é esensial konxe vokabuláriu relijozu básiku. Es lison ta aprezenta termu fundamental uzadu na Skritura y na ministériu kristãu, permitindu komunikason efikaz sobri tema spiritual.'
+      cv: 'Pa partilha berdadi bíbliku na kriolu kabuverdianu, é esensial konxe vokabuláriu relijozu báziku. Es lison ta aprezenta termu fundamental uzadu na Skritura y na ministériu kristãu, permitindu komunikason efikaz sobri tema spiritual.'
     },
     vocabulary: [
-      { cv: 'Deus', pt: 'Deus', pronunciation: 'De-us' },
-      { cv: 'Jeová', pt: 'Jeová', pronunciation: 'Je-o-vá' },
-      { cv: 'Jesus', pt: 'Jesus', pronunciation: 'Je-zus' },
-      { cv: 'Bíblia', pt: 'Bíblia', pronunciation: 'Bí-blia' },
-      { cv: 'oração', pt: 'oração', pronunciation: 'o-ra-são' },
-      { cv: 'fé', pt: 'fé', pronunciation: 'fé' },
-      { cv: 'amor', pt: 'amor', pronunciation: 'a-mor' },
-      { cv: 'perdão', pt: 'perdão', pronunciation: 'per-dão' },
-      { cv: 'salvação', pt: 'salvação', pronunciation: 'sal-va-são' },
-      { cv: 'reino', pt: 'reino', pronunciation: 'rey-nu' },
-      { cv: 'paraíso', pt: 'paraíso', pronunciation: 'pa-ra-í-zu' },
-      { cv: 'ressurreição', pt: 'ressurreição', pronunciation: 're-su-rey-são' }
+      { cv: 'Deus', pt: 'Deus' },
+      { cv: 'Jeová', pt: 'Jeová' },
+      { cv: 'Jesus', pt: 'Jesus' },
+      { cv: 'Bíblia', pt: 'Bíblia' },
+      { cv: 'oração', pt: 'oração' },
+      { cv: 'fé', pt: 'fé' },
+      { cv: 'amor', pt: 'amor' },
+      { cv: 'perdão', pt: 'perdão' },
+      { cv: 'salvação', pt: 'salvação' },
+      { cv: 'reino', pt: 'reino' },
+      { cv: 'paraíso', pt: 'paraíso' },
+      { cv: 'ressurreição', pt: 'ressurreição' }
     ],
     exercises: [
       {
@@ -947,7 +946,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 17,
+    id: 20,
     level: 'intermediate',
     category: 'ministry',
     title: {
@@ -963,16 +962,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Pregason di kasa na kasa é un atividadi fundamental di Tistemunha di Jeová. Sabe kuma aprezenta, inisia konversa y partilha mensaji bíbliku na kriolu é esensial pa ministériu efikás.'
     },
     vocabulary: [
-      { cv: 'pregason', pt: 'pregação', pronunciation: 'pre-ga-son' },
-      { cv: 'vizita', pt: 'visita', pronunciation: 'vi-zi-ta' },
-      { cv: 'konversa', pt: 'conversa', pronunciation: 'kon-ver-sa' },
-      { cv: 'mensaji', pt: 'mensagem', pronunciation: 'men-sa-ji' },
-      { cv: 'Bíblia', pt: 'Bíblia', pronunciation: 'Bí-blia' },
-      { cv: 'literatura', pt: 'literatura', pronunciation: 'li-te-ra-tu-ra' },
-      { cv: 'revista', pt: 'revista', pronunciation: 're-vis-ta' },
-      { cv: 'folhetu', pt: 'folheto', pronunciation: 'fo-lhe-tu' },
-      { cv: 'konvite', pt: 'convite', pronunciation: 'kon-vi-te' },
-      { cv: 'reunião', pt: 'reunião', pronunciation: 're-u-ni-ão' }
+      { cv: 'pregason', pt: 'pregação' },
+      { cv: 'vizita', pt: 'visita' },
+      { cv: 'konversa', pt: 'conversa' },
+      { cv: 'mensaji', pt: 'mensagem' },
+      { cv: 'Bíblia', pt: 'Bíblia' },
+      { cv: 'literatura', pt: 'literatura' },
+      { cv: 'revista', pt: 'revista' },
+      { cv: 'folhetu', pt: 'folheto' },
+      { cv: 'konvite', pt: 'convite' },
+      { cv: 'reunião', pt: 'reunião' }
     ],
     exercises: [
       {
@@ -995,7 +994,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 18,
+    id: 21,
     level: 'intermediate',
     category: 'ministry',
     title: {
@@ -1011,16 +1010,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Konduz studu bíbliku ta presis vokabuláriu ispesífiku pa esplika konseitu bíbliku, faze pergunta y djuda studanti komprende verdadi bíbliku na si língua materni.'
     },
     vocabulary: [
-      { cv: 'studu', pt: 'estudo', pronunciation: 'stu-du' },
-      { cv: 'lison', pt: 'lição', pronunciation: 'li-son' },
-      { cv: 'pergunta', pt: 'pergunta', pronunciation: 'per-gun-ta' },
-      { cv: 'risposta', pt: 'resposta', pronunciation: 'ris-pos-ta' },
-      { cv: 'esplika', pt: 'explicar', pronunciation: 'es-pli-ka' },
-      { cv: 'komprende', pt: 'compreender', pronunciation: 'kom-pren-de' },
-      { cv: 'aprende', pt: 'aprender', pronunciation: 'a-pren-de' },
-      { cv: 'sina', pt: 'ensinar', pronunciation: 'si-na' },
-      { cv: 'verdadi', pt: 'verdade', pronunciation: 'ver-da-di' },
-      { cv: 'prinsípiu', pt: 'princípio', pronunciation: 'prin-sí-piu' }
+      { cv: 'studu', pt: 'estudo' },
+      { cv: 'lison', pt: 'lição' },
+      { cv: 'pergunta', pt: 'pergunta' },
+      { cv: 'risposta', pt: 'resposta' },
+      { cv: 'esplika', pt: 'explicar' },
+      { cv: 'komprende', pt: 'compreender' },
+      { cv: 'aprende', pt: 'aprender' },
+      { cv: 'sina', pt: 'ensinar' },
+      { cv: 'verdadi', pt: 'verdade' },
+      { cv: 'prinsípiu', pt: 'princípio' }
     ],
     exercises: [
       {
@@ -1042,7 +1041,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 19,
+    id: 22,
     level: 'advanced',
     category: 'ministry',
     title: {
@@ -1058,16 +1057,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Reunião y asembléia é parti importanti di adorason kristãu. Konxe vokabuláriu relacionadu ku es atividadi ta djuda na partisipason ativu y na komprensão di programa spiritual.'
     },
     vocabulary: [
-      { cv: 'reunião', pt: 'reunião', pronunciation: 're-u-ni-ão' },
-      { cv: 'asembléia', pt: 'assembleia', pronunciation: 'a-sem-blé-ia' },
-      { cv: 'kongrèsu', pt: 'congresso', pronunciation: 'kon-grè-su' },
-      { cv: 'programa', pt: 'programa', pronunciation: 'pro-gra-ma' },
-      { cv: 'partisipason', pt: 'participação', pronunciation: 'par-ti-si-pa-son' },
-      { cv: 'komentáriu', pt: 'comentário', pronunciation: 'ko-men-tá-riu' },
-      { cv: 'orasão', pt: 'oração', pronunciation: 'o-ra-são' },
-      { cv: 'kántiku', pt: 'cântico', pronunciation: 'kán-ti-ku' },
-      { cv: 'palestra', pt: 'palestra', pronunciation: 'pa-les-tra' },
-      { cv: 'demonstrason', pt: 'demonstração', pronunciation: 'de-mons-tra-son' }
+      { cv: 'reunião', pt: 'reunião' },
+      { cv: 'asembléia', pt: 'assembleia' },
+      { cv: 'kongrèsu', pt: 'congresso' },
+      { cv: 'programa', pt: 'programa' },
+      { cv: 'partisipason', pt: 'participação' },
+      { cv: 'komentáriu', pt: 'comentário' },
+      { cv: 'orasão', pt: 'oração' },
+      { cv: 'kántiku', pt: 'cântico' },
+      { cv: 'palestra', pt: 'palestra' },
+      { cv: 'demonstrason', pt: 'demonstração' }
     ],
     exercises: [
       {
@@ -1090,7 +1089,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 20,
+    id: 23,
     level: 'advanced',
     category: 'ministry',
     title: {
@@ -1106,16 +1105,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Tistemunhu públiku é un forma importanti di pregason. Sabe kuma aborda pesoa na lokal públiku, aprezenta mensaji y oferese literatura ta presis vokabuláriu ispesífiku y abordaji rispeitózu.'
     },
     vocabulary: [
-      { cv: 'tistemunhu', pt: 'testemunho', pronunciation: 'tis-te-mu-nhu' },
-      { cv: 'públiku', pt: 'público', pronunciation: 'pú-bli-ku' },
-      { cv: 'prasa', pt: 'praça', pronunciation: 'pra-sa' },
-      { cv: 'merkadu', pt: 'mercado', pronunciation: 'mer-ka-du' },
-      { cv: 'parada', pt: 'parada (ônibus)', pronunciation: 'pa-ra-da' },
-      { cv: 'aborda', pt: 'abordar', pronunciation: 'a-bor-da' },
-      { cv: 'oferese', pt: 'oferecer', pronunciation: 'o-fe-re-se' },
-      { cv: 'distribui', pt: 'distribuir', pronunciation: 'dis-tri-bui' },
-      { cv: 'konvida', pt: 'convidar', pronunciation: 'kon-vi-da' },
-      { cv: 'rispeitózu', pt: 'respeitoso', pronunciation: 'ris-pei-tó-zu' }
+      { cv: 'tistemunhu', pt: 'testemunho' },
+      { cv: 'públiku', pt: 'público' },
+      { cv: 'prasa', pt: 'praça' },
+      { cv: 'merkadu', pt: 'mercado' },
+      { cv: 'parada', pt: 'parada (ônibus)' },
+      { cv: 'aborda', pt: 'abordar' },
+      { cv: 'oferese', pt: 'oferecer' },
+      { cv: 'distribui', pt: 'distribuir' },
+      { cv: 'konvida', pt: 'convidar' },
+      { cv: 'rispeitózu', pt: 'respeitoso' }
     ],
     exercises: [
       {
@@ -1137,7 +1136,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 21,
+    id: 24,
     level: 'advanced',
     category: 'ministry',
     title: {
@@ -1153,16 +1152,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Orasão é komunikason ku Deus y ta presis vokabuláriu apropriadu. Konxe espresão spiritual na kriolu ta djuda na adorason sinseru y na komunikason ku otru kristãu kabuverdianu.'
     },
     vocabulary: [
-      { cv: 'orasão', pt: 'oração', pronunciation: 'o-ra-são' },
-      { cv: 'Jeová', pt: 'Jeová', pronunciation: 'Je-o-vá' },
-      { cv: 'Deus', pt: 'Deus', pronunciation: 'De-us' },
-      { cv: 'Jesus', pt: 'Jesus', pronunciation: 'Je-sus' },
-      { cv: 'agradese', pt: 'agradecer', pronunciation: 'a-gra-de-se' },
-      { cv: 'pidi', pt: 'pedir', pronunciation: 'pi-di' },
-      { cv: 'bensão', pt: 'bênção', pronunciation: 'ben-são' },
-      { cv: 'perdão', pt: 'perdão', pronunciation: 'per-dão' },
-      { cv: 'adorason', pt: 'adoração', pronunciation: 'a-do-ra-son' },
-      { cv: 'amén', pt: 'amém', pronunciation: 'a-mén' }
+      { cv: 'orasão', pt: 'oração' },
+      { cv: 'Jeová', pt: 'Jeová' },
+      { cv: 'Deus', pt: 'Deus' },
+      { cv: 'Jesus', pt: 'Jesus' },
+      { cv: 'agradese', pt: 'agradecer' },
+      { cv: 'pidi', pt: 'pedir' },
+      { cv: 'bensão', pt: 'bênção' },
+      { cv: 'perdão', pt: 'perdão' },
+      { cv: 'adorason', pt: 'adoração' },
+      { cv: 'amén', pt: 'amém' }
     ],
     exercises: [
       {
@@ -1186,7 +1185,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // CULTURE - LIÇÕES DE CULTURA (5 leçons)
   {
-    id: 6,
+    id: 25,
     level: 'advanced',
     category: 'culture',
     title: {
@@ -1202,16 +1201,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kultura kabuverdianu é riku na tradison, múzika, kulinária y festival. Komprende es aspetu kultural atraves di kriolu ta djuda konekta más profundamenti ku povu kabuverdianu. Es lison ta esplora vokabuláriu kultural esensial.'
     },
     vocabulary: [
-      { cv: 'morna', pt: 'morna (música tradicional)', pronunciation: 'mor-na' },
-      { cv: 'coladeira', pt: 'coladeira (ritmo musical)', pronunciation: 'ko-la-dey-ra' },
-      { cv: 'batuku', pt: 'batuku (dança tradicional)', pronunciation: 'ba-tu-ku' },
-      { cv: 'festa', pt: 'festa', pronunciation: 'fes-ta' },
-      { cv: 'katxupa', pt: 'cachupa (prato típico)', pronunciation: 'ka-txu-pa' },
-      { cv: 'grogue', pt: 'grogue (bebida tradicional)', pronunciation: 'gro-ge' },
-      { cv: 'tabanka', pt: 'tabanka (povoação)', pronunciation: 'ta-ban-ka' },
-      { cv: 'sodadi', pt: 'saudade', pronunciation: 'so-da-di' },
-      { cv: 'morabeza', pt: 'hospitalidade', pronunciation: 'mo-ra-be-za' },
-      { cv: 'kriolu', pt: 'crioulo', pronunciation: 'kri-o-lu' }
+      { cv: 'morna', pt: 'morna (música tradicional)' },
+      { cv: 'coladeira', pt: 'coladeira (ritmo musical)' },
+      { cv: 'batuku', pt: 'batuku (dança tradicional)' },
+      { cv: 'festa', pt: 'festa' },
+      { cv: 'katxupa', pt: 'cachupa (prato típico)' },
+      { cv: 'grogue', pt: 'grogue (bebida tradicional)' },
+      { cv: 'tabanka', pt: 'tabanka (povoação)' },
+      { cv: 'sodadi', pt: 'saudade' },
+      { cv: 'morabeza', pt: 'hospitalidade' },
+      { cv: 'kriolu', pt: 'crioulo' }
     ],
     exercises: [
       {
@@ -1234,7 +1233,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 22,
+    id: 26,
     level: 'advanced',
     category: 'culture',
     title: {
@@ -1250,16 +1249,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Múzika é fundamental na kultura kabuverdianu. Morna, melankóliku y nostáljiku, y koladéra, más alegri y dansanti, é espresão di alma kabuverdianu. Konxe vokabuláriu muzikal ta djuda apresia médjor kultura.'
     },
     vocabulary: [
-      { cv: 'morna', pt: 'morna', pronunciation: 'mor-na' },
-      { cv: 'koladéra', pt: 'coladeira', pronunciation: 'ko-la-dé-ra' },
-      { cv: 'funaná', pt: 'funaná', pronunciation: 'fu-na-ná' },
-      { cv: 'batuku', pt: 'batuku', pronunciation: 'ba-tu-ku' },
-      { cv: 'kanta', pt: 'cantar', pronunciation: 'kan-ta' },
-      { cv: 'dansa', pt: 'dançar', pronunciation: 'dan-sa' },
-      { cv: 'viola', pt: 'violão', pronunciation: 'vi-o-la' },
-      { cv: 'kavakínhu', pt: 'cavaquinho', pronunciation: 'ka-va-kí-nhu' },
-      { cv: 'saudadi', pt: 'saudade', pronunciation: 'sau-da-di' },
-      { cv: 'morabeza', pt: 'morabeza (hospitalidade)', pronunciation: 'mo-ra-be-za' }
+      { cv: 'morna', pt: 'morna' },
+      { cv: 'koladéra', pt: 'coladeira' },
+      { cv: 'funaná', pt: 'funaná' },
+      { cv: 'batuku', pt: 'batuku' },
+      { cv: 'kanta', pt: 'cantar' },
+      { cv: 'dansa', pt: 'dançar' },
+      { cv: 'viola', pt: 'violão' },
+      { cv: 'kavakínhu', pt: 'cavaquinho' },
+      { cv: 'saudadi', pt: 'saudade' },
+      { cv: 'morabeza', pt: 'morabeza (hospitalidade)' }
     ],
     exercises: [
       {
@@ -1282,7 +1281,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 23,
+    id: 27,
     level: 'intermediate',
     category: 'culture',
     title: {
@@ -1298,16 +1297,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kulinária kabuverdianu ta refleti stória di arkipélagu, misturandu influênsia afrikanu, purtuges y brasileru. Pratu kuma katxupa, kanja y dósi tradisional é parti di identidadi kultural.'
     },
     vocabulary: [
-      { cv: 'katxupa', pt: 'cachupa', pronunciation: 'ka-txu-pa' },
-      { cv: 'kanja', pt: 'canja', pronunciation: 'kan-ja' },
-      { cv: 'pastel', pt: 'pastel', pronunciation: 'pas-tel' },
-      { cv: 'bólu pólu', pt: 'bolo de milho', pronunciation: 'bó-lu pó-lu' },
-      { cv: 'doce di kóku', pt: 'doce de coco', pronunciation: 'do-se di kó-ku' },
-      { cv: 'pudim', pt: 'pudim', pronunciation: 'pu-dim' },
-      { cv: 'kuskus', pt: 'cuscuz', pronunciation: 'kus-kus' },
-      { cv: 'linguisa', pt: 'linguiça', pronunciation: 'lin-gui-sa' },
-      { cv: 'morreia', pt: 'moreia (peixe)', pronunciation: 'mo-rre-ia' },
-      { cv: 'grogue', pt: 'grogue', pronunciation: 'gro-ge' }
+      { cv: 'katxupa', pt: 'cachupa' },
+      { cv: 'kanja', pt: 'canja' },
+      { cv: 'pastel', pt: 'pastel' },
+      { cv: 'bólu pólu', pt: 'bolo de milho' },
+      { cv: 'doce di kóku', pt: 'doce de coco' },
+      { cv: 'pudim', pt: 'pudim' },
+      { cv: 'kuskus', pt: 'cuscuz' },
+      { cv: 'linguisa', pt: 'linguiça' },
+      { cv: 'morreia', pt: 'moreia (peixe)' },
+      { cv: 'grogue', pt: 'grogue' }
     ],
     exercises: [
       {
@@ -1330,7 +1329,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 24,
+    id: 28,
     level: 'intermediate',
     category: 'culture',
     title: {
@@ -1346,16 +1345,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Festa kabuverdianu é momentu di união komunitáriu, múzika y tradison. Dês di Karnaval té festa di santu padroeiru, kada selebrason ten ses karakterístika úniku y vokabuláriu ispesífiku.'
     },
     vocabulary: [
-      { cv: 'festa', pt: 'festa', pronunciation: 'fes-ta' },
-      { cv: 'karnaval', pt: 'carnaval', pronunciation: 'kar-na-val' },
-      { cv: 'selebrason', pt: 'celebração', pronunciation: 'se-le-bra-son' },
-      { cv: 'santu', pt: 'santo', pronunciation: 'san-tu' },
-      { cv: 'padroeiru', pt: 'padroeiro', pronunciation: 'pa-dro-ei-ru' },
-      { cv: 'prozisão', pt: 'procissão', pronunciation: 'pro-zi-são' },
-      { cv: 'baile', pt: 'baile', pronunciation: 'bay-le' },
-      { cv: 'tabanka', pt: 'tabanka (grupo tradicional)', pronunciation: 'ta-ban-ka' },
-      { cv: 'kolá', pt: 'cola (dança)', pronunciation: 'ko-lá' },
-      { cv: 'festa junina', pt: 'festa junina', pronunciation: 'fes-ta ju-ni-na' }
+      { cv: 'festa', pt: 'festa' },
+      { cv: 'karnaval', pt: 'carnaval' },
+      { cv: 'selebrason', pt: 'celebração' },
+      { cv: 'santu', pt: 'santo' },
+      { cv: 'padroeiru', pt: 'padroeiro' },
+      { cv: 'prozisão', pt: 'procissão' },
+      { cv: 'baile', pt: 'baile' },
+      { cv: 'tabanka', pt: 'tabanka (grupo tradicional)' },
+      { cv: 'kolá', pt: 'cola (dança)' },
+      { cv: 'festa junina', pt: 'festa junina' }
     ],
     exercises: [
       {
@@ -1378,7 +1377,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 25,
+    id: 29,
     level: 'advanced',
     category: 'culture',
     title: {
@@ -1394,16 +1393,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Literatura kabuverdianu na kriolu é riku y espresívu. Dês di Eugéniu Tavaris té autór kontemporáneu, poezia y proza kriolu ta katura esênsia di esperiênsia kabuverdianu, inkluíndu tema di emigrason, saudadi y identidadi.'
     },
     vocabulary: [
-      { cv: 'literatura', pt: 'literatura', pronunciation: 'li-te-ra-tu-ra' },
-      { cv: 'poezia', pt: 'poesia', pronunciation: 'po-e-zia' },
-      { cv: 'poeta', pt: 'poeta', pronunciation: 'po-e-ta' },
-      { cv: 'autór', pt: 'autor', pronunciation: 'au-tór' },
-      { cv: 'livru', pt: 'livro', pronunciation: 'li-vru' },
-      { cv: 'poema', pt: 'poema', pronunciation: 'po-e-ma' },
-      { cv: 'verso', pt: 'verso', pronunciation: 'ver-so' },
-      { cv: 'rima', pt: 'rima', pronunciation: 'ri-ma' },
-      { cv: 'emigrason', pt: 'emigração', pronunciation: 'e-mi-gra-son' },
-      { cv: 'identidadi', pt: 'identidade', pronunciation: 'i-den-ti-da-di' }
+      { cv: 'literatura', pt: 'literatura' },
+      { cv: 'poezia', pt: 'poesia' },
+      { cv: 'poeta', pt: 'poeta' },
+      { cv: 'autór', pt: 'autor' },
+      { cv: 'livru', pt: 'livro' },
+      { cv: 'poema', pt: 'poema' },
+      { cv: 'verso', pt: 'verso' },
+      { cv: 'rima', pt: 'rima' },
+      { cv: 'emigrason', pt: 'emigração' },
+      { cv: 'identidadi', pt: 'identidade' }
     ],
     exercises: [
       {
@@ -1427,7 +1426,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // BASIC - LIÇÕES BÁSICAS (5 leçons supplémentaires - Total: 10)
   {
-    id: 26,
+    id: 30,
     level: 'beginner',
     category: 'basic',
     title: {
@@ -1443,18 +1442,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Konxe dia di simana y mes é esensial pa marka kompromisu y papia sobri data. Kriolu kabuverdianu ta mantén nomi similar ku purtuges, mas ku adaptason fonétiku própryu.'
     },
     vocabulary: [
-      { cv: 'sigunda-féra', pt: 'segunda-feira', pronunciation: 'si-gun-da fé-ra' },
-      { cv: 'tersa-féra', pt: 'terça-feira', pronunciation: 'ter-sa fé-ra' },
-      { cv: 'kuarta-féra', pt: 'quarta-feira', pronunciation: 'kuar-ta fé-ra' },
-      { cv: 'kinta-féra', pt: 'quinta-feira', pronunciation: 'kin-ta fé-ra' },
-      { cv: 'sesta-féra', pt: 'sexta-feira', pronunciation: 'ses-ta fé-ra' },
-      { cv: 'sábadu', pt: 'sábado', pronunciation: 'sá-ba-du' },
-      { cv: 'dumingu', pt: 'domingo', pronunciation: 'du-min-gu' },
-      { cv: 'janéru', pt: 'janeiro', pronunciation: 'ja-né-ru' },
-      { cv: 'fevréru', pt: 'fevereiro', pronunciation: 'fe-vré-ru' },
-      { cv: 'marsu', pt: 'março', pronunciation: 'mar-su' },
-      { cv: 'abril', pt: 'abril', pronunciation: 'a-bril' },
-      { cv: 'maiu', pt: 'maio', pronunciation: 'may-u' }
+      { cv: 'sigunda-féra', pt: 'segunda-feira' },
+      { cv: 'tersa-féra', pt: 'terça-feira' },
+      { cv: 'kuarta-féra', pt: 'quarta-feira' },
+      { cv: 'kinta-féra', pt: 'quinta-feira' },
+      { cv: 'sesta-féra', pt: 'sexta-feira' },
+      { cv: 'sábadu', pt: 'sábado' },
+      { cv: 'dumingu', pt: 'domingo' },
+      { cv: 'janéru', pt: 'janeiro' },
+      { cv: 'fevréru', pt: 'fevereiro' },
+      { cv: 'marsu', pt: 'março' },
+      { cv: 'abril', pt: 'abril' },
+      { cv: 'maiu', pt: 'maio' }
     ],
     exercises: [
       {
@@ -1477,7 +1476,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 27,
+    id: 31,
     level: 'beginner',
     category: 'basic',
     title: {
@@ -1493,18 +1492,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Konxe parti di korpu é importanti pa komunika sobri saúdi, deskrebe pesoa y espresa sensason físiku. Es vokabuláriu ta ser uzadu frekuentimenti na dia a dia.'
     },
     vocabulary: [
-      { cv: 'kabesa', pt: 'cabeça', pronunciation: 'ka-be-sa' },
-      { cv: 'olhu', pt: 'olho', pronunciation: 'o-lhu' },
-      { cv: 'nariz', pt: 'nariz', pronunciation: 'na-riz' },
-      { cv: 'boka', pt: 'boca', pronunciation: 'bo-ka' },
-      { cv: 'orelha', pt: 'orelha', pronunciation: 'o-re-lha' },
-      { cv: 'mãu', pt: 'mão', pronunciation: 'mãu' },
-      { cv: 'braçu', pt: 'braço', pronunciation: 'bra-çu' },
-      { cv: 'pé', pt: 'pé', pronunciation: 'pé' },
-      { cv: 'perna', pt: 'perna', pronunciation: 'per-na' },
-      { cv: 'barriga', pt: 'barriga', pronunciation: 'ba-rri-ga' },
-      { cv: 'kosta', pt: 'costas', pronunciation: 'kos-ta' },
-      { cv: 'peitu', pt: 'peito', pronunciation: 'pey-tu' }
+      { cv: 'kabesa', pt: 'cabeça' },
+      { cv: 'olhu', pt: 'olho' },
+      { cv: 'nariz', pt: 'nariz' },
+      { cv: 'boka', pt: 'boca' },
+      { cv: 'orelha', pt: 'orelha' },
+      { cv: 'mãu', pt: 'mão' },
+      { cv: 'braçu', pt: 'braço' },
+      { cv: 'pé', pt: 'pé' },
+      { cv: 'perna', pt: 'perna' },
+      { cv: 'barriga', pt: 'barriga' },
+      { cv: 'kosta', pt: 'costas' },
+      { cv: 'peitu', pt: 'peito' }
     ],
     exercises: [
       {
@@ -1527,7 +1526,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 28,
+    id: 32,
     level: 'beginner',
     category: 'basic',
     title: {
@@ -1543,18 +1542,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Sabe nomia ropa y asesoriu é útil pa faze kompra, deskrebe kuze ki nu ta visti y papia sobri moda. Es vokabuláriu é esensial pa situason di kotidjanu.'
     },
     vocabulary: [
-      { cv: 'kamiza', pt: 'camisa', pronunciation: 'ka-mi-za' },
-      { cv: 'kalsa', pt: 'calça', pronunciation: 'kal-sa' },
-      { cv: 'vestidu', pt: 'vestido', pronunciation: 'ves-ti-du' },
-      { cv: 'sapatu', pt: 'sapato', pronunciation: 'sa-pa-tu' },
-      { cv: 'xapéu', pt: 'chapéu', pronunciation: 'xa-péu' },
-      { cv: 'óklus', pt: 'óculos', pronunciation: 'ó-klus' },
-      { cv: 'réloju', pt: 'relógio', pronunciation: 'ré-lo-ju' },
-      { cv: 'kolar', pt: 'colar', pronunciation: 'ko-lar' },
-      { cv: 'anel', pt: 'anel', pronunciation: 'a-nel' },
-      { cv: 'sintu', pt: 'cinto', pronunciation: 'sin-tu' },
-      { cv: 'meia', pt: 'meia', pronunciation: 'mey-a' },
-      { cv: 'jaketa', pt: 'jaqueta', pronunciation: 'ja-ke-ta' }
+      { cv: 'kamiza', pt: 'camisa' },
+      { cv: 'kalsa', pt: 'calça' },
+      { cv: 'vestidu', pt: 'vestido' },
+      { cv: 'sapatu', pt: 'sapato' },
+      { cv: 'xapéu', pt: 'chapéu' },
+      { cv: 'óklus', pt: 'óculos' },
+      { cv: 'réloju', pt: 'relógio' },
+      { cv: 'kolar', pt: 'colar' },
+      { cv: 'anel', pt: 'anel' },
+      { cv: 'sintu', pt: 'cinto' },
+      { cv: 'meia', pt: 'meia' },
+      { cv: 'jaketa', pt: 'jaqueta' }
     ],
     exercises: [
       {
@@ -1576,7 +1575,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 29,
+    id: 33,
     level: 'intermediate',
     category: 'basic',
     title: {
@@ -1592,18 +1591,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Meyu di transporti é esensial pa mobilidadi na Kabu Verdi. Konxe es vokabuláriu ta djuda navega pa ilha, pidi informason y planea viaji.'
     },
     vocabulary: [
-      { cv: 'karru', pt: 'carro', pronunciation: 'kar-ru' },
-      { cv: 'ônibus', pt: 'ônibus', pronunciation: 'ô-ni-bus' },
-      { cv: 'avião', pt: 'avião', pronunciation: 'a-vi-ão' },
-      { cv: 'barku', pt: 'barco', pronunciation: 'bar-ku' },
-      { cv: 'bisikleta', pt: 'bicicleta', pronunciation: 'bi-si-kle-ta' },
-      { cv: 'mota', pt: 'moto', pronunciation: 'mo-ta' },
-      { cv: 'táxi', pt: 'táxi', pronunciation: 'tá-xi' },
-      { cv: 'tren', pt: 'trem', pronunciation: 'tren' },
-      { cv: 'alugé', pt: 'aluguel (hiace)', pronunciation: 'a-lu-gé' },
-      { cv: 'ferry', pt: 'ferry', pronunciation: 'fer-ry' },
-      { cv: 'helikópteru', pt: 'helicóptero', pronunciation: 'he-li-kóp-te-ru' },
-      { cv: 'kaminhão', pt: 'caminhão', pronunciation: 'ka-mi-nhão' }
+      { cv: 'karru', pt: 'carro' },
+      { cv: 'ônibus', pt: 'ônibus' },
+      { cv: 'avião', pt: 'avião' },
+      { cv: 'barku', pt: 'barco' },
+      { cv: 'bisikleta', pt: 'bicicleta' },
+      { cv: 'mota', pt: 'moto' },
+      { cv: 'táxi', pt: 'táxi' },
+      { cv: 'tren', pt: 'trem' },
+      { cv: 'alugé', pt: 'aluguel (hiace)' },
+      { cv: 'ferry', pt: 'ferry' },
+      { cv: 'helikópteru', pt: 'helicóptero' },
+      { cv: 'kaminhão', pt: 'caminhão' }
     ],
     exercises: [
       {
@@ -1626,7 +1625,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 30,
+    id: 34,
     level: 'intermediate',
     category: 'basic',
     title: {
@@ -1642,18 +1641,18 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kabu Verdi ten un fauna úniku y paizaji natural diversu. Es vokabuláriu ta djuda deskrebe animal lokal, papia sobri meyu ambienti y apresia natureza di ilha.'
     },
     vocabulary: [
-      { cv: 'kãu', pt: 'cão', pronunciation: 'kãu' },
-      { cv: 'gatu', pt: 'gato', pronunciation: 'ga-tu' },
-      { cv: 'porku', pt: 'porco', pronunciation: 'por-ku' },
-      { cv: 'kabra', pt: 'cabra', pronunciation: 'ka-bra' },
-      { cv: 'galinha', pt: 'galinha', pronunciation: 'ga-li-nha' },
-      { cv: 'pásaru', pt: 'pássaro', pronunciation: 'pá-sa-ru' },
-      { cv: 'pesi', pt: 'peixe', pronunciation: 'pe-si' },
-      { cv: 'mar', pt: 'mar', pronunciation: 'mar' },
-      { cv: 'montanha', pt: 'montanha', pronunciation: 'mon-ta-nha' },
-      { cv: 'árvuri', pt: 'árvore', pronunciation: 'ár-vu-ri' },
-      { cv: 'flor', pt: 'flor', pronunciation: 'flor' },
-      { cv: 'pedra', pt: 'pedra', pronunciation: 'pe-dra' }
+      { cv: 'kãu', pt: 'cão' },
+      { cv: 'gatu', pt: 'gato' },
+      { cv: 'porku', pt: 'porco' },
+      { cv: 'kabra', pt: 'cabra' },
+      { cv: 'galinha', pt: 'galinha' },
+      { cv: 'pásaru', pt: 'pássaro' },
+      { cv: 'pesi', pt: 'peixe' },
+      { cv: 'mar', pt: 'mar' },
+      { cv: 'montanha', pt: 'montanha' },
+      { cv: 'árvuri', pt: 'árvore' },
+      { cv: 'flor', pt: 'flor' },
+      { cv: 'pedra', pt: 'pedra' }
     ],
     exercises: [
       {
@@ -1678,7 +1677,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // CONVERSATION - LIÇÕES DE CONVERSAÇÃO (5 leçons supplémentaires - Total: 10)
   {
-    id: 31,
+    id: 35,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -1694,16 +1693,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Sabe komunika sobri saúdi y sintoma é krusial na emerjênsia. Es vokabuláriu ta djuda deskrebe problema di saúdi y komprende orientason médiku.'
     },
     vocabulary: [
-      { cv: 'médiku', pt: 'médico', pronunciation: 'mé-di-ku' },
-      { cv: 'enfermeru', pt: 'enfermeiro', pronunciation: 'en-fer-me-ru' },
-      { cv: 'ospital', pt: 'hospital', pronunciation: 'os-pi-tal' },
-      { cv: 'dor', pt: 'dor', pronunciation: 'dor' },
-      { cv: 'febre', pt: 'febre', pronunciation: 'fe-bre' },
-      { cv: 'remédiu', pt: 'remédio', pronunciation: 're-mé-diu' },
-      { cv: 'konsulta', pt: 'consulta', pronunciation: 'kon-sul-ta' },
-      { cv: 'ezami', pt: 'exame', pronunciation: 'e-za-mi' },
-      { cv: 'sintoma', pt: 'sintoma', pronunciation: 'sin-to-ma' },
-      { cv: 'tratamentu', pt: 'tratamento', pronunciation: 'tra-ta-men-tu' }
+      { cv: 'médiku', pt: 'médico' },
+      { cv: 'enfermeru', pt: 'enfermeiro' },
+      { cv: 'ospital', pt: 'hospital' },
+      { cv: 'dor', pt: 'dor' },
+      { cv: 'febre', pt: 'febre' },
+      { cv: 'remédiu', pt: 'remédio' },
+      { cv: 'konsulta', pt: 'consulta' },
+      { cv: 'ezami', pt: 'exame' },
+      { cv: 'sintoma', pt: 'sintoma' },
+      { cv: 'tratamentu', pt: 'tratamento' }
     ],
     exercises: [
       {
@@ -1726,7 +1725,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 32,
+    id: 36,
     level: 'intermediate',
     category: 'conversation',
     title: {
@@ -1742,16 +1741,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Edukason é fundamental na Kabu Verdi. Es vokabuláriu ta djuda papia sobri studu, disiplina y vida akadémiku.'
     },
     vocabulary: [
-      { cv: 'eskola', pt: 'escola', pronunciation: 'es-ko-la' },
-      { cv: 'universidadi', pt: 'universidade', pronunciation: 'u-ni-ver-si-da-di' },
-      { cv: 'profesor', pt: 'professor', pronunciation: 'pro-fe-sor' },
-      { cv: 'studanti', pt: 'estudante', pronunciation: 'stu-dan-ti' },
-      { cv: 'livru', pt: 'livro', pronunciation: 'li-vru' },
-      { cv: 'kadérnu', pt: 'caderno', pronunciation: 'ka-dér-nu' },
-      { cv: 'lápis', pt: 'lápis', pronunciation: 'lá-pis' },
-      { cv: 'prova', pt: 'prova', pronunciation: 'pro-va' },
-      { cv: 'nota', pt: 'nota', pronunciation: 'no-ta' },
-      { cv: 'diploma', pt: 'diploma', pronunciation: 'di-plo-ma' }
+      { cv: 'eskola', pt: 'escola' },
+      { cv: 'universidadi', pt: 'universidade' },
+      { cv: 'profesor', pt: 'professor' },
+      { cv: 'studanti', pt: 'estudante' },
+      { cv: 'livru', pt: 'livro' },
+      { cv: 'kadérnu', pt: 'caderno' },
+      { cv: 'lápis', pt: 'lápis' },
+      { cv: 'prova', pt: 'prova' },
+      { cv: 'nota', pt: 'nota' },
+      { cv: 'diploma', pt: 'diploma' }
     ],
     exercises: [
       {
@@ -1773,7 +1772,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 33,
+    id: 37,
     level: 'advanced',
     category: 'conversation',
     title: {
@@ -1789,16 +1788,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Papia sobri trabadju y profison é esensial pa networking y oportunidadi. Es vokabuláriu ta kobri diversu área profesional.'
     },
     vocabulary: [
-      { cv: 'trabadju', pt: 'trabalho', pronunciation: 'tra-ba-dju' },
-      { cv: 'xefe', pt: 'chefe', pronunciation: 'xe-fe' },
-      { cv: 'kolega', pt: 'colega', pronunciation: 'ko-le-ga' },
-      { cv: 'saláriu', pt: 'salário', pronunciation: 'sa-lá-riu' },
-      { cv: 'emprégu', pt: 'emprego', pronunciation: 'em-pré-gu' },
-      { cv: 'entrevista', pt: 'entrevista', pronunciation: 'en-tre-vis-ta' },
-      { cv: 'kontratu', pt: 'contrato', pronunciation: 'kon-tra-tu' },
-      { cv: 'férias', pt: 'férias', pronunciation: 'fé-ri-as' },
-      { cv: 'promosão', pt: 'promoção', pronunciation: 'pro-mo-são' },
-      { cv: 'aposentadoria', pt: 'aposentadoria', pronunciation: 'a-po-sen-ta-do-ri-a' }
+      { cv: 'trabadju', pt: 'trabalho' },
+      { cv: 'xefe', pt: 'chefe' },
+      { cv: 'kolega', pt: 'colega' },
+      { cv: 'saláriu', pt: 'salário' },
+      { cv: 'emprégu', pt: 'emprego' },
+      { cv: 'entrevista', pt: 'entrevista' },
+      { cv: 'kontratu', pt: 'contrato' },
+      { cv: 'férias', pt: 'férias' },
+      { cv: 'promosão', pt: 'promoção' },
+      { cv: 'aposentadoria', pt: 'aposentadoria' }
     ],
     exercises: [
       {
@@ -1821,7 +1820,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 34,
+    id: 38,
     level: 'advanced',
     category: 'conversation',
     title: {
@@ -1837,16 +1836,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kabu Verdi é un destinu turístiku. Sabe papia sobri viaji, hotel y atrason é útil pa trabadja na turizmu o viaja.'
     },
     vocabulary: [
-      { cv: 'viaji', pt: 'viagem', pronunciation: 'vi-a-ji' },
-      { cv: 'turista', pt: 'turista', pronunciation: 'tu-ris-ta' },
-      { cv: 'hotel', pt: 'hotel', pronunciation: 'ho-tel' },
-      { cv: 'praia', pt: 'praia', pronunciation: 'pra-ia' },
-      { cv: 'aeroportu', pt: 'aeroporto', pronunciation: 'a-e-ro-por-tu' },
-      { cv: 'bilheti', pt: 'bilhete', pronunciation: 'bi-lhe-ti' },
-      { cv: 'rezerva', pt: 'reserva', pronunciation: 're-zer-va' },
-      { cv: 'guia', pt: 'guia', pronunciation: 'gui-a' },
-      { cv: 'monumentu', pt: 'monumento', pronunciation: 'mo-nu-men-tu' },
-      { cv: 'lembransa', pt: 'lembrança', pronunciation: 'lem-bran-sa' }
+      { cv: 'viaji', pt: 'viagem' },
+      { cv: 'turista', pt: 'turista' },
+      { cv: 'hotel', pt: 'hotel' },
+      { cv: 'praia', pt: 'praia' },
+      { cv: 'aeroportu', pt: 'aeroporto' },
+      { cv: 'bilheti', pt: 'bilhete' },
+      { cv: 'rezerva', pt: 'reserva' },
+      { cv: 'guia', pt: 'guia' },
+      { cv: 'monumentu', pt: 'monumento' },
+      { cv: 'lembransa', pt: 'lembrança' }
     ],
     exercises: [
       {
@@ -1869,7 +1868,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 35,
+    id: 39,
     level: 'advanced',
     category: 'conversation',
     title: {
@@ -1885,16 +1884,16 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Na situason di emerjênsia, sabe komunika rapidamenti é vital. Es vokabuláriu podi salva vida y resolve problema urjenti.'
     },
     vocabulary: [
-      { cv: 'emerjênsia', pt: 'emergência', pronunciation: 'e-mer-jên-si-a' },
-      { cv: 'ajuda', pt: 'ajuda', pronunciation: 'a-ju-da' },
-      { cv: 'polísia', pt: 'polícia', pronunciation: 'po-lí-si-a' },
-      { cv: 'bomberu', pt: 'bombeiro', pronunciation: 'bom-be-ru' },
-      { cv: 'ambulânsia', pt: 'ambulância', pronunciation: 'am-bu-lân-si-a' },
-      { cv: 'asidenti', pt: 'acidente', pronunciation: 'a-si-den-ti' },
-      { cv: 'fogu', pt: 'fogo', pronunciation: 'fo-gu' },
-      { cv: 'ladrão', pt: 'ladrão', pronunciation: 'la-drão' },
-      { cv: 'perdu', pt: 'perdido', pronunciation: 'per-du' },
-      { cv: 'urjenti', pt: 'urgente', pronunciation: 'ur-jen-ti' }
+      { cv: 'emerjênsia', pt: 'emergência' },
+      { cv: 'ajuda', pt: 'ajuda' },
+      { cv: 'polísia', pt: 'polícia' },
+      { cv: 'bomberu', pt: 'bombeiro' },
+      { cv: 'ambulânsia', pt: 'ambulância' },
+      { cv: 'asidenti', pt: 'acidente' },
+      { cv: 'fogu', pt: 'fogo' },
+      { cv: 'ladrão', pt: 'ladrão' },
+      { cv: 'perdu', pt: 'perdido' },
+      { cv: 'urjenti', pt: 'urgente' }
     ],
     exercises: [
       {
@@ -1919,7 +1918,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // GRAMMAR - LIÇÕES DE GRAMÁTICA (5 leçons supplémentaires - Total: 10)
   {
-    id: 36,
+    id: 40,
     level: 'intermediate',
     category: 'grammar',
     title: {
@@ -1935,14 +1934,14 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Adjetivu na kriolu é más simpli ki na purtuges. Ka ten konkordânsia di jéneru, mas ten regra ispesífiku di pozison y uzu.'
     },
     vocabulary: [
-      { cv: 'bonitu', pt: 'bonito', pronunciation: 'bo-ni-tu' },
-      { cv: 'feu', pt: 'feio', pronunciation: 'feu' },
-      { cv: 'grandi', pt: 'grande', pronunciation: 'gran-di' },
-      { cv: 'pikininu', pt: 'pequeno', pronunciation: 'pi-ki-ni-nu' },
-      { cv: 'novu', pt: 'novo', pronunciation: 'no-vu' },
-      { cv: 'bedju', pt: 'velho', pronunciation: 'be-dju' },
-      { cv: 'altu', pt: 'alto', pronunciation: 'al-tu' },
-      { cv: 'baxu', pt: 'baixo', pronunciation: 'ba-xu' }
+      { cv: 'bonitu', pt: 'bonito' },
+      { cv: 'feu', pt: 'feio' },
+      { cv: 'grandi', pt: 'grande' },
+      { cv: 'pikininu', pt: 'pequeno' },
+      { cv: 'novu', pt: 'novo' },
+      { cv: 'bedju', pt: 'velho' },
+      { cv: 'altu', pt: 'alto' },
+      { cv: 'baxu', pt: 'baixo' }
     ],
     exercises: [
       {
@@ -1965,7 +1964,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 37,
+    id: 41,
     level: 'intermediate',
     category: 'grammar',
     title: {
@@ -1981,14 +1980,14 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Prepozison ta konekta palavra y espresa relason ispasial, temporal y otru. É fundamental pa konstrui frazi koretu.'
     },
     vocabulary: [
-      { cv: 'na', pt: 'em/na', pronunciation: 'na' },
-      { cv: 'di', pt: 'de/do', pronunciation: 'di' },
-      { cv: 'pa', pt: 'para', pronunciation: 'pa' },
-      { cv: 'ku', pt: 'com', pronunciation: 'ku' },
-      { cv: 'sin', pt: 'sem', pronunciation: 'sin' },
-      { cv: 'sobri', pt: 'sobre', pronunciation: 'so-bri' },
-      { cv: 'baxu di', pt: 'embaixo de', pronunciation: 'ba-xu di' },
-      { cv: 'riba di', pt: 'em cima de', pronunciation: 'ri-ba di' }
+      { cv: 'na', pt: 'em/na' },
+      { cv: 'di', pt: 'de/do' },
+      { cv: 'pa', pt: 'para' },
+      { cv: 'ku', pt: 'com' },
+      { cv: 'sin', pt: 'sem' },
+      { cv: 'sobri', pt: 'sobre' },
+      { cv: 'baxu di', pt: 'embaixo de' },
+      { cv: 'riba di', pt: 'em cima de' }
     ],
     exercises: [
       {
@@ -2010,7 +2009,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 38,
+    id: 42,
     level: 'advanced',
     category: 'grammar',
     title: {
@@ -2026,12 +2025,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Espresão idiomátiku ta da kór y autentisidadi na linguaji. Konxe-s ta djuda komprende médjor kultura y papia di forma más natural.'
     },
     vocabulary: [
-      { cv: 'ta dadu', pt: 'está bem/ok', pronunciation: 'ta da-du' },
-      { cv: 'ka ta nada', pt: 'não é nada', pronunciation: 'ka ta na-da' },
-      { cv: 'modi ki é', pt: 'como é que é', pronunciation: 'mo-di ki é' },
-      { cv: 'bu ta odja', pt: 'você está vendo', pronunciation: 'bu ta o-dja' },
-      { cv: 'é mesmu', pt: 'é mesmo', pronunciation: 'é mes-mu' },
-      { cv: 'ka bu kré', pt: 'se você quiser', pronunciation: 'ka bu kré' }
+      { cv: 'ta dadu', pt: 'está bem/ok' },
+      { cv: 'ka ta nada', pt: 'não é nada' },
+      { cv: 'modi ki é', pt: 'como é que é' },
+      { cv: 'bu ta odja', pt: 'você está vendo' },
+      { cv: 'é mesmu', pt: 'é mesmo' },
+      { cv: 'ka bu kré', pt: 'se você quiser' }
     ],
     exercises: [
       {
@@ -2054,7 +2053,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 39,
+    id: 43,
     level: 'advanced',
     category: 'grammar',
     title: {
@@ -2070,13 +2069,13 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Komparason na kriolu ta uza strutura ispesífiku ku "más ki" (más ki), "menu ki" (menu ki) y otru espresão pa kompara kualidadi y kuantidadi.'
     },
     vocabulary: [
-      { cv: 'más ki', pt: 'mais que', pronunciation: 'más ki' },
-      { cv: 'menu ki', pt: 'menos que', pronunciation: 'me-nu ki' },
-      { cv: 'igual ku', pt: 'igual a', pronunciation: 'i-gual ku' },
-      { cv: 'más bon', pt: 'melhor', pronunciation: 'más bon' },
-      { cv: 'más mau', pt: 'pior', pronunciation: 'más mau' },
-      { cv: 'más grandi', pt: 'maior', pronunciation: 'más gran-di' },
-      { cv: 'más pikininu', pt: 'menor', pronunciation: 'más pi-ki-ni-nu' }
+      { cv: 'más ki', pt: 'mais que' },
+      { cv: 'menu ki', pt: 'menos que' },
+      { cv: 'igual ku', pt: 'igual a' },
+      { cv: 'más bon', pt: 'melhor' },
+      { cv: 'más mau', pt: 'pior' },
+      { cv: 'más grandi', pt: 'maior' },
+      { cv: 'más pikininu', pt: 'menor' }
     ],
     exercises: [
       {
@@ -2098,7 +2097,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 40,
+    id: 44,
     level: 'advanced',
     category: 'grammar',
     title: {
@@ -2114,12 +2113,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Strutura kondisional ta espresa situason ipotetiku uzandu "si" (si), "ka bu" (ka bu), y otru forma pa kria frazi kondisional.'
     },
     vocabulary: [
-      { cv: 'si', pt: 'se', pronunciation: 'si' },
-      { cv: 'ka bu', pt: 'se você', pronunciation: 'ka bu' },
-      { cv: 'intão', pt: 'então', pronunciation: 'in-tão' },
-      { cv: 'kazu ki', pt: 'caso que', pronunciation: 'ka-zu ki' },
-      { cv: 'supondo ki', pt: 'supondo que', pronunciation: 'su-pon-du ki' },
-      { cv: 'seria', pt: 'seria', pronunciation: 'se-ri-a' }
+      { cv: 'si', pt: 'se' },
+      { cv: 'ka bu', pt: 'se você' },
+      { cv: 'intão', pt: 'então' },
+      { cv: 'kazu ki', pt: 'caso que' },
+      { cv: 'supondo ki', pt: 'supondo que' },
+      { cv: 'seria', pt: 'seria' }
     ],
     exercises: [
       {
@@ -2143,7 +2142,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // MINISTRY - LIÇÕES DE MINISTÉRIO (5 leçons supplémentaires - Total: 10)
   {
-    id: 41,
+    id: 45,
     level: 'intermediate',
     category: 'ministry',
     title: {
@@ -2159,14 +2158,14 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Preparason di diskrisu é fundamental na Eskola di Ministériu Teokrátiku. Sabe strutura, peskiza y aprezenta diskrisu ta djuda na kresimentu spiritual.'
     },
     vocabulary: [
-      { cv: 'diskrisu', pt: 'discurso', pronunciation: 'dis-kri-su' },
-      { cv: 'tema', pt: 'tema', pronunciation: 'te-ma' },
-      { cv: 'introduson', pt: 'introdução', pronunciation: 'in-tro-du-son' },
-      { cv: 'konkluzão', pt: 'conclusão', pronunciation: 'kon-klu-zão' },
-      { cv: 'pontu prinsipal', pt: 'ponto principal', pronunciation: 'pon-tu prin-si-pal' },
-      { cv: 'ilustrason', pt: 'ilustração', pronunciation: 'i-lus-tra-son' },
-      { cv: 'aplikason', pt: 'aplicação', pronunciation: 'a-pli-ka-son' },
-      { cv: 'audiênsia', pt: 'audiência', pronunciation: 'au-di-ên-si-a' }
+      { cv: 'diskrisu', pt: 'discurso' },
+      { cv: 'tema', pt: 'tema' },
+      { cv: 'introduson', pt: 'introdução' },
+      { cv: 'konkluzão', pt: 'conclusão' },
+      { cv: 'pontu prinsipal', pt: 'ponto principal' },
+      { cv: 'ilustrason', pt: 'ilustração' },
+      { cv: 'aplikason', pt: 'aplicação' },
+      { cv: 'audiênsia', pt: 'audiência' }
     ],
     exercises: [
       {
@@ -2189,7 +2188,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 42,
+    id: 46,
     level: 'intermediate',
     category: 'ministry',
     title: {
@@ -2205,14 +2204,14 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Leitura públiku di Bíblia ta presis preparason, bon dikson y komprensão di testu. É un onra le Skritura pa kongregason.'
     },
     vocabulary: [
-      { cv: 'leitura', pt: 'leitura', pronunciation: 'ley-tu-ra' },
-      { cv: 'versíkulu', pt: 'versículo', pronunciation: 'ver-sí-ku-lu' },
-      { cv: 'kapítulu', pt: 'capítulo', pronunciation: 'ka-pí-tu-lu' },
-      { cv: 'dikson', pt: 'dicção', pronunciation: 'dik-son' },
-      { cv: 'entonason', pt: 'entonação', pronunciation: 'en-to-na-son' },
-      { cv: 'pausa', pt: 'pausa', pronunciation: 'pau-sa' },
-      { cv: 'ênfazi', pt: 'ênfase', pronunciation: 'ên-fa-zi' },
-      { cv: 'klaru', pt: 'claro', pronunciation: 'kla-ru' }
+      { cv: 'leitura', pt: 'leitura' },
+      { cv: 'versíkulu', pt: 'versículo' },
+      { cv: 'kapítulu', pt: 'capítulo' },
+      { cv: 'dikson', pt: 'dicção' },
+      { cv: 'entonason', pt: 'entonação' },
+      { cv: 'pausa', pt: 'pausa' },
+      { cv: 'ênfazi', pt: 'ênfase' },
+      { cv: 'klaru', pt: 'claro' }
     ],
     exercises: [
       {
@@ -2235,7 +2234,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 43,
+    id: 47,
     level: 'advanced',
     category: 'ministry',
     title: {
@@ -2251,13 +2250,13 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Ensinu bíbliku efikás ta involve preparason, uzu di pergunta, aplikason prátiku y amor jenuínu pa studanti.'
     },
     vocabulary: [
-      { cv: 'ensinu', pt: 'ensino', pronunciation: 'en-si-nu' },
-      { cv: 'métodu', pt: 'método', pronunciation: 'mé-to-du' },
-      { cv: 'pergunta', pt: 'pergunta', pronunciation: 'per-gun-ta' },
-      { cv: 'aplikason', pt: 'aplicação', pronunciation: 'a-pli-ka-son' },
-      { cv: 'pasiênsia', pt: 'paciência', pronunciation: 'pa-si-ên-si-a' },
-      { cv: 'amor', pt: 'amor', pronunciation: 'a-mor' },
-      { cv: 'komprensão', pt: 'compreensão', pronunciation: 'kom-pren-são' }
+      { cv: 'ensinu', pt: 'ensino' },
+      { cv: 'métodu', pt: 'método' },
+      { cv: 'pergunta', pt: 'pergunta' },
+      { cv: 'aplikason', pt: 'aplicação' },
+      { cv: 'pasiênsia', pt: 'paciência' },
+      { cv: 'amor', pt: 'amor' },
+      { cv: 'komprensão', pt: 'compreensão' }
     ],
     exercises: [
       {
@@ -2271,7 +2270,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 44,
+    id: 48,
     level: 'advanced',
     category: 'ministry',
     title: {
@@ -2287,12 +2286,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Vizita pastoral ta fortalese kongregason através di enkorajamentu pesoal y kuidadu spiritual.'
     },
     vocabulary: [
-      { cv: 'vizita', pt: 'visita', pronunciation: 'vi-zi-ta' },
-      { cv: 'pastor', pt: 'pastor', pronunciation: 'pas-tor' },
-      { cv: 'enkorajamentu', pt: 'encorajamento', pronunciation: 'en-ko-ra-ja-men-tu' },
-      { cv: 'kuidadu', pt: 'cuidado', pronunciation: 'kui-da-du' },
-      { cv: 'konselu', pt: 'conselho', pronunciation: 'kon-se-lu' },
-      { cv: 'apoiu', pt: 'apoio', pronunciation: 'a-poy-u' }
+      { cv: 'vizita', pt: 'visita' },
+      { cv: 'pastor', pt: 'pastor' },
+      { cv: 'enkorajamentu', pt: 'encorajamento' },
+      { cv: 'kuidadu', pt: 'cuidado' },
+      { cv: 'konselu', pt: 'conselho' },
+      { cv: 'apoiu', pt: 'apoio' }
     ],
     exercises: [
       {
@@ -2306,7 +2305,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 45,
+    id: 49,
     level: 'advanced',
     category: 'ministry',
     title: {
@@ -2322,12 +2321,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Asembléia y kongrèsu é okazião ispesial di fortalese spiritual y konfraternizason.'
     },
     vocabulary: [
-      { cv: 'asembléia', pt: 'assembleia', pronunciation: 'a-sem-blé-ia' },
-      { cv: 'kongrèsu', pt: 'congresso', pronunciation: 'kon-grè-su' },
-      { cv: 'sirkuitu', pt: 'circuito', pronunciation: 'sir-kui-tu' },
-      { cv: 'rejional', pt: 'regional', pronunciation: 're-ji-o-nal' },
-      { cv: 'programa', pt: 'programa', pronunciation: 'pro-gra-ma' },
-      { cv: 'batizmu', pt: 'batismo', pronunciation: 'ba-tiz-mu' }
+      { cv: 'asembléia', pt: 'assembleia' },
+      { cv: 'kongrèsu', pt: 'congresso' },
+      { cv: 'sirkuitu', pt: 'circuito' },
+      { cv: 'rejional', pt: 'regional' },
+      { cv: 'programa', pt: 'programa' },
+      { cv: 'batizmu', pt: 'batismo' }
     ],
     exercises: [
       {
@@ -2344,7 +2343,7 @@ export const lessonsEnriched: LessonEnriched[] = [
 
   // CULTURE - LIÇÕES DE CULTURA (5 leçons supplémentaires - Total: 10)
   {
-    id: 46,
+    id: 50,
     level: 'intermediate',
     category: 'culture',
     title: {
@@ -2360,12 +2359,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Provérbiu kabuverdianu ta transmiti sabedoria ansestral y valór kultural através di espresão konsizu y memorável.'
     },
     vocabulary: [
-      { cv: 'provérbiu', pt: 'provérbio', pronunciation: 'pro-vér-biu' },
-      { cv: 'sabedoria', pt: 'sabedoria', pronunciation: 'sa-be-do-ri-a' },
-      { cv: 'tradison', pt: 'tradição', pronunciation: 'tra-di-son' },
-      { cv: 'valór', pt: 'valor', pronunciation: 'va-lór' },
-      { cv: 'signifikadu', pt: 'significado', pronunciation: 'sig-ni-fi-ka-du' },
-      { cv: 'konselu', pt: 'conselho', pronunciation: 'kon-se-lu' }
+      { cv: 'provérbiu', pt: 'provérbio' },
+      { cv: 'sabedoria', pt: 'sabedoria' },
+      { cv: 'tradison', pt: 'tradição' },
+      { cv: 'valór', pt: 'valor' },
+      { cv: 'signifikadu', pt: 'significado' },
+      { cv: 'konselu', pt: 'conselho' }
     ],
     exercises: [
       {
@@ -2379,7 +2378,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 47,
+    id: 51,
     level: 'intermediate',
     category: 'culture',
     title: {
@@ -2395,12 +2394,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kontu y lenda kabuverdianu ta preserva memória koletivu y sina valór através di narrativa envolenti.'
     },
     vocabulary: [
-      { cv: 'kontu', pt: 'conto', pronunciation: 'kon-tu' },
-      { cv: 'lenda', pt: 'lenda', pronunciation: 'len-da' },
-      { cv: 'stória', pt: 'história', pronunciation: 'stó-ri-a' },
-      { cv: 'folklóri', pt: 'folclore', pronunciation: 'fol-kló-ri' },
-      { cv: 'memória', pt: 'memória', pronunciation: 'me-mó-ri-a' },
-      { cv: 'narrativa', pt: 'narrativa', pronunciation: 'nar-ra-ti-va' }
+      { cv: 'kontu', pt: 'conto' },
+      { cv: 'lenda', pt: 'lenda' },
+      { cv: 'stória', pt: 'história' },
+      { cv: 'folklóri', pt: 'folclore' },
+      { cv: 'memória', pt: 'memória' },
+      { cv: 'narrativa', pt: 'narrativa' }
     ],
     exercises: [
       {
@@ -2414,7 +2413,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 48,
+    id: 52,
     level: 'advanced',
     category: 'culture',
     title: {
@@ -2430,12 +2429,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Artezanatu kabuverdianu ta refleti kriatividad y abilidadi di artezãu lokal, uzandu material natural di ilha.'
     },
     vocabulary: [
-      { cv: 'artezanatu', pt: 'artesanato', pronunciation: 'ar-te-za-na-tu' },
-      { cv: 'artezãu', pt: 'artesão', pronunciation: 'ar-te-zãu' },
-      { cv: 'kriatividad', pt: 'criatividade', pronunciation: 'kri-a-ti-vi-dad' },
-      { cv: 'abilidad', pt: 'habilidade', pronunciation: 'a-bi-li-dad' },
-      { cv: 'material', pt: 'material', pronunciation: 'ma-te-ri-al' },
-      { cv: 'natural', pt: 'natural', pronunciation: 'na-tu-ral' }
+      { cv: 'artezanatu', pt: 'artesanato' },
+      { cv: 'artezãu', pt: 'artesão' },
+      { cv: 'kriatividad', pt: 'criatividade' },
+      { cv: 'abilidad', pt: 'habilidade' },
+      { cv: 'material', pt: 'material' },
+      { cv: 'natural', pt: 'natural' }
     ],
     exercises: [
       {
@@ -2450,7 +2449,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 49,
+    id: 53,
     level: 'advanced',
     category: 'culture',
     title: {
@@ -2466,12 +2465,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kada ilha kabuverdianu ten ses dansa karakterístiku ki ta espresa identidad kultural lokal y stória di povu.'
     },
     vocabulary: [
-      { cv: 'dansa', pt: 'dança', pronunciation: 'dan-sa' },
-      { cv: 'folklóriku', pt: 'folclórico', pronunciation: 'fol-kló-ri-ku' },
-      { cv: 'tradisional', pt: 'tradicional', pronunciation: 'tra-di-si-o-nal' },
-      { cv: 'karakterístiku', pt: 'característico', pronunciation: 'ka-rak-te-rís-ti-ku' },
-      { cv: 'identidad', pt: 'identidade', pronunciation: 'i-den-ti-dad' },
-      { cv: 'kultural', pt: 'cultural', pronunciation: 'kul-tu-ral' }
+      { cv: 'dansa', pt: 'dança' },
+      { cv: 'folklóriku', pt: 'folclórico' },
+      { cv: 'tradisional', pt: 'tradicional' },
+      { cv: 'karakterístiku', pt: 'característico' },
+      { cv: 'identidad', pt: 'identidade' },
+      { cv: 'kultural', pt: 'cultural' }
     ],
     exercises: [
       {
@@ -2485,7 +2484,7 @@ export const lessonsEnriched: LessonEnriched[] = [
     ]
   },
   {
-    id: 50,
+    id: 54,
     level: 'advanced',
     category: 'culture',
     title: {
@@ -2501,12 +2500,12 @@ export const lessonsEnriched: LessonEnriched[] = [
       cv: 'Kabu Verdi é kompoztu pa des ilha, kada un ku karakterístika úniku di jeografia, klima y kultura ki ta molda identidad lokal.'
     },
     vocabulary: [
-      { cv: 'jeografia', pt: 'geografia', pronunciation: 'je-o-gra-fi-a' },
-      { cv: 'ilha', pt: 'ilha', pronunciation: 'i-lha' },
-      { cv: 'karakterístika', pt: 'características', pronunciation: 'ka-rak-te-rís-ti-ka' },
-      { cv: 'úniku', pt: 'único', pronunciation: 'ú-ni-ku' },
-      { cv: 'klima', pt: 'clima', pronunciation: 'kli-ma' },
-      { cv: 'identidad', pt: 'identidade', pronunciation: 'i-den-ti-dad' }
+      { cv: 'jeografia', pt: 'geografia' },
+      { cv: 'ilha', pt: 'ilha' },
+      { cv: 'karakterístika', pt: 'características' },
+      { cv: 'úniku', pt: 'único' },
+      { cv: 'klima', pt: 'clima' },
+      { cv: 'identidad', pt: 'identidade' }
     ],
     exercises: [
       {
@@ -2550,3 +2549,4 @@ export const getLessonCategoryCounts = () => {
     culture: getLessonsByCategory('culture').length
   };
 };
+

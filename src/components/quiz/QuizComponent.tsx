@@ -1,16 +1,17 @@
 import { useState, useEffect } from 'react';
-import { CheckCircle, XCircle, Clock, Trophy, RotateCcw, ArrowRight } from 'lucide-react';
+import { Clock, Trophy, RotateCcw, ArrowRight } from 'lucide-react';
 import { QuizQuestionComponent } from './QuizQuestion';
 import type { Quiz, QuizAttempt } from '@/types/quiz';
 import { useLanguage } from '@/hooks/useLanguage';
+import { ProgressBar } from '@/components/ui/ProgressBar';
 
 interface QuizComponentProps {
   quiz: Quiz;
   onComplete: (attempt: QuizAttempt) => void;
-  onClose: () => void;
+  onClose?: () => void;
 }
 
-export function QuizComponent({ quiz, onComplete, onClose }: QuizComponentProps) {
+export function QuizComponent({ quiz, onComplete }: QuizComponentProps) {
   const { language } = useLanguage();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string | string[]>>({});
@@ -264,12 +265,7 @@ export function QuizComponent({ quiz, onComplete, onClose }: QuizComponentProps)
               <span>{language === 'pt' ? 'Progresso' : 'Progresu'}</span>
               <span>{currentQuestionIndex + 1} / {quiz.questions.length}</span>
             </div>
-            <div className="w-full bg-muted rounded-full h-2">
-              <div
-                className="bg-primary h-2 rounded-full transition-all duration-300"
-                style={{ width: `${((currentQuestionIndex + 1) / quiz.questions.length) * 100}%` }}
-              />
-            </div>
+            <ProgressBar value={((currentQuestionIndex + 1) / quiz.questions.length) * 100} />
           </div>
         </div>
 

@@ -8,11 +8,13 @@
 ## 📊 RÉSUMÉ
 
 ### Scénarios de Prédication
+
 - **Existants** : 3 scénarios
 - **Ajoutés** : 40 scénarios
 - **TOTAL** : **43 scénarios** (objectif: 50)
 
 ### Flashcards
+
 - **Existantes** : 15 flashcards
 - **Ajoutées** : 35 flashcards
 - **TOTAL** : **50 flashcards** ✅
@@ -22,9 +24,11 @@
 ## 📁 FICHIERS CRÉÉS
 
 ### 1. additionalScenarios.ts
+
 **Contenu** : 40 nouveaux scénarios de prédication
 
-#### Répartition par Type :
+#### Répartition par Type
+
 - **Premières Visites** : 10 scénarios
   - Famille occupée
   - Personne âgée
@@ -73,7 +77,8 @@
   - Na escola
   - Em festa
 
-#### Répartition par Difficulté :
+#### Répartition par Difficulté (Scénarios)
+
 - **Facile** : 15 scénarios
 - **Moyen** : 18 scénarios
 - **Difficile** : 7 scénarios
@@ -81,9 +86,11 @@
 ---
 
 ### 2. additionalFlashcards.ts
+
 **Contenu** : 35 nouvelles flashcards
 
-#### Répartition par Catégorie :
+#### Répartition par Catégorie
+
 - **Vocabulaire Biblique** : 10 cartes
   - Salvação, Pecado, Graça, Fé, Profecia
   - Aliança, Sacrifício, Santificação, Redenção, Justiça
@@ -104,7 +111,8 @@
   - Que Deus te guarde
   - Está nas mãos de Deus
 
-#### Répartition par Difficulté :
+#### Répartition par Difficulté (Flashcards)
+
 - **Niveau 1** : 8 cartes
 - **Niveau 2** : 18 cartes
 - **Niveau 3** : 7 cartes
@@ -116,12 +124,14 @@
 
 ### Pour Utiliser les Nouveaux Scénarios
 
-**Option 1 : Fusion Manuelle**
+#### Option 1 (Scénarios) : Fusion Manuelle
+
 1. Ouvrir `src/data/ministryScenarios.ts`
 2. Copier le contenu de `additionalScenarios.ts`
 3. Ajouter au tableau `ministryScenarios`
 
-**Option 2 : Import Direct**
+#### Option 2 (Scénarios) : Import Direct
+
 ```typescript
 import { additionalScenarios } from '@/data/additionalScenarios';
 
@@ -133,12 +143,14 @@ export const allScenarios = [
 
 ### Pour Utiliser les Nouvelles Flashcards
 
-**Option 1 : Fusion Manuelle**
+#### Option 1 (Flashcards) : Fusion Manuelle
+
 1. Ouvrir `src/data/flashcards.ts`
 2. Copier le contenu de `additionalFlashcards.ts`
 3. Ajouter au tableau `allFlashcards`
 
-**Option 2 : Import Direct**
+#### Option 2 (Flashcards) : Import Direct
+
 ```typescript
 import { additionalFlashcards } from '@/data/additionalFlashcards';
 
@@ -151,6 +163,7 @@ export const allFlashcards = [
 ### Mise à Jour des Decks
 
 Créer un nouveau deck pour les expressions idiomatiques :
+
 ```typescript
 {
   id: 'deck-idioms',
@@ -173,6 +186,7 @@ Créer un nouveau deck pour les expressions idiomatiques :
 ## 📊 STATISTIQUES FINALES
 
 ### Scénarios (43 total)
+
 | Type | Quantité | Pourcentage |
 |------|----------|-------------|
 | Premières Visites | 11 | 26% |
@@ -181,6 +195,7 @@ Créer un nouveau deck pour les expressions idiomatiques :
 | Témoignage Informel | 5 | 11% |
 
 ### Flashcards (50 total)
+
 | Catégorie | Quantité | Pourcentage |
 |-----------|----------|-------------|
 | Vocabulaire Biblique | 15 | 30% |
@@ -204,16 +219,19 @@ Créer un nouveau deck pour les expressions idiomatiques :
 ## 🎯 PROCHAINES ÉTAPES
 
 ### Immédiat
+
 1. Fusionner les fichiers additionnels dans les fichiers principaux
 2. Tester les nouveaux scénarios dans l'application
 3. Tester les nouvelles flashcards
 
 ### Court Terme
+
 1. Ajouter audio aux scénarios
 2. Créer 7 scénarios supplémentaires pour atteindre 50
 3. Créer le 4ème deck pour expressions idiomatiques
 
 ### Moyen Terme
+
 1. Ajouter images aux flashcards
 2. Implémenter système de répétition espacée (SM-2)
 3. Ajouter statistiques de progression par catégorie
@@ -223,18 +241,21 @@ Créer un nouveau deck pour les expressions idiomatiques :
 ## 💡 RECOMMANDATIONS
 
 ### Qualité du Contenu
+
 - ✅ Scénarios réalistes et pratiques
 - ✅ Vocabulaire adapté au niveau
 - ✅ Exemples contextualisés
 - ✅ Conseils pédagogiques inclus
 
 ### Utilisation Pédagogique
+
 - Commencer par scénarios faciles
 - Progresser graduellement en difficulté
 - Pratiquer régulièrement avec flashcards
 - Réviser expressions idiomatiques
 
 ### Améliorations Futures
+
 - Ajouter enregistrements audio natifs
 - Créer quiz basés sur scénarios
 - Développer exercices de prononciation

@@ -26,7 +26,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     },
     content: {
       pt: 'O sistema fonológico do crioulo cabo-verdiano é composto por 22 fonemas consonantais e 10 vocálicos. As consoantes incluem oclusivas, fricativas, nasais, líquidas e semiconsoantes. O sistema vocálico distingue entre vogais orais e nasais, sendo fundamental para a compreensão e produção correta do crioulo.',
-      cv: 'Sistema fonolójiku di kriolu kabuverdianu é kompoztu pa 22 fonema konsonantal y 10 vokáliku. Konsonanti ta inklui oklusiva, frikativa, nazal, líkida y semikonsonanti. Sistema vokáliku ta distingui entri vogal oral y nazal, sendo fundamental pa komprensão y produson koretu di kriolu.'
+      cv: 'Sistema fonolójiku di kriolu kabuverdianu é kompoztu pa 22 fonema konsonantal y 10 vokáliku. Konsonanti ta inklui oklusiva, frikativa, nazal, líkida y semikonsonanti. Sistema vokáliku ta distingui entri vogal oral y nazal, sendo fundamental pa komprenson y produson koretu di kriolu.'
     },
     examples: [
       {
@@ -57,7 +57,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Paroxítonas: \'kása (casa), \'fíku (fico), \'bóni (bom)',
-        cv: 'Parokítona: \'kása (kasa), \'fíku (fiku), \'bóni (bon)'
+        cv: 'Parokítona: \'kaza (kaza), \'fíku (fiku), \'bóni (bon)'
       },
       {
         pt: 'Proparoxítonas: mé\'diku (médico), \'últimu (último)',
@@ -74,7 +74,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     },
     content: {
       pt: 'O crioulo cabo-verdiano apresenta vários processos fonológicos importantes como assimilação, elisão, epêntese e metátese. A assimilação ocorre quando um som se torna similar ao som adjacente. A elisão é a supressão de sons em certas posições. Estes processos são essenciais para compreender a variação na pronúncia.',
-      cv: 'Kriolu kabuverdianu ta aprezenta vários prosesu fonolójiku importanti kuma asimilason, elizão, epêntezi y metátezi. Asimilason ta akontese kuandu un som ta torna similar ku som adjasenti. Elizão é supresão di som na serti pozison. Es prosesu é esensial pa komprende variason na pronúnsia.'
+      cv: 'Kriolu kabuverdianu ta aprezenta vários prosesu fonolójiku importanti kuma asimilason, elizon, epêntezi y metátezi. Asimilason ta akontese kuandu un som ta torna similar ku som adjasenti. Elizon é supreson di som na serti pozison. Es prosesu é esensial pa komprende variason na pronúnsia.'
     },
     examples: [
       {
@@ -83,7 +83,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
       },
       {
         pt: 'Elisão: "kasa di" → "kas di" (supressão de -a)',
-        cv: 'Elizão: "kasa di" → "kas di" (supresão di -a)'
+        cv: 'Elizon: "kaza di" → "kaz di" (supreson di -a)'
       },
       {
         pt: 'Epêntese: "skola" → "sikola" (inserção de -i)',
@@ -185,11 +185,11 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Derivação: kasa → kasinha (casinha), trabadja → trabadjadera (trabalhadora)',
-        cv: 'Derivason: kasa → kasinha (kasinha), trabadja → trabadjadera (trabadjadera)'
+        cv: 'Derivason: kaza → kazinha (kazinha), trabadja → trabadjadera (trabadjadera)'
       },
       {
         pt: 'Composição: kasa + branku → kasabranku (casa branca)',
-        cv: 'Kompozison: kasa + branku → kasabranku (kasabranku)'
+        cv: 'Kompozison: kaza + branku → kazabranku (kazabranku)'
       },
       {
         pt: 'Reduplicação: kore → korekore (correr muito), fala → falafala (falar muito)',
@@ -211,11 +211,11 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Singular/Plural: kasa (casa/casas), omi (homem/homens)',
-        cv: 'Singular/Plural: kasa (kasa/kasas), omi (omi/omis)'
+        cv: 'Singular/Plural: kaza (kaza/kazas), omi (omi/omis)'
       },
       {
         pt: 'Com quantificador: dos kasa (duas casas), txeu omi (muitos homens)',
-        cv: 'Ku kuantifikadó: dos kasa (dos kasa), txeu omi (txeu omi)'
+        cv: 'Ku kuantifikadó: dos kaza (dos kaza), txeu omi (txeu omi)'
       },
       {
         pt: 'Gênero: kabra matxu (bode), kabra fémea (cabra)',
@@ -258,20 +258,20 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     },
     content: {
       pt: 'O sistema de diminutivos e aumentativos no crioulo é expresso principalmente através de sufixos. Os diminutivos usam -inha/-inhu e expressam carinho ou pequenez. Os aumentativos usam -ão/-ona e indicam tamanho grande ou intensidade. Também se usa "pikiñinhu" e "grandi" como modificadores.',
-      cv: 'Sistema di diminutivu y aumentativu na kriolu ta ser espresu prinsipalmenti atraves di sufiksu. Diminutivu ta uza -inha/-inhu y ta espresa karinhu o pikenez. Aumentativu ta uza -ão/-ona y ta indika tamañu grandi o intensidadi. Tanbé ta uza "pikiñinhu" y "grandi" kuma modifikadó.'
+      cv: 'Sistema di diminutivu y aumentativu na kriolu ta ser espresu prinsipalmenti atraves di sufiksu. Diminutivu ta uza -inha/-inhu y ta espresa karinhu o pikenez. Aumentativu ta uza -on/-ona y ta indika tamañu grandi o intensidadi. Tanbé ta uza "pikinhinu" y "grandi" kuma modifikadó.'
     },
     examples: [
       {
         pt: 'Diminutivos: kasa → kasinha (casinha), omi → omininhu (homenzinho)',
-        cv: 'Diminutivu: kasa → kasinha (kasinha), omi → omininhu (omininhu)'
+        cv: 'Diminutivu: kaza → kazinha (kazinha), omi → omininhu (omininhu)'
       },
       {
         pt: 'Aumentativos: kasa → kasão (casarão), omi → omão (homenzarrão)',
-        cv: 'Aumentativu: kasa → kasão (kasão), omi → omão (omão)'
+        cv: 'Aumentativu: kaza → kazon (kazon), omi → omon (omon)'
       },
       {
         pt: 'Com modificadores: kasa pikiñinhu (casa pequeninha), kasa grandi (casa grande)',
-        cv: 'Ku modifikadó: kasa pikiñinhu (kasa pikiñinhu), kasa grandi (kasa grandi)'
+        cv: 'Ku modifikadó: kaza pikinhinu (kaza pikinhinu), kaza grandi (kaza grandi)'
       }
     ]
   },
@@ -289,7 +289,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Substantivo + Substantivo: kasa + branku → kasabranku (casa branca)',
-        cv: 'Sustantivu + Sustantivu: kasa + branku → kasabranku (kasabranku)'
+        cv: 'Sustantivu + Sustantivu: kaza + branku → kazabranku (kazabranku)'
       },
       {
         pt: 'Verbo + Substantivo: ganha + pãu → ganhapãu (ganha-pão)',
@@ -315,7 +315,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Do português: televisão → televizãu, computador → komputadó',
-        cv: 'Di purtuges: televisão → televizãu, komputadó → komputadó'
+        cv: 'Di purtuges: televisão → televizon, komputadó → komputadó'
       },
       {
         pt: 'Do inglês: business → biznis, weekend → wikendi',
@@ -447,7 +447,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Passiva: Kasa foi konstruídu (A casa foi construída)',
-        cv: 'Pasivu: Kasa foi konstruídu (Kasa foi konstruídu)'
+        cv: 'Pasivu: Kaza foi konstruídu (Kaza foi konstruídu)'
       },
       {
         pt: 'Reflexiva: El ta laba si kabesa (Ele se lava)',
@@ -557,7 +557,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
       },
       {
         pt: 'Resultado: N kore txiga kasa (Eu corri chegando em casa)',
-        cv: 'Rizultadu: N kore txiga kasa (N kore txiga kasa)'
+        cv: 'Rizultadu: N kore txiga kaza (N kore txiga kaza)'
       },
       {
         pt: 'Instrumento: N pega faka korta karne (Eu pego faca corto carne)',
@@ -685,7 +685,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
     examples: [
       {
         pt: 'Primeira pessoa: nha kasa (minha casa), kasa nha (a casa minha)',
-        cv: 'Priméru pesoa: nha kasa (nha kasa), kasa nha (kasa nha)'
+        cv: 'Priméru pesoa: nha kaza (nha kaza), kaza nha (kaza nha)'
       },
       {
         pt: 'Segunda pessoa: bu fidju (teu filho), fidju bu (o filho teu)',
@@ -715,7 +715,7 @@ export const grammarLessonsEnriched: GrammarLesson[] = [
       },
       {
         pt: 'Relativos: Omi ki ben (O homem que vem), Kasa undi n mora (Casa onde eu moro)',
-        cv: 'Relativu: Omi ki ben (Omi ki ben), Kasa undi n mora (Kasa undi n mora)'
+        cv: 'Relativu: Omi ki ben (Omi ki ben), Kaza undi n mora (Kaza undi n mora)'
       },
       {
         pt: 'Quantitativos: Kuantu ki kusta? (Quanto custa?), Kal ki bu preferi? (Qual preferes?)',

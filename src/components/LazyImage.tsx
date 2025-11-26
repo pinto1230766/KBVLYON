@@ -38,14 +38,15 @@ export function LazyImage({
       return;
     }
 
+    const currentImg = imgRef.current;
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             // L'image est visible, on la charge
             setImageSrc(src);
-            if (imgRef.current) {
-              observer.unobserve(imgRef.current);
+            if (currentImg) {
+              observer.unobserve(currentImg);
             }
           }
         });
@@ -57,13 +58,13 @@ export function LazyImage({
       }
     );
 
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
+    if (currentImg) {
+      observer.observe(currentImg);
     }
 
     return () => {
-      if (imgRef.current) {
-        observer.unobserve(imgRef.current);
+      if (currentImg) {
+        observer.unobserve(currentImg);
       }
     };
   }, [src]);
@@ -100,24 +101,4 @@ export function LazyImage({
       onError={handleError}
     />
   );
-}
-
-/**
- * Hook personnalisé pour précharger des images
- * Utile pour les images critiques qui doivent être chargées immédiatement
- */
-export function useImagePreload(imageUrls: string[]) {
-  const [loadedImages, setLoadedImages] = useState<Set<string>>(new Set());
-
-  useEffect(() => {
-    imageUrls.forEach((url) => {
-      const img = new Image();
-      img.src = url;
-      img.onload = () => {
-        setLoadedImages((prev) => new Set(prev).add(url));
-      };
-    });
-  }, [imageUrls]);
-
-  return loadedImages;
 }

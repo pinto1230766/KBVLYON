@@ -8,7 +8,7 @@ export interface DialogueLine {
     pt: string;
     kea: string;
   };
-  audioUrl?: string;
+
   notes?: {
     pt: string;
     kea: string;

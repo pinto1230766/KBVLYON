@@ -1,14 +1,15 @@
 import { useState } from 'react';
-import { Target, CreditCard, TrendingUp, BarChart2 } from 'lucide-react';
+import { Target, CreditCard, TrendingUp, BarChart2, Sparkles } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import ScenariosPage from './ScenariosPage';
 import FlashcardsPage from './FlashcardsPage';
 import ScoresPage from './ScoresPage';
 import ProgressDashboard from '../components/progress/ProgressDashboard';
+import AIQuizGenerator from '../components/ai/AIQuizGenerator';
 
 /**
  * Page fusionnée : Pratique
- * Combine Scénarios, Flashcards, Progression et Scores avec un système d'onglets
+ * Combine Scénarios, Flashcards, Progression, Scores et IA avec un système d'onglets
  */
 const PracticePage = () => {
   const { language } = useLanguage();
@@ -21,8 +22,10 @@ const PracticePage = () => {
     ? 'progress'
     : searchParams.get('tab') === 'scores'
     ? 'scores'
+    : searchParams.get('tab') === 'ai-quiz'
+    ? 'ai-quiz'
     : 'scenarios';
-  const [activeTab, setActiveTab] = useState<'scenarios' | 'flashcards' | 'progress' | 'scores'>(initialTab);
+  const [activeTab, setActiveTab] = useState<'scenarios' | 'flashcards' | 'progress' | 'scores' | 'ai-quiz'>(initialTab);
 
   return (
     <div className="min-h-screen bg-background">
@@ -51,6 +54,17 @@ const PracticePage = () => {
             >
               <CreditCard className="w-5 h-5" />
               {language === 'pt' ? 'Flashcards' : 'Flashcards'}
+            </button>
+            <button
+              onClick={() => setActiveTab('ai-quiz')}
+              className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all whitespace-nowrap ${
+                activeTab === 'ai-quiz'
+                  ? 'bg-primary text-primary-foreground shadow-lg'
+                  : 'bg-muted text-muted-foreground hover:bg-muted/80'
+              }`}
+            >
+              <Sparkles className="w-5 h-5" />
+              {language === 'pt' ? 'Quiz IA' : 'Quiz IA'}
             </button>
             <button
               onClick={() => setActiveTab('progress')}
@@ -84,6 +98,9 @@ const PracticePage = () => {
       </div>
       <div className={activeTab === 'flashcards' ? 'block' : 'hidden'}>
         <FlashcardsPage />
+      </div>
+      <div className={activeTab === 'ai-quiz' ? 'block' : 'hidden'}>
+        <AIQuizGenerator />
       </div>
       <div className={activeTab === 'progress' ? 'block' : 'hidden'}>
         <ProgressDashboard />

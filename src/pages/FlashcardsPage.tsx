@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { RotateCcw, ChevronLeft, ChevronRight, Check, X } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 import { flashcardDecks, allFlashcards } from '@/data/flashcards';
-import type { Flashcard, FlashcardDeck } from '@/types/flashcard';
+import type { FlashcardDeck } from '@/types/flashcard';
 
 export default function FlashcardsPage() {
   const { language } = useLanguage();
@@ -85,8 +85,7 @@ export default function FlashcardsPage() {
                   setIsFlipped(false);
                   setStudiedCards(new Set());
                 }}
-                className="bg-card border-2 border-border rounded-lg p-6 cursor-pointer hover:border-primary transition-all hover:shadow-lg"
-                style={{ borderColor: deck.color + '40' }}
+                className={`bg-card border-2 rounded-lg p-6 cursor-pointer hover:border-primary transition-all hover:shadow-lg border-[${deck.color}40]`}
               >
                 <div className="text-center mb-4">
                   <span className="text-5xl">{deck.icon}</span>
@@ -137,8 +136,7 @@ export default function FlashcardsPage() {
               </div>
               <div className="w-full bg-muted rounded-full h-2">
                 <div
-                  className="bg-primary h-2 rounded-full transition-all duration-300"
-                  style={{ width: `${progress}%` }}
+                  className={`bg-primary h-2 rounded-full transition-all duration-300 w-[${progress}%]`}
                 />
               </div>
             </div>
@@ -263,21 +261,6 @@ export default function FlashcardsPage() {
           </div>
         )}
       </div>
-
-      <style>{`
-        .perspective-1000 {
-          perspective: 1000px;
-        }
-        .transform-style-3d {
-          transform-style: preserve-3d;
-        }
-        .backface-hidden {
-          backface-visibility: hidden;
-        }
-        .rotate-y-180 {
-          transform: rotateY(180deg);
-        }
-      `}</style>
     </div>
   );
 }

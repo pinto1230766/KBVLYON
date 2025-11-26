@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { ChevronRight, X, CheckCircle, BookOpen } from 'lucide-react';
 import { lessonsEnriched, type LessonEnriched } from '../data/lessonsEnriched';
 import { useLanguage } from '../hooks/useLanguage';
@@ -60,6 +61,17 @@ const LessonsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
   const [selectedLevel, setSelectedLevel] = useState<LevelFilter>('all');
   const [selectedLesson, setSelectedLesson] = useState<LessonEnriched | null>(null);
+  const [searchParams] = useSearchParams();
+
+  useEffect(() => {
+    const lessonId = searchParams.get('lessonId');
+    if (lessonId) {
+      const lesson = lessonsEnriched.find(l => l.id === parseInt(lessonId));
+      if (lesson) {
+        setSelectedLesson(lesson);
+      }
+    }
+  }, [searchParams]);
   const [revealedExercises, setRevealedExercises] = useState<string[]>([]);
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<string, { value: string; status: 'pending' | 'correct' | 'incorrect' }>>({});
   const { value: completedLessons, setValue: setCompletedLessons } = useOfflineStorage<number[]>('completedLessons', []);
@@ -283,8 +295,7 @@ const LessonsPage = () => {
               </div>
               <div className="w-full bg-muted rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-green-500 to-blue-500 h-3 rounded-full transition-all duration-500 ease-out"
-                  style={{ width: `${progressPercentage}%` }}
+                  className={`bg-gradient-to-r from-green-500 to-blue-500 h-3 rounded-full transition-all duration-500 ease-out w-[${progressPercentage}%]`}
                 ></div>
               </div>
             </div>
@@ -499,14 +510,7 @@ const LessonsPage = () => {
                             <div className="flex-1">
                               <p className="font-bold text-green-700 dark:text-green-400 text-lg mb-1">{word.cv}</p>
                               <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{word.pt}</p>
-                              {word.pronunciation && (
-                                <div className="flex items-center gap-1">
-                                  <span className="text-xs text-gray-500">🔊</span>
-                                  <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-2 py-1 rounded font-mono">
-                                    {word.pronunciation}
-                                  </span>
-                                </div>
-                              )}
+
                             </div>
                           </div>
                         </div>

@@ -18,7 +18,7 @@
 
 ---
 
-## 🏗️ Architecture IA
+## Architecture IA
 
 ### Vue d'Ensemble
 
@@ -53,7 +53,7 @@
 
 ---
 
-## ⚙️ Configuration Gemini
+## Configuration Gemini
 
 ### 1. Installation des Dépendances
 
@@ -163,7 +163,7 @@ export const geminiService = new GeminiService();
 
 ---
 
-## 💬 Chatbot Capverdien
+## Chatbot Capverdien
 
 ### 1. Service de Chatbot
 
@@ -534,7 +534,7 @@ export function CapeverdeanChatbot() {
 
 ---
 
-## 🎤 Analyse de Prononciation
+## Analyse de Prononciation
 
 ### 1. Service de Reconnaissance Vocale
 
@@ -783,7 +783,7 @@ export function PronunciationExercise({ sentence, onComplete }: PronunciationExe
 
 ---
 
-## 🎓 Générateur de Contenu
+## Générateur de Contenu
 
 ```typescript
 // src/services/ai/contentGenerator.ts
@@ -967,6 +967,7 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
 ## 📝 Checklist d'Implémentation
 
 ### Phase 1: Configuration (Semaine 1)
+
 - [ ] Créer compte Google Cloud et activer Gemini API
 - [ ] Obtenir les clés API
 - [ ] Configurer les variables d'environnement
@@ -974,6 +975,7 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
 - [ ] Tester la connexion à l'API
 
 ### Phase 2: Chatbot de Base (Semaine 2-3)
+
 - [ ] Créer le service Gemini
 - [ ] Implémenter le service de tuteur capverdien
 - [ ] Créer le composant de chatbot
@@ -981,6 +983,7 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
 - [ ] Tester avec différents scénarios
 
 ### Phase 3: Prononciation (Semaine 4-5)
+
 - [ ] Implémenter le service de reconnaissance vocale
 - [ ] Créer le composant d'exercice de prononciation
 - [ ] Intégrer l'analyse IA de prononciation
@@ -988,12 +991,16 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
 - [ ] Tests utilisateurs
 
 ### Phase 4: Génération de Contenu (Semaine 6)
+
+
 - [ ] Service de génération d'exercices
 - [ ] Service de génération de dialogues
 - [ ] Intégration dans les pages existantes
 - [ ] Tests de qualité du contenu généré
 
 ### Phase 5: Personnalisation (Semaine 7-8)
+
+
 - [ ] Service d'analyse de progression
 - [ ] Recommandations personnalisées
 - [ ] Dashboard de progression
@@ -1006,6 +1013,7 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
 ### Optimisations pour Réduire les Coûts
 
 1. **Cache des Réponses**
+
    ```typescript
    // Mettre en cache les réponses fréquentes
    const responseCache = new Map<string, string>();
@@ -1022,6 +1030,7 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
    ```
 
 2. **Limitation du Nombre de Requêtes**
+
    ```typescript
    // Rate limiting côté client
    class RateLimiter {

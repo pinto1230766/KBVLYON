@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Trophy, Target, Flame, BookOpen, Award, TrendingUp } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
+import { ProgressBar } from '@/components/ui/ProgressBar';
 
 interface ProgressStats {
   totalLessons: number;
@@ -58,12 +59,7 @@ export function ProgressDashboard() {
             <p className="text-sm font-medium text-foreground">
               {language === 'pt' ? 'Lições Completas' : 'Lisons Kompletu'}
             </p>
-            <div className="w-full bg-muted rounded-full h-2">
-              <div
-                className="bg-blue-500 h-2 rounded-full transition-all"
-                style={{ width: `${progressPercentage}%` }}
-              />
-            </div>
+            <ProgressBar value={progressPercentage} colorClass="bg-blue-500" />
             <p className="text-xs text-muted-foreground">{progressPercentage}%</p>
           </div>
 
@@ -76,12 +72,7 @@ export function ProgressDashboard() {
             <p className="text-sm font-medium text-foreground">
               {language === 'pt' ? 'Média de Acertos' : 'Média di Asertu'}
             </p>
-            <div className="w-full bg-muted rounded-full h-2">
-              <div
-                className="bg-green-500 h-2 rounded-full transition-all"
-                style={{ width: `${stats.averageScore}%` }}
-              />
-            </div>
+            <ProgressBar value={stats.averageScore} colorClass="bg-green-500" />
             <p className="text-xs text-muted-foreground">{stats.completedQuizzes} {language === 'pt' ? 'quiz completos' : 'quiz kompletu'}</p>
           </div>
 
@@ -164,12 +155,7 @@ export function ProgressDashboard() {
                     <span className="text-muted-foreground">{day}</span>
                     <span className="text-foreground font-medium">{minutes} min</span>
                   </div>
-                  <div className="w-full bg-muted rounded-full h-3">
-                    <div
-                      className="bg-primary h-3 rounded-full transition-all"
-                      style={{ width: `${percentage}%` }}
-                    />
-                  </div>
+                  <ProgressBar value={percentage} colorClass="bg-primary" className="h-3" />
                 </div>
               );
             })}
@@ -197,8 +183,8 @@ export function ProgressDashboard() {
                 <p className="font-medium text-foreground">
                   {language === 'pt' ? 'Complete 10 lições' : 'Konpleta 10 lison'}
                 </p>
-                <div className="mt-2 w-full bg-background rounded-full h-2">
-                  <div className="bg-blue-500 h-2 rounded-full" style={{ width: '70%' }} />
+                <div className="mt-2">
+                  <ProgressBar value={70} colorClass="bg-blue-500" />
                 </div>
                 <p className="text-xs text-muted-foreground mt-1">7/10</p>
               </div>
@@ -212,8 +198,8 @@ export function ProgressDashboard() {
                 <p className="font-medium text-foreground">
                   {language === 'pt' ? 'Mantenha 7 dias seguidos' : 'Mantén 7 dia seguidu'}
                 </p>
-                <div className="mt-2 w-full bg-background rounded-full h-2">
-                  <div className="bg-green-500 h-2 rounded-full" style={{ width: '71%' }} />
+                <div className="mt-2">
+                  <ProgressBar value={71} colorClass="bg-green-500" />
                 </div>
                 <p className="text-xs text-muted-foreground mt-1">5/7</p>
               </div>
@@ -227,8 +213,8 @@ export function ProgressDashboard() {
                 <p className="font-medium text-foreground">
                   {language === 'pt' ? 'Alcance 1000 pontos' : 'Alkansa 1000 pontu'}
                 </p>
-                <div className="mt-2 w-full bg-background rounded-full h-2">
-                  <div className="bg-purple-500 h-2 rounded-full" style={{ width: '85%' }} />
+                <div className="mt-2">
+                  <ProgressBar value={85} colorClass="bg-purple-500" />
                 </div>
                 <p className="text-xs text-muted-foreground mt-1">850/1000</p>
               </div>

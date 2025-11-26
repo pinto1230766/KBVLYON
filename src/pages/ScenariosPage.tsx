@@ -1,14 +1,24 @@
 import { useState } from 'react';
-import { MessageCircle, Users, BookOpen, Lightbulb, Play, Volume2 } from 'lucide-react';
+import { MessageCircle, Users, BookOpen, Lightbulb, Play, Volume2, Sparkles, X, Loader2 } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 import { ministryScenarios } from '@/data/ministryScenarios';
 import type { MinistryScenario, DialogueLine } from '@/types/dialogue';
+import { GeminiService } from '../services/ai/gemini';
+import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
 export default function ScenariosPage() {
   const { language } = useLanguage();
+  const { speak } = useTextToSpeech();
   const [selectedScenario, setSelectedScenario] = useState<MinistryScenario | null>(null);
   const [selectedType, setSelectedType] = useState<string>('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
+  
+  // États pour l'explicateur de contexte
+  const [explainingLine, setExplainingLine] = useState<string | null>(null);
+  const [explanation, setExplanation] = useState<string | null>(null);
+  const [isExplaining, setIsExplaining] = useState(false);
+
+
 
   const types = [
     { value: 'all', label: language === 'pt' ? 'Todos' : 'Tudu' },
@@ -60,8 +70,23 @@ export default function ScenariosPage() {
     return labels[speaker] || speaker;
   };
 
+  const handleExplain = async (text: string) => {
+    setExplainingLine(text);
+    setIsExplaining(true);
+    setExplanation(null);
+    
+    const result = await GeminiService.explainText(text);
+    setExplanation(result);
+    setIsExplaining(false);
+  };
+
+  const closeExplanation = () => {
+    setExplainingLine(null);
+    setExplanation(null);
+  };
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-8">
@@ -79,10 +104,11 @@ export default function ScenariosPage() {
         <div className="flex flex-wrap gap-4 mb-8">
           {/* Type Filter */}
           <div className="flex-1 min-w-[200px]">
-            <label className="block text-sm font-medium text-foreground mb-2">
+            <label htmlFor="scenario-type-filter" className="block text-sm font-medium text-foreground mb-2">
               {language === 'pt' ? 'Tipo' : 'Tipu'}
             </label>
             <select
+              id="scenario-type-filter"
               value={selectedType}
               onChange={(e) => setSelectedType(e.target.value)}
               className="w-full px-4 py-2 border border-border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
@@ -95,10 +121,11 @@ export default function ScenariosPage() {
 
           {/* Difficulty Filter */}
           <div className="flex-1 min-w-[200px]">
-            <label className="block text-sm font-medium text-foreground mb-2">
+            <label htmlFor="scenario-difficulty-filter" className="block text-sm font-medium text-foreground mb-2">
               {language === 'pt' ? 'Dificuldade' : 'Difikuldadi'}
             </label>
             <select
+              id="scenario-difficulty-filter"
               value={selectedDifficulty}
               onChange={(e) => setSelectedDifficulty(e.target.value)}
               className="w-full px-4 py-2 border border-border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
@@ -205,9 +232,24 @@ export default function ScenariosPage() {
                         </p>
                       )}
                     </div>
-                    <button className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors">
-                      <Volume2 className="w-4 h-4 text-muted-foreground" />
-                    </button>
+                    <div className="flex flex-col gap-2">
+                      <button
+                        onClick={() => speak(line.text.kea)}
+                        className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors"
+                        aria-label={language === 'pt' ? 'Ouvir áudio' : 'Obi áudiu'}
+                        title={language === 'pt' ? 'Ouvir pronúncia' : 'Obi pronúnsia'}
+                      >
+                        <Volume2 className="w-4 h-4 text-muted-foreground hover:text-primary transition-colors" aria-hidden="true" />
+                      </button>
+                      <button
+                        onClick={() => handleExplain(line.text.kea)}
+                        className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors text-amber-500"
+                        aria-label={language === 'pt' ? 'Explicar com IA' : 'Splika ku IA'}
+                        title={language === 'pt' ? 'Explicar com IA' : 'Splika ku IA'}
+                      >
+                        <Sparkles className="w-4 h-4" aria-hidden="true" />
+                      </button>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -251,6 +293,55 @@ export default function ScenariosPage() {
           </div>
         )}
       </div>
+
+      {/* Explanation Modal */}
+      {explainingLine && (
+        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 animate-in fade-in duration-200">
+          <div className="bg-background rounded-lg shadow-xl max-w-lg w-full max-h-[80vh] overflow-y-auto flex flex-col">
+            <div className="p-4 border-b border-border flex justify-between items-center sticky top-0 bg-background z-10">
+              <h3 className="font-bold text-lg flex items-center gap-2">
+                <Sparkles className="w-5 h-5 text-amber-500" />
+                {language === 'pt' ? 'Análise IA' : 'Análizi IA'}
+              </h3>
+              <button onClick={closeExplanation} className="p-1 hover:bg-muted rounded-full" aria-label={language === 'pt' ? 'Fechar' : 'Fetxa'}>
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            
+            <div className="p-6">
+              <div className="mb-4 p-3 bg-muted/50 rounded-lg border border-border">
+                <p className="font-medium italic text-foreground">"{explainingLine}"</p>
+              </div>
+
+              {isExplaining ? (
+                <div className="flex flex-col items-center justify-center py-8 gap-3">
+                  <Loader2 className="w-8 h-8 text-primary animate-spin" />
+                  <p className="text-sm text-muted-foreground">
+                    {language === 'pt' ? 'Analisando gramática e contexto...' : 'Ta analiza gramátika i kontestu...'}
+                  </p>
+                </div>
+              ) : (
+                <div className="prose dark:prose-invert max-w-none text-sm">
+                  {explanation ? (
+                    <div className="whitespace-pre-wrap">{explanation}</div>
+                  ) : (
+                    <p className="text-destructive">Erro ao analisar o texto.</p>
+                  )}
+                </div>
+              )}
+            </div>
+            
+            <div className="p-4 border-t border-border bg-muted/20">
+              <button 
+                onClick={closeExplanation}
+                className="w-full py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                {language === 'pt' ? 'Fechar' : 'Fetxa'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

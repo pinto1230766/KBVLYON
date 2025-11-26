@@ -29,7 +29,7 @@ export interface RoleplayExercise extends ExerciseBase {
   conversation: Array<{
     speaker: string;
     text: string | { [key: string]: string };
-    audioUrl?: string;
+
   }>;
 }
 
