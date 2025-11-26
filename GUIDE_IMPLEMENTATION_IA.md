@@ -13,8 +13,8 @@
 3. [Chatbot Capverdien](#chatbot-capverdien)
 4. [Analyse de Prononciation](#analyse-de-prononciation)
 5. [Générateur de Contenu](#générateur-de-contenu)
-6. [Personnalisation](#personnalisation)
-7. [Exemples de Code](#exemples-de-code)
+6. [Personnalisation et Analytics](#personnalisation-et-analytics)
+7. [Intégration dans l'Application](#intégration-dans-lapplication)
 
 ---
 
@@ -22,7 +22,7 @@
 
 ### Vue d'Ensemble
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                     Frontend (React)                         │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
@@ -31,8 +31,8 @@
 │  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘      │
 │         │                  │                  │              │
 └─────────┼──────────────────┼──────────────────┼──────────────┘
-          │                  │                  │
-          ▼                  ▼                  ▼
+           │                  │                  │
+           ▼                  ▼                  ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    AI Services Layer                         │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
@@ -40,8 +40,8 @@
 │  │   Service    │  │   Service    │  │   Service    │      │
 │  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘      │
 └─────────┼──────────────────┼──────────────────┼──────────────┘
-          │                  │                  │
-          ▼                  ▼                  ▼
+           │                  │                  │
+           ▼                  ▼                  ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    External APIs                             │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
@@ -1006,44 +1006,44 @@ import { AIAssistantPage } from './pages/AIAssistantPage';
 ### Optimisations pour Réduire les Coûts
 
 1. **Cache des Réponses**
-```typescript
-// Mettre en cache les réponses fréquentes
-const responseCache = new Map<string, string>();
+   ```typescript
+   // Mettre en cache les réponses fréquentes
+   const responseCache = new Map<string, string>();
 
-async function getCachedResponse(prompt: string): Promise<string> {
-  if (responseCache.has(prompt)) {
-    return responseCache.get(prompt)!;
-  }
-  
-  const response = await geminiService.chat(prompt);
-  responseCache.set(prompt, response);
-  return response;
-}
-```
+   async function getCachedResponse(prompt: string): Promise<string> {
+     if (responseCache.has(prompt)) {
+       return responseCache.get(prompt)!;
+     }
+
+     const response = await geminiService.chat(prompt);
+     responseCache.set(prompt, response);
+     return response;
+   }
+   ```
 
 2. **Limitation du Nombre de Requêtes**
-```typescript
-// Rate limiting côté client
-class RateLimiter {
-  private requests: number[] = [];
-  private maxRequests = 10; // par minute
-  
-  canMakeRequest(): boolean {
-    const now = Date.now();
-    this.requests = this.requests.filter(time => now - time < 60000);
-    return this.requests.length < this.maxRequests;
-  }
-  
-  recordRequest() {
-    this.requests.push(Date.now());
-  }
-}
-```
+   ```typescript
+   // Rate limiting côté client
+   class RateLimiter {
+     private requests: number[] = [];
+     private maxRequests = 10; // par minute
+
+     canMakeRequest(): boolean {
+       const now = Date.now();
+       this.requests = this.requests.filter(time => now - time < 60000);
+       return this.requests.length < this.maxRequests;
+     }
+
+     recordRequest() {
+       this.requests.push(Date.now());
+     }
+   }
+   ```
 
 3. **Utilisation du Tier Gratuit**
-- Gemini API: 60 requêtes/minute gratuites
-- Commencer avec le modèle gratuit
-- Upgrader seulement si nécessaire
+   - Gemini API: 60 requêtes/minute gratuites
+   - Commencer avec le modèle gratuit
+   - Upgrader seulement si nécessaire
 
 ---
 
