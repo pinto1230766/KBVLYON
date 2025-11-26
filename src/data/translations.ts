@@ -117,6 +117,22 @@ const translations: Translations = {
       pt: "Calendário",
       kea: "Kalendariu"
     },
+    progress: {
+      pt: "Progresso",
+      kea: "Progresu"
+    },
+    learningPaths: {
+      pt: "Percursos",
+      kea: "Perkursu"
+    },
+    scenarios: {
+      pt: "Cenários",
+      kea: "Senáriu"
+    },
+    flashcards: {
+      pt: "Flashcards",
+      kea: "Flashcards"
+    },
   },
   
   // Traduções Comuns
