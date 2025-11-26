@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://kbvlyon.app/</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://kbvlyon.app/?lang=pt"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="kea"
+      href="https://kbvlyon.app/?lang=kea"
+    />
+  </url>
+  
+  <!-- Page Grammaire -->
+  <url>
+    <loc>https://kbvlyon.app/grammar</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://kbvlyon.app/grammar?lang=pt"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="kea"
+      href="https://kbvlyon.app/grammar?lang=kea"
+    />
+  </url>
+  
+  <!-- Page Leçons -->
+  <url>
+    <loc>https://kbvlyon.app/lessons</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://kbvlyon.app/lessons?lang=pt"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="kea"
+      href="https://kbvlyon.app/lessons?lang=kea"
+    />
+  </url>
+  
+  <!-- Page Dictionnaire -->
+  <url>
+    <loc>https://kbvlyon.app/dictionary</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://kbvlyon.app/dictionary?lang=pt"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="kea"
+      href="https://kbvlyon.app/dictionary?lang=kea"
+    />
+  </url>
+  
+  <!-- Page Prédication -->
+  <url>
+    <loc>https://kbvlyon.app/preaching</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://kbvlyon.app/preaching?lang=pt"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="kea"
+      href="https://kbvlyon.app/preaching?lang=kea"
+    />
+  </url>
+  
+  <!-- Page Études Bibliques -->
+  <url>
+    <loc>https://kbvlyon.app/bible-studies</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://kbvlyon.app/bible-studies?lang=pt"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="kea"
+      href="https://kbvlyon.app/bible-studies?lang=kea"
+    />
+  </url>
+  
+  <!-- Page À Propos -->
+  <url>
+    <loc>https://kbvlyon.app/about</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Page Paramètres -->
+  <url>
+    <loc>https://kbvlyon.app/settings</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
+  <!-- Politique de Confidentialité -->
+  <url>
+    <loc>https://kbvlyon.app/privacy-policy</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Conditions d'Utilisation -->
+  <url>
+    <loc>https://kbvlyon.app/terms-of-service</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Politique de Cookies -->
+  <url>
+    <loc>https://kbvlyon.app/cookie-policy</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

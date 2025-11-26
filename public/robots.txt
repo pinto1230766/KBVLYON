@@ -1,0 +1,17 @@
+# robots.txt pour KBVLYON
+# Permet l'indexation complète du site
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kbvlyon.app/sitemap.xml
+
+# Optimisation du crawl
+Crawl-delay: 1
+
+# Bloquer les fichiers de développement (si déployés par erreur)
+Disallow: /node_modules/
+Disallow: /*.map$
+Disallow: /src/
+Disallow: /.git/
