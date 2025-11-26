@@ -133,6 +133,10 @@ const translations: Translations = {
       pt: "Flashcards",
       kea: "Flashcards"
     },
+    practice: {
+      pt: "Prática",
+      kea: "Prátika"
+    },
   },
   
   // Traduções Comuns
