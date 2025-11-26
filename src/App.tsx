@@ -1,5 +1,5 @@
 import { Suspense, lazy, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Outlet, Navigate } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { useLanguage } from './hooks/useLanguage';
 import { ThemeProvider } from './components/theme-provider';
@@ -28,7 +28,7 @@ const HomePage = lazy(() => import('./pages/HomePage'));
 const PreachingPage = lazy(() => import('./pages/PreachingPage'));
 const GrammarPage = lazy(() => import('./pages/GrammarPage'));
 const DictionaryPage = lazy(() => import('./pages/DictionaryPage'));
-const LessonsPage = lazy(() => import('./pages/LessonsPage'));
+const LearningPage = lazy(() => import('./pages/LearningPage'));
 const BibleStudiesPage = lazy(() => import('./pages/BibleStudiesPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
@@ -41,7 +41,6 @@ const ScoresPage = lazy(() => import('./pages/ScoresPage'));
 
 // Nouvelles pages Phase 2
 const ProgressDashboard = lazy(() => import('./components/progress/ProgressDashboard'));
-const LearningPathsPage = lazy(() => import('./pages/LearningPathsPage'));
 const ScenariosPage = lazy(() => import('./pages/ScenariosPage'));
 const FlashcardsPage = lazy(() => import('./pages/FlashcardsPage'));
 
@@ -90,7 +89,7 @@ function App() {
                 <Route path="preaching" element={<PreachingPage />} />
                 <Route path="grammar-dictionary" element={<GrammarPage />} />
                 <Route path="dictionary" element={<DictionaryPage />} />
-                <Route path="lessons" element={<LessonsPage />} />
+                <Route path="lessons" element={<LearningPage />} />
                 <Route path="bible-studies" element={<BibleStudiesPage />} />
                 <Route path="about" element={<AboutPage />} />
                 <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
@@ -100,7 +99,7 @@ function App() {
                 <Route path="scores" element={<ScoresPage />} />
                 <Route path="settings" element={<SettingsPage />} />
                 <Route path="progress" element={<ProgressDashboard />} />
-                <Route path="learning-paths" element={<LearningPathsPage />} />
+                <Route path="learning-paths" element={<Navigate to="/lessons?tab=paths" replace />} />
                 <Route path="scenarios" element={<ScenariosPage />} />
                 <Route path="flashcards" element={<FlashcardsPage />} />
                 <Route path="*" element={<NotFoundPage />} />

@@ -18,7 +18,6 @@ const Navbar = () => {
     { name: t('navigation.grammar'), href: '/grammar-dictionary' },
     { name: t('navigation.dictionary'), href: '/dictionary' },
     { name: t('navigation.lessons'), href: '/lessons' },
-    { name: t('navigation.learningPaths'), href: '/learning-paths' },
     { name: t('navigation.scenarios'), href: '/scenarios' },
     { name: t('navigation.flashcards'), href: '/flashcards' },
     { name: t('navigation.progress'), href: '/progress' },
