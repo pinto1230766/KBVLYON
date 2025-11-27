@@ -185,110 +185,134 @@ export default function ScenariosPage() {
           ))}
         </div>
 
-        {/* Selected Scenario Details */}
+        {/* Scenario Modal */}
         {selectedScenario && (
-          <div className="bg-card border border-border rounded-lg p-6 space-y-6">
-            {/* Title */}
-            <div>
-              <h2 className="text-2xl font-bold text-foreground mb-2">
-                {language === 'pt' ? selectedScenario.title.pt : selectedScenario.title.kea}
-              </h2>
-              <p className="text-muted-foreground">
-                {language === 'pt' ? selectedScenario.description.pt : selectedScenario.description.kea}
-              </p>
-            </div>
+          <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 animate-in fade-in duration-200">
+            <div className="bg-background rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto flex flex-col">
+              {/* Modal Header */}
+              <div className="p-6 border-b border-border flex justify-between items-start sticky top-0 bg-background z-10">
+                <div className="flex-1">
+                  <h2 className="text-2xl font-bold text-foreground mb-2">
+                    {language === 'pt' ? selectedScenario.title.pt : selectedScenario.title.kea}
+                  </h2>
+                  <p className="text-muted-foreground">
+                    {language === 'pt' ? selectedScenario.description.pt : selectedScenario.description.kea}
+                  </p>
+                </div>
+                <button 
+                  onClick={() => setSelectedScenario(null)} 
+                  className="p-2 hover:bg-muted rounded-full transition-colors ml-4" 
+                  aria-label={language === 'pt' ? 'Fechar' : 'Fetxa'}
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
 
-            {/* Dialogue */}
-            <div>
-              <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Users className="w-5 h-5" />
-                {language === 'pt' ? 'Diálogo' : 'Diálogu'}
-              </h3>
-              <div className="space-y-4">
-                {selectedScenario.dialogue.map((line, index) => (
-                  <div
-                    key={index}
-                    className={`flex gap-4 p-4 rounded-lg ${
-                      line.speaker === 'preacher' || line.speaker === 'teacher'
-                        ? 'bg-blue-50 dark:bg-blue-950'
-                        : 'bg-muted'
-                    }`}
-                  >
-                    <div className="flex-shrink-0">
-                      <div className="w-10 h-10 rounded-full bg-background flex items-center justify-center text-xl">
-                        {getSpeakerIcon(line.speaker)}
+              {/* Modal Content */}
+              <div className="p-6 space-y-6">
+                {/* Dialogue */}
+                <div>
+                  <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <Users className="w-5 h-5" />
+                    {language === 'pt' ? 'Diálogo' : 'Diálogu'}
+                  </h3>
+                  <div className="space-y-4">
+                    {selectedScenario.dialogue.map((line, index) => (
+                      <div
+                        key={index}
+                        className={`flex gap-4 p-4 rounded-lg ${
+                          line.speaker === 'preacher' || line.speaker === 'teacher'
+                            ? 'bg-blue-50 dark:bg-blue-950'
+                            : 'bg-muted'
+                        }`}
+                      >
+                        <div className="flex-shrink-0">
+                          <div className="w-10 h-10 rounded-full bg-background flex items-center justify-center text-xl">
+                            {getSpeakerIcon(line.speaker)}
+                          </div>
+                          <p className="text-xs text-center mt-1 text-muted-foreground">
+                            {getSpeakerLabel(line.speaker)}
+                          </p>
+                        </div>
+                        <div className="flex-1">
+                          <p className="font-medium text-foreground mb-1">
+                            {language === 'pt' ? line.text.pt : line.text.kea}
+                          </p>
+                          {line.notes && (
+                            <p className="text-sm text-muted-foreground italic">
+                              💡 {language === 'pt' ? line.notes.pt : line.notes.kea}
+                            </p>
+                          )}
+                        </div>
+                        <div className="flex flex-col gap-2">
+                          <button
+                            onClick={() => speak(line.text.kea)}
+                            className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors"
+                            aria-label={language === 'pt' ? 'Ouvir áudio' : 'Obi áudiu'}
+                            title={language === 'pt' ? 'Ouvir pronúncia' : 'Obi pronúnsia'}
+                          >
+                            <Volume2 className="w-4 h-4 text-muted-foreground hover:text-primary transition-colors" aria-hidden="true" />
+                          </button>
+                          <button
+                            onClick={() => handleExplain(line.text.kea)}
+                            className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors text-amber-500"
+                            aria-label={language === 'pt' ? 'Explicar com IA' : 'Splika ku IA'}
+                            title={language === 'pt' ? 'Explicar com IA' : 'Splika ku IA'}
+                          >
+                            <Sparkles className="w-4 h-4" aria-hidden="true" />
+                          </button>
+                        </div>
                       </div>
-                      <p className="text-xs text-center mt-1 text-muted-foreground">
-                        {getSpeakerLabel(line.speaker)}
-                      </p>
-                    </div>
-                    <div className="flex-1">
-                      <p className="font-medium text-foreground mb-1">
-                        {language === 'pt' ? line.text.pt : line.text.kea}
-                      </p>
-                      {line.notes && (
-                        <p className="text-sm text-muted-foreground italic">
-                          💡 {language === 'pt' ? line.notes.pt : line.notes.kea}
+                    ))}
+                  </div>
+                </div>
+
+                {/* Vocabulary */}
+                <div>
+                  <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <BookOpen className="w-5 h-5" />
+                    {language === 'pt' ? 'Vocabulário Chave' : 'Vokabuláriu Xavi'}
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {selectedScenario.vocabulary.map((vocab, index) => (
+                      <div key={index} className="bg-muted rounded-lg p-3">
+                        <p className="font-semibold text-foreground">{vocab.word}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {language === 'pt' ? vocab.translation.pt : vocab.translation.kea}
                         </p>
-                      )}
-                    </div>
-                    <div className="flex flex-col gap-2">
-                      <button
-                        onClick={() => speak(line.text.kea)}
-                        className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors"
-                        aria-label={language === 'pt' ? 'Ouvir áudio' : 'Obi áudiu'}
-                        title={language === 'pt' ? 'Ouvir pronúncia' : 'Obi pronúnsia'}
-                      >
-                        <Volume2 className="w-4 h-4 text-muted-foreground hover:text-primary transition-colors" aria-hidden="true" />
-                      </button>
-                      <button
-                        onClick={() => handleExplain(line.text.kea)}
-                        className="flex-shrink-0 p-2 hover:bg-background rounded-lg transition-colors text-amber-500"
-                        aria-label={language === 'pt' ? 'Explicar com IA' : 'Splika ku IA'}
-                        title={language === 'pt' ? 'Explicar com IA' : 'Splika ku IA'}
-                      >
-                        <Sparkles className="w-4 h-4" aria-hidden="true" />
-                      </button>
-                    </div>
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
-            </div>
+                </div>
 
-            {/* Vocabulary */}
-            <div>
-              <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5" />
-                {language === 'pt' ? 'Vocabulário Chave' : 'Vokabuláriu Xavi'}
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {selectedScenario.vocabulary.map((vocab, index) => (
-                  <div key={index} className="bg-muted rounded-lg p-3">
-                    <p className="font-semibold text-foreground">{vocab.word}</p>
-                    <p className="text-sm text-muted-foreground">
-                      {language === 'pt' ? vocab.translation.pt : vocab.translation.kea}
-                    </p>
-                  </div>
-                ))}
+                {/* Tips */}
+                <div>
+                  <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <Lightbulb className="w-5 h-5" />
+                    {language === 'pt' ? 'Dicas Práticas' : 'Dika Prátiku'}
+                  </h3>
+                  <ul className="space-y-2">
+                    {selectedScenario.tips.map((tip, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground">
+                          {language === 'pt' ? tip.pt : tip.kea}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-            </div>
 
-            {/* Tips */}
-            <div>
-              <h3 className="text-xl font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Lightbulb className="w-5 h-5" />
-                {language === 'pt' ? 'Dicas Práticas' : 'Dika Prátiku'}
-              </h3>
-              <ul className="space-y-2">
-                {selectedScenario.tips.map((tip, index) => (
-                  <li key={index} className="flex items-start gap-2">
-                    <span className="text-primary mt-1">•</span>
-                    <span className="text-foreground">
-                      {language === 'pt' ? tip.pt : tip.kea}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              {/* Modal Footer */}
+              <div className="p-4 border-t border-border bg-muted/20 sticky bottom-0">
+                <button 
+                  onClick={() => setSelectedScenario(null)}
+                  className="w-full py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+                >
+                  {language === 'pt' ? 'Fechar' : 'Fetxa'}
+                </button>
+              </div>
             </div>
           </div>
         )}
