@@ -315,10 +315,17 @@ const DictionaryPage = () => {
                     </button>
                   </div>
                   {searchHistory.map((term, index) => (
-                    <button
+                    <div
                       key={index}
                       onClick={() => handleHistorySelect(term)}
-                      className="w-full text-left px-2 py-1 hover:bg-muted flex items-center justify-between group"
+                      className="w-full text-left px-2 py-1 hover:bg-muted flex items-center justify-between group cursor-pointer"
+                      role="button"
+                      tabIndex={0}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          handleHistorySelect(term);
+                        }
+                      }}
                     >
                       <span className="text-sm">{term}</span>
                       <button
@@ -327,10 +334,11 @@ const DictionaryPage = () => {
                           removeFromSearchHistory(term);
                         }}
                         className="opacity-0 group-hover:opacity-100 p-1 hover:bg-muted-foreground/20 rounded"
+                        aria-label={t('common.remove')}
                       >
                         <X className="h-3 w-3 text-muted-foreground" />
                       </button>
-                    </button>
+                    </div>
                   ))}
                 </div>
               )}
