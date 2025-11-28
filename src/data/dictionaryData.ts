@@ -269,7 +269,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-22",
     "word": "abordaji",
     "translation": {
-      "pt": "abordagem"
+      "pt": "abordagem / colisão"
     },
     "example": {
       "pt": "",
@@ -332,8 +332,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Abra a porta, por favor",
+      "kea": "Abri porta, pur favor"
     },
     "category": "Verbe"
   },
@@ -785,7 +785,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-65",
     "word": "afrikanu",
     "translation": {
-      "pt": "africano"
+      "pt": "africano / Africano"
     },
     "example": {
       "pt": "",
@@ -824,8 +824,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "águia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "A águia voa alto",
+      "kea": "Agia ta vua artu"
     },
     "category": "Nom"
   },
@@ -848,8 +848,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou agora",
+      "kea": "N ta bai agora"
     },
     "category": "Adverbe"
   },
@@ -860,8 +860,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agosto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Agosto é um mês quente",
+      "kea": "Agostu e un mes kenti"
     },
     "category": "Nom"
   },
@@ -884,8 +884,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agradar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso me agrada muito",
+      "kea": "Kes koiza ta agrada-m bue"
     },
     "category": "Verbe"
   },
@@ -896,8 +896,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agradável"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O clima é agradável",
+      "kea": "Klima e agradavel"
     },
     "category": "Adjectif"
   },
@@ -920,8 +920,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agressivo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito agressivo",
+      "kea": "El e muitu agresivu"
     },
     "category": "Adjectif"
   },
@@ -956,8 +956,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "água"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "A água está fria",
+      "kea": "Agu sta friu"
     },
     "category": "Nom"
   },
@@ -2201,7 +2201,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-183",
     "word": "amerikanu",
     "translation": {
-      "pt": "americano"
+      "pt": "americano / Americano"
     },
     "example": {
       "pt": "",
@@ -2432,8 +2432,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "andar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos andar na praia",
+      "kea": "Nu bai anda na praia"
     },
     "category": "Verbe"
   },
@@ -4676,8 +4676,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou à escola",
+      "kea": "N ta bai skola"
     },
     "category": "Verbe"
   },
@@ -5843,19 +5843,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "",
       "kea": ""
     },
-    "category": "Adjectif"
-  },
-  {
-    "id": "entry-487",
-    "word": "bo",
-    "translation": {
-      "pt": "tu / você"
-    },
-    "example": {
-      "pt": "",
-      "kea": ""
-    },
-    "category": "Pronom"
+    "category": "Adjectif",
+    "note": "Peut aussi signifier \"tu/você\" (pronom) selon le contexte"
   },
   {
     "id": "entry-488",
@@ -6068,8 +6057,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bonito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que dia bonito!",
+      "kea": "Ki dia bunitu!"
     },
     "category": "Adjectif"
   },
@@ -6572,8 +6561,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Dá-me água",
+      "kea": "Da-m agu"
     },
     "category": "Verbe"
   },
@@ -7913,25 +7902,13 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-659",
     "word": "e",
     "translation": {
-      "pt": "e"
+      "pt": "e (conjonction) / é (verbo ser)"
     },
     "example": {
       "pt": "",
       "kea": ""
     },
     "category": "Conjonction"
-  },
-  {
-    "id": "entry-660",
-    "word": "e",
-    "translation": {
-      "pt": "é (verbo ser)"
-    },
-    "example": {
-      "pt": "",
-      "kea": ""
-    },
-    "category": "Verbe"
   },
   {
     "id": "entry-661",
@@ -9236,8 +9213,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "filho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Meu filho estuda",
+      "kea": "Nha fidju ta studu"
     },
     "category": "Nom"
   },
@@ -11012,8 +10989,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "irmão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Meu irmão mora longe",
+      "kea": "Nha irmon ta mora longi"
     },
     "category": "Nom"
   },
@@ -11588,8 +11565,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "casa / casar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "A casa é bonita",
+      "kea": "Kasa e bunitu"
     },
     "category": "Nom"
   },
@@ -12920,8 +12897,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "livro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O livro está na mesa",
+      "kea": "Livru sta na mesa"
     },
     "category": "Nom"
   },
@@ -13112,8 +13089,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mãe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Minha mãe cozinha bem",
+      "kea": "Nha mai ta kuzinha ben"
     },
     "category": "Nom"
   },
@@ -13316,8 +13293,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O mar está calmo",
+      "kea": "Mar sta kalmu"
     },
     "category": "Nom"
   },
@@ -13472,8 +13449,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mau"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O tempo está mau",
+      "kea": "Tenpu sta mau"
     },
     "category": "Adjectif"
   },
@@ -15440,8 +15417,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pai"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Meu pai trabalha muito",
+      "kea": "Nha pai ta trabadja bue"
     },
     "category": "Nom"
   },
@@ -18608,8 +18585,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saber / saboroso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Você sabe falar crioulo?",
+      "kea": "Bu sabe papia kriolu?"
     },
     "category": "Verbe"
   },
@@ -19124,8 +19101,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sempre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele sempre chega tarde",
+      "kea": "El sempre ta txiga atrazadu"
     },
     "category": "Adverbe"
   },
@@ -22884,5 +22861,1604 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": ""
     },
     "category": "Nom"
+  },
+  {
+    "id": "entry-1907",
+    "word": "abertura",
+    "translation": {
+      "pt": "abertura"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1908",
+    "word": "abo",
+    "translation": {
+      "pt": "tu / você"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-1909",
+    "word": "abri-odju",
+    "translation": {
+      "pt": "estar alerta / abrir o olho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-1910",
+    "word": "absolvison",
+    "translation": {
+      "pt": "absolvição"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1911",
+    "word": "absurdu",
+    "translation": {
+      "pt": "absurdo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1912",
+    "word": "adapta",
+    "translation": {
+      "pt": "adaptar"
+    },
+    "example": {
+      "pt": "Precisamos adaptar o plano",
+      "kea": "Nu ten ki adapta planu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1913",
+    "word": "adas",
+    "translation": {
+      "pt": "adeus"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-1914",
+    "word": "adjaa",
+    "translation": {
+      "pt": "expressão de admiração"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-1915",
+    "word": "adjetivu",
+    "translation": {
+      "pt": "adjetivo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1916",
+    "word": "advogadu",
+    "translation": {
+      "pt": "advogado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1917",
+    "word": "ael",
+    "translation": {
+      "pt": "ele (pronome)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-1918",
+    "word": "akulturason",
+    "translation": {
+      "pt": "aculturação"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1919",
+    "word": "alegra",
+    "translation": {
+      "pt": "alegrar / ser feliz"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1921",
+    "word": "algola",
+    "translation": {
+      "pt": "gancho (de teto)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1922",
+    "word": "alguns",
+    "translation": {
+      "pt": "alguns"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-1923",
+    "word": "alimaria",
+    "translation": {
+      "pt": "animal / montaria"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1924",
+    "word": "alkua",
+    "translation": {
+      "pt": "arquear / ficar de pernas arqueadas"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1925",
+    "word": "alkuol",
+    "translation": {
+      "pt": "álcool"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1926",
+    "word": "aluz",
+    "translation": {
+      "pt": "luz"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1927",
+    "word": "alvorosa",
+    "translation": {
+      "pt": "comichão / coceira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1929",
+    "word": "anfia",
+    "translation": {
+      "pt": "enfiar / acompanhar até a porta"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1931",
+    "word": "anguli",
+    "translation": {
+      "pt": "engolir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1932",
+    "word": "anidja",
+    "translation": {
+      "pt": "anilhar / juntar (articulação)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1933",
+    "word": "anima",
+    "translation": {
+      "pt": "animar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1934",
+    "word": "animadu",
+    "translation": {
+      "pt": "animado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1935",
+    "word": "ankodje",
+    "translation": {
+      "pt": "encolher"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1936",
+    "word": "ankua",
+    "translation": {
+      "pt": "viver bem / confortavelmente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1937",
+    "word": "anpara",
+    "translation": {
+      "pt": "amparar / sustentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1938",
+    "word": "antan",
+    "translation": {
+      "pt": "então / e depois"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-1939",
+    "word": "anterior",
+    "translation": {
+      "pt": "anterior"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1940",
+    "word": "aparador",
+    "translation": {
+      "pt": "aparador / armário"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1941",
+    "word": "aparei",
+    "translation": {
+      "pt": "aparelho / rádio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1942",
+    "word": "aplikason",
+    "translation": {
+      "pt": "aplicação"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1943",
+    "word": "Arabia",
+    "translation": {
+      "pt": "Arábia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1944",
+    "word": "arberka",
+    "translation": {
+      "pt": "alparca / sandália"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1945",
+    "word": "arbisa",
+    "translation": {
+      "pt": "alvíssaras / boas notícias"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1946",
+    "word": "arboriza",
+    "translation": {
+      "pt": "arborizar / plantar árvores"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1947",
+    "word": "area",
+    "translation": {
+      "pt": "areia / área"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1948",
+    "word": "aredor",
+    "translation": {
+      "pt": "arredores / subúrbios"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1949",
+    "word": "argudon",
+    "translation": {
+      "pt": "algodão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1950",
+    "word": "ari",
+    "translation": {
+      "pt": "rir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1951",
+    "word": "armador",
+    "translation": {
+      "pt": "armador / montador"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1952",
+    "word": "armazen",
+    "translation": {
+      "pt": "armazém"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1953",
+    "word": "aros",
+    "translation": {
+      "pt": "arroz"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1954",
+    "word": "arra",
+    "translation": {
+      "pt": "arre (interjeição)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-1955",
+    "word": "arri",
+    "translation": {
+      "pt": "rir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1956",
+    "word": "arteria",
+    "translation": {
+      "pt": "artéria"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1957",
+    "word": "artigo",
+    "translation": {
+      "pt": "artigo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1958",
+    "word": "artizanatu",
+    "translation": {
+      "pt": "artesanato"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1959",
+    "word": "asea",
+    "translation": {
+      "pt": "assear / limpar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1960",
+    "word": "aseiu",
+    "translation": {
+      "pt": "asseio / higiene"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1961",
+    "word": "asenblea",
+    "translation": {
+      "pt": "assembleia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1962",
+    "word": "asnera",
+    "translation": {
+      "pt": "asneira / tolice"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1963",
+    "word": "ason",
+    "translation": {
+      "pt": "ação"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1964",
+    "word": "asparagu",
+    "translation": {
+      "pt": "espargo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1965",
+    "word": "aspirine",
+    "translation": {
+      "pt": "aspirine"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1966",
+    "word": "atensan",
+    "translation": {
+      "pt": "atenção"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1967",
+    "word": "atinji",
+    "translation": {
+      "pt": "atingir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1968",
+    "word": "ator",
+    "translation": {
+      "pt": "ator"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1969",
+    "word": "atraza",
+    "translation": {
+      "pt": "atrasar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1970",
+    "word": "atrazadu",
+    "translation": {
+      "pt": "atrasado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1971",
+    "word": "atrazu",
+    "translation": {
+      "pt": "atraso"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1972",
+    "word": "atreve",
+    "translation": {
+      "pt": "atrever-se"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1973",
+    "word": "atribui",
+    "translation": {
+      "pt": "atribuir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1974",
+    "word": "atualidadi",
+    "translation": {
+      "pt": "atualidade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1975",
+    "word": "atura",
+    "translation": {
+      "pt": "aturar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1976",
+    "word": "avalia",
+    "translation": {
+      "pt": "avaliar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1977",
+    "word": "avenida",
+    "translation": {
+      "pt": "avenida"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1978",
+    "word": "aviza",
+    "translation": {
+      "pt": "avisar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1979",
+    "word": "avontadi",
+    "translation": {
+      "pt": "à vontade / suficiente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1980",
+    "word": "azagua",
+    "translation": {
+      "pt": "azágua / época das chuvas"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1981",
+    "word": "azarma",
+    "translation": {
+      "pt": "fantasma / criatura da noite"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1982",
+    "word": "azeda",
+    "translation": {
+      "pt": "azedar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1983",
+    "word": "azedu",
+    "translation": {
+      "pt": "azedo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1984",
+    "word": "Azia",
+    "translation": {
+      "pt": "Ásia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom",
+    "note": "Différent de entry-370 (azia = brûlure d'estomac)"
+  },
+  {
+    "id": "entry-1985",
+    "word": "azidja",
+    "translation": {
+      "pt": "abrolhos"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1986",
+    "word": "azoge",
+    "translation": {
+      "pt": "azougue / energia / rapidez"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1987",
+    "word": "babau",
+    "translation": {
+      "pt": "bobo / estúpido"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1988",
+    "word": "babozera",
+    "translation": {
+      "pt": "bobagem / asneira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1989",
+    "word": "bada",
+    "translation": {
+      "pt": "ida / partida"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1990",
+    "word": "badiu",
+    "translation": {
+      "pt": "badio (nativo de Santiago)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1991",
+    "word": "badjadera",
+    "translation": {
+      "pt": "dançarina"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1992",
+    "word": "badjadoru",
+    "translation": {
+      "pt": "dançarino"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1993",
+    "word": "bador",
+    "translation": {
+      "pt": "viajante / quem sai muito"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1994",
+    "word": "baeta",
+    "translation": {
+      "pt": "combinação (roupa íntima)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1995",
+    "word": "bafa",
+    "translation": {
+      "pt": "abafar / amadurecer fruta / lanchar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1996",
+    "word": "bafatada",
+    "translation": {
+      "pt": "bofetada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1997",
+    "word": "bafatia",
+    "translation": {
+      "pt": "esbofetear"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1998",
+    "word": "bafaton",
+    "translation": {
+      "pt": "bofetão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1999",
+    "word": "bagabaga",
+    "translation": {
+      "pt": "térmitas / formiga branca"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2000",
+    "word": "bagaja",
+    "translation": {
+      "pt": "bagagem"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2001",
+    "word": "bagarozu",
+    "translation": {
+      "pt": "vagaroso / lento"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2002",
+    "word": "baia",
+    "translation": {
+      "pt": "baía / praia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2003",
+    "word": "baion",
+    "translation": {
+      "pt": "garrafão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2004",
+    "word": "baka",
+    "translation": {
+      "pt": "vaca"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2005",
+    "word": "baketi",
+    "translation": {
+      "pt": "balde"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2006",
+    "word": "bakon",
+    "translation": {
+      "pt": "bácoro / medroso"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2007",
+    "word": "baladu",
+    "translation": {
+      "pt": "maduro (coco)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2008",
+    "word": "balan-balan",
+    "translation": {
+      "pt": "falar muito / tagarelar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2009",
+    "word": "balangia",
+    "translation": {
+      "pt": "balançar (devagar)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2010",
+    "word": "baldi",
+    "translation": {
+      "pt": "balde"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2011",
+    "word": "baleeru",
+    "translation": {
+      "pt": "baleeiro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2012",
+    "word": "baleta",
+    "translation": {
+      "pt": "valeta / vale fértil"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2013",
+    "word": "baleti",
+    "translation": {
+      "pt": "valete (cartas)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2014",
+    "word": "balkon",
+    "translation": {
+      "pt": "balcão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2015",
+    "word": "baloxa",
+    "translation": {
+      "pt": "pessoa gorda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2016",
+    "word": "balsuma",
+    "translation": {
+      "pt": "balsamar / crescer (plantas)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2017",
+    "word": "banatu",
+    "translation": {
+      "pt": "banato / idiota"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2018",
+    "word": "banbu",
+    "translation": {
+      "pt": "bambu"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2019",
+    "word": "banbudu",
+    "translation": {
+      "pt": "carregado às costas"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2021",
+    "word": "bangu",
+    "translation": {
+      "pt": "rede de pesca"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2022",
+    "word": "banhun",
+    "translation": {
+      "pt": "cinzento / grisalho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2023",
+    "word": "abanu",
+    "translation": {
+      "pt": "leque"
+    },
+    "example": {
+      "pt": "Ela usa um leque para se refrescar",
+      "kea": "El ta uza un abanu pa refriska"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2024",
+    "word": "abensu",
+    "translation": {
+      "pt": "abençoado"
+    },
+    "example": {
+      "pt": "Ele é abençoado por Deus",
+      "kea": "El e abensu pa Deus"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2026",
+    "word": "abili",
+    "translation": {
+      "pt": "hábil"
+    },
+    "example": {
+      "pt": "Ele é muito hábil com as mãos",
+      "kea": "El e muitu abili ku mon"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2027",
+    "word": "abismu",
+    "translation": {
+      "pt": "abismo"
+    },
+    "example": {
+      "pt": "Há um abismo profundo",
+      "kea": "Ten un abismu fundu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2028",
+    "word": "abituadu",
+    "translation": {
+      "pt": "habituado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2031",
+    "word": "aborku",
+    "translation": {
+      "pt": "aborto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom",
+    "note": "entry-23 = abrigo, entry-2031 = aborto (significations différentes)"
+  },
+  {
+    "id": "entry-2034",
+    "word": "abstinensia",
+    "translation": {
+      "pt": "abstinência"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2036",
+    "word": "abuzadu",
+    "translation": {
+      "pt": "abusado / atrevido"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2038",
+    "word": "ade",
+    "translation": {
+      "pt": "adeus"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-2039",
+    "word": "adiana",
+    "translation": {
+      "pt": "adiana (planta)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2040",
+    "word": "adianta",
+    "translation": {
+      "pt": "adiantar"
+    },
+    "example": {
+      "pt": "Vou adiantar o trabalho",
+      "kea": "N ta adianta trabalhu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2041",
+    "word": "adiantadu",
+    "translation": {
+      "pt": "adiantado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2042",
+    "word": "adja",
+    "translation": {
+      "pt": "aia (ama-seca)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom",
+    "note": "entry-42 = machado, entry-2042 = aia (significations différentes)"
+  },
+  {
+    "id": "entry-2044",
+    "word": "adulteriu",
+    "translation": {
+      "pt": "adultério"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2047",
+    "word": "afasta",
+    "translation": {
+      "pt": "afastar"
+    },
+    "example": {
+      "pt": "Afaste-se do perigo",
+      "kea": "Afasta-bu di perigu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2048",
+    "word": "afetuozu",
+    "translation": {
+      "pt": "afetuoso"
+    },
+    "example": {
+      "pt": "Ele é muito afetuoso",
+      "kea": "El e muitu afetuozu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2049",
+    "word": "afiadu",
+    "translation": {
+      "pt": "afiado"
+    },
+    "example": {
+      "pt": "A faca está afiada",
+      "kea": "Faka sta afiadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2050",
+    "word": "aforu",
+    "translation": {
+      "pt": "aforro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2051",
+    "word": "afronta",
+    "translation": {
+      "pt": "afronta / dificuldade / sufoco"
+    },
+    "example": {
+      "pt": "Ele enfrentou uma grande afronta",
+      "kea": "El afrontadu un grandi afronta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2052",
+    "word": "afrontadu",
+    "translation": {
+      "pt": "afrontado / sufocado / com pressa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2061",
+    "word": "agradese",
+    "translation": {
+      "pt": "agradecer"
+    },
+    "example": {
+      "pt": "Agradeço sua ajuda",
+      "kea": "N ta agradese bu djuda"
+    },
+    "category": "Verbe"
   }
 ];

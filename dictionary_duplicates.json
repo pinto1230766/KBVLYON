@@ -1,0 +1,47 @@
+[
+  {
+    "word": "Azia",
+    "entries": [
+      {
+        "id": "entry-370",
+        "translation": "azia",
+        "category": "Nom"
+      },
+      {
+        "id": "entry-1984",
+        "translation": "Ásia",
+        "category": "Nom"
+      }
+    ]
+  },
+  {
+    "word": "aborku",
+    "entries": [
+      {
+        "id": "entry-23",
+        "translation": "abrigo",
+        "category": "Nom"
+      },
+      {
+        "id": "entry-2031",
+        "translation": "aborto",
+        "category": "Nom"
+      }
+    ]
+  },
+  {
+    "word": "adja",
+    "entries": [
+      {
+        "id": "entry-42",
+        "translation": "machado",
+        "category": "Nom"
+      },
+      {
+        "id": "entry-2042",
+        "translation": "aia (ama-seca)",
+        "category": "Nom"
+      }
+    ]
+  }
+]
