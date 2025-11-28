@@ -20,8 +20,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "a / o / para / e"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Estou a ti",
+      "kea": "N sta a bo"
     },
     "category": "Préposition"
   },
@@ -32,8 +32,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "o que é isto?"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "o que é isto?",
+      "kea": "a es"
     },
     "category": "Expression"
   },
@@ -44,8 +44,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aba / orla / periferia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aba é bonito",
+      "kea": "Aba e bunitu"
     },
     "category": "Nom"
   },
@@ -56,8 +56,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abacate"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o abacate?",
+      "kea": "Undi ki abakati sta?"
     },
     "category": "Nom"
   },
@@ -68,8 +68,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abalar / sacudir / tocar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou abalar",
+      "kea": "N ta abala"
     },
     "category": "Verbe"
   },
@@ -80,8 +80,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abalado / sacudido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa abalado",
+      "kea": "Un pesoa abaladu"
     },
     "category": "Adjectif"
   },
@@ -92,8 +92,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abandonar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou abandonar",
+      "kea": "N ta abandona"
     },
     "category": "Verbe"
   },
@@ -104,8 +104,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avanço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um avanço",
+      "kea": "N ten un abansu"
     },
     "category": "Nom"
   },
@@ -116,8 +116,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abastecimento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este abastecimento é meu",
+      "kea": "Es abastesimentu e nha"
     },
     "category": "Nom"
   },
@@ -128,8 +128,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abaixo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça abaixo",
+      "kea": "Faze abaxu"
     },
     "category": "Adverbe"
   },
@@ -140,8 +140,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abelha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um abelha",
+      "kea": "N ten un abedja"
     },
     "category": "Nom"
   },
@@ -152,8 +152,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abelha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este abelha é meu",
+      "kea": "Es abelia e nha"
     },
     "category": "Nom"
   },
@@ -164,8 +164,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bênção"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bênção",
+      "kea": "N gosta di es abensa"
     },
     "category": "Nom"
   },
@@ -176,8 +176,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abençoar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos abençoar juntos",
+      "kea": "Nu bai abensua djuntu"
     },
     "category": "Verbe"
   },
@@ -188,8 +188,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abertura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O abertura é bonito",
+      "kea": "Aberta e bunitu"
     },
     "category": "Nom"
   },
@@ -200,8 +200,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aberto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa aberto",
+      "kea": "Un pesoa abertu"
     },
     "category": "Adjectif"
   },
@@ -212,8 +212,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bênção"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bênção é bonito",
+      "kea": "Abeson e bunitu"
     },
     "category": "Nom"
   },
@@ -224,8 +224,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "habilidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o habilidade?",
+      "kea": "Undi ki abilidadi sta?"
     },
     "category": "Nom"
   },
@@ -236,8 +236,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "habilitado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa habilitado",
+      "kea": "Un pesoa abilitadu"
     },
     "category": "Adjectif"
   },
@@ -248,8 +248,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hábito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um hábito",
+      "kea": "N ten un abitu"
     },
     "category": "Nom"
   },
@@ -260,8 +260,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abnegação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um abnegação",
+      "kea": "N ten un abne"
     },
     "category": "Nom"
   },
@@ -272,8 +272,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abordagem / colisão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste abordagem",
+      "kea": "N gosta di es abordaji"
     },
     "category": "Nom"
   },
@@ -284,8 +284,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste abrigo",
+      "kea": "N gosta di es aborku"
     },
     "category": "Nom"
   },
@@ -296,8 +296,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aborto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aborto é bonito",
+      "kea": "Abortu e bunitu"
     },
     "category": "Nom"
   },
@@ -308,8 +308,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrangente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito abrangente",
+      "kea": "El e muitu abranjenti"
     },
     "category": "Adjectif"
   },
@@ -320,8 +320,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abraço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este abraço é meu",
+      "kea": "Es abrasu e nha"
     },
     "category": "Nom"
   },
@@ -344,8 +344,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bocejar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos bocejar agora",
+      "kea": "Nu ten ki abri-boka agora"
     },
     "category": "Verbe"
   },
@@ -356,8 +356,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abridor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este abridor é meu",
+      "kea": "Es abridór e nha"
     },
     "category": "Nom"
   },
@@ -368,8 +368,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abril"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um abril",
+      "kea": "N ten un abril"
     },
     "category": "Nom"
   },
@@ -380,8 +380,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrolho / planta espinhosa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um abrolho",
+      "kea": "N ten un abrodju"
     },
     "category": "Nom"
   },
@@ -392,8 +392,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "absolver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero absolver",
+      "kea": "N ka kre absolve"
     },
     "category": "Verbe"
   },
@@ -404,8 +404,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "absorver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou absorver",
+      "kea": "N ta absorbe"
     },
     "category": "Verbe"
   },
@@ -416,8 +416,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abundar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero abundar",
+      "kea": "N ka kre abunda"
     },
     "category": "Verbe"
   },
@@ -428,8 +428,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abundância"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste abundância",
+      "kea": "N gosta di es abundansia"
     },
     "category": "Nom"
   },
@@ -440,8 +440,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abusado / insolente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que abusado!",
+      "kea": "Ki abusadu!"
     },
     "category": "Adjectif"
   },
@@ -452,8 +452,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abusar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos abusar juntos",
+      "kea": "Nu bai abuza djuntu"
     },
     "category": "Verbe"
   },
@@ -464,8 +464,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abuso / insulto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste abuso",
+      "kea": "N gosta di es abuzu"
     },
     "category": "Nom"
   },
@@ -476,8 +476,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adega"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O adega é bonito",
+      "kea": "Adega e bunitu"
     },
     "category": "Nom"
   },
@@ -488,8 +488,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adeus"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este adeus é meu",
+      "kea": "Es adejo e nha"
     },
     "category": "Nom"
   },
@@ -500,8 +500,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adeus"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "adeus",
+      "kea": "adeus"
     },
     "category": "Expression"
   },
@@ -512,8 +512,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "machado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste machado",
+      "kea": "N gosta di es adja"
     },
     "category": "Nom"
   },
@@ -524,8 +524,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ruído / barulho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ruído?",
+      "kea": "Undi ki adjada sta?"
     },
     "category": "Nom"
   },
@@ -536,8 +536,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alho é meu",
+      "kea": "Es adju e nha"
     },
     "category": "Nom"
   },
@@ -548,8 +548,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "administrador"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este administrador é meu",
+      "kea": "Es administrador e nha"
     },
     "category": "Nom"
   },
@@ -560,8 +560,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "administração"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O administração é bonito",
+      "kea": "Administrason e bunitu"
     },
     "category": "Nom"
   },
@@ -572,8 +572,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "admiração"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este admiração é meu",
+      "kea": "Es admirason e nha"
     },
     "category": "Nom"
   },
@@ -584,8 +584,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adorar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos adorar agora",
+      "kea": "Nu ten ki adora agora"
     },
     "category": "Verbe"
   },
@@ -596,8 +596,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adormecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos adormecer agora",
+      "kea": "Nu ten ki adormese agora"
     },
     "category": "Verbe"
   },
@@ -608,8 +608,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "educar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos educar agora",
+      "kea": "Nu ten ki aduka agora"
     },
     "category": "Verbe"
   },
@@ -620,8 +620,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adulto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O adulto é bonito",
+      "kea": "Adultu e bunitu"
     },
     "category": "Nom"
   },
@@ -632,8 +632,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adversário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um adversário",
+      "kea": "N ten un adversariu"
     },
     "category": "Nom"
   },
@@ -644,8 +644,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adverso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito adverso",
+      "kea": "El e muitu adviersu"
     },
     "category": "Adjectif"
   },
@@ -656,8 +656,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adivinhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos adivinhar agora",
+      "kea": "Nu ten ki adivinha agora"
     },
     "category": "Verbe"
   },
@@ -668,8 +668,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "advogado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O advogado é bonito",
+      "kea": "Adivogadu e bunitu"
     },
     "category": "Nom"
   },
@@ -680,8 +680,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aeroporto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aeroporto",
+      "kea": "N ten un aeroportu"
     },
     "category": "Nom"
   },
@@ -692,8 +692,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "afeto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um afeto",
+      "kea": "N ten un afetu"
     },
     "category": "Nom"
   },
@@ -704,8 +704,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "afinal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não afinal",
+      "kea": "Ka afinal"
     },
     "category": "Adverbe"
   },
@@ -716,8 +716,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "afirmar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos afirmar agora",
+      "kea": "Nu ten ki afirma agora"
     },
     "category": "Verbe"
   },
@@ -728,8 +728,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "afirmação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este afirmação é meu",
+      "kea": "Es afirmason e nha"
     },
     "category": "Nom"
   },
@@ -740,8 +740,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aflição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aflição",
+      "kea": "N ten un aflijon"
     },
     "category": "Nom"
   },
@@ -752,8 +752,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aflito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito aflito",
+      "kea": "El e muitu aflitu"
     },
     "category": "Adjectif"
   },
@@ -764,8 +764,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "afogar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos afogar agora",
+      "kea": "Nu ten ki afoga agora"
     },
     "category": "Verbe"
   },
@@ -776,8 +776,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "África"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O África é bonito",
+      "kea": "Afrika e bunitu"
     },
     "category": "Nom"
   },
@@ -788,8 +788,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "africano / Africano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é africano",
+      "kea": "Kes koiza e afrikanu"
     },
     "category": "Adjectif"
   },
@@ -800,8 +800,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "água"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste água",
+      "kea": "N gosta di es aga"
     },
     "category": "Nom"
   },
@@ -812,8 +812,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agarrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de agarrar",
+      "kea": "El ta gosta di agarra"
     },
     "category": "Verbe"
   },
@@ -836,8 +836,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agora / então"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou agora",
+      "kea": "N ta bai ago"
     },
     "category": "Adverbe"
   },
@@ -872,8 +872,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anteontem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou anteontem",
+      "kea": "N ta bai agosturdia"
     },
     "category": "Adverbe"
   },
@@ -908,8 +908,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agradecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de agradecer",
+      "kea": "El ta gosta di agradesi"
     },
     "category": "Verbe"
   },
@@ -932,8 +932,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agricultor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um agricultor",
+      "kea": "N ten un agrikultor"
     },
     "category": "Nom"
   },
@@ -944,8 +944,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agricultura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um agricultura",
+      "kea": "N ten un agrikultura"
     },
     "category": "Nom"
   },
@@ -968,8 +968,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "água benta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O água benta é bonito",
+      "kea": "Agu-benta e bunitu"
     },
     "category": "Nom"
   },
@@ -980,8 +980,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aguardente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aguardente?",
+      "kea": "Undi ki aguardenti sta?"
     },
     "category": "Nom"
   },
@@ -992,8 +992,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aguentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou aguentar",
+      "kea": "N ta aguenta"
     },
     "category": "Verbe"
   },
@@ -1004,8 +1004,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ai (dor/surpresa)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "ai (dor/surpresa)",
+      "kea": "aia"
     },
     "category": "Expression"
   },
@@ -1016,8 +1016,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala sim",
+      "kea": "El ta fala aian"
     },
     "category": "Adverbe"
   },
@@ -1028,8 +1028,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aipim / mandioca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aipim é meu",
+      "kea": "Es aipu e nha"
     },
     "category": "Nom"
   },
@@ -1040,8 +1040,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "a jato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa a jato",
+      "kea": "Un pesoa ajatu"
     },
     "category": "Adjectif"
   },
@@ -1052,8 +1052,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agenda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste agenda",
+      "kea": "N gosta di es ajenda"
     },
     "category": "Nom"
   },
@@ -1064,8 +1064,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este agência é meu",
+      "kea": "Es ajensia e nha"
     },
     "category": "Nom"
   },
@@ -1076,8 +1076,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o agente?",
+      "kea": "Undi ki ajenti sta?"
     },
     "category": "Nom"
   },
@@ -1088,8 +1088,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "agitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero agitar",
+      "kea": "N ka kre ajita"
     },
     "category": "Verbe"
   },
@@ -1100,8 +1100,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ajudar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou ajudar",
+      "kea": "N ta ajuda"
     },
     "category": "Verbe"
   },
@@ -1112,8 +1112,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ajudante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ajudante é bonito",
+      "kea": "Ajudanti e bunitu"
     },
     "category": "Nom"
   },
@@ -1124,8 +1124,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ajuntar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou ajuntar",
+      "kea": "N ta ajunta"
     },
     "category": "Verbe"
   },
@@ -1136,8 +1136,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acabado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que acabado!",
+      "kea": "Ki akabadu!"
     },
     "category": "Adjectif"
   },
@@ -1148,8 +1148,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "academia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste academia",
+      "kea": "N gosta di es akademia"
     },
     "category": "Nom"
   },
@@ -1160,8 +1160,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acaso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este acaso é meu",
+      "kea": "Es akasu e nha"
     },
     "category": "Nom"
   },
@@ -1172,8 +1172,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alcatrão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o alcatrão?",
+      "kea": "Undi ki akatron sta?"
     },
     "category": "Nom"
   },
@@ -1184,8 +1184,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acaso / acidente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o acaso?",
+      "kea": "Undi ki akazu sta?"
     },
     "category": "Nom"
   },
@@ -1196,8 +1196,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aquele"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aquele",
+      "kea": "N gosta di es akel"
     },
     "category": "Démonstratif"
   },
@@ -1208,8 +1208,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aquecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos aquecer agora",
+      "kea": "Nu ten ki akesi agora"
     },
     "category": "Verbe"
   },
@@ -1220,8 +1220,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aqui"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Aqui está bem",
+      "kea": "Aki sta ben"
     },
     "category": "Adverbe"
   },
@@ -1232,8 +1232,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aquisição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aquisição é meu",
+      "kea": "Es akizison e nha"
     },
     "category": "Nom"
   },
@@ -1244,8 +1244,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acompanhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou acompanhar",
+      "kea": "N ta akompanka"
     },
     "category": "Verbe"
   },
@@ -1256,8 +1256,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aconselhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de aconselhar",
+      "kea": "El ta gosta di akonselha"
     },
     "category": "Verbe"
   },
@@ -1268,8 +1268,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acontecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou acontecer",
+      "kea": "N ta akontese"
     },
     "category": "Verbe"
   },
@@ -1280,8 +1280,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acontecimento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o acontecimento?",
+      "kea": "Undi ki akontesimentu sta?"
     },
     "category": "Nom"
   },
@@ -1292,8 +1292,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acordo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um acordo",
+      "kea": "N ten un akordu"
     },
     "category": "Nom"
   },
@@ -1304,8 +1304,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acreditar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou acreditar",
+      "kea": "N ta akredita"
     },
     "category": "Verbe"
   },
@@ -1316,8 +1316,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atividade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste atividade",
+      "kea": "N gosta di es aktividadi"
     },
     "category": "Nom"
   },
@@ -1328,8 +1328,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vai (futuro)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos vai (futuro) agora",
+      "kea": "Nu ten ki al agora"
     },
     "category": "Verbe"
   },
@@ -1340,8 +1340,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lá / ali"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Lá está bem",
+      "kea": "Ala sta ben"
     },
     "category": "Adverbe"
   },
@@ -1352,8 +1352,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alambique"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um alambique",
+      "kea": "N ten un alambiki"
     },
     "category": "Nom"
   },
@@ -1364,8 +1364,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "relâmpago"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste relâmpago",
+      "kea": "N gosta di es alanpra"
     },
     "category": "Nom"
   },
@@ -1376,8 +1376,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alargar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de alargar",
+      "kea": "El ta gosta di alarga"
     },
     "category": "Verbe"
   },
@@ -1388,8 +1388,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alarme"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o alarme?",
+      "kea": "Undi ki alarmi sta?"
     },
     "category": "Nom"
   },
@@ -1400,8 +1400,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "descorado / pálido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa descorado",
+      "kea": "Un pesoa albaiadu"
     },
     "category": "Adjectif"
   },
@@ -1412,8 +1412,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "albarda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o albarda?",
+      "kea": "Undi ki albarda sta?"
     },
     "category": "Nom"
   },
@@ -1424,8 +1424,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alparca / sandália"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um alparca",
+      "kea": "N ten un alberka"
     },
     "category": "Nom"
   },
@@ -1436,8 +1436,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "às vezes"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou às vezes",
+      "kea": "N ta bai albes"
     },
     "category": "Adverbe"
   },
@@ -1448,8 +1448,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "algibeira / bolso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um algibeira",
+      "kea": "N ten un albigera"
     },
     "category": "Nom"
   },
@@ -1460,8 +1460,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alvíssaras / boas notícias"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste alvíssaras",
+      "kea": "N gosta di es albisa"
     },
     "category": "Nom"
   },
@@ -1472,8 +1472,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alvorada / barulho distante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste alvorada",
+      "kea": "N gosta di es alborada"
     },
     "category": "Nom"
   },
@@ -1484,8 +1484,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alvo / branco / pálido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é alvo",
+      "kea": "Ka e albu"
     },
     "category": "Adjectif"
   },
@@ -1496,8 +1496,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aldeia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aldeia é meu",
+      "kea": "Es aldeia e nha"
     },
     "category": "Nom"
   },
@@ -1508,8 +1508,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alegria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o alegria?",
+      "kea": "Undi ki alegria sta?"
     },
     "category": "Nom"
   },
@@ -1520,8 +1520,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alegre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa alegre",
+      "kea": "Un pesoa alegri"
     },
     "category": "Adjectif"
   },
@@ -1532,8 +1532,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Alemanha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o Alemanha?",
+      "kea": "Undi ki alemanha sta?"
     },
     "category": "Nom"
   },
@@ -1544,8 +1544,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alemão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que alemão!",
+      "kea": "Ki alemon!"
     },
     "category": "Adjectif"
   },
@@ -1556,8 +1556,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alentar / sobreviver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero alentar",
+      "kea": "N ka kre alenta"
     },
     "category": "Verbe"
   },
@@ -1568,8 +1568,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Alentejo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O Alentejo é bonito",
+      "kea": "Alenteju e bunitu"
     },
     "category": "Nom"
   },
@@ -1580,8 +1580,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alerta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é alerta",
+      "kea": "Kes koiza e alerta"
     },
     "category": "Adjectif"
   },
@@ -1592,8 +1592,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alfabetização"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o alfabetização?",
+      "kea": "Undi ki alfabetizason sta?"
     },
     "category": "Nom"
   },
@@ -1604,8 +1604,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alfabeto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste alfabeto",
+      "kea": "N gosta di es alfabetu"
     },
     "category": "Nom"
   },
@@ -1616,8 +1616,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alfaiate"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o alfaiate?",
+      "kea": "Undi ki alfaiati sta?"
     },
     "category": "Nom"
   },
@@ -1628,8 +1628,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alfândega"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O alfândega é bonito",
+      "kea": "Alfandiga e bunitu"
     },
     "category": "Nom"
   },
@@ -1640,8 +1640,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alface"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um alface",
+      "kea": "N ten un alfasi"
     },
     "category": "Nom"
   },
@@ -1652,8 +1652,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alfinete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O alfinete é bonito",
+      "kea": "Alfineti e bunitu"
     },
     "category": "Nom"
   },
@@ -1664,8 +1664,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pus / gonorreia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pus é meu",
+      "kea": "Es algaris e nha"
     },
     "category": "Nom"
   },
@@ -1676,8 +1676,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alguém"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "É alguém",
+      "kea": "E algen"
     },
     "category": "Pronom"
   },
@@ -1688,8 +1688,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "algodão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o algodão?",
+      "kea": "Undi ki algodon sta?"
     },
     "category": "Nom"
   },
@@ -1700,8 +1700,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "algum"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que algum!",
+      "kea": "Ki algum!"
     },
     "category": "Adjectif"
   },
@@ -1712,8 +1712,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aqui"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala aqui",
+      "kea": "El ta fala ali"
     },
     "category": "Adverbe"
   },
@@ -1724,8 +1724,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aliás"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Aliás está bem",
+      "kea": "Alias sta ben"
     },
     "category": "Adverbe"
   },
@@ -1736,8 +1736,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alegórico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa alegórico",
+      "kea": "Un pesoa aligoriku"
     },
     "category": "Adjectif"
   },
@@ -1748,8 +1748,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alimentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou alimentar",
+      "kea": "N ta alimenta"
     },
     "category": "Verbe"
   },
@@ -1760,8 +1760,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alimento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste alimento",
+      "kea": "N gosta di es alimentu"
     },
     "category": "Nom"
   },
@@ -1772,8 +1772,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alinhar / parágrafo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou alinhar",
+      "kea": "N ta alinia"
     },
     "category": "Verbe"
   },
@@ -1784,8 +1784,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alicerce"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um alicerce",
+      "kea": "N ten un alisersa"
     },
     "category": "Nom"
   },
@@ -1796,8 +1796,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alívio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alívio é meu",
+      "kea": "Es aliviu e nha"
     },
     "category": "Nom"
   },
@@ -1808,8 +1808,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "algema"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um algema",
+      "kea": "N ten un aljema"
     },
     "category": "Nom"
   },
@@ -1820,8 +1820,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alcançar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou alcançar",
+      "kea": "N ta alkansa"
     },
     "category": "Verbe"
   },
@@ -1832,8 +1832,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alcatifa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O alcatifa é bonito",
+      "kea": "Alkatifa e bunitu"
     },
     "category": "Nom"
   },
@@ -1844,8 +1844,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "álcool"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o álcool?",
+      "kea": "Undi ki alkool sta?"
     },
     "category": "Nom"
   },
@@ -1856,8 +1856,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alma é meu",
+      "kea": "Es alma e nha"
     },
     "category": "Nom"
   },
@@ -1868,8 +1868,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "de maneira alguma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "De maneira alguma está bem",
+      "kea": "Almanera sta ben"
     },
     "category": "Adverbe"
   },
@@ -1880,8 +1880,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armazém"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste armazém",
+      "kea": "N gosta di es almazén"
     },
     "category": "Nom"
   },
@@ -1892,8 +1892,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "almirante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um almirante",
+      "kea": "N ten un almirante"
     },
     "category": "Nom"
   },
@@ -1904,8 +1904,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "almofada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o almofada?",
+      "kea": "Undi ki almufada sta?"
     },
     "category": "Nom"
   },
@@ -1916,8 +1916,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "almoçar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos almoçar juntos",
+      "kea": "Nu bai almusa djuntu"
     },
     "category": "Verbe"
   },
@@ -1928,8 +1928,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "almoço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um almoço",
+      "kea": "N ten un almusu"
     },
     "category": "Nom"
   },
@@ -1940,8 +1940,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lá / ali (S.Nic)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala lá",
+      "kea": "El ta fala aloa"
     },
     "category": "Adverbe"
   },
@@ -1952,8 +1952,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alojar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou alojar",
+      "kea": "N ta aloja"
     },
     "category": "Verbe"
   },
@@ -1964,8 +1964,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alçada / competência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alçada é meu",
+      "kea": "Es alsada e nha"
     },
     "category": "Nom"
   },
@@ -1976,8 +1976,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alçapão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste alçapão",
+      "kea": "N gosta di es alsapon"
     },
     "category": "Nom"
   },
@@ -1988,8 +1988,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alteração"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alteração é meu",
+      "kea": "Es alterason e nha"
     },
     "category": "Nom"
   },
@@ -2000,8 +2000,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "altura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um altura",
+      "kea": "N ten un altor"
     },
     "category": "Nom"
   },
@@ -2012,8 +2012,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa alto",
+      "kea": "Un pesoa altu"
     },
     "category": "Adjectif"
   },
@@ -2024,8 +2024,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aluado / louco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é aluado",
+      "kea": "Ka e aluadu"
     },
     "category": "Adjectif"
   },
@@ -2036,8 +2036,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aluguer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aluguer",
+      "kea": "N gosta di es aluguer"
     },
     "category": "Nom"
   },
@@ -2048,8 +2048,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aluna"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aluna",
+      "kea": "N gosta di es aluna"
     },
     "category": "Nom"
   },
@@ -2060,8 +2060,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aluno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aluno?",
+      "kea": "Undi ki alunu sta?"
     },
     "category": "Nom"
   },
@@ -2072,8 +2072,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alvorada / nascer do sol"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste alvorada",
+      "kea": "N gosta di es alvora"
     },
     "category": "Nom"
   },
@@ -2084,8 +2084,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "árvore"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o árvore?",
+      "kea": "Undi ki alvri sta?"
     },
     "category": "Nom"
   },
@@ -2096,8 +2096,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lanche da tarde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O lanche da tarde é bonito",
+      "kea": "Alzoni e bunitu"
     },
     "category": "Nom"
   },
@@ -2108,8 +2108,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos amar agora",
+      "kea": "Nu ten ki ama agora"
     },
     "category": "Verbe"
   },
@@ -2120,8 +2120,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amanhã"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça amanhã",
+      "kea": "Faze amanhan"
     },
     "category": "Adverbe"
   },
@@ -2132,8 +2132,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amarelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é amarelo",
+      "kea": "Kes koiza e amarelu"
     },
     "category": "Adjectif"
   },
@@ -2144,8 +2144,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amargo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é amargo",
+      "kea": "Kes koiza e amargu"
     },
     "category": "Adjectif"
   },
@@ -2156,8 +2156,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mais (superlativo)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não mais (superlativo)",
+      "kea": "Ka amas"
     },
     "category": "Adverbe"
   },
@@ -2168,8 +2168,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ameaça / ameaçar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ameaça",
+      "kea": "N gosta di es ameasa"
     },
     "category": "Nom"
   },
@@ -2180,8 +2180,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amém"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "amém",
+      "kea": "amen"
     },
     "category": "Expression"
   },
@@ -2192,8 +2192,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amêndoa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste amêndoa",
+      "kea": "N gosta di es amendua"
     },
     "category": "Nom"
   },
@@ -2204,8 +2204,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "americano / Americano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito americano",
+      "kea": "El e muitu amerikanu"
     },
     "category": "Adjectif"
   },
@@ -2216,8 +2216,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mim / eu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Para mim",
+      "kea": "Pa ami"
     },
     "category": "Pronom"
   },
@@ -2228,8 +2228,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amiga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O amiga é bonito",
+      "kea": "Amiga e bunitu"
     },
     "category": "Nom"
   },
@@ -2240,8 +2240,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O amigo é bonito",
+      "kea": "Amigu e bunitu"
     },
     "category": "Nom"
   },
@@ -2252,8 +2252,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amizade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o amizade?",
+      "kea": "Undi ki amizadi sta?"
     },
     "category": "Nom"
   },
@@ -2264,8 +2264,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "à moda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça à moda",
+      "kea": "Faze amoda"
     },
     "category": "Adverbe"
   },
@@ -2276,8 +2276,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um amor",
+      "kea": "N ten un amor"
     },
     "category": "Nom"
   },
@@ -2288,8 +2288,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este amora é meu",
+      "kea": "Es amora e nha"
     },
     "category": "Nom"
   },
@@ -2300,8 +2300,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amostra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O amostra é bonito",
+      "kea": "Amostra e bunitu"
     },
     "category": "Nom"
   },
@@ -2312,8 +2312,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "analisar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos analisar agora",
+      "kea": "Nu ten ki analiza agora"
     },
     "category": "Verbe"
   },
@@ -2324,8 +2324,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "analogia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste analogia",
+      "kea": "N gosta di es analogia"
     },
     "category": "Nom"
   },
@@ -2336,8 +2336,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "analógico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é analógico",
+      "kea": "Ka e analojiku"
     },
     "category": "Adjectif"
   },
@@ -2348,8 +2348,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste anão",
+      "kea": "N gosta di es anan"
     },
     "category": "Nom"
   },
@@ -2360,8 +2360,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ananás"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ananás",
+      "kea": "N gosta di es ananas"
     },
     "category": "Nom"
   },
@@ -2372,8 +2372,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ambiente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ambiente?",
+      "kea": "Undi ki anbienti sta?"
     },
     "category": "Nom"
   },
@@ -2384,8 +2384,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ambição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ambição?",
+      "kea": "Undi ki anbision sta?"
     },
     "category": "Nom"
   },
@@ -2396,8 +2396,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ambicioso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa ambicioso",
+      "kea": "Un pesoa anbisiozu"
     },
     "category": "Adjectif"
   },
@@ -2408,8 +2408,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "âmbito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este âmbito é meu",
+      "kea": "Es anbitu e nha"
     },
     "category": "Nom"
   },
@@ -2420,8 +2420,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrolho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O abrolho é bonito",
+      "kea": "Anbrodju e bunitu"
     },
     "category": "Nom"
   },
@@ -2444,8 +2444,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "andar (piso)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste andar (piso)",
+      "kea": "N gosta di es andar"
     },
     "category": "Nom"
   },
@@ -2456,8 +2456,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "andarilho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um andarilho",
+      "kea": "N ten un andeju"
     },
     "category": "Nom"
   },
@@ -2468,8 +2468,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "andorinha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste andorinha",
+      "kea": "N gosta di es andorinha"
     },
     "category": "Nom"
   },
@@ -2480,8 +2480,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anedota"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um anedota",
+      "kea": "N ten un anedota"
     },
     "category": "Nom"
   },
@@ -2492,8 +2492,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anel"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um anel",
+      "kea": "N ten un anel"
     },
     "category": "Nom"
   },
@@ -2504,8 +2504,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anelar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste anelar",
+      "kea": "N gosta di es anelar"
     },
     "category": "Nom"
   },
@@ -2516,8 +2516,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Angola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O Angola é bonito",
+      "kea": "Angola e bunitu"
     },
     "category": "Nom"
   },
@@ -2528,8 +2528,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "angústia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O angústia é bonito",
+      "kea": "Angustia e bunitu"
     },
     "category": "Nom"
   },
@@ -2540,8 +2540,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aniversário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aniversário?",
+      "kea": "Undi ki aniversariu sta?"
     },
     "category": "Nom"
   },
@@ -2552,8 +2552,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anjo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O anjo é bonito",
+      "kea": "Anju e bunitu"
     },
     "category": "Nom"
   },
@@ -2564,8 +2564,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "âncora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O âncora é bonito",
+      "kea": "Ankora e bunitu"
     },
     "category": "Nom"
   },
@@ -2576,8 +2576,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anunciar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos anunciar juntos",
+      "kea": "Nu bai anonsia djuntu"
     },
     "category": "Verbe"
   },
@@ -2588,8 +2588,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nós"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Nós estou bem",
+      "kea": "Anos sta ben"
     },
     "category": "Pronom"
   },
@@ -2600,8 +2600,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "antena"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um antena",
+      "kea": "N ten un antena"
     },
     "category": "Nom"
   },
@@ -2612,8 +2612,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "antes"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Antes está bem",
+      "kea": "Antes sta ben"
     },
     "category": "Adverbe"
   },
@@ -2624,8 +2624,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ante / contra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ante?",
+      "kea": "Undi ki anti sta?"
     },
     "category": "Préfixe"
   },
@@ -2636,8 +2636,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "antigamente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não antigamente",
+      "kea": "Ka antigamenti"
     },
     "category": "Adverbe"
   },
@@ -2648,8 +2648,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "antigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que antigo!",
+      "kea": "Ki antigu!"
     },
     "category": "Adjectif"
   },
@@ -2660,8 +2660,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "antipatia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este antipatia é meu",
+      "kea": "Es antipatia e nha"
     },
     "category": "Nom"
   },
@@ -2672,8 +2672,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "antipático"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que antipático!",
+      "kea": "Ki antipatiku!"
     },
     "category": "Adjectif"
   },
@@ -2684,8 +2684,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ano",
+      "kea": "N ten un anu"
     },
     "category": "Nom"
   },
@@ -2696,8 +2696,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anular"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero anular",
+      "kea": "N ka kre anular"
     },
     "category": "Verbe"
   },
@@ -2708,8 +2708,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anúncio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste anúncio",
+      "kea": "N gosta di es anunsiu"
     },
     "category": "Nom"
   },
@@ -2720,8 +2720,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anzol"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um anzol",
+      "kea": "N ten un anzol"
     },
     "category": "Nom"
   },
@@ -2732,8 +2732,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hoje"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou hoje",
+      "kea": "N ta bai aoji"
     },
     "category": "Adverbe"
   },
@@ -2744,8 +2744,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ontem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala ontem",
+      "kea": "El ta fala aonti"
     },
     "category": "Adverbe"
   },
@@ -2756,8 +2756,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apagar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero apagar",
+      "kea": "N ka kre apaga"
     },
     "category": "Verbe"
   },
@@ -2768,8 +2768,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apagador"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um apagador",
+      "kea": "N ten un apagador"
     },
     "category": "Nom"
   },
@@ -2780,8 +2780,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aparelhagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aparelhagem",
+      "kea": "N gosta di es apareliaji"
     },
     "category": "Nom"
   },
@@ -2792,8 +2792,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aparelho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aparelho é bonito",
+      "kea": "Aparelhu e bunitu"
     },
     "category": "Nom"
   },
@@ -2804,8 +2804,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aparência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aparência",
+      "kea": "N ten un apariensia"
     },
     "category": "Nom"
   },
@@ -2816,8 +2816,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apartar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero apartar",
+      "kea": "N ka kre aparta"
     },
     "category": "Verbe"
   },
@@ -2828,8 +2828,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apesar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Apesar aqui",
+      "kea": "Apezar li"
     },
     "category": "Préposition"
   },
@@ -2840,8 +2840,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aplicar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero aplicar",
+      "kea": "N ka kre aplika"
     },
     "category": "Verbe"
   },
@@ -2852,8 +2852,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apoiar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos apoiar agora",
+      "kea": "Nu ten ki apoia agora"
     },
     "category": "Verbe"
   },
@@ -2864,8 +2864,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apoio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste apoio",
+      "kea": "N gosta di es apoiu"
     },
     "category": "Nom"
   },
@@ -2876,8 +2876,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apontar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero apontar",
+      "kea": "N ka kre aponta"
     },
     "category": "Verbe"
   },
@@ -2888,8 +2888,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aposentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero aposentar",
+      "kea": "N ka kre apozenta"
     },
     "category": "Verbe"
   },
@@ -2900,8 +2900,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aposentado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aposentado?",
+      "kea": "Undi ki apozentadu sta?"
     },
     "category": "Nom"
   },
@@ -2912,8 +2912,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aprender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou aprender",
+      "kea": "N ta aprende"
     },
     "category": "Verbe"
   },
@@ -2924,8 +2924,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aprendizagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aprendizagem",
+      "kea": "N gosta di es aprendizagem"
     },
     "category": "Nom"
   },
@@ -2936,8 +2936,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apresentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou apresentar",
+      "kea": "N ta apresenta"
     },
     "category": "Verbe"
   },
@@ -2948,8 +2948,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apreciar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de apreciar",
+      "kea": "El ta gosta di apresia"
     },
     "category": "Verbe"
   },
@@ -2960,8 +2960,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aprovar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou aprovar",
+      "kea": "N ta aprova"
     },
     "category": "Verbe"
   },
@@ -2972,8 +2972,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aproveitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero aproveitar",
+      "kea": "N ka kre aproveta"
     },
     "category": "Verbe"
   },
@@ -2984,8 +2984,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aproximação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aproximação",
+      "kea": "N ten un aproximason"
     },
     "category": "Nom"
   },
@@ -2996,8 +2996,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aptidão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aptidão é bonito",
+      "kea": "Aptidon e bunitu"
     },
     "category": "Nom"
   },
@@ -3008,8 +3008,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ar",
+      "kea": "N ten un ar"
     },
     "category": "Nom"
   },
@@ -3020,8 +3020,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero arar",
+      "kea": "N ka kre ara"
     },
     "category": "Verbe"
   },
@@ -3032,8 +3032,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "árabe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito árabe",
+      "kea": "El e muitu arabi"
     },
     "category": "Adjectif"
   },
@@ -3044,8 +3044,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vaca estéril"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vaca estéril é meu",
+      "kea": "Es arada e nha"
     },
     "category": "Nom"
   },
@@ -3056,8 +3056,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aragem / brisa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aragem",
+      "kea": "N ten un araji"
     },
     "category": "Nom"
   },
@@ -3068,8 +3068,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arame"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste arame",
+      "kea": "N gosta di es arame"
     },
     "category": "Nom"
   },
@@ -3080,8 +3080,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aranha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aranha",
+      "kea": "N gosta di es aranha"
     },
     "category": "Nom"
   },
@@ -3092,8 +3092,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "erva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o erva?",
+      "kea": "Undi ki arbenku sta?"
     },
     "category": "Nom"
   },
@@ -3104,8 +3104,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos abrir juntos",
+      "kea": "Nu bai arbi djuntu"
     },
     "category": "Verbe"
   },
@@ -3116,8 +3116,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arbitrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou arbitrar",
+      "kea": "N ta arbitra"
     },
     "category": "Verbe"
   },
@@ -3128,8 +3128,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "árbitro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este árbitro é meu",
+      "kea": "Es arbitru e nha"
     },
     "category": "Nom"
   },
@@ -3140,8 +3140,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arbusto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um arbusto",
+      "kea": "N ten un arbusto"
     },
     "category": "Nom"
   },
@@ -3152,8 +3152,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou arder",
+      "kea": "N ta arde"
     },
     "category": "Verbe"
   },
@@ -3164,8 +3164,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "areia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o areia?",
+      "kea": "Undi ki areia sta?"
     },
     "category": "Nom"
   },
@@ -3176,8 +3176,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aresta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aresta?",
+      "kea": "Undi ki aresta sta?"
     },
     "category": "Nom"
   },
@@ -3188,8 +3188,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "terraço / murete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O terraço é bonito",
+      "kea": "Areta e bunitu"
     },
     "category": "Nom"
   },
@@ -3200,8 +3200,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alga é meu",
+      "kea": "Es arga e nha"
     },
     "category": "Nom"
   },
@@ -3212,8 +3212,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "argola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o argola?",
+      "kea": "Undi ki argola sta?"
     },
     "category": "Nom"
   },
@@ -3224,8 +3224,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "argumento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um argumento",
+      "kea": "N ten un argumentu"
     },
     "category": "Nom"
   },
@@ -3236,8 +3236,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "área / areia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O área é bonito",
+      "kea": "Aria e bunitu"
     },
     "category": "Nom"
   },
@@ -3248,8 +3248,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o arco?",
+      "kea": "Undi ki aris sta?"
     },
     "category": "Nom"
   },
@@ -3260,8 +3260,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este arca é meu",
+      "kea": "Es arka e nha"
     },
     "category": "Nom"
   },
@@ -3272,8 +3272,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arquiteto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um arquiteto",
+      "kea": "N ten un arkitetu"
     },
     "category": "Nom"
   },
@@ -3284,8 +3284,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arquitetura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste arquitetura",
+      "kea": "N gosta di es arkitetura"
     },
     "category": "Nom"
   },
@@ -3296,8 +3296,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este arco é meu",
+      "kea": "Es arku e nha"
     },
     "category": "Nom"
   },
@@ -3308,8 +3308,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arqueado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito arqueado",
+      "kea": "El e muitu arkuadu"
     },
     "category": "Adjectif"
   },
@@ -3320,8 +3320,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arco-íris"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um arco-íris",
+      "kea": "N ten un arkuiris"
     },
     "category": "Nom"
   },
@@ -3332,8 +3332,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este arma é meu",
+      "kea": "Es arma e nha"
     },
     "category": "Nom"
   },
@@ -3344,8 +3344,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é armado",
+      "kea": "Kes koiza e armadu"
     },
     "category": "Adjectif"
   },
@@ -3356,8 +3356,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste armário",
+      "kea": "N gosta di es armariu"
     },
     "category": "Nom"
   },
@@ -3368,8 +3368,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este armação é meu",
+      "kea": "Es armason e nha"
     },
     "category": "Nom"
   },
@@ -3380,8 +3380,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armazenar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos armazenar agora",
+      "kea": "Nu ten ki armazena agora"
     },
     "category": "Verbe"
   },
@@ -3392,8 +3392,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "irmão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o irmão?",
+      "kea": "Undi ki armon sta?"
     },
     "category": "Nom"
   },
@@ -3404,8 +3404,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "harmonia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este harmonia é meu",
+      "kea": "Es armonia e nha"
     },
     "category": "Nom"
   },
@@ -3416,8 +3416,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "irmão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um irmão",
+      "kea": "N ten un armum"
     },
     "category": "Nom"
   },
@@ -3428,8 +3428,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arnês"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o arnês?",
+      "kea": "Undi ki arnes sta?"
     },
     "category": "Nom"
   },
@@ -3440,8 +3440,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arrogante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa arrogante",
+      "kea": "Un pesoa arroganti"
     },
     "category": "Adjectif"
   },
@@ -3452,8 +3452,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arroz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este arroz é meu",
+      "kea": "Es arros e nha"
     },
     "category": "Nom"
   },
@@ -3464,8 +3464,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arruinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero arruinar",
+      "kea": "N ka kre arruina"
     },
     "category": "Verbe"
   },
@@ -3476,8 +3476,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O arte é bonito",
+      "kea": "Arti e bunitu"
     },
     "category": "Nom"
   },
@@ -3488,8 +3488,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "artigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um artigo",
+      "kea": "N ten un artigu"
     },
     "category": "Nom"
   },
@@ -3500,8 +3500,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "artista"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um artista",
+      "kea": "N ten un artista"
     },
     "category": "Nom"
   },
@@ -3512,8 +3512,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "árvore"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste árvore",
+      "kea": "N gosta di es arvori"
     },
     "category": "Nom"
   },
@@ -3524,8 +3524,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "árvore"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um árvore",
+      "kea": "N ten un arvuri"
     },
     "category": "Nom"
   },
@@ -3536,8 +3536,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ás (carta)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ás (carta) é bonito",
+      "kea": "As e bunitu"
     },
     "category": "Nom"
   },
@@ -3548,8 +3548,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asa / assar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o asa?",
+      "kea": "Undi ki asa sta?"
     },
     "category": "Nom"
   },
@@ -3560,8 +3560,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que assado!",
+      "kea": "Ki asadu!"
     },
     "category": "Adjectif"
   },
@@ -3572,8 +3572,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos acender agora",
+      "kea": "Nu ten ki asede agora"
     },
     "category": "Verbe"
   },
@@ -3584,8 +3584,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos acender juntos",
+      "kea": "Nu bai asender djuntu"
     },
     "category": "Verbe"
   },
@@ -3596,8 +3596,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acento / assento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O acento é bonito",
+      "kea": "Asentu e bunitu"
     },
     "category": "Nom"
   },
@@ -3608,8 +3608,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acertar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos acertar juntos",
+      "kea": "Nu bai aserta djuntu"
     },
     "category": "Verbe"
   },
@@ -3620,8 +3620,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acesso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O acesso é bonito",
+      "kea": "Asesu e bunitu"
     },
     "category": "Nom"
   },
@@ -3632,8 +3632,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aceitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos aceitar agora",
+      "kea": "Nu ten ki aseta agora"
     },
     "category": "Verbe"
   },
@@ -3644,8 +3644,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça assim",
+      "kea": "Faze asi"
     },
     "category": "Adverbe"
   },
@@ -3656,8 +3656,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acidente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste acidente",
+      "kea": "N gosta di es asidenti"
     },
     "category": "Nom"
   },
@@ -3668,8 +3668,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acima"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala acima",
+      "kea": "El ta fala asima"
     },
     "category": "Adverbe"
   },
@@ -3680,8 +3680,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de assinar",
+      "kea": "El ta gosta di asina"
     },
     "category": "Verbe"
   },
@@ -3692,8 +3692,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assistência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o assistência?",
+      "kea": "Undi ki asistensia sta?"
     },
     "category": "Nom"
   },
@@ -3704,8 +3704,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assistir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos assistir agora",
+      "kea": "Nu ten ki asisti agora"
     },
     "category": "Verbe"
   },
@@ -3716,8 +3716,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asqueroso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito asqueroso",
+      "kea": "El e muitu askendu"
     },
     "category": "Adjectif"
   },
@@ -3728,8 +3728,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste asma",
+      "kea": "N gosta di es asma"
     },
     "category": "Nom"
   },
@@ -3740,8 +3740,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asneira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um asneira",
+      "kea": "N ten un asneira"
     },
     "category": "Nom"
   },
@@ -3752,8 +3752,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um asno",
+      "kea": "N ten un asnu"
     },
     "category": "Nom"
   },
@@ -3764,8 +3764,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "associar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos associar juntos",
+      "kea": "Nu bai asosia djuntu"
     },
     "category": "Verbe"
   },
@@ -3776,8 +3776,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aspecto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aspecto é meu",
+      "kea": "Es aspetu e nha"
     },
     "category": "Nom"
   },
@@ -3788,8 +3788,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aspirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero aspirar",
+      "kea": "N ka kre aspira"
     },
     "category": "Verbe"
   },
@@ -3800,8 +3800,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aspirina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aspirina",
+      "kea": "N ten un aspirina"
     },
     "category": "Nom"
   },
@@ -3812,8 +3812,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "áspero"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito áspero",
+      "kea": "El e muitu aspri"
     },
     "category": "Adjectif"
   },
@@ -3824,8 +3824,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aspereza"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aspereza é meu",
+      "kea": "Es asprisu e nha"
     },
     "category": "Nom"
   },
@@ -3836,8 +3836,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "haste / bengala"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O haste é bonito",
+      "kea": "Astia e bunitu"
     },
     "category": "Nom"
   },
@@ -3848,8 +3848,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "astro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um astro",
+      "kea": "N ten un astru"
     },
     "category": "Nom"
   },
@@ -3860,8 +3860,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aço?",
+      "kea": "Undi ki asu sta?"
     },
     "category": "Nom"
   },
@@ -3872,8 +3872,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assobiar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos assobiar juntos",
+      "kea": "Nu bai asubia djuntu"
     },
     "category": "Verbe"
   },
@@ -3884,8 +3884,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "açúcar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o açúcar?",
+      "kea": "Undi ki asukra sta?"
     },
     "category": "Nom"
   },
@@ -3896,8 +3896,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rebuçado / docinho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um rebuçado",
+      "kea": "N ten un asukrinha"
     },
     "category": "Nom"
   },
@@ -3908,8 +3908,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assumir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou assumir",
+      "kea": "N ta asumi"
     },
     "category": "Verbe"
   },
@@ -3920,8 +3920,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assunto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O assunto é bonito",
+      "kea": "Asuntu e bunitu"
     },
     "category": "Nom"
   },
@@ -3932,8 +3932,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assustado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é assustado",
+      "kea": "Ka e asustadu"
     },
     "category": "Adjectif"
   },
@@ -3944,8 +3944,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "às vezes"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não às vezes",
+      "kea": "Ka asves"
     },
     "category": "Adverbe"
   },
@@ -3956,8 +3956,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos atar agora",
+      "kea": "Nu ten ki ata agora"
     },
     "category": "Verbe"
   },
@@ -3968,8 +3968,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que atado!",
+      "kea": "Ki atadu!"
     },
     "category": "Adjectif"
   },
@@ -3980,8 +3980,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atacar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero atacar",
+      "kea": "N ka kre ataka"
     },
     "category": "Verbe"
   },
@@ -3992,8 +3992,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "à tarde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça à tarde",
+      "kea": "Faze atardi"
     },
     "category": "Adverbe"
   },
@@ -4004,8 +4004,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "até"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Estou até ti",
+      "kea": "N sta ate bo"
     },
     "category": "Préposition"
   },
@@ -4016,8 +4016,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atenção"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o atenção?",
+      "kea": "Undi ki atenson sta?"
     },
     "category": "Nom"
   },
@@ -4028,8 +4028,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que atento!",
+      "kea": "Ki atentu!"
     },
     "category": "Adjectif"
   },
@@ -4040,8 +4040,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atitude"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O atitude é bonito",
+      "kea": "Atitude e bunitu"
     },
     "category": "Nom"
   },
@@ -4052,8 +4052,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atividade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste atividade",
+      "kea": "N gosta di es atividadi"
     },
     "category": "Nom"
   },
@@ -4064,8 +4064,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ativo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que ativo!",
+      "kea": "Ki ativu!"
     },
     "category": "Adjectif"
   },
@@ -4076,8 +4076,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atleta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este atleta é meu",
+      "kea": "Es atleta e nha"
     },
     "category": "Nom"
   },
@@ -4088,8 +4088,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atmosfera"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este atmosfera é meu",
+      "kea": "Es atmosfera e nha"
     },
     "category": "Nom"
   },
@@ -4100,8 +4100,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ato?",
+      "kea": "Undi ki atu sta?"
     },
     "category": "Nom"
   },
@@ -4112,8 +4112,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atuar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos atuar agora",
+      "kea": "Nu ten ki atua agora"
     },
     "category": "Verbe"
   },
@@ -4124,8 +4124,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atual"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é atual",
+      "kea": "Kes koiza e atual"
     },
     "category": "Adjectif"
   },
@@ -4136,8 +4136,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atum"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste atum",
+      "kea": "N gosta di es atun"
     },
     "category": "Nom"
   },
@@ -4148,8 +4148,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "achar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de achar",
+      "kea": "El ta gosta di atxa"
     },
     "category": "Verbe"
   },
@@ -4160,8 +4160,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ao"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ao é bonito",
+      "kea": "Au e bunitu"
     },
     "category": "Contraction"
   },
@@ -4172,8 +4172,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aula"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aula é meu",
+      "kea": "Es aula e nha"
     },
     "category": "Nom"
   },
@@ -4184,8 +4184,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aumentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou aumentar",
+      "kea": "N ta aumenta"
     },
     "category": "Verbe"
   },
@@ -4196,8 +4196,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aurea"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aurea",
+      "kea": "N ten un aurea"
     },
     "category": "Nom"
   },
@@ -4208,8 +4208,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "autocarro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um autocarro",
+      "kea": "N ten un autocarro"
     },
     "category": "Nom"
   },
@@ -4220,8 +4220,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "automóvel"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o automóvel?",
+      "kea": "Undi ki automovel sta?"
     },
     "category": "Nom"
   },
@@ -4232,8 +4232,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "autor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um autor",
+      "kea": "N ten un autor"
     },
     "category": "Nom"
   },
@@ -4244,8 +4244,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "autoridade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um autoridade",
+      "kea": "N ten un autoridadi"
     },
     "category": "Nom"
   },
@@ -4256,8 +4256,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avançar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou avançar",
+      "kea": "N ta avansa"
     },
     "category": "Verbe"
   },
@@ -4268,8 +4268,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avental"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este avental é meu",
+      "kea": "Es avental e nha"
     },
     "category": "Nom"
   },
@@ -4280,8 +4280,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aventura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aventura é meu",
+      "kea": "Es aventura e nha"
     },
     "category": "Nom"
   },
@@ -4292,8 +4292,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avião"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um avião",
+      "kea": "N ten un aviao"
     },
     "category": "Nom"
   },
@@ -4304,8 +4304,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aviso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aviso é bonito",
+      "kea": "Avizu e bunitu"
     },
     "category": "Nom"
   },
@@ -4316,8 +4316,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avô / avó"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O avô é bonito",
+      "kea": "Avo e bunitu"
     },
     "category": "Nom"
   },
@@ -4328,8 +4328,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "advogado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O advogado é bonito",
+      "kea": "Avogadu e bunitu"
     },
     "category": "Nom"
   },
@@ -4340,8 +4340,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "à volta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "À volta aqui",
+      "kea": "Avolta li"
     },
     "category": "Préposition"
   },
@@ -4352,8 +4352,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "volante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este volante é meu",
+      "kea": "Es avulanti e nha"
     },
     "category": "Nom"
   },
@@ -4364,8 +4364,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "achar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero achar",
+      "kea": "N ka kre axa"
     },
     "category": "Verbe"
   },
@@ -4376,8 +4376,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "xadrez"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O xadrez é bonito",
+      "kea": "Axadrez e bunitu"
     },
     "category": "Nom"
   },
@@ -4388,8 +4388,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "haxixe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste haxixe",
+      "kea": "N gosta di es axix"
     },
     "category": "Nom"
   },
@@ -4400,8 +4400,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o asa?",
+      "kea": "Undi ki aza sta?"
     },
     "category": "Nom"
   },
@@ -4412,8 +4412,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azeite"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este azeite é meu",
+      "kea": "Es azeite e nha"
     },
     "category": "Nom"
   },
@@ -4424,8 +4424,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azeite"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um azeite",
+      "kea": "N ten un azeti"
     },
     "category": "Nom"
   },
@@ -4436,8 +4436,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azeitona"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O azeitona é bonito",
+      "kea": "Azetona e bunitu"
     },
     "category": "Nom"
   },
@@ -4448,8 +4448,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este azia é meu",
+      "kea": "Es azia e nha"
     },
     "category": "Nom"
   },
@@ -4460,8 +4460,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azul"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa azul",
+      "kea": "Un pesoa azul"
     },
     "category": "Adjectif"
   },
@@ -4472,8 +4472,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azulejo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste azulejo",
+      "kea": "N gosta di es azuleju"
     },
     "category": "Nom"
   },
@@ -4484,8 +4484,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero ir",
+      "kea": "N ka kre ba"
     },
     "category": "Verbe"
   },
@@ -4496,8 +4496,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O baba é bonito",
+      "kea": "Baba e bunitu"
     },
     "category": "Nom"
   },
@@ -4508,8 +4508,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "babete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste babete",
+      "kea": "N gosta di es babeti"
     },
     "category": "Nom"
   },
@@ -4520,8 +4520,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "babosa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste babosa",
+      "kea": "N gosta di es babosa"
     },
     "category": "Nom"
   },
@@ -4532,8 +4532,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bacia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bacia?",
+      "kea": "Undi ki bacia sta?"
     },
     "category": "Nom"
   },
@@ -4544,8 +4544,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baía"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o baía?",
+      "kea": "Undi ki badia sta?"
     },
     "category": "Nom"
   },
@@ -4556,8 +4556,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dançar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos dançar agora",
+      "kea": "Nu ten ki badja agora"
     },
     "category": "Verbe"
   },
@@ -4568,8 +4568,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dançarino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste dançarino",
+      "kea": "N gosta di es badjador"
     },
     "category": "Nom"
   },
@@ -4580,8 +4580,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dança é bonito",
+      "kea": "Badju e bunitu"
     },
     "category": "Nom"
   },
@@ -4592,8 +4592,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rapariga / adolescente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste rapariga",
+      "kea": "N gosta di es badjuda"
     },
     "category": "Nom"
   },
@@ -4604,8 +4604,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abafado / nublado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é abafado",
+      "kea": "Ka e bafadu"
     },
     "category": "Adjectif"
   },
@@ -4616,8 +4616,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vento quente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um vento quente",
+      "kea": "N ten un bafata"
     },
     "category": "Nom"
   },
@@ -4628,8 +4628,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aperitivo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aperitivo?",
+      "kea": "Undi ki bafiu sta?"
     },
     "category": "Nom"
   },
@@ -4640,8 +4640,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bafo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bafo é bonito",
+      "kea": "Bafu e bunitu"
     },
     "category": "Nom"
   },
@@ -4652,8 +4652,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bagagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bagagem?",
+      "kea": "Undi ki bagaji sta?"
     },
     "category": "Nom"
   },
@@ -4664,8 +4664,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bago"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bago",
+      "kea": "N gosta di es bagu"
     },
     "category": "Nom"
   },
@@ -4688,8 +4688,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bailar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos bailar agora",
+      "kea": "Nu ten ki baila agora"
     },
     "category": "Verbe"
   },
@@ -4700,8 +4700,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baile"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este baile é meu",
+      "kea": "Es baile e nha"
     },
     "category": "Nom"
   },
@@ -4712,8 +4712,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bainha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bainha",
+      "kea": "N gosta di es bainha"
     },
     "category": "Nom"
   },
@@ -4724,8 +4724,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baixa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste baixa",
+      "kea": "N gosta di es baixa"
     },
     "category": "Nom"
   },
@@ -4736,8 +4736,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "em baixo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Em baixo está bem",
+      "kea": "Bakh sta ben"
     },
     "category": "Adverbe"
   },
@@ -4748,8 +4748,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bacalhau"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bacalhau",
+      "kea": "N ten un bakalhau"
     },
     "category": "Nom"
   },
@@ -4760,8 +4760,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baile"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste baile",
+      "kea": "N gosta di es bal"
     },
     "category": "Nom"
   },
@@ -4772,8 +4772,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bala"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bala",
+      "kea": "N gosta di es bala"
     },
     "category": "Nom"
   },
@@ -4784,8 +4784,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dinamite"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um dinamite",
+      "kea": "N ten un bala-mitra"
     },
     "category": "Nom"
   },
@@ -4796,8 +4796,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balaio / cesto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O balaio é bonito",
+      "kea": "Balai e bunitu"
     },
     "category": "Nom"
   },
@@ -4808,8 +4808,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste balança",
+      "kea": "N gosta di es balansa"
     },
     "category": "Nom"
   },
@@ -4820,8 +4820,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balanço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste balanço",
+      "kea": "N gosta di es balanso"
     },
     "category": "Nom"
   },
@@ -4832,8 +4832,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balançar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero balançar",
+      "kea": "N ka kre balanta"
     },
     "category": "Verbe"
   },
@@ -4844,8 +4844,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero valer",
+      "kea": "N ka kre bale"
     },
     "category": "Verbe"
   },
@@ -4856,8 +4856,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baleia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O baleia é bonito",
+      "kea": "Baleia e bunitu"
     },
     "category": "Nom"
   },
@@ -4868,8 +4868,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é valente",
+      "kea": "Kes koiza e balenti"
     },
     "category": "Adjectif"
   },
@@ -4880,8 +4880,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um balão",
+      "kea": "N ten un balon"
     },
     "category": "Nom"
   },
@@ -4892,8 +4892,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste valor",
+      "kea": "N gosta di es balor"
     },
     "category": "Nom"
   },
@@ -4904,8 +4904,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banana"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o banana?",
+      "kea": "Undi ki bana sta?"
     },
     "category": "Nom"
   },
@@ -4916,8 +4916,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bananeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bananeira",
+      "kea": "N gosta di es bananera"
     },
     "category": "Nom"
   },
@@ -4928,8 +4928,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o banco?",
+      "kea": "Undi ki bancu sta?"
     },
     "category": "Nom"
   },
@@ -4940,8 +4940,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banda / lado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o banda?",
+      "kea": "Undi ki banda sta?"
     },
     "category": "Nom"
   },
@@ -4952,8 +4952,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bandeja"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bandeja",
+      "kea": "N gosta di es bandeja"
     },
     "category": "Nom"
   },
@@ -4964,8 +4964,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bandeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bandeira é bonito",
+      "kea": "Bandera e bunitu"
     },
     "category": "Nom"
   },
@@ -4976,8 +4976,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bandido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bandido",
+      "kea": "N ten un bandidu"
     },
     "category": "Nom"
   },
@@ -4988,8 +4988,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bando"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bando é meu",
+      "kea": "Es bandu e nha"
     },
     "category": "Nom"
   },
@@ -5000,8 +5000,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste banha",
+      "kea": "N gosta di es banha"
     },
     "category": "Nom"
   },
@@ -5012,8 +5012,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banheira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este banheira é meu",
+      "kea": "Es banhera e nha"
     },
     "category": "Nom"
   },
@@ -5024,8 +5024,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O banho é bonito",
+      "kea": "Banhu e bunitu"
     },
     "category": "Nom"
   },
@@ -5036,8 +5036,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bar é bonito",
+      "kea": "Bar e bunitu"
     },
     "category": "Nom"
   },
@@ -5048,8 +5048,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste barra",
+      "kea": "N gosta di es bara"
     },
     "category": "Nom"
   },
@@ -5060,8 +5060,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o barata?",
+      "kea": "Undi ki barata sta?"
     },
     "category": "Nom"
   },
@@ -5072,8 +5072,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que barato!",
+      "kea": "Ki baratu!"
     },
     "category": "Adjectif"
   },
@@ -5084,8 +5084,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o barba?",
+      "kea": "Undi ki barba sta?"
     },
     "category": "Nom"
   },
@@ -5096,8 +5096,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barbárie"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o barbárie?",
+      "kea": "Undi ki barbaridadi sta?"
     },
     "category": "Nom"
   },
@@ -5108,8 +5108,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barbante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um barbante",
+      "kea": "N ten un barbanti"
     },
     "category": "Nom"
   },
@@ -5120,8 +5120,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barbeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o barbeiro?",
+      "kea": "Undi ki barberu sta?"
     },
     "category": "Nom"
   },
@@ -5132,8 +5132,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barbear"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero barbear",
+      "kea": "N ka kre barbiaru"
     },
     "category": "Verbe"
   },
@@ -5144,8 +5144,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este barca é meu",
+      "kea": "Es barka e nha"
     },
     "category": "Nom"
   },
@@ -5156,8 +5156,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um barco",
+      "kea": "N ten un barku"
     },
     "category": "Nom"
   },
@@ -5168,8 +5168,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este barra é meu",
+      "kea": "Es barra e nha"
     },
     "category": "Nom"
   },
@@ -5180,8 +5180,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barragem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste barragem",
+      "kea": "N gosta di es barraga"
     },
     "category": "Nom"
   },
@@ -5192,8 +5192,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "varrer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos varrer agora",
+      "kea": "Nu ten ki barre agora"
     },
     "category": "Verbe"
   },
@@ -5204,8 +5204,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barreira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O barreira é bonito",
+      "kea": "Barrera e bunitu"
     },
     "category": "Nom"
   },
@@ -5216,8 +5216,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barriga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este barriga é meu",
+      "kea": "Es barriga e nha"
     },
     "category": "Nom"
   },
@@ -5228,8 +5228,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barril"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um barril",
+      "kea": "N ten un barril"
     },
     "category": "Nom"
   },
@@ -5240,8 +5240,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "barulho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o barulho?",
+      "kea": "Undi ki baruli sta?"
     },
     "category": "Nom"
   },
@@ -5252,8 +5252,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "basalto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O basalto é bonito",
+      "kea": "Basal e bunitu"
     },
     "category": "Nom"
   },
@@ -5264,8 +5264,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baixar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos baixar juntos",
+      "kea": "Nu bai basar djuntu"
     },
     "category": "Verbe"
   },
@@ -5276,8 +5276,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "base"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O base é bonito",
+      "kea": "Basi e bunitu"
     },
     "category": "Nom"
   },
@@ -5288,8 +5288,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bacia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bacia é meu",
+      "kea": "Es basia e nha"
     },
     "category": "Nom"
   },
@@ -5300,8 +5300,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vacina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vacina é meu",
+      "kea": "Es basina e nha"
     },
     "category": "Nom"
   },
@@ -5312,8 +5312,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "basófio / vaidoso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um basófio",
+      "kea": "N ten un basofe"
     },
     "category": "Nom"
   },
@@ -5324,8 +5324,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bastar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou bastar",
+      "kea": "N ta basta"
     },
     "category": "Verbe"
   },
@@ -5336,8 +5336,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bastante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala bastante",
+      "kea": "El ta fala bastanti"
     },
     "category": "Adverbe"
   },
@@ -5348,8 +5348,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bastão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bastão é meu",
+      "kea": "Es baston e nha"
     },
     "category": "Nom"
   },
@@ -5360,8 +5360,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bata é bonito",
+      "kea": "Bata e bunitu"
     },
     "category": "Nom"
   },
@@ -5372,8 +5372,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batalha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um batalha",
+      "kea": "N ten un batalia"
     },
     "category": "Nom"
   },
@@ -5384,8 +5384,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O batata é bonito",
+      "kea": "Batata e bunitu"
     },
     "category": "Nom"
   },
@@ -5396,8 +5396,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batata-doce"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este batata-doce é meu",
+      "kea": "Es batata-dosi e nha"
     },
     "category": "Nom"
   },
@@ -5408,8 +5408,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bateria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bateria é meu",
+      "kea": "Es bateria e nha"
     },
     "category": "Nom"
   },
@@ -5420,8 +5420,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batimento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o batimento?",
+      "kea": "Undi ki batimentu sta?"
     },
     "category": "Nom"
   },
@@ -5432,8 +5432,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batizado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O batizado é bonito",
+      "kea": "Batizu e bunitu"
     },
     "category": "Nom"
   },
@@ -5444,8 +5444,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batota / trapaça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o batota?",
+      "kea": "Undi ki batota sta?"
     },
     "category": "Nom"
   },
@@ -5456,8 +5456,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "batuque"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o batuque?",
+      "kea": "Undi ki batuku sta?"
     },
     "category": "Nom"
   },
@@ -5468,8 +5468,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baixo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito baixo",
+      "kea": "El e muitu baxu"
     },
     "category": "Adjectif"
   },
@@ -5480,8 +5480,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vazar / despejar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de vazar",
+      "kea": "El ta gosta di baza"
     },
     "category": "Verbe"
   },
@@ -5492,8 +5492,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de ver",
+      "kea": "El ta gosta di be"
     },
     "category": "Verbe"
   },
@@ -5504,8 +5504,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bebé"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bebé é meu",
+      "kea": "Es bebe e nha"
     },
     "category": "Nom"
   },
@@ -5516,8 +5516,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bêbado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa bêbado",
+      "kea": "Un pesoa bebedu"
     },
     "category": "Adjectif"
   },
@@ -5528,8 +5528,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bebedeira / alcoólatra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bebedeira é bonito",
+      "kea": "Bebedera e bunitu"
     },
     "category": "Nom"
   },
@@ -5540,8 +5540,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bebedor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bebedor",
+      "kea": "N gosta di es bebedor"
     },
     "category": "Nom"
   },
@@ -5552,8 +5552,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "beber"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou beber",
+      "kea": "N ta bebi"
     },
     "category": "Verbe"
   },
@@ -5564,8 +5564,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bebida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bebida",
+      "kea": "N ten un bebida"
     },
     "category": "Nom"
   },
@@ -5576,8 +5576,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "velho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito velho",
+      "kea": "El e muitu bedju"
     },
     "category": "Adjectif"
   },
@@ -5588,8 +5588,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de ver",
+      "kea": "El ta gosta di bidi"
     },
     "category": "Verbe"
   },
@@ -5600,8 +5600,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bife"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bife",
+      "kea": "N gosta di es bife"
     },
     "category": "Nom"
   },
@@ -5612,8 +5612,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bico é bonito",
+      "kea": "Bika e bunitu"
     },
     "category": "Nom"
   },
@@ -5624,8 +5624,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bico?",
+      "kea": "Undi ki biku sta?"
     },
     "category": "Nom"
   },
@@ -5636,8 +5636,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vila"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vila?",
+      "kea": "Undi ki bila sta?"
     },
     "category": "Nom"
   },
@@ -5648,8 +5648,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bilhete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bilhete?",
+      "kea": "Undi ki bilheti sta?"
     },
     "category": "Nom"
   },
@@ -5660,8 +5660,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vinte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Página vinte",
+      "kea": "Pajina bint"
     },
     "category": "Nombre"
   },
@@ -5672,8 +5672,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vinte e um"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Página vinte e um",
+      "kea": "Pajina bint-i-un"
     },
     "category": "Nombre"
   },
@@ -5684,8 +5684,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "biografia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O biografia é bonito",
+      "kea": "Biografia e bunitu"
     },
     "category": "Nom"
   },
@@ -5696,8 +5696,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "biologia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um biologia",
+      "kea": "N ten un biolojia"
     },
     "category": "Nom"
   },
@@ -5708,8 +5708,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bissexto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é bissexto",
+      "kea": "Kes koiza e bisiestu"
     },
     "category": "Adjectif"
   },
@@ -5720,8 +5720,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bispo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bispo é bonito",
+      "kea": "Bispu e bunitu"
     },
     "category": "Nom"
   },
@@ -5732,8 +5732,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vestido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vestido é meu",
+      "kea": "Es bistidu e nha"
     },
     "category": "Nom"
   },
@@ -5744,8 +5744,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou ver",
+      "kea": "N ta bita"
     },
     "category": "Verbe"
   },
@@ -5756,8 +5756,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bicho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bicho",
+      "kea": "N gosta di es bitxu"
     },
     "category": "Nom"
   },
@@ -5768,8 +5768,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viuvez"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o viuvez?",
+      "kea": "Undi ki biudadi sta?"
     },
     "category": "Nom"
   },
@@ -5780,8 +5780,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viúva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste viúva",
+      "kea": "N gosta di es biuva"
     },
     "category": "Nom"
   },
@@ -5792,8 +5792,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de viver",
+      "kea": "El ta gosta di biv"
     },
     "category": "Verbe"
   },
@@ -5804,8 +5804,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bisavó"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bisavó é meu",
+      "kea": "Es biza e nha"
     },
     "category": "Nom"
   },
@@ -5816,8 +5816,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bloco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bloco é meu",
+      "kea": "Es bloku e nha"
     },
     "category": "Nom"
   },
@@ -5828,8 +5828,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "blusa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um blusa",
+      "kea": "N ten un blusa"
     },
     "category": "Nom"
   },
@@ -5840,8 +5840,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bom"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é bom",
+      "kea": "Ka e bo"
     },
     "category": "Adjectif",
     "note": "Peut aussi signifier \"tu/você\" (pronom) selon le contexte"
@@ -5853,8 +5853,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é boa",
+      "kea": "Ka e boa"
     },
     "category": "Adjectif"
   },
@@ -5865,8 +5865,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boda / casamento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste boda",
+      "kea": "N gosta di es boda"
     },
     "category": "Nom"
   },
@@ -5877,8 +5877,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bonitona / excelente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é bonitona",
+      "kea": "Ka e bodona"
     },
     "category": "Adjectif"
   },
@@ -5889,8 +5889,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bóia / flutuar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos bóia agora",
+      "kea": "Nu ten ki boia agora"
     },
     "category": "Verbe"
   },
@@ -5901,8 +5901,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boi"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O boi é bonito",
+      "kea": "Boi e bunitu"
     },
     "category": "Nom"
   },
@@ -5913,8 +5913,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "voltar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos voltar agora",
+      "kea": "Nu ten ki boita agora"
     },
     "category": "Verbe"
   },
@@ -5925,8 +5925,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste boca",
+      "kea": "N gosta di es boka"
     },
     "category": "Nom"
   },
@@ -5937,8 +5937,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bocado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bocado é meu",
+      "kea": "Es bokadu e nha"
     },
     "category": "Nom"
   },
@@ -5949,8 +5949,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bola é bonito",
+      "kea": "Bola e bunitu"
     },
     "category": "Nom"
   },
@@ -5961,8 +5961,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bolsa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bolsa",
+      "kea": "N ten un bolsa"
     },
     "category": "Nom"
   },
@@ -5973,8 +5973,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bolso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bolso é meu",
+      "kea": "Es bolsu e nha"
     },
     "category": "Nom"
   },
@@ -5985,8 +5985,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bom"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que bom!",
+      "kea": "Ki bom!"
     },
     "category": "Adjectif"
   },
@@ -5997,8 +5997,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bomba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bomba",
+      "kea": "N ten un bomba"
     },
     "category": "Nom"
   },
@@ -6009,8 +6009,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bombeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bombeiro é bonito",
+      "kea": "Bomberu e bunitu"
     },
     "category": "Nom"
   },
@@ -6021,8 +6021,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bondade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bondade?",
+      "kea": "Undi ki bondadi sta?"
     },
     "category": "Nom"
   },
@@ -6033,8 +6033,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boné"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este boné é meu",
+      "kea": "Es bone e nha"
     },
     "category": "Nom"
   },
@@ -6045,8 +6045,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boneca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste boneca",
+      "kea": "N gosta di es boneka"
     },
     "category": "Nom"
   },
@@ -6069,8 +6069,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "borboleta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o borboleta?",
+      "kea": "Undi ki borboleta sta?"
     },
     "category": "Nom"
   },
@@ -6081,8 +6081,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "borda / margem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este borda é meu",
+      "kea": "Es borda e nha"
     },
     "category": "Nom"
   },
@@ -6093,8 +6093,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "deitar / atirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou deitar",
+      "kea": "N ta bota"
     },
     "category": "Verbe"
   },
@@ -6105,8 +6105,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "botão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o botão?",
+      "kea": "Undi ki botom sta?"
     },
     "category": "Nom"
   },
@@ -6117,8 +6117,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bravo / selvagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito bravo",
+      "kea": "El e muitu brabu"
     },
     "category": "Adjectif"
   },
@@ -6129,8 +6129,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bradar / gritar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos bradar agora",
+      "kea": "Nu ten ki brada agora"
     },
     "category": "Verbe"
   },
@@ -6141,8 +6141,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brando"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que brando!",
+      "kea": "Ki brandu!"
     },
     "category": "Adjectif"
   },
@@ -6153,8 +6153,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "branco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa branco",
+      "kea": "Un pesoa branku"
     },
     "category": "Adjectif"
   },
@@ -6165,8 +6165,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brasa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um brasa",
+      "kea": "N ten un brasa"
     },
     "category": "Nom"
   },
@@ -6177,8 +6177,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "braço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um braço",
+      "kea": "N ten un brasu"
     },
     "category": "Nom"
   },
@@ -6189,8 +6189,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bravo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito bravo",
+      "kea": "El e muitu bravu"
     },
     "category": "Adjectif"
   },
@@ -6201,8 +6201,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "breu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o breu?",
+      "kea": "Undi ki breu sta?"
     },
     "category": "Nom"
   },
@@ -6213,8 +6213,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brigar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos brigar juntos",
+      "kea": "Nu bai briga djuntu"
     },
     "category": "Verbe"
   },
@@ -6225,8 +6225,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brilho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um brilho",
+      "kea": "N ten un brilhu"
     },
     "category": "Nom"
   },
@@ -6237,8 +6237,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brincar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos brincar agora",
+      "kea": "Nu ten ki brinka agora"
     },
     "category": "Verbe"
   },
@@ -6249,8 +6249,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brincadeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste brincadeira",
+      "kea": "N gosta di es brinkadera"
     },
     "category": "Nom"
   },
@@ -6261,8 +6261,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brinquedo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o brinquedo?",
+      "kea": "Undi ki brinkedu sta?"
     },
     "category": "Nom"
   },
@@ -6273,8 +6273,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "broa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um broa",
+      "kea": "N ten un broa"
     },
     "category": "Nom"
   },
@@ -6285,8 +6285,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "broca / furar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero broca",
+      "kea": "N ka kre broka"
     },
     "category": "Verbe"
   },
@@ -6297,8 +6297,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bronze"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bronze",
+      "kea": "N ten un bronzi"
     },
     "category": "Nom"
   },
@@ -6309,8 +6309,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "brotar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou brotar",
+      "kea": "N ta brotar"
     },
     "category": "Verbe"
   },
@@ -6321,8 +6321,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bruxa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bruxa é bonito",
+      "kea": "Bruxa e bunitu"
     },
     "category": "Nom"
   },
@@ -6333,8 +6333,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bruxo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bruxo",
+      "kea": "N gosta di es bruxu"
     },
     "category": "Nom"
   },
@@ -6345,8 +6345,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "voar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos voar agora",
+      "kea": "Nu ten ki bua agora"
     },
     "category": "Verbe"
   },
@@ -6357,8 +6357,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boate / discoteca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste boate",
+      "kea": "N gosta di es buati"
     },
     "category": "Nom"
   },
@@ -6369,8 +6369,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Buda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este Buda é meu",
+      "kea": "Es buda e nha"
     },
     "category": "Nom"
   },
@@ -6381,8 +6381,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "muito / bué"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é muito",
+      "kea": "Ka e bue"
     },
     "category": "Adjectif"
   },
@@ -6393,8 +6393,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bufar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou bufar",
+      "kea": "N ta bufa"
     },
     "category": "Verbe"
   },
@@ -6405,8 +6405,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aborrecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos aborrecer juntos",
+      "kea": "Nu bai buire djuntu"
     },
     "category": "Verbe"
   },
@@ -6417,8 +6417,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bula / bola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O bula é bonito",
+      "kea": "Bula e bunitu"
     },
     "category": "Nom"
   },
@@ -6429,8 +6429,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "boleia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este boleia é meu",
+      "kea": "Es buleia e nha"
     },
     "category": "Nom"
   },
@@ -6441,8 +6441,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bulir / mexer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos bulir agora",
+      "kea": "Nu ten ki buli agora"
     },
     "category": "Verbe"
   },
@@ -6453,8 +6453,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "buraco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este buraco é meu",
+      "kea": "Es buraku e nha"
     },
     "category": "Nom"
   },
@@ -6465,8 +6465,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "borbulha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este borbulha é meu",
+      "kea": "Es burbulia e nha"
     },
     "category": "Nom"
   },
@@ -6477,8 +6477,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "burro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o burro?",
+      "kea": "Undi ki burru sta?"
     },
     "category": "Nom"
   },
@@ -6489,8 +6489,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "burocracia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O burocracia é bonito",
+      "kea": "Burukrasia e bunitu"
     },
     "category": "Nom"
   },
@@ -6501,8 +6501,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "buscar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos buscar agora",
+      "kea": "Nu ten ki buska agora"
     },
     "category": "Verbe"
   },
@@ -6513,8 +6513,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bússola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bússola?",
+      "kea": "Undi ki bussola sta?"
     },
     "category": "Nom"
   },
@@ -6525,8 +6525,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "botão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O botão é bonito",
+      "kea": "Butom e bunitu"
     },
     "category": "Nom"
   },
@@ -6537,8 +6537,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bucho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bucho é meu",
+      "kea": "Es buxu e nha"
     },
     "category": "Nom"
   },
@@ -6549,8 +6549,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "buzina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O buzina é bonito",
+      "kea": "Buzina e bunitu"
     },
     "category": "Nom"
   },
@@ -6573,8 +6573,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dada / oferta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dada é bonito",
+      "kea": "Dada e bunitu"
     },
     "category": "Nom"
   },
@@ -6585,8 +6585,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa dado",
+      "kea": "Un pesoa dadi"
     },
     "category": "Adjectif"
   },
@@ -6597,8 +6597,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dado (jogo)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dado (jogo) é bonito",
+      "kea": "Dado e bunitu"
     },
     "category": "Nom"
   },
@@ -6609,8 +6609,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dados"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dados é bonito",
+      "kea": "Dadus e bunitu"
     },
     "category": "Nom"
   },
@@ -6621,8 +6621,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dama"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dama?",
+      "kea": "Undi ki dama sta?"
     },
     "category": "Nom"
   },
@@ -6633,8 +6633,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um dano",
+      "kea": "N ten un danu"
     },
     "category": "Nom"
   },
@@ -6645,8 +6645,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dançar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero dançar",
+      "kea": "N ka kre dansa"
     },
     "category": "Verbe"
   },
@@ -6657,8 +6657,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "data"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste data",
+      "kea": "N gosta di es data"
     },
     "category": "Nom"
   },
@@ -6669,8 +6669,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "de"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "De aqui",
+      "kea": "De li"
     },
     "category": "Préposition"
   },
@@ -6681,8 +6681,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dever"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de dever",
+      "kea": "El ta gosta di debe"
     },
     "category": "Verbe"
   },
@@ -6693,8 +6693,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "devedor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este devedor é meu",
+      "kea": "Es debedor e nha"
     },
     "category": "Nom"
   },
@@ -6705,8 +6705,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "débil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é débil",
+      "kea": "Ka e debil"
     },
     "category": "Adjectif"
   },
@@ -6717,8 +6717,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "debilidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste debilidade",
+      "kea": "N gosta di es debilidadi"
     },
     "category": "Nom"
   },
@@ -6729,8 +6729,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dedicação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dedicação é bonito",
+      "kea": "Dedikason e bunitu"
     },
     "category": "Nom"
   },
@@ -6741,8 +6741,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dedo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dedo é bonito",
+      "kea": "Dedu e bunitu"
     },
     "category": "Nom"
   },
@@ -6753,8 +6753,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "defender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de defender",
+      "kea": "El ta gosta di defende"
     },
     "category": "Verbe"
   },
@@ -6765,8 +6765,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "defesa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste defesa",
+      "kea": "N gosta di es defensa"
     },
     "category": "Nom"
   },
@@ -6777,8 +6777,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "defensor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o defensor?",
+      "kea": "Undi ki defensor sta?"
     },
     "category": "Nom"
   },
@@ -6789,8 +6789,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "definição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o definição?",
+      "kea": "Undi ki definison sta?"
     },
     "category": "Nom"
   },
@@ -6801,8 +6801,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "deitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos deitar juntos",
+      "kea": "Nu bai deita djuntu"
     },
     "category": "Verbe"
   },
@@ -6813,8 +6813,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "deixar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero deixar",
+      "kea": "N ka kre deixa"
     },
     "category": "Verbe"
   },
@@ -6825,8 +6825,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "declaração"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o declaração?",
+      "kea": "Undi ki deklarason sta?"
     },
     "category": "Nom"
   },
@@ -6837,8 +6837,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "delicadeza"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O delicadeza é bonito",
+      "kea": "Delikadeza e bunitu"
     },
     "category": "Nom"
   },
@@ -6849,8 +6849,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "delicado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é delicado",
+      "kea": "Kes koiza e delikadu"
     },
     "category": "Adjectif"
   },
@@ -6861,8 +6861,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "democracia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um democracia",
+      "kea": "N ten un demokrasia"
     },
     "category": "Nom"
   },
@@ -6873,8 +6873,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "demonstrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de demonstrar",
+      "kea": "El ta gosta di demonstra"
     },
     "category": "Verbe"
   },
@@ -6885,8 +6885,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um dente",
+      "kea": "N ten un denti"
     },
     "category": "Nom"
   },
@@ -6897,8 +6897,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dentista"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este dentista é meu",
+      "kea": "Es dentista e nha"
     },
     "category": "Nom"
   },
@@ -6909,8 +6909,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dentro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou dentro casa",
+      "kea": "N ta bai dentu kasa"
     },
     "category": "Préposition"
   },
@@ -6921,8 +6921,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "depois"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não depois",
+      "kea": "Ka depois"
     },
     "category": "Adverbe"
   },
@@ -6933,8 +6933,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "depósito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este depósito é meu",
+      "kea": "Es depozitu e nha"
     },
     "category": "Nom"
   },
@@ -6945,8 +6945,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "derrota"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste derrota",
+      "kea": "N gosta di es derrota"
     },
     "category": "Nom"
   },
@@ -6957,8 +6957,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dez"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "dez pessoas",
+      "kea": "des pesoa"
     },
     "category": "Nombre"
   },
@@ -6969,8 +6969,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "desenho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O desenho é bonito",
+      "kea": "Desenhu e bunitu"
     },
     "category": "Nom"
   },
@@ -6981,8 +6981,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "deserto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o deserto?",
+      "kea": "Undi ki deserto sta?"
     },
     "category": "Nom"
   },
@@ -6993,8 +6993,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "decidir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero decidir",
+      "kea": "N ka kre desidi"
     },
     "category": "Verbe"
   },
@@ -7005,8 +7005,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "decisão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O decisão é bonito",
+      "kea": "Desizon e bunitu"
     },
     "category": "Nom"
   },
@@ -7017,8 +7017,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "desconfiança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este desconfiança é meu",
+      "kea": "Es deskonfiansa e nha"
     },
     "category": "Nom"
   },
@@ -7029,8 +7029,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "desconfiar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero desconfiar",
+      "kea": "N ka kre deskonfia"
     },
     "category": "Verbe"
   },
@@ -7041,8 +7041,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "descobrir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos descobrir agora",
+      "kea": "Nu ten ki deskubri agora"
     },
     "category": "Verbe"
   },
@@ -7053,8 +7053,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "desculpa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O desculpa é bonito",
+      "kea": "Deskulpa e bunitu"
     },
     "category": "Nom"
   },
@@ -7065,8 +7065,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "despensa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este despensa é meu",
+      "kea": "Es despensa e nha"
     },
     "category": "Nom"
   },
@@ -7077,8 +7077,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "despesas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste despesas",
+      "kea": "N gosta di es despezas"
     },
     "category": "Nom"
   },
@@ -7089,8 +7089,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "destino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um destino",
+      "kea": "N ten un destinu"
     },
     "category": "Nom"
   },
@@ -7101,8 +7101,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "detalhe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o detalhe?",
+      "kea": "Undi ki detalhi sta?"
     },
     "category": "Nom"
   },
@@ -7113,8 +7113,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Deus"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o Deus?",
+      "kea": "Undi ki deus sta?"
     },
     "category": "Nom"
   },
@@ -7125,8 +7125,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dever"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dever é bonito",
+      "kea": "Dever e bunitu"
     },
     "category": "Nom"
   },
@@ -7137,8 +7137,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dezanove"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Número dezanove",
+      "kea": "Numeru dezanove"
     },
     "category": "Nombre"
   },
@@ -7149,8 +7149,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dezasseis"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "dezasseis pessoas",
+      "kea": "dezaseis pesoa"
     },
     "category": "Nombre"
   },
@@ -7161,8 +7161,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dezassete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "São dezassete",
+      "kea": "E dezasete"
     },
     "category": "Nombre"
   },
@@ -7173,8 +7173,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dezoito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "dezoito pessoas",
+      "kea": "dezoitu pesoa"
     },
     "category": "Nombre"
   },
@@ -7185,8 +7185,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste dia",
+      "kea": "N gosta di es dia"
     },
     "category": "Nom"
   },
@@ -7197,8 +7197,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diabo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste diabo",
+      "kea": "N gosta di es diabu"
     },
     "category": "Nom"
   },
@@ -7209,8 +7209,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diálogo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o diálogo?",
+      "kea": "Undi ki dialogu sta?"
     },
     "category": "Nom"
   },
@@ -7221,8 +7221,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diamante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste diamante",
+      "kea": "N gosta di es diamante"
     },
     "category": "Nom"
   },
@@ -7233,8 +7233,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diante / frente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Estou diante ti",
+      "kea": "N sta dianti bo"
     },
     "category": "Préposition"
   },
@@ -7245,8 +7245,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste diário",
+      "kea": "N gosta di es diariu"
     },
     "category": "Nom"
   },
@@ -7257,8 +7257,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diáspora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste diáspora",
+      "kea": "N gosta di es diaspora"
     },
     "category": "Nom"
   },
@@ -7269,8 +7269,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diferença"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O diferença é bonito",
+      "kea": "Diferensa e bunitu"
     },
     "category": "Nom"
   },
@@ -7281,8 +7281,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diferente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito diferente",
+      "kea": "El e muitu diferenti"
     },
     "category": "Adjectif"
   },
@@ -7293,8 +7293,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "difícil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa difícil",
+      "kea": "Un pesoa dificil"
     },
     "category": "Adjectif"
   },
@@ -7305,8 +7305,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dificuldade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dificuldade?",
+      "kea": "Undi ki dificuldadi sta?"
     },
     "category": "Nom"
   },
@@ -7317,8 +7317,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dignidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dignidade?",
+      "kea": "Undi ki diginidadi sta?"
     },
     "category": "Nom"
   },
@@ -7329,8 +7329,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "digno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito digno",
+      "kea": "El e muitu digu"
     },
     "category": "Adjectif"
   },
@@ -7341,8 +7341,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "de manhã"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça de manhã",
+      "kea": "Faze dimanhan"
     },
     "category": "Adverbe"
   },
@@ -7353,8 +7353,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "domingo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O domingo é bonito",
+      "kea": "Dimingu e bunitu"
     },
     "category": "Nom"
   },
@@ -7365,8 +7365,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dinheiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dinheiro?",
+      "kea": "Undi ki dinheru sta?"
     },
     "category": "Nom"
   },
@@ -7377,8 +7377,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "direito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é direito",
+      "kea": "Ka e direitu"
     },
     "category": "Adjectif"
   },
@@ -7389,8 +7389,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diretor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este diretor é meu",
+      "kea": "Es diretor e nha"
     },
     "category": "Nom"
   },
@@ -7401,8 +7401,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dirigir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos dirigir juntos",
+      "kea": "Nu bai diriji djuntu"
     },
     "category": "Verbe"
   },
@@ -7413,8 +7413,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "disciplina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O disciplina é bonito",
+      "kea": "Disiplina e bunitu"
     },
     "category": "Nom"
   },
@@ -7425,8 +7425,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "disco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O disco é bonito",
+      "kea": "Disko e bunitu"
     },
     "category": "Nom"
   },
@@ -7437,8 +7437,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "discutir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou discutir",
+      "kea": "N ta diskuti"
     },
     "category": "Verbe"
   },
@@ -7449,8 +7449,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "distância"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O distância é bonito",
+      "kea": "Distansia e bunitu"
     },
     "category": "Nom"
   },
@@ -7461,8 +7461,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "distrito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este distrito é meu",
+      "kea": "Es distritu e nha"
     },
     "category": "Nom"
   },
@@ -7473,8 +7473,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "diversão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este diversão é meu",
+      "kea": "Es diverson e nha"
     },
     "category": "Nom"
   },
@@ -7485,8 +7485,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dívida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste dívida",
+      "kea": "N gosta di es divida"
     },
     "category": "Nom"
   },
@@ -7497,8 +7497,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dividir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos dividir juntos",
+      "kea": "Nu bai dividi djuntu"
     },
     "category": "Verbe"
   },
@@ -7509,8 +7509,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "divino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que divino!",
+      "kea": "Ki divinu!"
     },
     "category": "Adjectif"
   },
@@ -7521,8 +7521,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "divórcio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este divórcio é meu",
+      "kea": "Es divorsi e nha"
     },
     "category": "Nom"
   },
@@ -7533,8 +7533,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "desastre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste desastre",
+      "kea": "N gosta di es dizastru"
     },
     "category": "Nom"
   },
@@ -7545,8 +7545,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dezembro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dezembro?",
+      "kea": "Undi ki dizenbru sta?"
     },
     "category": "Nom"
   },
@@ -7557,8 +7557,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "olhar / ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de olhar",
+      "kea": "El ta gosta di djobi"
     },
     "category": "Verbe"
   },
@@ -7569,8 +7569,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "juntar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou juntar",
+      "kea": "N ta djunta"
     },
     "category": "Verbe"
   },
@@ -7581,8 +7581,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "junto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa junto",
+      "kea": "Un pesoa djuntu"
     },
     "category": "Adjectif"
   },
@@ -7593,8 +7593,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dobrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos dobrar agora",
+      "kea": "Nu ten ki dobra agora"
     },
     "category": "Verbe"
   },
@@ -7605,8 +7605,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fralda descartável"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este fralda descartável é meu",
+      "kea": "Es dodoti e nha"
     },
     "category": "Nom"
   },
@@ -7617,8 +7617,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "doente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é doente",
+      "kea": "Ka e doenti"
     },
     "category": "Adjectif"
   },
@@ -7629,8 +7629,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "doença"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um doença",
+      "kea": "N ten un doenssa"
     },
     "category": "Nom"
   },
@@ -7641,8 +7641,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dois"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "São dois",
+      "kea": "E dois"
     },
     "category": "Nombre"
   },
@@ -7653,8 +7653,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dólar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dólar é bonito",
+      "kea": "Dolar e bunitu"
     },
     "category": "Nom"
   },
@@ -7665,8 +7665,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dom"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dom?",
+      "kea": "Undi ki dom sta?"
     },
     "category": "Nom"
   },
@@ -7677,8 +7677,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "domingo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um domingo",
+      "kea": "N ten un domingu"
     },
     "category": "Nom"
   },
@@ -7689,8 +7689,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dona"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um dona",
+      "kea": "N ten un dona"
     },
     "category": "Nom"
   },
@@ -7701,8 +7701,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dono"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dono?",
+      "kea": "Undi ki donu sta?"
     },
     "category": "Nom"
   },
@@ -7713,8 +7713,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dor?",
+      "kea": "Undi ki dor sta?"
     },
     "category": "Nom"
   },
@@ -7725,8 +7725,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dormir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos dormir juntos",
+      "kea": "Nu bai dormi djuntu"
     },
     "category": "Verbe"
   },
@@ -7737,8 +7737,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dois"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "São dois",
+      "kea": "E dos"
     },
     "category": "Nombre"
   },
@@ -7749,8 +7749,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "doce"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito doce",
+      "kea": "El e muitu dosi"
     },
     "category": "Adjectif"
   },
@@ -7761,8 +7761,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "doutor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este doutor é meu",
+      "kea": "Es doutor e nha"
     },
     "category": "Nom"
   },
@@ -7773,8 +7773,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dúvida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um dúvida",
+      "kea": "N ten un dovi"
     },
     "category": "Nom"
   },
@@ -7785,8 +7785,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "durar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos durar agora",
+      "kea": "Nu ten ki dra agora"
     },
     "category": "Verbe"
   },
@@ -7797,8 +7797,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "drama"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um drama",
+      "kea": "N ten un drama"
     },
     "category": "Nom"
   },
@@ -7809,8 +7809,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "direito / correto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa direito",
+      "kea": "Un pesoa dretu"
     },
     "category": "Adjectif"
   },
@@ -7821,8 +7821,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "droga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um droga",
+      "kea": "N ten un droga"
     },
     "category": "Nom"
   },
@@ -7833,8 +7833,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dormir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos dormir agora",
+      "kea": "Nu ten ki dromi agora"
     },
     "category": "Verbe"
   },
@@ -7845,8 +7845,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "duvidar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos duvidar juntos",
+      "kea": "Nu bai dubi djuntu"
     },
     "category": "Verbe"
   },
@@ -7857,8 +7857,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "doente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é doente",
+      "kea": "Kes koiza e duente"
     },
     "category": "Adjectif"
   },
@@ -7869,8 +7869,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste dor",
+      "kea": "N gosta di es dueru"
     },
     "category": "Nom"
   },
@@ -7881,8 +7881,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dúvida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este dúvida é meu",
+      "kea": "Es duvida e nha"
     },
     "category": "Nom"
   },
@@ -7893,8 +7893,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "doze"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Página doze",
+      "kea": "Pajina duzi"
     },
     "category": "Nombre"
   },
@@ -7905,8 +7905,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "e (conjonction) / é (verbo ser)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu e (conjonction) tu",
+      "kea": "N e bo"
     },
     "category": "Conjonction"
   },
@@ -7917,8 +7917,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "idade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste idade",
+      "kea": "N gosta di es edade"
     },
     "category": "Nom"
   },
@@ -7929,8 +7929,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "educação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um educação",
+      "kea": "N ten un edukason"
     },
     "category": "Nom"
   },
@@ -7941,8 +7941,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "efeito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O efeito é bonito",
+      "kea": "Efeitu e bunitu"
     },
     "category": "Nom"
   },
@@ -7953,8 +7953,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "egoísmo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este egoísmo é meu",
+      "kea": "Es egoismo e nha"
     },
     "category": "Nom"
   },
@@ -7965,8 +7965,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "egoísta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa egoísta",
+      "kea": "Un pesoa egoista"
     },
     "category": "Adjectif"
   },
@@ -7977,8 +7977,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ei"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ei é bonito",
+      "kea": "Ei e bunitu"
     },
     "category": "Interjection"
   },
@@ -7989,8 +7989,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "eis"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "eis",
+      "kea": "eis"
     },
     "category": "Expression"
   },
@@ -8001,8 +8001,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "equipa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um equipa",
+      "kea": "N ten un ekipa"
     },
     "category": "Nom"
   },
@@ -8013,8 +8013,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "economia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um economia",
+      "kea": "N ten un ekonomia"
     },
     "category": "Nom"
   },
@@ -8025,8 +8025,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "económico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa económico",
+      "kea": "Un pesoa ekonomiku"
     },
     "category": "Adjectif"
   },
@@ -8037,8 +8037,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ela vou contigo",
+      "kea": "Ela ta bai ku bo"
     },
     "category": "Pronom"
   },
@@ -8049,8 +8049,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ele"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele estou bem",
+      "kea": "Ele sta ben"
     },
     "category": "Pronom"
   },
@@ -8061,8 +8061,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "eleição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este eleição é meu",
+      "kea": "Es eleison e nha"
     },
     "category": "Nom"
   },
@@ -8073,8 +8073,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "eletricidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O eletricidade é bonito",
+      "kea": "Eletrisidadi e bunitu"
     },
     "category": "Nom"
   },
@@ -8085,8 +8085,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "elevador"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este elevador é meu",
+      "kea": "Es elevador e nha"
     },
     "category": "Nom"
   },
@@ -8097,8 +8097,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "elogio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um elogio",
+      "kea": "N ten un elojiu"
     },
     "category": "Nom"
   },
@@ -8109,8 +8109,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "em"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Estou em ti",
+      "kea": "N sta em bo"
     },
     "category": "Préposition"
   },
@@ -8121,8 +8121,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "emigrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos emigrar agora",
+      "kea": "Nu ten ki emigra agora"
     },
     "category": "Verbe"
   },
@@ -8133,8 +8133,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "emigrante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste emigrante",
+      "kea": "N gosta di es emigranti"
     },
     "category": "Nom"
   },
@@ -8145,8 +8145,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "emissão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o emissão?",
+      "kea": "Undi ki emison sta?"
     },
     "category": "Nom"
   },
@@ -8157,8 +8157,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "emoção"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um emoção",
+      "kea": "N ten un emoson"
     },
     "category": "Nom"
   },
@@ -8169,8 +8169,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "empatar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou empatar",
+      "kea": "N ta empata"
     },
     "category": "Verbe"
   },
@@ -8181,8 +8181,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "empate"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O empate é bonito",
+      "kea": "Empate e bunitu"
     },
     "category": "Nom"
   },
@@ -8193,8 +8193,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "emprego"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste emprego",
+      "kea": "N gosta di es empregu"
     },
     "category": "Nom"
   },
@@ -8205,8 +8205,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "empresa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste empresa",
+      "kea": "N gosta di es empresa"
     },
     "category": "Nom"
   },
@@ -8217,8 +8217,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "em"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Fica em mim",
+      "kea": "Fika en mi"
     },
     "category": "Préposition"
   },
@@ -8229,8 +8229,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "energia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste energia",
+      "kea": "N gosta di es energia"
     },
     "category": "Nom"
   },
@@ -8241,8 +8241,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "enfermeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um enfermeiro",
+      "kea": "N ten un enfermeru"
     },
     "category": "Nom"
   },
@@ -8253,8 +8253,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "enfermo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito enfermo",
+      "kea": "El e muitu enfermu"
     },
     "category": "Adjectif"
   },
@@ -8265,8 +8265,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "engenheiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O engenheiro é bonito",
+      "kea": "Engenheru e bunitu"
     },
     "category": "Nom"
   },
@@ -8277,8 +8277,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "enorme"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é enorme",
+      "kea": "Ka e enorme"
     },
     "category": "Adjectif"
   },
@@ -8289,8 +8289,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "enquanto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vem enquanto fica",
+      "kea": "Ben enkuantu fika"
     },
     "category": "Conjonction"
   },
@@ -8301,8 +8301,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ensinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de ensinar",
+      "kea": "El ta gosta di ensina"
     },
     "category": "Verbe"
   },
@@ -8313,8 +8313,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "então"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou então",
+      "kea": "N ta bai entoni"
     },
     "category": "Adverbe"
   },
@@ -8325,8 +8325,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "entrada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste entrada",
+      "kea": "N gosta di es entrada"
     },
     "category": "Nom"
   },
@@ -8337,8 +8337,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "entrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero entrar",
+      "kea": "N ka kre entra"
     },
     "category": "Verbe"
   },
@@ -8349,8 +8349,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "entre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Fica entre mim",
+      "kea": "Fika entre mi"
     },
     "category": "Préposition"
   },
@@ -8361,8 +8361,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "entregar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou entregar",
+      "kea": "N ta entrega"
     },
     "category": "Verbe"
   },
@@ -8373,8 +8373,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "entrevista"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o entrevista?",
+      "kea": "Undi ki entrevista sta?"
     },
     "category": "Nom"
   },
@@ -8385,8 +8385,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "envergonhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos envergonhar agora",
+      "kea": "Nu ten ki envergonha agora"
     },
     "category": "Verbe"
   },
@@ -8397,8 +8397,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "envolver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos envolver juntos",
+      "kea": "Nu bai envolvi djuntu"
     },
     "category": "Verbe"
   },
@@ -8409,8 +8409,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "época"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste época",
+      "kea": "N gosta di es epoka"
     },
     "category": "Nom"
   },
@@ -8421,8 +8421,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "erro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste erro",
+      "kea": "N gosta di es erru"
     },
     "category": "Nom"
   },
@@ -8433,8 +8433,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "erva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste erva",
+      "kea": "N gosta di es erva"
     },
     "category": "Nom"
   },
@@ -8445,8 +8445,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "este / esse"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O este é bonito",
+      "kea": "Es e bunitu"
     },
     "category": "Démonstratif"
   },
@@ -8457,8 +8457,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste escada",
+      "kea": "N gosta di es eskada"
     },
     "category": "Nom"
   },
@@ -8469,8 +8469,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste escola",
+      "kea": "N gosta di es eskola"
     },
     "category": "Nom"
   },
@@ -8481,8 +8481,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito escura",
+      "kea": "El e muitu eskura"
     },
     "category": "Adjectif"
   },
@@ -8493,8 +8493,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espalhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos espalhar agora",
+      "kea": "Nu ten ki espadja agora"
     },
     "category": "Verbe"
   },
@@ -8505,8 +8505,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espelho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este espelho é meu",
+      "kea": "Es espellu e nha"
     },
     "category": "Nom"
   },
@@ -8517,8 +8517,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esperar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos esperar agora",
+      "kea": "Nu ten ki espera agora"
     },
     "category": "Verbe"
   },
@@ -8529,8 +8529,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esperança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um esperança",
+      "kea": "N ten un esperansa"
     },
     "category": "Nom"
   },
@@ -8541,8 +8541,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esperto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é esperto",
+      "kea": "Ka e espertu"
     },
     "category": "Adjectif"
   },
@@ -8553,8 +8553,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esposa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um esposa",
+      "kea": "N ten un esposa"
     },
     "category": "Nom"
   },
@@ -8565,8 +8565,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esposo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o esposo?",
+      "kea": "Undi ki esposu sta?"
     },
     "category": "Nom"
   },
@@ -8577,8 +8577,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esquerda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este esquerda é meu",
+      "kea": "Es eskerda e nha"
     },
     "category": "Nom"
   },
@@ -8589,8 +8589,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escuro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa escuro",
+      "kea": "Un pesoa esku"
     },
     "category": "Adjectif"
   },
@@ -8601,8 +8601,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escudado / protegido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito escudado",
+      "kea": "El e muitu eskudadu"
     },
     "category": "Adjectif"
   },
@@ -8613,8 +8613,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escudo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um escudo",
+      "kea": "N ten un eskudu"
     },
     "category": "Nom"
   },
@@ -8625,8 +8625,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escurecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos escurecer juntos",
+      "kea": "Nu bai eskurese djuntu"
     },
     "category": "Verbe"
   },
@@ -8637,8 +8637,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espaço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um espaço",
+      "kea": "N ten un espasu"
     },
     "category": "Nom"
   },
@@ -8649,8 +8649,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "especial"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é especial",
+      "kea": "Kes koiza e especial"
     },
     "category": "Adjectif"
   },
@@ -8661,8 +8661,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espécie"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O espécie é bonito",
+      "kea": "Espesi e bunitu"
     },
     "category": "Nom"
   },
@@ -8673,8 +8673,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o estado?",
+      "kea": "Undi ki estadu sta?"
     },
     "category": "Nom"
   },
@@ -8685,8 +8685,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O estação é bonito",
+      "kea": "Estason e bunitu"
     },
     "category": "Nom"
   },
@@ -8697,8 +8697,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estátua"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste estátua",
+      "kea": "N gosta di es estatua"
     },
     "category": "Nom"
   },
@@ -8709,8 +8709,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estilo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste estilo",
+      "kea": "N gosta di es estilu"
     },
     "category": "Nom"
   },
@@ -8721,8 +8721,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estória / história"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um estória",
+      "kea": "N ten un estoria"
     },
     "category": "Nom"
   },
@@ -8733,8 +8733,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estranho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa estranho",
+      "kea": "Un pesoa estranhu"
     },
     "category": "Adjectif"
   },
@@ -8745,8 +8745,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estrela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste estrela",
+      "kea": "N gosta di es strela"
     },
     "category": "Nom"
   },
@@ -8757,8 +8757,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estudar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de estudar",
+      "kea": "El ta gosta di estuda"
     },
     "category": "Verbe"
   },
@@ -8769,8 +8769,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estudante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O estudante é bonito",
+      "kea": "Estudanti e bunitu"
     },
     "category": "Nom"
   },
@@ -8781,8 +8781,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estudo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o estudo?",
+      "kea": "Undi ki estudu sta?"
     },
     "category": "Nom"
   },
@@ -8793,8 +8793,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "eterno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é eterno",
+      "kea": "Kes koiza e eterno"
     },
     "category": "Adjectif"
   },
@@ -8805,8 +8805,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Europa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste Europa",
+      "kea": "N gosta di es europa"
     },
     "category": "Nom"
   },
@@ -8817,8 +8817,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "europeu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa europeu",
+      "kea": "Un pesoa europeu"
     },
     "category": "Adjectif"
   },
@@ -8829,8 +8829,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "evitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos evitar agora",
+      "kea": "Nu ten ki evita agora"
     },
     "category": "Verbe"
   },
@@ -8841,8 +8841,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "exato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que exato!",
+      "kea": "Ki exatu!"
     },
     "category": "Adjectif"
   },
@@ -8853,8 +8853,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "exemplo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o exemplo?",
+      "kea": "Undi ki ezemplu sta?"
     },
     "category": "Nom"
   },
@@ -8865,8 +8865,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "existir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou existir",
+      "kea": "N ta ezisti"
     },
     "category": "Verbe"
   },
@@ -8877,8 +8877,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fábrica"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este fábrica é meu",
+      "kea": "Es fabrika e nha"
     },
     "category": "Nom"
   },
@@ -8889,8 +8889,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fácil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é fácil",
+      "kea": "Kes koiza e fasil"
     },
     "category": "Adjectif"
   },
@@ -8901,8 +8901,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "faca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um faca",
+      "kea": "N ten un faka"
     },
     "category": "Nom"
   },
@@ -8913,8 +8913,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "falso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito falso",
+      "kea": "El e muitu falso"
     },
     "category": "Adjectif"
   },
@@ -8925,8 +8925,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "falta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um falta",
+      "kea": "N ten un falta"
     },
     "category": "Nom"
   },
@@ -8937,8 +8937,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fome"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este fome é meu",
+      "kea": "Es fame e nha"
     },
     "category": "Nom"
   },
@@ -8949,8 +8949,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "família"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um família",
+      "kea": "N ten un familia"
     },
     "category": "Nom"
   },
@@ -8961,8 +8961,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "famoso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é famoso",
+      "kea": "Ka e famosu"
     },
     "category": "Adjectif"
   },
@@ -8973,8 +8973,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fantasia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este fantasia é meu",
+      "kea": "Es fantasia e nha"
     },
     "category": "Nom"
   },
@@ -8985,8 +8985,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fantasma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fantasma é bonito",
+      "kea": "Fantu e bunitu"
     },
     "category": "Nom"
   },
@@ -8997,8 +8997,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "faria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos faria juntos",
+      "kea": "Nu bai faria djuntu"
     },
     "category": "Verbe"
   },
@@ -9009,8 +9009,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "farinha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um farinha",
+      "kea": "N ten un farinha"
     },
     "category": "Nom"
   },
@@ -9021,8 +9021,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "farmácia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O farmácia é bonito",
+      "kea": "Farmasia e bunitu"
     },
     "category": "Nom"
   },
@@ -9033,8 +9033,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "farto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que farto!",
+      "kea": "Ki fartu!"
     },
     "category": "Adjectif"
   },
@@ -9045,8 +9045,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fazer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou fazer",
+      "kea": "N ta fase"
     },
     "category": "Verbe"
   },
@@ -9057,8 +9057,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fazer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de fazer",
+      "kea": "El ta gosta di fasi"
     },
     "category": "Verbe"
   },
@@ -9069,8 +9069,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fadiga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fadiga é bonito",
+      "kea": "Fatiga e bunitu"
     },
     "category": "Nom"
   },
@@ -9081,8 +9081,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "favor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este favor é meu",
+      "kea": "Es favor e nha"
     },
     "category": "Nom"
   },
@@ -9093,8 +9093,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fácil / rápido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é fácil",
+      "kea": "Kes koiza e faxi"
     },
     "category": "Adjectif"
   },
@@ -9105,8 +9105,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fé"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o fé?",
+      "kea": "Undi ki fe sta?"
     },
     "category": "Nom"
   },
@@ -9117,8 +9117,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "febre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um febre",
+      "kea": "N ten un febri"
     },
     "category": "Nom"
   },
@@ -9129,8 +9129,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "feio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é feio",
+      "kea": "Ka e feiu"
     },
     "category": "Adjectif"
   },
@@ -9141,8 +9141,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "feliz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é feliz",
+      "kea": "Ka e felis"
     },
     "category": "Adjectif"
   },
@@ -9153,8 +9153,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "felicidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste felicidade",
+      "kea": "N gosta di es felisidadi"
     },
     "category": "Nom"
   },
@@ -9165,8 +9165,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fêmea"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste fêmea",
+      "kea": "N gosta di es femia"
     },
     "category": "Nom"
   },
@@ -9177,8 +9177,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "festa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O festa é bonito",
+      "kea": "Festa e bunitu"
     },
     "category": "Nom"
   },
@@ -9189,8 +9189,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "feitiço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste feitiço",
+      "kea": "N gosta di es fetisu"
     },
     "category": "Nom"
   },
@@ -9201,8 +9201,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fevereiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um fevereiro",
+      "kea": "N ten un fevereru"
     },
     "category": "Nom"
   },
@@ -9225,8 +9225,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "figo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o figo?",
+      "kea": "Undi ki figu sta?"
     },
     "category": "Nom"
   },
@@ -9237,8 +9237,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ficar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos ficar agora",
+      "kea": "Nu ten ki fika agora"
     },
     "category": "Verbe"
   },
@@ -9249,8 +9249,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fila"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este fila é meu",
+      "kea": "Es fila e nha"
     },
     "category": "Nom"
   },
@@ -9261,8 +9261,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "filme"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este filme é meu",
+      "kea": "Es filme e nha"
     },
     "category": "Nom"
   },
@@ -9273,8 +9273,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste fio",
+      "kea": "N gosta di es filu"
     },
     "category": "Nom"
   },
@@ -9285,8 +9285,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fim é bonito",
+      "kea": "Fim e bunitu"
     },
     "category": "Nom"
   },
@@ -9297,8 +9297,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "final"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é final",
+      "kea": "Ka e final"
     },
     "category": "Adjectif"
   },
@@ -9309,8 +9309,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fincar / pregar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero fincar",
+      "kea": "N ka kre finka"
     },
     "category": "Verbe"
   },
@@ -9321,8 +9321,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é fino",
+      "kea": "Ka e fino"
     },
     "category": "Adjectif"
   },
@@ -9333,8 +9333,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fio é bonito",
+      "kea": "Fiu e bunitu"
     },
     "category": "Nom"
   },
@@ -9345,8 +9345,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chama"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o chama?",
+      "kea": "Undi ki flama sta?"
     },
     "category": "Nom"
   },
@@ -9357,8 +9357,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "floresta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um floresta",
+      "kea": "N ten un floresta"
     },
     "category": "Nom"
   },
@@ -9369,8 +9369,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fogo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fogo é bonito",
+      "kea": "Fogo e bunitu"
     },
     "category": "Nom"
   },
@@ -9381,8 +9381,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "folha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o folha?",
+      "kea": "Undi ki foja sta?"
     },
     "category": "Nom"
   },
@@ -9393,8 +9393,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "focar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos focar juntos",
+      "kea": "Nu bai foka djuntu"
     },
     "category": "Verbe"
   },
@@ -9405,8 +9405,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fome"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fome é bonito",
+      "kea": "Fome e bunitu"
     },
     "category": "Nom"
   },
@@ -9417,8 +9417,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fonte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um fonte",
+      "kea": "N ten un fonti"
     },
     "category": "Nom"
   },
@@ -9429,8 +9429,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que fora!",
+      "kea": "Ki fora!"
     },
     "category": "Adjectif"
   },
@@ -9441,8 +9441,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "força"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o força?",
+      "kea": "Undi ki forsa sta?"
     },
     "category": "Nom"
   },
@@ -9453,8 +9453,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "forte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa forte",
+      "kea": "Un pesoa forti"
     },
     "category": "Adjectif"
   },
@@ -9465,8 +9465,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "foto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O foto é bonito",
+      "kea": "Foto e bunitu"
     },
     "category": "Nom"
   },
@@ -9477,8 +9477,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fotografia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o fotografia?",
+      "kea": "Undi ki fotografia sta?"
     },
     "category": "Nom"
   },
@@ -9489,8 +9489,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fraco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa fraco",
+      "kea": "Un pesoa fraku"
     },
     "category": "Adjectif"
   },
@@ -9501,8 +9501,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "francês"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa francês",
+      "kea": "Un pesoa franse"
     },
     "category": "Adjectif"
   },
@@ -9513,8 +9513,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "França"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um França",
+      "kea": "N ten un fransi"
     },
     "category": "Nom"
   },
@@ -9525,8 +9525,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "frente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça frente",
+      "kea": "Faze frenti"
     },
     "category": "Adverbe"
   },
@@ -9537,8 +9537,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fresco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que fresco!",
+      "kea": "Ki fresku!"
     },
     "category": "Adjectif"
   },
@@ -9549,8 +9549,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "frio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é frio",
+      "kea": "Ka e frio"
     },
     "category": "Adjectif"
   },
@@ -9561,8 +9561,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fruta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste fruta",
+      "kea": "N gosta di es fruta"
     },
     "category": "Nom"
   },
@@ -9573,8 +9573,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fugir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou fugir",
+      "kea": "N ta fuji"
     },
     "category": "Verbe"
   },
@@ -9585,8 +9585,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fumar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de fumar",
+      "kea": "El ta gosta di fuma"
     },
     "category": "Verbe"
   },
@@ -9597,8 +9597,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fumo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste fumo",
+      "kea": "N gosta di es fumu"
     },
     "category": "Nom"
   },
@@ -9609,8 +9609,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "funil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o funil?",
+      "kea": "Undi ki funau sta?"
     },
     "category": "Nom"
   },
@@ -9621,8 +9621,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fundo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O fundo é bonito",
+      "kea": "Fundu e bunitu"
     },
     "category": "Nom"
   },
@@ -9633,8 +9633,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "funk"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o funk?",
+      "kea": "Undi ki funk sta?"
     },
     "category": "Nom"
   },
@@ -9645,8 +9645,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "furo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste furo",
+      "kea": "N gosta di es furi"
     },
     "category": "Nom"
   },
@@ -9657,8 +9657,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "futebol"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um futebol",
+      "kea": "N ten un futebol"
     },
     "category": "Nom"
   },
@@ -9669,8 +9669,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "futuro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o futuro?",
+      "kea": "Undi ki futuru sta?"
     },
     "category": "Nom"
   },
@@ -9681,8 +9681,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gabar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de gabar",
+      "kea": "El ta gosta di gaba"
     },
     "category": "Verbe"
   },
@@ -9693,8 +9693,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gaiola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um gaiola",
+      "kea": "N ten un gaiola"
     },
     "category": "Nom"
   },
@@ -9705,8 +9705,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "galinha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o galinha?",
+      "kea": "Undi ki galinha sta?"
     },
     "category": "Nom"
   },
@@ -9717,8 +9717,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "galo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um galo",
+      "kea": "N ten un galu"
     },
     "category": "Nom"
   },
@@ -9729,8 +9729,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ganhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos ganhar juntos",
+      "kea": "Nu bai ganha djuntu"
     },
     "category": "Verbe"
   },
@@ -9741,8 +9741,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "garantir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero garantir",
+      "kea": "N ka kre garanti"
     },
     "category": "Verbe"
   },
@@ -9753,8 +9753,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "garfo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste garfo",
+      "kea": "N gosta di es garfa"
     },
     "category": "Nom"
   },
@@ -9765,8 +9765,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "garganta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste garganta",
+      "kea": "N gosta di es garganta"
     },
     "category": "Nom"
   },
@@ -9777,8 +9777,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gastar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de gastar",
+      "kea": "El ta gosta di gast"
     },
     "category": "Verbe"
   },
@@ -9789,8 +9789,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o gato?",
+      "kea": "Undi ki gatu sta?"
     },
     "category": "Nom"
   },
@@ -9801,8 +9801,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O gelo é bonito",
+      "kea": "Gelu e bunitu"
     },
     "category": "Nom"
   },
@@ -9813,8 +9813,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gemer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de gemer",
+      "kea": "El ta gosta di gem"
     },
     "category": "Verbe"
   },
@@ -9825,8 +9825,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "glória"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o glória?",
+      "kea": "Undi ki gloria sta?"
     },
     "category": "Nom"
   },
@@ -9837,8 +9837,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "golpe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este golpe é meu",
+      "kea": "Es golpi e nha"
     },
     "category": "Nom"
   },
@@ -9849,8 +9849,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gorda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é gorda",
+      "kea": "Ka e gorda"
     },
     "category": "Adjectif"
   },
@@ -9861,8 +9861,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gordo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é gordo",
+      "kea": "Kes koiza e gordu"
     },
     "category": "Adjectif"
   },
@@ -9873,8 +9873,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gosto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um gosto",
+      "kea": "N ten un gost"
     },
     "category": "Nom"
   },
@@ -9885,8 +9885,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gostar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero gostar",
+      "kea": "N ka kre gosta"
     },
     "category": "Verbe"
   },
@@ -9897,8 +9897,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "governo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o governo?",
+      "kea": "Undi ki governu sta?"
     },
     "category": "Nom"
   },
@@ -9909,8 +9909,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gozar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou gozar",
+      "kea": "N ta gosa"
     },
     "category": "Verbe"
   },
@@ -9921,8 +9921,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grande"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é grande",
+      "kea": "Kes koiza e grandi"
     },
     "category": "Adjectif"
   },
@@ -9933,8 +9933,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grau"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um grau",
+      "kea": "N ten un grau"
     },
     "category": "Nom"
   },
@@ -9945,8 +9945,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gravata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste gravata",
+      "kea": "N gosta di es gravata"
     },
     "category": "Nom"
   },
@@ -9957,8 +9957,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grave"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que grave!",
+      "kea": "Ki grave!"
     },
     "category": "Adjectif"
   },
@@ -9969,8 +9969,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grávida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que grávida!",
+      "kea": "Ki gravida!"
     },
     "category": "Adjectif"
   },
@@ -9981,8 +9981,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o grelo?",
+      "kea": "Undi ki grelu sta?"
     },
     "category": "Nom"
   },
@@ -9993,8 +9993,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gritar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos gritar juntos",
+      "kea": "Nu bai grita djuntu"
     },
     "category": "Verbe"
   },
@@ -10005,8 +10005,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O grito é bonito",
+      "kea": "Gritu e bunitu"
     },
     "category": "Nom"
   },
@@ -10017,8 +10017,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grosso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito grosso",
+      "kea": "El e muitu grosu"
     },
     "category": "Adjectif"
   },
@@ -10029,8 +10029,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "grupo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este grupo é meu",
+      "kea": "Es grupu e nha"
     },
     "category": "Nom"
   },
@@ -10041,8 +10041,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "guardar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos guardar agora",
+      "kea": "Nu ten ki guarda agora"
     },
     "category": "Verbe"
   },
@@ -10053,8 +10053,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "guerra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um guerra",
+      "kea": "N ten un guerra"
     },
     "category": "Nom"
   },
@@ -10065,8 +10065,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "guia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o guia?",
+      "kea": "Undi ki guia sta?"
     },
     "category": "Nom"
   },
@@ -10077,8 +10077,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "haver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou haver",
+      "kea": "N ta habela"
     },
     "category": "Verbe"
   },
@@ -10089,8 +10089,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hábil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito hábil",
+      "kea": "El e muitu habil"
     },
     "category": "Adjectif"
   },
@@ -10101,8 +10101,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "habitante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este habitante é meu",
+      "kea": "Es babitante e nha"
     },
     "category": "Nom"
   },
@@ -10113,8 +10113,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hábito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste hábito",
+      "kea": "N gosta di es habito"
     },
     "category": "Nom"
   },
@@ -10125,8 +10125,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "harmonia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um harmonia",
+      "kea": "N ten un harmonia"
     },
     "category": "Nom"
   },
@@ -10137,8 +10137,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "herói"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este herói é meu",
+      "kea": "Es hero e nha"
     },
     "category": "Nom"
   },
@@ -10149,8 +10149,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "higiene"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um higiene",
+      "kea": "N ten un hijiene"
     },
     "category": "Nom"
   },
@@ -10161,8 +10161,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este hino é meu",
+      "kea": "Es hino e nha"
     },
     "category": "Nom"
   },
@@ -10173,8 +10173,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "história"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O história é bonito",
+      "kea": "Historia e bunitu"
     },
     "category": "Nom"
   },
@@ -10185,8 +10185,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hoje"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou hoje",
+      "kea": "N ta bai hoje"
     },
     "category": "Adverbe"
   },
@@ -10197,8 +10197,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "homem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O homem é bonito",
+      "kea": "Homem e bunitu"
     },
     "category": "Nom"
   },
@@ -10209,8 +10209,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "honesto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é honesto",
+      "kea": "Kes koiza e honesto"
     },
     "category": "Adjectif"
   },
@@ -10221,8 +10221,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "honra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um honra",
+      "kea": "N ten un honra"
     },
     "category": "Nom"
   },
@@ -10233,8 +10233,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este hora é meu",
+      "kea": "Es hora e nha"
     },
     "category": "Nom"
   },
@@ -10245,8 +10245,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "horizonte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este horizonte é meu",
+      "kea": "Es horizonti e nha"
     },
     "category": "Nom"
   },
@@ -10257,8 +10257,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hospital"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O hospital é bonito",
+      "kea": "Hospital e bunitu"
     },
     "category": "Nom"
   },
@@ -10269,8 +10269,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hotel"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um hotel",
+      "kea": "N ten un hotel"
     },
     "category": "Nom"
   },
@@ -10281,8 +10281,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "humano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é humano",
+      "kea": "Ka e humanu"
     },
     "category": "Adjectif"
   },
@@ -10293,8 +10293,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "humilde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito humilde",
+      "kea": "El e muitu humildi"
     },
     "category": "Adjectif"
   },
@@ -10305,8 +10305,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "e"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu e tu",
+      "kea": "N i bo"
     },
     "category": "Conjonction"
   },
@@ -10317,8 +10317,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de ia",
+      "kea": "El ta gosta di ia"
     },
     "category": "Verbe"
   },
@@ -10329,8 +10329,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "idade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste idade",
+      "kea": "N gosta di es idadi"
     },
     "category": "Nom"
   },
@@ -10341,8 +10341,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ideia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ideia?",
+      "kea": "Undi ki idea sta?"
     },
     "category": "Nom"
   },
@@ -10353,8 +10353,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ideal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito ideal",
+      "kea": "El e muitu ideal"
     },
     "category": "Adjectif"
   },
@@ -10365,8 +10365,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "identificar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero identificar",
+      "kea": "N ka kre identifika"
     },
     "category": "Verbe"
   },
@@ -10377,8 +10377,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "idioma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um idioma",
+      "kea": "N ten un idioma"
     },
     "category": "Nom"
   },
@@ -10389,8 +10389,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "igreja"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste igreja",
+      "kea": "N gosta di es igreja"
     },
     "category": "Nom"
   },
@@ -10401,8 +10401,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "igual"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é igual",
+      "kea": "Ka e igual"
     },
     "category": "Adjectif"
   },
@@ -10413,8 +10413,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ligar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos ligar agora",
+      "kea": "Nu ten ki ilga agora"
     },
     "category": "Verbe"
   },
@@ -10425,8 +10425,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ilha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este ilha é meu",
+      "kea": "Es ilha e nha"
     },
     "category": "Nom"
   },
@@ -10437,8 +10437,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ilusão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ilusão",
+      "kea": "N ten un iluzao"
     },
     "category": "Nom"
   },
@@ -10449,8 +10449,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "imagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o imagem?",
+      "kea": "Undi ki imajen sta?"
     },
     "category": "Nom"
   },
@@ -10461,8 +10461,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "imaginar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou imaginar",
+      "kea": "N ta imajina"
     },
     "category": "Verbe"
   },
@@ -10473,8 +10473,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "em vez de"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou em vez de casa",
+      "kea": "N ta bai imbes kasa"
     },
     "category": "Préposition"
   },
@@ -10485,8 +10485,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "imediato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa imediato",
+      "kea": "Un pesoa immediatu"
     },
     "category": "Adjectif"
   },
@@ -10497,8 +10497,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "imensa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que imensa!",
+      "kea": "Ki impensa!"
     },
     "category": "Adjectif"
   },
@@ -10509,8 +10509,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "império"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o império?",
+      "kea": "Undi ki imperiu sta?"
     },
     "category": "Nom"
   },
@@ -10521,8 +10521,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "importar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou importar",
+      "kea": "N ta importa"
     },
     "category": "Verbe"
   },
@@ -10533,8 +10533,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "importante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que importante!",
+      "kea": "Ki importanti!"
     },
     "category": "Adjectif"
   },
@@ -10545,8 +10545,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "impossível"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa impossível",
+      "kea": "Un pesoa imposivel"
     },
     "category": "Adjectif"
   },
@@ -10557,8 +10557,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "imposto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o imposto?",
+      "kea": "Undi ki impostu sta?"
     },
     "category": "Nom"
   },
@@ -10569,8 +10569,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inaugurar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos inaugurar juntos",
+      "kea": "Nu bai inaugura djuntu"
     },
     "category": "Verbe"
   },
@@ -10581,8 +10581,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "independência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste independência",
+      "kea": "N gosta di es independensia"
     },
     "category": "Nom"
   },
@@ -10593,8 +10593,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "indicar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos indicar juntos",
+      "kea": "Nu bai indika djuntu"
     },
     "category": "Verbe"
   },
@@ -10605,8 +10605,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "indivíduo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este indivíduo é meu",
+      "kea": "Es individuo e nha"
     },
     "category": "Nom"
   },
@@ -10617,8 +10617,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "indústria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o indústria?",
+      "kea": "Undi ki industria sta?"
     },
     "category": "Nom"
   },
@@ -10629,8 +10629,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "infância"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o infância?",
+      "kea": "Undi ki infancia sta?"
     },
     "category": "Nom"
   },
@@ -10641,8 +10641,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inferno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um inferno",
+      "kea": "N ten un infernu"
     },
     "category": "Nom"
   },
@@ -10653,8 +10653,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "informação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um informação",
+      "kea": "N ten un informason"
     },
     "category": "Nom"
   },
@@ -10665,8 +10665,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inglês"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa inglês",
+      "kea": "Un pesoa ingles"
     },
     "category": "Adjectif"
   },
@@ -10677,8 +10677,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "início"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este início é meu",
+      "kea": "Es inisiu e nha"
     },
     "category": "Nom"
   },
@@ -10689,8 +10689,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inimigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este inimigo é meu",
+      "kea": "Es inimigu e nha"
     },
     "category": "Nom"
   },
@@ -10701,8 +10701,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "injustiça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o injustiça?",
+      "kea": "Undi ki injustisa sta?"
     },
     "category": "Nom"
   },
@@ -10713,8 +10713,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "impossível"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa impossível",
+      "kea": "Un pesoa inposivel"
     },
     "category": "Adjectif"
   },
@@ -10725,8 +10725,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inseto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este inseto é meu",
+      "kea": "Es inseptu e nha"
     },
     "category": "Nom"
   },
@@ -10737,8 +10737,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "insistir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de insistir",
+      "kea": "El ta gosta di insisti"
     },
     "category": "Verbe"
   },
@@ -10749,8 +10749,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "instante"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste instante",
+      "kea": "N gosta di es instante"
     },
     "category": "Nom"
   },
@@ -10761,8 +10761,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "instituição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este instituição é meu",
+      "kea": "Es instituison e nha"
     },
     "category": "Nom"
   },
@@ -10773,8 +10773,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "instrumento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste instrumento",
+      "kea": "N gosta di es instrumentu"
     },
     "category": "Nom"
   },
@@ -10785,8 +10785,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inteiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa inteiro",
+      "kea": "Un pesoa inteiru"
     },
     "category": "Adjectif"
   },
@@ -10797,8 +10797,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inteligente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito inteligente",
+      "kea": "El e muitu inteli"
     },
     "category": "Adjectif"
   },
@@ -10809,8 +10809,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "intenção"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este intenção é meu",
+      "kea": "Es intension e nha"
     },
     "category": "Nom"
   },
@@ -10821,8 +10821,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "interessar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de interessar",
+      "kea": "El ta gosta di interesa"
     },
     "category": "Verbe"
   },
@@ -10833,8 +10833,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "interesse"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um interesse",
+      "kea": "N ten un interesi"
     },
     "category": "Nom"
   },
@@ -10845,8 +10845,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "internacional"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito internacional",
+      "kea": "El e muitu internasional"
     },
     "category": "Adjectif"
   },
@@ -10857,8 +10857,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "interno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é interno",
+      "kea": "Kes koiza e internu"
     },
     "category": "Adjectif"
   },
@@ -10869,8 +10869,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "interpretar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos interpretar juntos",
+      "kea": "Nu bai interpreta djuntu"
     },
     "category": "Verbe"
   },
@@ -10881,8 +10881,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "intervalo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste intervalo",
+      "kea": "N gosta di es interval"
     },
     "category": "Nom"
   },
@@ -10893,8 +10893,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dentro / em"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Dentro onde?",
+      "kea": "Intru undi?"
     },
     "category": "Préposition"
   },
@@ -10905,8 +10905,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inútil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é inútil",
+      "kea": "Ka e inutil"
     },
     "category": "Adjectif"
   },
@@ -10917,8 +10917,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inverno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste inverno",
+      "kea": "N gosta di es invernu"
     },
     "category": "Nom"
   },
@@ -10929,8 +10929,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "investigar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos investigar juntos",
+      "kea": "Nu bai investiga djuntu"
     },
     "category": "Verbe"
   },
@@ -10941,8 +10941,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inveja"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este inveja é meu",
+      "kea": "Es inveja e nha"
     },
     "category": "Nom"
   },
@@ -10953,8 +10953,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "convidar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou convidar",
+      "kea": "N ta invita"
     },
     "category": "Verbe"
   },
@@ -10965,8 +10965,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos ir juntos",
+      "kea": "Nu bai ir djuntu"
     },
     "category": "Verbe"
   },
@@ -10977,8 +10977,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "irmã"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o irmã?",
+      "kea": "Undi ki irma sta?"
     },
     "category": "Nom"
   },
@@ -11001,8 +11001,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ilha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ilha?",
+      "kea": "Undi ki isla sta?"
     },
     "category": "Nom"
   },
@@ -11013,8 +11013,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "história"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o história?",
+      "kea": "Undi ki istoria sta?"
     },
     "category": "Nom"
   },
@@ -11025,8 +11025,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "italiano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito italiano",
+      "kea": "El e muitu italianu"
     },
     "category": "Adjectif"
   },
@@ -11037,8 +11037,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "já"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Já está bem",
+      "kea": "Ja sta ben"
     },
     "category": "Adverbe"
   },
@@ -11049,8 +11049,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "jantar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O jantar é bonito",
+      "kea": "Jantar e bunitu"
     },
     "category": "Nom"
   },
@@ -11061,8 +11061,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "janeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O janeiro é bonito",
+      "kea": "Janeru e bunitu"
     },
     "category": "Nom"
   },
@@ -11073,8 +11073,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "jardim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um jardim",
+      "kea": "N ten un jardin"
     },
     "category": "Nom"
   },
@@ -11085,8 +11085,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "jeito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O jeito é bonito",
+      "kea": "Jeitu e bunitu"
     },
     "category": "Nom"
   },
@@ -11097,8 +11097,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "jóia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um jóia",
+      "kea": "N ten un joia"
     },
     "category": "Nom"
   },
@@ -11109,8 +11109,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "jornal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este jornal é meu",
+      "kea": "Es jornal e nha"
     },
     "category": "Nom"
   },
@@ -11121,8 +11121,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "jovem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é jovem",
+      "kea": "Ka e joven"
     },
     "category": "Adjectif"
   },
@@ -11133,8 +11133,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "judeu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O judeu é bonito",
+      "kea": "Judeu e bunitu"
     },
     "category": "Nom"
   },
@@ -11145,8 +11145,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "juiz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este juiz é meu",
+      "kea": "Es juiz e nha"
     },
     "category": "Nom"
   },
@@ -11157,8 +11157,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "julgar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero julgar",
+      "kea": "N ka kre julga"
     },
     "category": "Verbe"
   },
@@ -11169,8 +11169,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "julho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O julho é bonito",
+      "kea": "Julhu e bunitu"
     },
     "category": "Nom"
   },
@@ -11181,8 +11181,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "junho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um junho",
+      "kea": "N ten un junhu"
     },
     "category": "Nom"
   },
@@ -11193,8 +11193,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "juntar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de juntar",
+      "kea": "El ta gosta di junta"
     },
     "category": "Verbe"
   },
@@ -11205,8 +11205,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "juramento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O juramento é bonito",
+      "kea": "Juramentu e bunitu"
     },
     "category": "Nom"
   },
@@ -11217,8 +11217,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "justiça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este justiça é meu",
+      "kea": "Es justisa e nha"
     },
     "category": "Nom"
   },
@@ -11229,8 +11229,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "justo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é justo",
+      "kea": "Kes koiza e justu"
     },
     "category": "Adjectif"
   },
@@ -11241,8 +11241,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "juventude"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um juventude",
+      "kea": "N ten un juventudi"
     },
     "category": "Nom"
   },
@@ -11253,8 +11253,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "não"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não não",
+      "kea": "Ka ka"
     },
     "category": "Adverbe"
   },
@@ -11265,8 +11265,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acabar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou acabar",
+      "kea": "N ta kaba"
     },
     "category": "Verbe"
   },
@@ -11277,8 +11277,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cabeça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o cabeça?",
+      "kea": "Undi ki kabesa sta?"
     },
     "category": "Nom"
   },
@@ -11289,8 +11289,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cabelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este cabelo é meu",
+      "kea": "Es kabelu e nha"
     },
     "category": "Nom"
   },
@@ -11301,8 +11301,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cabrito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este cabrito é meu",
+      "kea": "Es kabrit e nha"
     },
     "category": "Nom"
   },
@@ -11313,8 +11313,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cachet"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O cachet é bonito",
+      "kea": "Kacheu e bunitu"
     },
     "category": "Nom"
   },
@@ -11325,8 +11325,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cadeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este cadeira é meu",
+      "kea": "Es kadeira e nha"
     },
     "category": "Nom"
   },
@@ -11337,8 +11337,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "café"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o café?",
+      "kea": "Undi ki kafe sta?"
     },
     "category": "Nom"
   },
@@ -11349,8 +11349,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "caixa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um caixa",
+      "kea": "N ten un kaisa"
     },
     "category": "Nom"
   },
@@ -11361,8 +11361,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "caju"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este caju é meu",
+      "kea": "Es kaju e nha"
     },
     "category": "Nom"
   },
@@ -11373,8 +11373,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "calar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de calar",
+      "kea": "El ta gosta di kala"
     },
     "category": "Verbe"
   },
@@ -11385,8 +11385,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "caldo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o caldo?",
+      "kea": "Undi ki kaldu sta?"
     },
     "category": "Nom"
   },
@@ -11397,8 +11397,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "caminho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste caminho",
+      "kea": "N gosta di es kaminhu"
     },
     "category": "Nom"
   },
@@ -11409,8 +11409,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "camisa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este camisa é meu",
+      "kea": "Es kamiza e nha"
     },
     "category": "Nom"
   },
@@ -11421,8 +11421,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "caneta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste caneta",
+      "kea": "N gosta di es kaneta"
     },
     "category": "Nom"
   },
@@ -11433,8 +11433,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cantar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero cantar",
+      "kea": "N ka kre kanta"
     },
     "category": "Verbe"
   },
@@ -11445,8 +11445,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "canto / esquina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um canto",
+      "kea": "N ten un kanton"
     },
     "category": "Nom"
   },
@@ -11457,8 +11457,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "capaz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que capaz!",
+      "kea": "Ki kapas!"
     },
     "category": "Adjectif"
   },
@@ -11469,8 +11469,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "capital"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este capital é meu",
+      "kea": "Es kapital e nha"
     },
     "category": "Nom"
   },
@@ -11481,8 +11481,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "capitão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O capitão é bonito",
+      "kea": "Kapitan e bunitu"
     },
     "category": "Nom"
   },
@@ -11493,8 +11493,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cara"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste cara",
+      "kea": "N gosta di es kara"
     },
     "category": "Nom"
   },
@@ -11505,8 +11505,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "caráter"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o caráter?",
+      "kea": "Undi ki karater sta?"
     },
     "category": "Nom"
   },
@@ -11517,8 +11517,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "carga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este carga é meu",
+      "kea": "Es karga e nha"
     },
     "category": "Nom"
   },
@@ -11529,8 +11529,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "carne"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este carne é meu",
+      "kea": "Es karni e nha"
     },
     "category": "Nom"
   },
@@ -11541,8 +11541,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "carta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste carta",
+      "kea": "N gosta di es karta"
     },
     "category": "Nom"
   },
@@ -11553,8 +11553,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "carro / caro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O carro é bonito",
+      "kea": "Karu e bunitu"
     },
     "category": "Nom"
   },
@@ -11577,8 +11577,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "casar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de casar",
+      "kea": "El ta gosta di kaza"
     },
     "category": "Verbe"
   },
@@ -11589,8 +11589,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "casamento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um casamento",
+      "kea": "N ten un kazamentu"
     },
     "category": "Nom"
   },
@@ -11601,8 +11601,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "que"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que também",
+      "kea": "Ke tanbé"
     },
     "category": "Pronom"
   },
@@ -11613,8 +11613,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quebrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de quebrar",
+      "kea": "El ta gosta di kebra"
     },
     "category": "Verbe"
   },
@@ -11625,8 +11625,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aquele / aquela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aquele é meu",
+      "kea": "Es kel e nha"
     },
     "category": "Démonstratif"
   },
@@ -11637,8 +11637,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "este / esta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este este é meu",
+      "kea": "Es keli e nha"
     },
     "category": "Démonstratif"
   },
@@ -11649,8 +11649,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aquele / aquela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aquele?",
+      "kea": "Undi ki kela sta?"
     },
     "category": "Démonstratif"
   },
@@ -11661,8 +11661,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Quem vou contigo",
+      "kea": "Kem ta bai ku bo"
     },
     "category": "Pronom"
   },
@@ -11673,8 +11673,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é quente",
+      "kea": "Kes koiza e kenti"
     },
     "category": "Adjectif"
   },
@@ -11685,8 +11685,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "que / quem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Para que",
+      "kea": "Pa ki"
     },
     "category": "Pronom"
   },
@@ -11697,8 +11697,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aquele"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aquele é meu",
+      "kea": "Es kil e nha"
     },
     "category": "Démonstratif"
   },
@@ -11709,8 +11709,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quilo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um quilo",
+      "kea": "N ten un kilo"
     },
     "category": "Nom"
   },
@@ -11721,8 +11721,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quinta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o quinta?",
+      "kea": "Undi ki kinta sta?"
     },
     "category": "Nom"
   },
@@ -11733,8 +11733,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "classe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste classe",
+      "kea": "N gosta di es klase"
     },
     "category": "Nom"
   },
@@ -11745,8 +11745,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "claro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é claro",
+      "kea": "Kes koiza e klaru"
     },
     "category": "Adjectif"
   },
@@ -11757,8 +11757,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cobra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um cobra",
+      "kea": "N ten un kobra"
     },
     "category": "Nom"
   },
@@ -11769,8 +11769,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "coitado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito coitado",
+      "kea": "El e muitu koitadu"
     },
     "category": "Adjectif"
   },
@@ -11781,8 +11781,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "colega"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O colega é bonito",
+      "kea": "Kolega e bunitu"
     },
     "category": "Nom"
   },
@@ -11793,8 +11793,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "comer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero comer",
+      "kea": "N ka kre kome"
     },
     "category": "Verbe"
   },
@@ -11805,8 +11805,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "comércio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um comércio",
+      "kea": "N ten un komersiu"
     },
     "category": "Nom"
   },
@@ -11817,8 +11817,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "comum"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa comum",
+      "kea": "Un pesoa komum"
     },
     "category": "Adjectif"
   },
@@ -11829,8 +11829,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "combinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero combinar",
+      "kea": "N ka kre konbina"
     },
     "category": "Verbe"
   },
@@ -11841,8 +11841,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "confiança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o confiança?",
+      "kea": "Undi ki konfiansa sta?"
     },
     "category": "Nom"
   },
@@ -11853,8 +11853,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "confessar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de confessar",
+      "kea": "El ta gosta di konfesa"
     },
     "category": "Verbe"
   },
@@ -11865,8 +11865,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "conhecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos conhecer agora",
+      "kea": "Nu ten ki konhese agora"
     },
     "category": "Verbe"
   },
@@ -11877,8 +11877,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "conquista"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um conquista",
+      "kea": "N ten un konkista"
     },
     "category": "Nom"
   },
@@ -11889,8 +11889,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "conselho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este conselho é meu",
+      "kea": "Es konsedju e nha"
     },
     "category": "Nom"
   },
@@ -11901,8 +11901,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "conseguir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de conseguir",
+      "kea": "El ta gosta di konsgi"
     },
     "category": "Verbe"
   },
@@ -11913,8 +11913,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "conta / contar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos conta agora",
+      "kea": "Nu ten ki konta agora"
     },
     "category": "Verbe"
   },
@@ -11925,8 +11925,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "contente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é contente",
+      "kea": "Kes koiza e kontenti"
     },
     "category": "Adjectif"
   },
@@ -11937,8 +11937,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "continuar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos continuar agora",
+      "kea": "Nu ten ki kontinua agora"
     },
     "category": "Verbe"
   },
@@ -11949,8 +11949,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "contra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Contra aqui",
+      "kea": "Kontra li"
     },
     "category": "Préposition"
   },
@@ -11961,8 +11961,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "contrário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é contrário",
+      "kea": "Ka e kontrariu"
     },
     "category": "Adjectif"
   },
@@ -11973,8 +11973,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "convencer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos convencer agora",
+      "kea": "Nu ten ki konvinsi agora"
     },
     "category": "Verbe"
   },
@@ -11985,8 +11985,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "copo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste copo",
+      "kea": "N gosta di es kopo"
     },
     "category": "Nom"
   },
@@ -11997,8 +11997,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste cor",
+      "kea": "N gosta di es kor"
     },
     "category": "Nom"
   },
@@ -12009,8 +12009,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "coragem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste coragem",
+      "kea": "N gosta di es koraji"
     },
     "category": "Nom"
   },
@@ -12021,8 +12021,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "corda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este corda é meu",
+      "kea": "Es korda e nha"
     },
     "category": "Nom"
   },
@@ -12033,8 +12033,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "correr"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos correr juntos",
+      "kea": "Nu bai kore djuntu"
     },
     "category": "Verbe"
   },
@@ -12045,8 +12045,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "corpo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este corpo é meu",
+      "kea": "Es korpu e nha"
     },
     "category": "Nom"
   },
@@ -12057,8 +12057,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "correio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o correio?",
+      "kea": "Undi ki korreiu sta?"
     },
     "category": "Nom"
   },
@@ -12069,8 +12069,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cortar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos cortar juntos",
+      "kea": "Nu bai korta djuntu"
     },
     "category": "Verbe"
   },
@@ -12081,8 +12081,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "costas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este costas é meu",
+      "kea": "Es kosta e nha"
     },
     "category": "Nom"
   },
@@ -12093,8 +12093,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "costumar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste costumar",
+      "kea": "N gosta di es kostuma"
     },
     "category": "Nom"
   },
@@ -12105,8 +12105,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cobrir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de cobrir",
+      "kea": "El ta gosta di kover"
     },
     "category": "Verbe"
   },
@@ -12117,8 +12117,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cozinha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste cozinha",
+      "kea": "N gosta di es kozinha"
     },
     "category": "Nom"
   },
@@ -12129,8 +12129,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "querer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de querer",
+      "kea": "El ta gosta di kre"
     },
     "category": "Verbe"
   },
@@ -12141,8 +12141,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "crédito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um crédito",
+      "kea": "N ten un kredi"
     },
     "category": "Nom"
   },
@@ -12153,8 +12153,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "crédito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste crédito",
+      "kea": "N gosta di es kreditu"
     },
     "category": "Nom"
   },
@@ -12165,8 +12165,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "criada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um criada",
+      "kea": "N ten un kriada"
     },
     "category": "Nom"
   },
@@ -12177,8 +12177,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "criança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um criança",
+      "kea": "N ten un kriansa"
     },
     "category": "Nom"
   },
@@ -12189,8 +12189,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "criar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos criar juntos",
+      "kea": "Nu bai kriar djuntu"
     },
     "category": "Verbe"
   },
@@ -12201,8 +12201,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "crime"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um crime",
+      "kea": "N ten un krimi"
     },
     "category": "Nom"
   },
@@ -12213,8 +12213,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "crioulo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este crioulo é meu",
+      "kea": "Es kriolu e nha"
     },
     "category": "Nom"
   },
@@ -12225,8 +12225,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cristão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O cristão é bonito",
+      "kea": "Kristan e bunitu"
     },
     "category": "Nom"
   },
@@ -12237,8 +12237,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "crítica"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O crítica é bonito",
+      "kea": "Kritika e bunitu"
     },
     "category": "Nom"
   },
@@ -12249,8 +12249,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cruz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O cruz é bonito",
+      "kea": "Kruz e bunitu"
     },
     "category": "Nom"
   },
@@ -12261,8 +12261,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "qual"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Qual vou contigo",
+      "kea": "Kual ta bai ku bo"
     },
     "category": "Pronom"
   },
@@ -12273,8 +12273,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "qualidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um qualidade",
+      "kea": "N ten un kualidadi"
     },
     "category": "Nom"
   },
@@ -12285,8 +12285,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quando"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala quando",
+      "kea": "El ta fala kuando"
     },
     "category": "Adverbe"
   },
@@ -12297,8 +12297,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quanto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é quanto",
+      "kea": "Kes koiza e kuantu"
     },
     "category": "Adjectif"
   },
@@ -12309,8 +12309,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quarto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O quarto é bonito",
+      "kea": "Kuartu e bunitu"
     },
     "category": "Nom"
   },
@@ -12321,8 +12321,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "quatro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Tenho quatro anos",
+      "kea": "N ten kuatro anu"
     },
     "category": "Nombre"
   },
@@ -12333,8 +12333,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Cuba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um Cuba",
+      "kea": "N ten un kuba"
     },
     "category": "Nom"
   },
@@ -12345,8 +12345,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cuidado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este cuidado é meu",
+      "kea": "Es kuidadu e nha"
     },
     "category": "Nom"
   },
@@ -12357,8 +12357,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cuidar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero cuidar",
+      "kea": "N ka kre kuida"
     },
     "category": "Verbe"
   },
@@ -12369,8 +12369,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "colher"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o colher?",
+      "kea": "Undi ki kujer sta?"
     },
     "category": "Nom"
   },
@@ -12381,8 +12381,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "culpa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o culpa?",
+      "kea": "Undi ki kulpa sta?"
     },
     "category": "Nom"
   },
@@ -12393,8 +12393,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cultura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este cultura é meu",
+      "kea": "Es kultura e nha"
     },
     "category": "Nom"
   },
@@ -12405,8 +12405,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cumprimentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos cumprimentar agora",
+      "kea": "Nu ten ki kumprimenta agora"
     },
     "category": "Verbe"
   },
@@ -12417,8 +12417,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cunhado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o cunhado?",
+      "kea": "Undi ki kunhadu sta?"
     },
     "category": "Nom"
   },
@@ -12429,8 +12429,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "curioso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito curioso",
+      "kea": "El e muitu kuriosu"
     },
     "category": "Adjectif"
   },
@@ -12441,8 +12441,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "curto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que curto!",
+      "kea": "Ki kurtu!"
     },
     "category": "Adjectif"
   },
@@ -12453,8 +12453,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "coisas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o coisas?",
+      "kea": "Undi ki kusas sta?"
     },
     "category": "Nom"
   },
@@ -12465,8 +12465,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "costumar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero costumar",
+      "kea": "N ka kre kustuma"
     },
     "category": "Verbe"
   },
@@ -12477,8 +12477,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lá"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou lá",
+      "kea": "N ta bai la"
     },
     "category": "Adverbe"
   },
@@ -12489,8 +12489,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lábios"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lábios?",
+      "kea": "Undi ki labius sta?"
     },
     "category": "Nom"
   },
@@ -12501,8 +12501,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lado?",
+      "kea": "Undi ki lado sta?"
     },
     "category": "Nom"
   },
@@ -12513,8 +12513,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ladrão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ladrão",
+      "kea": "N gosta di es ladron"
     },
     "category": "Nom"
   },
@@ -12525,8 +12525,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lágrima"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lágrima?",
+      "kea": "Undi ki lagrima sta?"
     },
     "category": "Nom"
   },
@@ -12537,8 +12537,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "laje"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este laje é meu",
+      "kea": "Es laja e nha"
     },
     "category": "Nom"
   },
@@ -12549,8 +12549,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lama"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este lama é meu",
+      "kea": "Es lama e nha"
     },
     "category": "Nom"
   },
@@ -12561,8 +12561,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lâmpada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lâmpada?",
+      "kea": "Undi ki lanpada sta?"
     },
     "category": "Nom"
   },
@@ -12573,8 +12573,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lanço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lanço?",
+      "kea": "Undi ki lansu sta?"
     },
     "category": "Nom"
   },
@@ -12585,8 +12585,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lápis"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lápis?",
+      "kea": "Undi ki lapis sta?"
     },
     "category": "Nom"
   },
@@ -12597,8 +12597,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "larga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que larga!",
+      "kea": "Ki larga!"
     },
     "category": "Adjectif"
   },
@@ -12609,8 +12609,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o lata?",
+      "kea": "Undi ki lata sta?"
     },
     "category": "Nom"
   },
@@ -12621,8 +12621,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lavar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de lavar",
+      "kea": "El ta gosta di lava"
     },
     "category": "Verbe"
   },
@@ -12633,8 +12633,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ler"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero ler",
+      "kea": "N ka kre le"
     },
     "category": "Verbe"
   },
@@ -12645,8 +12645,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "leal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é leal",
+      "kea": "Ka e leal"
     },
     "category": "Adjectif"
   },
@@ -12657,8 +12657,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "levar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero levar",
+      "kea": "N ka kre leba"
     },
     "category": "Verbe"
   },
@@ -12669,8 +12669,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lei"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um lei",
+      "kea": "N ten un lei"
     },
     "category": "Nom"
   },
@@ -12681,8 +12681,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "leite"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este leite é meu",
+      "kea": "Es leite e nha"
     },
     "category": "Nom"
   },
@@ -12693,8 +12693,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lembrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero lembrar",
+      "kea": "N ka kre lembra"
     },
     "category": "Verbe"
   },
@@ -12705,8 +12705,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lenha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um lenha",
+      "kea": "N ten un lenha"
     },
     "category": "Nom"
   },
@@ -12717,8 +12717,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é lento",
+      "kea": "Kes koiza e lentu"
     },
     "category": "Adjectif"
   },
@@ -12729,8 +12729,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "leão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um leão",
+      "kea": "N ten un leon"
     },
     "category": "Nom"
   },
@@ -12741,8 +12741,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "levantar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos levantar juntos",
+      "kea": "Nu bai levanta djuntu"
     },
     "category": "Verbe"
   },
@@ -12753,8 +12753,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "leve"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que leve!",
+      "kea": "Ki leve!"
     },
     "category": "Adjectif"
   },
@@ -12765,8 +12765,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aqui"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou aqui",
+      "kea": "N ta bai li"
     },
     "category": "Adverbe"
   },
@@ -12777,8 +12777,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "liberdade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O liberdade é bonito",
+      "kea": "Liberdadi e bunitu"
     },
     "category": "Nom"
   },
@@ -12789,8 +12789,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "livro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O livro é bonito",
+      "kea": "Libru e bunitu"
     },
     "category": "Nom"
   },
@@ -12801,8 +12801,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "líder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O líder é bonito",
+      "kea": "Lider e bunitu"
     },
     "category": "Nom"
   },
@@ -12813,8 +12813,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ligar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero ligar",
+      "kea": "N ka kre liga"
     },
     "category": "Verbe"
   },
@@ -12825,8 +12825,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "limão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste limão",
+      "kea": "N gosta di es limon"
     },
     "category": "Nom"
   },
@@ -12837,8 +12837,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "limpo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é limpo",
+      "kea": "Ka e limpu"
     },
     "category": "Adjectif"
   },
@@ -12849,8 +12849,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "língua"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este língua é meu",
+      "kea": "Es lingua e nha"
     },
     "category": "Nom"
   },
@@ -12861,8 +12861,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "linha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este linha é meu",
+      "kea": "Es linha e nha"
     },
     "category": "Nom"
   },
@@ -12873,8 +12873,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "liso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é liso",
+      "kea": "Ka e lisu"
     },
     "category": "Adjectif"
   },
@@ -12885,8 +12885,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "livre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito livre",
+      "kea": "El e muitu livre"
     },
     "category": "Adjectif"
   },
@@ -12909,8 +12909,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lixo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este lixo é meu",
+      "kea": "Es lixu e nha"
     },
     "category": "Nom"
   },
@@ -12921,8 +12921,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lobo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um lobo",
+      "kea": "N ten un lobu"
     },
     "category": "Nom"
   },
@@ -12933,8 +12933,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "logo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Logo está bem",
+      "kea": "Logu sta ben"
     },
     "category": "Adverbe"
   },
@@ -12945,8 +12945,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "loja"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um loja",
+      "kea": "N ten un loja"
     },
     "category": "Nom"
   },
@@ -12957,8 +12957,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "longe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é longe",
+      "kea": "Kes koiza e lonji"
     },
     "category": "Adjectif"
   },
@@ -12969,8 +12969,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "louco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é louco",
+      "kea": "Kes koiza e louku"
     },
     "category": "Adjectif"
   },
@@ -12981,8 +12981,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lua"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um lua",
+      "kea": "N ten un lua"
     },
     "category": "Nom"
   },
@@ -12993,8 +12993,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lugar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este lugar é meu",
+      "kea": "Es lugar e nha"
     },
     "category": "Nom"
   },
@@ -13005,8 +13005,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "lume / fogo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este lume é meu",
+      "kea": "Es lume e nha"
     },
     "category": "Nom"
   },
@@ -13017,8 +13017,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "luta / lutar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos luta juntos",
+      "kea": "Nu bai luta djuntu"
     },
     "category": "Verbe"
   },
@@ -13029,8 +13029,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "luz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste luz",
+      "kea": "N gosta di es luz"
     },
     "category": "Nom"
   },
@@ -13041,8 +13041,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Bom mas bonito",
+      "kea": "Bon ma bunitu"
     },
     "category": "Conjonction"
   },
@@ -13053,8 +13053,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "madeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este madeira é meu",
+      "kea": "Es madera e nha"
     },
     "category": "Nom"
   },
@@ -13065,8 +13065,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "madre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o madre?",
+      "kea": "Undi ki madre sta?"
     },
     "category": "Nom"
   },
@@ -13077,8 +13077,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "maduro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa maduro",
+      "kea": "Un pesoa maduru"
     },
     "category": "Adjectif"
   },
@@ -13101,8 +13101,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "magro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito magro",
+      "kea": "El e muitu magru"
     },
     "category": "Adjectif"
   },
@@ -13113,8 +13113,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mãe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste mãe",
+      "kea": "N gosta di es mai"
     },
     "category": "Nom"
   },
@@ -13125,8 +13125,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "maior"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa maior",
+      "kea": "Un pesoa maior"
     },
     "category": "Adjectif"
   },
@@ -13137,8 +13137,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mais"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Mais está bem",
+      "kea": "Mais sta ben"
     },
     "category": "Adverbe"
   },
@@ -13149,8 +13149,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não mal",
+      "kea": "Ka mal"
     },
     "category": "Adverbe"
   },
@@ -13161,8 +13161,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mala"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mala é meu",
+      "kea": "Es mala e nha"
     },
     "category": "Nom"
   },
@@ -13173,8 +13173,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "malandro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O malandro é bonito",
+      "kea": "Malandru e bunitu"
     },
     "category": "Nom"
   },
@@ -13185,8 +13185,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "maldade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste maldade",
+      "kea": "N gosta di es maldadi"
     },
     "category": "Nom"
   },
@@ -13197,8 +13197,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mau"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa mau",
+      "kea": "Un pesoa malu"
     },
     "category": "Adjectif"
   },
@@ -13209,8 +13209,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mãe / mama"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um mãe",
+      "kea": "N ten un mama"
     },
     "category": "Nom"
   },
@@ -13221,8 +13221,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mandar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero mandar",
+      "kea": "N ka kre manda"
     },
     "category": "Verbe"
   },
@@ -13233,8 +13233,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "maneira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste maneira",
+      "kea": "N gosta di es manera"
     },
     "category": "Nom"
   },
@@ -13245,8 +13245,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "manga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O manga é bonito",
+      "kea": "Manga e bunitu"
     },
     "category": "Nom"
   },
@@ -13257,8 +13257,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "manhã"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este manhã é meu",
+      "kea": "Es manha e nha"
     },
     "category": "Nom"
   },
@@ -13269,8 +13269,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "manteiga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este manteiga é meu",
+      "kea": "Es manteiga e nha"
     },
     "category": "Nom"
   },
@@ -13281,8 +13281,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste mão",
+      "kea": "N gosta di es mao"
     },
     "category": "Nom"
   },
@@ -13305,8 +13305,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "maravilhoso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é maravilhoso",
+      "kea": "Ka e maravu"
     },
     "category": "Adjectif"
   },
@@ -13317,8 +13317,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "marca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste marca",
+      "kea": "N gosta di es marka"
     },
     "category": "Nom"
   },
@@ -13329,8 +13329,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mármore"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mármore é meu",
+      "kea": "Es marmore e nha"
     },
     "category": "Nom"
   },
@@ -13341,8 +13341,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "março"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este março é meu",
+      "kea": "Es marsu e nha"
     },
     "category": "Nom"
   },
@@ -13353,8 +13353,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "martelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o martelo?",
+      "kea": "Undi ki martelu sta?"
     },
     "category": "Nom"
   },
@@ -13365,8 +13365,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Aqui mas ali",
+      "kea": "Li mas la"
     },
     "category": "Conjonction"
   },
@@ -13377,8 +13377,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "máscara"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um máscara",
+      "kea": "N ten un maskara"
     },
     "category": "Nom"
   },
@@ -13389,8 +13389,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "massa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o massa?",
+      "kea": "Undi ki massa sta?"
     },
     "category": "Nom"
   },
@@ -13401,8 +13401,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "matar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou matar",
+      "kea": "N ta mata"
     },
     "category": "Verbe"
   },
@@ -13413,8 +13413,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "matemática"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O matemática é bonito",
+      "kea": "Matematika e bunitu"
     },
     "category": "Nom"
   },
@@ -13425,8 +13425,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "material"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste material",
+      "kea": "N gosta di es material"
     },
     "category": "Nom"
   },
@@ -13437,8 +13437,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "matrimónio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é matrimónio",
+      "kea": "Ka e matrimoniu"
     },
     "category": "Adjectif"
   },
@@ -13461,8 +13461,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "me"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Para me",
+      "kea": "Pa me"
     },
     "category": "Pronom"
   },
@@ -13473,8 +13473,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "médico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o médico?",
+      "kea": "Undi ki mediku sta?"
     },
     "category": "Nom"
   },
@@ -13485,8 +13485,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "médio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é médio",
+      "kea": "Kes koiza e mediu"
     },
     "category": "Adjectif"
   },
@@ -13497,8 +13497,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "medo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um medo",
+      "kea": "N ten un medu"
     },
     "category": "Nom"
   },
@@ -13509,8 +13509,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "meia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste meia",
+      "kea": "N gosta di es meia"
     },
     "category": "Nom"
   },
@@ -13521,8 +13521,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "meio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um meio",
+      "kea": "N ten un meio"
     },
     "category": "Nom"
   },
@@ -13533,8 +13533,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mel"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O mel é bonito",
+      "kea": "Mel e bunitu"
     },
     "category": "Nom"
   },
@@ -13545,8 +13545,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "melhor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito melhor",
+      "kea": "El e muitu melhor"
     },
     "category": "Adjectif"
   },
@@ -13557,8 +13557,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "membro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este membro é meu",
+      "kea": "Es membru e nha"
     },
     "category": "Nom"
   },
@@ -13569,8 +13569,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "memória"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o memória?",
+      "kea": "Undi ki memoria sta?"
     },
     "category": "Nom"
   },
@@ -13581,8 +13581,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "menino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O menino é bonito",
+      "kea": "Meninu e bunitu"
     },
     "category": "Nom"
   },
@@ -13593,8 +13593,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "menor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é menor",
+      "kea": "Ka e menor"
     },
     "category": "Adjectif"
   },
@@ -13605,8 +13605,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mensagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mensagem é meu",
+      "kea": "Es mensaji e nha"
     },
     "category": "Nom"
   },
@@ -13617,8 +13617,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mente é meu",
+      "kea": "Es menti e nha"
     },
     "category": "Nom"
   },
@@ -13629,8 +13629,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mentira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mentira é meu",
+      "kea": "Es mentira e nha"
     },
     "category": "Nom"
   },
@@ -13641,8 +13641,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mercado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o mercado?",
+      "kea": "Undi ki merkadu sta?"
     },
     "category": "Nom"
   },
@@ -13653,8 +13653,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mês"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o mês?",
+      "kea": "Undi ki mes sta?"
     },
     "category": "Nom"
   },
@@ -13665,8 +13665,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mesa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o mesa?",
+      "kea": "Undi ki mesa sta?"
     },
     "category": "Nom"
   },
@@ -13677,8 +13677,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mesmo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é mesmo",
+      "kea": "Kes koiza e mesmu"
     },
     "category": "Adjectif"
   },
@@ -13689,8 +13689,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mestre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o mestre?",
+      "kea": "Undi ki mestre sta?"
     },
     "category": "Nom"
   },
@@ -13701,8 +13701,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "metade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este metade é meu",
+      "kea": "Es metadi e nha"
     },
     "category": "Nom"
   },
@@ -13713,8 +13713,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "metal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O metal é bonito",
+      "kea": "Metal e bunitu"
     },
     "category": "Nom"
   },
@@ -13725,8 +13725,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "metro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um metro",
+      "kea": "N ten un metru"
     },
     "category": "Nom"
   },
@@ -13737,8 +13737,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "meu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um meu",
+      "kea": "N ten un meu"
     },
     "category": "Possessif"
   },
@@ -13749,8 +13749,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mexer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de mexer",
+      "kea": "El ta gosta di mexer"
     },
     "category": "Verbe"
   },
@@ -13761,8 +13761,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mês"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O mês é bonito",
+      "kea": "Mez e bunitu"
     },
     "category": "Nom"
   },
@@ -13773,8 +13773,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Para mim",
+      "kea": "Pa mi"
     },
     "category": "Pronom"
   },
@@ -13785,8 +13785,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "milho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste milho",
+      "kea": "N gosta di es midju"
     },
     "category": "Nom"
   },
@@ -13797,8 +13797,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "mil pessoas",
+      "kea": "mil pesoa"
     },
     "category": "Nombre"
   },
@@ -13809,8 +13809,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "milagre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O milagre é bonito",
+      "kea": "Milagre e bunitu"
     },
     "category": "Nom"
   },
@@ -13821,8 +13821,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "milhão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "milhão pessoas",
+      "kea": "milhon pesoa"
     },
     "category": "Nombre"
   },
@@ -13833,8 +13833,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "militar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é militar",
+      "kea": "Ka e militar"
     },
     "category": "Adjectif"
   },
@@ -13845,8 +13845,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O mina é bonito",
+      "kea": "Mina e bunitu"
     },
     "category": "Nom"
   },
@@ -13857,8 +13857,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "minuto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um minuto",
+      "kea": "N ten un minutu"
     },
     "category": "Nom"
   },
@@ -13869,8 +13869,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos mirar agora",
+      "kea": "Nu ten ki mira agora"
     },
     "category": "Verbe"
   },
@@ -13881,8 +13881,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "missa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um missa",
+      "kea": "N ten un misa"
     },
     "category": "Nom"
   },
@@ -13893,8 +13893,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "miséria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este miséria é meu",
+      "kea": "Es miseria e nha"
     },
     "category": "Nom"
   },
@@ -13905,8 +13905,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "missão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um missão",
+      "kea": "N ten un mision"
     },
     "category": "Nom"
   },
@@ -13917,8 +13917,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mistério"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mistério é meu",
+      "kea": "Es misteriu e nha"
     },
     "category": "Nom"
   },
@@ -13929,8 +13929,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mistura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mistura é meu",
+      "kea": "Es mistura e nha"
     },
     "category": "Nom"
   },
@@ -13941,8 +13941,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mobília"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um mobília",
+      "kea": "N ten un mobilia"
     },
     "category": "Nom"
   },
@@ -13953,8 +13953,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "moda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um moda",
+      "kea": "N ten un moda"
     },
     "category": "Nom"
   },
@@ -13965,8 +13965,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "modelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este modelo é meu",
+      "kea": "Es modelu e nha"
     },
     "category": "Nom"
   },
@@ -13977,8 +13977,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "moderno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que moderno!",
+      "kea": "Ki modernu!"
     },
     "category": "Adjectif"
   },
@@ -13989,8 +13989,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "moeda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste moeda",
+      "kea": "N gosta di es moeda"
     },
     "category": "Nom"
   },
@@ -14001,8 +14001,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "moinho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o moinho?",
+      "kea": "Undi ki moinhu sta?"
     },
     "category": "Nom"
   },
@@ -14013,8 +14013,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "molhado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que molhado!",
+      "kea": "Ki molhadu!"
     },
     "category": "Adjectif"
   },
@@ -14025,8 +14025,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "momento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o momento?",
+      "kea": "Undi ki momentu sta?"
     },
     "category": "Nom"
   },
@@ -14037,8 +14037,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste mão",
+      "kea": "N gosta di es mon"
     },
     "category": "Nom"
   },
@@ -14049,8 +14049,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "montar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de montar",
+      "kea": "El ta gosta di monta"
     },
     "category": "Verbe"
   },
@@ -14061,8 +14061,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "montanha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o montanha?",
+      "kea": "Undi ki montanha sta?"
     },
     "category": "Nom"
   },
@@ -14073,8 +14073,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "monte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O monte é bonito",
+      "kea": "Monti e bunitu"
     },
     "category": "Nom"
   },
@@ -14085,8 +14085,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "moral"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um moral",
+      "kea": "N ten un moral"
     },
     "category": "Nom"
   },
@@ -14097,8 +14097,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "morder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos morder juntos",
+      "kea": "Nu bai morde djuntu"
     },
     "category": "Verbe"
   },
@@ -14109,8 +14109,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "morrer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos morrer agora",
+      "kea": "Nu ten ki more agora"
     },
     "category": "Verbe"
   },
@@ -14121,8 +14121,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "morno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa morno",
+      "kea": "Un pesoa mornu"
     },
     "category": "Adjectif"
   },
@@ -14133,8 +14133,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "morte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste morte",
+      "kea": "N gosta di es morte"
     },
     "category": "Nom"
   },
@@ -14145,8 +14145,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "morto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa morto",
+      "kea": "Un pesoa mortu"
     },
     "category": "Adjectif"
   },
@@ -14157,8 +14157,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mosca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este mosca é meu",
+      "kea": "Es moska e nha"
     },
     "category": "Nom"
   },
@@ -14169,8 +14169,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mostrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero mostrar",
+      "kea": "N ka kre mostra"
     },
     "category": "Verbe"
   },
@@ -14181,8 +14181,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "motivo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O motivo é bonito",
+      "kea": "Motivu e bunitu"
     },
     "category": "Nom"
   },
@@ -14193,8 +14193,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "motor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O motor é bonito",
+      "kea": "Motor e bunitu"
     },
     "category": "Nom"
   },
@@ -14205,8 +14205,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mover"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou mover",
+      "kea": "N ta mover"
     },
     "category": "Verbe"
   },
@@ -14217,8 +14217,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "movimento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o movimento?",
+      "kea": "Undi ki movimentu sta?"
     },
     "category": "Nom"
   },
@@ -14229,8 +14229,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mudar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero mudar",
+      "kea": "N ka kre muda"
     },
     "category": "Verbe"
   },
@@ -14241,8 +14241,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mulher"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste mulher",
+      "kea": "N gosta di es mudjer"
     },
     "category": "Nom"
   },
@@ -14253,8 +14253,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "muito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Muito está bem",
+      "kea": "Muitu sta ben"
     },
     "category": "Adverbe"
   },
@@ -14265,8 +14265,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mula"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste mula",
+      "kea": "N gosta di es mula"
     },
     "category": "Nom"
   },
@@ -14277,8 +14277,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "multa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o multa?",
+      "kea": "Undi ki multa sta?"
     },
     "category": "Nom"
   },
@@ -14289,8 +14289,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "multiplicar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos multiplicar agora",
+      "kea": "Nu ten ki multiplika agora"
     },
     "category": "Verbe"
   },
@@ -14301,8 +14301,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "mundo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste mundo",
+      "kea": "N gosta di es mundu"
     },
     "category": "Nom"
   },
@@ -14313,8 +14313,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "município"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este município é meu",
+      "kea": "Es munisipiu e nha"
     },
     "category": "Nom"
   },
@@ -14325,8 +14325,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "muro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste muro",
+      "kea": "N gosta di es muro"
     },
     "category": "Nom"
   },
@@ -14337,8 +14337,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "música"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um música",
+      "kea": "N ten un musika"
     },
     "category": "Nom"
   },
@@ -14349,8 +14349,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "na / em"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou na casa",
+      "kea": "N ta bai na kasa"
     },
     "category": "Préposition"
   },
@@ -14361,8 +14361,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nacional"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito nacional",
+      "kea": "El e muitu nacional"
     },
     "category": "Adjectif"
   },
@@ -14373,8 +14373,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este nada é meu",
+      "kea": "Es nada e nha"
     },
     "category": "Nom"
   },
@@ -14385,8 +14385,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "namorar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de namorar",
+      "kea": "El ta gosta di namora"
     },
     "category": "Verbe"
   },
@@ -14397,8 +14397,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "namorado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este namorado é meu",
+      "kea": "Es namoradu e nha"
     },
     "category": "Nom"
   },
@@ -14409,8 +14409,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nariz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este nariz é meu",
+      "kea": "Es nariz e nha"
     },
     "category": "Nom"
   },
@@ -14421,8 +14421,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nascer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de nascer",
+      "kea": "El ta gosta di naser"
     },
     "category": "Verbe"
   },
@@ -14433,8 +14433,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o nação?",
+      "kea": "Undi ki nason sta?"
     },
     "category": "Nom"
   },
@@ -14445,8 +14445,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Natal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o Natal?",
+      "kea": "Undi ki natal sta?"
     },
     "category": "Nom"
   },
@@ -14457,8 +14457,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "natural"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é natural",
+      "kea": "Ka e natural"
     },
     "category": "Adjectif"
   },
@@ -14469,8 +14469,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "natureza"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este natureza é meu",
+      "kea": "Es natureza e nha"
     },
     "category": "Nom"
   },
@@ -14481,8 +14481,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "navio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um navio",
+      "kea": "N ten un naviu"
     },
     "category": "Nom"
   },
@@ -14493,8 +14493,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "necessidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um necessidade",
+      "kea": "N ten un necesidadi"
     },
     "category": "Nom"
   },
@@ -14505,8 +14505,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "negar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou negar",
+      "kea": "N ta nega"
     },
     "category": "Verbe"
   },
@@ -14517,8 +14517,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "negócio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um negócio",
+      "kea": "N ten un negociu"
     },
     "category": "Nom"
   },
@@ -14529,8 +14529,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "negro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é negro",
+      "kea": "Ka e negru"
     },
     "category": "Adjectif"
   },
@@ -14541,8 +14541,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu nem tu",
+      "kea": "N nem bo"
     },
     "category": "Conjonction"
   },
@@ -14553,8 +14553,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nervo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um nervo",
+      "kea": "N ten un nervu"
     },
     "category": "Nom"
   },
@@ -14565,8 +14565,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "neto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este neto é meu",
+      "kea": "Es netu e nha"
     },
     "category": "Nom"
   },
@@ -14577,8 +14577,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "neve"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O neve é bonito",
+      "kea": "Neve e bunitu"
     },
     "category": "Nom"
   },
@@ -14589,8 +14589,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ninguém"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ninguém estou bem",
+      "kea": "Ninguen sta ben"
     },
     "category": "Pronom"
   },
@@ -14601,8 +14601,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nenhum"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito nenhum",
+      "kea": "El e muitu ninhum"
     },
     "category": "Adjectif"
   },
@@ -14613,8 +14613,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ninho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ninho",
+      "kea": "N gosta di es ninho"
     },
     "category": "Nom"
   },
@@ -14625,8 +14625,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nível"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este nível é meu",
+      "kea": "Es nivel e nha"
     },
     "category": "Nom"
   },
@@ -14637,8 +14637,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nó"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um nó",
+      "kea": "N ten un no"
     },
     "category": "Nom"
   },
@@ -14649,8 +14649,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nobre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito nobre",
+      "kea": "El e muitu nobre"
     },
     "category": "Adjectif"
   },
@@ -14661,8 +14661,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "novo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é novo",
+      "kea": "Ka e nobu"
     },
     "category": "Adjectif"
   },
@@ -14673,8 +14673,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "noite"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O noite é bonito",
+      "kea": "Noite e bunitu"
     },
     "category": "Nom"
   },
@@ -14685,8 +14685,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "noiva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste noiva",
+      "kea": "N gosta di es noiva"
     },
     "category": "Nom"
   },
@@ -14697,8 +14697,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nome"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o nome?",
+      "kea": "Undi ki nome sta?"
     },
     "category": "Nom"
   },
@@ -14709,8 +14709,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nordeste"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este nordeste é meu",
+      "kea": "Es nordesti e nha"
     },
     "category": "Nom"
   },
@@ -14721,8 +14721,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "normal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é normal",
+      "kea": "Ka e normal"
     },
     "category": "Adjectif"
   },
@@ -14733,8 +14733,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "norte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste norte",
+      "kea": "N gosta di es norte"
     },
     "category": "Nom"
   },
@@ -14745,8 +14745,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nós"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "É nós",
+      "kea": "E nos"
     },
     "category": "Pronom"
   },
@@ -14757,8 +14757,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nossa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o nossa?",
+      "kea": "Undi ki nosa sta?"
     },
     "category": "Possessif"
   },
@@ -14769,8 +14769,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nota"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um nota",
+      "kea": "N ten un nota"
     },
     "category": "Nom"
   },
@@ -14781,8 +14781,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "notícia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste notícia",
+      "kea": "N gosta di es notisia"
     },
     "category": "Nom"
   },
@@ -14793,8 +14793,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nove"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "São nove",
+      "kea": "E nove"
     },
     "category": "Nombre"
   },
@@ -14805,8 +14805,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "novembro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O novembro é bonito",
+      "kea": "Novenbru e bunitu"
     },
     "category": "Nom"
   },
@@ -14817,8 +14817,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é nu",
+      "kea": "Kes koiza e nu"
     },
     "category": "Adjectif"
   },
@@ -14829,8 +14829,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "nuvem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este nuvem é meu",
+      "kea": "Es nuven e nha"
     },
     "category": "Nom"
   },
@@ -14841,8 +14841,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "o"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu o tu",
+      "kea": "N o bo"
     },
     "category": "Conjonction"
   },
@@ -14853,8 +14853,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "obedecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos obedecer agora",
+      "kea": "Nu ten ki obedese agora"
     },
     "category": "Verbe"
   },
@@ -14865,8 +14865,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "objetivo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o objetivo?",
+      "kea": "Undi ki objetivu sta?"
     },
     "category": "Nom"
   },
@@ -14877,8 +14877,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "objeto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um objeto",
+      "kea": "N ten un objetu"
     },
     "category": "Nom"
   },
@@ -14889,8 +14889,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "obra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste obra",
+      "kea": "N gosta di es obra"
     },
     "category": "Nom"
   },
@@ -14901,8 +14901,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "obrigado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "obrigado",
+      "kea": "obrigadu"
     },
     "category": "Expression"
   },
@@ -14913,8 +14913,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "observar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos observar agora",
+      "kea": "Nu ten ki observa agora"
     },
     "category": "Verbe"
   },
@@ -14925,8 +14925,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ódio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ódio",
+      "kea": "N gosta di es odiu"
     },
     "category": "Nom"
   },
@@ -14937,8 +14937,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "olhar / ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de olhar",
+      "kea": "El ta gosta di odja"
     },
     "category": "Verbe"
   },
@@ -14949,8 +14949,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "olho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste olho",
+      "kea": "N gosta di es odju"
     },
     "category": "Nom"
   },
@@ -14961,8 +14961,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "oferecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de oferecer",
+      "kea": "El ta gosta di oferese"
     },
     "category": "Verbe"
   },
@@ -14973,8 +14973,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "oficial"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito oficial",
+      "kea": "El e muitu ofisial"
     },
     "category": "Adjectif"
   },
@@ -14985,8 +14985,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "oficina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste oficina",
+      "kea": "N gosta di es ofisina"
     },
     "category": "Nom"
   },
@@ -14997,8 +14997,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "oito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "oito pessoas",
+      "kea": "oito pesoa"
     },
     "category": "Nombre"
   },
@@ -15009,8 +15009,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "olá"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "olá",
+      "kea": "ola"
     },
     "category": "Expression"
   },
@@ -15021,8 +15021,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "óleo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O óleo é bonito",
+      "kea": "Oleu e bunitu"
     },
     "category": "Nom"
   },
@@ -15033,8 +15033,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "olhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de olhar",
+      "kea": "El ta gosta di olha"
     },
     "category": "Verbe"
   },
@@ -15045,8 +15045,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ombro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ombro é bonito",
+      "kea": "Ombru e bunitu"
     },
     "category": "Nom"
   },
@@ -15057,8 +15057,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "homem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O homem é bonito",
+      "kea": "Omi e bunitu"
     },
     "category": "Nom"
   },
@@ -15069,8 +15069,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "onda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o onda?",
+      "kea": "Undi ki onda sta?"
     },
     "category": "Nom"
   },
@@ -15081,8 +15081,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "onde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não onde",
+      "kea": "Ka ondi"
     },
     "category": "Adverbe"
   },
@@ -15093,8 +15093,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "honesto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito honesto",
+      "kea": "El e muitu onestu"
     },
     "category": "Adjectif"
   },
@@ -15105,8 +15105,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ontem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não ontem",
+      "kea": "Ka onti"
     },
     "category": "Adverbe"
   },
@@ -15117,8 +15117,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "onze"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Página onze",
+      "kea": "Pajina onze"
     },
     "category": "Nombre"
   },
@@ -15129,8 +15129,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "operar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos operar agora",
+      "kea": "Nu ten ki opera agora"
     },
     "category": "Verbe"
   },
@@ -15141,8 +15141,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "operação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um operação",
+      "kea": "N ten un operason"
     },
     "category": "Nom"
   },
@@ -15153,8 +15153,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "opinião"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este opinião é meu",
+      "kea": "Es oponion e nha"
     },
     "category": "Nom"
   },
@@ -15165,8 +15165,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "oportunidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um oportunidade",
+      "kea": "N ten un oportunidadi"
     },
     "category": "Nom"
   },
@@ -15177,8 +15177,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hora"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o hora?",
+      "kea": "Undi ki ora sta?"
     },
     "category": "Nom"
   },
@@ -15189,8 +15189,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "oração"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste oração",
+      "kea": "N gosta di es orason"
     },
     "category": "Nom"
   },
@@ -15201,8 +15201,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ordem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ordem é bonito",
+      "kea": "Ordem e bunitu"
     },
     "category": "Nom"
   },
@@ -15213,8 +15213,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "orelha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o orelha?",
+      "kea": "Undi ki orelja sta?"
     },
     "category": "Nom"
   },
@@ -15225,8 +15225,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "organizar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos organizar juntos",
+      "kea": "Nu bai organiza djuntu"
     },
     "category": "Verbe"
   },
@@ -15237,8 +15237,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "orgulho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este orgulho é meu",
+      "kea": "Es orgulhu e nha"
     },
     "category": "Nom"
   },
@@ -15249,8 +15249,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "orientar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos orientar agora",
+      "kea": "Nu ten ki orienta agora"
     },
     "category": "Verbe"
   },
@@ -15261,8 +15261,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "origem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este origem é meu",
+      "kea": "Es oriji e nha"
     },
     "category": "Nom"
   },
@@ -15273,8 +15273,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "horizonte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um horizonte",
+      "kea": "N ten un orizonti"
     },
     "category": "Nom"
   },
@@ -15285,8 +15285,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ouro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ouro",
+      "kea": "N gosta di es oru"
     },
     "category": "Nom"
   },
@@ -15297,8 +15297,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "osso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um osso",
+      "kea": "N ten un os"
     },
     "category": "Nom"
   },
@@ -15309,8 +15309,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ocidente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ocidente",
+      "kea": "N ten un osidenti"
     },
     "category": "Nom"
   },
@@ -15321,8 +15321,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hotel"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste hotel",
+      "kea": "N gosta di es otel"
     },
     "category": "Nom"
   },
@@ -15333,8 +15333,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "outro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito outro",
+      "kea": "El e muitu otu"
     },
     "category": "Adjectif"
   },
@@ -15345,8 +15345,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "outono"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O outono é bonito",
+      "kea": "Outonu e bunitu"
     },
     "category": "Nom"
   },
@@ -15357,8 +15357,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "outro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é outro",
+      "kea": "Kes koiza e outru"
     },
     "category": "Adjectif"
   },
@@ -15369,8 +15369,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "hoje"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça hoje",
+      "kea": "Faze ozi"
     },
     "category": "Adverbe"
   },
@@ -15381,8 +15381,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "para"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou para casa",
+      "kea": "N ta bai pa kasa"
     },
     "category": "Préposition"
   },
@@ -15393,8 +15393,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "paciência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este paciência é meu",
+      "kea": "Es paciensia e nha"
     },
     "category": "Nom"
   },
@@ -15405,8 +15405,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "padre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um padre",
+      "kea": "N ten un padre"
     },
     "category": "Nom"
   },
@@ -15429,8 +15429,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "país"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um país",
+      "kea": "N ten un pais"
     },
     "category": "Nom"
   },
@@ -15441,8 +15441,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "paixão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um paixão",
+      "kea": "N ten un paixan"
     },
     "category": "Nom"
   },
@@ -15453,8 +15453,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "página"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o página?",
+      "kea": "Undi ki pajina sta?"
     },
     "category": "Nom"
   },
@@ -15465,8 +15465,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "palavra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um palavra",
+      "kea": "N ten un palavra"
     },
     "category": "Nom"
   },
@@ -15477,8 +15477,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "palco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um palco",
+      "kea": "N ten un palco"
     },
     "category": "Nom"
   },
@@ -15489,8 +15489,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "palma"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este palma é meu",
+      "kea": "Es palma e nha"
     },
     "category": "Nom"
   },
@@ -15501,8 +15501,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "panela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o panela?",
+      "kea": "Undi ki panela sta?"
     },
     "category": "Nom"
   },
@@ -15513,8 +15513,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "apanhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos apanhar juntos",
+      "kea": "Nu bai panha djuntu"
     },
     "category": "Verbe"
   },
@@ -15525,8 +15525,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pano é bonito",
+      "kea": "Pano e bunitu"
     },
     "category": "Nom"
   },
@@ -15537,8 +15537,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pão é meu",
+      "kea": "Es pao e nha"
     },
     "category": "Nom"
   },
@@ -15549,8 +15549,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "papa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O papa é bonito",
+      "kea": "Papa e bunitu"
     },
     "category": "Nom"
   },
@@ -15561,8 +15561,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "papel"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O papel é bonito",
+      "kea": "Papel e bunitu"
     },
     "category": "Nom"
   },
@@ -15573,8 +15573,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "par"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste par",
+      "kea": "N gosta di es par"
     },
     "category": "Nom"
   },
@@ -15585,8 +15585,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "parar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos parar juntos",
+      "kea": "Nu bai para djuntu"
     },
     "category": "Verbe"
   },
@@ -15597,8 +15597,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "parabéns"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste parabéns",
+      "kea": "N gosta di es parabens"
     },
     "category": "Nom"
   },
@@ -15609,8 +15609,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "paraíso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O paraíso é bonito",
+      "kea": "Paraisu e bunitu"
     },
     "category": "Nom"
   },
@@ -15621,8 +15621,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos perder juntos",
+      "kea": "Nu bai pardi djuntu"
     },
     "category": "Verbe"
   },
@@ -15633,8 +15633,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "parede"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este parede é meu",
+      "kea": "Es parede e nha"
     },
     "category": "Nom"
   },
@@ -15645,8 +15645,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "parente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um parente",
+      "kea": "N ten un parenti"
     },
     "category": "Nom"
   },
@@ -15657,8 +15657,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "partir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero partir",
+      "kea": "N ka kre parti"
     },
     "category": "Verbe"
   },
@@ -15669,8 +15669,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "partido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O partido é bonito",
+      "kea": "Partidu e bunitu"
     },
     "category": "Nom"
   },
@@ -15681,8 +15681,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "passar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos passar agora",
+      "kea": "Nu ten ki pasa agora"
     },
     "category": "Verbe"
   },
@@ -15693,8 +15693,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "passado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O passado é bonito",
+      "kea": "Pasadu e bunitu"
     },
     "category": "Nom"
   },
@@ -15705,8 +15705,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "passageiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este passageiro é meu",
+      "kea": "Es pasajeru e nha"
     },
     "category": "Nom"
   },
@@ -15717,8 +15717,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "passaporte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste passaporte",
+      "kea": "N gosta di es pasaporta"
     },
     "category": "Nom"
   },
@@ -15729,8 +15729,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "passear"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou passear",
+      "kea": "N ta pasea"
     },
     "category": "Verbe"
   },
@@ -15741,8 +15741,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "paciência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o paciência?",
+      "kea": "Undi ki pasiensia sta?"
     },
     "category": "Nom"
   },
@@ -15753,8 +15753,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "paixão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este paixão é meu",
+      "kea": "Es pasion e nha"
     },
     "category": "Nom"
   },
@@ -15765,8 +15765,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "passo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este passo é meu",
+      "kea": "Es pasu e nha"
     },
     "category": "Nom"
   },
@@ -15777,8 +15777,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pata é bonito",
+      "kea": "Pata e bunitu"
     },
     "category": "Nom"
   },
@@ -15789,8 +15789,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "patrão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um patrão",
+      "kea": "N ten un patron"
     },
     "category": "Nom"
   },
@@ -15801,8 +15801,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pau"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pau é bonito",
+      "kea": "Pau e bunitu"
     },
     "category": "Nom"
   },
@@ -15813,8 +15813,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "paz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um paz",
+      "kea": "N ten un paz"
     },
     "category": "Nom"
   },
@@ -15825,8 +15825,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pé"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pé é meu",
+      "kea": "Es pe e nha"
     },
     "category": "Nom"
   },
@@ -15837,8 +15837,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pedir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de pedir",
+      "kea": "El ta gosta di pedi"
     },
     "category": "Verbe"
   },
@@ -15849,8 +15849,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pedra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pedra",
+      "kea": "N ten un pedra"
     },
     "category": "Nom"
   },
@@ -15861,8 +15861,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pegar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou pegar",
+      "kea": "N ta pega"
     },
     "category": "Verbe"
   },
@@ -15873,8 +15873,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "peito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste peito",
+      "kea": "N gosta di es peitu"
     },
     "category": "Nom"
   },
@@ -15885,8 +15885,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pecar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos pecar juntos",
+      "kea": "Nu bai peka djuntu"
     },
     "category": "Verbe"
   },
@@ -15897,8 +15897,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pecado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pecado",
+      "kea": "N ten un pekadu"
     },
     "category": "Nom"
   },
@@ -15909,8 +15909,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pele"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pele é meu",
+      "kea": "Es pele e nha"
     },
     "category": "Nom"
   },
@@ -15921,8 +15921,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o pelo?",
+      "kea": "Undi ki pelu sta?"
     },
     "category": "Nom"
   },
@@ -15933,8 +15933,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pena"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o pena?",
+      "kea": "Undi ki pena sta?"
     },
     "category": "Nom"
   },
@@ -15945,8 +15945,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pendurar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos pendurar juntos",
+      "kea": "Nu bai pendi djuntu"
     },
     "category": "Verbe"
   },
@@ -15957,8 +15957,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pensar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de pensar",
+      "kea": "El ta gosta di pensa"
     },
     "category": "Verbe"
   },
@@ -15969,8 +15969,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pensamento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pensamento",
+      "kea": "N ten un pensamentu"
     },
     "category": "Nom"
   },
@@ -15981,8 +15981,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste pente",
+      "kea": "N gosta di es pente"
     },
     "category": "Nom"
   },
@@ -15993,8 +15993,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pequeno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que pequeno!",
+      "kea": "Ki pekenu!"
     },
     "category": "Adjectif"
   },
@@ -16005,8 +16005,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este perda é meu",
+      "kea": "Es perda e nha"
     },
     "category": "Nom"
   },
@@ -16017,8 +16017,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero perder",
+      "kea": "N ka kre perde"
     },
     "category": "Verbe"
   },
@@ -16029,8 +16029,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perdoar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos perdoar juntos",
+      "kea": "Nu bai perdoa djuntu"
     },
     "category": "Verbe"
   },
@@ -16041,8 +16041,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perfeito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa perfeito",
+      "kea": "Un pesoa perfetu"
     },
     "category": "Adjectif"
   },
@@ -16053,8 +16053,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pergunta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pergunta",
+      "kea": "N ten un pergunta"
     },
     "category": "Nom"
   },
@@ -16065,8 +16065,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o perigo?",
+      "kea": "Undi ki perigu sta?"
     },
     "category": "Nom"
   },
@@ -16077,8 +16077,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O perito é bonito",
+      "kea": "Peritu e bunitu"
     },
     "category": "Nom"
   },
@@ -16089,8 +16089,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pérola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o pérola?",
+      "kea": "Undi ki perla sta?"
     },
     "category": "Nom"
   },
@@ -16101,8 +16101,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perna"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste perna",
+      "kea": "N gosta di es perna"
     },
     "category": "Nom"
   },
@@ -16113,8 +16113,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é perto",
+      "kea": "Kes koiza e pertu"
     },
     "category": "Adjectif"
   },
@@ -16125,8 +16125,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "peça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O peça é bonito",
+      "kea": "Pesa e bunitu"
     },
     "category": "Nom"
   },
@@ -16137,8 +16137,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pesca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pesca",
+      "kea": "N ten un peska"
     },
     "category": "Nom"
   },
@@ -16149,8 +16149,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pescador"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pescador é bonito",
+      "kea": "Peskador e bunitu"
     },
     "category": "Nom"
   },
@@ -16161,8 +16161,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pescoço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pescoço é bonito",
+      "kea": "Peskosu e bunitu"
     },
     "category": "Nom"
   },
@@ -16173,8 +16173,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "peso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este peso é meu",
+      "kea": "Es pesu e nha"
     },
     "category": "Nom"
   },
@@ -16185,8 +16185,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "peito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o peito?",
+      "kea": "Undi ki petu sta?"
     },
     "category": "Nom"
   },
@@ -16197,8 +16197,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "peixe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o peixe?",
+      "kea": "Undi ki pexe sta?"
     },
     "category": "Nom"
   },
@@ -16209,8 +16209,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espreitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou espreitar",
+      "kea": "N ta pia"
     },
     "category": "Verbe"
   },
@@ -16221,8 +16221,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "piano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste piano",
+      "kea": "N gosta di es pianu"
     },
     "category": "Nom"
   },
@@ -16233,8 +16233,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "piedade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um piedade",
+      "kea": "N ten un piedade"
     },
     "category": "Nom"
   },
@@ -16245,8 +16245,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pequeno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa pequeno",
+      "kea": "Un pesoa pikinoti"
     },
     "category": "Adjectif"
   },
@@ -16257,8 +16257,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pilar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos pilar agora",
+      "kea": "Nu ten ki pila agora"
     },
     "category": "Verbe"
   },
@@ -16269,8 +16269,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "piloto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um piloto",
+      "kea": "N ten un pilot"
     },
     "category": "Nom"
   },
@@ -16281,8 +16281,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pimenta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pimenta é meu",
+      "kea": "Es pimenta e nha"
     },
     "category": "Nom"
   },
@@ -16293,8 +16293,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pintar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero pintar",
+      "kea": "N ka kre pinta"
     },
     "category": "Verbe"
   },
@@ -16305,8 +16305,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pintor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste pintor",
+      "kea": "N gosta di es pintor"
     },
     "category": "Nom"
   },
@@ -16317,8 +16317,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pintura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pintura é meu",
+      "kea": "Es pintura e nha"
     },
     "category": "Nom"
   },
@@ -16329,8 +16329,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "piada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o piada?",
+      "kea": "Undi ki piada sta?"
     },
     "category": "Nom"
   },
@@ -16341,8 +16341,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pior"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é pior",
+      "kea": "Kes koiza e pior"
     },
     "category": "Adjectif"
   },
@@ -16353,8 +16353,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pipa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste pipa",
+      "kea": "N gosta di es pipa"
     },
     "category": "Nom"
   },
@@ -16365,8 +16365,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "perigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este perigo é meu",
+      "kea": "Es pirigu e nha"
     },
     "category": "Nom"
   },
@@ -16377,8 +16377,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pisar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos pisar agora",
+      "kea": "Nu ten ki pisa agora"
     },
     "category": "Verbe"
   },
@@ -16389,8 +16389,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pistola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pistola",
+      "kea": "N ten un pistola"
     },
     "category": "Nom"
   },
@@ -16401,8 +16401,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "placa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O placa é bonito",
+      "kea": "Plaka e bunitu"
     },
     "category": "Nom"
   },
@@ -16413,8 +16413,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "plano"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o plano?",
+      "kea": "Undi ki planu sta?"
     },
     "category": "Nom"
   },
@@ -16425,8 +16425,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "planta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O planta é bonito",
+      "kea": "Planta e bunitu"
     },
     "category": "Nom"
   },
@@ -16437,8 +16437,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "plástico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O plástico é bonito",
+      "kea": "Plastiku e bunitu"
     },
     "category": "Nom"
   },
@@ -16449,8 +16449,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O prato é bonito",
+      "kea": "Platu e bunitu"
     },
     "category": "Nom"
   },
@@ -16461,8 +16461,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pneu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste pneu",
+      "kea": "N gosta di es pneu"
     },
     "category": "Nom"
   },
@@ -16473,8 +16473,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pôr"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou pôr",
+      "kea": "N ta po"
     },
     "category": "Verbe"
   },
@@ -16485,8 +16485,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pobre"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é pobre",
+      "kea": "Ka e pobre"
     },
     "category": "Adjectif"
   },
@@ -16497,8 +16497,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pobreza"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste pobreza",
+      "kea": "N gosta di es pobreza"
     },
     "category": "Nom"
   },
@@ -16509,8 +16509,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pouco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito pouco",
+      "kea": "El e muitu poku"
     },
     "category": "Adjectif"
   },
@@ -16521,8 +16521,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "polícia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O polícia é bonito",
+      "kea": "Policia e bunitu"
     },
     "category": "Nom"
   },
@@ -16533,8 +16533,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "política"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um política",
+      "kea": "N ten un politika"
     },
     "category": "Nom"
   },
@@ -16545,8 +16545,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pólo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um pólo",
+      "kea": "N ten un polu"
     },
     "category": "Nom"
   },
@@ -16557,8 +16557,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pomba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este pomba é meu",
+      "kea": "Es pomba e nha"
     },
     "category": "Nom"
   },
@@ -16569,8 +16569,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ponta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ponta?",
+      "kea": "Undi ki ponta sta?"
     },
     "category": "Nom"
   },
@@ -16581,8 +16581,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ponte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ponte",
+      "kea": "N ten un ponti"
     },
     "category": "Nom"
   },
@@ -16593,8 +16593,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ponto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ponto é bonito",
+      "kea": "Ponto e bunitu"
     },
     "category": "Nom"
   },
@@ -16605,8 +16605,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "população"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o população?",
+      "kea": "Undi ki populason sta?"
     },
     "category": "Nom"
   },
@@ -16617,8 +16617,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pôr"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos pôr juntos",
+      "kea": "Nu bai por djuntu"
     },
     "category": "Verbe"
   },
@@ -16629,8 +16629,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "porco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O porco é bonito",
+      "kea": "Porku e bunitu"
     },
     "category": "Nom"
   },
@@ -16641,8 +16641,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "porta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste porta",
+      "kea": "N gosta di es porta"
     },
     "category": "Nom"
   },
@@ -16653,8 +16653,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "portão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o portão?",
+      "kea": "Undi ki porton sta?"
     },
     "category": "Nom"
   },
@@ -16665,8 +16665,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "porto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste porto",
+      "kea": "N gosta di es portu"
     },
     "category": "Nom"
   },
@@ -16677,8 +16677,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "possível"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é possível",
+      "kea": "Kes koiza e posivi"
     },
     "category": "Adjectif"
   },
@@ -16689,8 +16689,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "poço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este poço é meu",
+      "kea": "Es possu e nha"
     },
     "category": "Nom"
   },
@@ -16701,8 +16701,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "postal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que postal!",
+      "kea": "Ki postal!"
     },
     "category": "Adjectif"
   },
@@ -16713,8 +16713,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "posto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O posto é bonito",
+      "kea": "Postu e bunitu"
     },
     "category": "Nom"
   },
@@ -16725,8 +16725,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "povo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o povo?",
+      "kea": "Undi ki povu sta?"
     },
     "category": "Nom"
   },
@@ -16737,8 +16737,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "praça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um praça",
+      "kea": "N ten un prasa"
     },
     "category": "Nom"
   },
@@ -16749,8 +16749,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prata"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um prata",
+      "kea": "N ten un prata"
     },
     "category": "Nom"
   },
@@ -16761,8 +16761,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prática"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O prática é bonito",
+      "kea": "Pratika e bunitu"
     },
     "category": "Nom"
   },
@@ -16773,8 +16773,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o prato?",
+      "kea": "Undi ki pratu sta?"
     },
     "category": "Nom"
   },
@@ -16785,8 +16785,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prazer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o prazer?",
+      "kea": "Undi ki prazer sta?"
     },
     "category": "Nom"
   },
@@ -16797,8 +16797,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prazo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este prazo é meu",
+      "kea": "Es prazu e nha"
     },
     "category": "Nom"
   },
@@ -16809,8 +16809,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pregar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero pregar",
+      "kea": "N ka kre prega"
     },
     "category": "Verbe"
   },
@@ -16821,8 +16821,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prego"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um prego",
+      "kea": "N ten un pregu"
     },
     "category": "Nom"
   },
@@ -16833,8 +16833,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prémio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um prémio",
+      "kea": "N ten un premiu"
     },
     "category": "Nom"
   },
@@ -16845,8 +16845,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou prender",
+      "kea": "N ta prender"
     },
     "category": "Verbe"
   },
@@ -16857,8 +16857,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "preocupar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos preocupar agora",
+      "kea": "Nu ten ki preokupa agora"
     },
     "category": "Verbe"
   },
@@ -16869,8 +16869,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "preparar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos preparar juntos",
+      "kea": "Nu bai prepara djuntu"
     },
     "category": "Verbe"
   },
@@ -16881,8 +16881,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "presente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste presente",
+      "kea": "N gosta di es presenti"
     },
     "category": "Nom"
   },
@@ -16893,8 +16893,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "presidente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o presidente?",
+      "kea": "Undi ki presidente sta?"
     },
     "category": "Nom"
   },
@@ -16905,8 +16905,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "preso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o preso?",
+      "kea": "Undi ki preso sta?"
     },
     "category": "Nom"
   },
@@ -16917,8 +16917,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prestar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero prestar",
+      "kea": "N ka kre presta"
     },
     "category": "Verbe"
   },
@@ -16929,8 +16929,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "preço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O preço é bonito",
+      "kea": "Presu e bunitu"
     },
     "category": "Nom"
   },
@@ -16941,8 +16941,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "preto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa preto",
+      "kea": "Un pesoa pretu"
     },
     "category": "Adjectif"
   },
@@ -16953,8 +16953,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prima"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este prima é meu",
+      "kea": "Es prima e nha"
     },
     "category": "Nom"
   },
@@ -16965,8 +16965,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "primavera"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este primavera é meu",
+      "kea": "Es primavera e nha"
     },
     "category": "Nom"
   },
@@ -16977,8 +16977,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "primeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que primeiro!",
+      "kea": "Ki primeru!"
     },
     "category": "Adjectif"
   },
@@ -16989,8 +16989,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "primo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste primo",
+      "kea": "N gosta di es primu"
     },
     "category": "Nom"
   },
@@ -17001,8 +17001,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "principal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é principal",
+      "kea": "Ka e prinsipal"
     },
     "category": "Adjectif"
   },
@@ -17013,8 +17013,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "princípio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um princípio",
+      "kea": "N ten un prinsipiu"
     },
     "category": "Nom"
   },
@@ -17025,8 +17025,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prisão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este prisão é meu",
+      "kea": "Es prisao e nha"
     },
     "category": "Nom"
   },
@@ -17037,8 +17037,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "privado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é privado",
+      "kea": "Kes koiza e privadu"
     },
     "category": "Adjectif"
   },
@@ -17049,8 +17049,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "problema"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste problema",
+      "kea": "N gosta di es problema"
     },
     "category": "Nom"
   },
@@ -17061,8 +17061,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "processo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste processo",
+      "kea": "N gosta di es prosesu"
     },
     "category": "Nom"
   },
@@ -17073,8 +17073,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "profissão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este profissão é meu",
+      "kea": "Es profison e nha"
     },
     "category": "Nom"
   },
@@ -17085,8 +17085,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "professor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o professor?",
+      "kea": "Undi ki profesor sta?"
     },
     "category": "Nom"
   },
@@ -17097,8 +17097,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "profundo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é profundo",
+      "kea": "Kes koiza e profundu"
     },
     "category": "Adjectif"
   },
@@ -17109,8 +17109,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "programa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este programa é meu",
+      "kea": "Es programa e nha"
     },
     "category": "Nom"
   },
@@ -17121,8 +17121,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "proibir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de proibir",
+      "kea": "El ta gosta di proibi"
     },
     "category": "Verbe"
   },
@@ -17133,8 +17133,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "projeto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O projeto é bonito",
+      "kea": "Projeto e bunitu"
     },
     "category": "Nom"
   },
@@ -17145,8 +17145,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prometer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de prometer",
+      "kea": "El ta gosta di promete"
     },
     "category": "Verbe"
   },
@@ -17157,8 +17157,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pronto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é pronto",
+      "kea": "Kes koiza e prontu"
     },
     "category": "Adjectif"
   },
@@ -17169,8 +17169,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "propriedade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O propriedade é bonito",
+      "kea": "Propriadadi e bunitu"
     },
     "category": "Nom"
   },
@@ -17181,8 +17181,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "próprio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa próprio",
+      "kea": "Un pesoa propri"
     },
     "category": "Adjectif"
   },
@@ -17193,8 +17193,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "proteger"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos proteger agora",
+      "kea": "Nu ten ki proteje agora"
     },
     "category": "Verbe"
   },
@@ -17205,8 +17205,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "prova"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este prova é meu",
+      "kea": "Es prova e nha"
     },
     "category": "Nom"
   },
@@ -17217,8 +17217,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "província"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O província é bonito",
+      "kea": "Provinsia e bunitu"
     },
     "category": "Nom"
   },
@@ -17229,8 +17229,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "próximo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é próximo",
+      "kea": "Kes koiza e proximu"
     },
     "category": "Adjectif"
   },
@@ -17241,8 +17241,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "profeta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um profeta",
+      "kea": "N ten un prufeta"
     },
     "category": "Nom"
   },
@@ -17253,8 +17253,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "público"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito público",
+      "kea": "El e muitu publiku"
     },
     "category": "Adjectif"
   },
@@ -17265,8 +17265,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pulmão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pulmão é bonito",
+      "kea": "Pulmon e bunitu"
     },
     "category": "Nom"
   },
@@ -17277,8 +17277,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pulso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O pulso é bonito",
+      "kea": "Pulsu e bunitu"
     },
     "category": "Nom"
   },
@@ -17289,8 +17289,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "punho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o punho?",
+      "kea": "Undi ki punhu sta?"
     },
     "category": "Nom"
   },
@@ -17301,8 +17301,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "puro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que puro!",
+      "kea": "Ki puro!"
     },
     "category": "Adjectif"
   },
@@ -17313,8 +17313,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "puxar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos puxar agora",
+      "kea": "Nu ten ki puxa agora"
     },
     "category": "Verbe"
   },
@@ -17325,8 +17325,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rebelde / virar contra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um rebelde",
+      "kea": "N ten un rabela"
     },
     "category": "Nom"
   },
@@ -17337,8 +17337,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gabarola / pessoa que se gaba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um gabarola",
+      "kea": "N ten un rabentola"
     },
     "category": "Nom"
   },
@@ -17349,8 +17349,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "virar / revirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos virar juntos",
+      "kea": "Nu bai rabida djuntu"
     },
     "category": "Verbe"
   },
@@ -17361,8 +17361,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "comerciante de rua"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o comerciante de rua?",
+      "kea": "Undi ki rabidante sta?"
     },
     "category": "Nom"
   },
@@ -17373,8 +17373,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fazer barulho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou fazer barulho",
+      "kea": "N ta rabolise"
     },
     "category": "Verbe"
   },
@@ -17385,8 +17385,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rabo / cauda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um rabo",
+      "kea": "N ten un rabu"
     },
     "category": "Nom"
   },
@@ -17397,8 +17397,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rada / baía"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o rada?",
+      "kea": "Undi ki rada sta?"
     },
     "category": "Nom"
   },
@@ -17409,8 +17409,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bater no mato (indiretamente)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bater no mato (indiretamente)",
+      "kea": "N gosta di es rafodju"
     },
     "category": "Nom"
   },
@@ -17421,8 +17421,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arregalar (os olhos)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero arregalar (os olhos)",
+      "kea": "N ka kre ragala"
     },
     "category": "Verbe"
   },
@@ -17433,8 +17433,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espalhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou espalhar",
+      "kea": "N ta raganha"
     },
     "category": "Verbe"
   },
@@ -17445,8 +17445,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "raia (peixe)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o raia (peixe)?",
+      "kea": "Undi ki raia sta?"
     },
     "category": "Nom"
   },
@@ -17457,8 +17457,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "raiva / ira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O raiva é bonito",
+      "kea": "Raiba e bunitu"
     },
     "category": "Nom"
   },
@@ -17469,8 +17469,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "raio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o raio?",
+      "kea": "Undi ki raio sta?"
     },
     "category": "Nom"
   },
@@ -17481,8 +17481,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "raiz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o raiz?",
+      "kea": "Undi ki rais sta?"
     },
     "category": "Nom"
   },
@@ -17493,8 +17493,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rajada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O rajada é bonito",
+      "kea": "Rajan e bunitu"
     },
     "category": "Nom"
   },
@@ -17505,8 +17505,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "recuar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos recuar agora",
+      "kea": "Nu ten ki raka agora"
     },
     "category": "Verbe"
   },
@@ -17517,8 +17517,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "recordar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos recordar juntos",
+      "kea": "Nu bai rakorda djuntu"
     },
     "category": "Verbe"
   },
@@ -17529,8 +17529,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reconhecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos reconhecer juntos",
+      "kea": "Nu bai rakuntse djuntu"
     },
     "category": "Verbe"
   },
@@ -17541,8 +17541,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ralar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos ralar agora",
+      "kea": "Nu ten ki rala agora"
     },
     "category": "Verbe"
   },
@@ -17553,8 +17553,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ramo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ramo",
+      "kea": "N ten un rama"
     },
     "category": "Nom"
   },
@@ -17565,8 +17565,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "remédio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste remédio",
+      "kea": "N gosta di es ramedi"
     },
     "category": "Nom"
   },
@@ -17577,8 +17577,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arregaçar (mangas)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos arregaçar (mangas) agora",
+      "kea": "Nu ten ki ramanga agora"
     },
     "category": "Verbe"
   },
@@ -17589,8 +17589,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arrancar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos arrancar juntos",
+      "kea": "Nu bai ranka djuntu"
     },
     "category": "Verbe"
   },
@@ -17601,8 +17601,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arranjar / conseguir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos arranjar agora",
+      "kea": "Nu ten ki ranja agora"
     },
     "category": "Verbe"
   },
@@ -17613,8 +17613,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rapaz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rapaz é meu",
+      "kea": "Es rapas e nha"
     },
     "category": "Nom"
   },
@@ -17625,8 +17625,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rapazote"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste rapazote",
+      "kea": "N gosta di es rapazeti"
     },
     "category": "Nom"
   },
@@ -17637,8 +17637,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "repente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um repente",
+      "kea": "N ten un rapenti"
     },
     "category": "Nom"
   },
@@ -17649,8 +17649,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rápido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que rápido!",
+      "kea": "Ki rapidi!"
     },
     "category": "Adjectif"
   },
@@ -17661,8 +17661,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reparar / notar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos reparar agora",
+      "kea": "Nu ten ki rapara agora"
     },
     "category": "Verbe"
   },
@@ -17673,8 +17673,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "raça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste raça",
+      "kea": "N gosta di es rasa"
     },
     "category": "Nom"
   },
@@ -17685,8 +17685,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rasgar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de rasgar",
+      "kea": "El ta gosta di rasga"
     },
     "category": "Verbe"
   },
@@ -17697,8 +17697,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "raspar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos raspar agora",
+      "kea": "Nu ten ki raspa agora"
     },
     "category": "Verbe"
   },
@@ -17709,8 +17709,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arrastar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos arrastar juntos",
+      "kea": "Nu bai rasta djuntu"
     },
     "category": "Verbe"
   },
@@ -17721,8 +17721,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rato é meu",
+      "kea": "Es ratu e nha"
     },
     "category": "Nom"
   },
@@ -17733,8 +17733,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rasa / cheia até a borda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito rasa",
+      "kea": "El e muitu raza"
     },
     "category": "Adjectif"
   },
@@ -17745,8 +17745,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "razão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O razão é bonito",
+      "kea": "Razon e bunitu"
     },
     "category": "Nom"
   },
@@ -17757,8 +17757,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ré (marcha atrás) / rei"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ré (marcha atrás)",
+      "kea": "N ten un re"
     },
     "category": "Nom"
   },
@@ -17769,8 +17769,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "real"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa real",
+      "kea": "Un pesoa real"
     },
     "category": "Adjectif"
   },
@@ -17781,8 +17781,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "realidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este realidade é meu",
+      "kea": "Es realidadi e nha"
     },
     "category": "Nom"
   },
@@ -17793,8 +17793,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rebaixar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero rebaixar",
+      "kea": "N ka kre rebaixa"
     },
     "category": "Verbe"
   },
@@ -17805,8 +17805,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rebentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero rebentar",
+      "kea": "N ka kre rebenta"
     },
     "category": "Verbe"
   },
@@ -17817,8 +17817,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ribeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ribeira",
+      "kea": "N gosta di es rebera"
     },
     "category": "Nom"
   },
@@ -17829,8 +17829,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "receber"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de receber",
+      "kea": "El ta gosta di recebi"
     },
     "category": "Verbe"
   },
@@ -17841,8 +17841,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "recreio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um recreio",
+      "kea": "N ten un recreio"
     },
     "category": "Nom"
   },
@@ -17853,8 +17853,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rede"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O rede é bonito",
+      "kea": "Reda e bunitu"
     },
     "category": "Nom"
   },
@@ -17865,8 +17865,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "redonda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que redonda!",
+      "kea": "Ki redonda!"
     },
     "category": "Adjectif"
   },
@@ -17877,8 +17877,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "refinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos refinar agora",
+      "kea": "Nu ten ki refina agora"
     },
     "category": "Verbe"
   },
@@ -17889,8 +17889,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "regar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos regar juntos",
+      "kea": "Nu bai rega djuntu"
     },
     "category": "Verbe"
   },
@@ -17901,8 +17901,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "regra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o regra?",
+      "kea": "Undi ki regra sta?"
     },
     "category": "Nom"
   },
@@ -17913,8 +17913,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rei"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o rei?",
+      "kea": "Undi ki rei sta?"
     },
     "category": "Nom"
   },
@@ -17925,8 +17925,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reclamar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou reclamar",
+      "kea": "N ta reklama"
     },
     "category": "Verbe"
   },
@@ -17937,8 +17937,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "religião"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um religião",
+      "kea": "N ten un relijon"
     },
     "category": "Nom"
   },
@@ -17949,8 +17949,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "relógio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este relógio é meu",
+      "kea": "Es reloju e nha"
     },
     "category": "Nom"
   },
@@ -17961,8 +17961,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "remar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou remar",
+      "kea": "N ta rema"
     },
     "category": "Verbe"
   },
@@ -17973,8 +17973,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "remédio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste remédio",
+      "kea": "N gosta di es remedi"
     },
     "category": "Nom"
   },
@@ -17985,8 +17985,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "renda (tecido ou aluguer)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O renda (tecido ou aluguer) é bonito",
+      "kea": "Renda e bunitu"
     },
     "category": "Nom"
   },
@@ -17997,8 +17997,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reparar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou reparar",
+      "kea": "N ta repara"
     },
     "category": "Verbe"
   },
@@ -18009,8 +18009,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "repente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o repente?",
+      "kea": "Undi ki repenti sta?"
     },
     "category": "Nom"
   },
@@ -18021,8 +18021,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "repetir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero repetir",
+      "kea": "N ka kre repiti"
     },
     "category": "Verbe"
   },
@@ -18033,8 +18033,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reserva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este reserva é meu",
+      "kea": "Es reserva e nha"
     },
     "category": "Nom"
   },
@@ -18045,8 +18045,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "respeitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos respeitar agora",
+      "kea": "Nu ten ki respeta agora"
     },
     "category": "Verbe"
   },
@@ -18057,8 +18057,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "respeito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O respeito é bonito",
+      "kea": "Respetu e bunitu"
     },
     "category": "Nom"
   },
@@ -18069,8 +18069,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "responder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de responder",
+      "kea": "El ta gosta di responde"
     },
     "category": "Verbe"
   },
@@ -18081,8 +18081,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "resposta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste resposta",
+      "kea": "N gosta di es resposta"
     },
     "category": "Nom"
   },
@@ -18093,8 +18093,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "restar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos restar juntos",
+      "kea": "Nu bai resta djuntu"
     },
     "category": "Verbe"
   },
@@ -18105,8 +18105,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "resto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o resto?",
+      "kea": "Undi ki restu sta?"
     },
     "category": "Nom"
   },
@@ -18117,8 +18117,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "resultar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero resultar",
+      "kea": "N ka kre resulta"
     },
     "category": "Verbe"
   },
@@ -18129,8 +18129,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa reto",
+      "kea": "Un pesoa retu"
     },
     "category": "Adjectif"
   },
@@ -18141,8 +18141,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reunir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de reunir",
+      "kea": "El ta gosta di reuni"
     },
     "category": "Verbe"
   },
@@ -18153,8 +18153,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "reunião"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um reunião",
+      "kea": "N ten un reunion"
     },
     "category": "Nom"
   },
@@ -18165,8 +18165,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rezar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero rezar",
+      "kea": "N ka kre reza"
     },
     "category": "Verbe"
   },
@@ -18177,8 +18177,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "riba / em cima"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Riba aqui",
+      "kea": "Riba li"
     },
     "category": "Préposition"
   },
@@ -18189,8 +18189,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ribeiral"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o ribeiral?",
+      "kea": "Undi ki riberal sta?"
     },
     "category": "Nom"
   },
@@ -18201,8 +18201,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rica"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que rica!",
+      "kea": "Ki rika!"
     },
     "category": "Adjectif"
   },
@@ -18213,8 +18213,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa rico",
+      "kea": "Un pesoa riku"
     },
     "category": "Adjectif"
   },
@@ -18225,8 +18225,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um rim",
+      "kea": "N ten un rim"
     },
     "category": "Nom"
   },
@@ -18237,8 +18237,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arrancar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos arrancar juntos",
+      "kea": "Nu bai rinka djuntu"
     },
     "category": "Verbe"
   },
@@ -18249,8 +18249,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rio é meu",
+      "kea": "Es riu e nha"
     },
     "category": "Nom"
   },
@@ -18261,8 +18261,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rijo / duro / difícil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa rijo",
+      "kea": "Un pesoa rixu"
     },
     "category": "Adjectif"
   },
@@ -18273,8 +18273,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "roubar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos roubar juntos",
+      "kea": "Nu bai roba djuntu"
     },
     "category": "Verbe"
   },
@@ -18285,8 +18285,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arvoredo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste arvoredo",
+      "kea": "N gosta di es robeda"
     },
     "category": "Nom"
   },
@@ -18297,8 +18297,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "coberto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito coberto",
+      "kea": "El e muitu robertu"
     },
     "category": "Adjectif"
   },
@@ -18309,8 +18309,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "roda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este roda é meu",
+      "kea": "Es roda e nha"
     },
     "category": "Nom"
   },
@@ -18321,8 +18321,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rodear"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou rodear",
+      "kea": "N ta rodja"
     },
     "category": "Verbe"
   },
@@ -18333,8 +18333,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rolar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou rolar",
+      "kea": "N ta rola"
     },
     "category": "Verbe"
   },
@@ -18345,8 +18345,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "romã"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste romã",
+      "kea": "N gosta di es roma"
     },
     "category": "Nom"
   },
@@ -18357,8 +18357,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "romance"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste romance",
+      "kea": "N gosta di es romanse"
     },
     "category": "Nom"
   },
@@ -18369,8 +18369,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arrombar / desabar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou arrombar",
+      "kea": "N ta romba"
     },
     "category": "Verbe"
   },
@@ -18381,8 +18381,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "roupa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um roupa",
+      "kea": "N ten un ropa"
     },
     "category": "Nom"
   },
@@ -18393,8 +18393,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rosa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rosa é meu",
+      "kea": "Es rosa e nha"
     },
     "category": "Nom"
   },
@@ -18405,8 +18405,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rosca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rosca é meu",
+      "kea": "Es roska e nha"
     },
     "category": "Nom"
   },
@@ -18417,8 +18417,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rosto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste rosto",
+      "kea": "N gosta di es rostu"
     },
     "category": "Nom"
   },
@@ -18429,8 +18429,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arroto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este arroto é meu",
+      "kea": "Es rota e nha"
     },
     "category": "Nom"
   },
@@ -18441,8 +18441,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rocha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um rocha",
+      "kea": "N ten un rotxa"
     },
     "category": "Nom"
   },
@@ -18453,8 +18453,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "roxo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é roxo",
+      "kea": "Ka e roxu"
     },
     "category": "Adjectif"
   },
@@ -18465,8 +18465,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rua"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rua é meu",
+      "kea": "Es rua e nha"
     },
     "category": "Nom"
   },
@@ -18477,8 +18477,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ribeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este ribeira é meu",
+      "kea": "Es rubera e nha"
     },
     "category": "Nom"
   },
@@ -18489,8 +18489,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rude"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que rude!",
+      "kea": "Ki rudi!"
     },
     "category": "Adjectif"
   },
@@ -18501,8 +18501,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ruga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um ruga",
+      "kea": "N ten un ruga"
     },
     "category": "Nom"
   },
@@ -18513,8 +18513,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ruim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito ruim",
+      "kea": "El e muitu ruim"
     },
     "category": "Adjectif"
   },
@@ -18525,8 +18525,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ruína"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ruína é bonito",
+      "kea": "Ruina e bunitu"
     },
     "category": "Nom"
   },
@@ -18537,8 +18537,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pilha pequena"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste pilha pequena",
+      "kea": "N gosta di es ruminha"
     },
     "category": "Nom"
   },
@@ -18549,8 +18549,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ruim / mau / bravo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa ruim",
+      "kea": "Un pesoa runhu"
     },
     "category": "Adjectif"
   },
@@ -18561,8 +18561,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arrupiar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos arrupiar juntos",
+      "kea": "Nu bai rupia djuntu"
     },
     "category": "Verbe"
   },
@@ -18573,8 +18573,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sábado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sábado",
+      "kea": "N gosta di es sabadu"
     },
     "category": "Nom"
   },
@@ -18597,8 +18597,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sabe / gostoso / agradável"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que sabe!",
+      "kea": "Ki sabi!"
     },
     "category": "Adjectif"
   },
@@ -18609,8 +18609,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cebola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este cebola é meu",
+      "kea": "Es sabola e nha"
     },
     "category": "Nom"
   },
@@ -18621,8 +18621,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sabão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sabão",
+      "kea": "N ten un sabon"
     },
     "category": "Nom"
   },
@@ -18633,8 +18633,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sabonete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sabonete?",
+      "kea": "Undi ki saboneti sta?"
     },
     "category": "Nom"
   },
@@ -18645,8 +18645,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sabor / prazer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sabor?",
+      "kea": "Undi ki sabura sta?"
     },
     "category": "Nom"
   },
@@ -18657,8 +18657,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "safra / colheita"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O safra é bonito",
+      "kea": "Safra e bunitu"
     },
     "category": "Nom"
   },
@@ -18669,8 +18669,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sair"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou sair",
+      "kea": "N ta sai"
     },
     "category": "Verbe"
   },
@@ -18681,8 +18681,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O saia é bonito",
+      "kea": "Saia e bunitu"
     },
     "category": "Nom"
   },
@@ -18693,8 +18693,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saída"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O saída é bonito",
+      "kea": "Saida e bunitu"
     },
     "category": "Nom"
   },
@@ -18705,8 +18705,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "seis"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Tenho seis anos",
+      "kea": "N ten sais anu"
     },
     "category": "Nombre"
   },
@@ -18717,8 +18717,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sacar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero sacar",
+      "kea": "N ka kre saka"
     },
     "category": "Verbe"
   },
@@ -18729,8 +18729,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sacrifício"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sacrifício",
+      "kea": "N gosta di es sakrifisiu"
     },
     "category": "Nom"
   },
@@ -18741,8 +18741,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O saco é bonito",
+      "kea": "Saku e bunitu"
     },
     "category": "Nom"
   },
@@ -18753,8 +18753,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sal",
+      "kea": "N ten un sal"
     },
     "category": "Nom"
   },
@@ -18765,8 +18765,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sala"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O sala é bonito",
+      "kea": "Sala e bunitu"
     },
     "category": "Nom"
   },
@@ -18777,8 +18777,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "salada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O salada é bonito",
+      "kea": "Salada e bunitu"
     },
     "category": "Nom"
   },
@@ -18789,8 +18789,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "salário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste salário",
+      "kea": "N gosta di es salariu"
     },
     "category": "Nom"
   },
@@ -18801,8 +18801,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saltar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de saltar",
+      "kea": "El ta gosta di salta"
     },
     "category": "Verbe"
   },
@@ -18813,8 +18813,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "salvar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou salvar",
+      "kea": "N ta salva"
     },
     "category": "Verbe"
   },
@@ -18825,8 +18825,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "samba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste samba",
+      "kea": "N gosta di es samba"
     },
     "category": "Nom"
   },
@@ -18837,8 +18837,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sangue"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sangue?",
+      "kea": "Undi ki sangi sta?"
     },
     "category": "Nom"
   },
@@ -18849,8 +18849,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zangar / enfurecer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de zangar",
+      "kea": "El ta gosta di sanha"
     },
     "category": "Verbe"
   },
@@ -18861,8 +18861,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "santo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste santo",
+      "kea": "N gosta di es santu"
     },
     "category": "Nom"
   },
@@ -18873,8 +18873,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sapato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sapato é meu",
+      "kea": "Es sapatu e nha"
     },
     "category": "Nom"
   },
@@ -18885,8 +18885,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sardinha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sardinha?",
+      "kea": "Undi ki sardinha sta?"
     },
     "category": "Nom"
   },
@@ -18897,8 +18897,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "satisfazer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero satisfazer",
+      "kea": "N ka kre satisfaze"
     },
     "category": "Verbe"
   },
@@ -18909,8 +18909,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saúde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste saúde",
+      "kea": "N gosta di es saudi"
     },
     "category": "Nom"
   },
@@ -18921,8 +18921,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "seu / se"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Seu também",
+      "kea": "Se tanbé"
     },
     "category": "Pronom"
   },
@@ -18933,8 +18933,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "subida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um subida",
+      "kea": "N ten un sebeda"
     },
     "category": "Nom"
   },
@@ -18945,8 +18945,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cedo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala cedo",
+      "kea": "El ta fala sedu"
     },
     "category": "Adverbe"
   },
@@ -18957,8 +18957,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "segredo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este segredo é meu",
+      "kea": "Es segredu e nha"
     },
     "category": "Nom"
   },
@@ -18969,8 +18969,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cego"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito cego",
+      "kea": "El e muitu segu"
     },
     "category": "Adjectif"
   },
@@ -18981,8 +18981,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "segunda-feira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste segunda-feira",
+      "kea": "N gosta di es segunda"
     },
     "category": "Nom"
   },
@@ -18993,8 +18993,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "seguro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito seguro",
+      "kea": "El e muitu seguru"
     },
     "category": "Adjectif"
   },
@@ -19005,8 +19005,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ceia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ceia",
+      "kea": "N gosta di es seia"
     },
     "category": "Nom"
   },
@@ -19017,8 +19017,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "seis"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Página seis",
+      "kea": "Pajina seis"
     },
     "category": "Nombre"
   },
@@ -19029,8 +19029,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "secar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero secar",
+      "kea": "N ka kre seka"
     },
     "category": "Verbe"
   },
@@ -19041,8 +19041,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "seco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é seco",
+      "kea": "Kes koiza e seku"
     },
     "category": "Adjectif"
   },
@@ -19053,8 +19053,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sela",
+      "kea": "N ten un sela"
     },
     "category": "Nom"
   },
@@ -19065,8 +19065,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Sem onde?",
+      "kea": "Sem undi?"
     },
     "category": "Préposition"
   },
@@ -19077,8 +19077,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "semana"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O semana é bonito",
+      "kea": "Semana e bunitu"
     },
     "category": "Nom"
   },
@@ -19089,8 +19089,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "semente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste semente",
+      "kea": "N gosta di es sementi"
     },
     "category": "Nom"
   },
@@ -19113,8 +19113,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Número cem",
+      "kea": "Numeru sen"
     },
     "category": "Nombre"
   },
@@ -19125,8 +19125,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cena"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um cena",
+      "kea": "N ten un sena"
     },
     "category": "Nom"
   },
@@ -19137,8 +19137,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "acender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de acender",
+      "kea": "El ta gosta di sendi"
     },
     "category": "Verbe"
   },
@@ -19149,8 +19149,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos sentar juntos",
+      "kea": "Nu bai senta djuntu"
     },
     "category": "Verbe"
   },
@@ -19161,8 +19161,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sentido",
+      "kea": "N ten un sentidu"
     },
     "category": "Nom"
   },
@@ -19173,8 +19173,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentimento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sentimento?",
+      "kea": "Undi ki sentimentu sta?"
     },
     "category": "Nom"
   },
@@ -19185,8 +19185,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Tenho cento anos",
+      "kea": "N ten sentu anu"
     },
     "category": "Nombre"
   },
@@ -19197,8 +19197,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cinzento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é cinzento",
+      "kea": "Kes koiza e senzi"
     },
     "category": "Adjectif"
   },
@@ -19209,8 +19209,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cera / serra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O cera é bonito",
+      "kea": "Sera e bunitu"
     },
     "category": "Nom"
   },
@@ -19221,8 +19221,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sereia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sereia?",
+      "kea": "Undi ki sereia sta?"
     },
     "category": "Nom"
   },
@@ -19233,8 +19233,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sério"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que sério!",
+      "kea": "Ki seriu!"
     },
     "category": "Adjectif"
   },
@@ -19245,8 +19245,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "serra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste serra",
+      "kea": "N gosta di es serra"
     },
     "category": "Nom"
   },
@@ -19257,8 +19257,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "certo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é certo",
+      "kea": "Ka e sertu"
     },
     "category": "Adjectif"
   },
@@ -19269,8 +19269,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "servir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou servir",
+      "kea": "N ta servi"
     },
     "category": "Verbe"
   },
@@ -19281,8 +19281,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "serviço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o serviço?",
+      "kea": "Undi ki servisu sta?"
     },
     "category": "Nom"
   },
@@ -19293,8 +19293,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "seus"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um seus",
+      "kea": "N ten un ses"
     },
     "category": "Possessif"
   },
@@ -19305,8 +19305,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sexta-feira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sexta-feira",
+      "kea": "N gosta di es sesta"
     },
     "category": "Nom"
   },
@@ -19317,8 +19317,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Tenho sete anos",
+      "kea": "N ten sete anu"
     },
     "category": "Nombre"
   },
@@ -19329,8 +19329,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "setembro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este setembro é meu",
+      "kea": "Es setembru e nha"
     },
     "category": "Nom"
   },
@@ -19341,8 +19341,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "setenta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Página setenta",
+      "kea": "Pajina setenta"
     },
     "category": "Nombre"
   },
@@ -19353,8 +19353,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "céu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o céu?",
+      "kea": "Undi ki seu sta?"
     },
     "category": "Nom"
   },
@@ -19365,8 +19365,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sexo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sexo é meu",
+      "kea": "Es sexu e nha"
     },
     "category": "Nom"
   },
@@ -19377,8 +19377,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "se / sim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vem se fica",
+      "kea": "Ben si fika"
     },
     "category": "Conjonction"
   },
@@ -19389,8 +19389,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O cidade é bonito",
+      "kea": "Sidadi e bunitu"
     },
     "category": "Nom"
   },
@@ -19401,8 +19401,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "século"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este século é meu",
+      "kea": "Es siegulu e nha"
     },
     "category": "Nom"
   },
@@ -19413,8 +19413,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "céu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um céu",
+      "kea": "N ten un sielu"
     },
     "category": "Nom"
   },
@@ -19425,8 +19425,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "significar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou significar",
+      "kea": "N ta signifika"
     },
     "category": "Verbe"
   },
@@ -19437,8 +19437,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "silêncio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O silêncio é bonito",
+      "kea": "Silensiu e bunitu"
     },
     "category": "Nom"
   },
@@ -19449,8 +19449,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sim"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça sim",
+      "kea": "Faze sim"
     },
     "category": "Adverbe"
   },
@@ -19461,8 +19461,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "como / assim como"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou como casa",
+      "kea": "N ta bai sima kasa"
     },
     "category": "Préposition"
   },
@@ -19473,8 +19473,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cemitério"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um cemitério",
+      "kea": "N ten un siminiteriu"
     },
     "category": "Nom"
   },
@@ -19485,8 +19485,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "simples"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa simples",
+      "kea": "Un pesoa simples"
     },
     "category": "Adjectif"
   },
@@ -19497,8 +19497,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sinal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O sinal é bonito",
+      "kea": "Sinal e bunitu"
     },
     "category": "Nom"
   },
@@ -19509,8 +19509,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sincero"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é sincero",
+      "kea": "Ka e sinceru"
     },
     "category": "Adjectif"
   },
@@ -19521,8 +19521,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de sentar",
+      "kea": "El ta gosta di sinta"
     },
     "category": "Verbe"
   },
@@ -19533,8 +19533,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cinto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o cinto?",
+      "kea": "Undi ki sintu sta?"
     },
     "category": "Nom"
   },
@@ -19545,8 +19545,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sino é meu",
+      "kea": "Es sinu e nha"
     },
     "category": "Nom"
   },
@@ -19557,8 +19557,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sistema"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sistema",
+      "kea": "N ten un sistema"
     },
     "category": "Nom"
   },
@@ -19569,8 +19569,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sítio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sítio é meu",
+      "kea": "Es sitiu e nha"
     },
     "category": "Nom"
   },
@@ -19581,8 +19581,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "situar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou situar",
+      "kea": "N ta situa"
     },
     "category": "Verbe"
   },
@@ -19593,8 +19593,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "situação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este situação é meu",
+      "kea": "Es situason e nha"
     },
     "category": "Nom"
   },
@@ -19605,8 +19605,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "civil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é civil",
+      "kea": "Ka e sivil"
     },
     "category": "Adjectif"
   },
@@ -19617,8 +19617,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "civilização"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o civilização?",
+      "kea": "Undi ki sivilizason sta?"
     },
     "category": "Nom"
   },
@@ -19629,8 +19629,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "só / somente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele fala só",
+      "kea": "El ta fala so"
     },
     "category": "Adverbe"
   },
@@ -19641,8 +19641,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "soberba"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o soberba?",
+      "kea": "Undi ki soberba sta?"
     },
     "category": "Nom"
   },
@@ -19653,8 +19653,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "subir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero subir",
+      "kea": "N ka kre sobi"
     },
     "category": "Verbe"
   },
@@ -19665,8 +19665,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sobra / sobrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero sobra",
+      "kea": "N ka kre sobra"
     },
     "category": "Verbe"
   },
@@ -19677,8 +19677,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sobrinha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sobrinha é meu",
+      "kea": "Es sobrinha e nha"
     },
     "category": "Nom"
   },
@@ -19689,8 +19689,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sobrinho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sobrinho",
+      "kea": "N ten un sobrinhu"
     },
     "category": "Nom"
   },
@@ -19701,8 +19701,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "saudade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o saudade?",
+      "kea": "Undi ki sodadi sta?"
     },
     "category": "Nom"
   },
@@ -19713,8 +19713,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sofá"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o sofá?",
+      "kea": "Undi ki sofá sta?"
     },
     "category": "Nom"
   },
@@ -19725,8 +19725,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sofrer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos sofrer juntos",
+      "kea": "Nu bai sofre djuntu"
     },
     "category": "Verbe"
   },
@@ -19737,8 +19737,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sogra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sogra",
+      "kea": "N gosta di es sogra"
     },
     "category": "Nom"
   },
@@ -19749,8 +19749,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sogro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O sogro é bonito",
+      "kea": "Sogru e bunitu"
     },
     "category": "Nom"
   },
@@ -19761,8 +19761,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sol"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sol é meu",
+      "kea": "Es sol e nha"
     },
     "category": "Nom"
   },
@@ -19773,8 +19773,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "soldado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um soldado",
+      "kea": "N ten un soldadu"
     },
     "category": "Nom"
   },
@@ -19785,8 +19785,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "soltar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou soltar",
+      "kea": "N ta solta"
     },
     "category": "Verbe"
   },
@@ -19797,8 +19797,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "solteiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é solteiro",
+      "kea": "Ka e solteiru"
     },
     "category": "Adjectif"
   },
@@ -19809,8 +19809,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sombra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sombra",
+      "kea": "N ten un sombra"
     },
     "category": "Nom"
   },
@@ -19821,8 +19821,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "somente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vou somente",
+      "kea": "N ta bai somente"
     },
     "category": "Adverbe"
   },
@@ -19833,8 +19833,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "som"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um som",
+      "kea": "N ten un son"
     },
     "category": "Nom"
   },
@@ -19845,8 +19845,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sonhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de sonhar",
+      "kea": "El ta gosta di sonha"
     },
     "category": "Verbe"
   },
@@ -19857,8 +19857,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sonho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sonho é meu",
+      "kea": "Es sonhu e nha"
     },
     "category": "Nom"
   },
@@ -19869,8 +19869,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sopa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sopa",
+      "kea": "N gosta di es sopa"
     },
     "category": "Nom"
   },
@@ -19881,8 +19881,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "soprar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de soprar",
+      "kea": "El ta gosta di sopra"
     },
     "category": "Verbe"
   },
@@ -19893,8 +19893,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sorrir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de sorrir",
+      "kea": "El ta gosta di sorri"
     },
     "category": "Verbe"
   },
@@ -19905,8 +19905,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sorte"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O sorte é bonito",
+      "kea": "Sorti e bunitu"
     },
     "category": "Nom"
   },
@@ -19917,8 +19917,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bater / golpear"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de bater",
+      "kea": "El ta gosta di sota"
     },
     "category": "Verbe"
   },
@@ -19929,8 +19929,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "suar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de suar",
+      "kea": "El ta gosta di sua"
     },
     "category": "Verbe"
   },
@@ -19941,8 +19941,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "suave"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é suave",
+      "kea": "Kes koiza e suavi"
     },
     "category": "Adjectif"
   },
@@ -19953,8 +19953,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "subir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos subir agora",
+      "kea": "Nu ten ki subi agora"
     },
     "category": "Verbe"
   },
@@ -19965,8 +19965,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sobrinho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este sobrinho é meu",
+      "kea": "Es subrinhu e nha"
     },
     "category": "Nom"
   },
@@ -19977,8 +19977,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sofrer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou sofrer",
+      "kea": "N ta sufre"
     },
     "category": "Verbe"
   },
@@ -19989,8 +19989,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sujeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um sujeira",
+      "kea": "N ten un suger"
     },
     "category": "Nom"
   },
@@ -20001,8 +20001,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sugerir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero sugerir",
+      "kea": "N ka kre sugeri"
     },
     "category": "Verbe"
   },
@@ -20013,8 +20013,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sujar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou sujar",
+      "kea": "N ta suja"
     },
     "category": "Verbe"
   },
@@ -20025,8 +20025,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sujeito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sujeito",
+      "kea": "N gosta di es sujeitu"
     },
     "category": "Nom"
   },
@@ -20037,8 +20037,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sujo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa sujo",
+      "kea": "Un pesoa suju"
     },
     "category": "Adjectif"
   },
@@ -20049,8 +20049,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sucesso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste sucesso",
+      "kea": "N gosta di es sukcesu"
     },
     "category": "Nom"
   },
@@ -20061,8 +20061,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "escuro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito escuro",
+      "kea": "El e muitu sukuru"
     },
     "category": "Adjectif"
   },
@@ -20073,8 +20073,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sul"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O sul é bonito",
+      "kea": "Sul e bunitu"
     },
     "category": "Nom"
   },
@@ -20085,8 +20085,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "como"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Estou como ti",
+      "kea": "N sta suma bo"
     },
     "category": "Préposition"
   },
@@ -20097,8 +20097,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "semana"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O semana é bonito",
+      "kea": "Sumana e bunitu"
     },
     "category": "Nom"
   },
@@ -20109,8 +20109,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "superfície"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste superfície",
+      "kea": "N gosta di es superficie"
     },
     "category": "Nom"
   },
@@ -20121,8 +20121,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "superior"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito superior",
+      "kea": "El e muitu superior"
     },
     "category": "Adjectif"
   },
@@ -20133,8 +20133,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "suportar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos suportar agora",
+      "kea": "Nu ten ki suporta agora"
     },
     "category": "Verbe"
   },
@@ -20145,8 +20145,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "surdo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que surdo!",
+      "kea": "Ki surdu!"
     },
     "category": "Adjectif"
   },
@@ -20157,8 +20157,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "surpresa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este surpresa é meu",
+      "kea": "Es surpreza e nha"
     },
     "category": "Nom"
   },
@@ -20169,8 +20169,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "suceder"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero suceder",
+      "kea": "N ka kre susede"
     },
     "category": "Verbe"
   },
@@ -20181,8 +20181,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "suspiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste suspiro",
+      "kea": "N gosta di es suspiro"
     },
     "category": "Nom"
   },
@@ -20193,8 +20193,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sustentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de sustentar",
+      "kea": "El ta gosta di sustenta"
     },
     "category": "Verbe"
   },
@@ -20205,8 +20205,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tabaco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o tabaco?",
+      "kea": "Undi ki tabaku sta?"
     },
     "category": "Nom"
   },
@@ -20217,8 +20217,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "taberna"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este taberna é meu",
+      "kea": "Es taberna e nha"
     },
     "category": "Nom"
   },
@@ -20229,8 +20229,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tábua"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tábua",
+      "kea": "N ten un tabua"
     },
     "category": "Nom"
   },
@@ -20241,8 +20241,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "taça"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este taça é meu",
+      "kea": "Es taça e nha"
     },
     "category": "Nom"
   },
@@ -20253,8 +20253,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atacar / tapar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos atacar juntos",
+      "kea": "Nu bai taka djuntu"
     },
     "category": "Verbe"
   },
@@ -20265,8 +20265,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é tal",
+      "kea": "Ka e tal"
     },
     "category": "Adjectif"
   },
@@ -20277,8 +20277,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "talvez"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Talvez está bem",
+      "kea": "Talvez sta ben"
     },
     "category": "Adverbe"
   },
@@ -20289,8 +20289,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tamanho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste tamanho",
+      "kea": "N gosta di es tamanhu"
     },
     "category": "Nom"
   },
@@ -20301,8 +20301,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "também"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça também",
+      "kea": "Faze tambe"
     },
     "category": "Adverbe"
   },
@@ -20313,8 +20313,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tampa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tampa",
+      "kea": "N ten un tampa"
     },
     "category": "Nom"
   },
@@ -20325,8 +20325,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "também"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Faça também",
+      "kea": "Faze tanbém"
     },
     "category": "Adverbe"
   },
@@ -20337,8 +20337,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tanque"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este tanque é meu",
+      "kea": "Es tanki e nha"
     },
     "category": "Nom"
   },
@@ -20349,8 +20349,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tanto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é tanto",
+      "kea": "Kes koiza e tanti"
     },
     "category": "Adjectif"
   },
@@ -20361,8 +20361,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tanto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa tanto",
+      "kea": "Un pesoa tantu"
     },
     "category": "Adjectif"
   },
@@ -20373,8 +20373,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tapar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de tapar",
+      "kea": "El ta gosta di tapa"
     },
     "category": "Verbe"
   },
@@ -20385,8 +20385,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tapete"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O tapete é bonito",
+      "kea": "Tapete e bunitu"
     },
     "category": "Nom"
   },
@@ -20397,8 +20397,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tardar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero tardar",
+      "kea": "N ka kre tarda"
     },
     "category": "Verbe"
   },
@@ -20409,8 +20409,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tarde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O tarde é bonito",
+      "kea": "Tardi e bunitu"
     },
     "category": "Nom"
   },
@@ -20421,8 +20421,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avô / pai"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este avô é meu",
+      "kea": "Es tata e nha"
     },
     "category": "Nom"
   },
@@ -20433,8 +20433,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "taxa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O taxa é bonito",
+      "kea": "Taxa e bunitu"
     },
     "category": "Nom"
   },
@@ -20445,8 +20445,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "até / ti"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Estou até ti",
+      "kea": "N sta te bo"
     },
     "category": "Préposition"
   },
@@ -20457,8 +20457,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "teatro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste teatro",
+      "kea": "N gosta di es teatru"
     },
     "category": "Nom"
   },
@@ -20469,8 +20469,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "teia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este teia é meu",
+      "kea": "Es teia e nha"
     },
     "category": "Nom"
   },
@@ -20481,8 +20481,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este tela é meu",
+      "kea": "Es tela e nha"
     },
     "category": "Nom"
   },
@@ -20493,8 +20493,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "telefone"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O telefone é bonito",
+      "kea": "Telefon e bunitu"
     },
     "category": "Nom"
   },
@@ -20505,8 +20505,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "telefonar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos telefonar juntos",
+      "kea": "Nu bai telefona djuntu"
     },
     "category": "Verbe"
   },
@@ -20517,8 +20517,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "televisão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o televisão?",
+      "kea": "Undi ki televison sta?"
     },
     "category": "Nom"
   },
@@ -20529,8 +20529,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tema / teimar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este tema é meu",
+      "kea": "Es tema e nha"
     },
     "category": "Nom"
   },
@@ -20541,8 +20541,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "temer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos temer agora",
+      "kea": "Nu ten ki teme agora"
     },
     "category": "Verbe"
   },
@@ -20553,8 +20553,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "temperar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos temperar agora",
+      "kea": "Nu ten ki tempera agora"
     },
     "category": "Verbe"
   },
@@ -20565,8 +20565,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tempo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste tempo",
+      "kea": "N gosta di es tempu"
     },
     "category": "Nom"
   },
@@ -20577,8 +20577,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ter"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos ter juntos",
+      "kea": "Nu bai ten djuntu"
     },
     "category": "Verbe"
   },
@@ -20589,8 +20589,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tenda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este tenda é meu",
+      "kea": "Es tenda e nha"
     },
     "category": "Nom"
   },
@@ -20601,8 +20601,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "entender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de entender",
+      "kea": "El ta gosta di tende"
     },
     "category": "Verbe"
   },
@@ -20613,8 +20613,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "temporal"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste temporal",
+      "kea": "N gosta di es tenporal"
     },
     "category": "Nom"
   },
@@ -20625,8 +20625,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos tentar juntos",
+      "kea": "Nu bai tenta djuntu"
     },
     "category": "Verbe"
   },
@@ -20637,8 +20637,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "terreno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste terreno",
+      "kea": "N gosta di es terenu"
     },
     "category": "Nom"
   },
@@ -20649,8 +20649,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "terminar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero terminar",
+      "kea": "N ka kre termina"
     },
     "category": "Verbe"
   },
@@ -20661,8 +20661,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "terra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um terra",
+      "kea": "N ten un terra"
     },
     "category": "Nom"
   },
@@ -20673,8 +20673,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "inteiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa inteiro",
+      "kea": "Un pesoa teru"
     },
     "category": "Adjectif"
   },
@@ -20685,8 +20685,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tesoura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este tesoura é meu",
+      "kea": "Es tesoura e nha"
     },
     "category": "Nom"
   },
@@ -20697,8 +20697,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "testa / testar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este testa é meu",
+      "kea": "Es testa e nha"
     },
     "category": "Nom"
   },
@@ -20709,8 +20709,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "testemunha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O testemunha é bonito",
+      "kea": "Testimunha e bunitu"
     },
     "category": "Nom"
   },
@@ -20721,8 +20721,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "teto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um teto",
+      "kea": "N ten un teto"
     },
     "category": "Nom"
   },
@@ -20733,8 +20733,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "teu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o teu?",
+      "kea": "Undi ki teu sta?"
     },
     "category": "Possessif"
   },
@@ -20745,8 +20745,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "até / ti"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Até onde?",
+      "kea": "Ti undi?"
     },
     "category": "Préposition"
   },
@@ -20757,8 +20757,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este tia é meu",
+      "kea": "Es tia e nha"
     },
     "category": "Nom"
   },
@@ -20769,8 +20769,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tinta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tinta",
+      "kea": "N ten un tinta"
     },
     "category": "Nom"
   },
@@ -20781,8 +20781,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tinto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é tinto",
+      "kea": "Ka e tintu"
     },
     "category": "Adjectif"
   },
@@ -20793,8 +20793,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tio",
+      "kea": "N ten un tio"
     },
     "category": "Nom"
   },
@@ -20805,8 +20805,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos tirar juntos",
+      "kea": "Nu bai tira djuntu"
     },
     "category": "Verbe"
   },
@@ -20817,8 +20817,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tio / tia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tio",
+      "kea": "N ten un titi"
     },
     "category": "Nom"
   },
@@ -20829,8 +20829,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "título"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O título é bonito",
+      "kea": "Titulu e bunitu"
     },
     "category": "Nom"
   },
@@ -20841,8 +20841,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tocar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de tocar",
+      "kea": "El ta gosta di toka"
     },
     "category": "Verbe"
   },
@@ -20853,8 +20853,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "toque"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste toque",
+      "kea": "N gosta di es toke"
     },
     "category": "Nom"
   },
@@ -20865,8 +20865,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tomar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero tomar",
+      "kea": "N ka kre toma"
     },
     "category": "Verbe"
   },
@@ -20877,8 +20877,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tomate"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste tomate",
+      "kea": "N gosta di es tomati"
     },
     "category": "Nom"
   },
@@ -20889,8 +20889,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tom"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tom",
+      "kea": "N ten un ton"
     },
     "category": "Nom"
   },
@@ -20901,8 +20901,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tontura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tontura",
+      "kea": "N ten un tontura"
     },
     "category": "Nom"
   },
@@ -20913,8 +20913,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "topada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste topada",
+      "kea": "N gosta di es topada"
     },
     "category": "Nom"
   },
@@ -20925,8 +20925,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tornar / voltar a"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos tornar agora",
+      "kea": "Nu ten ki torna agora"
     },
     "category": "Verbe"
   },
@@ -20937,8 +20937,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "torrar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos torrar juntos",
+      "kea": "Nu bai torra djuntu"
     },
     "category": "Verbe"
   },
@@ -20949,8 +20949,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "torrada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este torrada é meu",
+      "kea": "Es torrada e nha"
     },
     "category": "Nom"
   },
@@ -20961,8 +20961,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "torto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito torto",
+      "kea": "El e muitu tortu"
     },
     "category": "Adjectif"
   },
@@ -20973,8 +20973,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tossir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou tossir",
+      "kea": "N ta tosi"
     },
     "category": "Verbe"
   },
@@ -20985,8 +20985,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tosse"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste tosse",
+      "kea": "N gosta di es tosse"
     },
     "category": "Nom"
   },
@@ -20997,8 +20997,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "total"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é total",
+      "kea": "Ka e total"
     },
     "category": "Adjectif"
   },
@@ -21009,8 +21009,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trabalhar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou trabalhar",
+      "kea": "N ta trabadja"
     },
     "category": "Verbe"
   },
@@ -21021,8 +21021,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trabalho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O trabalho é bonito",
+      "kea": "Trabadju e bunitu"
     },
     "category": "Nom"
   },
@@ -21033,8 +21033,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tradição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste tradição",
+      "kea": "N gosta di es tradison"
     },
     "category": "Nom"
   },
@@ -21045,8 +21045,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "traduzir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de traduzir",
+      "kea": "El ta gosta di traduzi"
     },
     "category": "Verbe"
   },
@@ -21057,8 +21057,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tráfego / tráfico"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O tráfego é bonito",
+      "kea": "Trafiku e bunitu"
     },
     "category": "Nom"
   },
@@ -21069,8 +21069,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "traje"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um traje",
+      "kea": "N ten un traji"
     },
     "category": "Nom"
   },
@@ -21081,8 +21081,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trancar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de trancar",
+      "kea": "El ta gosta di traka"
     },
     "category": "Verbe"
   },
@@ -21093,8 +21093,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tranquilo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é tranquilo",
+      "kea": "Kes koiza e trankilu"
     },
     "category": "Adjectif"
   },
@@ -21105,8 +21105,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "transferir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de transferir",
+      "kea": "El ta gosta di transfe"
     },
     "category": "Verbe"
   },
@@ -21117,8 +21117,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "transformar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou transformar",
+      "kea": "N ta transforma"
     },
     "category": "Verbe"
   },
@@ -21129,8 +21129,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "transportar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos transportar juntos",
+      "kea": "Nu bai transporta djuntu"
     },
     "category": "Verbe"
   },
@@ -21141,8 +21141,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trás / atrás"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Trás está bem",
+      "kea": "Tras sta ben"
     },
     "category": "Adverbe"
   },
@@ -21153,8 +21153,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tratar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero tratar",
+      "kea": "N ka kre trata"
     },
     "category": "Verbe"
   },
@@ -21165,8 +21165,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "travessa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um travessa",
+      "kea": "N ten un travessa"
     },
     "category": "Nom"
   },
@@ -21177,8 +21177,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trazer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos trazer agora",
+      "kea": "Nu ten ki traze agora"
     },
     "category": "Verbe"
   },
@@ -21189,8 +21189,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "treinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos treinar juntos",
+      "kea": "Nu bai treina djuntu"
     },
     "category": "Verbe"
   },
@@ -21201,8 +21201,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "treinador"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um treinador",
+      "kea": "N ten un treinador"
     },
     "category": "Nom"
   },
@@ -21213,8 +21213,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "treino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um treino",
+      "kea": "N ten un treinu"
     },
     "category": "Nom"
   },
@@ -21225,8 +21225,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tremer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero tremer",
+      "kea": "N ka kre treme"
     },
     "category": "Verbe"
   },
@@ -21237,8 +21237,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "três"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "três pessoas",
+      "kea": "tres pesoa"
     },
     "category": "Nombre"
   },
@@ -21249,8 +21249,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trevosa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é trevosa",
+      "kea": "Kes koiza e trevosa"
     },
     "category": "Adjectif"
   },
@@ -21261,8 +21261,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um trigo",
+      "kea": "N ten un trigu"
     },
     "category": "Nom"
   },
@@ -21273,8 +21273,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trinta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "trinta pessoas",
+      "kea": "trinta pesoa"
     },
     "category": "Nombre"
   },
@@ -21285,8 +21285,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tripa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um tripa",
+      "kea": "N ten un tripa"
     },
     "category": "Nom"
   },
@@ -21297,8 +21297,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "triste"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito triste",
+      "kea": "El e muitu tristi"
     },
     "category": "Adjectif"
   },
@@ -21309,8 +21309,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tristeza"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste tristeza",
+      "kea": "N gosta di es tristeza"
     },
     "category": "Nom"
   },
@@ -21321,8 +21321,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trocar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero trocar",
+      "kea": "N ka kre troka"
     },
     "category": "Verbe"
   },
@@ -21333,8 +21333,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tronco"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o tronco?",
+      "kea": "Undi ki tronku sta?"
     },
     "category": "Nom"
   },
@@ -21345,8 +21345,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tropa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o tropa?",
+      "kea": "Undi ki tropa sta?"
     },
     "category": "Nom"
   },
@@ -21357,8 +21357,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trovoada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um trovoada",
+      "kea": "N ten un trovada"
     },
     "category": "Nom"
   },
@@ -21369,8 +21369,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "trovão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este trovão é meu",
+      "kea": "Es trovon e nha"
     },
     "category": "Nom"
   },
@@ -21381,8 +21381,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tudo / todo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa tudo",
+      "kea": "Un pesoa tudu"
     },
     "category": "Adjectif"
   },
@@ -21393,8 +21393,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "português (pessoa)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um português (pessoa)",
+      "kea": "N ten un tuga"
     },
     "category": "Nom"
   },
@@ -21405,8 +21405,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "túmulo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este túmulo é meu",
+      "kea": "Es tumbi e nha"
     },
     "category": "Nom"
   },
@@ -21417,8 +21417,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "muito / cheio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é muito",
+      "kea": "Ka e txeu"
     },
     "category": "Adjectif"
   },
@@ -21429,8 +21429,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chegar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos chegar agora",
+      "kea": "Nu ten ki txiga agora"
     },
     "category": "Verbe"
   },
@@ -21441,8 +21441,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chegada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chegada é bonito",
+      "kea": "Txigada e bunitu"
     },
     "category": "Nom"
   },
@@ -21453,8 +21453,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chamar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos chamar juntos",
+      "kea": "Nu bai txoma djuntu"
     },
     "category": "Verbe"
   },
@@ -21465,8 +21465,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chorar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero chorar",
+      "kea": "N ka kre txora"
     },
     "category": "Verbe"
   },
@@ -21477,8 +21477,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chouriço"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chouriço é bonito",
+      "kea": "Txorrisu e bunitu"
     },
     "category": "Nom"
   },
@@ -21489,8 +21489,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chuva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chuva é bonito",
+      "kea": "Txuba e bunitu"
     },
     "category": "Nom"
   },
@@ -21501,8 +21501,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chupeta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o chupeta?",
+      "kea": "Undi ki txuputi sta?"
     },
     "category": "Nom"
   },
@@ -21513,8 +21513,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "o / u"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O o é bonito",
+      "kea": "U e bunitu"
     },
     "category": "Nom"
   },
@@ -21525,8 +21525,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ouvir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou ouvir",
+      "kea": "N ta ubi"
     },
     "category": "Verbe"
   },
@@ -21537,8 +21537,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "um"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Número um",
+      "kea": "Numeru un"
     },
     "category": "Nombre"
   },
@@ -21549,8 +21549,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "unha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este unha é meu",
+      "kea": "Es unha e nha"
     },
     "category": "Nom"
   },
@@ -21561,8 +21561,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "unha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um unha",
+      "kea": "N ten un unhac"
     },
     "category": "Nom"
   },
@@ -21573,8 +21573,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "unir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos unir agora",
+      "kea": "Nu ten ki uni agora"
     },
     "category": "Verbe"
   },
@@ -21585,8 +21585,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "único"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito único",
+      "kea": "El e muitu uniku"
     },
     "category": "Adjectif"
   },
@@ -21597,8 +21597,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "união"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um união",
+      "kea": "N ten un union"
     },
     "category": "Nom"
   },
@@ -21609,8 +21609,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "universidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este universidade é meu",
+      "kea": "Es universidadi e nha"
     },
     "category": "Nom"
   },
@@ -21621,8 +21621,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "universo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O universo é bonito",
+      "kea": "Universu e bunitu"
     },
     "category": "Nom"
   },
@@ -21633,8 +21633,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "urina / urinar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este urina é meu",
+      "kea": "Es urina e nha"
     },
     "category": "Nom"
   },
@@ -21645,8 +21645,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "urgente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito urgente",
+      "kea": "El e muitu urjente"
     },
     "category": "Adjectif"
   },
@@ -21657,8 +21657,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ursa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ursa",
+      "kea": "N gosta di es ursa"
     },
     "category": "Nom"
   },
@@ -21669,8 +21669,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "urso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um urso",
+      "kea": "N ten un ursu"
     },
     "category": "Nom"
   },
@@ -21681,8 +21681,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "usar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos usar agora",
+      "kea": "Nu ten ki usa agora"
     },
     "category": "Verbe"
   },
@@ -21693,8 +21693,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "útil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa útil",
+      "kea": "Un pesoa util"
     },
     "category": "Adjectif"
   },
@@ -21705,8 +21705,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "uva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um uva",
+      "kea": "N ten un uva"
     },
     "category": "Nom"
   },
@@ -21717,8 +21717,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vê (ver)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos vê (ver) agora",
+      "kea": "Nu ten ki v agora"
     },
     "category": "Verbe"
   },
@@ -21729,8 +21729,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vaca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vaca é meu",
+      "kea": "Es vaka e nha"
     },
     "category": "Nom"
   },
@@ -21741,8 +21741,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valer / vale"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou valer",
+      "kea": "N ta vale"
     },
     "category": "Verbe"
   },
@@ -21753,8 +21753,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é valente",
+      "kea": "Kes koiza e valenti"
     },
     "category": "Adjectif"
   },
@@ -21765,8 +21765,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "validade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um validade",
+      "kea": "N ten un validadi"
     },
     "category": "Nom"
   },
@@ -21777,8 +21777,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valor"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este valor é meu",
+      "kea": "Es valor e nha"
     },
     "category": "Nom"
   },
@@ -21789,8 +21789,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vapor / navio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vapor?",
+      "kea": "Undi ki vapor sta?"
     },
     "category": "Nom"
   },
@@ -21801,8 +21801,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vara"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vara?",
+      "kea": "Undi ki vara sta?"
     },
     "category": "Nom"
   },
@@ -21813,8 +21813,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "varanda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste varanda",
+      "kea": "N gosta di es varanda"
     },
     "category": "Nom"
   },
@@ -21825,8 +21825,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "várias"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é várias",
+      "kea": "Kes koiza e varias"
     },
     "category": "Adjectif"
   },
@@ -21837,8 +21837,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vazia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito vazia",
+      "kea": "El e muitu vasia"
     },
     "category": "Adjectif"
   },
@@ -21849,8 +21849,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vacina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um vacina",
+      "kea": "N ten un vasilna"
     },
     "category": "Nom"
   },
@@ -21861,8 +21861,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vaso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vaso?",
+      "kea": "Undi ki vasu sta?"
     },
     "category": "Nom"
   },
@@ -21873,8 +21873,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vazio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é vazio",
+      "kea": "Ka e vazi"
     },
     "category": "Adjectif"
   },
@@ -21885,8 +21885,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou ver",
+      "kea": "N ta ve"
     },
     "category": "Verbe"
   },
@@ -21897,8 +21897,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vela"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vela é meu",
+      "kea": "Es vela e nha"
     },
     "category": "Nom"
   },
@@ -21909,8 +21909,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "velocidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o velocidade?",
+      "kea": "Undi ki velosidadi sta?"
     },
     "category": "Nom"
   },
@@ -21921,8 +21921,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vender"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos vender juntos",
+      "kea": "Nu bai vende djuntu"
     },
     "category": "Verbe"
   },
@@ -21933,8 +21933,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "veneno"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o veneno?",
+      "kea": "Undi ki venenu sta?"
     },
     "category": "Nom"
   },
@@ -21945,8 +21945,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vencer"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos vencer agora",
+      "kea": "Nu ten ki vensi agora"
     },
     "category": "Verbe"
   },
@@ -21957,8 +21957,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste vento",
+      "kea": "N gosta di es ventu"
     },
     "category": "Nom"
   },
@@ -21969,8 +21969,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero ver",
+      "kea": "N ka kre ver"
     },
     "category": "Verbe"
   },
@@ -21981,8 +21981,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "verde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito verde",
+      "kea": "El e muitu berde"
     },
     "category": "Adjectif"
   },
@@ -21993,8 +21993,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "verdade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O verdade é bonito",
+      "kea": "Verdadi e bunitu"
     },
     "category": "Nom"
   },
@@ -22005,8 +22005,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "verdadeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa verdadeiro",
+      "kea": "Un pesoa verdaderu"
     },
     "category": "Adjectif"
   },
@@ -22017,8 +22017,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vergonha"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vergonha é meu",
+      "kea": "Es vergonha e nha"
     },
     "category": "Nom"
   },
@@ -22029,8 +22029,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vermelho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito vermelho",
+      "kea": "El e muitu vermelhu"
     },
     "category": "Adjectif"
   },
@@ -22041,8 +22041,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vestir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de vestir",
+      "kea": "El ta gosta di vesti"
     },
     "category": "Verbe"
   },
@@ -22053,8 +22053,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vestido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O vestido é bonito",
+      "kea": "Vestidu e bunitu"
     },
     "category": "Nom"
   },
@@ -22065,8 +22065,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vez"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O vez é bonito",
+      "kea": "Vez e bunitu"
     },
     "category": "Nom"
   },
@@ -22077,8 +22077,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "via"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste via",
+      "kea": "N gosta di es via"
     },
     "category": "Nom"
   },
@@ -22089,8 +22089,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viajar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de viajar",
+      "kea": "El ta gosta di viaja"
     },
     "category": "Verbe"
   },
@@ -22101,8 +22101,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste viagem",
+      "kea": "N gosta di es viaji"
     },
     "category": "Nom"
   },
@@ -22113,8 +22113,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vida?",
+      "kea": "Undi ki vida sta?"
     },
     "category": "Nom"
   },
@@ -22125,8 +22125,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vidro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um vidro",
+      "kea": "N ten un vidru"
     },
     "category": "Nom"
   },
@@ -22137,8 +22137,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vila"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vila?",
+      "kea": "Undi ki vila sta?"
     },
     "category": "Nom"
   },
@@ -22149,8 +22149,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vingar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos vingar juntos",
+      "kea": "Nu bai vinga djuntu"
     },
     "category": "Verbe"
   },
@@ -22161,8 +22161,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vingança"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste vingança",
+      "kea": "N gosta di es vingansa"
     },
     "category": "Nom"
   },
@@ -22173,8 +22173,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vinho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vinho?",
+      "kea": "Undi ki vinhu sta?"
     },
     "category": "Nom"
   },
@@ -22185,8 +22185,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viola"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este viola é meu",
+      "kea": "Es viola e nha"
     },
     "category": "Nom"
   },
@@ -22197,8 +22197,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "violão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o violão?",
+      "kea": "Undi ki violon sta?"
     },
     "category": "Nom"
   },
@@ -22209,8 +22209,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "virar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou virar",
+      "kea": "N ta vira"
     },
     "category": "Verbe"
   },
@@ -22221,8 +22221,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "virgem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O virgem é bonito",
+      "kea": "Virgem e bunitu"
     },
     "category": "Nom"
   },
@@ -22233,8 +22233,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "virtude"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O virtude é bonito",
+      "kea": "Virtudi e bunitu"
     },
     "category": "Nom"
   },
@@ -22245,8 +22245,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "visita / visitar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este visita é meu",
+      "kea": "Es visita e nha"
     },
     "category": "Nom"
   },
@@ -22257,8 +22257,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vista"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vista é meu",
+      "kea": "Es vista e nha"
     },
     "category": "Nom"
   },
@@ -22269,8 +22269,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "visto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O visto é bonito",
+      "kea": "Vistu e bunitu"
     },
     "category": "Nom"
   },
@@ -22281,8 +22281,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vítima"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste vítima",
+      "kea": "N gosta di es vitima"
     },
     "category": "Nom"
   },
@@ -22293,8 +22293,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vitória"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vitória é meu",
+      "kea": "Es vitoria e nha"
     },
     "category": "Nom"
   },
@@ -22305,8 +22305,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viúva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O viúva é bonito",
+      "kea": "Viuva e bunitu"
     },
     "category": "Nom"
   },
@@ -22317,8 +22317,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste viva",
+      "kea": "N gosta di es viva"
     },
     "category": "Interjection"
   },
@@ -22329,8 +22329,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viver"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos viver juntos",
+      "kea": "Nu bai vive djuntu"
     },
     "category": "Verbe"
   },
@@ -22341,8 +22341,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vizinho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vizinho é meu",
+      "kea": "Es vizinhu e nha"
     },
     "category": "Nom"
   },
@@ -22353,8 +22353,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "voar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de voar",
+      "kea": "El ta gosta di voa"
     },
     "category": "Verbe"
   },
@@ -22365,8 +22365,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "volta / voltar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este volta é meu",
+      "kea": "Es volta e nha"
     },
     "category": "Nom"
   },
@@ -22377,8 +22377,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vontade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este vontade é meu",
+      "kea": "Es vontadi e nha"
     },
     "category": "Nom"
   },
@@ -22389,8 +22389,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "votar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos votar juntos",
+      "kea": "Nu bai vota djuntu"
     },
     "category": "Verbe"
   },
@@ -22401,8 +22401,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "voto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o voto?",
+      "kea": "Undi ki votu sta?"
     },
     "category": "Nom"
   },
@@ -22413,8 +22413,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "voz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o voz?",
+      "kea": "Undi ki voz sta?"
     },
     "category": "Nom"
   },
@@ -22425,8 +22425,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vulcão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o vulcão?",
+      "kea": "Undi ki vulkon sta?"
     },
     "category": "Nom"
   },
@@ -22437,8 +22437,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "x (letra)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um x (letra)",
+      "kea": "N ten un x"
     },
     "category": "Nom"
   },
@@ -22449,8 +22449,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chá"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chá é bonito",
+      "kea": "Xa e bunitu"
     },
     "category": "Nom"
   },
@@ -22461,8 +22461,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cheirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos cheirar juntos",
+      "kea": "Nu bai xaire djuntu"
     },
     "category": "Verbe"
   },
@@ -22473,8 +22473,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "xaile"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O xaile é bonito",
+      "kea": "Xale e bunitu"
     },
     "category": "Nom"
   },
@@ -22485,8 +22485,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chama / chamar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chama é bonito",
+      "kea": "Xama e bunitu"
     },
     "category": "Nom"
   },
@@ -22497,8 +22497,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chaminé"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chaminé é bonito",
+      "kea": "Xamina e bunitu"
     },
     "category": "Nom"
   },
@@ -22509,8 +22509,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chapa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste chapa",
+      "kea": "N gosta di es xapa"
     },
     "category": "Nom"
   },
@@ -22521,8 +22521,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que chato!",
+      "kea": "Ki xatu!"
     },
     "category": "Adjectif"
   },
@@ -22533,8 +22533,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chave"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este chave é meu",
+      "kea": "Es xave e nha"
     },
     "category": "Nom"
   },
@@ -22545,8 +22545,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chefe"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O chefe é bonito",
+      "kea": "Xefe e bunitu"
     },
     "category": "Nom"
   },
@@ -22557,8 +22557,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cheia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito cheia",
+      "kea": "El e muitu xeia"
     },
     "category": "Adjectif"
   },
@@ -22569,8 +22569,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cheio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é cheio",
+      "kea": "Ka e xeiu"
     },
     "category": "Adjectif"
   },
@@ -22581,8 +22581,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cheirar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos cheirar agora",
+      "kea": "Nu ten ki xera agora"
     },
     "category": "Verbe"
   },
@@ -22593,8 +22593,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "xerife"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este xerife é meu",
+      "kea": "Es xerife e nha"
     },
     "category": "Nom"
   },
@@ -22605,8 +22605,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "xícara"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O xícara é bonito",
+      "kea": "Xikara e bunitu"
     },
     "category": "Nom"
   },
@@ -22617,8 +22617,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "xícara"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um xícara",
+      "kea": "N ten un xikra"
     },
     "category": "Nom"
   },
@@ -22629,8 +22629,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chinelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o chinelo?",
+      "kea": "Undi ki xinelu sta?"
     },
     "category": "Nom"
   },
@@ -22641,8 +22641,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chinês"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é chinês",
+      "kea": "Ka e xines"
     },
     "category": "Adjectif"
   },
@@ -22653,8 +22653,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou sentar",
+      "kea": "N ta xinta"
     },
     "category": "Verbe"
   },
@@ -22665,8 +22665,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou sentir",
+      "kea": "N ta xinte"
     },
     "category": "Verbe"
   },
@@ -22677,8 +22677,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sentir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos sentir juntos",
+      "kea": "Nu bai xinti djuntu"
     },
     "category": "Verbe"
   },
@@ -22689,8 +22689,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "suja / porcaria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que suja!",
+      "kea": "Ki xuxa!"
     },
     "category": "Adjectif"
   },
@@ -22701,8 +22701,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "sujo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito sujo",
+      "kea": "El e muitu xuxu"
     },
     "category": "Adjectif"
   },
@@ -22713,8 +22713,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chorar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos chorar agora",
+      "kea": "Nu ten ki xora agora"
     },
     "category": "Verbe"
   },
@@ -22725,8 +22725,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "chuva"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um chuva",
+      "kea": "N ten un xuva"
     },
     "category": "Nom"
   },
@@ -22737,8 +22737,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "z (letra)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste z (letra)",
+      "kea": "N gosta di es z"
     },
     "category": "Nom"
   },
@@ -22749,8 +22749,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zangar / zanga"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos zangar agora",
+      "kea": "Nu ten ki zanga agora"
     },
     "category": "Verbe"
   },
@@ -22761,8 +22761,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zebra"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um zebra",
+      "kea": "N ten un zebra"
     },
     "category": "Nom"
   },
@@ -22773,8 +22773,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zelo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este zelo é meu",
+      "kea": "Es zelu e nha"
     },
     "category": "Nom"
   },
@@ -22785,8 +22785,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zero"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Tenho zero anos",
+      "kea": "N ten zero anu"
     },
     "category": "Nombre"
   },
@@ -22797,8 +22797,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zona"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste zona",
+      "kea": "N gosta di es zona"
     },
     "category": "Nom"
   },
@@ -22809,8 +22809,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zona"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este zona é meu",
+      "kea": "Es zoona e nha"
     },
     "category": "Nom"
   },
@@ -22821,8 +22821,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ajudar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de ajudar",
+      "kea": "El ta gosta di zudia"
     },
     "category": "Verbe"
   },
@@ -22833,8 +22833,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zueira / brincadeira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O zueira é bonito",
+      "kea": "Zueira e bunitu"
     },
     "category": "Nom"
   },
@@ -22845,8 +22845,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zumbi"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o zumbi?",
+      "kea": "Undi ki zumbi sta?"
     },
     "category": "Nom"
   },
@@ -22857,8 +22857,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "zumzum"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um zumzum",
+      "kea": "N ten un zumzum"
     },
     "category": "Nom"
   },
@@ -22869,8 +22869,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abertura"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o abertura?",
+      "kea": "Undi ki abertura sta?"
     },
     "category": "Nom"
   },
@@ -22881,8 +22881,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "tu / você"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Tu também",
+      "kea": "Abo tanbé"
     },
     "category": "Pronom"
   },
@@ -22893,8 +22893,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "estar alerta / abrir o olho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "estar alerta / abrir o olho",
+      "kea": "abri-odju"
     },
     "category": "Expression"
   },
@@ -22905,8 +22905,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "absolvição"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um absolvição",
+      "kea": "N ten un absolvison"
     },
     "category": "Nom"
   },
@@ -22917,8 +22917,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "absurdo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é absurdo",
+      "kea": "Ka e absurdu"
     },
     "category": "Adjectif"
   },
@@ -22941,8 +22941,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adeus"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "adeus",
+      "kea": "adas"
     },
     "category": "Expression"
   },
@@ -22953,8 +22953,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "expressão de admiração"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "expressão de admiração",
+      "kea": "adjaa"
     },
     "category": "Expression"
   },
@@ -22965,8 +22965,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adjetivo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este adjetivo é meu",
+      "kea": "Es adjetivu e nha"
     },
     "category": "Nom"
   },
@@ -22977,8 +22977,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "advogado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este advogado é meu",
+      "kea": "Es advogadu e nha"
     },
     "category": "Nom"
   },
@@ -22989,8 +22989,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ele (pronome)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele (pronome) vou contigo",
+      "kea": "Ael ta bai ku bo"
     },
     "category": "Pronom"
   },
@@ -23001,8 +23001,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aculturação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aculturação é meu",
+      "kea": "Es akulturason e nha"
     },
     "category": "Nom"
   },
@@ -23013,8 +23013,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alegrar / ser feliz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos alegrar juntos",
+      "kea": "Nu bai alegra djuntu"
     },
     "category": "Verbe"
   },
@@ -23025,8 +23025,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "gancho (de teto)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste gancho (de teto)",
+      "kea": "N gosta di es algola"
     },
     "category": "Nom"
   },
@@ -23037,8 +23037,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alguns"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Alguns também",
+      "kea": "Alguns tanbé"
     },
     "category": "Pronom"
   },
@@ -23049,8 +23049,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "animal / montaria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um animal",
+      "kea": "N ten un alimaria"
     },
     "category": "Nom"
   },
@@ -23061,8 +23061,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arquear / ficar de pernas arqueadas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos arquear agora",
+      "kea": "Nu ten ki alkua agora"
     },
     "category": "Verbe"
   },
@@ -23073,8 +23073,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "álcool"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o álcool?",
+      "kea": "Undi ki alkuol sta?"
     },
     "category": "Nom"
   },
@@ -23085,8 +23085,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "luz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste luz",
+      "kea": "N gosta di es aluz"
     },
     "category": "Nom"
   },
@@ -23097,8 +23097,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "comichão / coceira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero comichão",
+      "kea": "N ka kre alvorosa"
     },
     "category": "Verbe"
   },
@@ -23109,8 +23109,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "enfiar / acompanhar até a porta"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de enfiar",
+      "kea": "El ta gosta di anfia"
     },
     "category": "Verbe"
   },
@@ -23121,8 +23121,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "engolir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos engolir juntos",
+      "kea": "Nu bai anguli djuntu"
     },
     "category": "Verbe"
   },
@@ -23133,8 +23133,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anilhar / juntar (articulação)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou anilhar",
+      "kea": "N ta anidja"
     },
     "category": "Verbe"
   },
@@ -23145,8 +23145,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "animar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos animar juntos",
+      "kea": "Nu bai anima djuntu"
     },
     "category": "Verbe"
   },
@@ -23157,8 +23157,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "animado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito animado",
+      "kea": "El e muitu animadu"
     },
     "category": "Adjectif"
   },
@@ -23169,8 +23169,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "encolher"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero encolher",
+      "kea": "N ka kre ankodje"
     },
     "category": "Verbe"
   },
@@ -23181,8 +23181,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viver bem / confortavelmente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero viver bem",
+      "kea": "N ka kre ankua"
     },
     "category": "Verbe"
   },
@@ -23193,8 +23193,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "amparar / sustentar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de amparar",
+      "kea": "El ta gosta di anpara"
     },
     "category": "Verbe"
   },
@@ -23205,8 +23205,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "então / e depois"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu então tu",
+      "kea": "N antan bo"
     },
     "category": "Conjonction"
   },
@@ -23217,8 +23217,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "anterior"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito anterior",
+      "kea": "El e muitu anterior"
     },
     "category": "Adjectif"
   },
@@ -23229,8 +23229,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aparador / armário"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aparador",
+      "kea": "N ten un aparador"
     },
     "category": "Nom"
   },
@@ -23241,8 +23241,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aparelho / rádio"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste aparelho",
+      "kea": "N gosta di es aparei"
     },
     "category": "Nom"
   },
@@ -23253,8 +23253,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aplicação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aplicação é bonito",
+      "kea": "Aplikason e bunitu"
     },
     "category": "Nom"
   },
@@ -23265,8 +23265,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Arábia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um Arábia",
+      "kea": "N ten un Arabia"
     },
     "category": "Nom"
   },
@@ -23277,8 +23277,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alparca / sandália"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alparca é meu",
+      "kea": "Es arberka e nha"
     },
     "category": "Nom"
   },
@@ -23289,8 +23289,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "alvíssaras / boas notícias"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este alvíssaras é meu",
+      "kea": "Es arbisa e nha"
     },
     "category": "Nom"
   },
@@ -23301,8 +23301,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arborizar / plantar árvores"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos arborizar agora",
+      "kea": "Nu ten ki arboriza agora"
     },
     "category": "Verbe"
   },
@@ -23313,8 +23313,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "areia / área"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um areia",
+      "kea": "N ten un area"
     },
     "category": "Nom"
   },
@@ -23325,8 +23325,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arredores / subúrbios"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este arredores é meu",
+      "kea": "Es aredor e nha"
     },
     "category": "Nom"
   },
@@ -23337,8 +23337,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "algodão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O algodão é bonito",
+      "kea": "Argudon e bunitu"
     },
     "category": "Nom"
   },
@@ -23349,8 +23349,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos rir agora",
+      "kea": "Nu ten ki ari agora"
     },
     "category": "Verbe"
   },
@@ -23361,8 +23361,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armador / montador"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o armador?",
+      "kea": "Undi ki armador sta?"
     },
     "category": "Nom"
   },
@@ -23373,8 +23373,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "armazém"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o armazém?",
+      "kea": "Undi ki armazen sta?"
     },
     "category": "Nom"
   },
@@ -23385,8 +23385,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arroz"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um arroz",
+      "kea": "N ten un aros"
     },
     "category": "Nom"
   },
@@ -23397,8 +23397,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "arre (interjeição)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "arre (interjeição)",
+      "kea": "arra"
     },
     "category": "Expression"
   },
@@ -23409,8 +23409,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou rir",
+      "kea": "N ta arri"
     },
     "category": "Verbe"
   },
@@ -23421,8 +23421,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "artéria"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um artéria",
+      "kea": "N ten un arteria"
     },
     "category": "Nom"
   },
@@ -23433,8 +23433,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "artigo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um artigo",
+      "kea": "N ten un artigo"
     },
     "category": "Nom"
   },
@@ -23445,8 +23445,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "artesanato"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste artesanato",
+      "kea": "N gosta di es artizanatu"
     },
     "category": "Nom"
   },
@@ -23457,8 +23457,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assear / limpar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou assear",
+      "kea": "N ta asea"
     },
     "category": "Verbe"
   },
@@ -23469,8 +23469,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asseio / higiene"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O asseio é bonito",
+      "kea": "Aseiu e bunitu"
     },
     "category": "Nom"
   },
@@ -23481,8 +23481,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "assembleia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o assembleia?",
+      "kea": "Undi ki asenblea sta?"
     },
     "category": "Nom"
   },
@@ -23493,8 +23493,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "asneira / tolice"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este asneira é meu",
+      "kea": "Es asnera e nha"
     },
     "category": "Nom"
   },
@@ -23505,8 +23505,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ação"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O ação é bonito",
+      "kea": "Ason e bunitu"
     },
     "category": "Nom"
   },
@@ -23517,8 +23517,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "espargo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este espargo é meu",
+      "kea": "Es asparagu e nha"
     },
     "category": "Nom"
   },
@@ -23529,8 +23529,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aspirine"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O aspirine é bonito",
+      "kea": "Aspirine e bunitu"
     },
     "category": "Nom"
   },
@@ -23541,8 +23541,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atenção"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste atenção",
+      "kea": "N gosta di es atensan"
     },
     "category": "Nom"
   },
@@ -23553,8 +23553,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atingir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero atingir",
+      "kea": "N ka kre atinji"
     },
     "category": "Verbe"
   },
@@ -23565,8 +23565,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ator"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste ator",
+      "kea": "N gosta di es ator"
     },
     "category": "Nom"
   },
@@ -23577,8 +23577,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atrasar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de atrasar",
+      "kea": "El ta gosta di atraza"
     },
     "category": "Verbe"
   },
@@ -23589,8 +23589,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atrasado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é atrasado",
+      "kea": "Kes koiza e atrazadu"
     },
     "category": "Adjectif"
   },
@@ -23601,8 +23601,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atraso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um atraso",
+      "kea": "N ten un atrazu"
     },
     "category": "Nom"
   },
@@ -23613,8 +23613,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atrever-se"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de atrever-se",
+      "kea": "El ta gosta di atreve"
     },
     "category": "Verbe"
   },
@@ -23625,8 +23625,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atribuir"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de atribuir",
+      "kea": "El ta gosta di atribui"
     },
     "category": "Verbe"
   },
@@ -23637,8 +23637,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "atualidade"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este atualidade é meu",
+      "kea": "Es atualidadi e nha"
     },
     "category": "Nom"
   },
@@ -23649,8 +23649,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aturar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos aturar agora",
+      "kea": "Nu ten ki atura agora"
     },
     "category": "Verbe"
   },
@@ -23661,8 +23661,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avaliar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos avaliar agora",
+      "kea": "Nu ten ki avalia agora"
     },
     "category": "Verbe"
   },
@@ -23673,8 +23673,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avenida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o avenida?",
+      "kea": "Undi ki avenida sta?"
     },
     "category": "Nom"
   },
@@ -23685,8 +23685,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "avisar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu vou avisar",
+      "kea": "N ta aviza"
     },
     "category": "Verbe"
   },
@@ -23697,8 +23697,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "à vontade / suficiente"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa à vontade",
+      "kea": "Un pesoa avontadi"
     },
     "category": "Adjectif"
   },
@@ -23709,8 +23709,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azágua / época das chuvas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O azágua é bonito",
+      "kea": "Azagua e bunitu"
     },
     "category": "Nom"
   },
@@ -23721,8 +23721,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "fantasma / criatura da noite"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este fantasma é meu",
+      "kea": "Es azarma e nha"
     },
     "category": "Nom"
   },
@@ -23733,8 +23733,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azedar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos azedar juntos",
+      "kea": "Nu bai azeda djuntu"
     },
     "category": "Verbe"
   },
@@ -23745,8 +23745,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azedo"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito azedo",
+      "kea": "El e muitu azedu"
     },
     "category": "Adjectif"
   },
@@ -23757,8 +23757,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "Ásia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este Ásia é meu",
+      "kea": "Es Azia e nha"
     },
     "category": "Nom",
     "note": "Différent de entry-370 (azia = brûlure d'estomac)"
@@ -23770,8 +23770,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abrolhos"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o abrolhos?",
+      "kea": "Undi ki azidja sta?"
     },
     "category": "Nom"
   },
@@ -23782,8 +23782,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "azougue / energia / rapidez"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O azougue é bonito",
+      "kea": "Azoge e bunitu"
     },
     "category": "Nom"
   },
@@ -23794,8 +23794,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bobo / estúpido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é bobo",
+      "kea": "Kes koiza e babau"
     },
     "category": "Adjectif"
   },
@@ -23806,8 +23806,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bobagem / asneira"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bobagem",
+      "kea": "N ten un babozera"
     },
     "category": "Nom"
   },
@@ -23818,8 +23818,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "ida / partida"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este ida é meu",
+      "kea": "Es bada e nha"
     },
     "category": "Nom"
   },
@@ -23830,8 +23830,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "badio (nativo de Santiago)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este badio (nativo de Santiago) é meu",
+      "kea": "Es badiu e nha"
     },
     "category": "Nom"
   },
@@ -23842,8 +23842,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dançarina"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O dançarina é bonito",
+      "kea": "Badjadera e bunitu"
     },
     "category": "Nom"
   },
@@ -23854,8 +23854,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "dançarino"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o dançarino?",
+      "kea": "Undi ki badjadoru sta?"
     },
     "category": "Nom"
   },
@@ -23866,8 +23866,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "viajante / quem sai muito"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este viajante é meu",
+      "kea": "Es bador e nha"
     },
     "category": "Nom"
   },
@@ -23878,8 +23878,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "combinação (roupa íntima)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um combinação (roupa íntima)",
+      "kea": "N ten un baeta"
     },
     "category": "Nom"
   },
@@ -23890,8 +23890,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abafar / amadurecer fruta / lanchar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Precisamos abafar agora",
+      "kea": "Nu ten ki bafa agora"
     },
     "category": "Verbe"
   },
@@ -23902,8 +23902,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bofetada"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este bofetada é meu",
+      "kea": "Es bafatada e nha"
     },
     "category": "Nom"
   },
@@ -23914,8 +23914,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "esbofetear"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de esbofetear",
+      "kea": "El ta gosta di bafatia"
     },
     "category": "Verbe"
   },
@@ -23926,8 +23926,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bofetão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bofetão",
+      "kea": "N ten un bafaton"
     },
     "category": "Nom"
   },
@@ -23938,8 +23938,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "térmitas / formiga branca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um térmitas",
+      "kea": "N ten un bagabaga"
     },
     "category": "Nom"
   },
@@ -23950,8 +23950,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bagagem"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um bagagem",
+      "kea": "N ten un bagaja"
     },
     "category": "Nom"
   },
@@ -23962,8 +23962,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vagaroso / lento"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa vagaroso",
+      "kea": "Un pesoa bagarozu"
     },
     "category": "Adjectif"
   },
@@ -23974,8 +23974,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baía / praia"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este baía é meu",
+      "kea": "Es baia e nha"
     },
     "category": "Nom"
   },
@@ -23986,8 +23986,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "garrafão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste garrafão",
+      "kea": "N gosta di es baion"
     },
     "category": "Nom"
   },
@@ -23998,8 +23998,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "vaca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O vaca é bonito",
+      "kea": "Baka e bunitu"
     },
     "category": "Nom"
   },
@@ -24010,8 +24010,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O balde é bonito",
+      "kea": "Baketi e bunitu"
     },
     "category": "Nom"
   },
@@ -24022,8 +24022,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bácoro / medroso"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o bácoro?",
+      "kea": "Undi ki bakon sta?"
     },
     "category": "Nom"
   },
@@ -24034,8 +24034,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "maduro (coco)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é maduro (coco)",
+      "kea": "Kes koiza e baladu"
     },
     "category": "Adjectif"
   },
@@ -24046,8 +24046,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "falar muito / tagarelar"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não quero falar muito",
+      "kea": "N ka kre balan-balan"
     },
     "category": "Verbe"
   },
@@ -24058,8 +24058,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balançar (devagar)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Vamos balançar (devagar) juntos",
+      "kea": "Nu bai balangia djuntu"
     },
     "category": "Verbe"
   },
@@ -24070,8 +24070,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balde"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o balde?",
+      "kea": "Undi ki baldi sta?"
     },
     "category": "Nom"
   },
@@ -24082,8 +24082,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "baleeiro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O baleeiro é bonito",
+      "kea": "Baleeru e bunitu"
     },
     "category": "Nom"
   },
@@ -24094,8 +24094,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valeta / vale fértil"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este valeta é meu",
+      "kea": "Es baleta e nha"
     },
     "category": "Nom"
   },
@@ -24106,8 +24106,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "valete (cartas)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste valete (cartas)",
+      "kea": "N gosta di es baleti"
     },
     "category": "Nom"
   },
@@ -24118,8 +24118,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balcão"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o balcão?",
+      "kea": "Undi ki balkon sta?"
     },
     "category": "Nom"
   },
@@ -24130,8 +24130,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "pessoa gorda"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o pessoa gorda?",
+      "kea": "Undi ki baloxa sta?"
     },
     "category": "Nom"
   },
@@ -24142,8 +24142,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "balsamar / crescer (plantas)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele gosta de balsamar",
+      "kea": "El ta gosta di balsuma"
     },
     "category": "Verbe"
   },
@@ -24154,8 +24154,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "banato / idiota"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste banato",
+      "kea": "N gosta di es banatu"
     },
     "category": "Nom"
   },
@@ -24166,8 +24166,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "bambu"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Gosto deste bambu",
+      "kea": "N gosta di es banbu"
     },
     "category": "Nom"
   },
@@ -24178,8 +24178,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "carregado às costas"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que carregado às costas!",
+      "kea": "Ki banbudu!"
     },
     "category": "Adjectif"
   },
@@ -24190,8 +24190,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "rede de pesca"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este rede de pesca é meu",
+      "kea": "Es bangu e nha"
     },
     "category": "Nom"
   },
@@ -24202,8 +24202,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "cinzento / grisalho"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Isso é cinzento",
+      "kea": "Kes koiza e banhun"
     },
     "category": "Adjectif"
   },
@@ -24262,8 +24262,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "habituado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Ele é muito habituado",
+      "kea": "El e muitu abituadu"
     },
     "category": "Adjectif"
   },
@@ -24274,8 +24274,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aborto"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Eu tenho um aborto",
+      "kea": "N ten un aborku"
     },
     "category": "Nom",
     "note": "entry-23 = abrigo, entry-2031 = aborto (significations différentes)"
@@ -24287,8 +24287,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abstinência"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o abstinência?",
+      "kea": "Undi ki abstinensia sta?"
     },
     "category": "Nom"
   },
@@ -24299,8 +24299,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "abusado / atrevido"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Que abusado!",
+      "kea": "Ki abuzadu!"
     },
     "category": "Adjectif"
   },
@@ -24311,8 +24311,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adeus"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "adeus",
+      "kea": "ade"
     },
     "category": "Expression"
   },
@@ -24323,8 +24323,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adiana (planta)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "O adiana (planta) é bonito",
+      "kea": "Adiana e bunitu"
     },
     "category": "Nom"
   },
@@ -24347,8 +24347,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adiantado"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Uma pessoa adiantado",
+      "kea": "Un pesoa adiantadu"
     },
     "category": "Adjectif"
   },
@@ -24359,8 +24359,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aia (ama-seca)"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o aia (ama-seca)?",
+      "kea": "Undi ki adja sta?"
     },
     "category": "Nom",
     "note": "entry-42 = machado, entry-2042 = aia (significations différentes)"
@@ -24372,8 +24372,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "adultério"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Onde está o adultério?",
+      "kea": "Undi ki adulteriu sta?"
     },
     "category": "Nom"
   },
@@ -24420,8 +24420,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "aforro"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Este aforro é meu",
+      "kea": "Es aforu e nha"
     },
     "category": "Nom"
   },
@@ -24444,8 +24444,8 @@ export const dictionaryData: DictionaryEntry[] = [
       "pt": "afrontado / sufocado / com pressa"
     },
     "example": {
-      "pt": "",
-      "kea": ""
+      "pt": "Não é afrontado",
+      "kea": "Ka e afrontadu"
     },
     "category": "Adjectif"
   },
