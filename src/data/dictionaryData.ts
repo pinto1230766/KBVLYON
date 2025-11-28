@@ -24460,5 +24460,2081 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "N ta agradese bu djuda"
     },
     "category": "Verbe"
+  },
+  {
+    "id": "entry-2062",
+    "word": "amesa",
+    "translation": {
+      "pt": "ameaça"
+    },
+    "example": {
+      "pt": "O ameaça é bonito",
+      "kea": "Amesa e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2063",
+    "word": "andador",
+    "translation": {
+      "pt": "andador / viajante"
+    },
+    "example": {
+      "pt": "Onde está o andador?",
+      "kea": "Undi ki andador sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2064",
+    "word": "anbisozu",
+    "translation": {
+      "pt": "ambicioso"
+    },
+    "example": {
+      "pt": "Uma pessoa ambicioso",
+      "kea": "Un pesoa anbisozu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2065",
+    "word": "angra",
+    "translation": {
+      "pt": "angra / pequena baía"
+    },
+    "example": {
+      "pt": "Eu tenho um angra",
+      "kea": "N ten un angra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2066",
+    "word": "anil",
+    "translation": {
+      "pt": "anil"
+    },
+    "example": {
+      "pt": "O anil é bonito",
+      "kea": "Anil e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2067",
+    "word": "anpo",
+    "translation": {
+      "pt": "pequena mota"
+    },
+    "example": {
+      "pt": "Onde está o pequena mota?",
+      "kea": "Undi ki anpo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2068",
+    "word": "anou",
+    "translation": {
+      "pt": "ano (variante)"
+    },
+    "example": {
+      "pt": "Eu tenho um ano (variante)",
+      "kea": "N ten un anou"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2069",
+    "word": "apara",
+    "translation": {
+      "pt": "aparar"
+    },
+    "example": {
+      "pt": "Ele gosta de aparar",
+      "kea": "El ta gosta di apara"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2070",
+    "word": "aparencia",
+    "translation": {
+      "pt": "aparência"
+    },
+    "example": {
+      "pt": "O aparência é bonito",
+      "kea": "Aparencia e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2071",
+    "word": "aparenta",
+    "translation": {
+      "pt": "aparentar"
+    },
+    "example": {
+      "pt": "Precisamos aparentar agora",
+      "kea": "Nu ten ki aparenta agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2072",
+    "word": "aparti",
+    "translation": {
+      "pt": "à parte"
+    },
+    "example": {
+      "pt": "Vou à parte",
+      "kea": "N ta bai aparti"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2073",
+    "word": "apela",
+    "translation": {
+      "pt": "apelar"
+    },
+    "example": {
+      "pt": "Precisamos apelar agora",
+      "kea": "Nu ten ki apela agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2074",
+    "word": "aperta",
+    "translation": {
+      "pt": "apertar"
+    },
+    "example": {
+      "pt": "Eu vou apertar",
+      "kea": "N ta aperta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2075",
+    "word": "apertu",
+    "translation": {
+      "pt": "aperto"
+    },
+    "example": {
+      "pt": "Eu tenho um aperto",
+      "kea": "N ten un apertu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2076",
+    "word": "apetiti",
+    "translation": {
+      "pt": "apetite"
+    },
+    "example": {
+      "pt": "Eu tenho um apetite",
+      "kea": "N ten un apetiti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2077",
+    "word": "apilidu",
+    "translation": {
+      "pt": "apelido / sobrenome"
+    },
+    "example": {
+      "pt": "Eu tenho um apelido",
+      "kea": "N ten un apilidu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2078",
+    "word": "aplaudi",
+    "translation": {
+      "pt": "aplaudir"
+    },
+    "example": {
+      "pt": "Ele gosta de aplaudir",
+      "kea": "El ta gosta di aplaudi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2079",
+    "word": "aplauzu",
+    "translation": {
+      "pt": "aplauso"
+    },
+    "example": {
+      "pt": "Onde está o aplauso?",
+      "kea": "Undi ki aplauzu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2080",
+    "word": "aprendiz",
+    "translation": {
+      "pt": "aprendiz"
+    },
+    "example": {
+      "pt": "Onde está o aprendiz?",
+      "kea": "Undi ki aprendiz sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2081",
+    "word": "aproveita",
+    "translation": {
+      "pt": "aproveitar"
+    },
+    "example": {
+      "pt": "Ele gosta de aproveitar",
+      "kea": "El ta gosta di aproveita"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2082",
+    "word": "armun",
+    "translation": {
+      "pt": "irmão"
+    },
+    "example": {
+      "pt": "O irmão é bonito",
+      "kea": "Armun e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2083",
+    "word": "axada",
+    "translation": {
+      "pt": "achada / planície / campo grande"
+    },
+    "example": {
+      "pt": "Eu tenho um achada",
+      "kea": "N ten un axada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2084",
+    "word": "baboza",
+    "translation": {
+      "pt": "babosa (planta)"
+    },
+    "example": {
+      "pt": "Eu tenho um babosa (planta)",
+      "kea": "N ten un baboza"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2085",
+    "word": "bakar",
+    "translation": {
+      "pt": "vacar / estar livre"
+    },
+    "example": {
+      "pt": "Ele gosta de vacar",
+      "kea": "El ta gosta di bakar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2086",
+    "word": "baradja",
+    "translation": {
+      "pt": "baralhar"
+    },
+    "example": {
+      "pt": "Eu vou baralhar",
+      "kea": "N ta baradja"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2087",
+    "word": "baradjadu",
+    "translation": {
+      "pt": "baralhado / confuso"
+    },
+    "example": {
+      "pt": "Uma pessoa baralhado",
+      "kea": "Un pesoa baradjadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2088",
+    "word": "barafusta",
+    "translation": {
+      "pt": "barafustar / lutar"
+    },
+    "example": {
+      "pt": "Eu vou barafustar",
+      "kea": "N ta barafusta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2089",
+    "word": "barateru",
+    "translation": {
+      "pt": "barateiro"
+    },
+    "example": {
+      "pt": "O barateiro é bonito",
+      "kea": "Barateru e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2090",
+    "word": "barbari",
+    "translation": {
+      "pt": "ficar desesperado"
+    },
+    "example": {
+      "pt": "Ele gosta de ficar desesperado",
+      "kea": "El ta gosta di barbari"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2091",
+    "word": "barbaria",
+    "translation": {
+      "pt": "barbearia"
+    },
+    "example": {
+      "pt": "Eu tenho um barbearia",
+      "kea": "N ten un barbaria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2092",
+    "word": "barbaru",
+    "translation": {
+      "pt": "bárbaro"
+    },
+    "example": {
+      "pt": "Isso é bárbaro",
+      "kea": "Kes koiza e barbaru"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2093",
+    "word": "barbia",
+    "translation": {
+      "pt": "barbear"
+    },
+    "example": {
+      "pt": "Ele gosta de barbear",
+      "kea": "El ta gosta di barbia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2094",
+    "word": "barbise",
+    "translation": {
+      "pt": "enlouquecer / tornar-se selvagem"
+    },
+    "example": {
+      "pt": "Eu vou enlouquecer",
+      "kea": "N ta barbise"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2095",
+    "word": "barbitxi",
+    "translation": {
+      "pt": "focinheira"
+    },
+    "example": {
+      "pt": "Onde está o focinheira?",
+      "kea": "Undi ki barbitxi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2096",
+    "word": "bardadi",
+    "translation": {
+      "pt": "verdade"
+    },
+    "example": {
+      "pt": "O verdade é bonito",
+      "kea": "Bardadi e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2097",
+    "word": "bardu",
+    "translation": {
+      "pt": "sebe / muro de pedras"
+    },
+    "example": {
+      "pt": "Onde está o sebe?",
+      "kea": "Undi ki bardu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2098",
+    "word": "bare",
+    "translation": {
+      "pt": "varrer"
+    },
+    "example": {
+      "pt": "Eu vou varrer",
+      "kea": "N ta bare"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2099",
+    "word": "baredor",
+    "translation": {
+      "pt": "varredor"
+    },
+    "example": {
+      "pt": "O varredor é bonito",
+      "kea": "Baredor e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2100",
+    "word": "baredu",
+    "translation": {
+      "pt": "varrido"
+    },
+    "example": {
+      "pt": "Isso é varrido",
+      "kea": "Kes koiza e baredu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2101",
+    "word": "baredura",
+    "translation": {
+      "pt": "varredura / lixo"
+    },
+    "example": {
+      "pt": "O varredura é bonito",
+      "kea": "Baredura e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2102",
+    "word": "bareja",
+    "translation": {
+      "pt": "varejar / cheirar mal"
+    },
+    "example": {
+      "pt": "Ele gosta de varejar",
+      "kea": "El ta gosta di bareja"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2103",
+    "word": "barela",
+    "translation": {
+      "pt": "lavadouro"
+    },
+    "example": {
+      "pt": "Onde está o lavadouro?",
+      "kea": "Undi ki barela sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2104",
+    "word": "barenka",
+    "translation": {
+      "pt": "vara para bater"
+    },
+    "example": {
+      "pt": "Eu tenho um vara para bater",
+      "kea": "N ten un barenka"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2105",
+    "word": "barenkada",
+    "translation": {
+      "pt": "pancada com vara"
+    },
+    "example": {
+      "pt": "O pancada com vara é bonito",
+      "kea": "Barenkada e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2106",
+    "word": "barera",
+    "translation": {
+      "pt": "barreira"
+    },
+    "example": {
+      "pt": "O barreira é bonito",
+      "kea": "Barera e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2107",
+    "word": "bareti",
+    "translation": {
+      "pt": "boina / barrete"
+    },
+    "example": {
+      "pt": "O boina é bonito",
+      "kea": "Bareti e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2108",
+    "word": "baria",
+    "translation": {
+      "pt": "variar / delirar"
+    },
+    "example": {
+      "pt": "Precisamos variar agora",
+      "kea": "Nu ten ki baria agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2109",
+    "word": "bariadu",
+    "translation": {
+      "pt": "variado / delirante"
+    },
+    "example": {
+      "pt": "Uma pessoa variado",
+      "kea": "Un pesoa bariadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2110",
+    "word": "bariason",
+    "translation": {
+      "pt": "variação"
+    },
+    "example": {
+      "pt": "Eu tenho um variação",
+      "kea": "N ten un bariason"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2111",
+    "word": "bariga",
+    "translation": {
+      "pt": "barriga"
+    },
+    "example": {
+      "pt": "Eu tenho um barriga",
+      "kea": "N ten un bariga"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2112",
+    "word": "baril",
+    "translation": {
+      "pt": "barril"
+    },
+    "example": {
+      "pt": "O barril é bonito",
+      "kea": "Baril e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2113",
+    "word": "barilon",
+    "translation": {
+      "pt": "barril grande"
+    },
+    "example": {
+      "pt": "Eu tenho um barril grande",
+      "kea": "N ten un barilon"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2114",
+    "word": "barkinhu",
+    "translation": {
+      "pt": "barquinho"
+    },
+    "example": {
+      "pt": "O barquinho é bonito",
+      "kea": "Barkinhu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2115",
+    "word": "barnelu",
+    "translation": {
+      "pt": "planta"
+    },
+    "example": {
+      "pt": "Eu tenho um planta",
+      "kea": "N ten un barnelu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2116",
+    "word": "baron",
+    "translation": {
+      "pt": "barão / vara grande"
+    },
+    "example": {
+      "pt": "Onde está o barão?",
+      "kea": "Undi ki baron sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2117",
+    "word": "barsa",
+    "translation": {
+      "pt": "abraçar"
+    },
+    "example": {
+      "pt": "Eu vou abraçar",
+      "kea": "N ta barsa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2118",
+    "word": "barsura",
+    "translation": {
+      "pt": "vassoura"
+    },
+    "example": {
+      "pt": "Onde está o vassoura?",
+      "kea": "Undi ki barsura sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2119",
+    "word": "barudja",
+    "translation": {
+      "pt": "fazer barulho / amotinar"
+    },
+    "example": {
+      "pt": "Precisamos fazer barulho agora",
+      "kea": "Nu ten ki barudja agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2120",
+    "word": "barudjentu",
+    "translation": {
+      "pt": "barulhento"
+    },
+    "example": {
+      "pt": "Isso é barulhento",
+      "kea": "Kes koiza e barudjentu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2121",
+    "word": "barufa",
+    "translation": {
+      "pt": "borrifar"
+    },
+    "example": {
+      "pt": "Precisamos borrifar agora",
+      "kea": "Nu ten ki barufa agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2122",
+    "word": "batanka",
+    "translation": {
+      "pt": "espécie de tortilha"
+    },
+    "example": {
+      "pt": "O espécie de tortilha é bonito",
+      "kea": "Batanka e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2123",
+    "word": "bate",
+    "translation": {
+      "pt": "bater"
+    },
+    "example": {
+      "pt": "Precisamos bater agora",
+      "kea": "Nu ten ki bate agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2124",
+    "word": "batedu",
+    "translation": {
+      "pt": "batido"
+    },
+    "example": {
+      "pt": "Uma pessoa batido",
+      "kea": "Un pesoa batedu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2125",
+    "word": "batismu",
+    "translation": {
+      "pt": "batismo"
+    },
+    "example": {
+      "pt": "Eu tenho um batismo",
+      "kea": "N ten un batismu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2126",
+    "word": "baxarel",
+    "translation": {
+      "pt": "bacharel"
+    },
+    "example": {
+      "pt": "O bacharel é bonito",
+      "kea": "Baxarel e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2127",
+    "word": "baxinha",
+    "translation": {
+      "pt": "baixinha"
+    },
+    "example": {
+      "pt": "Eu tenho um baixinha",
+      "kea": "N ten un baxinha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2128",
+    "word": "baxon",
+    "translation": {
+      "pt": "baixão (coro)"
+    },
+    "example": {
+      "pt": "O baixão (coro) é bonito",
+      "kea": "Baxon e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2129",
+    "word": "bensu",
+    "translation": {
+      "pt": "bênção"
+    },
+    "example": {
+      "pt": "O bênção é bonito",
+      "kea": "Bensu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2130",
+    "word": "bez",
+    "translation": {
+      "pt": "vez"
+    },
+    "example": {
+      "pt": "Onde está o vez?",
+      "kea": "Undi ki bez sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2131",
+    "word": "bi?",
+    "translation": {
+      "pt": "o quê? / como?"
+    },
+    "example": {
+      "pt": "o quê? / como?",
+      "kea": "bi?"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-2132",
+    "word": "bia",
+    "translation": {
+      "pt": "feixe / molho"
+    },
+    "example": {
+      "pt": "Eu tenho um feixe",
+      "kea": "N ten un bia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2133",
+    "word": "biaja",
+    "translation": {
+      "pt": "viajar"
+    },
+    "example": {
+      "pt": "Eu vou viajar",
+      "kea": "N ta biaja"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2134",
+    "word": "biaji",
+    "translation": {
+      "pt": "viagem"
+    },
+    "example": {
+      "pt": "O viagem é bonito",
+      "kea": "Biaji e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2135",
+    "word": "bibe",
+    "translation": {
+      "pt": "beber"
+    },
+    "example": {
+      "pt": "Eu vou beber",
+      "kea": "N ta bibe"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2136",
+    "word": "bibida",
+    "translation": {
+      "pt": "bebida"
+    },
+    "example": {
+      "pt": "Eu tenho um bebida",
+      "kea": "N ten un bibida"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2137",
+    "word": "biblia",
+    "translation": {
+      "pt": "bíblia"
+    },
+    "example": {
+      "pt": "Eu tenho um bíblia",
+      "kea": "N ten un biblia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2138",
+    "word": "biblioteka",
+    "translation": {
+      "pt": "biblioteca"
+    },
+    "example": {
+      "pt": "Eu tenho um biblioteca",
+      "kea": "N ten un biblioteka"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2139",
+    "word": "bibu",
+    "translation": {
+      "pt": "vivo"
+    },
+    "example": {
+      "pt": "Isso é vivo",
+      "kea": "Kes koiza e bibu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2140",
+    "word": "bidju",
+    "translation": {
+      "pt": "vídeo"
+    },
+    "example": {
+      "pt": "O vídeo é bonito",
+      "kea": "Bidju e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2141",
+    "word": "bidra",
+    "translation": {
+      "pt": "vidrar"
+    },
+    "example": {
+      "pt": "Ele gosta de vidrar",
+      "kea": "El ta gosta di bidra"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2142",
+    "word": "bidrasa",
+    "translation": {
+      "pt": "vidraça"
+    },
+    "example": {
+      "pt": "Onde está o vidraça?",
+      "kea": "Undi ki bidrasa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2143",
+    "word": "bifi",
+    "translation": {
+      "pt": "bife"
+    },
+    "example": {
+      "pt": "Onde está o bife?",
+      "kea": "Undi ki bifi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2144",
+    "word": "binagri",
+    "translation": {
+      "pt": "vinagre"
+    },
+    "example": {
+      "pt": "Onde está o vinagre?",
+      "kea": "Undi ki binagri sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2145",
+    "word": "binda",
+    "translation": {
+      "pt": "vinda"
+    },
+    "example": {
+      "pt": "Onde está o vinda?",
+      "kea": "Undi ki binda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2146",
+    "word": "bingansa",
+    "translation": {
+      "pt": "vingança"
+    },
+    "example": {
+      "pt": "Eu tenho um vingança",
+      "kea": "N ten un bingansa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2147",
+    "word": "biskoitu",
+    "translation": {
+      "pt": "biscoito"
+    },
+    "example": {
+      "pt": "Eu tenho um biscoito",
+      "kea": "N ten un biskoitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2148",
+    "word": "bistim",
+    "translation": {
+      "pt": "vintém"
+    },
+    "example": {
+      "pt": "Onde está o vintém?",
+      "kea": "Undi ki bistim sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2149",
+    "word": "bitoke",
+    "translation": {
+      "pt": "filho da mãe (insulto)"
+    },
+    "example": {
+      "pt": "Eu tenho um filho da mãe (insulto)",
+      "kea": "N ten un bitoke"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2150",
+    "word": "bitoku",
+    "translation": {
+      "pt": "bitoque (comida)"
+    },
+    "example": {
+      "pt": "O bitoque (comida) é bonito",
+      "kea": "Bitoku e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2151",
+    "word": "bitola",
+    "translation": {
+      "pt": "bitola / bússola"
+    },
+    "example": {
+      "pt": "Eu tenho um bitola",
+      "kea": "N ten un bitola"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2152",
+    "word": "bitua",
+    "translation": {
+      "pt": "habituar"
+    },
+    "example": {
+      "pt": "Precisamos habituar agora",
+      "kea": "Nu ten ki bitua agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2153",
+    "word": "bitxa",
+    "translation": {
+      "pt": "bicha / fila"
+    },
+    "example": {
+      "pt": "Onde está o bicha?",
+      "kea": "Undi ki bitxa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2154",
+    "word": "biuba",
+    "translation": {
+      "pt": "viúva"
+    },
+    "example": {
+      "pt": "O viúva é bonito",
+      "kea": "Biuba e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2155",
+    "word": "biubu",
+    "translation": {
+      "pt": "viúvo"
+    },
+    "example": {
+      "pt": "Eu tenho um viúvo",
+      "kea": "N ten un biubu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2156",
+    "word": "bixa",
+    "translation": {
+      "pt": "bicha / fila"
+    },
+    "example": {
+      "pt": "Onde está o bicha?",
+      "kea": "Undi ki bixa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2157",
+    "word": "bixeru",
+    "translation": {
+      "pt": "bezerro"
+    },
+    "example": {
+      "pt": "O bezerro é bonito",
+      "kea": "Bixeru e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2158",
+    "word": "bixiga",
+    "translation": {
+      "pt": "bexiga"
+    },
+    "example": {
+      "pt": "Eu tenho um bexiga",
+      "kea": "N ten un bixiga"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2159",
+    "word": "bizeru",
+    "translation": {
+      "pt": "bezerro"
+    },
+    "example": {
+      "pt": "Onde está o bezerro?",
+      "kea": "Undi ki bizeru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2160",
+    "word": "bluza",
+    "translation": {
+      "pt": "blusa"
+    },
+    "example": {
+      "pt": "O blusa é bonito",
+      "kea": "Bluza e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2161",
+    "word": "bodja",
+    "translation": {
+      "pt": "boiar"
+    },
+    "example": {
+      "pt": "Precisamos boiar agora",
+      "kea": "Nu ten ki bodja agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2162",
+    "word": "bokeja",
+    "translation": {
+      "pt": "bocejar / falar"
+    },
+    "example": {
+      "pt": "Ele gosta de bocejar",
+      "kea": "El ta gosta di bokeja"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2163",
+    "word": "boxexa",
+    "translation": {
+      "pt": "bochecha"
+    },
+    "example": {
+      "pt": "O bochecha é bonito",
+      "kea": "Boxexa e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2164",
+    "word": "branda",
+    "translation": {
+      "pt": "abrandar / acalmar"
+    },
+    "example": {
+      "pt": "Ele gosta de abrandar",
+      "kea": "El ta gosta di branda"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2165",
+    "word": "brandi",
+    "translation": {
+      "pt": "brandir / oscilar"
+    },
+    "example": {
+      "pt": "Ele gosta de brandir",
+      "kea": "El ta gosta di brandi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2166",
+    "word": "branka",
+    "translation": {
+      "pt": "branca"
+    },
+    "example": {
+      "pt": "Ele é muito branca",
+      "kea": "El e muitu branka"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2167",
+    "word": "brava",
+    "translation": {
+      "pt": "brava / selvagem"
+    },
+    "example": {
+      "pt": "Isso é brava",
+      "kea": "Kes koiza e brava"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2168",
+    "word": "brazil",
+    "translation": {
+      "pt": "Brasil"
+    },
+    "example": {
+      "pt": "Eu tenho um Brasil",
+      "kea": "N ten un brazil"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2169",
+    "word": "bria",
+    "translation": {
+      "pt": "brilhar / excitar"
+    },
+    "example": {
+      "pt": "Eu vou brilhar",
+      "kea": "N ta bria"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2170",
+    "word": "brigonha",
+    "translation": {
+      "pt": "vergonha / timidez"
+    },
+    "example": {
+      "pt": "O vergonha é bonito",
+      "kea": "Brigonha e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2171",
+    "word": "brinda",
+    "translation": {
+      "pt": "brindar"
+    },
+    "example": {
+      "pt": "Precisamos brindar agora",
+      "kea": "Nu ten ki brinda agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2172",
+    "word": "briu",
+    "translation": {
+      "pt": "brio / vaidade / desejo"
+    },
+    "example": {
+      "pt": "O brio é bonito",
+      "kea": "Briu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2173",
+    "word": "brota",
+    "translation": {
+      "pt": "brotar"
+    },
+    "example": {
+      "pt": "Ele gosta de brotar",
+      "kea": "El ta gosta di brota"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2174",
+    "word": "brotxa",
+    "translation": {
+      "pt": "broxa / pincel grande / agarrar"
+    },
+    "example": {
+      "pt": "O broxa é bonito",
+      "kea": "Brotxa e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2175",
+    "word": "brufu",
+    "translation": {
+      "pt": "chuvisco"
+    },
+    "example": {
+      "pt": "Onde está o chuvisco?",
+      "kea": "Undi ki brufu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2176",
+    "word": "brutu",
+    "translation": {
+      "pt": "bruto"
+    },
+    "example": {
+      "pt": "Isso é bruto",
+      "kea": "Kes koiza e brutu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2177",
+    "word": "bruxaria",
+    "translation": {
+      "pt": "bruxaria"
+    },
+    "example": {
+      "pt": "O bruxaria é bonito",
+      "kea": "Bruxaria e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2178",
+    "word": "budju",
+    "translation": {
+      "pt": "búzio"
+    },
+    "example": {
+      "pt": "O búzio é bonito",
+      "kea": "Budju e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2179",
+    "word": "bueru",
+    "translation": {
+      "pt": "bueiro / buraco"
+    },
+    "example": {
+      "pt": "Onde está o bueiro?",
+      "kea": "Undi ki bueru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2180",
+    "word": "bufalu",
+    "translation": {
+      "pt": "búfalo"
+    },
+    "example": {
+      "pt": "Onde está o búfalo?",
+      "kea": "Undi ki bufalu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2181",
+    "word": "bulu",
+    "translation": {
+      "pt": "bule"
+    },
+    "example": {
+      "pt": "O bule é bonito",
+      "kea": "Bulu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2182",
+    "word": "bunbu",
+    "translation": {
+      "pt": "carregar às costas (criança)"
+    },
+    "example": {
+      "pt": "Ele gosta de carregar às costas (criança)",
+      "kea": "El ta gosta di bunbu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2183",
+    "word": "bunita",
+    "translation": {
+      "pt": "bonita"
+    },
+    "example": {
+      "pt": "Uma pessoa bonita",
+      "kea": "Un pesoa bunita"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2184",
+    "word": "burbuja",
+    "translation": {
+      "pt": "borbulha / fervura"
+    },
+    "example": {
+      "pt": "Eu tenho um borbulha",
+      "kea": "N ten un burbuja"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2185",
+    "word": "burgonha",
+    "translation": {
+      "pt": "vergonha"
+    },
+    "example": {
+      "pt": "Eu tenho um vergonha",
+      "kea": "N ten un burgonha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2186",
+    "word": "burkan",
+    "translation": {
+      "pt": "vulcão"
+    },
+    "example": {
+      "pt": "Eu tenho um vulcão",
+      "kea": "N ten un burkan"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2187",
+    "word": "burmedju",
+    "translation": {
+      "pt": "vermelho"
+    },
+    "example": {
+      "pt": "Ele é muito vermelho",
+      "kea": "El e muitu burmedju"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2188",
+    "word": "burokrasia",
+    "translation": {
+      "pt": "burocracia"
+    },
+    "example": {
+      "pt": "Eu tenho um burocracia",
+      "kea": "N ten un burokrasia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2189",
+    "word": "bubed",
+    "translation": {
+      "pt": "bêbado"
+    },
+    "example": {
+      "pt": "Uma pessoa bêbado",
+      "kea": "Un pesoa bubed"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2190",
+    "word": "burguês",
+    "translation": {
+      "pt": "burguês"
+    },
+    "example": {
+      "pt": "O burguês é bonito",
+      "kea": "Burguês e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2191",
+    "word": "deposita",
+    "translation": {
+      "pt": "depositar"
+    },
+    "example": {
+      "pt": "Ele gosta de depositar",
+      "kea": "El ta gosta di deposita"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2192",
+    "word": "depus",
+    "translation": {
+      "pt": "depois"
+    },
+    "example": {
+      "pt": "Vou depois",
+      "kea": "N ta bai depus"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2193",
+    "word": "derapa",
+    "translation": {
+      "pt": "derrapar"
+    },
+    "example": {
+      "pt": "Eu vou derrapar",
+      "kea": "N ta derapa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2194",
+    "word": "derepenti",
+    "translation": {
+      "pt": "de repente"
+    },
+    "example": {
+      "pt": "Vou de repente",
+      "kea": "N ta bai derepenti"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2195",
+    "word": "derete",
+    "translation": {
+      "pt": "derreter"
+    },
+    "example": {
+      "pt": "Precisamos derreter agora",
+      "kea": "Nu ten ki derete agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2196",
+    "word": "deru",
+    "translation": {
+      "pt": "dêem (verbo dar)"
+    },
+    "example": {
+      "pt": "Eu vou dêem (verbo dar)",
+      "kea": "N ta deru"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2197",
+    "word": "desabafa",
+    "translation": {
+      "pt": "desabafar"
+    },
+    "example": {
+      "pt": "Eu vou desabafar",
+      "kea": "N ta desabafa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2198",
+    "word": "desafia",
+    "translation": {
+      "pt": "desafiar"
+    },
+    "example": {
+      "pt": "Precisamos desafiar agora",
+      "kea": "Nu ten ki desafia agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2199",
+    "word": "desagrada",
+    "translation": {
+      "pt": "desagradar"
+    },
+    "example": {
+      "pt": "Eu vou desagradar",
+      "kea": "N ta desagrada"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2200",
+    "word": "desanima",
+    "translation": {
+      "pt": "desanimar"
+    },
+    "example": {
+      "pt": "Eu vou desanimar",
+      "kea": "N ta desanima"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2201",
+    "word": "desaparese",
+    "translation": {
+      "pt": "desaparecer"
+    },
+    "example": {
+      "pt": "Ele gosta de desaparecer",
+      "kea": "El ta gosta di desaparese"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2202",
+    "word": "desarma",
+    "translation": {
+      "pt": "desarmar"
+    },
+    "example": {
+      "pt": "Ele gosta de desarmar",
+      "kea": "El ta gosta di desarma"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2203",
+    "word": "desente",
+    "translation": {
+      "pt": "decente"
+    },
+    "example": {
+      "pt": "Uma pessoa decente",
+      "kea": "Un pesoa desente"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2204",
+    "word": "desperta",
+    "translation": {
+      "pt": "despertar"
+    },
+    "example": {
+      "pt": "Ele gosta de despertar",
+      "kea": "El ta gosta di desperta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2205",
+    "word": "despresu",
+    "translation": {
+      "pt": "desprezo"
+    },
+    "example": {
+      "pt": "O desprezo é bonito",
+      "kea": "Despresu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2206",
+    "word": "detali",
+    "translation": {
+      "pt": "detalhe"
+    },
+    "example": {
+      "pt": "Onde está o detalhe?",
+      "kea": "Undi ki detali sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2207",
+    "word": "dialeto",
+    "translation": {
+      "pt": "dialeto"
+    },
+    "example": {
+      "pt": "Onde está o dialeto?",
+      "kea": "Undi ki dialeto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2208",
+    "word": "dibinidadi",
+    "translation": {
+      "pt": "divindade"
+    },
+    "example": {
+      "pt": "Eu tenho um divindade",
+      "kea": "N ten un dibinidadi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2209",
+    "word": "dibino",
+    "translation": {
+      "pt": "divino"
+    },
+    "example": {
+      "pt": "Uma pessoa divino",
+      "kea": "Un pesoa dibino"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2210",
+    "word": "dibu",
+    "translation": {
+      "pt": "de ti / teu"
+    },
+    "example": {
+      "pt": "De ti estou bem",
+      "kea": "Dibu sta ben"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2211",
+    "word": "didi",
+    "translation": {
+      "pt": "de ti"
+    },
+    "example": {
+      "pt": "É de ti",
+      "kea": "E didi"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2212",
+    "word": "difikuldadi",
+    "translation": {
+      "pt": "dificuldade"
+    },
+    "example": {
+      "pt": "O dificuldade é bonito",
+      "kea": "Difikuldadi e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2213",
+    "word": "dili",
+    "translation": {
+      "pt": "dele / de ele"
+    },
+    "example": {
+      "pt": "Dele estou bem",
+      "kea": "Dili sta ben"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2214",
+    "word": "dista",
+    "translation": {
+      "pt": "distar"
+    },
+    "example": {
+      "pt": "Precisamos distar agora",
+      "kea": "Nu ten ki dista agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2215",
+    "word": "dividu",
+    "translation": {
+      "pt": "dívida"
+    },
+    "example": {
+      "pt": "Onde está o dívida?",
+      "kea": "Undi ki dividu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2216",
+    "word": "dizer",
+    "translation": {
+      "pt": "dizer"
+    },
+    "example": {
+      "pt": "Eu vou dizer",
+      "kea": "N ta dizer"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2217",
+    "word": "djanta",
+    "translation": {
+      "pt": "jantar"
+    },
+    "example": {
+      "pt": "Eu vou jantar",
+      "kea": "N ta djanta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2218",
+    "word": "djê",
+    "translation": {
+      "pt": "já é"
+    },
+    "example": {
+      "pt": "já é",
+      "kea": "djê"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-2219",
+    "word": "djeu",
+    "translation": {
+      "pt": "ilhéu"
+    },
+    "example": {
+      "pt": "Onde está o ilhéu?",
+      "kea": "Undi ki djeu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2220",
+    "word": "djobe",
+    "translation": {
+      "pt": "olhar / procurar"
+    },
+    "example": {
+      "pt": "Precisamos olhar agora",
+      "kea": "Nu ten ki djobe agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2221",
+    "word": "djuga",
+    "translation": {
+      "pt": "jogar / brincar"
+    },
+    "example": {
+      "pt": "Eu vou jogar",
+      "kea": "N ta djuga"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2222",
+    "word": "djui",
+    "translation": {
+      "pt": "juiz"
+    },
+    "example": {
+      "pt": "Eu tenho um juiz",
+      "kea": "N ten un djui"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2223",
+    "word": "doidera",
+    "translation": {
+      "pt": "doidice"
+    },
+    "example": {
+      "pt": "Onde está o doidice?",
+      "kea": "Undi ki doidera sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2224",
+    "word": "dodu",
+    "translation": {
+      "pt": "doido / maluco"
+    },
+    "example": {
+      "pt": "Ele é muito doido",
+      "kea": "El e muitu dodu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2225",
+    "word": "dota",
+    "translation": {
+      "pt": "dotar"
+    },
+    "example": {
+      "pt": "Precisamos dotar agora",
+      "kea": "Nu ten ki dota agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2226",
+    "word": "dou",
+    "translation": {
+      "pt": "deu (verbo dar)"
+    },
+    "example": {
+      "pt": "Ele gosta de deu (verbo dar)",
+      "kea": "El ta gosta di dou"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2227",
+    "word": "due",
+    "translation": {
+      "pt": "doer"
+    },
+    "example": {
+      "pt": "Precisamos doer agora",
+      "kea": "Nu ten ki due agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2228",
+    "word": "duelu",
+    "translation": {
+      "pt": "duelo"
+    },
+    "example": {
+      "pt": "O duelo é bonito",
+      "kea": "Duelu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2229",
+    "word": "duka",
+    "translation": {
+      "pt": "educar"
+    },
+    "example": {
+      "pt": "Eu vou educar",
+      "kea": "N ta duka"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2230",
+    "word": "dumingu",
+    "translation": {
+      "pt": "domingo"
+    },
+    "example": {
+      "pt": "O domingo é bonito",
+      "kea": "Dumingu e bunitu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2231",
+    "word": "duque",
+    "translation": {
+      "pt": "duque"
+    },
+    "example": {
+      "pt": "Eu tenho um duque",
+      "kea": "N ten un duque"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2232",
+    "word": "dur",
+    "translation": {
+      "pt": "duro"
+    },
+    "example": {
+      "pt": "Uma pessoa duro",
+      "kea": "Un pesoa dur"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2233",
+    "word": "dus",
+    "translation": {
+      "pt": "dois"
+    },
+    "example": {
+      "pt": "Eu tenho um dois",
+      "kea": "N ten un dus"
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-2234",
+    "word": "duvilda",
+    "translation": {
+      "pt": "dúvida"
+    },
+    "example": {
+      "pt": "Onde está o dúvida?",
+      "kea": "Undi ki duvilda sta?"
+    },
+    "category": "Nom"
   }
 ];

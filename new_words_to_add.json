@@ -1,0 +1,867 @@
+[
+  {
+    "word": "amesa",
+    "translation": "ameaça",
+    "category": "Nom"
+  },
+  {
+    "word": "andador",
+    "translation": "andador / viajante",
+    "category": "Nom"
+  },
+  {
+    "word": "anbisozu",
+    "translation": "ambicioso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "angra",
+    "translation": "angra / pequena baía",
+    "category": "Nom"
+  },
+  {
+    "word": "anil",
+    "translation": "anil",
+    "category": "Nom"
+  },
+  {
+    "word": "anpo",
+    "translation": "pequena mota",
+    "category": "Nom"
+  },
+  {
+    "word": "anou",
+    "translation": "ano (variante)",
+    "category": "Nom"
+  },
+  {
+    "word": "apara",
+    "translation": "aparar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aparencia",
+    "translation": "aparência",
+    "category": "Nom"
+  },
+  {
+    "word": "aparenta",
+    "translation": "aparentar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aparti",
+    "translation": "à parte",
+    "category": "Adverbe"
+  },
+  {
+    "word": "apela",
+    "translation": "apelar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aperta",
+    "translation": "apertar",
+    "category": "Verbe"
+  },
+  {
+    "word": "apertu",
+    "translation": "aperto",
+    "category": "Nom"
+  },
+  {
+    "word": "apetiti",
+    "translation": "apetite",
+    "category": "Nom"
+  },
+  {
+    "word": "apilidu",
+    "translation": "apelido / sobrenome",
+    "category": "Nom"
+  },
+  {
+    "word": "aplaudi",
+    "translation": "aplaudir",
+    "category": "Verbe"
+  },
+  {
+    "word": "aplauzu",
+    "translation": "aplauso",
+    "category": "Nom"
+  },
+  {
+    "word": "aprendiz",
+    "translation": "aprendiz",
+    "category": "Nom"
+  },
+  {
+    "word": "aproveita",
+    "translation": "aproveitar",
+    "category": "Verbe"
+  },
+  {
+    "word": "armun",
+    "translation": "irmão",
+    "category": "Nom"
+  },
+  {
+    "word": "axada",
+    "translation": "achada / planície / campo grande",
+    "category": "Nom"
+  },
+  {
+    "word": "baboza",
+    "translation": "babosa (planta)",
+    "category": "Nom"
+  },
+  {
+    "word": "bakar",
+    "translation": "vacar / estar livre",
+    "category": "Verbe"
+  },
+  {
+    "word": "baradja",
+    "translation": "baralhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "baradjadu",
+    "translation": "baralhado / confuso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "barafusta",
+    "translation": "barafustar / lutar",
+    "category": "Verbe"
+  },
+  {
+    "word": "barateru",
+    "translation": "barateiro",
+    "category": "Nom"
+  },
+  {
+    "word": "barbari",
+    "translation": "ficar desesperado",
+    "category": "Verbe"
+  },
+  {
+    "word": "barbaria",
+    "translation": "barbearia",
+    "category": "Nom"
+  },
+  {
+    "word": "barbaru",
+    "translation": "bárbaro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "barbia",
+    "translation": "barbear",
+    "category": "Verbe"
+  },
+  {
+    "word": "barbise",
+    "translation": "enlouquecer / tornar-se selvagem",
+    "category": "Verbe"
+  },
+  {
+    "word": "barbitxi",
+    "translation": "focinheira",
+    "category": "Nom"
+  },
+  {
+    "word": "bardadi",
+    "translation": "verdade",
+    "category": "Nom"
+  },
+  {
+    "word": "bardu",
+    "translation": "sebe / muro de pedras",
+    "category": "Nom"
+  },
+  {
+    "word": "bare",
+    "translation": "varrer",
+    "category": "Verbe"
+  },
+  {
+    "word": "baredor",
+    "translation": "varredor",
+    "category": "Nom"
+  },
+  {
+    "word": "baredu",
+    "translation": "varrido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "baredura",
+    "translation": "varredura / lixo",
+    "category": "Nom"
+  },
+  {
+    "word": "bareja",
+    "translation": "varejar / cheirar mal",
+    "category": "Verbe"
+  },
+  {
+    "word": "barela",
+    "translation": "lavadouro",
+    "category": "Nom"
+  },
+  {
+    "word": "barenka",
+    "translation": "vara para bater",
+    "category": "Nom"
+  },
+  {
+    "word": "barenkada",
+    "translation": "pancada com vara",
+    "category": "Nom"
+  },
+  {
+    "word": "barera",
+    "translation": "barreira",
+    "category": "Nom"
+  },
+  {
+    "word": "bareti",
+    "translation": "boina / barrete",
+    "category": "Nom"
+  },
+  {
+    "word": "baria",
+    "translation": "variar / delirar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bariadu",
+    "translation": "variado / delirante",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bariason",
+    "translation": "variação",
+    "category": "Nom"
+  },
+  {
+    "word": "bariga",
+    "translation": "barriga",
+    "category": "Nom"
+  },
+  {
+    "word": "baril",
+    "translation": "barril",
+    "category": "Nom"
+  },
+  {
+    "word": "barilon",
+    "translation": "barril grande",
+    "category": "Nom"
+  },
+  {
+    "word": "barkinhu",
+    "translation": "barquinho",
+    "category": "Nom"
+  },
+  {
+    "word": "barnelu",
+    "translation": "planta",
+    "category": "Nom"
+  },
+  {
+    "word": "baron",
+    "translation": "barão / vara grande",
+    "category": "Nom"
+  },
+  {
+    "word": "barsa",
+    "translation": "abraçar",
+    "category": "Verbe"
+  },
+  {
+    "word": "barsura",
+    "translation": "vassoura",
+    "category": "Nom"
+  },
+  {
+    "word": "barudja",
+    "translation": "fazer barulho / amotinar",
+    "category": "Verbe"
+  },
+  {
+    "word": "barudjentu",
+    "translation": "barulhento",
+    "category": "Adjectif"
+  },
+  {
+    "word": "barufa",
+    "translation": "borrifar",
+    "category": "Verbe"
+  },
+  {
+    "word": "batanka",
+    "translation": "espécie de tortilha",
+    "category": "Nom"
+  },
+  {
+    "word": "bate",
+    "translation": "bater",
+    "category": "Verbe"
+  },
+  {
+    "word": "batedu",
+    "translation": "batido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "batismu",
+    "translation": "batismo",
+    "category": "Nom"
+  },
+  {
+    "word": "baxarel",
+    "translation": "bacharel",
+    "category": "Nom"
+  },
+  {
+    "word": "baxinha",
+    "translation": "baixinha",
+    "category": "Nom"
+  },
+  {
+    "word": "baxon",
+    "translation": "baixão (coro)",
+    "category": "Nom"
+  },
+  {
+    "word": "bensu",
+    "translation": "bênção",
+    "category": "Nom"
+  },
+  {
+    "word": "bez",
+    "translation": "vez",
+    "category": "Nom"
+  },
+  {
+    "word": "bi?",
+    "translation": "o quê? / como?",
+    "category": "Expression"
+  },
+  {
+    "word": "bia",
+    "translation": "feixe / molho",
+    "category": "Nom"
+  },
+  {
+    "word": "biaja",
+    "translation": "viajar",
+    "category": "Verbe"
+  },
+  {
+    "word": "biaji",
+    "translation": "viagem",
+    "category": "Nom"
+  },
+  {
+    "word": "bibe",
+    "translation": "beber",
+    "category": "Verbe"
+  },
+  {
+    "word": "bibida",
+    "translation": "bebida",
+    "category": "Nom"
+  },
+  {
+    "word": "biblia",
+    "translation": "bíblia",
+    "category": "Nom"
+  },
+  {
+    "word": "biblioteka",
+    "translation": "biblioteca",
+    "category": "Nom"
+  },
+  {
+    "word": "bibu",
+    "translation": "vivo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bidju",
+    "translation": "vídeo",
+    "category": "Nom"
+  },
+  {
+    "word": "bidra",
+    "translation": "vidrar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bidrasa",
+    "translation": "vidraça",
+    "category": "Nom"
+  },
+  {
+    "word": "bifi",
+    "translation": "bife",
+    "category": "Nom"
+  },
+  {
+    "word": "binagri",
+    "translation": "vinagre",
+    "category": "Nom"
+  },
+  {
+    "word": "binda",
+    "translation": "vinda",
+    "category": "Nom"
+  },
+  {
+    "word": "bingansa",
+    "translation": "vingança",
+    "category": "Nom"
+  },
+  {
+    "word": "biskoitu",
+    "translation": "biscoito",
+    "category": "Nom"
+  },
+  {
+    "word": "bistim",
+    "translation": "vintém",
+    "category": "Nom"
+  },
+  {
+    "word": "bitoke",
+    "translation": "filho da mãe (insulto)",
+    "category": "Nom"
+  },
+  {
+    "word": "bitoku",
+    "translation": "bitoque (comida)",
+    "category": "Nom"
+  },
+  {
+    "word": "bitola",
+    "translation": "bitola / bússola",
+    "category": "Nom"
+  },
+  {
+    "word": "bitua",
+    "translation": "habituar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bitxa",
+    "translation": "bicha / fila",
+    "category": "Nom"
+  },
+  {
+    "word": "biuba",
+    "translation": "viúva",
+    "category": "Nom"
+  },
+  {
+    "word": "biubu",
+    "translation": "viúvo",
+    "category": "Nom"
+  },
+  {
+    "word": "bixa",
+    "translation": "bicha / fila",
+    "category": "Nom"
+  },
+  {
+    "word": "bixeru",
+    "translation": "bezerro",
+    "category": "Nom"
+  },
+  {
+    "word": "bixiga",
+    "translation": "bexiga",
+    "category": "Nom"
+  },
+  {
+    "word": "bizeru",
+    "translation": "bezerro",
+    "category": "Nom"
+  },
+  {
+    "word": "bluza",
+    "translation": "blusa",
+    "category": "Nom"
+  },
+  {
+    "word": "bodja",
+    "translation": "boiar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bokeja",
+    "translation": "bocejar / falar",
+    "category": "Verbe"
+  },
+  {
+    "word": "boxexa",
+    "translation": "bochecha",
+    "category": "Nom"
+  },
+  {
+    "word": "branda",
+    "translation": "abrandar / acalmar",
+    "category": "Verbe"
+  },
+  {
+    "word": "brandi",
+    "translation": "brandir / oscilar",
+    "category": "Verbe"
+  },
+  {
+    "word": "branka",
+    "translation": "branca",
+    "category": "Adjectif"
+  },
+  {
+    "word": "brava",
+    "translation": "brava / selvagem",
+    "category": "Adjectif"
+  },
+  {
+    "word": "brazil",
+    "translation": "Brasil",
+    "category": "Nom"
+  },
+  {
+    "word": "bria",
+    "translation": "brilhar / excitar",
+    "category": "Verbe"
+  },
+  {
+    "word": "brigonha",
+    "translation": "vergonha / timidez",
+    "category": "Nom"
+  },
+  {
+    "word": "brinda",
+    "translation": "brindar",
+    "category": "Verbe"
+  },
+  {
+    "word": "briu",
+    "translation": "brio / vaidade / desejo",
+    "category": "Nom"
+  },
+  {
+    "word": "brota",
+    "translation": "brotar",
+    "category": "Verbe"
+  },
+  {
+    "word": "brotxa",
+    "translation": "broxa / pincel grande / agarrar",
+    "category": "Nom"
+  },
+  {
+    "word": "brufu",
+    "translation": "chuvisco",
+    "category": "Nom"
+  },
+  {
+    "word": "brutu",
+    "translation": "bruto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bruxaria",
+    "translation": "bruxaria",
+    "category": "Nom"
+  },
+  {
+    "word": "budju",
+    "translation": "búzio",
+    "category": "Nom"
+  },
+  {
+    "word": "bueru",
+    "translation": "bueiro / buraco",
+    "category": "Nom"
+  },
+  {
+    "word": "bufalu",
+    "translation": "búfalo",
+    "category": "Nom"
+  },
+  {
+    "word": "bulu",
+    "translation": "bule",
+    "category": "Nom"
+  },
+  {
+    "word": "bunbu",
+    "translation": "carregar às costas (criança)",
+    "category": "Verbe"
+  },
+  {
+    "word": "bunita",
+    "translation": "bonita",
+    "category": "Adjectif"
+  },
+  {
+    "word": "burbuja",
+    "translation": "borbulha / fervura",
+    "category": "Nom"
+  },
+  {
+    "word": "burgonha",
+    "translation": "vergonha",
+    "category": "Nom"
+  },
+  {
+    "word": "burkan",
+    "translation": "vulcão",
+    "category": "Nom"
+  },
+  {
+    "word": "burmedju",
+    "translation": "vermelho",
+    "category": "Adjectif"
+  },
+  {
+    "word": "burokrasia",
+    "translation": "burocracia",
+    "category": "Nom"
+  },
+  {
+    "word": "bubed",
+    "translation": "bêbado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "burguês",
+    "translation": "burguês",
+    "category": "Nom"
+  },
+  {
+    "word": "deposita",
+    "translation": "depositar",
+    "category": "Verbe"
+  },
+  {
+    "word": "depus",
+    "translation": "depois",
+    "category": "Adverbe"
+  },
+  {
+    "word": "derapa",
+    "translation": "derrapar",
+    "category": "Verbe"
+  },
+  {
+    "word": "derepenti",
+    "translation": "de repente",
+    "category": "Adverbe"
+  },
+  {
+    "word": "derete",
+    "translation": "derreter",
+    "category": "Verbe"
+  },
+  {
+    "word": "deru",
+    "translation": "dêem (verbo dar)",
+    "category": "Verbe"
+  },
+  {
+    "word": "desabafa",
+    "translation": "desabafar",
+    "category": "Verbe"
+  },
+  {
+    "word": "desafia",
+    "translation": "desafiar",
+    "category": "Verbe"
+  },
+  {
+    "word": "desagrada",
+    "translation": "desagradar",
+    "category": "Verbe"
+  },
+  {
+    "word": "desanima",
+    "translation": "desanimar",
+    "category": "Verbe"
+  },
+  {
+    "word": "desaparese",
+    "translation": "desaparecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "desarma",
+    "translation": "desarmar",
+    "category": "Verbe"
+  },
+  {
+    "word": "desente",
+    "translation": "decente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "desperta",
+    "translation": "despertar",
+    "category": "Verbe"
+  },
+  {
+    "word": "despresu",
+    "translation": "desprezo",
+    "category": "Nom"
+  },
+  {
+    "word": "detali",
+    "translation": "detalhe",
+    "category": "Nom"
+  },
+  {
+    "word": "dialeto",
+    "translation": "dialeto",
+    "category": "Nom"
+  },
+  {
+    "word": "dibinidadi",
+    "translation": "divindade",
+    "category": "Nom"
+  },
+  {
+    "word": "dibino",
+    "translation": "divino",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dibu",
+    "translation": "de ti / teu",
+    "category": "Pronom"
+  },
+  {
+    "word": "didi",
+    "translation": "de ti",
+    "category": "Pronom"
+  },
+  {
+    "word": "difikuldadi",
+    "translation": "dificuldade",
+    "category": "Nom"
+  },
+  {
+    "word": "dili",
+    "translation": "dele / de ele",
+    "category": "Pronom"
+  },
+  {
+    "word": "dista",
+    "translation": "distar",
+    "category": "Verbe"
+  },
+  {
+    "word": "dividu",
+    "translation": "dívida",
+    "category": "Nom"
+  },
+  {
+    "word": "dizer",
+    "translation": "dizer",
+    "category": "Verbe"
+  },
+  {
+    "word": "djanta",
+    "translation": "jantar",
+    "category": "Verbe"
+  },
+  {
+    "word": "djê",
+    "translation": "já é",
+    "category": "Expression"
+  },
+  {
+    "word": "djeu",
+    "translation": "ilhéu",
+    "category": "Nom"
+  },
+  {
+    "word": "djobe",
+    "translation": "olhar / procurar",
+    "category": "Verbe"
+  },
+  {
+    "word": "djuga",
+    "translation": "jogar / brincar",
+    "category": "Verbe"
+  },
+  {
+    "word": "djui",
+    "translation": "juiz",
+    "category": "Nom"
+  },
+  {
+    "word": "doidera",
+    "translation": "doidice",
+    "category": "Nom"
+  },
+  {
+    "word": "dodu",
+    "translation": "doido / maluco",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dota",
+    "translation": "dotar",
+    "category": "Verbe"
+  },
+  {
+    "word": "dou",
+    "translation": "deu (verbo dar)",
+    "category": "Verbe"
+  },
+  {
+    "word": "due",
+    "translation": "doer",
+    "category": "Verbe"
+  },
+  {
+    "word": "duelu",
+    "translation": "duelo",
+    "category": "Nom"
+  },
+  {
+    "word": "duka",
+    "translation": "educar",
+    "category": "Verbe"
+  },
+  {
+    "word": "dumingu",
+    "translation": "domingo",
+    "category": "Nom"
+  },
+  {
+    "word": "duque",
+    "translation": "duque",
+    "category": "Nom"
+  },
+  {
+    "word": "dur",
+    "translation": "duro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dus",
+    "translation": "dois",
+    "category": "Nombre"
+  },
+  {
+    "word": "duvilda",
+    "translation": "dúvida",
+    "category": "Nom"
+  }
+]

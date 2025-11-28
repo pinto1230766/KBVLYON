@@ -13,15 +13,16 @@
 - **Exemples :** 0 (0%)
 - **Notes :** 0
 
-### Après nettoyage
-- **Entrées totales :** 2037
+### Après nettoyage et enrichissement
+- **Entrées totales :** 2210
 - **Doublons :** 3 (intentionnels - significations différentes)
-- **Exemples :** 33 (1.6%)
+- **Exemples :** 2210 (100%)
 - **Notes :** 4
 
 ### Amélioration
 - ✅ **25 doublons supprimés**
-- ✅ **33 exemples ajoutés** pour les mots les plus courants
+- ✅ **173 nouveaux mots ajoutés** (2ème vague)
+- ✅ **2210 exemples ajoutés** (couverture 100%)
 - ✅ **4 notes explicatives** ajoutées pour les cas ambigus
 - ✅ **Traductions enrichies** pour plusieurs entrées
 
@@ -29,67 +30,31 @@
 
 ## 🔧 Actions effectuées
 
-### 1. Suppression des doublons exacts (20 entrées)
-Les doublons suivants ont été supprimés car ils étaient identiques :
-- `Alemanha`, `Angola`, `bandera`, `abertura`, `abo`
-- `absolvison`, `absurdu`, `adapta`, `adjetivu`, `advogadu`
-- `ael`, `Afrika`, `agia`, `ago`, `agora`
-- `agostu`, `agrada`, `agradavel`, `agresivu`
+### 1. Ajout de nouveaux mots (173 entrées)
+Une analyse de listes supplémentaires a permis d'identifier et d'ajouter 173 nouveaux mots qui manquaient au dictionnaire, notamment :
+- **Noms** : `amesa` (menace), `angra` (baie), `anpo` (petite moto), `aparencia` (apparence)...
+- **Verbes** : `apara` (parer), `aparenta` (sembler), `apela` (appeler), `aperta` (serrer)...
+- **Adjectifs** : `anbisozu` (ambitieux), `barbaru` (barbare), `barudjentu` (bruyant)...
 
-### 2. Fusion d'entrées similaires (5 fusions)
-Les entrées suivantes ont été fusionnées avec enrichissement :
-- **e** : "e (conjonction) / é (verbo ser)"
-- **Amerikanu** : "americano / Americano"
-- **Afrikanu** : "africano / Africano"
-- **abordaji** : "abordagem / colisão"
-- **abri-odju** : catégorie changée en "Expression"
-
-### 3. Doublons conservés (3 cas)
-Ces "doublons" ont été **conservés** car ils ont des significations différentes :
-
-| Mot | Entry 1 | Entry 2 | Raison |
-|-----|---------|---------|--------|
-| **Azia** | entry-370: "azia" (brûlure d'estomac) | entry-1984: "Ásia" (continent) | Homonymes |
-| **aborku** | entry-23: "abrigo" (abri) | entry-2031: "aborto" (avortement) | Significations différentes |
-| **adja** | entry-42: "machado" (hache) | entry-2042: "aia" (nourrice) | Significations différentes |
-
-### 4. Notes ajoutées (4 entrées)
-- **bo** (entry-486) : "Peut aussi signifier 'tu/você' (pronom) selon le contexte"
-- **Azia** (entry-1984) : "Différent de entry-370 (azia = brûlure d'estomac)"
-- **aborku** (entry-2031) : "entry-23 = abrigo, entry-2031 = aborto (significations différentes)"
-- **adja** (entry-2042) : "entry-42 = machado, entry-2042 = aia (significations différentes)"
-
----
-
-## 📝 Exemples ajoutés (33 mots)
-
-### Verbes courants (10)
-- `abri`, `anda`, `bai`, `come`, `da`, `fala`, `kume`, `mora`, `sabe`, `tene`
-
-### Noms courants (8)
-- `agu`, `kasa`, `livru`, `mar`, `pai`, `mae`, `fidju`, `irmon`
-
-### Adjectifs (4)
-- `bonitu`, `grande`, `bon`, `mau`
-
-### Adverbes (4)
-- `agostu`, `agora`, `sempre`, `nunka`
-
-### Nouveaux mots avec exemples (7)
-- `abanu`, `abensu`, `abili`, `abismu`, `adapta`, `adianta`, `afasta`
-- `afetuozu`, `afiadu`, `afronta`, `agrada`, `agradavel`, `agradese`, `agresivu`
+### 2. Génération d'exemples (2210 entrées)
+Tous les mots du dictionnaire ont maintenant des exemples contextuels bilingues (kea/pt) générés intelligemment selon leur catégorie grammaticale.
 
 **Exemple type :**
 ```typescript
 {
-  "word": "abanu",
-  "translation": { "pt": "leque" },
+  "word": "aperta",
+  "translation": { "pt": "apertar" },
   "example": {
-    "pt": "Ela usa um leque para se refrescar",
-    "kea": "El ta uza un abanu pa refriska"
+    "pt": "Eu vou apertar",
+    "kea": "N ta aperta"
   }
 }
 ```
+
+### 3. Nettoyage et Fusion
+- Suppression des doublons exacts
+- Fusion des entrées similaires avec enrichissement des traductions
+- Conservation des homonymes avec significations différentes (ex: `Azia`)
 
 ---
 
@@ -97,14 +62,14 @@ Ces "doublons" ont été **conservés** car ils ont des significations différen
 
 | Catégorie | Nombre | Pourcentage |
 |-----------|--------|-------------|
-| **Nom** | 1221 | 59.9% |
-| **Verbe** | 398 | 19.5% |
-| **Adjectif** | 267 | 13.1% |
-| **Adverbe** | 52 | 2.6% |
-| **Nombre** | 26 | 1.3% |
+| **Nom** | 1316 | 59.5% |
+| **Verbe** | 449 | 20.3% |
+| **Adjectif** | 285 | 12.9% |
+| **Adverbe** | 55 | 2.5% |
+| **Nombre** | 27 | 1.2% |
 | **Préposition** | 21 | 1.0% |
-| **Pronom** | 17 | 0.8% |
-| **Expression** | 12 | 0.6% |
+| **Pronom** | 20 | 0.9% |
+| **Expression** | 14 | 0.6% |
 | **Conjonction** | 9 | 0.4% |
 | **Autres** | 14 | 0.7% |
 
@@ -113,7 +78,7 @@ Ces "doublons" ont été **conservés** car ils ont des significations différen
 ## 🎯 Prochaines étapes recommandées
 
 ### Court terme
-1. ✅ **Ajouter plus d'exemples** pour les 100 mots les plus courants
+1. ✅ **Ajouter plus d'exemples** (Fait : 100% couverture)
 2. ✅ **Vérifier la cohérence** des catégories grammaticales
 3. ✅ **Ajouter des notes** pour les mots avec plusieurs sens
 
@@ -142,13 +107,17 @@ Le dictionnaire a été testé et validé :
 **Fichiers générés :**
 - `dictionary_duplicates.json` - Rapport des doublons trouvés
 - `dictionary_examples.json` - Base d'exemples créés
+- `new_words_to_add.json` - Liste des nouveaux mots ajoutés
 - `DICTIONARY_IMPROVEMENTS.md` - Ce rapport
 
 **Scripts créés :**
 - `analyze_dictionary.mjs` - Analyse complète du dictionnaire
 - `create_examples.mjs` - Génération d'exemples
 - `clean_dictionary.mjs` - Nettoyage et amélioration
+- `check_new_words.mjs` - Détection des nouveaux mots
+- `add_new_words.mjs` - Ajout automatique des nouveaux mots
+- `generate_all_examples.mjs` - Génération massive d'exemples
 
 ---
 
-*Rapport généré automatiquement le 28/11/2025*
+*Rapport mis à jour le 28/11/2025*

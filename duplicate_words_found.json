@@ -1,0 +1,537 @@
+[
+  {
+    "word": "a",
+    "translation": "e / o",
+    "category": "Conjonction"
+  },
+  {
+    "word": "a",
+    "translation": "a (preposição)",
+    "category": "Préposition"
+  },
+  {
+    "word": "adas",
+    "translation": "adeus",
+    "category": "Expression"
+  },
+  {
+    "word": "adjaa",
+    "translation": "expressão de admiração",
+    "category": "Expression"
+  },
+  {
+    "word": "adormese",
+    "translation": "adormecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "akulturason",
+    "translation": "aculturação",
+    "category": "Nom"
+  },
+  {
+    "word": "alimaria",
+    "translation": "animal / montaria",
+    "category": "Nom"
+  },
+  {
+    "word": "aligoriku",
+    "translation": "alegórico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "aloa",
+    "translation": "lá (longe)",
+    "category": "Adverbe"
+  },
+  {
+    "word": "almufada",
+    "translation": "almofada",
+    "category": "Nom"
+  },
+  {
+    "word": "almusu",
+    "translation": "almoço",
+    "category": "Nom"
+  },
+  {
+    "word": "aluz",
+    "translation": "luz",
+    "category": "Nom"
+  },
+  {
+    "word": "alvora",
+    "translation": "alvorada / nascer do sol",
+    "category": "Verbe"
+  },
+  {
+    "word": "amostra",
+    "translation": "mostrar",
+    "category": "Verbe"
+  },
+  {
+    "word": "angustia",
+    "translation": "angústia",
+    "category": "Nom"
+  },
+  {
+    "word": "aniversariu",
+    "translation": "aniversário",
+    "category": "Nom"
+  },
+  {
+    "word": "ankua",
+    "translation": "viver bem / confortavelmente",
+    "category": "Verbe"
+  },
+  {
+    "word": "antan",
+    "translation": "então / e depois",
+    "category": "Conjonction"
+  },
+  {
+    "word": "anterior",
+    "translation": "anterior",
+    "category": "Adjectif"
+  },
+  {
+    "word": "apagador",
+    "translation": "apagador",
+    "category": "Nom"
+  },
+  {
+    "word": "apoiu",
+    "translation": "apoio",
+    "category": "Nom"
+  },
+  {
+    "word": "aponta",
+    "translation": "apontar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aprende",
+    "translation": "aprender",
+    "category": "Verbe"
+  },
+  {
+    "word": "apresia",
+    "translation": "apreciar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aprova",
+    "translation": "aprovar",
+    "category": "Verbe"
+  },
+  {
+    "word": "arada",
+    "translation": "arada / charrua",
+    "category": "Nom"
+  },
+  {
+    "word": "arame",
+    "translation": "arame",
+    "category": "Nom"
+  },
+  {
+    "word": "arberka",
+    "translation": "alparca / sandália",
+    "category": "Nom"
+  },
+  {
+    "word": "arbisa",
+    "translation": "alvíssaras / boas notícias",
+    "category": "Nom"
+  },
+  {
+    "word": "aredor",
+    "translation": "arredores / subúrbios",
+    "category": "Nom"
+  },
+  {
+    "word": "argudon",
+    "translation": "algodão",
+    "category": "Nom"
+  },
+  {
+    "word": "arka",
+    "translation": "arca / baú",
+    "category": "Nom"
+  },
+  {
+    "word": "arkitetu",
+    "translation": "arquiteto",
+    "category": "Nom"
+  },
+  {
+    "word": "arkitetura",
+    "translation": "arquitetura",
+    "category": "Nom"
+  },
+  {
+    "word": "arku",
+    "translation": "arco",
+    "category": "Nom"
+  },
+  {
+    "word": "armadu",
+    "translation": "armado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "armazen",
+    "translation": "armazém",
+    "category": "Nom"
+  },
+  {
+    "word": "armazena",
+    "translation": "armazenar",
+    "category": "Verbe"
+  },
+  {
+    "word": "arra",
+    "translation": "arre (interjeição)",
+    "category": "Expression"
+  },
+  {
+    "word": "artigo",
+    "translation": "artigo",
+    "category": "Nom"
+  },
+  {
+    "word": "artizanatu",
+    "translation": "artesanato",
+    "category": "Nom"
+  },
+  {
+    "word": "asadu",
+    "translation": "assado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "aseiu",
+    "translation": "asseio / higiene",
+    "category": "Nom"
+  },
+  {
+    "word": "asenblea",
+    "translation": "assembleia",
+    "category": "Nom"
+  },
+  {
+    "word": "asentu",
+    "translation": "assento / registro",
+    "category": "Nom"
+  },
+  {
+    "word": "asi",
+    "translation": "assim / portanto",
+    "category": "Adverbe"
+  },
+  {
+    "word": "ason",
+    "translation": "ação",
+    "category": "Nom"
+  },
+  {
+    "word": "asparagu",
+    "translation": "espargo",
+    "category": "Nom"
+  },
+  {
+    "word": "aspetu",
+    "translation": "aspeto",
+    "category": "Nom"
+  },
+  {
+    "word": "aspirina",
+    "translation": "aspirine",
+    "category": "Nom"
+  },
+  {
+    "word": "astru",
+    "translation": "astro / planeta",
+    "category": "Nom"
+  },
+  {
+    "word": "atadu",
+    "translation": "atado / amarrado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "atinji",
+    "translation": "atingir",
+    "category": "Verbe"
+  },
+  {
+    "word": "atribui",
+    "translation": "atribuir",
+    "category": "Verbe"
+  },
+  {
+    "word": "atua",
+    "translation": "atuar",
+    "category": "Verbe"
+  },
+  {
+    "word": "atualidadi",
+    "translation": "atualidade",
+    "category": "Nom"
+  },
+  {
+    "word": "atura",
+    "translation": "aturar",
+    "category": "Verbe"
+  },
+  {
+    "word": "atxa",
+    "translation": "achar / encontrar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aventura",
+    "translation": "aventurar / arriscar",
+    "category": "Verbe"
+  },
+  {
+    "word": "avontadi",
+    "translation": "à vontade / suficiente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "avizu",
+    "translation": "aviso",
+    "category": "Nom"
+  },
+  {
+    "word": "axa",
+    "translation": "achar / alta febre",
+    "category": "Nom"
+  },
+  {
+    "word": "azarma",
+    "translation": "fantasma / criatura da noite",
+    "category": "Nom"
+  },
+  {
+    "word": "azeda",
+    "translation": "azedar",
+    "category": "Verbe"
+  },
+  {
+    "word": "babau",
+    "translation": "bobo / estúpido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bada",
+    "translation": "ida / partida",
+    "category": "Nom"
+  },
+  {
+    "word": "badia",
+    "translation": "badia (habitante de Santiago)",
+    "category": "Nom"
+  },
+  {
+    "word": "badjadera",
+    "translation": "dançarina",
+    "category": "Nom"
+  },
+  {
+    "word": "badjadoru",
+    "translation": "dançarino",
+    "category": "Nom"
+  },
+  {
+    "word": "bador",
+    "translation": "viajante / quem sai muito",
+    "category": "Nom"
+  },
+  {
+    "word": "baeta",
+    "translation": "combinação (roupa íntima)",
+    "category": "Nom"
+  },
+  {
+    "word": "bafatia",
+    "translation": "esbofetear",
+    "category": "Verbe"
+  },
+  {
+    "word": "bafaton",
+    "translation": "bofetão",
+    "category": "Nom"
+  },
+  {
+    "word": "bagabaga",
+    "translation": "térmitas / formiga branca",
+    "category": "Nom"
+  },
+  {
+    "word": "bagaja",
+    "translation": "bagagem",
+    "category": "Nom"
+  },
+  {
+    "word": "bagarozu",
+    "translation": "vagaroso / lento",
+    "category": "Adjectif"
+  },
+  {
+    "word": "baion",
+    "translation": "garrafão",
+    "category": "Nom"
+  },
+  {
+    "word": "baketi",
+    "translation": "balde",
+    "category": "Nom"
+  },
+  {
+    "word": "bakon",
+    "translation": "bácoro / medroso",
+    "category": "Nom"
+  },
+  {
+    "word": "bala",
+    "translation": "ir embora depressa",
+    "category": "Verbe"
+  },
+  {
+    "word": "baladu",
+    "translation": "maduro (coco)",
+    "category": "Adjectif"
+  },
+  {
+    "word": "balan-balan",
+    "translation": "falar muito / tagarelar",
+    "category": "Verbe"
+  },
+  {
+    "word": "balangia",
+    "translation": "balançar (devagar)",
+    "category": "Verbe"
+  },
+  {
+    "word": "baleeru",
+    "translation": "baleeiro",
+    "category": "Nom"
+  },
+  {
+    "word": "baleti",
+    "translation": "valete (cartas)",
+    "category": "Nom"
+  },
+  {
+    "word": "balkon",
+    "translation": "balcão",
+    "category": "Nom"
+  },
+  {
+    "word": "balon",
+    "translation": "balão",
+    "category": "Nom"
+  },
+  {
+    "word": "baloxa",
+    "translation": "pessoa gorda",
+    "category": "Nom"
+  },
+  {
+    "word": "balsuma",
+    "translation": "balsamar / crescer (plantas)",
+    "category": "Verbe"
+  },
+  {
+    "word": "bana",
+    "translation": "abanar",
+    "category": "Verbe"
+  },
+  {
+    "word": "banatu",
+    "translation": "banato / idiota",
+    "category": "Nom"
+  },
+  {
+    "word": "banbu",
+    "translation": "carregar às costas (criança)",
+    "category": "Verbe"
+  },
+  {
+    "word": "banbudu",
+    "translation": "carregado às costas",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bandera",
+    "translation": "naturalizar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bangu",
+    "translation": "rede de pesca",
+    "category": "Nom"
+  },
+  {
+    "word": "barka",
+    "translation": "embarcar",
+    "category": "Verbe"
+  },
+  {
+    "word": "boa",
+    "translation": "voar",
+    "category": "Verbe"
+  },
+  {
+    "word": "boita",
+    "translation": "voltar",
+    "category": "Verbe"
+  },
+  {
+    "word": "brandu",
+    "translation": "brando / suave",
+    "category": "Adjectif"
+  },
+  {
+    "word": "brinkedu",
+    "translation": "brinquedo",
+    "category": "Nom"
+  },
+  {
+    "word": "bua",
+    "translation": "voar / saltar",
+    "category": "Verbe"
+  },
+  {
+    "word": "buda",
+    "translation": "buda",
+    "category": "Nom"
+  },
+  {
+    "word": "bufa",
+    "translation": "bufar / peidar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bue",
+    "translation": "muito (calão)",
+    "category": "Adverbe"
+  },
+  {
+    "word": "despensa",
+    "translation": "despensa",
+    "category": "Nom"
+  },
+  {
+    "word": "diabu",
+    "translation": "diabo",
+    "category": "Nom"
+  },
+  {
+    "word": "dobra",
+    "translation": "dobrar",
+    "category": "Verbe"
+  }
+]
