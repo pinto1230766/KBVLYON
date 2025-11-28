@@ -17340,5 +17340,5549 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": ""
     },
     "category": "Verbe"
+  },
+  {
+    "id": "entry-1445",
+    "word": "rabela",
+    "translation": {
+      "pt": "rebelde / virar contra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1446",
+    "word": "rabentola",
+    "translation": {
+      "pt": "gabarola / pessoa que se gaba"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1447",
+    "word": "rabida",
+    "translation": {
+      "pt": "virar / revirar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1448",
+    "word": "rabidante",
+    "translation": {
+      "pt": "comerciante de rua"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1449",
+    "word": "rabolise",
+    "translation": {
+      "pt": "fazer barulho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1450",
+    "word": "rabu",
+    "translation": {
+      "pt": "rabo / cauda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1451",
+    "word": "rada",
+    "translation": {
+      "pt": "rada / baía"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1452",
+    "word": "rafodju",
+    "translation": {
+      "pt": "bater no mato (indiretamente)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1453",
+    "word": "ragala",
+    "translation": {
+      "pt": "arregalar (os olhos)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1454",
+    "word": "raganha",
+    "translation": {
+      "pt": "espalhar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1455",
+    "word": "raia",
+    "translation": {
+      "pt": "raia (peixe)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1456",
+    "word": "raiba",
+    "translation": {
+      "pt": "raiva / ira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1457",
+    "word": "raio",
+    "translation": {
+      "pt": "raio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1458",
+    "word": "rais",
+    "translation": {
+      "pt": "raiz"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1459",
+    "word": "rajan",
+    "translation": {
+      "pt": "rajada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1460",
+    "word": "raka",
+    "translation": {
+      "pt": "recuar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1461",
+    "word": "rakorda",
+    "translation": {
+      "pt": "recordar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1462",
+    "word": "rakuntse",
+    "translation": {
+      "pt": "reconhecer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1463",
+    "word": "rala",
+    "translation": {
+      "pt": "ralar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1464",
+    "word": "rama",
+    "translation": {
+      "pt": "ramo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1465",
+    "word": "ramedi",
+    "translation": {
+      "pt": "remédio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1466",
+    "word": "ramanga",
+    "translation": {
+      "pt": "arregaçar (mangas)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1467",
+    "word": "ranka",
+    "translation": {
+      "pt": "arrancar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1468",
+    "word": "ranja",
+    "translation": {
+      "pt": "arranjar / conseguir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1469",
+    "word": "rapas",
+    "translation": {
+      "pt": "rapaz"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1470",
+    "word": "rapazeti",
+    "translation": {
+      "pt": "rapazote"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1471",
+    "word": "rapenti",
+    "translation": {
+      "pt": "repente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1472",
+    "word": "rapidi",
+    "translation": {
+      "pt": "rápido"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1473",
+    "word": "rapara",
+    "translation": {
+      "pt": "reparar / notar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1474",
+    "word": "rasa",
+    "translation": {
+      "pt": "raça"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1475",
+    "word": "rasga",
+    "translation": {
+      "pt": "rasgar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1476",
+    "word": "raspa",
+    "translation": {
+      "pt": "raspar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1477",
+    "word": "rasta",
+    "translation": {
+      "pt": "arrastar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1478",
+    "word": "ratu",
+    "translation": {
+      "pt": "rato"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1479",
+    "word": "raza",
+    "translation": {
+      "pt": "rasa / cheia até a borda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1480",
+    "word": "razon",
+    "translation": {
+      "pt": "razão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1481",
+    "word": "re",
+    "translation": {
+      "pt": "ré (marcha atrás) / rei"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1482",
+    "word": "real",
+    "translation": {
+      "pt": "real"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1483",
+    "word": "realidadi",
+    "translation": {
+      "pt": "realidade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1484",
+    "word": "rebaixa",
+    "translation": {
+      "pt": "rebaixar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1485",
+    "word": "rebenta",
+    "translation": {
+      "pt": "rebentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1486",
+    "word": "rebera",
+    "translation": {
+      "pt": "ribeira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1487",
+    "word": "recebi",
+    "translation": {
+      "pt": "receber"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1488",
+    "word": "recreio",
+    "translation": {
+      "pt": "recreio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1489",
+    "word": "reda",
+    "translation": {
+      "pt": "rede"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1490",
+    "word": "redonda",
+    "translation": {
+      "pt": "redonda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1491",
+    "word": "refina",
+    "translation": {
+      "pt": "refinar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1492",
+    "word": "rega",
+    "translation": {
+      "pt": "regar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1493",
+    "word": "regra",
+    "translation": {
+      "pt": "regra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1494",
+    "word": "rei",
+    "translation": {
+      "pt": "rei"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1495",
+    "word": "reklama",
+    "translation": {
+      "pt": "reclamar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1496",
+    "word": "relijon",
+    "translation": {
+      "pt": "religião"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1497",
+    "word": "reloju",
+    "translation": {
+      "pt": "relógio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1498",
+    "word": "rema",
+    "translation": {
+      "pt": "remar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1499",
+    "word": "remedi",
+    "translation": {
+      "pt": "remédio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1500",
+    "word": "renda",
+    "translation": {
+      "pt": "renda (tecido ou aluguer)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1501",
+    "word": "repara",
+    "translation": {
+      "pt": "reparar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1502",
+    "word": "repenti",
+    "translation": {
+      "pt": "repente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1503",
+    "word": "repiti",
+    "translation": {
+      "pt": "repetir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1504",
+    "word": "reserva",
+    "translation": {
+      "pt": "reserva"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1505",
+    "word": "respeta",
+    "translation": {
+      "pt": "respeitar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1506",
+    "word": "respetu",
+    "translation": {
+      "pt": "respeito"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1507",
+    "word": "responde",
+    "translation": {
+      "pt": "responder"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1508",
+    "word": "resposta",
+    "translation": {
+      "pt": "resposta"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1509",
+    "word": "resta",
+    "translation": {
+      "pt": "restar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1510",
+    "word": "restu",
+    "translation": {
+      "pt": "resto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1511",
+    "word": "resulta",
+    "translation": {
+      "pt": "resultar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1512",
+    "word": "retu",
+    "translation": {
+      "pt": "reto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1513",
+    "word": "reuni",
+    "translation": {
+      "pt": "reunir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1514",
+    "word": "reunion",
+    "translation": {
+      "pt": "reunião"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1515",
+    "word": "reza",
+    "translation": {
+      "pt": "rezar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1516",
+    "word": "riba",
+    "translation": {
+      "pt": "riba / em cima"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1517",
+    "word": "riberal",
+    "translation": {
+      "pt": "ribeiral"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1518",
+    "word": "rika",
+    "translation": {
+      "pt": "rica"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1519",
+    "word": "riku",
+    "translation": {
+      "pt": "rico"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1520",
+    "word": "rim",
+    "translation": {
+      "pt": "rim"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1521",
+    "word": "rinka",
+    "translation": {
+      "pt": "arrancar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1522",
+    "word": "riu",
+    "translation": {
+      "pt": "rio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1523",
+    "word": "rixu",
+    "translation": {
+      "pt": "rijo / duro / difícil"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1524",
+    "word": "roba",
+    "translation": {
+      "pt": "roubar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1525",
+    "word": "robeda",
+    "translation": {
+      "pt": "arvoredo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1526",
+    "word": "robertu",
+    "translation": {
+      "pt": "coberto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1527",
+    "word": "roda",
+    "translation": {
+      "pt": "roda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1528",
+    "word": "rodja",
+    "translation": {
+      "pt": "rodear"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1529",
+    "word": "rola",
+    "translation": {
+      "pt": "rolar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1530",
+    "word": "roma",
+    "translation": {
+      "pt": "romã"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1531",
+    "word": "romanse",
+    "translation": {
+      "pt": "romance"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1532",
+    "word": "romba",
+    "translation": {
+      "pt": "arrombar / desabar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1533",
+    "word": "ropa",
+    "translation": {
+      "pt": "roupa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1534",
+    "word": "rosa",
+    "translation": {
+      "pt": "rosa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1535",
+    "word": "roska",
+    "translation": {
+      "pt": "rosca"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1536",
+    "word": "rostu",
+    "translation": {
+      "pt": "rosto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1537",
+    "word": "rota",
+    "translation": {
+      "pt": "arroto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1538",
+    "word": "rotxa",
+    "translation": {
+      "pt": "rocha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1539",
+    "word": "roxu",
+    "translation": {
+      "pt": "roxo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1540",
+    "word": "rua",
+    "translation": {
+      "pt": "rua"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1541",
+    "word": "rubera",
+    "translation": {
+      "pt": "ribeira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1542",
+    "word": "rudi",
+    "translation": {
+      "pt": "rude"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1543",
+    "word": "ruga",
+    "translation": {
+      "pt": "ruga"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1544",
+    "word": "ruim",
+    "translation": {
+      "pt": "ruim"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1545",
+    "word": "ruina",
+    "translation": {
+      "pt": "ruína"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1546",
+    "word": "ruminha",
+    "translation": {
+      "pt": "pilha pequena"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1547",
+    "word": "runhu",
+    "translation": {
+      "pt": "ruim / mau / bravo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1548",
+    "word": "rupia",
+    "translation": {
+      "pt": "arrupiar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1549",
+    "word": "sabadu",
+    "translation": {
+      "pt": "sábado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1550",
+    "word": "sabe",
+    "translation": {
+      "pt": "saber / saboroso"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1551",
+    "word": "sabi",
+    "translation": {
+      "pt": "sabe / gostoso / agradável"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1552",
+    "word": "sabola",
+    "translation": {
+      "pt": "cebola"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1553",
+    "word": "sabon",
+    "translation": {
+      "pt": "sabão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1554",
+    "word": "saboneti",
+    "translation": {
+      "pt": "sabonete"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1555",
+    "word": "sabura",
+    "translation": {
+      "pt": "sabor / prazer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1556",
+    "word": "safra",
+    "translation": {
+      "pt": "safra / colheita"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1557",
+    "word": "sai",
+    "translation": {
+      "pt": "sair"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1558",
+    "word": "saia",
+    "translation": {
+      "pt": "saia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1559",
+    "word": "saida",
+    "translation": {
+      "pt": "saída"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1560",
+    "word": "sais",
+    "translation": {
+      "pt": "seis"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1561",
+    "word": "saka",
+    "translation": {
+      "pt": "sacar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1562",
+    "word": "sakrifisiu",
+    "translation": {
+      "pt": "sacrifício"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1563",
+    "word": "saku",
+    "translation": {
+      "pt": "saco"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1564",
+    "word": "sal",
+    "translation": {
+      "pt": "sal"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1565",
+    "word": "sala",
+    "translation": {
+      "pt": "sala"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1566",
+    "word": "salada",
+    "translation": {
+      "pt": "salada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1567",
+    "word": "salariu",
+    "translation": {
+      "pt": "salário"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1568",
+    "word": "salta",
+    "translation": {
+      "pt": "saltar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1569",
+    "word": "salva",
+    "translation": {
+      "pt": "salvar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1570",
+    "word": "samba",
+    "translation": {
+      "pt": "samba"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1571",
+    "word": "sangi",
+    "translation": {
+      "pt": "sangue"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1572",
+    "word": "sanha",
+    "translation": {
+      "pt": "zangar / enfurecer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1573",
+    "word": "santu",
+    "translation": {
+      "pt": "santo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1574",
+    "word": "sapatu",
+    "translation": {
+      "pt": "sapato"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1575",
+    "word": "sardinha",
+    "translation": {
+      "pt": "sardinha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1576",
+    "word": "satisfaze",
+    "translation": {
+      "pt": "satisfazer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1577",
+    "word": "saudi",
+    "translation": {
+      "pt": "saúde"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1578",
+    "word": "se",
+    "translation": {
+      "pt": "seu / se"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-1579",
+    "word": "sebeda",
+    "translation": {
+      "pt": "subida"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1580",
+    "word": "sedu",
+    "translation": {
+      "pt": "cedo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1581",
+    "word": "segredu",
+    "translation": {
+      "pt": "segredo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1582",
+    "word": "segu",
+    "translation": {
+      "pt": "cego"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1583",
+    "word": "segunda",
+    "translation": {
+      "pt": "segunda-feira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1584",
+    "word": "seguru",
+    "translation": {
+      "pt": "seguro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1585",
+    "word": "seia",
+    "translation": {
+      "pt": "ceia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1586",
+    "word": "seis",
+    "translation": {
+      "pt": "seis"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1587",
+    "word": "seka",
+    "translation": {
+      "pt": "secar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1588",
+    "word": "seku",
+    "translation": {
+      "pt": "seco"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1589",
+    "word": "sela",
+    "translation": {
+      "pt": "sela"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1590",
+    "word": "sem",
+    "translation": {
+      "pt": "sem"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1591",
+    "word": "semana",
+    "translation": {
+      "pt": "semana"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1592",
+    "word": "sementi",
+    "translation": {
+      "pt": "semente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1593",
+    "word": "sempre",
+    "translation": {
+      "pt": "sempre"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1594",
+    "word": "sen",
+    "translation": {
+      "pt": "cem"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1595",
+    "word": "sena",
+    "translation": {
+      "pt": "cena"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1596",
+    "word": "sendi",
+    "translation": {
+      "pt": "acender"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1597",
+    "word": "senta",
+    "translation": {
+      "pt": "sentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1598",
+    "word": "sentidu",
+    "translation": {
+      "pt": "sentido"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1599",
+    "word": "sentimentu",
+    "translation": {
+      "pt": "sentimento"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1600",
+    "word": "sentu",
+    "translation": {
+      "pt": "cento"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1601",
+    "word": "senzi",
+    "translation": {
+      "pt": "cinzento"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1602",
+    "word": "sera",
+    "translation": {
+      "pt": "cera / serra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1603",
+    "word": "sereia",
+    "translation": {
+      "pt": "sereia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1604",
+    "word": "seriu",
+    "translation": {
+      "pt": "sério"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1605",
+    "word": "serra",
+    "translation": {
+      "pt": "serra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1606",
+    "word": "sertu",
+    "translation": {
+      "pt": "certo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1607",
+    "word": "servi",
+    "translation": {
+      "pt": "servir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1608",
+    "word": "servisu",
+    "translation": {
+      "pt": "serviço"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1609",
+    "word": "ses",
+    "translation": {
+      "pt": "seus"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Possessif"
+  },
+  {
+    "id": "entry-1610",
+    "word": "sesta",
+    "translation": {
+      "pt": "sexta-feira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1611",
+    "word": "sete",
+    "translation": {
+      "pt": "sete"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1612",
+    "word": "setembru",
+    "translation": {
+      "pt": "setembro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1613",
+    "word": "setenta",
+    "translation": {
+      "pt": "setenta"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1614",
+    "word": "seu",
+    "translation": {
+      "pt": "céu"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1615",
+    "word": "sexu",
+    "translation": {
+      "pt": "sexo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1616",
+    "word": "si",
+    "translation": {
+      "pt": "se / sim"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-1617",
+    "word": "sidadi",
+    "translation": {
+      "pt": "cidade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1618",
+    "word": "siegulu",
+    "translation": {
+      "pt": "século"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1619",
+    "word": "sielu",
+    "translation": {
+      "pt": "céu"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1620",
+    "word": "signifika",
+    "translation": {
+      "pt": "significar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1621",
+    "word": "silensiu",
+    "translation": {
+      "pt": "silêncio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1622",
+    "word": "sim",
+    "translation": {
+      "pt": "sim"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1623",
+    "word": "sima",
+    "translation": {
+      "pt": "como / assim como"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1624",
+    "word": "siminiteriu",
+    "translation": {
+      "pt": "cemitério"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1625",
+    "word": "simples",
+    "translation": {
+      "pt": "simples"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1626",
+    "word": "sinal",
+    "translation": {
+      "pt": "sinal"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1627",
+    "word": "sinceru",
+    "translation": {
+      "pt": "sincero"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1628",
+    "word": "sinta",
+    "translation": {
+      "pt": "sentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1629",
+    "word": "sintu",
+    "translation": {
+      "pt": "cinto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1630",
+    "word": "sinu",
+    "translation": {
+      "pt": "sino"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1631",
+    "word": "sistema",
+    "translation": {
+      "pt": "sistema"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1632",
+    "word": "sitiu",
+    "translation": {
+      "pt": "sítio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1633",
+    "word": "situa",
+    "translation": {
+      "pt": "situar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1634",
+    "word": "situason",
+    "translation": {
+      "pt": "situação"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1635",
+    "word": "sivil",
+    "translation": {
+      "pt": "civil"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1636",
+    "word": "sivilizason",
+    "translation": {
+      "pt": "civilização"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1637",
+    "word": "so",
+    "translation": {
+      "pt": "só / somente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1638",
+    "word": "soberba",
+    "translation": {
+      "pt": "soberba"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1639",
+    "word": "sobi",
+    "translation": {
+      "pt": "subir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1640",
+    "word": "sobra",
+    "translation": {
+      "pt": "sobra / sobrar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1641",
+    "word": "sobrinha",
+    "translation": {
+      "pt": "sobrinha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1642",
+    "word": "sobrinhu",
+    "translation": {
+      "pt": "sobrinho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1643",
+    "word": "sodadi",
+    "translation": {
+      "pt": "saudade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1644",
+    "word": "sofá",
+    "translation": {
+      "pt": "sofá"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1645",
+    "word": "sofre",
+    "translation": {
+      "pt": "sofrer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1646",
+    "word": "sogra",
+    "translation": {
+      "pt": "sogra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1647",
+    "word": "sogru",
+    "translation": {
+      "pt": "sogro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1648",
+    "word": "sol",
+    "translation": {
+      "pt": "sol"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1649",
+    "word": "soldadu",
+    "translation": {
+      "pt": "soldado"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1650",
+    "word": "solta",
+    "translation": {
+      "pt": "soltar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1651",
+    "word": "solteiru",
+    "translation": {
+      "pt": "solteiro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1652",
+    "word": "sombra",
+    "translation": {
+      "pt": "sombra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1653",
+    "word": "somente",
+    "translation": {
+      "pt": "somente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1654",
+    "word": "son",
+    "translation": {
+      "pt": "som"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1655",
+    "word": "sonha",
+    "translation": {
+      "pt": "sonhar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1656",
+    "word": "sonhu",
+    "translation": {
+      "pt": "sonho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1657",
+    "word": "sopa",
+    "translation": {
+      "pt": "sopa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1658",
+    "word": "sopra",
+    "translation": {
+      "pt": "soprar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1659",
+    "word": "sorri",
+    "translation": {
+      "pt": "sorrir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1660",
+    "word": "sorti",
+    "translation": {
+      "pt": "sorte"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1661",
+    "word": "sota",
+    "translation": {
+      "pt": "bater / golpear"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1662",
+    "word": "sua",
+    "translation": {
+      "pt": "suar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1663",
+    "word": "suavi",
+    "translation": {
+      "pt": "suave"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1664",
+    "word": "subi",
+    "translation": {
+      "pt": "subir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1665",
+    "word": "subrinhu",
+    "translation": {
+      "pt": "sobrinho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1666",
+    "word": "sufre",
+    "translation": {
+      "pt": "sofrer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1667",
+    "word": "suger",
+    "translation": {
+      "pt": "sujeira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1668",
+    "word": "sugeri",
+    "translation": {
+      "pt": "sugerir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1669",
+    "word": "suja",
+    "translation": {
+      "pt": "sujar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1670",
+    "word": "sujeitu",
+    "translation": {
+      "pt": "sujeito"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1671",
+    "word": "suju",
+    "translation": {
+      "pt": "sujo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1672",
+    "word": "sukcesu",
+    "translation": {
+      "pt": "sucesso"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1673",
+    "word": "sukuru",
+    "translation": {
+      "pt": "escuro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1674",
+    "word": "sul",
+    "translation": {
+      "pt": "sul"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1675",
+    "word": "suma",
+    "translation": {
+      "pt": "como"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1676",
+    "word": "sumana",
+    "translation": {
+      "pt": "semana"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1677",
+    "word": "superficie",
+    "translation": {
+      "pt": "superfície"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1678",
+    "word": "superior",
+    "translation": {
+      "pt": "superior"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1679",
+    "word": "suporta",
+    "translation": {
+      "pt": "suportar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1680",
+    "word": "surdu",
+    "translation": {
+      "pt": "surdo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1681",
+    "word": "surpreza",
+    "translation": {
+      "pt": "surpresa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1682",
+    "word": "susede",
+    "translation": {
+      "pt": "suceder"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1683",
+    "word": "suspiro",
+    "translation": {
+      "pt": "suspiro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1684",
+    "word": "sustenta",
+    "translation": {
+      "pt": "sustentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1685",
+    "word": "tabaku",
+    "translation": {
+      "pt": "tabaco"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1686",
+    "word": "taberna",
+    "translation": {
+      "pt": "taberna"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1687",
+    "word": "tabua",
+    "translation": {
+      "pt": "tábua"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1688",
+    "word": "taça",
+    "translation": {
+      "pt": "taça"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1689",
+    "word": "taka",
+    "translation": {
+      "pt": "atacar / tapar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1690",
+    "word": "tal",
+    "translation": {
+      "pt": "tal"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1691",
+    "word": "talvez",
+    "translation": {
+      "pt": "talvez"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1692",
+    "word": "tamanhu",
+    "translation": {
+      "pt": "tamanho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1693",
+    "word": "tambe",
+    "translation": {
+      "pt": "também"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1694",
+    "word": "tampa",
+    "translation": {
+      "pt": "tampa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1695",
+    "word": "tanbém",
+    "translation": {
+      "pt": "também"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1696",
+    "word": "tanki",
+    "translation": {
+      "pt": "tanque"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1697",
+    "word": "tanti",
+    "translation": {
+      "pt": "tanto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1698",
+    "word": "tantu",
+    "translation": {
+      "pt": "tanto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1699",
+    "word": "tapa",
+    "translation": {
+      "pt": "tapar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1700",
+    "word": "tapete",
+    "translation": {
+      "pt": "tapete"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1701",
+    "word": "tarda",
+    "translation": {
+      "pt": "tardar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1702",
+    "word": "tardi",
+    "translation": {
+      "pt": "tarde"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1703",
+    "word": "tata",
+    "translation": {
+      "pt": "avô / pai"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1704",
+    "word": "taxa",
+    "translation": {
+      "pt": "taxa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1705",
+    "word": "te",
+    "translation": {
+      "pt": "até / ti"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1706",
+    "word": "teatru",
+    "translation": {
+      "pt": "teatro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1707",
+    "word": "teia",
+    "translation": {
+      "pt": "teia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1708",
+    "word": "tela",
+    "translation": {
+      "pt": "tela"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1709",
+    "word": "telefon",
+    "translation": {
+      "pt": "telefone"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1710",
+    "word": "telefona",
+    "translation": {
+      "pt": "telefonar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1711",
+    "word": "televison",
+    "translation": {
+      "pt": "televisão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1712",
+    "word": "tema",
+    "translation": {
+      "pt": "tema / teimar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1713",
+    "word": "teme",
+    "translation": {
+      "pt": "temer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1714",
+    "word": "tempera",
+    "translation": {
+      "pt": "temperar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1715",
+    "word": "tempu",
+    "translation": {
+      "pt": "tempo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1716",
+    "word": "ten",
+    "translation": {
+      "pt": "ter"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1717",
+    "word": "tenda",
+    "translation": {
+      "pt": "tenda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1718",
+    "word": "tende",
+    "translation": {
+      "pt": "entender"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1719",
+    "word": "tenporal",
+    "translation": {
+      "pt": "temporal"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1720",
+    "word": "tenta",
+    "translation": {
+      "pt": "tentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1721",
+    "word": "terenu",
+    "translation": {
+      "pt": "terreno"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1722",
+    "word": "termina",
+    "translation": {
+      "pt": "terminar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1723",
+    "word": "terra",
+    "translation": {
+      "pt": "terra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1724",
+    "word": "teru",
+    "translation": {
+      "pt": "inteiro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1725",
+    "word": "tesoura",
+    "translation": {
+      "pt": "tesoura"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1726",
+    "word": "testa",
+    "translation": {
+      "pt": "testa / testar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1727",
+    "word": "testimunha",
+    "translation": {
+      "pt": "testemunha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1728",
+    "word": "teto",
+    "translation": {
+      "pt": "teto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1729",
+    "word": "teu",
+    "translation": {
+      "pt": "teu"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Possessif"
+  },
+  {
+    "id": "entry-1730",
+    "word": "ti",
+    "translation": {
+      "pt": "até / ti"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1731",
+    "word": "tia",
+    "translation": {
+      "pt": "tia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1732",
+    "word": "tinta",
+    "translation": {
+      "pt": "tinta"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1733",
+    "word": "tintu",
+    "translation": {
+      "pt": "tinto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1734",
+    "word": "tio",
+    "translation": {
+      "pt": "tio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1735",
+    "word": "tira",
+    "translation": {
+      "pt": "tirar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1736",
+    "word": "titi",
+    "translation": {
+      "pt": "tio / tia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1737",
+    "word": "titulu",
+    "translation": {
+      "pt": "título"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1738",
+    "word": "toka",
+    "translation": {
+      "pt": "tocar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1739",
+    "word": "toke",
+    "translation": {
+      "pt": "toque"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1740",
+    "word": "toma",
+    "translation": {
+      "pt": "tomar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1741",
+    "word": "tomati",
+    "translation": {
+      "pt": "tomate"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1742",
+    "word": "ton",
+    "translation": {
+      "pt": "tom"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1743",
+    "word": "tontura",
+    "translation": {
+      "pt": "tontura"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1744",
+    "word": "topada",
+    "translation": {
+      "pt": "topada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1745",
+    "word": "torna",
+    "translation": {
+      "pt": "tornar / voltar a"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1746",
+    "word": "torra",
+    "translation": {
+      "pt": "torrar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1747",
+    "word": "torrada",
+    "translation": {
+      "pt": "torrada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1748",
+    "word": "tortu",
+    "translation": {
+      "pt": "torto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1749",
+    "word": "tosi",
+    "translation": {
+      "pt": "tossir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1750",
+    "word": "tosse",
+    "translation": {
+      "pt": "tosse"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1751",
+    "word": "total",
+    "translation": {
+      "pt": "total"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1752",
+    "word": "trabadja",
+    "translation": {
+      "pt": "trabalhar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1753",
+    "word": "trabadju",
+    "translation": {
+      "pt": "trabalho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1754",
+    "word": "tradison",
+    "translation": {
+      "pt": "tradição"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1755",
+    "word": "traduzi",
+    "translation": {
+      "pt": "traduzir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1756",
+    "word": "trafiku",
+    "translation": {
+      "pt": "tráfego / tráfico"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1757",
+    "word": "traji",
+    "translation": {
+      "pt": "traje"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1758",
+    "word": "traka",
+    "translation": {
+      "pt": "trancar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1759",
+    "word": "trankilu",
+    "translation": {
+      "pt": "tranquilo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1760",
+    "word": "transfe",
+    "translation": {
+      "pt": "transferir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1761",
+    "word": "transforma",
+    "translation": {
+      "pt": "transformar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1762",
+    "word": "transporta",
+    "translation": {
+      "pt": "transportar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1763",
+    "word": "tras",
+    "translation": {
+      "pt": "trás / atrás"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1764",
+    "word": "trata",
+    "translation": {
+      "pt": "tratar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1765",
+    "word": "travessa",
+    "translation": {
+      "pt": "travessa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1766",
+    "word": "traze",
+    "translation": {
+      "pt": "trazer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1767",
+    "word": "treina",
+    "translation": {
+      "pt": "treinar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1768",
+    "word": "treinador",
+    "translation": {
+      "pt": "treinador"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1769",
+    "word": "treinu",
+    "translation": {
+      "pt": "treino"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1770",
+    "word": "treme",
+    "translation": {
+      "pt": "tremer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1771",
+    "word": "tres",
+    "translation": {
+      "pt": "três"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1772",
+    "word": "trevosa",
+    "translation": {
+      "pt": "trevosa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1773",
+    "word": "trigu",
+    "translation": {
+      "pt": "trigo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1774",
+    "word": "trinta",
+    "translation": {
+      "pt": "trinta"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1775",
+    "word": "tripa",
+    "translation": {
+      "pt": "tripa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1776",
+    "word": "tristi",
+    "translation": {
+      "pt": "triste"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1777",
+    "word": "tristeza",
+    "translation": {
+      "pt": "tristeza"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1778",
+    "word": "troka",
+    "translation": {
+      "pt": "trocar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1779",
+    "word": "tronku",
+    "translation": {
+      "pt": "tronco"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1780",
+    "word": "tropa",
+    "translation": {
+      "pt": "tropa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1781",
+    "word": "trovada",
+    "translation": {
+      "pt": "trovoada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1782",
+    "word": "trovon",
+    "translation": {
+      "pt": "trovão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1783",
+    "word": "tudu",
+    "translation": {
+      "pt": "tudo / todo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1784",
+    "word": "tuga",
+    "translation": {
+      "pt": "português (pessoa)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1785",
+    "word": "tumbi",
+    "translation": {
+      "pt": "túmulo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1786",
+    "word": "txeu",
+    "translation": {
+      "pt": "muito / cheio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1787",
+    "word": "txiga",
+    "translation": {
+      "pt": "chegar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1788",
+    "word": "txigada",
+    "translation": {
+      "pt": "chegada"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1789",
+    "word": "txoma",
+    "translation": {
+      "pt": "chamar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1790",
+    "word": "txora",
+    "translation": {
+      "pt": "chorar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1791",
+    "word": "txorrisu",
+    "translation": {
+      "pt": "chouriço"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1792",
+    "word": "txuba",
+    "translation": {
+      "pt": "chuva"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1793",
+    "word": "txuputi",
+    "translation": {
+      "pt": "chupeta"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1794",
+    "word": "u",
+    "translation": {
+      "pt": "o / u"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1795",
+    "word": "ubi",
+    "translation": {
+      "pt": "ouvir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1796",
+    "word": "un",
+    "translation": {
+      "pt": "um"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1797",
+    "word": "unha",
+    "translation": {
+      "pt": "unha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1798",
+    "word": "unhac",
+    "translation": {
+      "pt": "unha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1799",
+    "word": "uni",
+    "translation": {
+      "pt": "unir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1800",
+    "word": "uniku",
+    "translation": {
+      "pt": "único"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1801",
+    "word": "union",
+    "translation": {
+      "pt": "união"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1802",
+    "word": "universidadi",
+    "translation": {
+      "pt": "universidade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1803",
+    "word": "universu",
+    "translation": {
+      "pt": "universo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1804",
+    "word": "urina",
+    "translation": {
+      "pt": "urina / urinar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1805",
+    "word": "urjente",
+    "translation": {
+      "pt": "urgente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1806",
+    "word": "ursa",
+    "translation": {
+      "pt": "ursa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1807",
+    "word": "ursu",
+    "translation": {
+      "pt": "urso"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1808",
+    "word": "usa",
+    "translation": {
+      "pt": "usar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1809",
+    "word": "util",
+    "translation": {
+      "pt": "útil"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1810",
+    "word": "uva",
+    "translation": {
+      "pt": "uva"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1811",
+    "word": "v",
+    "translation": {
+      "pt": "vê (ver)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1812",
+    "word": "vaka",
+    "translation": {
+      "pt": "vaca"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1813",
+    "word": "vale",
+    "translation": {
+      "pt": "valer / vale"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1814",
+    "word": "valenti",
+    "translation": {
+      "pt": "valente"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1815",
+    "word": "validadi",
+    "translation": {
+      "pt": "validade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1816",
+    "word": "valor",
+    "translation": {
+      "pt": "valor"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1817",
+    "word": "vapor",
+    "translation": {
+      "pt": "vapor / navio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1818",
+    "word": "vara",
+    "translation": {
+      "pt": "vara"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1819",
+    "word": "varanda",
+    "translation": {
+      "pt": "varanda"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1820",
+    "word": "varias",
+    "translation": {
+      "pt": "várias"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1821",
+    "word": "vasia",
+    "translation": {
+      "pt": "vazia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1822",
+    "word": "vasilna",
+    "translation": {
+      "pt": "vacina"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1823",
+    "word": "vasu",
+    "translation": {
+      "pt": "vaso"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1824",
+    "word": "vazi",
+    "translation": {
+      "pt": "vazio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1825",
+    "word": "ve",
+    "translation": {
+      "pt": "ver"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1826",
+    "word": "vela",
+    "translation": {
+      "pt": "vela"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1827",
+    "word": "velosidadi",
+    "translation": {
+      "pt": "velocidade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1828",
+    "word": "vende",
+    "translation": {
+      "pt": "vender"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1829",
+    "word": "venenu",
+    "translation": {
+      "pt": "veneno"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1830",
+    "word": "vensi",
+    "translation": {
+      "pt": "vencer"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1831",
+    "word": "ventu",
+    "translation": {
+      "pt": "vento"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1832",
+    "word": "ver",
+    "translation": {
+      "pt": "ver"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1833",
+    "word": "berde",
+    "translation": {
+      "pt": "verde"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1834",
+    "word": "verdadi",
+    "translation": {
+      "pt": "verdade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1835",
+    "word": "verdaderu",
+    "translation": {
+      "pt": "verdadeiro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1836",
+    "word": "vergonha",
+    "translation": {
+      "pt": "vergonha"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1837",
+    "word": "vermelhu",
+    "translation": {
+      "pt": "vermelho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1838",
+    "word": "vesti",
+    "translation": {
+      "pt": "vestir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1839",
+    "word": "vestidu",
+    "translation": {
+      "pt": "vestido"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1840",
+    "word": "vez",
+    "translation": {
+      "pt": "vez"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1841",
+    "word": "via",
+    "translation": {
+      "pt": "via"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1842",
+    "word": "viaja",
+    "translation": {
+      "pt": "viajar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1843",
+    "word": "viaji",
+    "translation": {
+      "pt": "viagem"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1844",
+    "word": "vida",
+    "translation": {
+      "pt": "vida"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1845",
+    "word": "vidru",
+    "translation": {
+      "pt": "vidro"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1846",
+    "word": "vila",
+    "translation": {
+      "pt": "vila"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1847",
+    "word": "vinga",
+    "translation": {
+      "pt": "vingar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1848",
+    "word": "vingansa",
+    "translation": {
+      "pt": "vingança"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1849",
+    "word": "vinhu",
+    "translation": {
+      "pt": "vinho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1850",
+    "word": "viola",
+    "translation": {
+      "pt": "viola"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1851",
+    "word": "violon",
+    "translation": {
+      "pt": "violão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1852",
+    "word": "vira",
+    "translation": {
+      "pt": "virar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1853",
+    "word": "virgem",
+    "translation": {
+      "pt": "virgem"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1854",
+    "word": "virtudi",
+    "translation": {
+      "pt": "virtude"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1855",
+    "word": "visita",
+    "translation": {
+      "pt": "visita / visitar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1856",
+    "word": "vista",
+    "translation": {
+      "pt": "vista"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1857",
+    "word": "vistu",
+    "translation": {
+      "pt": "visto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1858",
+    "word": "vitima",
+    "translation": {
+      "pt": "vítima"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1859",
+    "word": "vitoria",
+    "translation": {
+      "pt": "vitória"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1860",
+    "word": "viuva",
+    "translation": {
+      "pt": "viúva"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1861",
+    "word": "viva",
+    "translation": {
+      "pt": "viva"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Interjection"
+  },
+  {
+    "id": "entry-1862",
+    "word": "vive",
+    "translation": {
+      "pt": "viver"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1863",
+    "word": "vizinhu",
+    "translation": {
+      "pt": "vizinho"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1864",
+    "word": "voa",
+    "translation": {
+      "pt": "voar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1865",
+    "word": "volta",
+    "translation": {
+      "pt": "volta / voltar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1866",
+    "word": "vontadi",
+    "translation": {
+      "pt": "vontade"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1867",
+    "word": "vota",
+    "translation": {
+      "pt": "votar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1868",
+    "word": "votu",
+    "translation": {
+      "pt": "voto"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1869",
+    "word": "voz",
+    "translation": {
+      "pt": "voz"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1870",
+    "word": "vulkon",
+    "translation": {
+      "pt": "vulcão"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1871",
+    "word": "x",
+    "translation": {
+      "pt": "x (letra)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1872",
+    "word": "xa",
+    "translation": {
+      "pt": "chá"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1873",
+    "word": "xaire",
+    "translation": {
+      "pt": "cheirar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1874",
+    "word": "xale",
+    "translation": {
+      "pt": "xaile"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1875",
+    "word": "xama",
+    "translation": {
+      "pt": "chama / chamar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1876",
+    "word": "xamina",
+    "translation": {
+      "pt": "chaminé"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1877",
+    "word": "xapa",
+    "translation": {
+      "pt": "chapa"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1878",
+    "word": "xatu",
+    "translation": {
+      "pt": "chato"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1879",
+    "word": "xave",
+    "translation": {
+      "pt": "chave"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1880",
+    "word": "xefe",
+    "translation": {
+      "pt": "chefe"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1881",
+    "word": "xeia",
+    "translation": {
+      "pt": "cheia"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1882",
+    "word": "xeiu",
+    "translation": {
+      "pt": "cheio"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1883",
+    "word": "xera",
+    "translation": {
+      "pt": "cheirar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1884",
+    "word": "xerife",
+    "translation": {
+      "pt": "xerife"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1885",
+    "word": "xikara",
+    "translation": {
+      "pt": "xícara"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1886",
+    "word": "xikra",
+    "translation": {
+      "pt": "xícara"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1887",
+    "word": "xinelu",
+    "translation": {
+      "pt": "chinelo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1888",
+    "word": "xines",
+    "translation": {
+      "pt": "chinês"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1889",
+    "word": "xinta",
+    "translation": {
+      "pt": "sentar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1890",
+    "word": "xinte",
+    "translation": {
+      "pt": "sentir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1891",
+    "word": "xinti",
+    "translation": {
+      "pt": "sentir"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1892",
+    "word": "xuxa",
+    "translation": {
+      "pt": "suja / porcaria"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1893",
+    "word": "xuxu",
+    "translation": {
+      "pt": "sujo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-1894",
+    "word": "xora",
+    "translation": {
+      "pt": "chorar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1895",
+    "word": "xuva",
+    "translation": {
+      "pt": "chuva"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1896",
+    "word": "z",
+    "translation": {
+      "pt": "z (letra)"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1897",
+    "word": "zanga",
+    "translation": {
+      "pt": "zangar / zanga"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1898",
+    "word": "zebra",
+    "translation": {
+      "pt": "zebra"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1899",
+    "word": "zelu",
+    "translation": {
+      "pt": "zelo"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1900",
+    "word": "zero",
+    "translation": {
+      "pt": "zero"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nombre"
+  },
+  {
+    "id": "entry-1901",
+    "word": "zona",
+    "translation": {
+      "pt": "zona"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1902",
+    "word": "zoona",
+    "translation": {
+      "pt": "zona"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1903",
+    "word": "zudia",
+    "translation": {
+      "pt": "ajudar"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1904",
+    "word": "zueira",
+    "translation": {
+      "pt": "zueira / brincadeira"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1905",
+    "word": "zumbi",
+    "translation": {
+      "pt": "zumbi"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1906",
+    "word": "zumzum",
+    "translation": {
+      "pt": "zumzum"
+    },
+    "example": {
+      "pt": "",
+      "kea": ""
+    },
+    "category": "Nom"
   }
 ];
