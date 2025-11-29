@@ -1,24 +1,11 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import Fuse from 'fuse.js';
 import { Star, History, X, Search } from 'lucide-react';
-import { dictionaryData } from '../data/dictionaryData';
+import { dictionaryData, DictionaryEntry } from '../data/dictionaryData';
 import { useLanguage } from '../hooks/useLanguage';
 import { useOfflineStorage } from '../hooks/useOfflineStorage';
 
-interface DictionaryEntry {
-  id: string;
-  word: string;
-  translation: {
-    pt: string;
-    kea: string;
-  };
-  example: {
-    pt: string;
-    kea: string;
-  };
-  note?: string;
-  category?: string;
-}
+
 
 const DictionaryPage = () => {
   const { t } = useLanguage();
@@ -35,6 +22,7 @@ const DictionaryPage = () => {
 
   // Initialiser Fuse.js pour la recherche
   useEffect(() => {
+    const fuseOptions = {
       keys: [
         { name: 'word', weight: 0.5 },
         { name: 'translation.pt', weight: 0.5 },
@@ -65,8 +53,7 @@ const DictionaryPage = () => {
       } else {
         base = base.filter(entry =>
           entry.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          entry.translation.pt.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          entry.translation.kea.toLowerCase().includes(searchTerm.toLowerCase())
+          entry.translation.pt.toLowerCase().includes(searchTerm.toLowerCase())
         );
       }
     }
@@ -124,7 +111,7 @@ const DictionaryPage = () => {
     // Find words in related categories that match or are similar
     const suggestions = dictionaryData
       .filter(entry => {
-        const entryText = `${entry.word} ${entry.translation.pt} ${entry.translation.kea}`.toLowerCase();
+        const entryText = `${entry.word} ${entry.translation.pt}`.toLowerCase();
         return relatedCategories.includes(entry.category || 'Geral') &&
                (entryText.includes(term) || term.includes(entry.word.toLowerCase()));
       })
@@ -394,10 +381,7 @@ const DictionaryPage = () => {
                       <strong className="text-foreground">PT:</strong>
                       <span className="text-muted-foreground flex-1">{entry.translation.pt}</span>
                     </div>
-                    <div className="flex items-center gap-1">
-                      <strong className="text-foreground">CV:</strong>
-                      <span className="text-muted-foreground flex-1">{entry.translation.kea}</span>
-                    </div>
+                    {/* CV display removed as word is title */}
 
                     {entry.example && (
                       <div className="pt-2 mt-2 border-t border-border space-y-1">
@@ -446,10 +430,7 @@ const DictionaryPage = () => {
                         <strong className="text-foreground">PT:</strong>
                         <span className="text-muted-foreground flex-1">{entry.translation.pt}</span>
                       </div>
-                      <div className="flex items-center gap-1">
-                        <strong className="text-foreground">CV:</strong>
-                        <span className="text-muted-foreground flex-1">{entry.translation.kea}</span>
-                      </div>
+                      {/* CV display removed as word is title */}
 
                       {entry.example && (
                         <div className="pt-2 mt-2 border-t border-border space-y-1">
