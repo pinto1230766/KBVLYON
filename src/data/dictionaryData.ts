@@ -16923,18 +16923,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Verbe"
   },
   {
-    "id": "entry-1412",
-    "word": "presu",
-    "translation": {
-      "pt": "preço"
-    },
-    "example": {
-      "pt": "O preço é bonito",
-      "kea": "Presu e bunitu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-1413",
     "word": "pretu",
     "translation": {
@@ -23427,18 +23415,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-1957",
-    "word": "artigu",
-    "translation": {
-      "pt": "artigo"
-    },
-    "example": {
-      "pt": "Eu tenho um artigo",
-      "kea": "N ten un artigu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-1958",
     "word": "artizanatu",
     "translation": {
@@ -23749,19 +23725,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El e muitu azedu"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-1984",
-    "word": "Azia",
-    "translation": {
-      "pt": "Ásia"
-    },
-    "example": {
-      "pt": "Este Ásia é meu",
-      "kea": "Es Azia e nha"
-    },
-    "category": "Nom",
-    "note": "Différent de entry-370 (azia = brûlure d'estomac)"
   },
   {
     "id": "entry-1985",
@@ -24268,19 +24231,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2031",
-    "word": "aborku",
-    "translation": {
-      "pt": "aborto"
-    },
-    "example": {
-      "pt": "Eu tenho um aborto",
-      "kea": "N ten un aborku"
-    },
-    "category": "Nom",
-    "note": "entry-23 = abrigo, entry-2031 = aborto (significations différentes)"
-  },
-  {
     "id": "entry-2034",
     "word": "abstinensia",
     "translation": {
@@ -24351,19 +24301,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Un pesoa adiantadu"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-2042",
-    "word": "adja",
-    "translation": {
-      "pt": "aia (ama-seca)"
-    },
-    "example": {
-      "pt": "Onde está o aia (ama-seca)?",
-      "kea": "Undi ki adja sta?"
-    },
-    "category": "Nom",
-    "note": "entry-42 = machado, entry-2042 = aia (significations différentes)"
   },
   {
     "id": "entry-2044",
@@ -26874,18 +26811,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2263",
-    "word": "alimentu",
-    "translation": {
-      "pt": "alimento"
-    },
-    "example": {
-      "pt": "Eu vi um alimento",
-      "kea": "N odja un alimentu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2264",
     "word": "alkol",
     "translation": {
@@ -27170,18 +27095,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o índigo?",
       "kea": "Undi ki anita sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2288",
-    "word": "anju",
-    "translation": {
-      "pt": "anjo"
-    },
-    "example": {
-      "pt": "Eu vi um anjo",
-      "kea": "N odja un anju"
     },
     "category": "Nom"
   },
@@ -28938,18 +28851,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2435",
-    "word": "bispu",
-    "translation": {
-      "pt": "bispo"
-    },
-    "example": {
-      "pt": "Eu vi um bispo",
-      "kea": "N odja un bispu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2436",
     "word": "biuda",
     "translation": {
@@ -29274,18 +29175,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2463",
-    "word": "bravu",
-    "translation": {
-      "pt": "bravo"
-    },
-    "example": {
-      "pt": "Ele é muito bravo",
-      "kea": "El e muitu bravu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2464",
     "word": "braza",
     "translation": {
@@ -29538,18 +29427,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2485",
-    "word": "kabelu",
-    "translation": {
-      "pt": "cabelo"
-    },
-    "example": {
-      "pt": "Eu vi um cabelo",
-      "kea": "N odja un kabelu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2486",
     "word": "kabu",
     "translation": {
@@ -29558,18 +29435,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O cabo é interessante",
       "kea": "Cabo e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2487",
-    "word": "kasa",
-    "translation": {
-      "pt": "caça"
-    },
-    "example": {
-      "pt": "Eu vi um caça",
-      "kea": "N odja un kasa"
     },
     "category": "Nom"
   },
@@ -29606,18 +29471,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O café é interessante",
       "kea": "Cafe e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2491",
-    "word": "kaju",
-    "translation": {
-      "pt": "caju"
-    },
-    "example": {
-      "pt": "O caju é interessante",
-      "kea": "Caju e interesanti"
     },
     "category": "Nom"
   },
@@ -29682,18 +29535,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2497",
-    "word": "kaneta",
-    "translation": {
-      "pt": "caneta"
-    },
-    "example": {
-      "pt": "O caneta é interessante",
-      "kea": "Caneta e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2498",
     "word": "canu",
     "translation": {
@@ -29730,18 +29571,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2501",
-    "word": "kara",
-    "translation": {
-      "pt": "cara"
-    },
-    "example": {
-      "pt": "O cara é interessante",
-      "kea": "Cara e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2502",
     "word": "caracter",
     "translation": {
@@ -29754,18 +29583,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2503",
-    "word": "karga",
-    "translation": {
-      "pt": "carga"
-    },
-    "example": {
-      "pt": "Onde está o carga?",
-      "kea": "Undi ki karga sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2504",
     "word": "karne",
     "translation": {
@@ -29774,42 +29591,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um carne",
       "kea": "N odja un karne"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2505",
-    "word": "karu",
-    "translation": {
-      "pt": "carro / caro"
-    },
-    "example": {
-      "pt": "Isso parece caro",
-      "kea": "Kel-la parse karu"
-    },
-    "category": "Adjectif"
-  },
-  {
-    "id": "entry-2506",
-    "word": "karta",
-    "translation": {
-      "pt": "carta"
-    },
-    "example": {
-      "pt": "O carta é interessante",
-      "kea": "Carta e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2507",
-    "word": "kasa",
-    "translation": {
-      "pt": "casar"
-    },
-    "example": {
-      "pt": "Onde está o casa?",
-      "kea": "Undi ki kasa sta?"
     },
     "category": "Nom"
   },
@@ -31038,18 +30819,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2610",
-    "word": "kontra",
-    "translation": {
-      "pt": "encontrar"
-    },
-    "example": {
-      "pt": "Onde está o contra?",
-      "kea": "Undi ki kontra sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2611",
     "word": "contrariu",
     "translation": {
@@ -31146,18 +30915,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2619",
-    "word": "kor",
-    "translation": {
-      "pt": "cor"
-    },
-    "example": {
-      "pt": "Onde está o cor?",
-      "kea": "Undi ki kor sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2620",
     "word": "coraji",
     "translation": {
@@ -31178,18 +30935,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o coração?",
       "kea": "Undi ki corason sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2622",
-    "word": "korda",
-    "translation": {
-      "pt": "corda"
-    },
-    "example": {
-      "pt": "Onde está o corda?",
-      "kea": "Undi ki korda sta?"
     },
     "category": "Nom"
   },
@@ -31314,18 +31059,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2633",
-    "word": "kosta",
-    "translation": {
-      "pt": "costa"
-    },
-    "example": {
-      "pt": "Onde está o costa?",
-      "kea": "Undi ki kosta sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2634",
     "word": "costuma",
     "translation": {
@@ -31382,18 +31115,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um cova",
       "kea": "N odja un kova"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2639",
-    "word": "kozinha",
-    "translation": {
-      "pt": "cozinha"
-    },
-    "example": {
-      "pt": "O cozinha é interessante",
-      "kea": "Cozinha e interesanti"
     },
     "category": "Nom"
   },
@@ -31506,18 +31227,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2649",
-    "word": "kriar",
-    "translation": {
-      "pt": "criar"
-    },
-    "example": {
-      "pt": "Eu vou criar",
-      "kea": "N ta kriar"
-    },
-    "category": "Verbe"
-  },
-  {
     "id": "entry-2650",
     "word": "krime",
     "translation": {
@@ -31578,18 +31287,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2655",
-    "word": "kruz",
-    "translation": {
-      "pt": "cruz"
-    },
-    "example": {
-      "pt": "Eu vi um cruz",
-      "kea": "N odja un kruz"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2656",
     "word": "kubu",
     "translation": {
@@ -31610,30 +31307,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O cuidado é interessante",
       "kea": "Cuidadu e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2658",
-    "word": "kulpa",
-    "translation": {
-      "pt": "culpa"
-    },
-    "example": {
-      "pt": "Eu vi um culpa",
-      "kea": "N odja un kulpa"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2659",
-    "word": "kultura",
-    "translation": {
-      "pt": "cultura"
-    },
-    "example": {
-      "pt": "Eu vi um cultura",
-      "kea": "N odja un kultura"
     },
     "category": "Nom"
   },
@@ -31686,18 +31359,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2664",
-    "word": "kurtu",
-    "translation": {
-      "pt": "curto"
-    },
-    "example": {
-      "pt": "Uma coisa curto",
-      "kea": "Un koiza kurtu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2665",
     "word": "kurva",
     "translation": {
@@ -31734,30 +31395,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2668",
-    "word": "dansa",
-    "translation": {
-      "pt": "dança"
-    },
-    "example": {
-      "pt": "Onde está o dança?",
-      "kea": "Undi ki dansa sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2669",
-    "word": "danu",
-    "translation": {
-      "pt": "dano"
-    },
-    "example": {
-      "pt": "O dano é interessante",
-      "kea": "Dano e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2670",
     "word": "dar",
     "translation": {
@@ -31778,18 +31415,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O diabetes é interessante",
       "kea": "Diabetis e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2672",
-    "word": "diabu",
-    "translation": {
-      "pt": "diabo"
-    },
-    "example": {
-      "pt": "Onde está o diabo?",
-      "kea": "Undi ki diabu sta?"
     },
     "category": "Nom"
   },
@@ -32106,18 +31731,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2699",
-    "word": "ekonomia",
-    "translation": {
-      "pt": "economia"
-    },
-    "example": {
-      "pt": "O economia é interessante",
-      "kea": "Economia e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2700",
     "word": "edifisiu",
     "translation": {
@@ -32382,18 +31995,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2722",
-    "word": "eskada",
-    "translation": {
-      "pt": "escada"
-    },
-    "example": {
-      "pt": "Onde está o escada?",
-      "kea": "Undi ki eskada sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2723",
     "word": "eskala",
     "translation": {
@@ -32402,18 +32003,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O escala é interessante",
       "kea": "Escala e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2724",
-    "word": "eskola",
-    "translation": {
-      "pt": "escola"
-    },
-    "example": {
-      "pt": "Onde está o escola?",
-      "kea": "Undi ki eskola sta?"
     },
     "category": "Nom"
   },
@@ -32754,18 +32343,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2753",
-    "word": "eternu",
-    "translation": {
-      "pt": "eterno"
-    },
-    "example": {
-      "pt": "Uma coisa eterno",
-      "kea": "Un koiza eternu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2754",
     "word": "eu",
     "translation": {
@@ -32958,18 +32535,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2770",
-    "word": "faka",
-    "translation": {
-      "pt": "faca"
-    },
-    "example": {
-      "pt": "Onde está o faca?",
-      "kea": "Undi ki faka sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2771",
     "word": "face",
     "translation": {
@@ -33016,18 +32581,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Falha e interesanti"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-2775",
-    "word": "falsu",
-    "translation": {
-      "pt": "falso"
-    },
-    "example": {
-      "pt": "Isso parece falso",
-      "kea": "Kel-la parse falsu"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-2776",
@@ -33342,18 +32895,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2802",
-    "word": "figu",
-    "translation": {
-      "pt": "figo"
-    },
-    "example": {
-      "pt": "Onde está o figo?",
-      "kea": "Undi ki figu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2803",
     "word": "figura",
     "translation": {
@@ -33374,18 +32915,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o filha?",
       "kea": "Undi ki fidja sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2805",
-    "word": "fidju",
-    "translation": {
-      "pt": "filho"
-    },
-    "example": {
-      "pt": "Eu vi um filho",
-      "kea": "N odja un fidju"
     },
     "category": "Nom"
   },
@@ -33594,18 +33123,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2823",
-    "word": "fraku",
-    "translation": {
-      "pt": "fraco"
-    },
-    "example": {
-      "pt": "Uma coisa fraco",
-      "kea": "Un koiza fraku"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2824",
     "word": "frade",
     "translation": {
@@ -33678,18 +33195,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2830",
-    "word": "fresku",
-    "translation": {
-      "pt": "fresco"
-    },
-    "example": {
-      "pt": "Ele é muito fresco",
-      "kea": "El e muitu fresku"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2831",
     "word": "fronteira",
     "translation": {
@@ -33714,18 +33219,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2833",
-    "word": "fumu",
-    "translation": {
-      "pt": "fumo"
-    },
-    "example": {
-      "pt": "Onde está o fumo?",
-      "kea": "Undi ki fumu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2834",
     "word": "funcao",
     "translation": {
@@ -33746,18 +33239,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O funcionário é interessante",
       "kea": "Funcionariu e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2836",
-    "word": "fundu",
-    "translation": {
-      "pt": "fundo"
-    },
-    "example": {
-      "pt": "Eu vi um fundo",
-      "kea": "N odja un fundu"
     },
     "category": "Nom"
   },
@@ -33858,18 +33339,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2845",
-    "word": "galu",
-    "translation": {
-      "pt": "galo"
-    },
-    "example": {
-      "pt": "Onde está o galo?",
-      "kea": "Undi ki galu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2846",
     "word": "ganhar",
     "translation": {
@@ -33962,18 +33431,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O gaveta é interessante",
       "kea": "Gaveta e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2854",
-    "word": "gelu",
-    "translation": {
-      "pt": "gelo"
-    },
-    "example": {
-      "pt": "Onde está o gelo?",
-      "kea": "Undi ki gelu sta?"
     },
     "category": "Nom"
   },
@@ -34158,18 +33615,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2870",
-    "word": "gordu",
-    "translation": {
-      "pt": "gordo"
-    },
-    "example": {
-      "pt": "Isso parece gordo",
-      "kea": "Kel-la parse gordu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2871",
     "word": "gorru",
     "translation": {
@@ -34214,18 +33659,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um gota",
       "kea": "N odja un gota"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2875",
-    "word": "governu",
-    "translation": {
-      "pt": "governo"
-    },
-    "example": {
-      "pt": "Eu vi um governo",
-      "kea": "N odja un governu"
     },
     "category": "Nom"
   },
@@ -34338,18 +33771,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2885",
-    "word": "gritu",
-    "translation": {
-      "pt": "grito"
-    },
-    "example": {
-      "pt": "Onde está o grito?",
-      "kea": "Undi ki gritu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2886",
     "word": "grossu",
     "translation": {
@@ -34360,18 +33781,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Kel-la parse grossu"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-2887",
-    "word": "grupu",
-    "translation": {
-      "pt": "grupo"
-    },
-    "example": {
-      "pt": "O grupo é interessante",
-      "kea": "Grupo e interesanti"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-2888",
@@ -34494,18 +33903,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2898",
-    "word": "honestu",
-    "translation": {
-      "pt": "honesto"
-    },
-    "example": {
-      "pt": "Ele é muito honesto",
-      "kea": "El e muitu honestu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2899",
     "word": "horariu",
     "translation": {
@@ -34566,18 +33963,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2904",
-    "word": "humanu",
-    "translation": {
-      "pt": "humano"
-    },
-    "example": {
-      "pt": "Uma coisa humano",
-      "kea": "Un koiza humanu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-2905",
     "word": "humilde",
     "translation": {
@@ -34598,18 +33983,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o humor?",
       "kea": "Undi ki humor sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2907",
-    "word": "idadi",
-    "translation": {
-      "pt": "idade"
-    },
-    "example": {
-      "pt": "Eu vi um idade",
-      "kea": "N odja un idadi"
     },
     "category": "Nom"
   },
@@ -34806,18 +34179,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2924",
-    "word": "impostu",
-    "translation": {
-      "pt": "imposto"
-    },
-    "example": {
-      "pt": "O imposto é interessante",
-      "kea": "Imposto e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2925",
     "word": "impossivel",
     "translation": {
@@ -34962,18 +34323,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2937",
-    "word": "infernu",
-    "translation": {
-      "pt": "inferno"
-    },
-    "example": {
-      "pt": "Eu vi um inferno",
-      "kea": "N odja un infernu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2938",
     "word": "infinitu",
     "translation": {
@@ -35018,18 +34367,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O início é interessante",
       "kea": "Inicio e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2942",
-    "word": "inimigu",
-    "translation": {
-      "pt": "inimigo"
-    },
-    "example": {
-      "pt": "Onde está o inimigo?",
-      "kea": "Undi ki inimigu sta?"
     },
     "category": "Nom"
   },
@@ -35142,18 +34479,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2952",
-    "word": "instrumentu",
-    "translation": {
-      "pt": "instrumento"
-    },
-    "example": {
-      "pt": "O instrumento é interessante",
-      "kea": "Instrumento e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2953",
     "word": "insultu",
     "translation": {
@@ -35164,18 +34489,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "N odja un insultu"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-2954",
-    "word": "inteiru",
-    "translation": {
-      "pt": "inteiro"
-    },
-    "example": {
-      "pt": "Ele é muito inteiro",
-      "kea": "El e muitu inteiru"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-2955",
@@ -35306,18 +34619,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O invasão é interessante",
       "kea": "Invasao e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2966",
-    "word": "invernu",
-    "translation": {
-      "pt": "inverno"
-    },
-    "example": {
-      "pt": "Eu vi um inverno",
-      "kea": "N odja un invernu"
     },
     "category": "Nom"
   },
@@ -35514,18 +34815,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2983",
-    "word": "jeitu",
-    "translation": {
-      "pt": "jeito"
-    },
-    "example": {
-      "pt": "O jeito é interessante",
-      "kea": "Jeito e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2984",
     "word": "jejum",
     "translation": {
@@ -35622,30 +34911,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2992",
-    "word": "junhu",
-    "translation": {
-      "pt": "junho"
-    },
-    "example": {
-      "pt": "Onde está o junho?",
-      "kea": "Undi ki junhu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2993",
-    "word": "juramentu",
-    "translation": {
-      "pt": "juramento"
-    },
-    "example": {
-      "pt": "Onde está o juramento?",
-      "kea": "Undi ki juramentu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2994",
     "word": "juri",
     "translation": {
@@ -35668,18 +34933,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "N odja un justica"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-2996",
-    "word": "justu",
-    "translation": {
-      "pt": "justo"
-    },
-    "example": {
-      "pt": "Isso parece justo",
-      "kea": "Kel-la parse justu"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-2997",
@@ -36102,18 +35355,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3032",
-    "word": "lentu",
-    "translation": {
-      "pt": "lento"
-    },
-    "example": {
-      "pt": "Ele é muito lento",
-      "kea": "El e muitu lentu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3033",
     "word": "leopardu",
     "translation": {
@@ -36158,18 +35399,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um letra",
       "kea": "N odja un letra"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3037",
-    "word": "liberdadi",
-    "translation": {
-      "pt": "liberdade"
-    },
-    "example": {
-      "pt": "Onde está o liberdade?",
-      "kea": "Undi ki liberdadi sta?"
     },
     "category": "Nom"
   },
@@ -36256,18 +35485,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "N odja un limonada"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3045",
-    "word": "limpu",
-    "translation": {
-      "pt": "limpo"
-    },
-    "example": {
-      "pt": "Isso parece limpo",
-      "kea": "Kel-la parse limpu"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-3046",
@@ -36362,42 +35579,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o litro?",
       "kea": "Undi ki litru sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3054",
-    "word": "livru",
-    "translation": {
-      "pt": "livro"
-    },
-    "example": {
-      "pt": "Eu vi um livro",
-      "kea": "N odja un livru"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3055",
-    "word": "lixu",
-    "translation": {
-      "pt": "lixo"
-    },
-    "example": {
-      "pt": "Onde está o lixo?",
-      "kea": "Undi ki lixu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3056",
-    "word": "lobu",
-    "translation": {
-      "pt": "lobo"
-    },
-    "example": {
-      "pt": "O lobo é interessante",
-      "kea": "Lobo e interesanti"
     },
     "category": "Nom"
   },
@@ -36508,18 +35689,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Lote e interesanti"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3066",
-    "word": "louku",
-    "translation": {
-      "pt": "louco"
-    },
-    "example": {
-      "pt": "Ele é muito louco",
-      "kea": "El e muitu louku"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-3067",
@@ -36702,18 +35871,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3082",
-    "word": "maduru",
-    "translation": {
-      "pt": "maduro"
-    },
-    "example": {
-      "pt": "Ele é muito maduro",
-      "kea": "El e muitu maduru"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3083",
     "word": "magia",
     "translation": {
@@ -36774,18 +35931,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3088",
-    "word": "magru",
-    "translation": {
-      "pt": "magro"
-    },
-    "example": {
-      "pt": "Uma coisa magro",
-      "kea": "Un koiza magru"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3089",
     "word": "maio",
     "translation": {
@@ -36822,18 +35967,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3092",
-    "word": "malandru",
-    "translation": {
-      "pt": "malandro"
-    },
-    "example": {
-      "pt": "Eu vi um malandro",
-      "kea": "N odja un malandru"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3093",
     "word": "malaria",
     "translation": {
@@ -36842,18 +35975,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um malária",
       "kea": "N odja un malaria"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3094",
-    "word": "maldadi",
-    "translation": {
-      "pt": "maldade"
-    },
-    "example": {
-      "pt": "Eu vi um maldade",
-      "kea": "N odja un maldadi"
     },
     "category": "Nom"
   },
@@ -37110,18 +36231,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3116",
-    "word": "marka",
-    "translation": {
-      "pt": "marca"
-    },
-    "example": {
-      "pt": "Eu vi um marca",
-      "kea": "N odja un marka"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3117",
     "word": "marcha",
     "translation": {
@@ -37262,18 +36371,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um marte",
       "kea": "N odja un marte"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3129",
-    "word": "martelu",
-    "translation": {
-      "pt": "martelo"
-    },
-    "example": {
-      "pt": "O martelo é interessante",
-      "kea": "Martelo e interesanti"
     },
     "category": "Nom"
   },
@@ -37434,18 +36531,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3143",
-    "word": "medu",
-    "translation": {
-      "pt": "medo"
-    },
-    "example": {
-      "pt": "Eu vi um medo",
-      "kea": "N odja un medu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3144",
     "word": "melancia",
     "translation": {
@@ -37482,18 +36567,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3147",
-    "word": "membru",
-    "translation": {
-      "pt": "membro"
-    },
-    "example": {
-      "pt": "O membro é interessante",
-      "kea": "Membro e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3148",
     "word": "menina",
     "translation": {
@@ -37502,18 +36575,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o menina?",
       "kea": "Undi ki menina sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3149",
-    "word": "meninu",
-    "translation": {
-      "pt": "menino"
-    },
-    "example": {
-      "pt": "Eu vi um menino",
-      "kea": "N odja un meninu"
     },
     "category": "Nom"
   },
@@ -37566,18 +36627,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3154",
-    "word": "merkadu",
-    "translation": {
-      "pt": "mercado"
-    },
-    "example": {
-      "pt": "Eu vi um mercado",
-      "kea": "N odja un merkadu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3155",
     "word": "mercurio",
     "translation": {
@@ -37614,18 +36663,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3158",
-    "word": "mesmu",
-    "translation": {
-      "pt": "mesmo"
-    },
-    "example": {
-      "pt": "Ele é muito mesmo",
-      "kea": "El e muitu mesmu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3159",
     "word": "metade",
     "translation": {
@@ -37658,18 +36695,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o método?",
       "kea": "Undi ki metodu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3162",
-    "word": "metru",
-    "translation": {
-      "pt": "metro"
-    },
-    "example": {
-      "pt": "O metro é interessante",
-      "kea": "Metro e interesanti"
     },
     "category": "Nom"
   },
@@ -37742,18 +36767,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O milhar é interessante",
       "kea": "Milhar e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3169",
-    "word": "midju",
-    "translation": {
-      "pt": "milho"
-    },
-    "example": {
-      "pt": "O milho é interessante",
-      "kea": "Milho e interesanti"
     },
     "category": "Nom"
   },
@@ -37854,18 +36867,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3178",
-    "word": "minutu",
-    "translation": {
-      "pt": "minuto"
-    },
-    "example": {
-      "pt": "O minuto é interessante",
-      "kea": "Minuto e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3179",
     "word": "miolu",
     "translation": {
@@ -37938,30 +36939,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3185",
-    "word": "modelu",
-    "translation": {
-      "pt": "modelo"
-    },
-    "example": {
-      "pt": "O modelo é interessante",
-      "kea": "Modelo e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3186",
-    "word": "modernu",
-    "translation": {
-      "pt": "moderno"
-    },
-    "example": {
-      "pt": "Isso parece moderno",
-      "kea": "Kel-la parse modernu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3187",
     "word": "modu",
     "translation": {
@@ -37970,18 +36947,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o modo?",
       "kea": "Undi ki modu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3188",
-    "word": "moinhu",
-    "translation": {
-      "pt": "moinho"
-    },
-    "example": {
-      "pt": "O moinho é interessante",
-      "kea": "Moinho e interesanti"
     },
     "category": "Nom"
   },
@@ -38030,18 +36995,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um molho",
       "kea": "N odja un modju"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3193",
-    "word": "momentu",
-    "translation": {
-      "pt": "momento"
-    },
-    "example": {
-      "pt": "Eu vi um momento",
-      "kea": "N odja un momentu"
     },
     "category": "Nom"
   },
@@ -38130,30 +37083,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3201",
-    "word": "mornu",
-    "translation": {
-      "pt": "morno"
-    },
-    "example": {
-      "pt": "Uma coisa morno",
-      "kea": "Un koiza mornu"
-    },
-    "category": "Adjectif"
-  },
-  {
-    "id": "entry-3202",
-    "word": "mortu",
-    "translation": {
-      "pt": "morto"
-    },
-    "example": {
-      "pt": "Isso parece morto",
-      "kea": "Kel-la parse mortu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3203",
     "word": "mosaiku",
     "translation": {
@@ -38162,18 +37091,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um mosaico",
       "kea": "N odja un mosaiku"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3204",
-    "word": "moska",
-    "translation": {
-      "pt": "mosca"
-    },
-    "example": {
-      "pt": "O mosca é interessante",
-      "kea": "Mosca e interesanti"
     },
     "category": "Nom"
   },
@@ -38202,18 +37119,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3207",
-    "word": "motivu",
-    "translation": {
-      "pt": "motivo"
-    },
-    "example": {
-      "pt": "Eu vi um motivo",
-      "kea": "N odja un motivu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3208",
     "word": "motu",
     "translation": {
@@ -38222,18 +37127,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um moto",
       "kea": "N odja un motu"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3209",
-    "word": "movimentu",
-    "translation": {
-      "pt": "movimento"
-    },
-    "example": {
-      "pt": "Onde está o movimento?",
-      "kea": "Undi ki movimentu sta?"
     },
     "category": "Nom"
   },
@@ -38274,18 +37167,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3213",
-    "word": "muitu",
-    "translation": {
-      "pt": "muito"
-    },
-    "example": {
-      "pt": "Ele é muito muito",
-      "kea": "El e muitu muitu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3214",
     "word": "multiplicason",
     "translation": {
@@ -38318,18 +37199,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O múmia é interessante",
       "kea": "Mumía e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3217",
-    "word": "mundu",
-    "translation": {
-      "pt": "mundo"
-    },
-    "example": {
-      "pt": "Eu vi um mundo",
-      "kea": "N odja un mundu"
     },
     "category": "Nom"
   },
@@ -38466,18 +37335,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3229",
-    "word": "namoradu",
-    "translation": {
-      "pt": "namorado"
-    },
-    "example": {
-      "pt": "Onde está o namorado?",
-      "kea": "Undi ki namoradu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3230",
     "word": "nascimentu",
     "translation": {
@@ -38594,42 +37451,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um negócio",
       "kea": "N odja un negocio"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3240",
-    "word": "negru",
-    "translation": {
-      "pt": "negro"
-    },
-    "example": {
-      "pt": "Isso parece negro",
-      "kea": "Kel-la parse negru"
-    },
-    "category": "Adjectif"
-  },
-  {
-    "id": "entry-3241",
-    "word": "nervu",
-    "translation": {
-      "pt": "nervo"
-    },
-    "example": {
-      "pt": "Eu vi um nervo",
-      "kea": "N odja un nervu"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3242",
-    "word": "netu",
-    "translation": {
-      "pt": "neto"
-    },
-    "example": {
-      "pt": "Eu vi um neto",
-      "kea": "N odja un netu"
     },
     "category": "Nom"
   },
@@ -38958,42 +37779,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3270",
-    "word": "objetivu",
-    "translation": {
-      "pt": "objetivo"
-    },
-    "example": {
-      "pt": "Onde está o objetivo?",
-      "kea": "Undi ki objetivu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3271",
-    "word": "objetu",
-    "translation": {
-      "pt": "objeto"
-    },
-    "example": {
-      "pt": "Onde está o objeto?",
-      "kea": "Undi ki objetu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3272",
-    "word": "obrigadu",
-    "translation": {
-      "pt": "obrigado"
-    },
-    "example": {
-      "pt": "Isso parece obrigado",
-      "kea": "Kel-la parse obrigadu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3273",
     "word": "observason",
     "translation": {
@@ -39138,18 +37923,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3285",
-    "word": "odju",
-    "translation": {
-      "pt": "olho"
-    },
-    "example": {
-      "pt": "Eu vi um olho",
-      "kea": "N odja un odju"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3286",
     "word": "olimpico",
     "translation": {
@@ -39170,18 +37943,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o oliva?",
       "kea": "Undi ki oliva sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3288",
-    "word": "ombru",
-    "translation": {
-      "pt": "ombro"
-    },
-    "example": {
-      "pt": "O ombro é interessante",
-      "kea": "Ombro e interesanti"
     },
     "category": "Nom"
   },
@@ -39496,30 +38257,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Undi ki ouru sta?"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3315",
-    "word": "outonu",
-    "translation": {
-      "pt": "outono"
-    },
-    "example": {
-      "pt": "Onde está o outono?",
-      "kea": "Undi ki outonu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3316",
-    "word": "outru",
-    "translation": {
-      "pt": "outro"
-    },
-    "example": {
-      "pt": "É outro",
-      "kea": "E outru"
-    },
-    "category": "Pronom"
   },
   {
     "id": "entry-3317",
@@ -39990,18 +38727,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3356",
-    "word": "partidu",
-    "translation": {
-      "pt": "partido"
-    },
-    "example": {
-      "pt": "Onde está o partido?",
-      "kea": "Undi ki partidu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3357",
     "word": "pascoa",
     "translation": {
@@ -40266,30 +38991,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3379",
-    "word": "pekadu",
-    "translation": {
-      "pt": "pecado"
-    },
-    "example": {
-      "pt": "O pecado é interessante",
-      "kea": "Pecado e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3380",
-    "word": "pesa",
-    "translation": {
-      "pt": "peça"
-    },
-    "example": {
-      "pt": "Onde está o peça?",
-      "kea": "Undi ki pesa sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3381",
     "word": "pedaco",
     "translation": {
@@ -40346,18 +39047,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o pegada?",
       "kea": "Undi ki pegada sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3386",
-    "word": "peitu",
-    "translation": {
-      "pt": "peito"
-    },
-    "example": {
-      "pt": "Eu vi um peito",
-      "kea": "N odja un peitu"
     },
     "category": "Nom"
   },
@@ -40442,18 +39131,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o península?",
       "kea": "Undi ki peninsula sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3394",
-    "word": "pensamentu",
-    "translation": {
-      "pt": "pensamento"
-    },
-    "example": {
-      "pt": "O pensamento é interessante",
-      "kea": "Pensamento e interesanti"
     },
     "category": "Nom"
   },
@@ -40566,18 +39243,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3404",
-    "word": "perigu",
-    "translation": {
-      "pt": "perigo"
-    },
-    "example": {
-      "pt": "Onde está o perigo?",
-      "kea": "Undi ki perigu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3405",
     "word": "periodo",
     "translation": {
@@ -40586,18 +39251,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O período é interessante",
       "kea": "Periodo e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3406",
-    "word": "peritu",
-    "translation": {
-      "pt": "perito"
-    },
-    "example": {
-      "pt": "Eu vi um perito",
-      "kea": "N odja un peritu"
     },
     "category": "Nom"
   },
@@ -40650,30 +39303,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3411",
-    "word": "peska",
-    "translation": {
-      "pt": "pesca"
-    },
-    "example": {
-      "pt": "O pesca é interessante",
-      "kea": "Pesca e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3412",
-    "word": "peskador",
-    "translation": {
-      "pt": "pescador"
-    },
-    "example": {
-      "pt": "Eu vi um pescador",
-      "kea": "N odja un peskador"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3413",
     "word": "peskoso",
     "translation": {
@@ -40682,18 +39311,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O pescoço é interessante",
       "kea": "Pescoço e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3414",
-    "word": "pesu",
-    "translation": {
-      "pt": "peso"
-    },
-    "example": {
-      "pt": "Onde está o peso?",
-      "kea": "Undi ki pesu sta?"
     },
     "category": "Nom"
   },
@@ -40766,18 +39383,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o petróleo?",
       "kea": "Undi ki petroleo sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3421",
-    "word": "pianu",
-    "translation": {
-      "pt": "piano"
-    },
-    "example": {
-      "pt": "O piano é interessante",
-      "kea": "Piano e interesanti"
     },
     "category": "Nom"
   },
@@ -41082,18 +39687,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3447",
-    "word": "plaka",
-    "translation": {
-      "pt": "placa"
-    },
-    "example": {
-      "pt": "O placa é interessante",
-      "kea": "Placa e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3448",
     "word": "planeta",
     "translation": {
@@ -41102,18 +39695,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um planeta",
       "kea": "N odja un planeta"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3449",
-    "word": "planu",
-    "translation": {
-      "pt": "plano"
-    },
-    "example": {
-      "pt": "Eu vi um plano",
-      "kea": "N odja un planu"
     },
     "category": "Nom"
   },
@@ -41322,18 +39903,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3467",
-    "word": "porku",
-    "translation": {
-      "pt": "porco"
-    },
-    "example": {
-      "pt": "Onde está o porco?",
-      "kea": "Undi ki porku sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3468",
     "word": "porko-espinhu",
     "translation": {
@@ -41366,18 +39935,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o portão?",
       "kea": "Undi ki portao sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3471",
-    "word": "portu",
-    "translation": {
-      "pt": "porto"
-    },
-    "example": {
-      "pt": "Onde está o porto?",
-      "kea": "Undi ki portu sta?"
     },
     "category": "Nom"
   },
@@ -41478,30 +40035,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3480",
-    "word": "povu",
-    "translation": {
-      "pt": "povo"
-    },
-    "example": {
-      "pt": "O povo é interessante",
-      "kea": "Povo e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3481",
-    "word": "prasa",
-    "translation": {
-      "pt": "praça"
-    },
-    "example": {
-      "pt": "O praça é interessante",
-      "kea": "Praça e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3482",
     "word": "praia",
     "translation": {
@@ -41510,30 +40043,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o praia?",
       "kea": "Undi ki praia sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3483",
-    "word": "pratu",
-    "translation": {
-      "pt": "prato"
-    },
-    "example": {
-      "pt": "O prato é interessante",
-      "kea": "Prato e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3484",
-    "word": "prazu",
-    "translation": {
-      "pt": "prazo"
-    },
-    "example": {
-      "pt": "O prazo é interessante",
-      "kea": "Prazo e interesanti"
     },
     "category": "Nom"
   },
@@ -41570,18 +40079,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um prédio",
       "kea": "N odja un predio"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3488",
-    "word": "pregu",
-    "translation": {
-      "pt": "prego"
-    },
-    "example": {
-      "pt": "Onde está o prego?",
-      "kea": "Undi ki pregu sta?"
     },
     "category": "Nom"
   },
@@ -41694,18 +40191,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3498",
-    "word": "pretu",
-    "translation": {
-      "pt": "preto"
-    },
-    "example": {
-      "pt": "Isso parece preto",
-      "kea": "Kel-la parse pretu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3499",
     "word": "primeiru",
     "translation": {
@@ -41716,18 +40201,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El e muitu primeiru"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-3500",
-    "word": "primu",
-    "translation": {
-      "pt": "primo"
-    },
-    "example": {
-      "pt": "Eu vi um primo",
-      "kea": "N odja un primu"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-3501",
@@ -41764,18 +40237,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Principio e interesanti"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3504",
-    "word": "privadu",
-    "translation": {
-      "pt": "privado"
-    },
-    "example": {
-      "pt": "Isso parece privado",
-      "kea": "Kel-la parse privadu"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-3505",
@@ -41838,18 +40299,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3510",
-    "word": "profundu",
-    "translation": {
-      "pt": "profundo"
-    },
-    "example": {
-      "pt": "Ele é muito profundo",
-      "kea": "El e muitu profundu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3511",
     "word": "progressu",
     "translation": {
@@ -41872,18 +40321,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Undi ki promessa sta?"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3513",
-    "word": "prontu",
-    "translation": {
-      "pt": "pronto"
-    },
-    "example": {
-      "pt": "Ele é muito pronto",
-      "kea": "El e muitu prontu"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-3514",
@@ -41982,18 +40419,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3522",
-    "word": "pulsu",
-    "translation": {
-      "pt": "pulso"
-    },
-    "example": {
-      "pt": "Onde está o pulso?",
-      "kea": "Undi ki pulsu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3523",
     "word": "punhadu",
     "translation": {
@@ -42014,18 +40439,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um punhal",
       "kea": "N odja un punhal"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3525",
-    "word": "punhu",
-    "translation": {
-      "pt": "punho"
-    },
-    "example": {
-      "pt": "Onde está o punho?",
-      "kea": "Undi ki punhu sta?"
     },
     "category": "Nom"
   },
@@ -42366,30 +40779,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3554",
-    "word": "rabu",
-    "translation": {
-      "pt": "rabo"
-    },
-    "example": {
-      "pt": "Onde está o rabo?",
-      "kea": "Undi ki rabu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3555",
-    "word": "rasa",
-    "translation": {
-      "pt": "raça"
-    },
-    "example": {
-      "pt": "O raça é interessante",
-      "kea": "Raça e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3556",
     "word": "racao",
     "translation": {
@@ -42558,18 +40947,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3570",
-    "word": "ratu",
-    "translation": {
-      "pt": "rato"
-    },
-    "example": {
-      "pt": "O rato é interessante",
-      "kea": "Rato e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3571",
     "word": "razao",
     "translation": {
@@ -42578,18 +40955,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o razão?",
       "kea": "Undi ki razao sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3572",
-    "word": "realidadi",
-    "translation": {
-      "pt": "realidade"
-    },
-    "example": {
-      "pt": "Eu vi um realidade",
-      "kea": "N odja un realidadi"
     },
     "category": "Nom"
   },
@@ -43074,18 +41439,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3613",
-    "word": "riku",
-    "translation": {
-      "pt": "rico"
-    },
-    "example": {
-      "pt": "Isso parece rico",
-      "kea": "Kel-la parse riku"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3614",
     "word": "rifa",
     "translation": {
@@ -43278,18 +41631,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3630",
-    "word": "rodja",
-    "translation": {
-      "pt": "rolha"
-    },
-    "example": {
-      "pt": "Eu vi um rolha",
-      "kea": "N odja un rodja"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3631",
     "word": "rolu",
     "translation": {
@@ -43310,18 +41651,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o romance?",
       "kea": "Undi ki romance sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3633",
-    "word": "rostu",
-    "translation": {
-      "pt": "rosto"
-    },
-    "example": {
-      "pt": "Eu vi um rosto",
-      "kea": "N odja un rostu"
     },
     "category": "Nom"
   },
@@ -43360,18 +41689,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Roupa e interesanti"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3637",
-    "word": "roxu",
-    "translation": {
-      "pt": "roxo"
-    },
-    "example": {
-      "pt": "Isso parece roxo",
-      "kea": "Kel-la parse roxu"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-3638",
@@ -43482,18 +41799,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3647",
-    "word": "saka",
-    "translation": {
-      "pt": "saca"
-    },
-    "example": {
-      "pt": "Onde está o saca?",
-      "kea": "Undi ki saka sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3648",
     "word": "saka-rodjas",
     "translation": {
@@ -43502,18 +41807,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um saca-rolhas",
       "kea": "N odja un saka-rodjas"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3649",
-    "word": "saku",
-    "translation": {
-      "pt": "saco"
-    },
-    "example": {
-      "pt": "Eu vi um saco",
-      "kea": "N odja un saku"
     },
     "category": "Nom"
   },
@@ -43674,18 +41967,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3663",
-    "word": "sapatu",
-    "translation": {
-      "pt": "sapato"
-    },
-    "example": {
-      "pt": "Eu vi um sapato",
-      "kea": "N odja un sapatu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3664",
     "word": "sargentu",
     "translation": {
@@ -43794,18 +42075,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3673",
-    "word": "segredu",
-    "translation": {
-      "pt": "segredo"
-    },
-    "example": {
-      "pt": "Eu vi um segredo",
-      "kea": "N odja un segredu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3674",
     "word": "segunda-feira",
     "translation": {
@@ -43840,18 +42109,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Seguranca e interesanti"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3677",
-    "word": "seguru",
-    "translation": {
-      "pt": "seguro"
-    },
-    "example": {
-      "pt": "Uma coisa seguro",
-      "kea": "Un koiza seguru"
-    },
-    "category": "Adjectif"
   },
   {
     "id": "entry-3678",
@@ -43936,30 +42193,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El e muitu sensivel"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-3685",
-    "word": "sentidu",
-    "translation": {
-      "pt": "sentido"
-    },
-    "example": {
-      "pt": "Onde está o sentido?",
-      "kea": "Undi ki sentidu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3686",
-    "word": "sentimentu",
-    "translation": {
-      "pt": "sentimento"
-    },
-    "example": {
-      "pt": "Onde está o sentimento?",
-      "kea": "Undi ki sentimentu sta?"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-3687",
@@ -44078,30 +42311,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um seta",
       "kea": "N odja un seta"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3697",
-    "word": "setembru",
-    "translation": {
-      "pt": "setembro"
-    },
-    "example": {
-      "pt": "O setembro é interessante",
-      "kea": "Setembro e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3698",
-    "word": "sexu",
-    "translation": {
-      "pt": "sexo"
-    },
-    "example": {
-      "pt": "Onde está o sexo?",
-      "kea": "Undi ki sexu sta?"
     },
     "category": "Nom"
   },
@@ -44226,18 +42435,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3709",
-    "word": "sinu",
-    "translation": {
-      "pt": "sino"
-    },
-    "example": {
-      "pt": "Onde está o sino?",
-      "kea": "Undi ki sinu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3710",
     "word": "sintoma",
     "translation": {
@@ -44298,18 +42495,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3715",
-    "word": "sobrinhu",
-    "translation": {
-      "pt": "sobrinho"
-    },
-    "example": {
-      "pt": "O sobrinho é interessante",
-      "kea": "Sobrinho e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3716",
     "word": "socio",
     "translation": {
@@ -44342,30 +42527,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o sofrimento?",
       "kea": "Undi ki sofrimentu sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3719",
-    "word": "sogru",
-    "translation": {
-      "pt": "sogro"
-    },
-    "example": {
-      "pt": "Eu vi um sogro",
-      "kea": "N odja un sogru"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3720",
-    "word": "soldadu",
-    "translation": {
-      "pt": "soldado"
-    },
-    "example": {
-      "pt": "Onde está o soldado?",
-      "kea": "Undi ki soldadu sta?"
     },
     "category": "Nom"
   },
@@ -44406,18 +42567,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3724",
-    "word": "solteiru",
-    "translation": {
-      "pt": "solteiro"
-    },
-    "example": {
-      "pt": "Onde está o solteiro?",
-      "kea": "Undi ki solteiru sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3725",
     "word": "solucao",
     "translation": {
@@ -44438,18 +42587,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O sombrinha é interessante",
       "kea": "Sombrinha e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3727",
-    "word": "sonhu",
-    "translation": {
-      "pt": "sonho"
-    },
-    "example": {
-      "pt": "Eu vi um sonho",
-      "kea": "N odja un sonhu"
     },
     "category": "Nom"
   },
@@ -44682,18 +42819,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3747",
-    "word": "surdu",
-    "translation": {
-      "pt": "surdo"
-    },
-    "example": {
-      "pt": "Uma coisa surdo",
-      "kea": "Un koiza surdu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3748",
     "word": "surpresa",
     "translation": {
@@ -44738,18 +42863,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O letra t é interessante",
       "kea": "T e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3752",
-    "word": "tabaku",
-    "translation": {
-      "pt": "tabaco"
-    },
-    "example": {
-      "pt": "Eu vi um tabaco",
-      "kea": "N odja un tabaku"
     },
     "category": "Nom"
   },
@@ -44846,18 +42959,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um talão",
       "kea": "N odja un talao"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3761",
-    "word": "tamanhu",
-    "translation": {
-      "pt": "tamanho"
-    },
-    "example": {
-      "pt": "Eu vi um tamanho",
-      "kea": "N odja un tamanhu"
     },
     "category": "Nom"
   },
@@ -44978,18 +43079,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um táxi",
       "kea": "N odja un taxi"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3772",
-    "word": "teatru",
-    "translation": {
-      "pt": "teatro"
-    },
-    "example": {
-      "pt": "Eu vi um teatro",
-      "kea": "N odja un teatru"
     },
     "category": "Nom"
   },
@@ -45158,18 +43247,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um templo",
       "kea": "N odja un templu"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3787",
-    "word": "ténpu",
-    "translation": {
-      "pt": "tempo"
-    },
-    "example": {
-      "pt": "Onde está o tempo?",
-      "kea": "Undi ki ténpu sta?"
     },
     "category": "Nom"
   },
@@ -45486,18 +43563,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3814",
-    "word": "tintu",
-    "translation": {
-      "pt": "tinto"
-    },
-    "example": {
-      "pt": "Ele é muito tinto",
-      "kea": "El e muitu tintu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3815",
     "word": "tipu",
     "translation": {
@@ -45726,18 +43791,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3834",
-    "word": "tortu",
-    "translation": {
-      "pt": "torto"
-    },
-    "example": {
-      "pt": "Uma coisa torto",
-      "kea": "Un koiza tortu"
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-3835",
     "word": "touka",
     "translation": {
@@ -45794,18 +43847,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um trabalhador",
       "kea": "N odja un trabadjador"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3840",
-    "word": "trabadju",
-    "translation": {
-      "pt": "trabalho"
-    },
-    "example": {
-      "pt": "Onde está o trabalho?",
-      "kea": "Undi ki trabadju sta?"
     },
     "category": "Nom"
   },
@@ -45990,18 +44031,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3856",
-    "word": "treinu",
-    "translation": {
-      "pt": "treino"
-    },
-    "example": {
-      "pt": "O treino é interessante",
-      "kea": "Treino e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3857",
     "word": "trela",
     "translation": {
@@ -46086,18 +44115,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3864",
-    "word": "trigu",
-    "translation": {
-      "pt": "trigo"
-    },
-    "example": {
-      "pt": "Onde está o trigo?",
-      "kea": "Undi ki trigu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3865",
     "word": "tridju",
     "translation": {
@@ -46158,18 +44175,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3870",
-    "word": "troka",
-    "translation": {
-      "pt": "troca"
-    },
-    "example": {
-      "pt": "O troca é interessante",
-      "kea": "Troca e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3871",
     "word": "troku",
     "translation": {
@@ -46202,18 +44207,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o trombeta?",
       "kea": "Undi ki trombeta sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3874",
-    "word": "tronku",
-    "translation": {
-      "pt": "tronco"
-    },
-    "example": {
-      "pt": "O tronco é interessante",
-      "kea": "Tronco e interesanti"
     },
     "category": "Nom"
   },
@@ -46276,18 +44269,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "N odja un tubu"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-3880",
-    "word": "tudu",
-    "translation": {
-      "pt": "tudo / todo"
-    },
-    "example": {
-      "pt": "Tudo está aqui",
-      "kea": "Tudo sta li"
-    },
-    "category": "Pronom"
   },
   {
     "id": "entry-3881",
@@ -46446,18 +44427,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3894",
-    "word": "universu",
-    "translation": {
-      "pt": "universo"
-    },
-    "example": {
-      "pt": "Eu vi um universo",
-      "kea": "N odja un universu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3895",
     "word": "uranu",
     "translation": {
@@ -46494,18 +44463,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3898",
-    "word": "ursu",
-    "translation": {
-      "pt": "urso"
-    },
-    "example": {
-      "pt": "Onde está o urso?",
-      "kea": "Undi ki ursu sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3899",
     "word": "urtiga",
     "translation": {
@@ -46526,18 +44483,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um uso",
       "kea": "N odja un usu"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3901",
-    "word": "vaka",
-    "translation": {
-      "pt": "vaca"
-    },
-    "example": {
-      "pt": "Eu vi um vaca",
-      "kea": "N odja un vaka"
     },
     "category": "Nom"
   },
@@ -46626,18 +44571,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-3909",
-    "word": "validadi",
-    "translation": {
-      "pt": "validade"
-    },
-    "example": {
-      "pt": "Eu vi um validade",
-      "kea": "N odja un validadi"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3910",
     "word": "valido",
     "translation": {
@@ -46706,18 +44639,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O variedade é interessante",
       "kea": "Variedade e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3916",
-    "word": "vasu",
-    "translation": {
-      "pt": "vaso"
-    },
-    "example": {
-      "pt": "Eu vi um vaso",
-      "kea": "N odja un vasu"
     },
     "category": "Nom"
   },
@@ -46854,18 +44775,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3928",
-    "word": "venenu",
-    "translation": {
-      "pt": "veneno"
-    },
-    "example": {
-      "pt": "O veneno é interessante",
-      "kea": "Veneno e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3929",
     "word": "ventania",
     "translation": {
@@ -46874,18 +44783,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um ventania",
       "kea": "N odja un ventania"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3930",
-    "word": "ventu",
-    "translation": {
-      "pt": "vento"
-    },
-    "example": {
-      "pt": "O vento é interessante",
-      "kea": "Vento e interesanti"
     },
     "category": "Nom"
   },
@@ -46922,18 +44819,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o verba?",
       "kea": "Undi ki verba sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3934",
-    "word": "verdadi",
-    "translation": {
-      "pt": "verdade"
-    },
-    "example": {
-      "pt": "O verdade é interessante",
-      "kea": "Verdade e interesanti"
     },
     "category": "Nom"
   },
@@ -47034,18 +44919,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3943",
-    "word": "vestidu",
-    "translation": {
-      "pt": "vestido"
-    },
-    "example": {
-      "pt": "O vestido é interessante",
-      "kea": "Vestido e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3944",
     "word": "vestuario",
     "translation": {
@@ -47142,18 +45015,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3952",
-    "word": "vidru",
-    "translation": {
-      "pt": "vidro"
-    },
-    "example": {
-      "pt": "O vidro é interessante",
-      "kea": "Vidro e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3953",
     "word": "vinagre",
     "translation": {
@@ -47166,18 +45027,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3954",
-    "word": "vingansa",
-    "translation": {
-      "pt": "vingança"
-    },
-    "example": {
-      "pt": "O vingança é interessante",
-      "kea": "Vingança e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3955",
     "word": "vinha",
     "translation": {
@@ -47186,18 +45035,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o vinha?",
       "kea": "Undi ki vinha sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3956",
-    "word": "vinhu",
-    "translation": {
-      "pt": "vinho"
-    },
-    "example": {
-      "pt": "Onde está o vinho?",
-      "kea": "Undi ki vinhu sta?"
     },
     "category": "Nom"
   },
@@ -47322,18 +45159,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-3967",
-    "word": "vistu",
-    "translation": {
-      "pt": "visto"
-    },
-    "example": {
-      "pt": "Eu vi um visto",
-      "kea": "N odja un vistu"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-3968",
     "word": "vitamina",
     "translation": {
@@ -47378,18 +45203,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O vizinhança é interessante",
       "kea": "Vizinhanca e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3972",
-    "word": "vizinhu",
-    "translation": {
-      "pt": "vizinho"
-    },
-    "example": {
-      "pt": "O vizinho é interessante",
-      "kea": "Vizinho e interesanti"
     },
     "category": "Nom"
   },
@@ -47462,18 +45275,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o vontade?",
       "kea": "Undi ki vontade sta?"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3979",
-    "word": "votu",
-    "translation": {
-      "pt": "voto"
-    },
-    "example": {
-      "pt": "Eu vi um voto",
-      "kea": "N odja un votu"
     },
     "category": "Nom"
   },
@@ -47570,18 +45371,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "O choque é interessante",
       "kea": "Xok e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-3988",
-    "word": "zelu",
-    "translation": {
-      "pt": "zelo"
-    },
-    "example": {
-      "pt": "Onde está o zelo?",
-      "kea": "Undi ki zelu sta?"
     },
     "category": "Nom"
   },
@@ -51726,18 +49515,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Verbe"
   },
   {
-    "id": "entry-4334",
-    "word": "batiza",
-    "translation": {
-      "pt": "batizar"
-    },
-    "example": {
-      "pt": "Exemplo com \"batizar\"",
-      "kea": "Exenplu ku \"batiza\""
-    },
-    "category": "Verbe"
-  },
-  {
     "id": "entry-4335",
     "word": "pruvetu",
     "translation": {
@@ -51798,30 +49575,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-4340",
-    "word": "anju",
-    "translation": {
-      "pt": "anjo"
-    },
-    "example": {
-      "pt": "Exemplo com \"anjo\"",
-      "kea": "Exenplu ku \"anju\""
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-4341",
-    "word": "pikinoti",
-    "translation": {
-      "pt": "pequeno"
-    },
-    "example": {
-      "pt": "Exemplo com \"pequeno\"",
-      "kea": "Exenplu ku \"pikinoti\""
-    },
-    "category": "Adjectif"
-  },
-  {
     "id": "entry-4342",
     "word": "resusitadu",
     "translation": {
@@ -51832,18 +49585,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jizus na R..."
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-4343",
-    "word": "reinu",
-    "translation": {
-      "pt": "reino"
-    },
-    "example": {
-      "pt": "Exemplo com \"reino\"",
-      "kea": "Exenplu ku \"reinu\""
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-4344",
@@ -51882,18 +49623,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-4347",
-    "word": "rabela",
-    "translation": {
-      "pt": "rebelar"
-    },
-    "example": {
-      "pt": "Exemplo com \"rebelar\"",
-      "kea": "Exenplu ku \"rabela\""
-    },
-    "category": "Verbe"
-  },
-  {
     "id": "entry-4348",
     "word": "txomadu",
     "translation": {
@@ -51906,18 +49635,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-4349",
-    "word": "diabu",
-    "translation": {
-      "pt": "diabo"
-    },
-    "example": {
-      "pt": "Exemplo com \"diabo\"",
-      "kea": "Exenplu ku \"diabu\""
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-4350",
     "word": "konvense",
     "translation": {
@@ -51928,29 +49645,5 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se..."
     },
     "category": "Verbe"
-  },
-  {
-    "id": "entry-4351",
-    "word": "djuntu",
-    "translation": {
-      "pt": "junto"
-    },
-    "example": {
-      "pt": "Exemplo com \"junto\"",
-      "kea": "Exenplu ku \"djuntu\""
-    },
-    "category": "Adverbe"
-  },
-  {
-    "id": "entry-4352",
-    "word": "txeu",
-    "translation": {
-      "pt": "muito / cheio"
-    },
-    "example": {
-      "pt": "Exemplo com \"muito / cheio\"",
-      "kea": "Exenplu ku \"txeu\""
-    },
-    "category": "Adverbe"
   }
 ];

@@ -1,0 +1,4568 @@
+{
+  "totalDuplicates": 189,
+  "duplicates": [
+    {
+      "word": "aborku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-23",
+          "translation": "abrigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste abrigo",
+            "kea": "N gosta di es aborku"
+          }
+        },
+        {
+          "id": "entry-2031",
+          "translation": "aborto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um aborto",
+            "kea": "N ten un aborku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "adja",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-42",
+          "translation": "machado",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste machado",
+            "kea": "N gosta di es adja"
+          }
+        },
+        {
+          "id": "entry-2042",
+          "translation": "aia (ama-seca)",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o aia (ama-seca)?",
+            "kea": "Undi ki adja sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "alimentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-146",
+          "translation": "alimento",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste alimento",
+            "kea": "N gosta di es alimentu"
+          }
+        },
+        {
+          "id": "entry-2263",
+          "translation": "alimento",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um alimento",
+            "kea": "N odja un alimentu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "anju",
+      "count": 3,
+      "entries": [
+        {
+          "id": "entry-212",
+          "translation": "anjo",
+          "category": "Nom",
+          "example": {
+            "pt": "O anjo é bonito",
+            "kea": "Anju e bunitu"
+          }
+        },
+        {
+          "id": "entry-2288",
+          "translation": "anjo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um anjo",
+            "kea": "N odja un anju"
+          }
+        },
+        {
+          "id": "entry-4340",
+          "translation": "anjo",
+          "category": "Nom",
+          "example": {
+            "pt": "Exemplo com \"anjo\"",
+            "kea": "Exenplu ku \"anju\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "artigu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-290",
+          "translation": "artigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um artigo",
+            "kea": "N ten un artigu"
+          }
+        },
+        {
+          "id": "entry-1957",
+          "translation": "artigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um artigo",
+            "kea": "N ten un artigu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "azia",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-370",
+          "translation": "azia",
+          "category": "Nom",
+          "example": {
+            "pt": "Este azia é meu",
+            "kea": "Es azia e nha"
+          }
+        },
+        {
+          "id": "entry-1984",
+          "translation": "Ásia",
+          "category": "Nom",
+          "example": {
+            "pt": "Este Ásia é meu",
+            "kea": "Es Azia e nha"
+          }
+        }
+      ]
+    },
+    {
+      "word": "bispu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-476",
+          "translation": "bispo",
+          "category": "Nom",
+          "example": {
+            "pt": "O bispo é bonito",
+            "kea": "Bispu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2435",
+          "translation": "bispo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um bispo",
+            "kea": "N odja un bispu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "bravu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-516",
+          "translation": "bravo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito bravo",
+            "kea": "El e muitu bravu"
+          }
+        },
+        {
+          "id": "entry-2463",
+          "translation": "bravo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito bravo",
+            "kea": "El e muitu bravu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "danu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-553",
+          "translation": "dano",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um dano",
+            "kea": "N ten un danu"
+          }
+        },
+        {
+          "id": "entry-2669",
+          "translation": "dano",
+          "category": "Nom",
+          "example": {
+            "pt": "O dano é interessante",
+            "kea": "Dano e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "dansa",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-554",
+          "translation": "dançar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Não quero dançar",
+            "kea": "N ka kre dansa"
+          }
+        },
+        {
+          "id": "entry-2668",
+          "translation": "dança",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o dança?",
+            "kea": "Undi ki dansa sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "diabu",
+      "count": 3,
+      "entries": [
+        {
+          "id": "entry-600",
+          "translation": "diabo",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste diabo",
+            "kea": "N gosta di es diabu"
+          }
+        },
+        {
+          "id": "entry-2672",
+          "translation": "diabo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o diabo?",
+            "kea": "Undi ki diabu sta?"
+          }
+        },
+        {
+          "id": "entry-4349",
+          "translation": "diabo",
+          "category": "Nom",
+          "example": {
+            "pt": "Exemplo com \"diabo\"",
+            "kea": "Exenplu ku \"diabu\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "djuntu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-632",
+          "translation": "junto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa junto",
+            "kea": "Un pesoa djuntu"
+          }
+        },
+        {
+          "id": "entry-4351",
+          "translation": "junto",
+          "category": "Adverbe",
+          "example": {
+            "pt": "Exemplo com \"junto\"",
+            "kea": "Exenplu ku \"djuntu\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "ekonomia",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-669",
+          "translation": "economia",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um economia",
+            "kea": "N ten un ekonomia"
+          }
+        },
+        {
+          "id": "entry-2699",
+          "translation": "economia",
+          "category": "Nom",
+          "example": {
+            "pt": "O economia é interessante",
+            "kea": "Economia e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "eskada",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-706",
+          "translation": "escada",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste escada",
+            "kea": "N gosta di es eskada"
+          }
+        },
+        {
+          "id": "entry-2722",
+          "translation": "escada",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o escada?",
+            "kea": "Undi ki eskada sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "eskola",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-707",
+          "translation": "escola",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste escola",
+            "kea": "N gosta di es eskola"
+          }
+        },
+        {
+          "id": "entry-2724",
+          "translation": "escola",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o escola?",
+            "kea": "Undi ki eskola sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "eternu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-734",
+          "translation": "eterno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é eterno",
+            "kea": "Kes koiza e eternu"
+          }
+        },
+        {
+          "id": "entry-2753",
+          "translation": "eterno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa eterno",
+            "kea": "Un koiza eternu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "faka",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-743",
+          "translation": "faca",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um faca",
+            "kea": "N ten un faka"
+          }
+        },
+        {
+          "id": "entry-2770",
+          "translation": "faca",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o faca?",
+            "kea": "Undi ki faka sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "falsu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-744",
+          "translation": "falso",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito falso",
+            "kea": "El e muitu falsu"
+          }
+        },
+        {
+          "id": "entry-2775",
+          "translation": "falso",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece falso",
+            "kea": "Kel-la parse falsu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "fidju",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-769",
+          "translation": "filho",
+          "category": "Nom",
+          "example": {
+            "pt": "Meu filho estuda",
+            "kea": "Nha fidju ta studu"
+          }
+        },
+        {
+          "id": "entry-2805",
+          "translation": "filho",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um filho",
+            "kea": "N odja un fidju"
+          }
+        }
+      ]
+    },
+    {
+      "word": "figu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-770",
+          "translation": "figo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o figo?",
+            "kea": "Undi ki figu sta?"
+          }
+        },
+        {
+          "id": "entry-2802",
+          "translation": "figo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o figo?",
+            "kea": "Undi ki figu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "fraku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-792",
+          "translation": "fraco",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa fraco",
+            "kea": "Un pesoa fraku"
+          }
+        },
+        {
+          "id": "entry-2823",
+          "translation": "fraco",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa fraco",
+            "kea": "Un koiza fraku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "fresku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-796",
+          "translation": "fresco",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Que fresco!",
+            "kea": "Ki fresku!"
+          }
+        },
+        {
+          "id": "entry-2830",
+          "translation": "fresco",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito fresco",
+            "kea": "El e muitu fresku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "fumu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-801",
+          "translation": "fumo",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste fumo",
+            "kea": "N gosta di es fumu"
+          }
+        },
+        {
+          "id": "entry-2833",
+          "translation": "fumo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o fumo?",
+            "kea": "Undi ki fumu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "fundu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-803",
+          "translation": "fundo",
+          "category": "Nom",
+          "example": {
+            "pt": "O fundo é bonito",
+            "kea": "Fundu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2836",
+          "translation": "fundo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um fundo",
+            "kea": "N odja un fundu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "galu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-811",
+          "translation": "galo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um galo",
+            "kea": "N ten un galu"
+          }
+        },
+        {
+          "id": "entry-2845",
+          "translation": "galo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o galo?",
+            "kea": "Undi ki galu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "gelu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-818",
+          "translation": "gelo",
+          "category": "Nom",
+          "example": {
+            "pt": "O gelo é bonito",
+            "kea": "Gelu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2854",
+          "translation": "gelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o gelo?",
+            "kea": "Undi ki gelu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "gordu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-823",
+          "translation": "gordo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é gordo",
+            "kea": "Kes koiza e gordu"
+          }
+        },
+        {
+          "id": "entry-2870",
+          "translation": "gordo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece gordo",
+            "kea": "Kel-la parse gordu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "governu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-826",
+          "translation": "governo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o governo?",
+            "kea": "Undi ki governu sta?"
+          }
+        },
+        {
+          "id": "entry-2875",
+          "translation": "governo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um governo",
+            "kea": "N odja un governu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "gritu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-835",
+          "translation": "grito",
+          "category": "Nom",
+          "example": {
+            "pt": "O grito é bonito",
+            "kea": "Gritu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2885",
+          "translation": "grito",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o grito?",
+            "kea": "Undi ki gritu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "grupu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-837",
+          "translation": "grupo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este grupo é meu",
+            "kea": "Es grupu e nha"
+          }
+        },
+        {
+          "id": "entry-2887",
+          "translation": "grupo",
+          "category": "Nom",
+          "example": {
+            "pt": "O grupo é interessante",
+            "kea": "Grupo e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "honestu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-852",
+          "translation": "honesto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é honesto",
+            "kea": "Kes koiza e honestu"
+          }
+        },
+        {
+          "id": "entry-2898",
+          "translation": "honesto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito honesto",
+            "kea": "El e muitu honestu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "humanu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-858",
+          "translation": "humano",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é humano",
+            "kea": "Ka e humanu"
+          }
+        },
+        {
+          "id": "entry-2904",
+          "translation": "humano",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa humano",
+            "kea": "Un koiza humanu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "idadi",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-862",
+          "translation": "idade",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste idade",
+            "kea": "N gosta di es idadi"
+          }
+        },
+        {
+          "id": "entry-2907",
+          "translation": "idade",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um idade",
+            "kea": "N odja un idadi"
+          }
+        }
+      ]
+    },
+    {
+      "word": "impostu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-881",
+          "translation": "imposto",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o imposto?",
+            "kea": "Undi ki impostu sta?"
+          }
+        },
+        {
+          "id": "entry-2924",
+          "translation": "imposto",
+          "category": "Nom",
+          "example": {
+            "pt": "O imposto é interessante",
+            "kea": "Imposto e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "infernu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-888",
+          "translation": "inferno",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um inferno",
+            "kea": "N ten un infernu"
+          }
+        },
+        {
+          "id": "entry-2937",
+          "translation": "inferno",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um inferno",
+            "kea": "N odja un infernu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "inimigu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-892",
+          "translation": "inimigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este inimigo é meu",
+            "kea": "Es inimigu e nha"
+          }
+        },
+        {
+          "id": "entry-2942",
+          "translation": "inimigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o inimigo?",
+            "kea": "Undi ki inimigu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "instrumentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-899",
+          "translation": "instrumento",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste instrumento",
+            "kea": "N gosta di es instrumentu"
+          }
+        },
+        {
+          "id": "entry-2952",
+          "translation": "instrumento",
+          "category": "Nom",
+          "example": {
+            "pt": "O instrumento é interessante",
+            "kea": "Instrumento e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "inteiru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-900",
+          "translation": "inteiro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa inteiro",
+            "kea": "Un pesoa inteiru"
+          }
+        },
+        {
+          "id": "entry-2954",
+          "translation": "inteiro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito inteiro",
+            "kea": "El e muitu inteiru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "invernu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-911",
+          "translation": "inverno",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste inverno",
+            "kea": "N gosta di es invernu"
+          }
+        },
+        {
+          "id": "entry-2966",
+          "translation": "inverno",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um inverno",
+            "kea": "N odja un invernu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "jeitu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-925",
+          "translation": "jeito",
+          "category": "Nom",
+          "example": {
+            "pt": "O jeito é bonito",
+            "kea": "Jeitu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2983",
+          "translation": "jeito",
+          "category": "Nom",
+          "example": {
+            "pt": "O jeito é interessante",
+            "kea": "Jeito e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "junhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-933",
+          "translation": "junho",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um junho",
+            "kea": "N ten un junhu"
+          }
+        },
+        {
+          "id": "entry-2992",
+          "translation": "junho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o junho?",
+            "kea": "Undi ki junhu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "juramentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-935",
+          "translation": "juramento",
+          "category": "Nom",
+          "example": {
+            "pt": "O juramento é bonito",
+            "kea": "Juramentu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2993",
+          "translation": "juramento",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o juramento?",
+            "kea": "Undi ki juramentu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "justu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-937",
+          "translation": "justo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é justo",
+            "kea": "Kes koiza e justu"
+          }
+        },
+        {
+          "id": "entry-2996",
+          "translation": "justo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece justo",
+            "kea": "Kel-la parse justu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kabelu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-942",
+          "translation": "cabelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este cabelo é meu",
+            "kea": "Es kabelu e nha"
+          }
+        },
+        {
+          "id": "entry-2485",
+          "translation": "cabelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um cabelo",
+            "kea": "N odja un kabelu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kaju",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-948",
+          "translation": "caju",
+          "category": "Nom",
+          "example": {
+            "pt": "Este caju é meu",
+            "kea": "Es kaju e nha"
+          }
+        },
+        {
+          "id": "entry-2491",
+          "translation": "caju",
+          "category": "Nom",
+          "example": {
+            "pt": "O caju é interessante",
+            "kea": "Caju e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kaneta",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-953",
+          "translation": "caneta",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste caneta",
+            "kea": "N gosta di es kaneta"
+          }
+        },
+        {
+          "id": "entry-2497",
+          "translation": "caneta",
+          "category": "Nom",
+          "example": {
+            "pt": "O caneta é interessante",
+            "kea": "Caneta e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kara",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-959",
+          "translation": "cara",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste cara",
+            "kea": "N gosta di es kara"
+          }
+        },
+        {
+          "id": "entry-2501",
+          "translation": "cara",
+          "category": "Nom",
+          "example": {
+            "pt": "O cara é interessante",
+            "kea": "Cara e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "karga",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-961",
+          "translation": "carga",
+          "category": "Nom",
+          "example": {
+            "pt": "Este carga é meu",
+            "kea": "Es karga e nha"
+          }
+        },
+        {
+          "id": "entry-2503",
+          "translation": "carga",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o carga?",
+            "kea": "Undi ki karga sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "karta",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-963",
+          "translation": "carta",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste carta",
+            "kea": "N gosta di es karta"
+          }
+        },
+        {
+          "id": "entry-2506",
+          "translation": "carta",
+          "category": "Nom",
+          "example": {
+            "pt": "O carta é interessante",
+            "kea": "Carta e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "karu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-964",
+          "translation": "carro / caro",
+          "category": "Nom",
+          "example": {
+            "pt": "O carro é bonito",
+            "kea": "Karu e bunitu"
+          }
+        },
+        {
+          "id": "entry-2505",
+          "translation": "carro / caro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece caro",
+            "kea": "Kel-la parse karu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kasa",
+      "count": 3,
+      "entries": [
+        {
+          "id": "entry-965",
+          "translation": "casa / casar",
+          "category": "Nom",
+          "example": {
+            "pt": "A casa é bonita",
+            "kea": "Kasa e bunitu"
+          }
+        },
+        {
+          "id": "entry-2487",
+          "translation": "caça",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um caça",
+            "kea": "N odja un kasa"
+          }
+        },
+        {
+          "id": "entry-2507",
+          "translation": "casar",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o casa?",
+            "kea": "Undi ki kasa sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kontra",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-997",
+          "translation": "contra",
+          "category": "Préposition",
+          "example": {
+            "pt": "Contra aqui",
+            "kea": "Kontra li"
+          }
+        },
+        {
+          "id": "entry-2610",
+          "translation": "encontrar",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o contra?",
+            "kea": "Undi ki kontra sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kor",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1001",
+          "translation": "cor",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste cor",
+            "kea": "N gosta di es kor"
+          }
+        },
+        {
+          "id": "entry-2619",
+          "translation": "cor",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o cor?",
+            "kea": "Undi ki kor sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "korda",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1003",
+          "translation": "corda",
+          "category": "Nom",
+          "example": {
+            "pt": "Este corda é meu",
+            "kea": "Es korda e nha"
+          }
+        },
+        {
+          "id": "entry-2622",
+          "translation": "corda",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o corda?",
+            "kea": "Undi ki korda sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kosta",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1008",
+          "translation": "costas",
+          "category": "Nom",
+          "example": {
+            "pt": "Este costas é meu",
+            "kea": "Es kosta e nha"
+          }
+        },
+        {
+          "id": "entry-2633",
+          "translation": "costa",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o costa?",
+            "kea": "Undi ki kosta sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kozinha",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1011",
+          "translation": "cozinha",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste cozinha",
+            "kea": "N gosta di es kozinha"
+          }
+        },
+        {
+          "id": "entry-2639",
+          "translation": "cozinha",
+          "category": "Nom",
+          "example": {
+            "pt": "O cozinha é interessante",
+            "kea": "Cozinha e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kriar",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1017",
+          "translation": "criar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Vamos criar juntos",
+            "kea": "Nu bai kriar djuntu"
+          }
+        },
+        {
+          "id": "entry-2649",
+          "translation": "criar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Eu vou criar",
+            "kea": "N ta kriar"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kruz",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1022",
+          "translation": "cruz",
+          "category": "Nom",
+          "example": {
+            "pt": "O cruz é bonito",
+            "kea": "Kruz e bunitu"
+          }
+        },
+        {
+          "id": "entry-2655",
+          "translation": "cruz",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um cruz",
+            "kea": "N odja un kruz"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kulpa",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1033",
+          "translation": "culpa",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o culpa?",
+            "kea": "Undi ki kulpa sta?"
+          }
+        },
+        {
+          "id": "entry-2658",
+          "translation": "culpa",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um culpa",
+            "kea": "N odja un kulpa"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kultura",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1034",
+          "translation": "cultura",
+          "category": "Nom",
+          "example": {
+            "pt": "Este cultura é meu",
+            "kea": "Es kultura e nha"
+          }
+        },
+        {
+          "id": "entry-2659",
+          "translation": "cultura",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um cultura",
+            "kea": "N odja un kultura"
+          }
+        }
+      ]
+    },
+    {
+      "word": "kurtu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1038",
+          "translation": "curto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Que curto!",
+            "kea": "Ki kurtu!"
+          }
+        },
+        {
+          "id": "entry-2664",
+          "translation": "curto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa curto",
+            "kea": "Un koiza kurtu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "lentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1061",
+          "translation": "lento",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é lento",
+            "kea": "Kes koiza e lentu"
+          }
+        },
+        {
+          "id": "entry-3032",
+          "translation": "lento",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito lento",
+            "kea": "El e muitu lentu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "liberdadi",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1066",
+          "translation": "liberdade",
+          "category": "Nom",
+          "example": {
+            "pt": "O liberdade é bonito",
+            "kea": "Liberdadi e bunitu"
+          }
+        },
+        {
+          "id": "entry-3037",
+          "translation": "liberdade",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o liberdade?",
+            "kea": "Undi ki liberdadi sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "limpu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1071",
+          "translation": "limpo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é limpo",
+            "kea": "Ka e limpu"
+          }
+        },
+        {
+          "id": "entry-3045",
+          "translation": "limpo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece limpo",
+            "kea": "Kel-la parse limpu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "livru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1076",
+          "translation": "livro",
+          "category": "Nom",
+          "example": {
+            "pt": "O livro está na mesa",
+            "kea": "Livru sta na mesa"
+          }
+        },
+        {
+          "id": "entry-3054",
+          "translation": "livro",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um livro",
+            "kea": "N odja un livru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "lixu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1077",
+          "translation": "lixo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este lixo é meu",
+            "kea": "Es lixu e nha"
+          }
+        },
+        {
+          "id": "entry-3055",
+          "translation": "lixo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o lixo?",
+            "kea": "Undi ki lixu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "lobu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1078",
+          "translation": "lobo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um lobo",
+            "kea": "N ten un lobu"
+          }
+        },
+        {
+          "id": "entry-3056",
+          "translation": "lobo",
+          "category": "Nom",
+          "example": {
+            "pt": "O lobo é interessante",
+            "kea": "Lobo e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "louku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1082",
+          "translation": "louco",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é louco",
+            "kea": "Kes koiza e louku"
+          }
+        },
+        {
+          "id": "entry-3066",
+          "translation": "louco",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito louco",
+            "kea": "El e muitu louku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "maduru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1091",
+          "translation": "maduro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa maduro",
+            "kea": "Un pesoa maduru"
+          }
+        },
+        {
+          "id": "entry-3082",
+          "translation": "maduro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito maduro",
+            "kea": "El e muitu maduru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "magru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1093",
+          "translation": "magro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito magro",
+            "kea": "El e muitu magru"
+          }
+        },
+        {
+          "id": "entry-3088",
+          "translation": "magro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa magro",
+            "kea": "Un koiza magru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "malandru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1099",
+          "translation": "malandro",
+          "category": "Nom",
+          "example": {
+            "pt": "O malandro é bonito",
+            "kea": "Malandru e bunitu"
+          }
+        },
+        {
+          "id": "entry-3092",
+          "translation": "malandro",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um malandro",
+            "kea": "N odja un malandru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "maldadi",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1100",
+          "translation": "maldade",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste maldade",
+            "kea": "N gosta di es maldadi"
+          }
+        },
+        {
+          "id": "entry-3094",
+          "translation": "maldade",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um maldade",
+            "kea": "N odja un maldadi"
+          }
+        }
+      ]
+    },
+    {
+      "word": "marka",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1111",
+          "translation": "marca",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste marca",
+            "kea": "N gosta di es marka"
+          }
+        },
+        {
+          "id": "entry-3116",
+          "translation": "marca",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um marca",
+            "kea": "N odja un marka"
+          }
+        }
+      ]
+    },
+    {
+      "word": "martelu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1114",
+          "translation": "martelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o martelo?",
+            "kea": "Undi ki martelu sta?"
+          }
+        },
+        {
+          "id": "entry-3129",
+          "translation": "martelo",
+          "category": "Nom",
+          "example": {
+            "pt": "O martelo é interessante",
+            "kea": "Martelo e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "medu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1126",
+          "translation": "medo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um medo",
+            "kea": "N ten un medu"
+          }
+        },
+        {
+          "id": "entry-3143",
+          "translation": "medo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um medo",
+            "kea": "N odja un medu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "membru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1131",
+          "translation": "membro",
+          "category": "Nom",
+          "example": {
+            "pt": "Este membro é meu",
+            "kea": "Es membru e nha"
+          }
+        },
+        {
+          "id": "entry-3147",
+          "translation": "membro",
+          "category": "Nom",
+          "example": {
+            "pt": "O membro é interessante",
+            "kea": "Membro e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "meninu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1133",
+          "translation": "menino",
+          "category": "Nom",
+          "example": {
+            "pt": "O menino é bonito",
+            "kea": "Meninu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3149",
+          "translation": "menino",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um menino",
+            "kea": "N odja un meninu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "merkadu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1138",
+          "translation": "mercado",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o mercado?",
+            "kea": "Undi ki merkadu sta?"
+          }
+        },
+        {
+          "id": "entry-3154",
+          "translation": "mercado",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um mercado",
+            "kea": "N odja un merkadu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "mesmu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1141",
+          "translation": "mesmo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é mesmo",
+            "kea": "Kes koiza e mesmu"
+          }
+        },
+        {
+          "id": "entry-3158",
+          "translation": "mesmo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito mesmo",
+            "kea": "El e muitu mesmu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "metru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1145",
+          "translation": "metro",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um metro",
+            "kea": "N ten un metru"
+          }
+        },
+        {
+          "id": "entry-3162",
+          "translation": "metro",
+          "category": "Nom",
+          "example": {
+            "pt": "O metro é interessante",
+            "kea": "Metro e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "midju",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1150",
+          "translation": "milho",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste milho",
+            "kea": "N gosta di es midju"
+          }
+        },
+        {
+          "id": "entry-3169",
+          "translation": "milho",
+          "category": "Nom",
+          "example": {
+            "pt": "O milho é interessante",
+            "kea": "Milho e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "minutu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1156",
+          "translation": "minuto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um minuto",
+            "kea": "N ten un minutu"
+          }
+        },
+        {
+          "id": "entry-3178",
+          "translation": "minuto",
+          "category": "Nom",
+          "example": {
+            "pt": "O minuto é interessante",
+            "kea": "Minuto e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "modelu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1165",
+          "translation": "modelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este modelo é meu",
+            "kea": "Es modelu e nha"
+          }
+        },
+        {
+          "id": "entry-3185",
+          "translation": "modelo",
+          "category": "Nom",
+          "example": {
+            "pt": "O modelo é interessante",
+            "kea": "Modelo e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "modernu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1166",
+          "translation": "moderno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Que moderno!",
+            "kea": "Ki modernu!"
+          }
+        },
+        {
+          "id": "entry-3186",
+          "translation": "moderno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece moderno",
+            "kea": "Kel-la parse modernu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "moinhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1168",
+          "translation": "moinho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o moinho?",
+            "kea": "Undi ki moinhu sta?"
+          }
+        },
+        {
+          "id": "entry-3188",
+          "translation": "moinho",
+          "category": "Nom",
+          "example": {
+            "pt": "O moinho é interessante",
+            "kea": "Moinho e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "momentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1170",
+          "translation": "momento",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o momento?",
+            "kea": "Undi ki momentu sta?"
+          }
+        },
+        {
+          "id": "entry-3193",
+          "translation": "momento",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um momento",
+            "kea": "N odja un momentu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "mornu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1178",
+          "translation": "morno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa morno",
+            "kea": "Un pesoa mornu"
+          }
+        },
+        {
+          "id": "entry-3201",
+          "translation": "morno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa morno",
+            "kea": "Un koiza mornu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "mortu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1180",
+          "translation": "morto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa morto",
+            "kea": "Un pesoa mortu"
+          }
+        },
+        {
+          "id": "entry-3202",
+          "translation": "morto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece morto",
+            "kea": "Kel-la parse mortu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "moska",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1181",
+          "translation": "mosca",
+          "category": "Nom",
+          "example": {
+            "pt": "Este mosca é meu",
+            "kea": "Es moska e nha"
+          }
+        },
+        {
+          "id": "entry-3204",
+          "translation": "mosca",
+          "category": "Nom",
+          "example": {
+            "pt": "O mosca é interessante",
+            "kea": "Mosca e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "motivu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1183",
+          "translation": "motivo",
+          "category": "Nom",
+          "example": {
+            "pt": "O motivo é bonito",
+            "kea": "Motivu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3207",
+          "translation": "motivo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um motivo",
+            "kea": "N odja un motivu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "movimentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1186",
+          "translation": "movimento",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o movimento?",
+            "kea": "Undi ki movimentu sta?"
+          }
+        },
+        {
+          "id": "entry-3209",
+          "translation": "movimento",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o movimento?",
+            "kea": "Undi ki movimentu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "muitu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1189",
+          "translation": "muito",
+          "category": "Adverbe",
+          "example": {
+            "pt": "Muito está bem",
+            "kea": "Muitu sta ben"
+          }
+        },
+        {
+          "id": "entry-3213",
+          "translation": "muito",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito muito",
+            "kea": "El e muitu muitu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "mundu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1193",
+          "translation": "mundo",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste mundo",
+            "kea": "N gosta di es mundu"
+          }
+        },
+        {
+          "id": "entry-3217",
+          "translation": "mundo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um mundo",
+            "kea": "N odja un mundu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "namoradu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1201",
+          "translation": "namorado",
+          "category": "Nom",
+          "example": {
+            "pt": "Este namorado é meu",
+            "kea": "Es namoradu e nha"
+          }
+        },
+        {
+          "id": "entry-3229",
+          "translation": "namorado",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o namorado?",
+            "kea": "Undi ki namoradu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "negru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1212",
+          "translation": "negro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é negro",
+            "kea": "Ka e negru"
+          }
+        },
+        {
+          "id": "entry-3240",
+          "translation": "negro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece negro",
+            "kea": "Kel-la parse negru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "nervu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1214",
+          "translation": "nervo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um nervo",
+            "kea": "N ten un nervu"
+          }
+        },
+        {
+          "id": "entry-3241",
+          "translation": "nervo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um nervo",
+            "kea": "N odja un nervu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "netu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1215",
+          "translation": "neto",
+          "category": "Nom",
+          "example": {
+            "pt": "Este neto é meu",
+            "kea": "Es netu e nha"
+          }
+        },
+        {
+          "id": "entry-3242",
+          "translation": "neto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um neto",
+            "kea": "N odja un netu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "objetivu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1240",
+          "translation": "objetivo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o objetivo?",
+            "kea": "Undi ki objetivu sta?"
+          }
+        },
+        {
+          "id": "entry-3270",
+          "translation": "objetivo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o objetivo?",
+            "kea": "Undi ki objetivu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "objetu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1241",
+          "translation": "objeto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um objeto",
+            "kea": "N ten un objetu"
+          }
+        },
+        {
+          "id": "entry-3271",
+          "translation": "objeto",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o objeto?",
+            "kea": "Undi ki objetu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "obrigadu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1243",
+          "translation": "obrigado",
+          "category": "Expression",
+          "example": {
+            "pt": "obrigado",
+            "kea": "obrigadu"
+          }
+        },
+        {
+          "id": "entry-3272",
+          "translation": "obrigado",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece obrigado",
+            "kea": "Kel-la parse obrigadu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "odju",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1247",
+          "translation": "olho",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste olho",
+            "kea": "N gosta di es odju"
+          }
+        },
+        {
+          "id": "entry-3285",
+          "translation": "olho",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um olho",
+            "kea": "N odja un odju"
+          }
+        }
+      ]
+    },
+    {
+      "word": "ombru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1255",
+          "translation": "ombro",
+          "category": "Nom",
+          "example": {
+            "pt": "O ombro é bonito",
+            "kea": "Ombru e bunitu"
+          }
+        },
+        {
+          "id": "entry-3288",
+          "translation": "ombro",
+          "category": "Nom",
+          "example": {
+            "pt": "O ombro é interessante",
+            "kea": "Ombro e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "outonu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1280",
+          "translation": "outono",
+          "category": "Nom",
+          "example": {
+            "pt": "O outono é bonito",
+            "kea": "Outonu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3315",
+          "translation": "outono",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o outono?",
+            "kea": "Undi ki outonu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "outru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1281",
+          "translation": "outro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é outro",
+            "kea": "Kes koiza e outru"
+          }
+        },
+        {
+          "id": "entry-3316",
+          "translation": "outro",
+          "category": "Pronom",
+          "example": {
+            "pt": "É outro",
+            "kea": "E outru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "partidu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1307",
+          "translation": "partido",
+          "category": "Nom",
+          "example": {
+            "pt": "O partido é bonito",
+            "kea": "Partidu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3356",
+          "translation": "partido",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o partido?",
+            "kea": "Undi ki partidu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "peitu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1324",
+          "translation": "peito",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste peito",
+            "kea": "N gosta di es peitu"
+          }
+        },
+        {
+          "id": "entry-3386",
+          "translation": "peito",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um peito",
+            "kea": "N odja un peitu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pekadu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1326",
+          "translation": "pecado",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um pecado",
+            "kea": "N ten un pekadu"
+          }
+        },
+        {
+          "id": "entry-3379",
+          "translation": "pecado",
+          "category": "Nom",
+          "example": {
+            "pt": "O pecado é interessante",
+            "kea": "Pecado e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pensamentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1332",
+          "translation": "pensamento",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um pensamento",
+            "kea": "N ten un pensamentu"
+          }
+        },
+        {
+          "id": "entry-3394",
+          "translation": "pensamento",
+          "category": "Nom",
+          "example": {
+            "pt": "O pensamento é interessante",
+            "kea": "Pensamento e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "perigu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1340",
+          "translation": "perigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o perigo?",
+            "kea": "Undi ki perigu sta?"
+          }
+        },
+        {
+          "id": "entry-3404",
+          "translation": "perigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o perigo?",
+            "kea": "Undi ki perigu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "peritu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1341",
+          "translation": "perito",
+          "category": "Nom",
+          "example": {
+            "pt": "O perito é bonito",
+            "kea": "Peritu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3406",
+          "translation": "perito",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um perito",
+            "kea": "N odja un peritu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pesa",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1345",
+          "translation": "peça",
+          "category": "Nom",
+          "example": {
+            "pt": "O peça é bonito",
+            "kea": "Pesa e bunitu"
+          }
+        },
+        {
+          "id": "entry-3380",
+          "translation": "peça",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o peça?",
+            "kea": "Undi ki pesa sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "peska",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1346",
+          "translation": "pesca",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um pesca",
+            "kea": "N ten un peska"
+          }
+        },
+        {
+          "id": "entry-3411",
+          "translation": "pesca",
+          "category": "Nom",
+          "example": {
+            "pt": "O pesca é interessante",
+            "kea": "Pesca e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "peskador",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1347",
+          "translation": "pescador",
+          "category": "Nom",
+          "example": {
+            "pt": "O pescador é bonito",
+            "kea": "Peskador e bunitu"
+          }
+        },
+        {
+          "id": "entry-3412",
+          "translation": "pescador",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um pescador",
+            "kea": "N odja un peskador"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pesu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1349",
+          "translation": "peso",
+          "category": "Nom",
+          "example": {
+            "pt": "Este peso é meu",
+            "kea": "Es pesu e nha"
+          }
+        },
+        {
+          "id": "entry-3414",
+          "translation": "peso",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o peso?",
+            "kea": "Undi ki pesu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pianu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1353",
+          "translation": "piano",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste piano",
+            "kea": "N gosta di es pianu"
+          }
+        },
+        {
+          "id": "entry-3421",
+          "translation": "piano",
+          "category": "Nom",
+          "example": {
+            "pt": "O piano é interessante",
+            "kea": "Piano e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pikinoti",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1355",
+          "translation": "pequeno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa pequeno",
+            "kea": "Un pesoa pikinoti"
+          }
+        },
+        {
+          "id": "entry-4341",
+          "translation": "pequeno",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Exemplo com \"pequeno\"",
+            "kea": "Exenplu ku \"pikinoti\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "plaka",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1368",
+          "translation": "placa",
+          "category": "Nom",
+          "example": {
+            "pt": "O placa é bonito",
+            "kea": "Plaka e bunitu"
+          }
+        },
+        {
+          "id": "entry-3447",
+          "translation": "placa",
+          "category": "Nom",
+          "example": {
+            "pt": "O placa é interessante",
+            "kea": "Placa e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "planu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1369",
+          "translation": "plano",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o plano?",
+            "kea": "Undi ki planu sta?"
+          }
+        },
+        {
+          "id": "entry-3449",
+          "translation": "plano",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um plano",
+            "kea": "N odja un planu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "porku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1387",
+          "translation": "porco",
+          "category": "Nom",
+          "example": {
+            "pt": "O porco é bonito",
+            "kea": "Porku e bunitu"
+          }
+        },
+        {
+          "id": "entry-3467",
+          "translation": "porco",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o porco?",
+            "kea": "Undi ki porku sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "portu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1390",
+          "translation": "porto",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste porto",
+            "kea": "N gosta di es portu"
+          }
+        },
+        {
+          "id": "entry-3471",
+          "translation": "porto",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o porto?",
+            "kea": "Undi ki portu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "povu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1395",
+          "translation": "povo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o povo?",
+            "kea": "Undi ki povu sta?"
+          }
+        },
+        {
+          "id": "entry-3480",
+          "translation": "povo",
+          "category": "Nom",
+          "example": {
+            "pt": "O povo é interessante",
+            "kea": "Povo e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "prasa",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1396",
+          "translation": "praça",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um praça",
+            "kea": "N ten un prasa"
+          }
+        },
+        {
+          "id": "entry-3481",
+          "translation": "praça",
+          "category": "Nom",
+          "example": {
+            "pt": "O praça é interessante",
+            "kea": "Praça e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pratu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1399",
+          "translation": "prato",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o prato?",
+            "kea": "Undi ki pratu sta?"
+          }
+        },
+        {
+          "id": "entry-3483",
+          "translation": "prato",
+          "category": "Nom",
+          "example": {
+            "pt": "O prato é interessante",
+            "kea": "Prato e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "prazu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1401",
+          "translation": "prazo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este prazo é meu",
+            "kea": "Es prazu e nha"
+          }
+        },
+        {
+          "id": "entry-3484",
+          "translation": "prazo",
+          "category": "Nom",
+          "example": {
+            "pt": "O prazo é interessante",
+            "kea": "Prazo e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pregu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1403",
+          "translation": "prego",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um prego",
+            "kea": "N ten un pregu"
+          }
+        },
+        {
+          "id": "entry-3488",
+          "translation": "prego",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o prego?",
+            "kea": "Undi ki pregu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "presu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1410",
+          "translation": "preso",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o preso?",
+            "kea": "Undi ki presu sta?"
+          }
+        },
+        {
+          "id": "entry-1412",
+          "translation": "preço",
+          "category": "Nom",
+          "example": {
+            "pt": "O preço é bonito",
+            "kea": "Presu e bunitu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pretu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1413",
+          "translation": "preto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa preto",
+            "kea": "Un pesoa pretu"
+          }
+        },
+        {
+          "id": "entry-3498",
+          "translation": "preto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece preto",
+            "kea": "Kel-la parse pretu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "primu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1417",
+          "translation": "primo",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste primo",
+            "kea": "N gosta di es primu"
+          }
+        },
+        {
+          "id": "entry-3500",
+          "translation": "primo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um primo",
+            "kea": "N odja un primu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "privadu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1421",
+          "translation": "privado",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é privado",
+            "kea": "Kes koiza e privadu"
+          }
+        },
+        {
+          "id": "entry-3504",
+          "translation": "privado",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece privado",
+            "kea": "Kel-la parse privadu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "profundu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1426",
+          "translation": "profundo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é profundo",
+            "kea": "Kes koiza e profundu"
+          }
+        },
+        {
+          "id": "entry-3510",
+          "translation": "profundo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito profundo",
+            "kea": "El e muitu profundu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "prontu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1431",
+          "translation": "pronto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso é pronto",
+            "kea": "Kes koiza e prontu"
+          }
+        },
+        {
+          "id": "entry-3513",
+          "translation": "pronto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito pronto",
+            "kea": "El e muitu prontu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "pulsu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1441",
+          "translation": "pulso",
+          "category": "Nom",
+          "example": {
+            "pt": "O pulso é bonito",
+            "kea": "Pulsu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3522",
+          "translation": "pulso",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o pulso?",
+            "kea": "Undi ki pulsu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "punhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1442",
+          "translation": "punho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o punho?",
+            "kea": "Undi ki punhu sta?"
+          }
+        },
+        {
+          "id": "entry-3525",
+          "translation": "punho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o punho?",
+            "kea": "Undi ki punhu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "rabela",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1445",
+          "translation": "rebelde / virar contra",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um rebelde",
+            "kea": "N ten un rabela"
+          }
+        },
+        {
+          "id": "entry-4347",
+          "translation": "rebelar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Exemplo com \"rebelar\"",
+            "kea": "Exenplu ku \"rabela\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "rabu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1450",
+          "translation": "rabo / cauda",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um rabo",
+            "kea": "N ten un rabu"
+          }
+        },
+        {
+          "id": "entry-3554",
+          "translation": "rabo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o rabo?",
+            "kea": "Undi ki rabu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "rasa",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1474",
+          "translation": "raça",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste raça",
+            "kea": "N gosta di es rasa"
+          }
+        },
+        {
+          "id": "entry-3555",
+          "translation": "raça",
+          "category": "Nom",
+          "example": {
+            "pt": "O raça é interessante",
+            "kea": "Raça e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "ratu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1478",
+          "translation": "rato",
+          "category": "Nom",
+          "example": {
+            "pt": "Este rato é meu",
+            "kea": "Es ratu e nha"
+          }
+        },
+        {
+          "id": "entry-3570",
+          "translation": "rato",
+          "category": "Nom",
+          "example": {
+            "pt": "O rato é interessante",
+            "kea": "Rato e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "realidadi",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1483",
+          "translation": "realidade",
+          "category": "Nom",
+          "example": {
+            "pt": "Este realidade é meu",
+            "kea": "Es realidadi e nha"
+          }
+        },
+        {
+          "id": "entry-3572",
+          "translation": "realidade",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um realidade",
+            "kea": "N odja un realidadi"
+          }
+        }
+      ]
+    },
+    {
+      "word": "riku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1519",
+          "translation": "rico",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa rico",
+            "kea": "Un pesoa riku"
+          }
+        },
+        {
+          "id": "entry-3613",
+          "translation": "rico",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece rico",
+            "kea": "Kel-la parse riku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "rodja",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1528",
+          "translation": "rodear",
+          "category": "Verbe",
+          "example": {
+            "pt": "Eu vou rodear",
+            "kea": "N ta rodja"
+          }
+        },
+        {
+          "id": "entry-3630",
+          "translation": "rolha",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um rolha",
+            "kea": "N odja un rodja"
+          }
+        }
+      ]
+    },
+    {
+      "word": "rostu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1536",
+          "translation": "rosto",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste rosto",
+            "kea": "N gosta di es rostu"
+          }
+        },
+        {
+          "id": "entry-3633",
+          "translation": "rosto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um rosto",
+            "kea": "N odja un rostu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "roxu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1539",
+          "translation": "roxo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é roxo",
+            "kea": "Ka e roxu"
+          }
+        },
+        {
+          "id": "entry-3637",
+          "translation": "roxo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Isso parece roxo",
+            "kea": "Kel-la parse roxu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "saka",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1561",
+          "translation": "sacar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Não quero sacar",
+            "kea": "N ka kre saka"
+          }
+        },
+        {
+          "id": "entry-3647",
+          "translation": "saca",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o saca?",
+            "kea": "Undi ki saka sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "saku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1563",
+          "translation": "saco",
+          "category": "Nom",
+          "example": {
+            "pt": "O saco é bonito",
+            "kea": "Saku e bunitu"
+          }
+        },
+        {
+          "id": "entry-3649",
+          "translation": "saco",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um saco",
+            "kea": "N odja un saku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sapatu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1574",
+          "translation": "sapato",
+          "category": "Nom",
+          "example": {
+            "pt": "Este sapato é meu",
+            "kea": "Es sapatu e nha"
+          }
+        },
+        {
+          "id": "entry-3663",
+          "translation": "sapato",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um sapato",
+            "kea": "N odja un sapatu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "segredu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1581",
+          "translation": "segredo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este segredo é meu",
+            "kea": "Es segredu e nha"
+          }
+        },
+        {
+          "id": "entry-3673",
+          "translation": "segredo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um segredo",
+            "kea": "N odja un segredu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "seguru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1584",
+          "translation": "seguro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito seguro",
+            "kea": "El e muitu seguru"
+          }
+        },
+        {
+          "id": "entry-3677",
+          "translation": "seguro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa seguro",
+            "kea": "Un koiza seguru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sentidu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1598",
+          "translation": "sentido",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um sentido",
+            "kea": "N ten un sentidu"
+          }
+        },
+        {
+          "id": "entry-3685",
+          "translation": "sentido",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o sentido?",
+            "kea": "Undi ki sentidu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sentimentu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1599",
+          "translation": "sentimento",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o sentimento?",
+            "kea": "Undi ki sentimentu sta?"
+          }
+        },
+        {
+          "id": "entry-3686",
+          "translation": "sentimento",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o sentimento?",
+            "kea": "Undi ki sentimentu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "setembru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1612",
+          "translation": "setembro",
+          "category": "Nom",
+          "example": {
+            "pt": "Este setembro é meu",
+            "kea": "Es setembru e nha"
+          }
+        },
+        {
+          "id": "entry-3697",
+          "translation": "setembro",
+          "category": "Nom",
+          "example": {
+            "pt": "O setembro é interessante",
+            "kea": "Setembro e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sexu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1615",
+          "translation": "sexo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este sexo é meu",
+            "kea": "Es sexu e nha"
+          }
+        },
+        {
+          "id": "entry-3698",
+          "translation": "sexo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o sexo?",
+            "kea": "Undi ki sexu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sinu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1630",
+          "translation": "sino",
+          "category": "Nom",
+          "example": {
+            "pt": "Este sino é meu",
+            "kea": "Es sinu e nha"
+          }
+        },
+        {
+          "id": "entry-3709",
+          "translation": "sino",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o sino?",
+            "kea": "Undi ki sinu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sobrinhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1642",
+          "translation": "sobrinho",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um sobrinho",
+            "kea": "N ten un sobrinhu"
+          }
+        },
+        {
+          "id": "entry-3715",
+          "translation": "sobrinho",
+          "category": "Nom",
+          "example": {
+            "pt": "O sobrinho é interessante",
+            "kea": "Sobrinho e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sogru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1647",
+          "translation": "sogro",
+          "category": "Nom",
+          "example": {
+            "pt": "O sogro é bonito",
+            "kea": "Sogru e bunitu"
+          }
+        },
+        {
+          "id": "entry-3719",
+          "translation": "sogro",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um sogro",
+            "kea": "N odja un sogru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "soldadu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1649",
+          "translation": "soldado",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um soldado",
+            "kea": "N ten un soldadu"
+          }
+        },
+        {
+          "id": "entry-3720",
+          "translation": "soldado",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o soldado?",
+            "kea": "Undi ki soldadu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "solteiru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1651",
+          "translation": "solteiro",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é solteiro",
+            "kea": "Ka e solteiru"
+          }
+        },
+        {
+          "id": "entry-3724",
+          "translation": "solteiro",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o solteiro?",
+            "kea": "Undi ki solteiru sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "sonhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1656",
+          "translation": "sonho",
+          "category": "Nom",
+          "example": {
+            "pt": "Este sonho é meu",
+            "kea": "Es sonhu e nha"
+          }
+        },
+        {
+          "id": "entry-3727",
+          "translation": "sonho",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um sonho",
+            "kea": "N odja un sonhu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "surdu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1680",
+          "translation": "surdo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Que surdo!",
+            "kea": "Ki surdu!"
+          }
+        },
+        {
+          "id": "entry-3747",
+          "translation": "surdo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa surdo",
+            "kea": "Un koiza surdu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "tabaku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1685",
+          "translation": "tabaco",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o tabaco?",
+            "kea": "Undi ki tabaku sta?"
+          }
+        },
+        {
+          "id": "entry-3752",
+          "translation": "tabaco",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um tabaco",
+            "kea": "N odja un tabaku"
+          }
+        }
+      ]
+    },
+    {
+      "word": "tamanhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1692",
+          "translation": "tamanho",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste tamanho",
+            "kea": "N gosta di es tamanhu"
+          }
+        },
+        {
+          "id": "entry-3761",
+          "translation": "tamanho",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um tamanho",
+            "kea": "N odja un tamanhu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "teatru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1706",
+          "translation": "teatro",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste teatro",
+            "kea": "N gosta di es teatru"
+          }
+        },
+        {
+          "id": "entry-3772",
+          "translation": "teatro",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um teatro",
+            "kea": "N odja un teatru"
+          }
+        }
+      ]
+    },
+    {
+      "word": "ténpu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1715",
+          "translation": "tempo",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste tempo",
+            "kea": "N gosta di es ténpu"
+          }
+        },
+        {
+          "id": "entry-3787",
+          "translation": "tempo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o tempo?",
+            "kea": "Undi ki ténpu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "tintu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1733",
+          "translation": "tinto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é tinto",
+            "kea": "Ka e tintu"
+          }
+        },
+        {
+          "id": "entry-3814",
+          "translation": "tinto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito tinto",
+            "kea": "El e muitu tintu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "tortu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1748",
+          "translation": "torto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Ele é muito torto",
+            "kea": "El e muitu tortu"
+          }
+        },
+        {
+          "id": "entry-3834",
+          "translation": "torto",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma coisa torto",
+            "kea": "Un koiza tortu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "trabadju",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1753",
+          "translation": "trabalho",
+          "category": "Nom",
+          "example": {
+            "pt": "O trabalho é bonito",
+            "kea": "Trabadju e bunitu"
+          }
+        },
+        {
+          "id": "entry-3840",
+          "translation": "trabalho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o trabalho?",
+            "kea": "Undi ki trabadju sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "treinu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1769",
+          "translation": "treino",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um treino",
+            "kea": "N ten un treinu"
+          }
+        },
+        {
+          "id": "entry-3856",
+          "translation": "treino",
+          "category": "Nom",
+          "example": {
+            "pt": "O treino é interessante",
+            "kea": "Treino e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "trigu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1773",
+          "translation": "trigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um trigo",
+            "kea": "N ten un trigu"
+          }
+        },
+        {
+          "id": "entry-3864",
+          "translation": "trigo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o trigo?",
+            "kea": "Undi ki trigu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "troka",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1778",
+          "translation": "trocar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Não quero trocar",
+            "kea": "N ka kre troka"
+          }
+        },
+        {
+          "id": "entry-3870",
+          "translation": "troca",
+          "category": "Nom",
+          "example": {
+            "pt": "O troca é interessante",
+            "kea": "Troca e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "tronku",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1779",
+          "translation": "tronco",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o tronco?",
+            "kea": "Undi ki tronku sta?"
+          }
+        },
+        {
+          "id": "entry-3874",
+          "translation": "tronco",
+          "category": "Nom",
+          "example": {
+            "pt": "O tronco é interessante",
+            "kea": "Tronco e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "tudu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1783",
+          "translation": "tudo / todo",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Uma pessoa tudo",
+            "kea": "Un pesoa tudu"
+          }
+        },
+        {
+          "id": "entry-3880",
+          "translation": "tudo / todo",
+          "category": "Pronom",
+          "example": {
+            "pt": "Tudo está aqui",
+            "kea": "Tudo sta li"
+          }
+        }
+      ]
+    },
+    {
+      "word": "txeu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1786",
+          "translation": "muito / cheio",
+          "category": "Adjectif",
+          "example": {
+            "pt": "Não é muito",
+            "kea": "Ka e txeu"
+          }
+        },
+        {
+          "id": "entry-4352",
+          "translation": "muito / cheio",
+          "category": "Adverbe",
+          "example": {
+            "pt": "Exemplo com \"muito / cheio\"",
+            "kea": "Exenplu ku \"txeu\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "universu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1803",
+          "translation": "universo",
+          "category": "Nom",
+          "example": {
+            "pt": "O universo é bonito",
+            "kea": "Universu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3894",
+          "translation": "universo",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um universo",
+            "kea": "N odja un universu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "ursu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1807",
+          "translation": "urso",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um urso",
+            "kea": "N ten un ursu"
+          }
+        },
+        {
+          "id": "entry-3898",
+          "translation": "urso",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o urso?",
+            "kea": "Undi ki ursu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vaka",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1812",
+          "translation": "vaca",
+          "category": "Nom",
+          "example": {
+            "pt": "Este vaca é meu",
+            "kea": "Es vaka e nha"
+          }
+        },
+        {
+          "id": "entry-3901",
+          "translation": "vaca",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um vaca",
+            "kea": "N odja un vaka"
+          }
+        }
+      ]
+    },
+    {
+      "word": "validadi",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1815",
+          "translation": "validade",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um validade",
+            "kea": "N ten un validadi"
+          }
+        },
+        {
+          "id": "entry-3909",
+          "translation": "validade",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um validade",
+            "kea": "N odja un validadi"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vasu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1823",
+          "translation": "vaso",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o vaso?",
+            "kea": "Undi ki vasu sta?"
+          }
+        },
+        {
+          "id": "entry-3916",
+          "translation": "vaso",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um vaso",
+            "kea": "N odja un vasu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "venenu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1829",
+          "translation": "veneno",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o veneno?",
+            "kea": "Undi ki venenu sta?"
+          }
+        },
+        {
+          "id": "entry-3928",
+          "translation": "veneno",
+          "category": "Nom",
+          "example": {
+            "pt": "O veneno é interessante",
+            "kea": "Veneno e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "ventu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1831",
+          "translation": "vento",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste vento",
+            "kea": "N gosta di es ventu"
+          }
+        },
+        {
+          "id": "entry-3930",
+          "translation": "vento",
+          "category": "Nom",
+          "example": {
+            "pt": "O vento é interessante",
+            "kea": "Vento e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "verdadi",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1834",
+          "translation": "verdade",
+          "category": "Nom",
+          "example": {
+            "pt": "O verdade é bonito",
+            "kea": "Verdadi e bunitu"
+          }
+        },
+        {
+          "id": "entry-3934",
+          "translation": "verdade",
+          "category": "Nom",
+          "example": {
+            "pt": "O verdade é interessante",
+            "kea": "Verdade e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vestidu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1839",
+          "translation": "vestido",
+          "category": "Nom",
+          "example": {
+            "pt": "O vestido é bonito",
+            "kea": "Vestidu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3943",
+          "translation": "vestido",
+          "category": "Nom",
+          "example": {
+            "pt": "O vestido é interessante",
+            "kea": "Vestido e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vidru",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1845",
+          "translation": "vidro",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu tenho um vidro",
+            "kea": "N ten un vidru"
+          }
+        },
+        {
+          "id": "entry-3952",
+          "translation": "vidro",
+          "category": "Nom",
+          "example": {
+            "pt": "O vidro é interessante",
+            "kea": "Vidro e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vingansa",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1848",
+          "translation": "vingança",
+          "category": "Nom",
+          "example": {
+            "pt": "Gosto deste vingança",
+            "kea": "N gosta di es vingansa"
+          }
+        },
+        {
+          "id": "entry-3954",
+          "translation": "vingança",
+          "category": "Nom",
+          "example": {
+            "pt": "O vingança é interessante",
+            "kea": "Vingança e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vinhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1849",
+          "translation": "vinho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o vinho?",
+            "kea": "Undi ki vinhu sta?"
+          }
+        },
+        {
+          "id": "entry-3956",
+          "translation": "vinho",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o vinho?",
+            "kea": "Undi ki vinhu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vistu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1857",
+          "translation": "visto",
+          "category": "Nom",
+          "example": {
+            "pt": "O visto é bonito",
+            "kea": "Vistu e bunitu"
+          }
+        },
+        {
+          "id": "entry-3967",
+          "translation": "visto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um visto",
+            "kea": "N odja un vistu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "vizinhu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1863",
+          "translation": "vizinho",
+          "category": "Nom",
+          "example": {
+            "pt": "Este vizinho é meu",
+            "kea": "Es vizinhu e nha"
+          }
+        },
+        {
+          "id": "entry-3972",
+          "translation": "vizinho",
+          "category": "Nom",
+          "example": {
+            "pt": "O vizinho é interessante",
+            "kea": "Vizinho e interesanti"
+          }
+        }
+      ]
+    },
+    {
+      "word": "votu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1868",
+          "translation": "voto",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o voto?",
+            "kea": "Undi ki votu sta?"
+          }
+        },
+        {
+          "id": "entry-3979",
+          "translation": "voto",
+          "category": "Nom",
+          "example": {
+            "pt": "Eu vi um voto",
+            "kea": "N odja un votu"
+          }
+        }
+      ]
+    },
+    {
+      "word": "zelu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-1899",
+          "translation": "zelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Este zelo é meu",
+            "kea": "Es zelu e nha"
+          }
+        },
+        {
+          "id": "entry-3988",
+          "translation": "zelo",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o zelo?",
+            "kea": "Undi ki zelu sta?"
+          }
+        }
+      ]
+    },
+    {
+      "word": "batiza",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-2388",
+          "translation": "batizar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Eu vou batizar",
+            "kea": "N ta batiza"
+          }
+        },
+        {
+          "id": "entry-4334",
+          "translation": "batizar",
+          "category": "Verbe",
+          "example": {
+            "pt": "Exemplo com \"batizar\"",
+            "kea": "Exenplu ku \"batiza\""
+          }
+        }
+      ]
+    },
+    {
+      "word": "reinu",
+      "count": 2,
+      "entries": [
+        {
+          "id": "entry-3588",
+          "translation": "reino",
+          "category": "Nom",
+          "example": {
+            "pt": "Onde está o reino?",
+            "kea": "Undi ki reinu sta?"
+          }
+        },
+        {
+          "id": "entry-4343",
+          "translation": "reino",
+          "category": "Nom",
+          "example": {
+            "pt": "Exemplo com \"reino\"",
+            "kea": "Exenplu ku \"reinu\""
+          }
+        }
+      ]
+    }
+  ]
+}
