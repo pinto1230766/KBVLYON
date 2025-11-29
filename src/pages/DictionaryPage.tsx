@@ -35,14 +35,12 @@ const DictionaryPage = () => {
 
   // Initialiser Fuse.js pour la recherche
   useEffect(() => {
-    const fuseOptions = {
       keys: [
-        { name: 'word', weight: 0.4 },
-        { name: 'translation.pt', weight: 0.3 },
-        { name: 'translation.kea', weight: 0.3 },
+        { name: 'word', weight: 0.5 },
+        { name: 'translation.pt', weight: 0.5 },
       ],
       includeScore: true,
-      threshold: 0.4,
+      threshold: 0.3,
       minMatchCharLength: 2,
       ignoreLocation: true,
     };
