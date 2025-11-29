@@ -171,13 +171,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-14",
-    "word": "abensua",
+    "word": "abênsua",
     "translation": {
       "pt": "abençoar"
     },
     "example": {
       "pt": "Vamos abençoar juntos",
-      "kea": "Nu bai abensua djuntu"
+      "kea": "Nu bai abênsua djuntu"
     },
     "category": "Verbe"
   },
@@ -9100,13 +9100,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-760",
-    "word": "fe",
+    "word": "fê",
     "translation": {
       "pt": "fé"
     },
     "example": {
       "pt": "Onde está o fé?",
-      "kea": "Undi ki fe sta?"
+      "kea": "Undi ki fê sta?"
     },
     "category": "Nom"
   },
@@ -13648,13 +13648,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1139",
-    "word": "mes",
+    "word": "mês",
     "translation": {
       "pt": "mês"
     },
     "example": {
       "pt": "Onde está o mês?",
-      "kea": "Undi ki mes sta?"
+      "kea": "Undi ki mês sta?"
     },
     "category": "Nom"
   },
@@ -15820,13 +15820,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1320",
-    "word": "pe",
+    "word": "pê",
     "translation": {
       "pt": "pé"
     },
     "example": {
       "pt": "Este pé é meu",
-      "kea": "Es pe e nha"
+      "kea": "Es pê e nha"
     },
     "category": "Nom"
   },
@@ -18916,13 +18916,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1578",
-    "word": "se",
+    "word": "sê",
     "translation": {
       "pt": "seu / se"
     },
     "example": {
       "pt": "Seu também",
-      "kea": "Se tanbé"
+      "kea": "sê tanbé"
     },
     "category": "Pronom"
   },
@@ -19348,13 +19348,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1614",
-    "word": "seu",
+    "word": "séu",
     "translation": {
       "pt": "céu"
     },
     "example": {
       "pt": "Onde está o céu?",
-      "kea": "Undi ki seu sta?"
+      "kea": "Undi ki séu sta?"
     },
     "category": "Nom"
   },
@@ -19624,13 +19624,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1637",
-    "word": "so",
+    "word": "sô",
     "translation": {
       "pt": "só"
     },
     "example": {
       "pt": "Ele fala só",
-      "kea": "El ta fala so"
+      "kea": "El ta fala sô"
     },
     "category": "Adverbe"
   },
@@ -20560,13 +20560,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1715",
-    "word": "tempu",
+    "word": "ténpu",
     "translation": {
       "pt": "tempo"
     },
     "example": {
       "pt": "Gosto deste tempo",
-      "kea": "N gosta di es tempu"
+      "kea": "N gosta di es ténpu"
     },
     "category": "Nom"
   },
@@ -21232,13 +21232,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-1771",
-    "word": "tres",
+    "word": "três",
     "translation": {
       "pt": "três"
     },
     "example": {
       "pt": "três pessoas",
-      "kea": "tres pesoa"
+      "kea": "três pesoa"
     },
     "category": "Nombre"
   },
@@ -45163,13 +45163,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-3787",
-    "word": "tempu",
+    "word": "ténpu",
     "translation": {
       "pt": "tempo"
     },
     "example": {
       "pt": "Onde está o tempo?",
-      "kea": "Undi ki tempu sta?"
+      "kea": "Undi ki ténpu sta?"
     },
     "category": "Nom"
   },
@@ -51007,13 +51007,13 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-4274",
-    "word": "tera",
+    "word": "téra",
     "translation": {
       "pt": "terra / país"
     },
     "example": {
       "pt": "O terra é interessante",
-      "kea": "Tera e interesanti"
+      "kea": "téra e interesanti"
     },
     "category": "Nom"
   },
