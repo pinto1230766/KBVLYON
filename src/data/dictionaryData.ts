@@ -3446,18 +3446,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-287",
-    "word": "arros",
-    "translation": {
-      "pt": "arroz"
-    },
-    "example": {
-      "pt": "Este arroz é meu",
-      "kea": "Es arros e nha"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-288",
     "word": "arruina",
     "translation": {
@@ -5472,18 +5460,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El e muitu baxu"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-456",
-    "word": "baza",
-    "translation": {
-      "pt": "vazar / despejar"
-    },
-    "example": {
-      "pt": "Ele gosta de vazar",
-      "kea": "El ta gosta di baza"
-    },
-    "category": "Verbe"
   },
   {
     "id": "entry-457",
@@ -9039,18 +9015,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-755",
-    "word": "fase",
-    "translation": {
-      "pt": "fazer"
-    },
-    "example": {
-      "pt": "Eu vou fazer",
-      "kea": "N ta fase"
-    },
-    "category": "Verbe"
-  },
-  {
     "id": "entry-756",
     "word": "fasi",
     "translation": {
@@ -9131,18 +9095,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Não é feio",
       "kea": "Ka e feiu"
-    },
-    "category": "Adjectif"
-  },
-  {
-    "id": "entry-763",
-    "word": "felis",
-    "translation": {
-      "pt": "feliz"
-    },
-    "example": {
-      "pt": "Não é feliz",
-      "kea": "Ka e felis"
     },
     "category": "Adjectif"
   },
@@ -11557,30 +11509,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Karu e bunitu"
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-965",
-    "word": "kasa",
-    "translation": {
-      "pt": "casa / casar"
-    },
-    "example": {
-      "pt": "A casa é bonita",
-      "kea": "Kasa e bunitu"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-966",
-    "word": "kaza",
-    "translation": {
-      "pt": "casar"
-    },
-    "example": {
-      "pt": "Ele gosta de casar",
-      "kea": "El ta gosta di kaza"
-    },
-    "category": "Verbe"
   },
   {
     "id": "entry-967",
@@ -14739,18 +14667,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-1230",
-    "word": "nos",
-    "translation": {
-      "pt": "nós / nosso"
-    },
-    "example": {
-      "pt": "É nós",
-      "kea": "E nos"
-    },
-    "category": "Pronom"
-  },
-  {
     "id": "entry-1231",
     "word": "nosa",
     "translation": {
@@ -17463,18 +17379,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-1458",
-    "word": "rais",
-    "translation": {
-      "pt": "raiz"
-    },
-    "example": {
-      "pt": "Onde está o raiz?",
-      "kea": "Undi ki rais sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-1459",
     "word": "rajan",
     "translation": {
@@ -17593,18 +17497,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Nu ten ki ranja agora"
     },
     "category": "Verbe"
-  },
-  {
-    "id": "entry-1469",
-    "word": "rapas",
-    "translation": {
-      "pt": "rapaz"
-    },
-    "example": {
-      "pt": "Este rapaz é meu",
-      "kea": "Es rapas e nha"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-1470",
@@ -25215,18 +25107,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Nom"
   },
   {
-    "id": "entry-2130",
-    "word": "bez",
-    "translation": {
-      "pt": "vez"
-    },
-    "example": {
-      "pt": "Onde está o vez?",
-      "kea": "Undi ki bez sta?"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-2131",
     "word": "bi?",
     "translation": {
@@ -28227,18 +28107,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Adjectif"
   },
   {
-    "id": "entry-2383",
-    "word": "basa",
-    "translation": {
-      "pt": "vazar / bazar"
-    },
-    "example": {
-      "pt": "Precisamos vazar agora",
-      "kea": "Nu ten ki basa agora"
-    },
-    "category": "Verbe"
-  },
-  {
     "id": "entry-2384",
     "word": "batadja",
     "translation": {
@@ -28297,18 +28165,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "N ta batiza"
     },
     "category": "Verbe"
-  },
-  {
-    "id": "entry-2389",
-    "word": "batizmu",
-    "translation": {
-      "pt": "batismo"
-    },
-    "example": {
-      "pt": "O batismo é interessante",
-      "kea": "Batizmu e interesanti"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-2390",
@@ -31657,30 +31513,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Kel-la parse doidu"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-2693",
-    "word": "dose",
-    "translation": {
-      "pt": "dose"
-    },
-    "example": {
-      "pt": "O dose é interessante",
-      "kea": "Dose e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-2694",
-    "word": "doze",
-    "translation": {
-      "pt": "doze"
-    },
-    "example": {
-      "pt": "O doze é interessante",
-      "kea": "Doze e interesanti"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-2695",
@@ -37657,18 +37489,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El e muitu novu"
     },
     "category": "Adjectif"
-  },
-  {
-    "id": "entry-3260",
-    "word": "noz",
-    "translation": {
-      "pt": "noz"
-    },
-    "example": {
-      "pt": "Eu vi um noz",
-      "kea": "N odja un noz"
-    },
-    "category": "Nom"
   },
   {
     "id": "entry-3261",
@@ -46779,18 +46599,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "category": "Verbe"
   },
   {
-    "id": "entry-4106",
-    "word": "kusa",
-    "translation": {
-      "pt": "coisa"
-    },
-    "example": {
-      "pt": "O coisa é interessante",
-      "kea": "Kusa e interesanti"
-    },
-    "category": "Nom"
-  },
-  {
     "id": "entry-4107",
     "word": "kuse",
     "translation": {
@@ -46847,18 +46655,6 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Eu vi um lição",
       "kea": "N odja un lisom"
-    },
-    "category": "Nom"
-  },
-  {
-    "id": "entry-4112",
-    "word": "lus",
-    "translation": {
-      "pt": "luz"
-    },
-    "example": {
-      "pt": "Onde está o luz?",
-      "kea": "Undi ki lus sta?"
     },
     "category": "Nom"
   },
@@ -49381,18 +49177,6 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Krist..."
     },
     "category": "Nom"
-  },
-  {
-    "id": "entry-4323",
-    "word": "faze",
-    "translation": {
-      "pt": "fazer"
-    },
-    "example": {
-      "pt": "Kel sakrifisiu li ta djuda tudu kes algen ki ta faze o quê ki Deus ta fla",
-      "kea": "Kel sakrifisiu li ta djuda tudu kes algen ki ta faze kuzê ki Deus ta fla"
-    },
-    "category": "Verbe"
   },
   {
     "id": "entry-4324",

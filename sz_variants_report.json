@@ -1,0 +1,517 @@
+{
+  "totalConflicts": 32,
+  "conflicts": [
+    {
+      "normalized": "abusadu",
+      "variants": [
+        {
+          "word": "abusadu",
+          "id": "entry-36",
+          "translation": "abusado / insolente"
+        },
+        {
+          "word": "abuzadu",
+          "id": "entry-2036",
+          "translation": "abusado / atrevido"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "akasu",
+      "variants": [
+        {
+          "word": "akasu",
+          "id": "entry-96",
+          "translation": "acaso"
+        },
+        {
+          "word": "akazu",
+          "id": "entry-98",
+          "translation": "acaso / acidente"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "arros",
+      "variants": [
+        {
+          "word": "arros",
+          "id": "entry-287",
+          "translation": "arroz"
+        },
+        {
+          "word": "arroz",
+          "id": "entry-3311",
+          "translation": "arroz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "asa",
+      "variants": [
+        {
+          "word": "asa",
+          "id": "entry-295",
+          "translation": "asa / assar"
+        },
+        {
+          "word": "aza",
+          "id": "entry-366",
+          "translation": "asa"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "babosa",
+      "variants": [
+        {
+          "word": "babosa",
+          "id": "entry-376",
+          "translation": "babosa"
+        },
+        {
+          "word": "baboza",
+          "id": "entry-2084",
+          "translation": "babosa (planta)"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "basi",
+      "variants": [
+        {
+          "word": "basi",
+          "id": "entry-439",
+          "translation": "base"
+        },
+        {
+          "word": "bazi",
+          "id": "entry-2393",
+          "translation": "vazio"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "basa",
+      "variants": [
+        {
+          "word": "baza",
+          "id": "entry-456",
+          "translation": "vazar / despejar"
+        },
+        {
+          "word": "basa",
+          "id": "entry-2383",
+          "translation": "vazar / bazar"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "blusa",
+      "variants": [
+        {
+          "word": "blusa",
+          "id": "entry-485",
+          "translation": "blusa"
+        },
+        {
+          "word": "bluza",
+          "id": "entry-2160",
+          "translation": "blusa"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "brasa",
+      "variants": [
+        {
+          "word": "brasa",
+          "id": "entry-514",
+          "translation": "brasa"
+        },
+        {
+          "word": "braza",
+          "id": "entry-2464",
+          "translation": "brasa"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "fantasia",
+      "variants": [
+        {
+          "word": "fantasia",
+          "id": "entry-749",
+          "translation": "fantasia"
+        },
+        {
+          "word": "fantazia",
+          "id": "entry-2777",
+          "translation": "fantasia"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "fase",
+      "variants": [
+        {
+          "word": "fase",
+          "id": "entry-755",
+          "translation": "fazer"
+        },
+        {
+          "word": "faze",
+          "id": "entry-4323",
+          "translation": "fazer"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "felis",
+      "variants": [
+        {
+          "word": "felis",
+          "id": "entry-763",
+          "translation": "feliz"
+        },
+        {
+          "word": "feliz",
+          "id": "entry-2790",
+          "translation": "feliz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "ilusao",
+      "variants": [
+        {
+          "word": "iluzao",
+          "id": "entry-871",
+          "translation": "ilusão"
+        },
+        {
+          "word": "ilusao",
+          "id": "entry-2913",
+          "translation": "ilusão"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "kamisa",
+      "variants": [
+        {
+          "word": "kamiza",
+          "id": "entry-952",
+          "translation": "camisa"
+        },
+        {
+          "word": "kamisa",
+          "id": "entry-2494",
+          "translation": "camisa"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "kapas",
+      "variants": [
+        {
+          "word": "kapas",
+          "id": "entry-956",
+          "translation": "capaz / possível"
+        },
+        {
+          "word": "kapaz",
+          "id": "entry-2499",
+          "translation": "capaz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "kasa",
+      "variants": [
+        {
+          "word": "kasa",
+          "id": "entry-965",
+          "translation": "casa / casar"
+        },
+        {
+          "word": "kaza",
+          "id": "entry-966",
+          "translation": "casar"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "lus",
+      "variants": [
+        {
+          "word": "luz",
+          "id": "entry-1087",
+          "translation": "luz"
+        },
+        {
+          "word": "lus",
+          "id": "entry-4112",
+          "translation": "luz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "nos",
+      "variants": [
+        {
+          "word": "nos",
+          "id": "entry-1230",
+          "translation": "nós / nosso"
+        },
+        {
+          "word": "noz",
+          "id": "entry-3260",
+          "translation": "noz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "rais",
+      "variants": [
+        {
+          "word": "rais",
+          "id": "entry-1458",
+          "translation": "raiz"
+        },
+        {
+          "word": "raiz",
+          "id": "entry-3561",
+          "translation": "raiz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "rapas",
+      "variants": [
+        {
+          "word": "rapas",
+          "id": "entry-1469",
+          "translation": "rapaz"
+        },
+        {
+          "word": "rapaz",
+          "id": "entry-3566",
+          "translation": "rapaz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "rasa",
+      "variants": [
+        {
+          "word": "rasa",
+          "id": "entry-1474",
+          "translation": "raça"
+        },
+        {
+          "word": "raza",
+          "id": "entry-1479",
+          "translation": "rasa / cheia até a borda"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "surpresa",
+      "variants": [
+        {
+          "word": "surpreza",
+          "id": "entry-1681",
+          "translation": "surpresa"
+        },
+        {
+          "word": "surpresa",
+          "id": "entry-3748",
+          "translation": "surpresa"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "s",
+      "variants": [
+        {
+          "word": "z",
+          "id": "entry-1896",
+          "translation": "z (letra)"
+        },
+        {
+          "word": "s",
+          "id": "entry-3641",
+          "translation": "letra s"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "selu",
+      "variants": [
+        {
+          "word": "zelu",
+          "id": "entry-1899",
+          "translation": "zelo"
+        },
+        {
+          "word": "selu",
+          "id": "entry-3679",
+          "translation": "selo"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "aros",
+      "variants": [
+        {
+          "word": "aros",
+          "id": "entry-1953",
+          "translation": "arroz"
+        },
+        {
+          "word": "aroz",
+          "id": "entry-2312",
+          "translation": "arroz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "aplausu",
+      "variants": [
+        {
+          "word": "aplauzu",
+          "id": "entry-2079",
+          "translation": "aplauso"
+        },
+        {
+          "word": "aplausu",
+          "id": "entry-2297",
+          "translation": "aplauso"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "aprendis",
+      "variants": [
+        {
+          "word": "aprendiz",
+          "id": "entry-2080",
+          "translation": "aprendiz"
+        },
+        {
+          "word": "aprendis",
+          "id": "entry-2299",
+          "translation": "aprendiz"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "batismu",
+      "variants": [
+        {
+          "word": "batismu",
+          "id": "entry-2125",
+          "translation": "batismo"
+        },
+        {
+          "word": "batizmu",
+          "id": "entry-2389",
+          "translation": "batismo"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "bes",
+      "variants": [
+        {
+          "word": "bez",
+          "id": "entry-2130",
+          "translation": "vez"
+        },
+        {
+          "word": "bes",
+          "id": "entry-2415",
+          "translation": "vez"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "dose",
+      "variants": [
+        {
+          "word": "dose",
+          "id": "entry-2693",
+          "translation": "dose"
+        },
+        {
+          "word": "doze",
+          "id": "entry-2694",
+          "translation": "doze"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "sinku",
+      "variants": [
+        {
+          "word": "zinku",
+          "id": "entry-3989",
+          "translation": "zinco"
+        },
+        {
+          "word": "sinku",
+          "id": "entry-4242",
+          "translation": "cinco"
+        }
+      ],
+      "recommendation": null
+    },
+    {
+      "normalized": "kusa",
+      "variants": [
+        {
+          "word": "kusa",
+          "id": "entry-4106",
+          "translation": "coisa"
+        },
+        {
+          "word": "kuza",
+          "id": "entry-4309",
+          "translation": "coisa"
+        }
+      ],
+      "recommendation": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "incorrect": "arros",
+    "correct": "arroz",
+    "id": "entry-287",
+    "translation": "arroz"
+  },
+  {
+    "incorrect": "baza",
+    "correct": "basa",
+    "id": "entry-456",
+    "translation": "vazar / despejar"
+  },
+  {
+    "incorrect": "fase",
+    "correct": "faze",
+    "id": "entry-755",
+    "translation": "fazer"
+  },
+  {
+    "incorrect": "felis",
+    "correct": "feliz",
+    "id": "entry-763",
+    "translation": "feliz"
+  },
+  {
+    "incorrect": "kasa",
+    "correct": "kaza",
+    "id": "entry-965",
+    "translation": "casa / casar"
+  },
+  {
+    "incorrect": "kaza",
+    "correct": "kasa",
+    "id": "entry-966",
+    "translation": "casar"
+  },
+  {
+    "incorrect": "nos",
+    "correct": "noz",
+    "id": "entry-1230",
+    "translation": "nós / nosso"
+  },
+  {
+    "incorrect": "rais",
+    "correct": "raiz",
+    "id": "entry-1458",
+    "translation": "raiz"
+  },
+  {
+    "incorrect": "rapas",
+    "correct": "rapaz",
+    "id": "entry-1469",
+    "translation": "rapaz"
+  },
+  {
+    "incorrect": "bez",
+    "correct": "bes",
+    "id": "entry-2130",
+    "translation": "vez"
+  },
+  {
+    "incorrect": "basa",
+    "correct": "baza",
+    "id": "entry-2383",
+    "translation": "vazar / bazar"
+  },
+  {
+    "incorrect": "batizmu",
+    "correct": "batismu",
+    "id": "entry-2389",
+    "translation": "batismo"
+  },
+  {
+    "incorrect": "dose",
+    "correct": "doze",
+    "id": "entry-2693",
+    "translation": "dose"
+  },
+  {
+    "incorrect": "doze",
+    "correct": "dose",
+    "id": "entry-2694",
+    "translation": "doze"
+  },
+  {
+    "incorrect": "noz",
+    "correct": "nos",
+    "id": "entry-3260",
+    "translation": "noz"
+  },
+  {
+    "incorrect": "kusa",
+    "correct": "kuza",
+    "id": "entry-4106",
+    "translation": "coisa"
+  },
+  {
+    "incorrect": "lus",
+    "correct": "luz",
+    "id": "entry-4112",
+    "translation": "luz"
+  },
+  {
+    "incorrect": "faze",
+    "correct": "fase",
+    "id": "entry-4323",
+    "translation": "fazer"
+  }
+]
