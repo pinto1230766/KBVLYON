@@ -51,7 +51,7 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-4",
-    "word": "abakati",
+    "word": "abakáti",
     "translation": {
       "pt": "abacate"
     },
@@ -2175,7 +2175,7 @@ export const dictionaryData: DictionaryEntry[] = [
   },
   {
     "id": "entry-181",
-    "word": "amen",
+    "word": "Amen",
     "translation": {
       "pt": "amém"
     },
@@ -26534,6 +26534,21078 @@ export const dictionaryData: DictionaryEntry[] = [
     "example": {
       "pt": "Onde está o dúvida?",
       "kea": "Undi ki duvilda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2235",
+    "word": "abonu",
+    "translation": {
+      "pt": "subsídio"
+    },
+    "example": {
+      "pt": "Eu vi um subsídio",
+      "kea": "N odja un abonu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2236",
+    "word": "abordu",
+    "translation": {
+      "pt": "a bordo"
+    },
+    "example": {
+      "pt": "Vou a bordo",
+      "kea": "N ta bai abordu"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2237",
+    "word": "aboresidu",
+    "translation": {
+      "pt": "aborrecido / chateado"
+    },
+    "example": {
+      "pt": "Ele é muito aborrecido",
+      "kea": "El e muitu aboresidu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2238",
+    "word": "abribu",
+    "translation": {
+      "pt": "abrigo"
+    },
+    "example": {
+      "pt": "O abrigo é interessante",
+      "kea": "Abribu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2239",
+    "word": "admiradu",
+    "translation": {
+      "pt": "admirado"
+    },
+    "example": {
+      "pt": "Uma coisa admirado",
+      "kea": "Un koiza admiradu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2240",
+    "word": "admiravel",
+    "translation": {
+      "pt": "admirável"
+    },
+    "example": {
+      "pt": "Isso parece admirável",
+      "kea": "Kel-la parse admiravel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2241",
+    "word": "admiti",
+    "translation": {
+      "pt": "admitir"
+    },
+    "example": {
+      "pt": "Eu vou admitir",
+      "kea": "N ta admiti"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2242",
+    "word": "adota",
+    "translation": {
+      "pt": "adotar"
+    },
+    "example": {
+      "pt": "Eu vou adotar",
+      "kea": "N ta adota"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2243",
+    "word": "adumbulo",
+    "translation": {
+      "pt": "adúltero"
+    },
+    "example": {
+      "pt": "O adúltero é interessante",
+      "kea": "Adumbulo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2244",
+    "word": "afogadu",
+    "translation": {
+      "pt": "afogado"
+    },
+    "example": {
+      "pt": "Isso parece afogado",
+      "kea": "Kel-la parse afogadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2245",
+    "word": "afta",
+    "translation": {
+      "pt": "afta"
+    },
+    "example": {
+      "pt": "Onde está o afta?",
+      "kea": "Undi ki afta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2246",
+    "word": "agencia",
+    "translation": {
+      "pt": "agência"
+    },
+    "example": {
+      "pt": "Eu vi um agência",
+      "kea": "N odja un agencia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2247",
+    "word": "agenti",
+    "translation": {
+      "pt": "agente"
+    },
+    "example": {
+      "pt": "Onde está o agente?",
+      "kea": "Undi ki agenti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2248",
+    "word": "agonia",
+    "translation": {
+      "pt": "agonia"
+    },
+    "example": {
+      "pt": "Eu vi um agonia",
+      "kea": "N odja un agonia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2249",
+    "word": "agresor",
+    "translation": {
+      "pt": "agressor"
+    },
+    "example": {
+      "pt": "Onde está o agressor?",
+      "kea": "Undi ki agresor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2250",
+    "word": "agu-pé",
+    "translation": {
+      "pt": "pé d'água / enxurrada"
+    },
+    "example": {
+      "pt": "Onde está o pé d'água?",
+      "kea": "Undi ki agu-pé sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2251",
+    "word": "aì",
+    "translation": {
+      "pt": "aí"
+    },
+    "example": {
+      "pt": "Faça aí",
+      "kea": "Faze aì"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2252",
+    "word": "ainda",
+    "translation": {
+      "pt": "ainda"
+    },
+    "example": {
+      "pt": "Vou ainda",
+      "kea": "N ta bai ainda"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2253",
+    "word": "ajill",
+    "translation": {
+      "pt": "ágil"
+    },
+    "example": {
+      "pt": "Isso parece ágil",
+      "kea": "Kel-la parse ajill"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2254",
+    "word": "akampamentu",
+    "translation": {
+      "pt": "acampamento"
+    },
+    "example": {
+      "pt": "Eu vi um acampamento",
+      "kea": "N odja un akampamentu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2255",
+    "word": "akaso",
+    "translation": {
+      "pt": "acaso"
+    },
+    "example": {
+      "pt": "Eu vi um acaso",
+      "kea": "N odja un akaso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2256",
+    "word": "akordadu",
+    "translation": {
+      "pt": "acordado"
+    },
+    "example": {
+      "pt": "Ele é muito acordado",
+      "kea": "El e muitu akordadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2257",
+    "word": "alavanka",
+    "translation": {
+      "pt": "alavanca / mudanças (carro)"
+    },
+    "example": {
+      "pt": "Onde está o alavanca?",
+      "kea": "Undi ki alavanka sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2258",
+    "word": "aleija",
+    "translation": {
+      "pt": "aleijar"
+    },
+    "example": {
+      "pt": "Eu vou aleijar",
+      "kea": "N ta aleija"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2259",
+    "word": "aleijadu",
+    "translation": {
+      "pt": "aleijado"
+    },
+    "example": {
+      "pt": "Uma coisa aleijado",
+      "kea": "Un koiza aleijadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2260",
+    "word": "algem",
+    "translation": {
+      "pt": "algúem"
+    },
+    "example": {
+      "pt": "Algúem está aqui",
+      "kea": "Algem sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2261",
+    "word": "aliança",
+    "translation": {
+      "pt": "aliança"
+    },
+    "example": {
+      "pt": "O aliança é interessante",
+      "kea": "Aliança e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2262",
+    "word": "alilas",
+    "translation": {
+      "pt": "lilás / roxo"
+    },
+    "example": {
+      "pt": "Isso parece lilás",
+      "kea": "Kel-la parse alilas"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2263",
+    "word": "alimento",
+    "translation": {
+      "pt": "alimento"
+    },
+    "example": {
+      "pt": "Eu vi um alimento",
+      "kea": "N odja un alimento"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2264",
+    "word": "alkol",
+    "translation": {
+      "pt": "álcool"
+    },
+    "example": {
+      "pt": "Eu vi um álcool",
+      "kea": "N odja un alkol"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2265",
+    "word": "alkoliku",
+    "translation": {
+      "pt": "alcoólico"
+    },
+    "example": {
+      "pt": "Ele é muito alcoólico",
+      "kea": "El e muitu alkoliku"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2266",
+    "word": "almanak",
+    "translation": {
+      "pt": "almanaque"
+    },
+    "example": {
+      "pt": "Eu vi um almanaque",
+      "kea": "N odja un almanak"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2267",
+    "word": "almiranti",
+    "translation": {
+      "pt": "almirante"
+    },
+    "example": {
+      "pt": "O almirante é interessante",
+      "kea": "Almiranti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2268",
+    "word": "almosu",
+    "translation": {
+      "pt": "almoço"
+    },
+    "example": {
+      "pt": "O almoço é interessante",
+      "kea": "Almosu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2269",
+    "word": "almurudia",
+    "translation": {
+      "pt": "hemorróida"
+    },
+    "example": {
+      "pt": "Onde está o hemorróida?",
+      "kea": "Undi ki almurudia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2270",
+    "word": "alta",
+    "translation": {
+      "pt": "alta (médica)"
+    },
+    "example": {
+      "pt": "Eu vi um alta (médica)",
+      "kea": "N odja un alta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2271",
+    "word": "altar",
+    "translation": {
+      "pt": "altar"
+    },
+    "example": {
+      "pt": "Onde está o altar?",
+      "kea": "Undi ki altar sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2272",
+    "word": "alternativa",
+    "translation": {
+      "pt": "alternativa"
+    },
+    "example": {
+      "pt": "Onde está o alternativa?",
+      "kea": "Undi ki alternativa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2273",
+    "word": "aluminiu",
+    "translation": {
+      "pt": "alumínio"
+    },
+    "example": {
+      "pt": "Eu vi um alumínio",
+      "kea": "N odja un aluminiu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2274",
+    "word": "amador",
+    "translation": {
+      "pt": "amador"
+    },
+    "example": {
+      "pt": "Onde está o amador?",
+      "kea": "Undi ki amador sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2275",
+    "word": "amanti",
+    "translation": {
+      "pt": "amante"
+    },
+    "example": {
+      "pt": "O amante é interessante",
+      "kea": "Amanti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2276",
+    "word": "amarela",
+    "translation": {
+      "pt": "amarela"
+    },
+    "example": {
+      "pt": "Ele é muito amarela",
+      "kea": "El e muitu amarela"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2277",
+    "word": "ambison",
+    "translation": {
+      "pt": "ambição"
+    },
+    "example": {
+      "pt": "Eu vi um ambição",
+      "kea": "N odja un ambison"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2278",
+    "word": "ambulansia",
+    "translation": {
+      "pt": "ambulância"
+    },
+    "example": {
+      "pt": "Onde está o ambulância?",
+      "kea": "Undi ki ambulansia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2279",
+    "word": "amendoa",
+    "translation": {
+      "pt": "amêndoa"
+    },
+    "example": {
+      "pt": "O amêndoa é interessante",
+      "kea": "Amendoa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2280",
+    "word": "amper",
+    "translation": {
+      "pt": "ampere"
+    },
+    "example": {
+      "pt": "Eu vi um ampere",
+      "kea": "N odja un amper"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2281",
+    "word": "amputa",
+    "translation": {
+      "pt": "amputar"
+    },
+    "example": {
+      "pt": "Ele gosta de amputar",
+      "kea": "El ta gosta di amputa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2282",
+    "word": "analizi",
+    "translation": {
+      "pt": "análise"
+    },
+    "example": {
+      "pt": "Onde está o análise?",
+      "kea": "Undi ki analizi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2283",
+    "word": "anarkia",
+    "translation": {
+      "pt": "anarquia"
+    },
+    "example": {
+      "pt": "Eu vi um anarquia",
+      "kea": "N odja un anarkia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2284",
+    "word": "anatomia",
+    "translation": {
+      "pt": "anatomia"
+    },
+    "example": {
+      "pt": "O anatomia é interessante",
+      "kea": "Anatomia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2285",
+    "word": "anestesia",
+    "translation": {
+      "pt": "anestesia"
+    },
+    "example": {
+      "pt": "Eu vi um anestesia",
+      "kea": "N odja un anestesia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2286",
+    "word": "anfiteatru",
+    "translation": {
+      "pt": "anfiteatro"
+    },
+    "example": {
+      "pt": "O anfiteatro é interessante",
+      "kea": "Anfiteatru e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2287",
+    "word": "anita",
+    "translation": {
+      "pt": "índigo / anil"
+    },
+    "example": {
+      "pt": "Onde está o índigo?",
+      "kea": "Undi ki anita sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2288",
+    "word": "anjo",
+    "translation": {
+      "pt": "anjo"
+    },
+    "example": {
+      "pt": "Eu vi um anjo",
+      "kea": "N odja un anjo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2289",
+    "word": "anonymu",
+    "translation": {
+      "pt": "anónimo"
+    },
+    "example": {
+      "pt": "Ele é muito anónimo",
+      "kea": "El e muitu anonymu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2290",
+    "word": "ansiol",
+    "translation": {
+      "pt": "anzol"
+    },
+    "example": {
+      "pt": "Onde está o anzol?",
+      "kea": "Undi ki ansiol sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2291",
+    "word": "anti-kristu",
+    "translation": {
+      "pt": "anticristo"
+    },
+    "example": {
+      "pt": "Eu vi um anticristo",
+      "kea": "N odja un anti-kristu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2292",
+    "word": "antonia",
+    "translation": {
+      "pt": "Antónia"
+    },
+    "example": {
+      "pt": "O Antónia é interessante",
+      "kea": "Antonia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2293",
+    "word": "anunciu",
+    "translation": {
+      "pt": "anúncio"
+    },
+    "example": {
+      "pt": "O anúncio é interessante",
+      "kea": "Anunciu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2294",
+    "word": "apagalume",
+    "translation": {
+      "pt": "vagalume"
+    },
+    "example": {
+      "pt": "Eu vi um vagalume",
+      "kea": "N odja un apagalume"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2295",
+    "word": "apelu",
+    "translation": {
+      "pt": "apelo"
+    },
+    "example": {
+      "pt": "Onde está o apelo?",
+      "kea": "Undi ki apelu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2296",
+    "word": "apena",
+    "translation": {
+      "pt": "apenas"
+    },
+    "example": {
+      "pt": "Faça apenas",
+      "kea": "Faze apena"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2297",
+    "word": "aplausu",
+    "translation": {
+      "pt": "aplauso"
+    },
+    "example": {
+      "pt": "Eu vi um aplauso",
+      "kea": "N odja un aplausu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2298",
+    "word": "apostolu",
+    "translation": {
+      "pt": "apóstolo"
+    },
+    "example": {
+      "pt": "Onde está o apóstolo?",
+      "kea": "Undi ki apostolu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2299",
+    "word": "aprendis",
+    "translation": {
+      "pt": "aprendiz"
+    },
+    "example": {
+      "pt": "Onde está o aprendiz?",
+      "kea": "Undi ki aprendis sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2300",
+    "word": "aprozima",
+    "translation": {
+      "pt": "aproximar"
+    },
+    "example": {
+      "pt": "Eu vou aproximar",
+      "kea": "N ta aprozima"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2301",
+    "word": "aptidao",
+    "translation": {
+      "pt": "aptidão"
+    },
+    "example": {
+      "pt": "O aptidão é interessante",
+      "kea": "Aptidao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2302",
+    "word": "ardu",
+    "translation": {
+      "pt": "árduo"
+    },
+    "example": {
+      "pt": "Isso parece árduo",
+      "kea": "Kel-la parse ardu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2303",
+    "word": "arena",
+    "translation": {
+      "pt": "arena"
+    },
+    "example": {
+      "pt": "O arena é interessante",
+      "kea": "Arena e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2304",
+    "word": "aritenetika",
+    "translation": {
+      "pt": "aritmética"
+    },
+    "example": {
+      "pt": "Onde está o aritmética?",
+      "kea": "Undi ki aritenetika sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2305",
+    "word": "arkanj",
+    "translation": {
+      "pt": "arcanjo"
+    },
+    "example": {
+      "pt": "O arcanjo é interessante",
+      "kea": "Arkanj e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2306",
+    "word": "arkivu",
+    "translation": {
+      "pt": "arquivo"
+    },
+    "example": {
+      "pt": "Onde está o arquivo?",
+      "kea": "Undi ki arkivu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2307",
+    "word": "arku-iris",
+    "translation": {
+      "pt": "arco-íris"
+    },
+    "example": {
+      "pt": "Eu vi um arco-íris",
+      "kea": "N odja un arku-iris"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2308",
+    "word": "armada",
+    "translation": {
+      "pt": "armada"
+    },
+    "example": {
+      "pt": "O armada é interessante",
+      "kea": "Armada e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2309",
+    "word": "armaduria",
+    "translation": {
+      "pt": "armadura"
+    },
+    "example": {
+      "pt": "Onde está o armadura?",
+      "kea": "Undi ki armaduria sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2310",
+    "word": "armazem",
+    "translation": {
+      "pt": "armazém"
+    },
+    "example": {
+      "pt": "O armazém é interessante",
+      "kea": "Armazem e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2311",
+    "word": "aroma",
+    "translation": {
+      "pt": "aroma"
+    },
+    "example": {
+      "pt": "Eu vi um aroma",
+      "kea": "N odja un aroma"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2312",
+    "word": "aroz",
+    "translation": {
+      "pt": "arroz"
+    },
+    "example": {
+      "pt": "Eu vi um arroz",
+      "kea": "N odja un aroz"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2313",
+    "word": "arranja",
+    "translation": {
+      "pt": "arranjar"
+    },
+    "example": {
+      "pt": "Eu vou arranjar",
+      "kea": "N ta arranja"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2314",
+    "word": "arrependi",
+    "translation": {
+      "pt": "arrepender"
+    },
+    "example": {
+      "pt": "Precisamos arrepender agora",
+      "kea": "Nu ten ki arrependi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2315",
+    "word": "arte",
+    "translation": {
+      "pt": "arte"
+    },
+    "example": {
+      "pt": "Eu vi um arte",
+      "kea": "N odja un arte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2316",
+    "word": "asaltu",
+    "translation": {
+      "pt": "assalto"
+    },
+    "example": {
+      "pt": "Onde está o assalto?",
+      "kea": "Undi ki asaltu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2317",
+    "word": "asasinatu",
+    "translation": {
+      "pt": "assassinato"
+    },
+    "example": {
+      "pt": "Eu vi um assassinato",
+      "kea": "N odja un asasinatu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2318",
+    "word": "asasinu",
+    "translation": {
+      "pt": "assassino"
+    },
+    "example": {
+      "pt": "O assassino é interessante",
+      "kea": "Asasinu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2319",
+    "word": "aseita",
+    "translation": {
+      "pt": "aceitar"
+    },
+    "example": {
+      "pt": "Eu vou aceitar",
+      "kea": "N ta aseita"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2320",
+    "word": "aselerador",
+    "translation": {
+      "pt": "acelerador"
+    },
+    "example": {
+      "pt": "O acelerador é interessante",
+      "kea": "Aselerador e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2321",
+    "word": "asenta",
+    "translation": {
+      "pt": "assentar"
+    },
+    "example": {
+      "pt": "Precisamos assentar agora",
+      "kea": "Nu ten ki asenta agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2322",
+    "word": "asertu",
+    "translation": {
+      "pt": "acerto"
+    },
+    "example": {
+      "pt": "Onde está o acerto?",
+      "kea": "Undi ki asertu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2323",
+    "word": "asesor",
+    "translation": {
+      "pt": "assessor"
+    },
+    "example": {
+      "pt": "O assessor é interessante",
+      "kea": "Asesor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2324",
+    "word": "asidu",
+    "translation": {
+      "pt": "ácido"
+    },
+    "example": {
+      "pt": "Eu vi um ácido",
+      "kea": "N odja un asidu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2325",
+    "word": "asinatura",
+    "translation": {
+      "pt": "assinatura"
+    },
+    "example": {
+      "pt": "O assinatura é interessante",
+      "kea": "Asinatura e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2326",
+    "word": "asocieson",
+    "translation": {
+      "pt": "associação"
+    },
+    "example": {
+      "pt": "Eu vi um associação",
+      "kea": "N odja un asocieson"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2327",
+    "word": "aspeta",
+    "translation": {
+      "pt": "aspeto"
+    },
+    "example": {
+      "pt": "O aspeto é interessante",
+      "kea": "Aspeta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2328",
+    "word": "aspirador",
+    "translation": {
+      "pt": "aspirador"
+    },
+    "example": {
+      "pt": "Eu vi um aspirador",
+      "kea": "N odja un aspirador"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2329",
+    "word": "astronomia",
+    "translation": {
+      "pt": "astronomia"
+    },
+    "example": {
+      "pt": "Onde está o astronomia?",
+      "kea": "Undi ki astronomia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2330",
+    "word": "asucar",
+    "translation": {
+      "pt": "açúcar"
+    },
+    "example": {
+      "pt": "O açúcar é interessante",
+      "kea": "Asucar e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2331",
+    "word": "ataki",
+    "translation": {
+      "pt": "ataque"
+    },
+    "example": {
+      "pt": "O ataque é interessante",
+      "kea": "Ataki e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2332",
+    "word": "ateu",
+    "translation": {
+      "pt": "ateu"
+    },
+    "example": {
+      "pt": "Onde está o ateu?",
+      "kea": "Undi ki ateu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2333",
+    "word": "atitud",
+    "translation": {
+      "pt": "atitude"
+    },
+    "example": {
+      "pt": "Eu vi um atitude",
+      "kea": "N odja un atitud"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2334",
+    "word": "atom",
+    "translation": {
+      "pt": "átomo"
+    },
+    "example": {
+      "pt": "Eu vi um átomo",
+      "kea": "N odja un atom"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2335",
+    "word": "atrai",
+    "translation": {
+      "pt": "atrair"
+    },
+    "example": {
+      "pt": "Eu vou atrair",
+      "kea": "N ta atrai"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2336",
+    "word": "atrapalia",
+    "translation": {
+      "pt": "atrapalhar"
+    },
+    "example": {
+      "pt": "Ele gosta de atrapalhar",
+      "kea": "El ta gosta di atrapalia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2337",
+    "word": "atras",
+    "translation": {
+      "pt": "atrás"
+    },
+    "example": {
+      "pt": "Vou atrás",
+      "kea": "N ta bai atras"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2338",
+    "word": "atrevidu",
+    "translation": {
+      "pt": "atrevido"
+    },
+    "example": {
+      "pt": "Uma coisa atrevido",
+      "kea": "Un koiza atrevidu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2339",
+    "word": "atribuison",
+    "translation": {
+      "pt": "atribuição"
+    },
+    "example": {
+      "pt": "Eu vi um atribuição",
+      "kea": "N odja un atribuison"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2340",
+    "word": "atriz",
+    "translation": {
+      "pt": "atriz"
+    },
+    "example": {
+      "pt": "Eu vi um atriz",
+      "kea": "N odja un atriz"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2341",
+    "word": "audiensia",
+    "translation": {
+      "pt": "audiência"
+    },
+    "example": {
+      "pt": "Onde está o audiência?",
+      "kea": "Undi ki audiensia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2342",
+    "word": "aumentu",
+    "translation": {
+      "pt": "aumento"
+    },
+    "example": {
+      "pt": "Eu vi um aumento",
+      "kea": "N odja un aumentu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2343",
+    "word": "aurora",
+    "translation": {
+      "pt": "aurora"
+    },
+    "example": {
+      "pt": "Onde está o aurora?",
+      "kea": "Undi ki aurora sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2344",
+    "word": "autarkia",
+    "translation": {
+      "pt": "autarquia"
+    },
+    "example": {
+      "pt": "Eu vi um autarquia",
+      "kea": "N odja un autarkia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2345",
+    "word": "autentiku",
+    "translation": {
+      "pt": "autêntico"
+    },
+    "example": {
+      "pt": "Uma coisa autêntico",
+      "kea": "Un koiza autentiku"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2346",
+    "word": "autonomia",
+    "translation": {
+      "pt": "autonomia"
+    },
+    "example": {
+      "pt": "Eu vi um autonomia",
+      "kea": "N odja un autonomia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2347",
+    "word": "autoriza",
+    "translation": {
+      "pt": "autorizar"
+    },
+    "example": {
+      "pt": "Ele gosta de autorizar",
+      "kea": "El ta gosta di autoriza"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2348",
+    "word": "auxilia",
+    "translation": {
+      "pt": "auxiliar"
+    },
+    "example": {
+      "pt": "Precisamos auxiliar agora",
+      "kea": "Nu ten ki auxilia agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2349",
+    "word": "avansadu",
+    "translation": {
+      "pt": "avançado"
+    },
+    "example": {
+      "pt": "Ele é muito avançado",
+      "kea": "El e muitu avansadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2350",
+    "word": "avesu",
+    "translation": {
+      "pt": "avesso"
+    },
+    "example": {
+      "pt": "Ele é muito avesso",
+      "kea": "El e muitu avesu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2351",
+    "word": "aviador",
+    "translation": {
+      "pt": "aviador"
+    },
+    "example": {
+      "pt": "Eu vi um aviador",
+      "kea": "N odja un aviador"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2352",
+    "word": "axibi",
+    "translation": {
+      "pt": "exibir"
+    },
+    "example": {
+      "pt": "Precisamos exibir agora",
+      "kea": "Nu ten ki axibi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2353",
+    "word": "azaron",
+    "translation": {
+      "pt": "azarão / azarado"
+    },
+    "example": {
+      "pt": "O azarão é interessante",
+      "kea": "Azaron e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2354",
+    "word": "azeadu",
+    "translation": {
+      "pt": "asseado"
+    },
+    "example": {
+      "pt": "Uma coisa asseado",
+      "kea": "Un koiza azeadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2355",
+    "word": "azeitona",
+    "translation": {
+      "pt": "azeitona"
+    },
+    "example": {
+      "pt": "Onde está o azeitona?",
+      "kea": "Undi ki azeitona sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2356",
+    "word": "bagajen",
+    "translation": {
+      "pt": "bagagem"
+    },
+    "example": {
+      "pt": "Eu vi um bagagem",
+      "kea": "N odja un bagajen"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2357",
+    "word": "bairu",
+    "translation": {
+      "pt": "bairro"
+    },
+    "example": {
+      "pt": "O bairro é interessante",
+      "kea": "Bairu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2358",
+    "word": "bixu",
+    "translation": {
+      "pt": "bicho / inseto"
+    },
+    "example": {
+      "pt": "Onde está o bicho?",
+      "kea": "Undi ki bixu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2359",
+    "word": "bixu-kastu",
+    "translation": {
+      "pt": "escaravelho"
+    },
+    "example": {
+      "pt": "Eu vi um escaravelho",
+      "kea": "N odja un bixu-kastu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2360",
+    "word": "bakan",
+    "translation": {
+      "pt": "bacano / porreiro"
+    },
+    "example": {
+      "pt": "Isso parece bacano",
+      "kea": "Kel-la parse bakan"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2361",
+    "word": "bakandesa",
+    "translation": {
+      "pt": "parvoíce / estupidez"
+    },
+    "example": {
+      "pt": "O parvoíce é interessante",
+      "kea": "Bakandesa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2362",
+    "word": "balansu",
+    "translation": {
+      "pt": "balanço"
+    },
+    "example": {
+      "pt": "O balanço é interessante",
+      "kea": "Balansu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2363",
+    "word": "balcon",
+    "translation": {
+      "pt": "balcão"
+    },
+    "example": {
+      "pt": "O balcão é interessante",
+      "kea": "Balcon e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2364",
+    "word": "baldia",
+    "translation": {
+      "pt": "baldear"
+    },
+    "example": {
+      "pt": "Eu vou baldear",
+      "kea": "N ta baldia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2365",
+    "word": "bambu",
+    "translation": {
+      "pt": "bambu"
+    },
+    "example": {
+      "pt": "Onde está o bambu?",
+      "kea": "Undi ki bambu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2366",
+    "word": "banana",
+    "translation": {
+      "pt": "banana"
+    },
+    "example": {
+      "pt": "Eu vi um banana",
+      "kea": "N odja un banana"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2367",
+    "word": "banana-berdi",
+    "translation": {
+      "pt": "banana verde"
+    },
+    "example": {
+      "pt": "Onde está o banana verde?",
+      "kea": "Undi ki banana-berdi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2368",
+    "word": "bandida",
+    "translation": {
+      "pt": "bandida"
+    },
+    "example": {
+      "pt": "Eu vi um bandida",
+      "kea": "N odja un bandida"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2369",
+    "word": "banka",
+    "translation": {
+      "pt": "banca"
+    },
+    "example": {
+      "pt": "O banca é interessante",
+      "kea": "Banka e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2370",
+    "word": "banku",
+    "translation": {
+      "pt": "banco"
+    },
+    "example": {
+      "pt": "Eu vi um banco",
+      "kea": "N odja un banku"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2371",
+    "word": "baon",
+    "translation": {
+      "pt": "baunilha"
+    },
+    "example": {
+      "pt": "O baunilha é interessante",
+      "kea": "Baon e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2372",
+    "word": "baradju",
+    "translation": {
+      "pt": "baralho"
+    },
+    "example": {
+      "pt": "O baralho é interessante",
+      "kea": "Baradju e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2373",
+    "word": "baraka",
+    "translation": {
+      "pt": "barraca"
+    },
+    "example": {
+      "pt": "Onde está o barraca?",
+      "kea": "Undi ki baraka sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2374",
+    "word": "baranda",
+    "translation": {
+      "pt": "varanda"
+    },
+    "example": {
+      "pt": "Onde está o varanda?",
+      "kea": "Undi ki baranda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2375",
+    "word": "bardamerda",
+    "translation": {
+      "pt": "vai à merda (interjeição)"
+    },
+    "example": {
+      "pt": "vai à merda (interjeição)",
+      "kea": "bardamerda"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-2376",
+    "word": "barodja",
+    "translation": {
+      "pt": "assar ligeiramente"
+    },
+    "example": {
+      "pt": "Precisamos assar ligeiramente agora",
+      "kea": "Nu ten ki barodja agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2377",
+    "word": "baroti",
+    "translation": {
+      "pt": "viga / barrote"
+    },
+    "example": {
+      "pt": "Onde está o viga?",
+      "kea": "Undi ki baroti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2378",
+    "word": "barragem",
+    "translation": {
+      "pt": "barragem"
+    },
+    "example": {
+      "pt": "O barragem é interessante",
+      "kea": "Barragem e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2379",
+    "word": "barrer",
+    "translation": {
+      "pt": "varrer"
+    },
+    "example": {
+      "pt": "Eu vou varrer",
+      "kea": "N ta barrer"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2380",
+    "word": "barulhentu",
+    "translation": {
+      "pt": "barulhento"
+    },
+    "example": {
+      "pt": "Uma coisa barulhento",
+      "kea": "Un koiza barulhentu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2381",
+    "word": "barulhu",
+    "translation": {
+      "pt": "barulho"
+    },
+    "example": {
+      "pt": "O barulho é interessante",
+      "kea": "Barulhu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2382",
+    "word": "bas",
+    "translation": {
+      "pt": "baixo"
+    },
+    "example": {
+      "pt": "Ele é muito baixo",
+      "kea": "El e muitu bas"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2383",
+    "word": "basa",
+    "translation": {
+      "pt": "vazar / bazar"
+    },
+    "example": {
+      "pt": "Precisamos vazar agora",
+      "kea": "Nu ten ki basa agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2384",
+    "word": "batalha",
+    "translation": {
+      "pt": "batalha"
+    },
+    "example": {
+      "pt": "Eu vi um batalha",
+      "kea": "N odja un batalha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2385",
+    "word": "bataria",
+    "translation": {
+      "pt": "bateria"
+    },
+    "example": {
+      "pt": "Onde está o bateria?",
+      "kea": "Undi ki bataria sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2386",
+    "word": "batata-inglesa",
+    "translation": {
+      "pt": "batata inglesa"
+    },
+    "example": {
+      "pt": "O batata inglesa é interessante",
+      "kea": "Batata-inglesa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2387",
+    "word": "batedera",
+    "translation": {
+      "pt": "batedeira"
+    },
+    "example": {
+      "pt": "O batedeira é interessante",
+      "kea": "Batedera e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2388",
+    "word": "batiza",
+    "translation": {
+      "pt": "batizar"
+    },
+    "example": {
+      "pt": "Eu vou batizar",
+      "kea": "N ta batiza"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2389",
+    "word": "batizmu",
+    "translation": {
+      "pt": "batismo"
+    },
+    "example": {
+      "pt": "O batismo é interessante",
+      "kea": "Batizmu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2390",
+    "word": "batoteru",
+    "translation": {
+      "pt": "batoteiro"
+    },
+    "example": {
+      "pt": "Eu vi um batoteiro",
+      "kea": "N odja un batoteru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2391",
+    "word": "baul",
+    "translation": {
+      "pt": "baú"
+    },
+    "example": {
+      "pt": "Eu vi um baú",
+      "kea": "N odja un baul"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2392",
+    "word": "bazadu",
+    "translation": {
+      "pt": "cheio / muito"
+    },
+    "example": {
+      "pt": "Isso parece cheio",
+      "kea": "Kel-la parse bazadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2393",
+    "word": "bazi",
+    "translation": {
+      "pt": "vazio"
+    },
+    "example": {
+      "pt": "Isso parece vazio",
+      "kea": "Kel-la parse bazi"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2394",
+    "word": "bazof",
+    "translation": {
+      "pt": "bazofo / vaidoso"
+    },
+    "example": {
+      "pt": "Isso parece bazofo",
+      "kea": "Kel-la parse bazof"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2395",
+    "word": "bazofaria",
+    "translation": {
+      "pt": "bazófia / vaidade"
+    },
+    "example": {
+      "pt": "Eu vi um bazófia",
+      "kea": "N odja un bazofaria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2396",
+    "word": "bedja",
+    "translation": {
+      "pt": "velha"
+    },
+    "example": {
+      "pt": "Ele é muito velha",
+      "kea": "El e muitu bedja"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2397",
+    "word": "bedjisa",
+    "translation": {
+      "pt": "velhice"
+    },
+    "example": {
+      "pt": "Onde está o velhice?",
+      "kea": "Undi ki bedjisa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2398",
+    "word": "behki",
+    "translation": {
+      "pt": "fermento em pó"
+    },
+    "example": {
+      "pt": "Eu vi um fermento em pó",
+      "kea": "N odja un behki"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2399",
+    "word": "beiju",
+    "translation": {
+      "pt": "beijo"
+    },
+    "example": {
+      "pt": "Eu vi um beijo",
+      "kea": "N odja un beiju"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2400",
+    "word": "bela",
+    "translation": {
+      "pt": "vela"
+    },
+    "example": {
+      "pt": "Onde está o vela?",
+      "kea": "Undi ki bela sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2401",
+    "word": "beleza",
+    "translation": {
+      "pt": "beleza"
+    },
+    "example": {
+      "pt": "O beleza é interessante",
+      "kea": "Beleza e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2402",
+    "word": "belu",
+    "translation": {
+      "pt": "belo"
+    },
+    "example": {
+      "pt": "Ele é muito belo",
+      "kea": "El e muitu belu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2403",
+    "word": "bem",
+    "translation": {
+      "pt": "bem"
+    },
+    "example": {
+      "pt": "Faça bem",
+      "kea": "Faze bem"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2404",
+    "word": "bem-fetor",
+    "translation": {
+      "pt": "benfeitor"
+    },
+    "example": {
+      "pt": "O benfeitor é interessante",
+      "kea": "Bem-fetor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2405",
+    "word": "bem-vindu",
+    "translation": {
+      "pt": "bem-vindo"
+    },
+    "example": {
+      "pt": "Isso parece bem-vindo",
+      "kea": "Kel-la parse bem-vindu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2406",
+    "word": "benda",
+    "translation": {
+      "pt": "venda"
+    },
+    "example": {
+      "pt": "Onde está o venda?",
+      "kea": "Undi ki benda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2407",
+    "word": "bendito",
+    "translation": {
+      "pt": "bendito"
+    },
+    "example": {
+      "pt": "Ele é muito bendito",
+      "kea": "El e muitu bendito"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2408",
+    "word": "beneru",
+    "translation": {
+      "pt": "venerar"
+    },
+    "example": {
+      "pt": "Eu vou venerar",
+      "kea": "N ta beneru"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2409",
+    "word": "benfitoria",
+    "translation": {
+      "pt": "benfeitoria"
+    },
+    "example": {
+      "pt": "Onde está o benfeitoria?",
+      "kea": "Undi ki benfitoria sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2410",
+    "word": "bengala",
+    "translation": {
+      "pt": "bengala"
+    },
+    "example": {
+      "pt": "Eu vi um bengala",
+      "kea": "N odja un bengala"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2411",
+    "word": "ben-u",
+    "translation": {
+      "pt": "bem-haja"
+    },
+    "example": {
+      "pt": "bem-haja",
+      "kea": "ben-u"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-2412",
+    "word": "bera",
+    "translation": {
+      "pt": "beira / margem"
+    },
+    "example": {
+      "pt": "O beira é interessante",
+      "kea": "Bera e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2413",
+    "word": "bera-mar",
+    "translation": {
+      "pt": "beira-mar"
+    },
+    "example": {
+      "pt": "O beira-mar é interessante",
+      "kea": "Bera-mar e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2414",
+    "word": "bersu",
+    "translation": {
+      "pt": "berço"
+    },
+    "example": {
+      "pt": "Eu vi um berço",
+      "kea": "N odja un bersu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2415",
+    "word": "bes",
+    "translation": {
+      "pt": "vez"
+    },
+    "example": {
+      "pt": "Onde está o vez?",
+      "kea": "Undi ki bes sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2416",
+    "word": "bespra",
+    "translation": {
+      "pt": "véspera"
+    },
+    "example": {
+      "pt": "O véspera é interessante",
+      "kea": "Bespra e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2417",
+    "word": "besta",
+    "translation": {
+      "pt": "besta / burro"
+    },
+    "example": {
+      "pt": "Eu vi um besta",
+      "kea": "N odja un besta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2418",
+    "word": "besti",
+    "translation": {
+      "pt": "vestir"
+    },
+    "example": {
+      "pt": "Ele gosta de vestir",
+      "kea": "El ta gosta di besti"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2419",
+    "word": "bestidu",
+    "translation": {
+      "pt": "vestido"
+    },
+    "example": {
+      "pt": "O vestido é interessante",
+      "kea": "Bestidu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2420",
+    "word": "beton",
+    "translation": {
+      "pt": "betão"
+    },
+    "example": {
+      "pt": "O betão é interessante",
+      "kea": "Beton e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2421",
+    "word": "bexiga",
+    "translation": {
+      "pt": "bexiga"
+    },
+    "example": {
+      "pt": "O bexiga é interessante",
+      "kea": "Bexiga e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2422",
+    "word": "biata",
+    "translation": {
+      "pt": "beata (cigarro)"
+    },
+    "example": {
+      "pt": "Eu vi um beata (cigarro)",
+      "kea": "N odja un biata"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2423",
+    "word": "bida",
+    "translation": {
+      "pt": "vida"
+    },
+    "example": {
+      "pt": "Eu vi um vida",
+      "kea": "N odja un bida"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2424",
+    "word": "bidon",
+    "translation": {
+      "pt": "bidão"
+    },
+    "example": {
+      "pt": "Eu vi um bidão",
+      "kea": "N odja un bidon"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2425",
+    "word": "bigodi",
+    "translation": {
+      "pt": "bigode"
+    },
+    "example": {
+      "pt": "Eu vi um bigode",
+      "kea": "N odja un bigodi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2426",
+    "word": "bikini",
+    "translation": {
+      "pt": "biquíni"
+    },
+    "example": {
+      "pt": "O biquíni é interessante",
+      "kea": "Bikini e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2427",
+    "word": "bintem",
+    "translation": {
+      "pt": "vintém"
+    },
+    "example": {
+      "pt": "Eu vi um vintém",
+      "kea": "N odja un bintem"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2428",
+    "word": "bira",
+    "translation": {
+      "pt": "virar / tornar"
+    },
+    "example": {
+      "pt": "Eu vou virar",
+      "kea": "N ta bira"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2429",
+    "word": "biri-biri",
+    "translation": {
+      "pt": "beribéri"
+    },
+    "example": {
+      "pt": "Eu vi um beribéri",
+      "kea": "N odja un biri-biri"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2430",
+    "word": "birra",
+    "translation": {
+      "pt": "birra"
+    },
+    "example": {
+      "pt": "Eu vi um birra",
+      "kea": "N odja un birra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2431",
+    "word": "bisavu",
+    "translation": {
+      "pt": "bisavô"
+    },
+    "example": {
+      "pt": "Onde está o bisavô?",
+      "kea": "Undi ki bisavu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2432",
+    "word": "biskaiti",
+    "translation": {
+      "pt": "biscate"
+    },
+    "example": {
+      "pt": "Onde está o biscate?",
+      "kea": "Undi ki biskaiti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2433",
+    "word": "biskleta",
+    "translation": {
+      "pt": "bicicleta"
+    },
+    "example": {
+      "pt": "O bicicleta é interessante",
+      "kea": "Biskleta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2434",
+    "word": "bisnetu",
+    "translation": {
+      "pt": "bisneto"
+    },
+    "example": {
+      "pt": "Onde está o bisneto?",
+      "kea": "Undi ki bisnetu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2435",
+    "word": "bispo",
+    "translation": {
+      "pt": "bispo"
+    },
+    "example": {
+      "pt": "Eu vi um bispo",
+      "kea": "N odja un bispo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2436",
+    "word": "biuda",
+    "translation": {
+      "pt": "viúva"
+    },
+    "example": {
+      "pt": "Onde está o viúva?",
+      "kea": "Undi ki biuda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2437",
+    "word": "biudu",
+    "translation": {
+      "pt": "viúvo"
+    },
+    "example": {
+      "pt": "Onde está o viúvo?",
+      "kea": "Undi ki biudu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2438",
+    "word": "bizinhasu",
+    "translation": {
+      "pt": "vizinhança"
+    },
+    "example": {
+      "pt": "Onde está o vizinhança?",
+      "kea": "Undi ki bizinhasu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2439",
+    "word": "bizinhu",
+    "translation": {
+      "pt": "vizinho"
+    },
+    "example": {
+      "pt": "Eu vi um vizinho",
+      "kea": "N odja un bizinhu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2440",
+    "word": "bizivi",
+    "translation": {
+      "pt": "visível / linha de pesca"
+    },
+    "example": {
+      "pt": "Eu vi um visível",
+      "kea": "N odja un bizivi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2441",
+    "word": "bobo",
+    "translation": {
+      "pt": "bobo"
+    },
+    "example": {
+      "pt": "O bobo é interessante",
+      "kea": "Bobo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2442",
+    "word": "boka-bedju",
+    "translation": {
+      "pt": "arma artesanal"
+    },
+    "example": {
+      "pt": "Onde está o arma artesanal?",
+      "kea": "Undi ki boka-bedju sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2443",
+    "word": "boka-largu",
+    "translation": {
+      "pt": "boca larga / tagarela"
+    },
+    "example": {
+      "pt": "Onde está o boca larga?",
+      "kea": "Undi ki boka-largu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2444",
+    "word": "boka-mofinu",
+    "translation": {
+      "pt": "esquisito (com comida)"
+    },
+    "example": {
+      "pt": "Isso parece esquisito (com comida)",
+      "kea": "Kel-la parse boka-mofinu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2445",
+    "word": "bolaxa",
+    "translation": {
+      "pt": "bolacha"
+    },
+    "example": {
+      "pt": "Onde está o bolacha?",
+      "kea": "Undi ki bolaxa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2446",
+    "word": "bolbu",
+    "translation": {
+      "pt": "bolbo"
+    },
+    "example": {
+      "pt": "Eu vi um bolbo",
+      "kea": "N odja un bolbu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2447",
+    "word": "boletin",
+    "translation": {
+      "pt": "boletim"
+    },
+    "example": {
+      "pt": "Eu vi um boletim",
+      "kea": "N odja un boletin"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2448",
+    "word": "bolta",
+    "translation": {
+      "pt": "volta"
+    },
+    "example": {
+      "pt": "Eu vi um volta",
+      "kea": "N odja un bolta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2449",
+    "word": "bolu",
+    "translation": {
+      "pt": "bolo"
+    },
+    "example": {
+      "pt": "O bolo é interessante",
+      "kea": "Bolu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2450",
+    "word": "bombeiru",
+    "translation": {
+      "pt": "bombeiro"
+    },
+    "example": {
+      "pt": "Eu vi um bombeiro",
+      "kea": "N odja un bombeiru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2451",
+    "word": "bonita",
+    "translation": {
+      "pt": "bonita"
+    },
+    "example": {
+      "pt": "Uma coisa bonita",
+      "kea": "Un koiza bonita"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2452",
+    "word": "borbuleta",
+    "translation": {
+      "pt": "borboleta"
+    },
+    "example": {
+      "pt": "Onde está o borboleta?",
+      "kea": "Undi ki borbuleta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2453",
+    "word": "bordadu",
+    "translation": {
+      "pt": "bordado"
+    },
+    "example": {
+      "pt": "O bordado é interessante",
+      "kea": "Bordadu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2454",
+    "word": "borisi",
+    "translation": {
+      "pt": "aborrecer"
+    },
+    "example": {
+      "pt": "Eu vou aborrecer",
+      "kea": "N ta borisi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2455",
+    "word": "borota",
+    "translation": {
+      "pt": "brotoeja / erupção cutânea"
+    },
+    "example": {
+      "pt": "O brotoeja é interessante",
+      "kea": "Borota e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2456",
+    "word": "borra",
+    "translation": {
+      "pt": "borra"
+    },
+    "example": {
+      "pt": "Onde está o borra?",
+      "kea": "Undi ki borra sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2457",
+    "word": "botan",
+    "translation": {
+      "pt": "botão"
+    },
+    "example": {
+      "pt": "Eu vi um botão",
+      "kea": "N odja un botan"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2458",
+    "word": "boti",
+    "translation": {
+      "pt": "bote"
+    },
+    "example": {
+      "pt": "O bote é interessante",
+      "kea": "Boti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2459",
+    "word": "boxer",
+    "translation": {
+      "pt": "boxer (calção)"
+    },
+    "example": {
+      "pt": "Onde está o boxer (calção)?",
+      "kea": "Undi ki boxer sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2460",
+    "word": "braku",
+    "translation": {
+      "pt": "buraco"
+    },
+    "example": {
+      "pt": "O buraco é interessante",
+      "kea": "Braku e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2461",
+    "word": "bramelu",
+    "translation": {
+      "pt": "vermelho"
+    },
+    "example": {
+      "pt": "Isso parece vermelho",
+      "kea": "Kel-la parse bramelu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2462",
+    "word": "brasileti",
+    "translation": {
+      "pt": "pulseira"
+    },
+    "example": {
+      "pt": "O pulseira é interessante",
+      "kea": "Brasileti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2463",
+    "word": "bravo",
+    "translation": {
+      "pt": "bravo"
+    },
+    "example": {
+      "pt": "Ele é muito bravo",
+      "kea": "El e muitu bravo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2464",
+    "word": "braza",
+    "translation": {
+      "pt": "brasa"
+    },
+    "example": {
+      "pt": "O brasa é interessante",
+      "kea": "Braza e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2465",
+    "word": "bregu",
+    "translation": {
+      "pt": "prego"
+    },
+    "example": {
+      "pt": "Onde está o prego?",
+      "kea": "Undi ki bregu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2466",
+    "word": "brevi",
+    "translation": {
+      "pt": "breve"
+    },
+    "example": {
+      "pt": "Uma coisa breve",
+      "kea": "Un koiza brevi"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2467",
+    "word": "brida",
+    "translation": {
+      "pt": "rédea"
+    },
+    "example": {
+      "pt": "Eu vi um rédea",
+      "kea": "N odja un brida"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2468",
+    "word": "brigadu",
+    "translation": {
+      "pt": "obrigado"
+    },
+    "example": {
+      "pt": "obrigado",
+      "kea": "brigadu"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-2469",
+    "word": "brilho",
+    "translation": {
+      "pt": "brilho"
+    },
+    "example": {
+      "pt": "Eu vi um brilho",
+      "kea": "N odja un brilho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2470",
+    "word": "brinku",
+    "translation": {
+      "pt": "brinco"
+    },
+    "example": {
+      "pt": "Onde está o brinco?",
+      "kea": "Undi ki brinku sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2471",
+    "word": "brio",
+    "translation": {
+      "pt": "brio"
+    },
+    "example": {
+      "pt": "Eu vi um brio",
+      "kea": "N odja un brio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2472",
+    "word": "brisa",
+    "translation": {
+      "pt": "brisa"
+    },
+    "example": {
+      "pt": "Eu vi um brisa",
+      "kea": "N odja un brisa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2473",
+    "word": "bronze",
+    "translation": {
+      "pt": "bronze"
+    },
+    "example": {
+      "pt": "Onde está o bronze?",
+      "kea": "Undi ki bronze sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2474",
+    "word": "brufa",
+    "translation": {
+      "pt": "chuvisco"
+    },
+    "example": {
+      "pt": "Onde está o chuvisco?",
+      "kea": "Undi ki brufa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2475",
+    "word": "bubu",
+    "translation": {
+      "pt": "bobo"
+    },
+    "example": {
+      "pt": "Ele é muito bobo",
+      "kea": "El e muitu bubu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2476",
+    "word": "bule",
+    "translation": {
+      "pt": "bule"
+    },
+    "example": {
+      "pt": "O bule é interessante",
+      "kea": "Bule e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2477",
+    "word": "bumbum",
+    "translation": {
+      "pt": "bumbum"
+    },
+    "example": {
+      "pt": "O bumbum é interessante",
+      "kea": "Bumbum e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2478",
+    "word": "bunda",
+    "translation": {
+      "pt": "bunda"
+    },
+    "example": {
+      "pt": "Onde está o bunda?",
+      "kea": "Undi ki bunda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2479",
+    "word": "buraxu",
+    "translation": {
+      "pt": "borracha"
+    },
+    "example": {
+      "pt": "Onde está o borracha?",
+      "kea": "Undi ki buraxu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2480",
+    "word": "bureza",
+    "translation": {
+      "pt": "burrice"
+    },
+    "example": {
+      "pt": "Eu vi um burrice",
+      "kea": "N odja un bureza"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2481",
+    "word": "burla",
+    "translation": {
+      "pt": "burla"
+    },
+    "example": {
+      "pt": "O burla é interessante",
+      "kea": "Burla e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2482",
+    "word": "butu",
+    "translation": {
+      "pt": "boto"
+    },
+    "example": {
+      "pt": "Onde está o boto?",
+      "kea": "Undi ki butu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2483",
+    "word": "buzu",
+    "translation": {
+      "pt": "búzio"
+    },
+    "example": {
+      "pt": "Onde está o búzio?",
+      "kea": "Undi ki buzu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2484",
+    "word": "cabana",
+    "translation": {
+      "pt": "cabana"
+    },
+    "example": {
+      "pt": "Onde está o cabana?",
+      "kea": "Undi ki cabana sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2485",
+    "word": "cabelo",
+    "translation": {
+      "pt": "cabelo"
+    },
+    "example": {
+      "pt": "Eu vi um cabelo",
+      "kea": "N odja un cabelo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2486",
+    "word": "cabo",
+    "translation": {
+      "pt": "cabo"
+    },
+    "example": {
+      "pt": "O cabo é interessante",
+      "kea": "Cabo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2487",
+    "word": "caça",
+    "translation": {
+      "pt": "caça"
+    },
+    "example": {
+      "pt": "Eu vi um caça",
+      "kea": "N odja un caça"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2488",
+    "word": "cachor",
+    "translation": {
+      "pt": "cachorro"
+    },
+    "example": {
+      "pt": "Onde está o cachorro?",
+      "kea": "Undi ki cachor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2489",
+    "word": "cadeia",
+    "translation": {
+      "pt": "cadeia"
+    },
+    "example": {
+      "pt": "Onde está o cadeia?",
+      "kea": "Undi ki cadeia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2490",
+    "word": "cafe",
+    "translation": {
+      "pt": "café"
+    },
+    "example": {
+      "pt": "O café é interessante",
+      "kea": "Cafe e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2491",
+    "word": "caju",
+    "translation": {
+      "pt": "caju"
+    },
+    "example": {
+      "pt": "O caju é interessante",
+      "kea": "Caju e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2492",
+    "word": "calor",
+    "translation": {
+      "pt": "calor"
+    },
+    "example": {
+      "pt": "Eu vi um calor",
+      "kea": "N odja un calor"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2493",
+    "word": "cama",
+    "translation": {
+      "pt": "cama"
+    },
+    "example": {
+      "pt": "Onde está o cama?",
+      "kea": "Undi ki cama sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2494",
+    "word": "camisa",
+    "translation": {
+      "pt": "camisa"
+    },
+    "example": {
+      "pt": "Onde está o camisa?",
+      "kea": "Undi ki camisa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2495",
+    "word": "campu",
+    "translation": {
+      "pt": "campo"
+    },
+    "example": {
+      "pt": "O campo é interessante",
+      "kea": "Campu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2496",
+    "word": "canal",
+    "translation": {
+      "pt": "canal"
+    },
+    "example": {
+      "pt": "Onde está o canal?",
+      "kea": "Undi ki canal sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2497",
+    "word": "caneta",
+    "translation": {
+      "pt": "caneta"
+    },
+    "example": {
+      "pt": "O caneta é interessante",
+      "kea": "Caneta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2498",
+    "word": "canu",
+    "translation": {
+      "pt": "cano"
+    },
+    "example": {
+      "pt": "O cano é interessante",
+      "kea": "Canu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2499",
+    "word": "capaz",
+    "translation": {
+      "pt": "capaz"
+    },
+    "example": {
+      "pt": "Isso parece capaz",
+      "kea": "Kel-la parse capaz"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2500",
+    "word": "capitulo",
+    "translation": {
+      "pt": "capítulo"
+    },
+    "example": {
+      "pt": "Eu vi um capítulo",
+      "kea": "N odja un capitulo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2501",
+    "word": "cara",
+    "translation": {
+      "pt": "cara"
+    },
+    "example": {
+      "pt": "O cara é interessante",
+      "kea": "Cara e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2502",
+    "word": "caracter",
+    "translation": {
+      "pt": "carácter"
+    },
+    "example": {
+      "pt": "Eu vi um carácter",
+      "kea": "N odja un caracter"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2503",
+    "word": "carga",
+    "translation": {
+      "pt": "carga"
+    },
+    "example": {
+      "pt": "Onde está o carga?",
+      "kea": "Undi ki carga sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2504",
+    "word": "carne",
+    "translation": {
+      "pt": "carne"
+    },
+    "example": {
+      "pt": "Eu vi um carne",
+      "kea": "N odja un carne"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2505",
+    "word": "caro",
+    "translation": {
+      "pt": "caro"
+    },
+    "example": {
+      "pt": "Isso parece caro",
+      "kea": "Kel-la parse caro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2506",
+    "word": "carta",
+    "translation": {
+      "pt": "carta"
+    },
+    "example": {
+      "pt": "O carta é interessante",
+      "kea": "Carta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2507",
+    "word": "casa",
+    "translation": {
+      "pt": "casa"
+    },
+    "example": {
+      "pt": "Onde está o casa?",
+      "kea": "Undi ki casa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2508",
+    "word": "casamentu",
+    "translation": {
+      "pt": "casamento"
+    },
+    "example": {
+      "pt": "Eu vi um casamento",
+      "kea": "N odja un casamentu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2509",
+    "word": "cascu",
+    "translation": {
+      "pt": "casco"
+    },
+    "example": {
+      "pt": "Onde está o casco?",
+      "kea": "Undi ki cascu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2510",
+    "word": "caso",
+    "translation": {
+      "pt": "caso"
+    },
+    "example": {
+      "pt": "Eu vi um caso",
+      "kea": "N odja un caso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2511",
+    "word": "castigo",
+    "translation": {
+      "pt": "castigo"
+    },
+    "example": {
+      "pt": "Onde está o castigo?",
+      "kea": "Undi ki castigo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2512",
+    "word": "catoliku",
+    "translation": {
+      "pt": "católico"
+    },
+    "example": {
+      "pt": "Ele é muito católico",
+      "kea": "El e muitu catoliku"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2513",
+    "word": "cavalo",
+    "translation": {
+      "pt": "cavalo"
+    },
+    "example": {
+      "pt": "Eu vi um cavalo",
+      "kea": "N odja un cavalo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2514",
+    "word": "cegu",
+    "translation": {
+      "pt": "cego"
+    },
+    "example": {
+      "pt": "Uma coisa cego",
+      "kea": "Un koiza cegu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2515",
+    "word": "ceia",
+    "translation": {
+      "pt": "ceia"
+    },
+    "example": {
+      "pt": "O ceia é interessante",
+      "kea": "Ceia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2516",
+    "word": "celebra",
+    "translation": {
+      "pt": "celebrar"
+    },
+    "example": {
+      "pt": "Precisamos celebrar agora",
+      "kea": "Nu ten ki celebra agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2517",
+    "word": "cemiteriu",
+    "translation": {
+      "pt": "cemitério"
+    },
+    "example": {
+      "pt": "O cemitério é interessante",
+      "kea": "Cemiteriu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2518",
+    "word": "cena",
+    "translation": {
+      "pt": "cena"
+    },
+    "example": {
+      "pt": "Eu vi um cena",
+      "kea": "N odja un cena"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2519",
+    "word": "centru",
+    "translation": {
+      "pt": "centro"
+    },
+    "example": {
+      "pt": "Eu vi um centro",
+      "kea": "N odja un centru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2520",
+    "word": "cera",
+    "translation": {
+      "pt": "cera"
+    },
+    "example": {
+      "pt": "Onde está o cera?",
+      "kea": "Undi ki cera sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2521",
+    "word": "cerca",
+    "translation": {
+      "pt": "cerca"
+    },
+    "example": {
+      "pt": "Eu vi um cerca",
+      "kea": "N odja un cerca"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2522",
+    "word": "cerebru",
+    "translation": {
+      "pt": "cérebro"
+    },
+    "example": {
+      "pt": "Eu vi um cérebro",
+      "kea": "N odja un cerebru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2523",
+    "word": "certo",
+    "translation": {
+      "pt": "certo"
+    },
+    "example": {
+      "pt": "Ele é muito certo",
+      "kea": "El e muitu certo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2524",
+    "word": "cerveja",
+    "translation": {
+      "pt": "cerveja"
+    },
+    "example": {
+      "pt": "O cerveja é interessante",
+      "kea": "Cerveja e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2525",
+    "word": "ceu",
+    "translation": {
+      "pt": "céu"
+    },
+    "example": {
+      "pt": "O céu é interessante",
+      "kea": "Ceu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2526",
+    "word": "cha",
+    "translation": {
+      "pt": "chá"
+    },
+    "example": {
+      "pt": "O chá é interessante",
+      "kea": "Cha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2527",
+    "word": "chamar",
+    "translation": {
+      "pt": "chamar"
+    },
+    "example": {
+      "pt": "Eu vou chamar",
+      "kea": "N ta chamar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2528",
+    "word": "chave",
+    "translation": {
+      "pt": "chave"
+    },
+    "example": {
+      "pt": "Onde está o chave?",
+      "kea": "Undi ki chave sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2529",
+    "word": "chefe",
+    "translation": {
+      "pt": "chefe"
+    },
+    "example": {
+      "pt": "Onde está o chefe?",
+      "kea": "Undi ki chefe sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2530",
+    "word": "chegadu",
+    "translation": {
+      "pt": "chegado"
+    },
+    "example": {
+      "pt": "Isso parece chegado",
+      "kea": "Kel-la parse chegadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2531",
+    "word": "cheiro",
+    "translation": {
+      "pt": "cheiro"
+    },
+    "example": {
+      "pt": "Onde está o cheiro?",
+      "kea": "Undi ki cheiro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2532",
+    "word": "choque",
+    "translation": {
+      "pt": "choque"
+    },
+    "example": {
+      "pt": "O choque é interessante",
+      "kea": "Choque e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2533",
+    "word": "chover",
+    "translation": {
+      "pt": "chover"
+    },
+    "example": {
+      "pt": "Ele gosta de chover",
+      "kea": "El ta gosta di chover"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2534",
+    "word": "chumbo",
+    "translation": {
+      "pt": "chumbo"
+    },
+    "example": {
+      "pt": "Eu vi um chumbo",
+      "kea": "N odja un chumbo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2535",
+    "word": "chuva",
+    "translation": {
+      "pt": "chuva"
+    },
+    "example": {
+      "pt": "O chuva é interessante",
+      "kea": "Chuva e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2536",
+    "word": "ciclu",
+    "translation": {
+      "pt": "ciclo"
+    },
+    "example": {
+      "pt": "Eu vi um ciclo",
+      "kea": "N odja un ciclu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2537",
+    "word": "cidadania",
+    "translation": {
+      "pt": "cidadania"
+    },
+    "example": {
+      "pt": "Onde está o cidadania?",
+      "kea": "Undi ki cidadania sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2538",
+    "word": "cidade",
+    "translation": {
+      "pt": "cidade"
+    },
+    "example": {
+      "pt": "Onde está o cidade?",
+      "kea": "Undi ki cidade sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2539",
+    "word": "ciencia",
+    "translation": {
+      "pt": "ciência"
+    },
+    "example": {
+      "pt": "Onde está o ciência?",
+      "kea": "Undi ki ciencia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2540",
+    "word": "cientista",
+    "translation": {
+      "pt": "cientista"
+    },
+    "example": {
+      "pt": "O cientista é interessante",
+      "kea": "Cientista e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2541",
+    "word": "cigarru",
+    "translation": {
+      "pt": "cigarro"
+    },
+    "example": {
+      "pt": "Eu vi um cigarro",
+      "kea": "N odja un cigarru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2542",
+    "word": "cimentu",
+    "translation": {
+      "pt": "cimento"
+    },
+    "example": {
+      "pt": "Onde está o cimento?",
+      "kea": "Undi ki cimentu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2543",
+    "word": "cinco",
+    "translation": {
+      "pt": "cinco"
+    },
+    "example": {
+      "pt": "O cinco é interessante",
+      "kea": "Cinco e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2544",
+    "word": "cinema",
+    "translation": {
+      "pt": "cinema"
+    },
+    "example": {
+      "pt": "Eu vi um cinema",
+      "kea": "N odja un cinema"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2545",
+    "word": "cintu",
+    "translation": {
+      "pt": "cinto"
+    },
+    "example": {
+      "pt": "Eu vi um cinto",
+      "kea": "N odja un cintu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2546",
+    "word": "cinza",
+    "translation": {
+      "pt": "cinza"
+    },
+    "example": {
+      "pt": "Onde está o cinza?",
+      "kea": "Undi ki cinza sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2547",
+    "word": "circulu",
+    "translation": {
+      "pt": "círculo"
+    },
+    "example": {
+      "pt": "Onde está o círculo?",
+      "kea": "Undi ki circulu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2548",
+    "word": "cirurjia",
+    "translation": {
+      "pt": "cirurgia"
+    },
+    "example": {
+      "pt": "Eu vi um cirurgia",
+      "kea": "N odja un cirurjia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2549",
+    "word": "civil",
+    "translation": {
+      "pt": "civil"
+    },
+    "example": {
+      "pt": "Ele é muito civil",
+      "kea": "El e muitu civil"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2550",
+    "word": "clara",
+    "translation": {
+      "pt": "clara (ovo)"
+    },
+    "example": {
+      "pt": "O clara (ovo) é interessante",
+      "kea": "Clara e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2551",
+    "word": "claru",
+    "translation": {
+      "pt": "claro"
+    },
+    "example": {
+      "pt": "Ele é muito claro",
+      "kea": "El e muitu claru"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2552",
+    "word": "classe",
+    "translation": {
+      "pt": "classe"
+    },
+    "example": {
+      "pt": "O classe é interessante",
+      "kea": "Classe e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2553",
+    "word": "clienti",
+    "translation": {
+      "pt": "cliente"
+    },
+    "example": {
+      "pt": "Onde está o cliente?",
+      "kea": "Undi ki clienti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2554",
+    "word": "clima",
+    "translation": {
+      "pt": "clima"
+    },
+    "example": {
+      "pt": "Onde está o clima?",
+      "kea": "Undi ki clima sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2555",
+    "word": "clinika",
+    "translation": {
+      "pt": "clínica"
+    },
+    "example": {
+      "pt": "Eu vi um clínica",
+      "kea": "N odja un clinika"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2556",
+    "word": "clube",
+    "translation": {
+      "pt": "clube"
+    },
+    "example": {
+      "pt": "O clube é interessante",
+      "kea": "Clube e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2557",
+    "word": "cobertor",
+    "translation": {
+      "pt": "cobertor"
+    },
+    "example": {
+      "pt": "Eu vi um cobertor",
+      "kea": "N odja un cobertor"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2558",
+    "word": "cobre",
+    "translation": {
+      "pt": "cobre"
+    },
+    "example": {
+      "pt": "O cobre é interessante",
+      "kea": "Cobre e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2559",
+    "word": "coelho",
+    "translation": {
+      "pt": "coelho"
+    },
+    "example": {
+      "pt": "Onde está o coelho?",
+      "kea": "Undi ki coelho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2560",
+    "word": "cofre",
+    "translation": {
+      "pt": "cofre"
+    },
+    "example": {
+      "pt": "O cofre é interessante",
+      "kea": "Cofre e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2561",
+    "word": "coita",
+    "translation": {
+      "pt": "coita / dor"
+    },
+    "example": {
+      "pt": "Eu vi um coita",
+      "kea": "N odja un coita"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2562",
+    "word": "cola",
+    "translation": {
+      "pt": "cola"
+    },
+    "example": {
+      "pt": "Onde está o cola?",
+      "kea": "Undi ki cola sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2563",
+    "word": "coler",
+    "translation": {
+      "pt": "colher"
+    },
+    "example": {
+      "pt": "Eu vou colher",
+      "kea": "N ta coler"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2564",
+    "word": "colete",
+    "translation": {
+      "pt": "colete"
+    },
+    "example": {
+      "pt": "Eu vi um colete",
+      "kea": "N odja un colete"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2565",
+    "word": "colonia",
+    "translation": {
+      "pt": "colónia"
+    },
+    "example": {
+      "pt": "O colónia é interessante",
+      "kea": "Colonia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2566",
+    "word": "coluna",
+    "translation": {
+      "pt": "coluna"
+    },
+    "example": {
+      "pt": "O coluna é interessante",
+      "kea": "Coluna e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2567",
+    "word": "comando",
+    "translation": {
+      "pt": "comando"
+    },
+    "example": {
+      "pt": "O comando é interessante",
+      "kea": "Comando e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2568",
+    "word": "combate",
+    "translation": {
+      "pt": "combate"
+    },
+    "example": {
+      "pt": "Eu vi um combate",
+      "kea": "N odja un combate"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2569",
+    "word": "combinason",
+    "translation": {
+      "pt": "combinação"
+    },
+    "example": {
+      "pt": "Eu vi um combinação",
+      "kea": "N odja un combinason"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2570",
+    "word": "come",
+    "translation": {
+      "pt": "comer"
+    },
+    "example": {
+      "pt": "Eu vou comer",
+      "kea": "N ta come"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2571",
+    "word": "comercio",
+    "translation": {
+      "pt": "comércio"
+    },
+    "example": {
+      "pt": "Eu vi um comércio",
+      "kea": "N odja un comercio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2572",
+    "word": "comida",
+    "translation": {
+      "pt": "comida"
+    },
+    "example": {
+      "pt": "Eu vi um comida",
+      "kea": "N odja un comida"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2573",
+    "word": "comissari",
+    "translation": {
+      "pt": "comissário"
+    },
+    "example": {
+      "pt": "Onde está o comissário?",
+      "kea": "Undi ki comissari sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2574",
+    "word": "como",
+    "translation": {
+      "pt": "como"
+    },
+    "example": {
+      "pt": "Vou como",
+      "kea": "N ta bai como"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2575",
+    "word": "companhia",
+    "translation": {
+      "pt": "companhia"
+    },
+    "example": {
+      "pt": "Eu vi um companhia",
+      "kea": "N odja un companhia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2576",
+    "word": "completu",
+    "translation": {
+      "pt": "completo"
+    },
+    "example": {
+      "pt": "Uma coisa completo",
+      "kea": "Un koiza completu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2577",
+    "word": "compra",
+    "translation": {
+      "pt": "compra"
+    },
+    "example": {
+      "pt": "O compra é interessante",
+      "kea": "Compra e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2578",
+    "word": "comun",
+    "translation": {
+      "pt": "comum"
+    },
+    "example": {
+      "pt": "Isso parece comum",
+      "kea": "Kel-la parse comun"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2579",
+    "word": "comunidadi",
+    "translation": {
+      "pt": "comunidade"
+    },
+    "example": {
+      "pt": "O comunidade é interessante",
+      "kea": "Comunidadi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2580",
+    "word": "concelhu",
+    "translation": {
+      "pt": "concelho"
+    },
+    "example": {
+      "pt": "Onde está o concelho?",
+      "kea": "Undi ki concelhu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2581",
+    "word": "concha",
+    "translation": {
+      "pt": "concha"
+    },
+    "example": {
+      "pt": "O concha é interessante",
+      "kea": "Concha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2582",
+    "word": "concorda",
+    "translation": {
+      "pt": "concordar"
+    },
+    "example": {
+      "pt": "Eu vou concordar",
+      "kea": "N ta concorda"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2583",
+    "word": "concursu",
+    "translation": {
+      "pt": "concurso"
+    },
+    "example": {
+      "pt": "O concurso é interessante",
+      "kea": "Concursu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2584",
+    "word": "condenadu",
+    "translation": {
+      "pt": "condenado"
+    },
+    "example": {
+      "pt": "Uma coisa condenado",
+      "kea": "Un koiza condenadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2585",
+    "word": "conduta",
+    "translation": {
+      "pt": "conduta"
+    },
+    "example": {
+      "pt": "Eu vi um conduta",
+      "kea": "N odja un conduta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2586",
+    "word": "cone",
+    "translation": {
+      "pt": "cone"
+    },
+    "example": {
+      "pt": "Eu vi um cone",
+      "kea": "N odja un cone"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2587",
+    "word": "conferensia",
+    "translation": {
+      "pt": "conferência"
+    },
+    "example": {
+      "pt": "Onde está o conferência?",
+      "kea": "Undi ki conferensia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2588",
+    "word": "confiansa",
+    "translation": {
+      "pt": "confiança"
+    },
+    "example": {
+      "pt": "O confiança é interessante",
+      "kea": "Confiansa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2589",
+    "word": "confirma",
+    "translation": {
+      "pt": "confirmar"
+    },
+    "example": {
+      "pt": "Eu vou confirmar",
+      "kea": "N ta confirma"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2590",
+    "word": "conflitu",
+    "translation": {
+      "pt": "conflito"
+    },
+    "example": {
+      "pt": "Onde está o conflito?",
+      "kea": "Undi ki conflitu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2591",
+    "word": "confortu",
+    "translation": {
+      "pt": "conforto"
+    },
+    "example": {
+      "pt": "O conforto é interessante",
+      "kea": "Confortu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2592",
+    "word": "confuson",
+    "translation": {
+      "pt": "confusão"
+    },
+    "example": {
+      "pt": "Onde está o confusão?",
+      "kea": "Undi ki confuson sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2593",
+    "word": "congeladu",
+    "translation": {
+      "pt": "congelado"
+    },
+    "example": {
+      "pt": "Isso parece congelado",
+      "kea": "Kel-la parse congeladu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2594",
+    "word": "conhecimentu",
+    "translation": {
+      "pt": "conhecimento"
+    },
+    "example": {
+      "pt": "O conhecimento é interessante",
+      "kea": "Conhecimentu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2595",
+    "word": "conjuntu",
+    "translation": {
+      "pt": "conjunto"
+    },
+    "example": {
+      "pt": "O conjunto é interessante",
+      "kea": "Conjuntu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2596",
+    "word": "conquista",
+    "translation": {
+      "pt": "conquista"
+    },
+    "example": {
+      "pt": "Onde está o conquista?",
+      "kea": "Undi ki conquista sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2597",
+    "word": "consagradu",
+    "translation": {
+      "pt": "consagrado"
+    },
+    "example": {
+      "pt": "Uma coisa consagrado",
+      "kea": "Un koiza consagradu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2598",
+    "word": "consegu",
+    "translation": {
+      "pt": "conseguir"
+    },
+    "example": {
+      "pt": "Precisamos conseguir agora",
+      "kea": "Nu ten ki consegu agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2599",
+    "word": "conselhu",
+    "translation": {
+      "pt": "conselho"
+    },
+    "example": {
+      "pt": "Onde está o conselho?",
+      "kea": "Undi ki conselhu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2600",
+    "word": "conserva",
+    "translation": {
+      "pt": "conserva"
+    },
+    "example": {
+      "pt": "Onde está o conserva?",
+      "kea": "Undi ki conserva sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2601",
+    "word": "considera",
+    "translation": {
+      "pt": "considerar"
+    },
+    "example": {
+      "pt": "Ele gosta de considerar",
+      "kea": "El ta gosta di considera"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2602",
+    "word": "consoante",
+    "translation": {
+      "pt": "consoante"
+    },
+    "example": {
+      "pt": "Eu vi um consoante",
+      "kea": "N odja un consoante"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2603",
+    "word": "constante",
+    "translation": {
+      "pt": "constante"
+    },
+    "example": {
+      "pt": "Isso parece constante",
+      "kea": "Kel-la parse constante"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2604",
+    "word": "construi",
+    "translation": {
+      "pt": "construir"
+    },
+    "example": {
+      "pt": "Precisamos construir agora",
+      "kea": "Nu ten ki construi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2605",
+    "word": "connta",
+    "translation": {
+      "pt": "conta"
+    },
+    "example": {
+      "pt": "O conta é interessante",
+      "kea": "Connta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2606",
+    "word": "contagi",
+    "translation": {
+      "pt": "contágio"
+    },
+    "example": {
+      "pt": "O contágio é interessante",
+      "kea": "Contagi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2607",
+    "word": "contaminadu",
+    "translation": {
+      "pt": "contaminado"
+    },
+    "example": {
+      "pt": "Isso parece contaminado",
+      "kea": "Kel-la parse contaminadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2608",
+    "word": "conteudo",
+    "translation": {
+      "pt": "conteúdo"
+    },
+    "example": {
+      "pt": "O conteúdo é interessante",
+      "kea": "Conteudo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2609",
+    "word": "continu",
+    "translation": {
+      "pt": "contínuo"
+    },
+    "example": {
+      "pt": "Isso parece contínuo",
+      "kea": "Kel-la parse continu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2610",
+    "word": "contra",
+    "translation": {
+      "pt": "contra"
+    },
+    "example": {
+      "pt": "Onde está o contra?",
+      "kea": "Undi ki contra sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2611",
+    "word": "contrariu",
+    "translation": {
+      "pt": "contrário"
+    },
+    "example": {
+      "pt": "Uma coisa contrário",
+      "kea": "Un koiza contrariu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2612",
+    "word": "contratu",
+    "translation": {
+      "pt": "contrato"
+    },
+    "example": {
+      "pt": "O contrato é interessante",
+      "kea": "Contratu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2613",
+    "word": "controlu",
+    "translation": {
+      "pt": "controlo"
+    },
+    "example": {
+      "pt": "Onde está o controlo?",
+      "kea": "Undi ki controlu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2614",
+    "word": "convensi",
+    "translation": {
+      "pt": "convencer"
+    },
+    "example": {
+      "pt": "Precisamos convencer agora",
+      "kea": "Nu ten ki convensi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2615",
+    "word": "conversa",
+    "translation": {
+      "pt": "conversa"
+    },
+    "example": {
+      "pt": "O conversa é interessante",
+      "kea": "Conversa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2616",
+    "word": "convite",
+    "translation": {
+      "pt": "convite"
+    },
+    "example": {
+      "pt": "Onde está o convite?",
+      "kea": "Undi ki convite sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2617",
+    "word": "copia",
+    "translation": {
+      "pt": "cópia"
+    },
+    "example": {
+      "pt": "Eu vi um cópia",
+      "kea": "N odja un copia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2618",
+    "word": "copo",
+    "translation": {
+      "pt": "copo"
+    },
+    "example": {
+      "pt": "O copo é interessante",
+      "kea": "Copo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2619",
+    "word": "cor",
+    "translation": {
+      "pt": "cor"
+    },
+    "example": {
+      "pt": "Onde está o cor?",
+      "kea": "Undi ki cor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2620",
+    "word": "coraji",
+    "translation": {
+      "pt": "coragem"
+    },
+    "example": {
+      "pt": "Eu vi um coragem",
+      "kea": "N odja un coraji"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2621",
+    "word": "corason",
+    "translation": {
+      "pt": "coração"
+    },
+    "example": {
+      "pt": "Onde está o coração?",
+      "kea": "Undi ki corason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2622",
+    "word": "corda",
+    "translation": {
+      "pt": "corda"
+    },
+    "example": {
+      "pt": "Onde está o corda?",
+      "kea": "Undi ki corda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2623",
+    "word": "coroa",
+    "translation": {
+      "pt": "coroa"
+    },
+    "example": {
+      "pt": "O coroa é interessante",
+      "kea": "Coroa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2624",
+    "word": "corpu",
+    "translation": {
+      "pt": "corpo"
+    },
+    "example": {
+      "pt": "Eu vi um corpo",
+      "kea": "N odja un corpu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2625",
+    "word": "corre",
+    "translation": {
+      "pt": "correr"
+    },
+    "example": {
+      "pt": "Precisamos correr agora",
+      "kea": "Nu ten ki corre agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2626",
+    "word": "corredu",
+    "translation": {
+      "pt": "corrido"
+    },
+    "example": {
+      "pt": "Isso parece corrido",
+      "kea": "Kel-la parse corredu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2627",
+    "word": "correiu",
+    "translation": {
+      "pt": "correio"
+    },
+    "example": {
+      "pt": "Eu vi um correio",
+      "kea": "N odja un correiu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2628",
+    "word": "correnti",
+    "translation": {
+      "pt": "corrente"
+    },
+    "example": {
+      "pt": "Onde está o corrente?",
+      "kea": "Undi ki correnti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2629",
+    "word": "corrida",
+    "translation": {
+      "pt": "corrida"
+    },
+    "example": {
+      "pt": "O corrida é interessante",
+      "kea": "Corrida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2630",
+    "word": "corta",
+    "translation": {
+      "pt": "cortar"
+    },
+    "example": {
+      "pt": "Ele gosta de cortar",
+      "kea": "El ta gosta di corta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2631",
+    "word": "corte",
+    "translation": {
+      "pt": "corte"
+    },
+    "example": {
+      "pt": "O corte é interessante",
+      "kea": "Corte e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2632",
+    "word": "cortina",
+    "translation": {
+      "pt": "cortina"
+    },
+    "example": {
+      "pt": "Eu vi um cortina",
+      "kea": "N odja un cortina"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2633",
+    "word": "costa",
+    "translation": {
+      "pt": "costa"
+    },
+    "example": {
+      "pt": "Onde está o costa?",
+      "kea": "Undi ki costa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2634",
+    "word": "costuma",
+    "translation": {
+      "pt": "costumar"
+    },
+    "example": {
+      "pt": "Eu vou costumar",
+      "kea": "N ta costuma"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2635",
+    "word": "costura",
+    "translation": {
+      "pt": "costura"
+    },
+    "example": {
+      "pt": "O costura é interessante",
+      "kea": "Costura e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2636",
+    "word": "cotovelo",
+    "translation": {
+      "pt": "cotovelo"
+    },
+    "example": {
+      "pt": "O cotovelo é interessante",
+      "kea": "Cotovelo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2637",
+    "word": "couve",
+    "translation": {
+      "pt": "couve"
+    },
+    "example": {
+      "pt": "Onde está o couve?",
+      "kea": "Undi ki couve sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2638",
+    "word": "cova",
+    "translation": {
+      "pt": "cova"
+    },
+    "example": {
+      "pt": "Eu vi um cova",
+      "kea": "N odja un cova"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2639",
+    "word": "cozinha",
+    "translation": {
+      "pt": "cozinha"
+    },
+    "example": {
+      "pt": "O cozinha é interessante",
+      "kea": "Cozinha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2640",
+    "word": "craniu",
+    "translation": {
+      "pt": "crânio"
+    },
+    "example": {
+      "pt": "Eu vi um crânio",
+      "kea": "N odja un craniu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2641",
+    "word": "cravo",
+    "translation": {
+      "pt": "cravo"
+    },
+    "example": {
+      "pt": "Eu vi um cravo",
+      "kea": "N odja un cravo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2642",
+    "word": "creatura",
+    "translation": {
+      "pt": "criatura"
+    },
+    "example": {
+      "pt": "Eu vi um criatura",
+      "kea": "N odja un creatura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2643",
+    "word": "credito",
+    "translation": {
+      "pt": "crédito"
+    },
+    "example": {
+      "pt": "Onde está o crédito?",
+      "kea": "Undi ki credito sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2644",
+    "word": "credo",
+    "translation": {
+      "pt": "credo"
+    },
+    "example": {
+      "pt": "Eu vi um credo",
+      "kea": "N odja un credo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2645",
+    "word": "creme",
+    "translation": {
+      "pt": "creme"
+    },
+    "example": {
+      "pt": "Onde está o creme?",
+      "kea": "Undi ki creme sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2646",
+    "word": "cresce",
+    "translation": {
+      "pt": "crescer"
+    },
+    "example": {
+      "pt": "Ele gosta de crescer",
+      "kea": "El ta gosta di cresce"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2647",
+    "word": "criadu",
+    "translation": {
+      "pt": "criado"
+    },
+    "example": {
+      "pt": "Uma coisa criado",
+      "kea": "Un koiza criadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2648",
+    "word": "criansa",
+    "translation": {
+      "pt": "criança"
+    },
+    "example": {
+      "pt": "Onde está o criança?",
+      "kea": "Undi ki criansa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2649",
+    "word": "criar",
+    "translation": {
+      "pt": "criar"
+    },
+    "example": {
+      "pt": "Eu vou criar",
+      "kea": "N ta criar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2650",
+    "word": "crime",
+    "translation": {
+      "pt": "crime"
+    },
+    "example": {
+      "pt": "Eu vi um crime",
+      "kea": "N odja un crime"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2651",
+    "word": "crise",
+    "translation": {
+      "pt": "crise"
+    },
+    "example": {
+      "pt": "Onde está o crise?",
+      "kea": "Undi ki crise sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2652",
+    "word": "cristal",
+    "translation": {
+      "pt": "cristal"
+    },
+    "example": {
+      "pt": "O cristal é interessante",
+      "kea": "Cristal e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2653",
+    "word": "cristao",
+    "translation": {
+      "pt": "cristão"
+    },
+    "example": {
+      "pt": "Eu vi um cristão",
+      "kea": "N odja un cristao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2654",
+    "word": "critika",
+    "translation": {
+      "pt": "crítica"
+    },
+    "example": {
+      "pt": "O crítica é interessante",
+      "kea": "Critika e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2655",
+    "word": "cruz",
+    "translation": {
+      "pt": "cruz"
+    },
+    "example": {
+      "pt": "Eu vi um cruz",
+      "kea": "N odja un cruz"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2656",
+    "word": "cubo",
+    "translation": {
+      "pt": "cubo"
+    },
+    "example": {
+      "pt": "Onde está o cubo?",
+      "kea": "Undi ki cubo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2657",
+    "word": "cuidadu",
+    "translation": {
+      "pt": "cuidado"
+    },
+    "example": {
+      "pt": "O cuidado é interessante",
+      "kea": "Cuidadu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2658",
+    "word": "culpa",
+    "translation": {
+      "pt": "culpa"
+    },
+    "example": {
+      "pt": "Eu vi um culpa",
+      "kea": "N odja un culpa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2659",
+    "word": "cultura",
+    "translation": {
+      "pt": "cultura"
+    },
+    "example": {
+      "pt": "Eu vi um cultura",
+      "kea": "N odja un cultura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2660",
+    "word": "cumpri",
+    "translation": {
+      "pt": "cumprir"
+    },
+    "example": {
+      "pt": "Precisamos cumprir agora",
+      "kea": "Nu ten ki cumpri agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2661",
+    "word": "cura",
+    "translation": {
+      "pt": "cura"
+    },
+    "example": {
+      "pt": "O cura é interessante",
+      "kea": "Cura e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2662",
+    "word": "curiosidadi",
+    "translation": {
+      "pt": "curiosidade"
+    },
+    "example": {
+      "pt": "Eu vi um curiosidade",
+      "kea": "N odja un curiosidadi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2663",
+    "word": "curso",
+    "translation": {
+      "pt": "curso"
+    },
+    "example": {
+      "pt": "O curso é interessante",
+      "kea": "Curso e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2664",
+    "word": "curto",
+    "translation": {
+      "pt": "curto"
+    },
+    "example": {
+      "pt": "Uma coisa curto",
+      "kea": "Un koiza curto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2665",
+    "word": "curva",
+    "translation": {
+      "pt": "curva"
+    },
+    "example": {
+      "pt": "O curva é interessante",
+      "kea": "Curva e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2666",
+    "word": "custo",
+    "translation": {
+      "pt": "custo"
+    },
+    "example": {
+      "pt": "Onde está o custo?",
+      "kea": "Undi ki custo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2667",
+    "word": "d",
+    "translation": {
+      "pt": "letra d"
+    },
+    "example": {
+      "pt": "O letra d é interessante",
+      "kea": "D e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2668",
+    "word": "dança",
+    "translation": {
+      "pt": "dança"
+    },
+    "example": {
+      "pt": "Onde está o dança?",
+      "kea": "Undi ki dança sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2669",
+    "word": "dano",
+    "translation": {
+      "pt": "dano"
+    },
+    "example": {
+      "pt": "O dano é interessante",
+      "kea": "Dano e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2670",
+    "word": "dar",
+    "translation": {
+      "pt": "dar"
+    },
+    "example": {
+      "pt": "Ele gosta de dar",
+      "kea": "El ta gosta di dar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2671",
+    "word": "diabetis",
+    "translation": {
+      "pt": "diabetes"
+    },
+    "example": {
+      "pt": "O diabetes é interessante",
+      "kea": "Diabetis e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2672",
+    "word": "diabo",
+    "translation": {
+      "pt": "diabo"
+    },
+    "example": {
+      "pt": "Onde está o diabo?",
+      "kea": "Undi ki diabo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2673",
+    "word": "diagrama",
+    "translation": {
+      "pt": "diagrama"
+    },
+    "example": {
+      "pt": "O diagrama é interessante",
+      "kea": "Diagrama e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2674",
+    "word": "dicionariu",
+    "translation": {
+      "pt": "dicionário"
+    },
+    "example": {
+      "pt": "Onde está o dicionário?",
+      "kea": "Undi ki dicionariu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2675",
+    "word": "dieta",
+    "translation": {
+      "pt": "dieta"
+    },
+    "example": {
+      "pt": "Onde está o dieta?",
+      "kea": "Undi ki dieta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2676",
+    "word": "dignu",
+    "translation": {
+      "pt": "digno"
+    },
+    "example": {
+      "pt": "Isso parece digno",
+      "kea": "Kel-la parse dignu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2677",
+    "word": "dinamika",
+    "translation": {
+      "pt": "dinâmica"
+    },
+    "example": {
+      "pt": "Onde está o dinâmica?",
+      "kea": "Undi ki dinamika sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2678",
+    "word": "dinamite",
+    "translation": {
+      "pt": "dinamite"
+    },
+    "example": {
+      "pt": "O dinamite é interessante",
+      "kea": "Dinamite e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2679",
+    "word": "dinheiro",
+    "translation": {
+      "pt": "dinheiro"
+    },
+    "example": {
+      "pt": "Onde está o dinheiro?",
+      "kea": "Undi ki dinheiro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2680",
+    "word": "diploma",
+    "translation": {
+      "pt": "diploma"
+    },
+    "example": {
+      "pt": "O diploma é interessante",
+      "kea": "Diploma e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2681",
+    "word": "dirigi",
+    "translation": {
+      "pt": "dirigir"
+    },
+    "example": {
+      "pt": "Eu vou dirigir",
+      "kea": "N ta dirigi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2682",
+    "word": "disciplina",
+    "translation": {
+      "pt": "disciplina"
+    },
+    "example": {
+      "pt": "Eu vi um disciplina",
+      "kea": "N odja un disciplina"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2683",
+    "word": "discursu",
+    "translation": {
+      "pt": "discurso"
+    },
+    "example": {
+      "pt": "Eu vi um discurso",
+      "kea": "N odja un discursu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2684",
+    "word": "diskutir",
+    "translation": {
+      "pt": "discutir"
+    },
+    "example": {
+      "pt": "Eu vou discutir",
+      "kea": "N ta diskutir"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2685",
+    "word": "distancia",
+    "translation": {
+      "pt": "distância"
+    },
+    "example": {
+      "pt": "O distância é interessante",
+      "kea": "Distancia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2686",
+    "word": "dita",
+    "translation": {
+      "pt": "dita"
+    },
+    "example": {
+      "pt": "O dita é interessante",
+      "kea": "Dita e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2687",
+    "word": "divorsiu",
+    "translation": {
+      "pt": "divórcio"
+    },
+    "example": {
+      "pt": "Onde está o divórcio?",
+      "kea": "Undi ki divorsiu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2688",
+    "word": "dizim",
+    "translation": {
+      "pt": "dízimo"
+    },
+    "example": {
+      "pt": "Onde está o dízimo?",
+      "kea": "Undi ki dizim sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2689",
+    "word": "doce",
+    "translation": {
+      "pt": "doce"
+    },
+    "example": {
+      "pt": "Ele é muito doce",
+      "kea": "El e muitu doce"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2690",
+    "word": "documentu",
+    "translation": {
+      "pt": "documento"
+    },
+    "example": {
+      "pt": "Eu vi um documento",
+      "kea": "N odja un documentu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2691",
+    "word": "doensa",
+    "translation": {
+      "pt": "doença"
+    },
+    "example": {
+      "pt": "O doença é interessante",
+      "kea": "Doensa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2692",
+    "word": "doidu",
+    "translation": {
+      "pt": "doido"
+    },
+    "example": {
+      "pt": "Isso parece doido",
+      "kea": "Kel-la parse doidu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2693",
+    "word": "dose",
+    "translation": {
+      "pt": "dose"
+    },
+    "example": {
+      "pt": "O dose é interessante",
+      "kea": "Dose e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2694",
+    "word": "doze",
+    "translation": {
+      "pt": "doze"
+    },
+    "example": {
+      "pt": "O doze é interessante",
+      "kea": "Doze e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2695",
+    "word": "du",
+    "translation": {
+      "pt": "do"
+    },
+    "example": {
+      "pt": "Onde está o do?",
+      "kea": "Undi ki du sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2696",
+    "word": "duas",
+    "translation": {
+      "pt": "duas"
+    },
+    "example": {
+      "pt": "Eu vi um duas",
+      "kea": "N odja un duas"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2697",
+    "word": "dueto",
+    "translation": {
+      "pt": "dueto"
+    },
+    "example": {
+      "pt": "O dueto é interessante",
+      "kea": "Dueto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2698",
+    "word": "duzia",
+    "translation": {
+      "pt": "dúzia"
+    },
+    "example": {
+      "pt": "Eu vi um dúzia",
+      "kea": "N odja un duzia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2699",
+    "word": "economia",
+    "translation": {
+      "pt": "economia"
+    },
+    "example": {
+      "pt": "O economia é interessante",
+      "kea": "Economia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2700",
+    "word": "edifisiu",
+    "translation": {
+      "pt": "edifício"
+    },
+    "example": {
+      "pt": "O edifício é interessante",
+      "kea": "Edifisiu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2701",
+    "word": "editor",
+    "translation": {
+      "pt": "editor"
+    },
+    "example": {
+      "pt": "Onde está o editor?",
+      "kea": "Undi ki editor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2702",
+    "word": "educason",
+    "translation": {
+      "pt": "educação"
+    },
+    "example": {
+      "pt": "Onde está o educação?",
+      "kea": "Undi ki educason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2703",
+    "word": "egua",
+    "translation": {
+      "pt": "égua"
+    },
+    "example": {
+      "pt": "Eu vi um égua",
+      "kea": "N odja un egua"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2704",
+    "word": "eia",
+    "translation": {
+      "pt": "eia"
+    },
+    "example": {
+      "pt": "O eia é interessante",
+      "kea": "Eia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2705",
+    "word": "el",
+    "translation": {
+      "pt": "ele"
+    },
+    "example": {
+      "pt": "É ele",
+      "kea": "E el"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2706",
+    "word": "eletricidadi",
+    "translation": {
+      "pt": "eletricidade"
+    },
+    "example": {
+      "pt": "O eletricidade é interessante",
+      "kea": "Eletricidadi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2707",
+    "word": "elogi",
+    "translation": {
+      "pt": "elogio"
+    },
+    "example": {
+      "pt": "O elogio é interessante",
+      "kea": "Elogi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2708",
+    "word": "emocion",
+    "translation": {
+      "pt": "emoção"
+    },
+    "example": {
+      "pt": "Eu vi um emoção",
+      "kea": "N odja un emocion"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2709",
+    "word": "encantu",
+    "translation": {
+      "pt": "encanto"
+    },
+    "example": {
+      "pt": "O encanto é interessante",
+      "kea": "Encantu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2710",
+    "word": "enigma",
+    "translation": {
+      "pt": "enigma"
+    },
+    "example": {
+      "pt": "Onde está o enigma?",
+      "kea": "Undi ki enigma sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2711",
+    "word": "enormi",
+    "translation": {
+      "pt": "enorme"
+    },
+    "example": {
+      "pt": "Isso parece enorme",
+      "kea": "Kel-la parse enormi"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2712",
+    "word": "ensaiu",
+    "translation": {
+      "pt": "ensaio"
+    },
+    "example": {
+      "pt": "Onde está o ensaio?",
+      "kea": "Undi ki ensaiu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2713",
+    "word": "ensinu",
+    "translation": {
+      "pt": "ensino"
+    },
+    "example": {
+      "pt": "Eu vi um ensino",
+      "kea": "N odja un ensinu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2714",
+    "word": "entanto",
+    "translation": {
+      "pt": "entanto"
+    },
+    "example": {
+      "pt": "Ele fala entanto",
+      "kea": "El ta fala entanto"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-2715",
+    "word": "entende",
+    "translation": {
+      "pt": "entender"
+    },
+    "example": {
+      "pt": "Eu vou entender",
+      "kea": "N ta entende"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2716",
+    "word": "entrar",
+    "translation": {
+      "pt": "entrar"
+    },
+    "example": {
+      "pt": "Precisamos entrar agora",
+      "kea": "Nu ten ki entrar agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2717",
+    "word": "envelopi",
+    "translation": {
+      "pt": "envelope"
+    },
+    "example": {
+      "pt": "Onde está o envelope?",
+      "kea": "Undi ki envelopi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2718",
+    "word": "envolve",
+    "translation": {
+      "pt": "envolver"
+    },
+    "example": {
+      "pt": "Precisamos envolver agora",
+      "kea": "Nu ten ki envolve agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2719",
+    "word": "epoca",
+    "translation": {
+      "pt": "época"
+    },
+    "example": {
+      "pt": "Onde está o época?",
+      "kea": "Undi ki epoca sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2720",
+    "word": "equipa",
+    "translation": {
+      "pt": "equipa"
+    },
+    "example": {
+      "pt": "Eu vi um equipa",
+      "kea": "N odja un equipa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2721",
+    "word": "era",
+    "translation": {
+      "pt": "era"
+    },
+    "example": {
+      "pt": "O era é interessante",
+      "kea": "Era e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2722",
+    "word": "escada",
+    "translation": {
+      "pt": "escada"
+    },
+    "example": {
+      "pt": "Onde está o escada?",
+      "kea": "Undi ki escada sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2723",
+    "word": "escala",
+    "translation": {
+      "pt": "escala"
+    },
+    "example": {
+      "pt": "O escala é interessante",
+      "kea": "Escala e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2724",
+    "word": "escola",
+    "translation": {
+      "pt": "escola"
+    },
+    "example": {
+      "pt": "Onde está o escola?",
+      "kea": "Undi ki escola sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2725",
+    "word": "escolha",
+    "translation": {
+      "pt": "escolha"
+    },
+    "example": {
+      "pt": "Eu vi um escolha",
+      "kea": "N odja un escolha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2726",
+    "word": "escrita",
+    "translation": {
+      "pt": "escrita"
+    },
+    "example": {
+      "pt": "Eu vi um escrita",
+      "kea": "N odja un escrita"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2727",
+    "word": "escritu",
+    "translation": {
+      "pt": "escrito"
+    },
+    "example": {
+      "pt": "Isso parece escrito",
+      "kea": "Kel-la parse escritu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2728",
+    "word": "escudu",
+    "translation": {
+      "pt": "escudo"
+    },
+    "example": {
+      "pt": "O escudo é interessante",
+      "kea": "Escudu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2729",
+    "word": "escuru",
+    "translation": {
+      "pt": "escuro"
+    },
+    "example": {
+      "pt": "Ele é muito escuro",
+      "kea": "El e muitu escuru"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2730",
+    "word": "esfera",
+    "translation": {
+      "pt": "esfera"
+    },
+    "example": {
+      "pt": "Onde está o esfera?",
+      "kea": "Undi ki esfera sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2731",
+    "word": "esforsu",
+    "translation": {
+      "pt": "esforço"
+    },
+    "example": {
+      "pt": "O esforço é interessante",
+      "kea": "Esforsu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2732",
+    "word": "esgota",
+    "translation": {
+      "pt": "esgotar"
+    },
+    "example": {
+      "pt": "Eu vou esgotar",
+      "kea": "N ta esgota"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2733",
+    "word": "espacu",
+    "translation": {
+      "pt": "espaço"
+    },
+    "example": {
+      "pt": "O espaço é interessante",
+      "kea": "Espacu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2734",
+    "word": "espada",
+    "translation": {
+      "pt": "espada"
+    },
+    "example": {
+      "pt": "Eu vi um espada",
+      "kea": "N odja un espada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2735",
+    "word": "espelho",
+    "translation": {
+      "pt": "espelho"
+    },
+    "example": {
+      "pt": "Onde está o espelho?",
+      "kea": "Undi ki espelho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2736",
+    "word": "espia",
+    "translation": {
+      "pt": "espiar"
+    },
+    "example": {
+      "pt": "Eu vou espiar",
+      "kea": "N ta espia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2737",
+    "word": "espinha",
+    "translation": {
+      "pt": "espinha"
+    },
+    "example": {
+      "pt": "O espinha é interessante",
+      "kea": "Espinha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2738",
+    "word": "espirito",
+    "translation": {
+      "pt": "espírito"
+    },
+    "example": {
+      "pt": "Onde está o espírito?",
+      "kea": "Undi ki espirito sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2739",
+    "word": "esquema",
+    "translation": {
+      "pt": "esquema"
+    },
+    "example": {
+      "pt": "Onde está o esquema?",
+      "kea": "Undi ki esquema sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2740",
+    "word": "esquerda",
+    "translation": {
+      "pt": "esquerda"
+    },
+    "example": {
+      "pt": "Eu vi um esquerda",
+      "kea": "N odja un esquerda"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2741",
+    "word": "esquina",
+    "translation": {
+      "pt": "esquina"
+    },
+    "example": {
+      "pt": "Onde está o esquina?",
+      "kea": "Undi ki esquina sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2742",
+    "word": "essencia",
+    "translation": {
+      "pt": "essência"
+    },
+    "example": {
+      "pt": "Eu vi um essência",
+      "kea": "N odja un essencia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2743",
+    "word": "estabelesi",
+    "translation": {
+      "pt": "estabelecer"
+    },
+    "example": {
+      "pt": "Precisamos estabelecer agora",
+      "kea": "Nu ten ki estabelesi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2744",
+    "word": "estacao",
+    "translation": {
+      "pt": "estação"
+    },
+    "example": {
+      "pt": "Onde está o estação?",
+      "kea": "Undi ki estacao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2745",
+    "word": "estadiu",
+    "translation": {
+      "pt": "estádio"
+    },
+    "example": {
+      "pt": "Onde está o estádio?",
+      "kea": "Undi ki estadiu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2746",
+    "word": "estimula",
+    "translation": {
+      "pt": "estimular"
+    },
+    "example": {
+      "pt": "Precisamos estimular agora",
+      "kea": "Nu ten ki estimula agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2747",
+    "word": "estomagu",
+    "translation": {
+      "pt": "estômago"
+    },
+    "example": {
+      "pt": "O estômago é interessante",
+      "kea": "Estomagu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2748",
+    "word": "estrada",
+    "translation": {
+      "pt": "estrada"
+    },
+    "example": {
+      "pt": "O estrada é interessante",
+      "kea": "Estrada e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2749",
+    "word": "estrela",
+    "translation": {
+      "pt": "estrela"
+    },
+    "example": {
+      "pt": "Eu vi um estrela",
+      "kea": "N odja un estrela"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2750",
+    "word": "estrutura",
+    "translation": {
+      "pt": "estrutura"
+    },
+    "example": {
+      "pt": "Eu vi um estrutura",
+      "kea": "N odja un estrutura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2751",
+    "word": "estudante",
+    "translation": {
+      "pt": "estudante"
+    },
+    "example": {
+      "pt": "Onde está o estudante?",
+      "kea": "Undi ki estudante sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2752",
+    "word": "etapa",
+    "translation": {
+      "pt": "etapa"
+    },
+    "example": {
+      "pt": "O etapa é interessante",
+      "kea": "Etapa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2753",
+    "word": "eternu",
+    "translation": {
+      "pt": "eterno"
+    },
+    "example": {
+      "pt": "Uma coisa eterno",
+      "kea": "Un koiza eternu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2754",
+    "word": "eu",
+    "translation": {
+      "pt": "eu"
+    },
+    "example": {
+      "pt": "É eu",
+      "kea": "E eu"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2755",
+    "word": "eventu",
+    "translation": {
+      "pt": "evento"
+    },
+    "example": {
+      "pt": "Eu vi um evento",
+      "kea": "N odja un eventu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2756",
+    "word": "evoluson",
+    "translation": {
+      "pt": "evolução"
+    },
+    "example": {
+      "pt": "Eu vi um evolução",
+      "kea": "N odja un evoluson"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2757",
+    "word": "exami",
+    "translation": {
+      "pt": "exame"
+    },
+    "example": {
+      "pt": "O exame é interessante",
+      "kea": "Exami e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2758",
+    "word": "excesu",
+    "translation": {
+      "pt": "excesso"
+    },
+    "example": {
+      "pt": "Eu vi um excesso",
+      "kea": "N odja un excesu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2759",
+    "word": "exigensia",
+    "translation": {
+      "pt": "exigência"
+    },
+    "example": {
+      "pt": "Eu vi um exigência",
+      "kea": "N odja un exigensia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2760",
+    "word": "existensia",
+    "translation": {
+      "pt": "existência"
+    },
+    "example": {
+      "pt": "Eu vi um existência",
+      "kea": "N odja un existensia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2761",
+    "word": "exito",
+    "translation": {
+      "pt": "êxito"
+    },
+    "example": {
+      "pt": "Eu vi um êxito",
+      "kea": "N odja un exito"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2762",
+    "word": "experiencia",
+    "translation": {
+      "pt": "experiência"
+    },
+    "example": {
+      "pt": "Eu vi um experiência",
+      "kea": "N odja un experiencia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2763",
+    "word": "explika",
+    "translation": {
+      "pt": "explicar"
+    },
+    "example": {
+      "pt": "Precisamos explicar agora",
+      "kea": "Nu ten ki explika agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2764",
+    "word": "exploson",
+    "translation": {
+      "pt": "explosão"
+    },
+    "example": {
+      "pt": "Onde está o explosão?",
+      "kea": "Undi ki exploson sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2765",
+    "word": "exporta",
+    "translation": {
+      "pt": "exportar"
+    },
+    "example": {
+      "pt": "Ele gosta de exportar",
+      "kea": "El ta gosta di exporta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2766",
+    "word": "expresson",
+    "translation": {
+      "pt": "expressão"
+    },
+    "example": {
+      "pt": "Eu vi um expressão",
+      "kea": "N odja un expresson"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2767",
+    "word": "exterior",
+    "translation": {
+      "pt": "exterior"
+    },
+    "example": {
+      "pt": "Eu vi um exterior",
+      "kea": "N odja un exterior"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2768",
+    "word": "extra",
+    "translation": {
+      "pt": "extra"
+    },
+    "example": {
+      "pt": "Ele é muito extra",
+      "kea": "El e muitu extra"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2769",
+    "word": "extremu",
+    "translation": {
+      "pt": "extremo"
+    },
+    "example": {
+      "pt": "Isso parece extremo",
+      "kea": "Kel-la parse extremu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2770",
+    "word": "faca",
+    "translation": {
+      "pt": "faca"
+    },
+    "example": {
+      "pt": "Onde está o faca?",
+      "kea": "Undi ki faca sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2771",
+    "word": "face",
+    "translation": {
+      "pt": "face"
+    },
+    "example": {
+      "pt": "Onde está o face?",
+      "kea": "Undi ki face sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2772",
+    "word": "fada",
+    "translation": {
+      "pt": "fada"
+    },
+    "example": {
+      "pt": "Onde está o fada?",
+      "kea": "Undi ki fada sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2773",
+    "word": "fala",
+    "translation": {
+      "pt": "fala"
+    },
+    "example": {
+      "pt": "Eu vi um fala",
+      "kea": "N odja un fala"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2774",
+    "word": "falha",
+    "translation": {
+      "pt": "falha"
+    },
+    "example": {
+      "pt": "O falha é interessante",
+      "kea": "Falha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2775",
+    "word": "falsu",
+    "translation": {
+      "pt": "falso"
+    },
+    "example": {
+      "pt": "Isso parece falso",
+      "kea": "Kel-la parse falsu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2776",
+    "word": "fama",
+    "translation": {
+      "pt": "fama"
+    },
+    "example": {
+      "pt": "O fama é interessante",
+      "kea": "Fama e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2777",
+    "word": "fantazia",
+    "translation": {
+      "pt": "fantasia"
+    },
+    "example": {
+      "pt": "Onde está o fantasia?",
+      "kea": "Undi ki fantazia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2778",
+    "word": "farda",
+    "translation": {
+      "pt": "farda"
+    },
+    "example": {
+      "pt": "Onde está o farda?",
+      "kea": "Undi ki farda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2779",
+    "word": "farol",
+    "translation": {
+      "pt": "farol"
+    },
+    "example": {
+      "pt": "O farol é interessante",
+      "kea": "Farol e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2780",
+    "word": "fartura",
+    "translation": {
+      "pt": "fartura"
+    },
+    "example": {
+      "pt": "Eu vi um fartura",
+      "kea": "N odja un fartura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2781",
+    "word": "fatal",
+    "translation": {
+      "pt": "fatal"
+    },
+    "example": {
+      "pt": "Ele é muito fatal",
+      "kea": "El e muitu fatal"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2782",
+    "word": "fatia",
+    "translation": {
+      "pt": "fatia"
+    },
+    "example": {
+      "pt": "O fatia é interessante",
+      "kea": "Fatia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2783",
+    "word": "fator",
+    "translation": {
+      "pt": "fator"
+    },
+    "example": {
+      "pt": "Onde está o fator?",
+      "kea": "Undi ki fator sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2784",
+    "word": "fatu",
+    "translation": {
+      "pt": "fato"
+    },
+    "example": {
+      "pt": "Eu vi um fato",
+      "kea": "N odja un fatu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2785",
+    "word": "fazer",
+    "translation": {
+      "pt": "fazer"
+    },
+    "example": {
+      "pt": "Precisamos fazer agora",
+      "kea": "Nu ten ki fazer agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2786",
+    "word": "febre",
+    "translation": {
+      "pt": "febre"
+    },
+    "example": {
+      "pt": "O febre é interessante",
+      "kea": "Febre e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2787",
+    "word": "fechadu",
+    "translation": {
+      "pt": "fechado"
+    },
+    "example": {
+      "pt": "Ele é muito fechado",
+      "kea": "El e muitu fechadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2788",
+    "word": "federal",
+    "translation": {
+      "pt": "federal"
+    },
+    "example": {
+      "pt": "Isso parece federal",
+      "kea": "Kel-la parse federal"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2789",
+    "word": "felicidadi",
+    "translation": {
+      "pt": "felicidade"
+    },
+    "example": {
+      "pt": "Eu vi um felicidade",
+      "kea": "N odja un felicidadi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2790",
+    "word": "feliz",
+    "translation": {
+      "pt": "feliz"
+    },
+    "example": {
+      "pt": "Ele é muito feliz",
+      "kea": "El e muitu feliz"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2791",
+    "word": "fenda",
+    "translation": {
+      "pt": "fenda"
+    },
+    "example": {
+      "pt": "Onde está o fenda?",
+      "kea": "Undi ki fenda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2792",
+    "word": "ferias",
+    "translation": {
+      "pt": "férias"
+    },
+    "example": {
+      "pt": "O férias é interessante",
+      "kea": "Ferias e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2793",
+    "word": "ferida",
+    "translation": {
+      "pt": "ferida"
+    },
+    "example": {
+      "pt": "O ferida é interessante",
+      "kea": "Ferida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2794",
+    "word": "feru",
+    "translation": {
+      "pt": "ferro"
+    },
+    "example": {
+      "pt": "Onde está o ferro?",
+      "kea": "Undi ki feru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2795",
+    "word": "feijon",
+    "translation": {
+      "pt": "feijão"
+    },
+    "example": {
+      "pt": "Eu vi um feijão",
+      "kea": "N odja un feijon"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2796",
+    "word": "ferramenta",
+    "translation": {
+      "pt": "ferramenta"
+    },
+    "example": {
+      "pt": "O ferramenta é interessante",
+      "kea": "Ferramenta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2797",
+    "word": "fertil",
+    "translation": {
+      "pt": "fértil"
+    },
+    "example": {
+      "pt": "Isso parece fértil",
+      "kea": "Kel-la parse fertil"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2798",
+    "word": "fiadu",
+    "translation": {
+      "pt": "fiado"
+    },
+    "example": {
+      "pt": "Uma coisa fiado",
+      "kea": "Un koiza fiadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2799",
+    "word": "fibra",
+    "translation": {
+      "pt": "fibra"
+    },
+    "example": {
+      "pt": "Eu vi um fibra",
+      "kea": "N odja un fibra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2800",
+    "word": "fiel",
+    "translation": {
+      "pt": "fiel"
+    },
+    "example": {
+      "pt": "Isso parece fiel",
+      "kea": "Kel-la parse fiel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2801",
+    "word": "figado",
+    "translation": {
+      "pt": "fígado"
+    },
+    "example": {
+      "pt": "O fígado é interessante",
+      "kea": "Figado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2802",
+    "word": "figo",
+    "translation": {
+      "pt": "figo"
+    },
+    "example": {
+      "pt": "Onde está o figo?",
+      "kea": "Undi ki figo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2803",
+    "word": "figura",
+    "translation": {
+      "pt": "figura"
+    },
+    "example": {
+      "pt": "Onde está o figura?",
+      "kea": "Undi ki figura sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2804",
+    "word": "filha",
+    "translation": {
+      "pt": "filha"
+    },
+    "example": {
+      "pt": "Onde está o filha?",
+      "kea": "Undi ki filha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2805",
+    "word": "filho",
+    "translation": {
+      "pt": "filho"
+    },
+    "example": {
+      "pt": "Eu vi um filho",
+      "kea": "N odja un filho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2806",
+    "word": "filosofia",
+    "translation": {
+      "pt": "filosofia"
+    },
+    "example": {
+      "pt": "Eu vi um filosofia",
+      "kea": "N odja un filosofia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2807",
+    "word": "financas",
+    "translation": {
+      "pt": "finanças"
+    },
+    "example": {
+      "pt": "O finanças é interessante",
+      "kea": "Financas e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2808",
+    "word": "fina",
+    "translation": {
+      "pt": "fina"
+    },
+    "example": {
+      "pt": "Uma coisa fina",
+      "kea": "Un koiza fina"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2809",
+    "word": "fio",
+    "translation": {
+      "pt": "fio"
+    },
+    "example": {
+      "pt": "Onde está o fio?",
+      "kea": "Undi ki fio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2810",
+    "word": "firme",
+    "translation": {
+      "pt": "firme"
+    },
+    "example": {
+      "pt": "Isso parece firme",
+      "kea": "Kel-la parse firme"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2811",
+    "word": "fisiku",
+    "translation": {
+      "pt": "físico"
+    },
+    "example": {
+      "pt": "Isso parece físico",
+      "kea": "Kel-la parse fisiku"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2812",
+    "word": "fita",
+    "translation": {
+      "pt": "fita"
+    },
+    "example": {
+      "pt": "Onde está o fita?",
+      "kea": "Undi ki fita sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2813",
+    "word": "fixu",
+    "translation": {
+      "pt": "fixo"
+    },
+    "example": {
+      "pt": "Uma coisa fixo",
+      "kea": "Un koiza fixu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2814",
+    "word": "flor",
+    "translation": {
+      "pt": "flor"
+    },
+    "example": {
+      "pt": "O flor é interessante",
+      "kea": "Flor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2815",
+    "word": "folha",
+    "translation": {
+      "pt": "folha"
+    },
+    "example": {
+      "pt": "O folha é interessante",
+      "kea": "Folha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2816",
+    "word": "forma",
+    "translation": {
+      "pt": "forma"
+    },
+    "example": {
+      "pt": "O forma é interessante",
+      "kea": "Forma e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2817",
+    "word": "formiga",
+    "translation": {
+      "pt": "formiga"
+    },
+    "example": {
+      "pt": "Eu vi um formiga",
+      "kea": "N odja un formiga"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2818",
+    "word": "formula",
+    "translation": {
+      "pt": "fórmula"
+    },
+    "example": {
+      "pt": "O fórmula é interessante",
+      "kea": "Formula e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2819",
+    "word": "forno",
+    "translation": {
+      "pt": "forno"
+    },
+    "example": {
+      "pt": "Eu vi um forno",
+      "kea": "N odja un forno"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2820",
+    "word": "forte",
+    "translation": {
+      "pt": "forte"
+    },
+    "example": {
+      "pt": "Isso parece forte",
+      "kea": "Kel-la parse forte"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2821",
+    "word": "fortuna",
+    "translation": {
+      "pt": "fortuna"
+    },
+    "example": {
+      "pt": "O fortuna é interessante",
+      "kea": "Fortuna e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2822",
+    "word": "fosforu",
+    "translation": {
+      "pt": "fósforo"
+    },
+    "example": {
+      "pt": "Eu vi um fósforo",
+      "kea": "N odja un fosforu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2823",
+    "word": "fraco",
+    "translation": {
+      "pt": "fraco"
+    },
+    "example": {
+      "pt": "Uma coisa fraco",
+      "kea": "Un koiza fraco"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2824",
+    "word": "frade",
+    "translation": {
+      "pt": "frade"
+    },
+    "example": {
+      "pt": "O frade é interessante",
+      "kea": "Frade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2825",
+    "word": "frango",
+    "translation": {
+      "pt": "frango"
+    },
+    "example": {
+      "pt": "O frango é interessante",
+      "kea": "Frango e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2826",
+    "word": "frasco",
+    "translation": {
+      "pt": "frasco"
+    },
+    "example": {
+      "pt": "Onde está o frasco?",
+      "kea": "Undi ki frasco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2827",
+    "word": "frase",
+    "translation": {
+      "pt": "frase"
+    },
+    "example": {
+      "pt": "O frase é interessante",
+      "kea": "Frase e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2828",
+    "word": "frente",
+    "translation": {
+      "pt": "frente"
+    },
+    "example": {
+      "pt": "Onde está o frente?",
+      "kea": "Undi ki frente sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2829",
+    "word": "frequencia",
+    "translation": {
+      "pt": "frequência"
+    },
+    "example": {
+      "pt": "O frequência é interessante",
+      "kea": "Frequencia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2830",
+    "word": "fresco",
+    "translation": {
+      "pt": "fresco"
+    },
+    "example": {
+      "pt": "Ele é muito fresco",
+      "kea": "El e muitu fresco"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2831",
+    "word": "fronteira",
+    "translation": {
+      "pt": "fronteira"
+    },
+    "example": {
+      "pt": "Onde está o fronteira?",
+      "kea": "Undi ki fronteira sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2832",
+    "word": "fuga",
+    "translation": {
+      "pt": "fuga"
+    },
+    "example": {
+      "pt": "Onde está o fuga?",
+      "kea": "Undi ki fuga sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2833",
+    "word": "fumo",
+    "translation": {
+      "pt": "fumo"
+    },
+    "example": {
+      "pt": "Onde está o fumo?",
+      "kea": "Undi ki fumo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2834",
+    "word": "funcao",
+    "translation": {
+      "pt": "função"
+    },
+    "example": {
+      "pt": "Onde está o função?",
+      "kea": "Undi ki funcao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2835",
+    "word": "funcionariu",
+    "translation": {
+      "pt": "funcionário"
+    },
+    "example": {
+      "pt": "O funcionário é interessante",
+      "kea": "Funcionariu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2836",
+    "word": "fundo",
+    "translation": {
+      "pt": "fundo"
+    },
+    "example": {
+      "pt": "Eu vi um fundo",
+      "kea": "N odja un fundo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2837",
+    "word": "funeral",
+    "translation": {
+      "pt": "funeral"
+    },
+    "example": {
+      "pt": "O funeral é interessante",
+      "kea": "Funeral e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2838",
+    "word": "funil",
+    "translation": {
+      "pt": "funil"
+    },
+    "example": {
+      "pt": "Onde está o funil?",
+      "kea": "Undi ki funil sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2839",
+    "word": "furia",
+    "translation": {
+      "pt": "fúria"
+    },
+    "example": {
+      "pt": "Eu vi um fúria",
+      "kea": "N odja un furia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2840",
+    "word": "furo",
+    "translation": {
+      "pt": "furo"
+    },
+    "example": {
+      "pt": "O furo é interessante",
+      "kea": "Furo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2841",
+    "word": "g",
+    "translation": {
+      "pt": "letra g"
+    },
+    "example": {
+      "pt": "Onde está o letra g?",
+      "kea": "Undi ki g sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2842",
+    "word": "gabinete",
+    "translation": {
+      "pt": "gabinete"
+    },
+    "example": {
+      "pt": "O gabinete é interessante",
+      "kea": "Gabinete e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2843",
+    "word": "gado",
+    "translation": {
+      "pt": "gado"
+    },
+    "example": {
+      "pt": "O gado é interessante",
+      "kea": "Gado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2844",
+    "word": "gaivota",
+    "translation": {
+      "pt": "gaivota"
+    },
+    "example": {
+      "pt": "O gaivota é interessante",
+      "kea": "Gaivota e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2845",
+    "word": "galo",
+    "translation": {
+      "pt": "galo"
+    },
+    "example": {
+      "pt": "Onde está o galo?",
+      "kea": "Undi ki galo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2846",
+    "word": "ganhar",
+    "translation": {
+      "pt": "ganhar"
+    },
+    "example": {
+      "pt": "Precisamos ganhar agora",
+      "kea": "Nu ten ki ganhar agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2847",
+    "word": "garagem",
+    "translation": {
+      "pt": "garagem"
+    },
+    "example": {
+      "pt": "Onde está o garagem?",
+      "kea": "Undi ki garagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2848",
+    "word": "garantia",
+    "translation": {
+      "pt": "garantia"
+    },
+    "example": {
+      "pt": "Onde está o garantia?",
+      "kea": "Undi ki garantia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2849",
+    "word": "garfo",
+    "translation": {
+      "pt": "garfo"
+    },
+    "example": {
+      "pt": "Eu vi um garfo",
+      "kea": "N odja un garfo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2850",
+    "word": "garrafa",
+    "translation": {
+      "pt": "garrafa"
+    },
+    "example": {
+      "pt": "O garrafa é interessante",
+      "kea": "Garrafa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2851",
+    "word": "gas",
+    "translation": {
+      "pt": "gás"
+    },
+    "example": {
+      "pt": "Eu vi um gás",
+      "kea": "N odja un gas"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2852",
+    "word": "gastar",
+    "translation": {
+      "pt": "gastar"
+    },
+    "example": {
+      "pt": "Eu vou gastar",
+      "kea": "N ta gastar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2853",
+    "word": "gaveta",
+    "translation": {
+      "pt": "gaveta"
+    },
+    "example": {
+      "pt": "O gaveta é interessante",
+      "kea": "Gaveta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2854",
+    "word": "gelo",
+    "translation": {
+      "pt": "gelo"
+    },
+    "example": {
+      "pt": "Onde está o gelo?",
+      "kea": "Undi ki gelo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2855",
+    "word": "gemeos",
+    "translation": {
+      "pt": "gémeos"
+    },
+    "example": {
+      "pt": "Eu vi um gémeos",
+      "kea": "N odja un gemeos"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2856",
+    "word": "general",
+    "translation": {
+      "pt": "general"
+    },
+    "example": {
+      "pt": "Onde está o general?",
+      "kea": "Undi ki general sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2857",
+    "word": "genero",
+    "translation": {
+      "pt": "género"
+    },
+    "example": {
+      "pt": "O género é interessante",
+      "kea": "Genero e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2858",
+    "word": "genio",
+    "translation": {
+      "pt": "génio"
+    },
+    "example": {
+      "pt": "Onde está o génio?",
+      "kea": "Undi ki genio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2859",
+    "word": "gente",
+    "translation": {
+      "pt": "gente"
+    },
+    "example": {
+      "pt": "Eu vi um gente",
+      "kea": "N odja un gente"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2860",
+    "word": "geral",
+    "translation": {
+      "pt": "geral"
+    },
+    "example": {
+      "pt": "Isso parece geral",
+      "kea": "Kel-la parse geral"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2861",
+    "word": "gerente",
+    "translation": {
+      "pt": "gerente"
+    },
+    "example": {
+      "pt": "Eu vi um gerente",
+      "kea": "N odja un gerente"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2862",
+    "word": "gesso",
+    "translation": {
+      "pt": "gesso"
+    },
+    "example": {
+      "pt": "Onde está o gesso?",
+      "kea": "Undi ki gesso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2863",
+    "word": "gesto",
+    "translation": {
+      "pt": "gesto"
+    },
+    "example": {
+      "pt": "O gesto é interessante",
+      "kea": "Gesto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2864",
+    "word": "gigante",
+    "translation": {
+      "pt": "gigante"
+    },
+    "example": {
+      "pt": "O gigante é interessante",
+      "kea": "Gigante e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2865",
+    "word": "ginastica",
+    "translation": {
+      "pt": "ginástica"
+    },
+    "example": {
+      "pt": "Onde está o ginástica?",
+      "kea": "Undi ki ginastica sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2866",
+    "word": "girar",
+    "translation": {
+      "pt": "girar"
+    },
+    "example": {
+      "pt": "Ele gosta de girar",
+      "kea": "El ta gosta di girar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2867",
+    "word": "golfo",
+    "translation": {
+      "pt": "golfo"
+    },
+    "example": {
+      "pt": "O golfo é interessante",
+      "kea": "Golfo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2868",
+    "word": "golpe",
+    "translation": {
+      "pt": "golpe"
+    },
+    "example": {
+      "pt": "O golpe é interessante",
+      "kea": "Golpe e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2869",
+    "word": "goma",
+    "translation": {
+      "pt": "goma"
+    },
+    "example": {
+      "pt": "O goma é interessante",
+      "kea": "Goma e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2870",
+    "word": "gordo",
+    "translation": {
+      "pt": "gordo"
+    },
+    "example": {
+      "pt": "Isso parece gordo",
+      "kea": "Kel-la parse gordo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2871",
+    "word": "gorro",
+    "translation": {
+      "pt": "gorro"
+    },
+    "example": {
+      "pt": "Onde está o gorro?",
+      "kea": "Undi ki gorro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2872",
+    "word": "gostar",
+    "translation": {
+      "pt": "gostar"
+    },
+    "example": {
+      "pt": "Ele gosta de gostar",
+      "kea": "El ta gosta di gostar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2873",
+    "word": "gosto",
+    "translation": {
+      "pt": "gosto"
+    },
+    "example": {
+      "pt": "O gosto é interessante",
+      "kea": "Gosto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2874",
+    "word": "gota",
+    "translation": {
+      "pt": "gota"
+    },
+    "example": {
+      "pt": "Eu vi um gota",
+      "kea": "N odja un gota"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2875",
+    "word": "governo",
+    "translation": {
+      "pt": "governo"
+    },
+    "example": {
+      "pt": "Eu vi um governo",
+      "kea": "N odja un governo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2876",
+    "word": "graça",
+    "translation": {
+      "pt": "graça"
+    },
+    "example": {
+      "pt": "O graça é interessante",
+      "kea": "Graça e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2877",
+    "word": "grade",
+    "translation": {
+      "pt": "grade"
+    },
+    "example": {
+      "pt": "Onde está o grade?",
+      "kea": "Undi ki grade sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2878",
+    "word": "grafiko",
+    "translation": {
+      "pt": "gráfico"
+    },
+    "example": {
+      "pt": "Eu vi um gráfico",
+      "kea": "N odja un grafiko"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2879",
+    "word": "grama",
+    "translation": {
+      "pt": "grama"
+    },
+    "example": {
+      "pt": "O grama é interessante",
+      "kea": "Grama e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2880",
+    "word": "grande",
+    "translation": {
+      "pt": "grande"
+    },
+    "example": {
+      "pt": "Isso parece grande",
+      "kea": "Kel-la parse grande"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2881",
+    "word": "granizo",
+    "translation": {
+      "pt": "granizo"
+    },
+    "example": {
+      "pt": "O granizo é interessante",
+      "kea": "Granizo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2882",
+    "word": "gravidez",
+    "translation": {
+      "pt": "gravidez"
+    },
+    "example": {
+      "pt": "O gravidez é interessante",
+      "kea": "Gravidez e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2883",
+    "word": "grego",
+    "translation": {
+      "pt": "grego"
+    },
+    "example": {
+      "pt": "O grego é interessante",
+      "kea": "Grego e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2884",
+    "word": "grelha",
+    "translation": {
+      "pt": "grelha"
+    },
+    "example": {
+      "pt": "Eu vi um grelha",
+      "kea": "N odja un grelha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2885",
+    "word": "grito",
+    "translation": {
+      "pt": "grito"
+    },
+    "example": {
+      "pt": "Onde está o grito?",
+      "kea": "Undi ki grito sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2886",
+    "word": "grosso",
+    "translation": {
+      "pt": "grosso"
+    },
+    "example": {
+      "pt": "Isso parece grosso",
+      "kea": "Kel-la parse grosso"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2887",
+    "word": "grupo",
+    "translation": {
+      "pt": "grupo"
+    },
+    "example": {
+      "pt": "O grupo é interessante",
+      "kea": "Grupo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2888",
+    "word": "h",
+    "translation": {
+      "pt": "letra h"
+    },
+    "example": {
+      "pt": "Eu vi um letra h",
+      "kea": "N odja un h"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2889",
+    "word": "habitante",
+    "translation": {
+      "pt": "habitante"
+    },
+    "example": {
+      "pt": "Onde está o habitante?",
+      "kea": "Undi ki habitante sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2890",
+    "word": "hamburguer",
+    "translation": {
+      "pt": "hambúrguer"
+    },
+    "example": {
+      "pt": "Onde está o hambúrguer?",
+      "kea": "Undi ki hamburguer sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2891",
+    "word": "helice",
+    "translation": {
+      "pt": "hélice"
+    },
+    "example": {
+      "pt": "Onde está o hélice?",
+      "kea": "Undi ki helice sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2892",
+    "word": "hemisferiu",
+    "translation": {
+      "pt": "hemisfério"
+    },
+    "example": {
+      "pt": "Eu vi um hemisfério",
+      "kea": "N odja un hemisferiu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2893",
+    "word": "herança",
+    "translation": {
+      "pt": "herança"
+    },
+    "example": {
+      "pt": "O herança é interessante",
+      "kea": "Herança e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2894",
+    "word": "heroi",
+    "translation": {
+      "pt": "herói"
+    },
+    "example": {
+      "pt": "Onde está o herói?",
+      "kea": "Undi ki heroi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2895",
+    "word": "higiene",
+    "translation": {
+      "pt": "higiene"
+    },
+    "example": {
+      "pt": "Onde está o higiene?",
+      "kea": "Undi ki higiene sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2896",
+    "word": "holofote",
+    "translation": {
+      "pt": "holofote"
+    },
+    "example": {
+      "pt": "Eu vi um holofote",
+      "kea": "N odja un holofote"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2897",
+    "word": "homenagem",
+    "translation": {
+      "pt": "homenagem"
+    },
+    "example": {
+      "pt": "Eu vi um homenagem",
+      "kea": "N odja un homenagem"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2898",
+    "word": "honestu",
+    "translation": {
+      "pt": "honesto"
+    },
+    "example": {
+      "pt": "Ele é muito honesto",
+      "kea": "El e muitu honestu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2899",
+    "word": "horariu",
+    "translation": {
+      "pt": "horário"
+    },
+    "example": {
+      "pt": "Onde está o horário?",
+      "kea": "Undi ki horariu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2900",
+    "word": "horizonte",
+    "translation": {
+      "pt": "horizonte"
+    },
+    "example": {
+      "pt": "Onde está o horizonte?",
+      "kea": "Undi ki horizonte sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2901",
+    "word": "hormona",
+    "translation": {
+      "pt": "hormona"
+    },
+    "example": {
+      "pt": "Eu vi um hormona",
+      "kea": "N odja un hormona"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2902",
+    "word": "horror",
+    "translation": {
+      "pt": "horror"
+    },
+    "example": {
+      "pt": "Onde está o horror?",
+      "kea": "Undi ki horror sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2903",
+    "word": "hospede",
+    "translation": {
+      "pt": "hóspede"
+    },
+    "example": {
+      "pt": "O hóspede é interessante",
+      "kea": "Hospede e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2904",
+    "word": "humano",
+    "translation": {
+      "pt": "humano"
+    },
+    "example": {
+      "pt": "Uma coisa humano",
+      "kea": "Un koiza humano"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2905",
+    "word": "humilde",
+    "translation": {
+      "pt": "humilde"
+    },
+    "example": {
+      "pt": "Isso parece humilde",
+      "kea": "Kel-la parse humilde"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2906",
+    "word": "humor",
+    "translation": {
+      "pt": "humor"
+    },
+    "example": {
+      "pt": "Onde está o humor?",
+      "kea": "Undi ki humor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2907",
+    "word": "idade",
+    "translation": {
+      "pt": "idade"
+    },
+    "example": {
+      "pt": "Eu vi um idade",
+      "kea": "N odja un idade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2908",
+    "word": "ideia",
+    "translation": {
+      "pt": "ideia"
+    },
+    "example": {
+      "pt": "O ideia é interessante",
+      "kea": "Ideia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2909",
+    "word": "identidadi",
+    "translation": {
+      "pt": "identidade"
+    },
+    "example": {
+      "pt": "Onde está o identidade?",
+      "kea": "Undi ki identidadi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2910",
+    "word": "idolo",
+    "translation": {
+      "pt": "ídolo"
+    },
+    "example": {
+      "pt": "Onde está o ídolo?",
+      "kea": "Undi ki idolo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2911",
+    "word": "ilegal",
+    "translation": {
+      "pt": "ilegal"
+    },
+    "example": {
+      "pt": "Isso parece ilegal",
+      "kea": "Kel-la parse ilegal"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2912",
+    "word": "iluminason",
+    "translation": {
+      "pt": "iluminação"
+    },
+    "example": {
+      "pt": "O iluminação é interessante",
+      "kea": "Iluminason e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2913",
+    "word": "ilusao",
+    "translation": {
+      "pt": "ilusão"
+    },
+    "example": {
+      "pt": "Eu vi um ilusão",
+      "kea": "N odja un ilusao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2914",
+    "word": "imagem",
+    "translation": {
+      "pt": "imagem"
+    },
+    "example": {
+      "pt": "Eu vi um imagem",
+      "kea": "N odja un imagem"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2915",
+    "word": "imagina",
+    "translation": {
+      "pt": "imaginar"
+    },
+    "example": {
+      "pt": "Ele gosta de imaginar",
+      "kea": "El ta gosta di imagina"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2916",
+    "word": "iman",
+    "translation": {
+      "pt": "íman"
+    },
+    "example": {
+      "pt": "Eu vi um íman",
+      "kea": "N odja un iman"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2917",
+    "word": "imediato",
+    "translation": {
+      "pt": "imediato"
+    },
+    "example": {
+      "pt": "Uma coisa imediato",
+      "kea": "Un koiza imediato"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2918",
+    "word": "imenso",
+    "translation": {
+      "pt": "imenso"
+    },
+    "example": {
+      "pt": "Uma coisa imenso",
+      "kea": "Un koiza imenso"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2919",
+    "word": "imigrante",
+    "translation": {
+      "pt": "imigrante"
+    },
+    "example": {
+      "pt": "Eu vi um imigrante",
+      "kea": "N odja un imigrante"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2920",
+    "word": "impacto",
+    "translation": {
+      "pt": "impacto"
+    },
+    "example": {
+      "pt": "O impacto é interessante",
+      "kea": "Impacto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2921",
+    "word": "imperador",
+    "translation": {
+      "pt": "imperador"
+    },
+    "example": {
+      "pt": "Onde está o imperador?",
+      "kea": "Undi ki imperador sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2922",
+    "word": "imperio",
+    "translation": {
+      "pt": "império"
+    },
+    "example": {
+      "pt": "O império é interessante",
+      "kea": "Imperio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2923",
+    "word": "importante",
+    "translation": {
+      "pt": "importante"
+    },
+    "example": {
+      "pt": "Ele é muito importante",
+      "kea": "El e muitu importante"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2924",
+    "word": "imposto",
+    "translation": {
+      "pt": "imposto"
+    },
+    "example": {
+      "pt": "O imposto é interessante",
+      "kea": "Imposto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2925",
+    "word": "impossivel",
+    "translation": {
+      "pt": "impossível"
+    },
+    "example": {
+      "pt": "Isso parece impossível",
+      "kea": "Kel-la parse impossivel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2926",
+    "word": "imprensa",
+    "translation": {
+      "pt": "imprensa"
+    },
+    "example": {
+      "pt": "Eu vi um imprensa",
+      "kea": "N odja un imprensa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2927",
+    "word": "impulso",
+    "translation": {
+      "pt": "impulso"
+    },
+    "example": {
+      "pt": "Eu vi um impulso",
+      "kea": "N odja un impulso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2928",
+    "word": "incendio",
+    "translation": {
+      "pt": "incêndio"
+    },
+    "example": {
+      "pt": "Onde está o incêndio?",
+      "kea": "Undi ki incendio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2929",
+    "word": "incenso",
+    "translation": {
+      "pt": "incenso"
+    },
+    "example": {
+      "pt": "Onde está o incenso?",
+      "kea": "Undi ki incenso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2930",
+    "word": "inchaço",
+    "translation": {
+      "pt": "inchaço"
+    },
+    "example": {
+      "pt": "Onde está o inchaço?",
+      "kea": "Undi ki inchaço sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2931",
+    "word": "incrivel",
+    "translation": {
+      "pt": "incrível"
+    },
+    "example": {
+      "pt": "Ele é muito incrível",
+      "kea": "El e muitu incrivel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2932",
+    "word": "independencia",
+    "translation": {
+      "pt": "independência"
+    },
+    "example": {
+      "pt": "Onde está o independência?",
+      "kea": "Undi ki independencia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2933",
+    "word": "indio",
+    "translation": {
+      "pt": "índio"
+    },
+    "example": {
+      "pt": "Eu vi um índio",
+      "kea": "N odja un indio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2934",
+    "word": "infantaria",
+    "translation": {
+      "pt": "infantaria"
+    },
+    "example": {
+      "pt": "Eu vi um infantaria",
+      "kea": "N odja un infantaria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2935",
+    "word": "infeliz",
+    "translation": {
+      "pt": "infeliz"
+    },
+    "example": {
+      "pt": "Uma coisa infeliz",
+      "kea": "Un koiza infeliz"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2936",
+    "word": "inferior",
+    "translation": {
+      "pt": "inferior"
+    },
+    "example": {
+      "pt": "Uma coisa inferior",
+      "kea": "Un koiza inferior"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2937",
+    "word": "inferno",
+    "translation": {
+      "pt": "inferno"
+    },
+    "example": {
+      "pt": "Eu vi um inferno",
+      "kea": "N odja un inferno"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2938",
+    "word": "infinito",
+    "translation": {
+      "pt": "infinito"
+    },
+    "example": {
+      "pt": "Uma coisa infinito",
+      "kea": "Un koiza infinito"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2939",
+    "word": "inflamason",
+    "translation": {
+      "pt": "inflamação"
+    },
+    "example": {
+      "pt": "Eu vi um inflamação",
+      "kea": "N odja un inflamason"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2940",
+    "word": "ingrediente",
+    "translation": {
+      "pt": "ingrediente"
+    },
+    "example": {
+      "pt": "Onde está o ingrediente?",
+      "kea": "Undi ki ingrediente sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2941",
+    "word": "inicio",
+    "translation": {
+      "pt": "início"
+    },
+    "example": {
+      "pt": "O início é interessante",
+      "kea": "Inicio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2942",
+    "word": "inimigo",
+    "translation": {
+      "pt": "inimigo"
+    },
+    "example": {
+      "pt": "Onde está o inimigo?",
+      "kea": "Undi ki inimigo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2943",
+    "word": "injel",
+    "translation": {
+      "pt": "ingénuo"
+    },
+    "example": {
+      "pt": "Ele é muito ingénuo",
+      "kea": "El e muitu injel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2944",
+    "word": "injustica",
+    "translation": {
+      "pt": "injustiça"
+    },
+    "example": {
+      "pt": "Onde está o injustiça?",
+      "kea": "Undi ki injustica sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2945",
+    "word": "inocente",
+    "translation": {
+      "pt": "inocente"
+    },
+    "example": {
+      "pt": "Ele é muito inocente",
+      "kea": "El e muitu inocente"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2946",
+    "word": "inquerito",
+    "translation": {
+      "pt": "inquérito"
+    },
+    "example": {
+      "pt": "Eu vi um inquérito",
+      "kea": "N odja un inquerito"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2947",
+    "word": "inseto",
+    "translation": {
+      "pt": "inseto"
+    },
+    "example": {
+      "pt": "Eu vi um inseto",
+      "kea": "N odja un inseto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2948",
+    "word": "insignia",
+    "translation": {
+      "pt": "insígnia"
+    },
+    "example": {
+      "pt": "Onde está o insígnia?",
+      "kea": "Undi ki insignia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2949",
+    "word": "insonia",
+    "translation": {
+      "pt": "insónia"
+    },
+    "example": {
+      "pt": "Eu vi um insónia",
+      "kea": "N odja un insonia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2950",
+    "word": "inspetor",
+    "translation": {
+      "pt": "inspetor"
+    },
+    "example": {
+      "pt": "Eu vi um inspetor",
+      "kea": "N odja un inspetor"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2951",
+    "word": "instinto",
+    "translation": {
+      "pt": "instinto"
+    },
+    "example": {
+      "pt": "Onde está o instinto?",
+      "kea": "Undi ki instinto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2952",
+    "word": "instrumento",
+    "translation": {
+      "pt": "instrumento"
+    },
+    "example": {
+      "pt": "O instrumento é interessante",
+      "kea": "Instrumento e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2953",
+    "word": "insulto",
+    "translation": {
+      "pt": "insulto"
+    },
+    "example": {
+      "pt": "Eu vi um insulto",
+      "kea": "N odja un insulto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2954",
+    "word": "inteiro",
+    "translation": {
+      "pt": "inteiro"
+    },
+    "example": {
+      "pt": "Ele é muito inteiro",
+      "kea": "El e muitu inteiro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2955",
+    "word": "inteligencia",
+    "translation": {
+      "pt": "inteligência"
+    },
+    "example": {
+      "pt": "Onde está o inteligência?",
+      "kea": "Undi ki inteligencia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2956",
+    "word": "inteligente",
+    "translation": {
+      "pt": "inteligente"
+    },
+    "example": {
+      "pt": "Ele é muito inteligente",
+      "kea": "El e muitu inteligente"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2957",
+    "word": "intencao",
+    "translation": {
+      "pt": "intenção"
+    },
+    "example": {
+      "pt": "Onde está o intenção?",
+      "kea": "Undi ki intencao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2958",
+    "word": "interesse",
+    "translation": {
+      "pt": "interesse"
+    },
+    "example": {
+      "pt": "Eu vi um interesse",
+      "kea": "N odja un interesse"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2959",
+    "word": "interior",
+    "translation": {
+      "pt": "interior"
+    },
+    "example": {
+      "pt": "Eu vi um interior",
+      "kea": "N odja un interior"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2960",
+    "word": "internacional",
+    "translation": {
+      "pt": "internacional"
+    },
+    "example": {
+      "pt": "Uma coisa internacional",
+      "kea": "Un koiza internacional"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2961",
+    "word": "internet",
+    "translation": {
+      "pt": "internet"
+    },
+    "example": {
+      "pt": "Eu vi um internet",
+      "kea": "N odja un internet"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2962",
+    "word": "interprete",
+    "translation": {
+      "pt": "intérprete"
+    },
+    "example": {
+      "pt": "Onde está o intérprete?",
+      "kea": "Undi ki interprete sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2963",
+    "word": "intervalo",
+    "translation": {
+      "pt": "intervalo"
+    },
+    "example": {
+      "pt": "O intervalo é interessante",
+      "kea": "Intervalo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2964",
+    "word": "intimo",
+    "translation": {
+      "pt": "íntimo"
+    },
+    "example": {
+      "pt": "Ele é muito íntimo",
+      "kea": "El e muitu intimo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2965",
+    "word": "invasao",
+    "translation": {
+      "pt": "invasão"
+    },
+    "example": {
+      "pt": "O invasão é interessante",
+      "kea": "Invasao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2966",
+    "word": "inverno",
+    "translation": {
+      "pt": "inverno"
+    },
+    "example": {
+      "pt": "Eu vi um inverno",
+      "kea": "N odja un inverno"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2967",
+    "word": "investigason",
+    "translation": {
+      "pt": "investigação"
+    },
+    "example": {
+      "pt": "O investigação é interessante",
+      "kea": "Investigason e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2968",
+    "word": "invisivel",
+    "translation": {
+      "pt": "invisível"
+    },
+    "example": {
+      "pt": "Uma coisa invisível",
+      "kea": "Un koiza invisivel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2969",
+    "word": "irmao",
+    "translation": {
+      "pt": "irmão"
+    },
+    "example": {
+      "pt": "Onde está o irmão?",
+      "kea": "Undi ki irmao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2970",
+    "word": "ironia",
+    "translation": {
+      "pt": "ironia"
+    },
+    "example": {
+      "pt": "Onde está o ironia?",
+      "kea": "Undi ki ironia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2971",
+    "word": "isca",
+    "translation": {
+      "pt": "isca"
+    },
+    "example": {
+      "pt": "O isca é interessante",
+      "kea": "Isca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2972",
+    "word": "isqueiro",
+    "translation": {
+      "pt": "isqueiro"
+    },
+    "example": {
+      "pt": "Eu vi um isqueiro",
+      "kea": "N odja un isqueiro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2973",
+    "word": "isso",
+    "translation": {
+      "pt": "isso"
+    },
+    "example": {
+      "pt": "É isso",
+      "kea": "E isso"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2974",
+    "word": "isto",
+    "translation": {
+      "pt": "isto"
+    },
+    "example": {
+      "pt": "Isto está aqui",
+      "kea": "Isto sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2975",
+    "word": "j",
+    "translation": {
+      "pt": "letra j"
+    },
+    "example": {
+      "pt": "Onde está o letra j?",
+      "kea": "Undi ki j sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2976",
+    "word": "jacare",
+    "translation": {
+      "pt": "jacaré"
+    },
+    "example": {
+      "pt": "O jacaré é interessante",
+      "kea": "Jacare e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2977",
+    "word": "janela",
+    "translation": {
+      "pt": "janela"
+    },
+    "example": {
+      "pt": "Eu vi um janela",
+      "kea": "N odja un janela"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2978",
+    "word": "jardim",
+    "translation": {
+      "pt": "jardim"
+    },
+    "example": {
+      "pt": "Onde está o jardim?",
+      "kea": "Undi ki jardim sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2979",
+    "word": "jarra",
+    "translation": {
+      "pt": "jarra"
+    },
+    "example": {
+      "pt": "Onde está o jarra?",
+      "kea": "Undi ki jarra sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2980",
+    "word": "jaula",
+    "translation": {
+      "pt": "jaula"
+    },
+    "example": {
+      "pt": "Eu vi um jaula",
+      "kea": "N odja un jaula"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2981",
+    "word": "javali",
+    "translation": {
+      "pt": "javali"
+    },
+    "example": {
+      "pt": "Eu vi um javali",
+      "kea": "N odja un javali"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2982",
+    "word": "jazz",
+    "translation": {
+      "pt": "jazz"
+    },
+    "example": {
+      "pt": "O jazz é interessante",
+      "kea": "Jazz e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2983",
+    "word": "jeito",
+    "translation": {
+      "pt": "jeito"
+    },
+    "example": {
+      "pt": "O jeito é interessante",
+      "kea": "Jeito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2984",
+    "word": "jejum",
+    "translation": {
+      "pt": "jejum"
+    },
+    "example": {
+      "pt": "Eu vi um jejum",
+      "kea": "N odja un jejum"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2985",
+    "word": "joelho",
+    "translation": {
+      "pt": "joelho"
+    },
+    "example": {
+      "pt": "Onde está o joelho?",
+      "kea": "Undi ki joelho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2986",
+    "word": "jogo",
+    "translation": {
+      "pt": "jogo"
+    },
+    "example": {
+      "pt": "Eu vi um jogo",
+      "kea": "N odja un jogo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2987",
+    "word": "jornalista",
+    "translation": {
+      "pt": "jornalista"
+    },
+    "example": {
+      "pt": "Onde está o jornalista?",
+      "kea": "Undi ki jornalista sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2988",
+    "word": "jovem",
+    "translation": {
+      "pt": "jovem"
+    },
+    "example": {
+      "pt": "Uma coisa jovem",
+      "kea": "Un koiza jovem"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2989",
+    "word": "juba",
+    "translation": {
+      "pt": "juba"
+    },
+    "example": {
+      "pt": "O juba é interessante",
+      "kea": "Juba e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2990",
+    "word": "julgamento",
+    "translation": {
+      "pt": "julgamento"
+    },
+    "example": {
+      "pt": "Eu vi um julgamento",
+      "kea": "N odja un julgamento"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2991",
+    "word": "julho",
+    "translation": {
+      "pt": "julho"
+    },
+    "example": {
+      "pt": "O julho é interessante",
+      "kea": "Julho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2992",
+    "word": "junho",
+    "translation": {
+      "pt": "junho"
+    },
+    "example": {
+      "pt": "Onde está o junho?",
+      "kea": "Undi ki junho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2993",
+    "word": "juramento",
+    "translation": {
+      "pt": "juramento"
+    },
+    "example": {
+      "pt": "Onde está o juramento?",
+      "kea": "Undi ki juramento sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2994",
+    "word": "juri",
+    "translation": {
+      "pt": "júri"
+    },
+    "example": {
+      "pt": "O júri é interessante",
+      "kea": "Juri e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2995",
+    "word": "justica",
+    "translation": {
+      "pt": "justiça"
+    },
+    "example": {
+      "pt": "Eu vi um justiça",
+      "kea": "N odja un justica"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2996",
+    "word": "justo",
+    "translation": {
+      "pt": "justo"
+    },
+    "example": {
+      "pt": "Isso parece justo",
+      "kea": "Kel-la parse justo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2997",
+    "word": "juventude",
+    "translation": {
+      "pt": "juventude"
+    },
+    "example": {
+      "pt": "Eu vi um juventude",
+      "kea": "N odja un juventude"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2998",
+    "word": "k",
+    "translation": {
+      "pt": "letra k"
+    },
+    "example": {
+      "pt": "Eu vi um letra k",
+      "kea": "N odja un k"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2999",
+    "word": "kg",
+    "translation": {
+      "pt": "quilograma"
+    },
+    "example": {
+      "pt": "Onde está o quilograma?",
+      "kea": "Undi ki kg sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3000",
+    "word": "km",
+    "translation": {
+      "pt": "quilómetro"
+    },
+    "example": {
+      "pt": "O quilómetro é interessante",
+      "kea": "Km e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3001",
+    "word": "l",
+    "translation": {
+      "pt": "letra l"
+    },
+    "example": {
+      "pt": "O letra l é interessante",
+      "kea": "L e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3002",
+    "word": "labirinto",
+    "translation": {
+      "pt": "labirinto"
+    },
+    "example": {
+      "pt": "Onde está o labirinto?",
+      "kea": "Undi ki labirinto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3003",
+    "word": "laboratoriu",
+    "translation": {
+      "pt": "laboratório"
+    },
+    "example": {
+      "pt": "O laboratório é interessante",
+      "kea": "Laboratoriu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3004",
+    "word": "ladrao",
+    "translation": {
+      "pt": "ladrão"
+    },
+    "example": {
+      "pt": "O ladrão é interessante",
+      "kea": "Ladrao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3005",
+    "word": "lago",
+    "translation": {
+      "pt": "lago"
+    },
+    "example": {
+      "pt": "Onde está o lago?",
+      "kea": "Undi ki lago sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3006",
+    "word": "lagoa",
+    "translation": {
+      "pt": "lagoa"
+    },
+    "example": {
+      "pt": "Onde está o lagoa?",
+      "kea": "Undi ki lagoa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3007",
+    "word": "lagosta",
+    "translation": {
+      "pt": "lagosta"
+    },
+    "example": {
+      "pt": "O lagosta é interessante",
+      "kea": "Lagosta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3008",
+    "word": "lamina",
+    "translation": {
+      "pt": "lâmina"
+    },
+    "example": {
+      "pt": "Onde está o lâmina?",
+      "kea": "Undi ki lamina sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3009",
+    "word": "lampada",
+    "translation": {
+      "pt": "lâmpada"
+    },
+    "example": {
+      "pt": "O lâmpada é interessante",
+      "kea": "Lampada e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3010",
+    "word": "lança",
+    "translation": {
+      "pt": "lança"
+    },
+    "example": {
+      "pt": "O lança é interessante",
+      "kea": "Lança e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3011",
+    "word": "lancha",
+    "translation": {
+      "pt": "lancha"
+    },
+    "example": {
+      "pt": "O lancha é interessante",
+      "kea": "Lancha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3012",
+    "word": "lanterna",
+    "translation": {
+      "pt": "lanterna"
+    },
+    "example": {
+      "pt": "Onde está o lanterna?",
+      "kea": "Undi ki lanterna sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3013",
+    "word": "lar",
+    "translation": {
+      "pt": "lar"
+    },
+    "example": {
+      "pt": "Eu vi um lar",
+      "kea": "N odja un lar"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3014",
+    "word": "laranja",
+    "translation": {
+      "pt": "laranja"
+    },
+    "example": {
+      "pt": "Onde está o laranja?",
+      "kea": "Undi ki laranja sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3015",
+    "word": "largo",
+    "translation": {
+      "pt": "largo"
+    },
+    "example": {
+      "pt": "Ele é muito largo",
+      "kea": "El e muitu largo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3016",
+    "word": "latim",
+    "translation": {
+      "pt": "latim"
+    },
+    "example": {
+      "pt": "O latim é interessante",
+      "kea": "Latim e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3017",
+    "word": "leao",
+    "translation": {
+      "pt": "leão"
+    },
+    "example": {
+      "pt": "O leão é interessante",
+      "kea": "Leao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3018",
+    "word": "lebre",
+    "translation": {
+      "pt": "lebre"
+    },
+    "example": {
+      "pt": "Onde está o lebre?",
+      "kea": "Undi ki lebre sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3019",
+    "word": "legenda",
+    "translation": {
+      "pt": "legenda"
+    },
+    "example": {
+      "pt": "O legenda é interessante",
+      "kea": "Legenda e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3020",
+    "word": "legiao",
+    "translation": {
+      "pt": "legião"
+    },
+    "example": {
+      "pt": "Onde está o legião?",
+      "kea": "Undi ki legiao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3021",
+    "word": "legislason",
+    "translation": {
+      "pt": "legislação"
+    },
+    "example": {
+      "pt": "Eu vi um legislação",
+      "kea": "N odja un legislason"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3022",
+    "word": "legitimo",
+    "translation": {
+      "pt": "legítimo"
+    },
+    "example": {
+      "pt": "Isso parece legítimo",
+      "kea": "Kel-la parse legitimo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3023",
+    "word": "legume",
+    "translation": {
+      "pt": "legume"
+    },
+    "example": {
+      "pt": "O legume é interessante",
+      "kea": "Legume e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3024",
+    "word": "leilao",
+    "translation": {
+      "pt": "leilão"
+    },
+    "example": {
+      "pt": "Eu vi um leilão",
+      "kea": "N odja un leilao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3025",
+    "word": "leito",
+    "translation": {
+      "pt": "leito"
+    },
+    "example": {
+      "pt": "Eu vi um leito",
+      "kea": "N odja un leito"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3026",
+    "word": "lema",
+    "translation": {
+      "pt": "lema"
+    },
+    "example": {
+      "pt": "O lema é interessante",
+      "kea": "Lema e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3027",
+    "word": "lembrança",
+    "translation": {
+      "pt": "lembrança"
+    },
+    "example": {
+      "pt": "Onde está o lembrança?",
+      "kea": "Undi ki lembrança sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3028",
+    "word": "leme",
+    "translation": {
+      "pt": "leme"
+    },
+    "example": {
+      "pt": "Eu vi um leme",
+      "kea": "N odja un leme"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3029",
+    "word": "lenço",
+    "translation": {
+      "pt": "lenço"
+    },
+    "example": {
+      "pt": "Eu vi um lenço",
+      "kea": "N odja un lenço"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3030",
+    "word": "lenda",
+    "translation": {
+      "pt": "lenda"
+    },
+    "example": {
+      "pt": "Onde está o lenda?",
+      "kea": "Undi ki lenda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3031",
+    "word": "lente",
+    "translation": {
+      "pt": "lente"
+    },
+    "example": {
+      "pt": "Onde está o lente?",
+      "kea": "Undi ki lente sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3032",
+    "word": "lento",
+    "translation": {
+      "pt": "lento"
+    },
+    "example": {
+      "pt": "Ele é muito lento",
+      "kea": "El e muitu lento"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3033",
+    "word": "leopardo",
+    "translation": {
+      "pt": "leopardo"
+    },
+    "example": {
+      "pt": "O leopardo é interessante",
+      "kea": "Leopardo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3034",
+    "word": "leque",
+    "translation": {
+      "pt": "leque"
+    },
+    "example": {
+      "pt": "Eu vi um leque",
+      "kea": "N odja un leque"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3035",
+    "word": "leste",
+    "translation": {
+      "pt": "leste"
+    },
+    "example": {
+      "pt": "O leste é interessante",
+      "kea": "Leste e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3036",
+    "word": "letra",
+    "translation": {
+      "pt": "letra"
+    },
+    "example": {
+      "pt": "Eu vi um letra",
+      "kea": "N odja un letra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3037",
+    "word": "liberdade",
+    "translation": {
+      "pt": "liberdade"
+    },
+    "example": {
+      "pt": "Onde está o liberdade?",
+      "kea": "Undi ki liberdade sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3038",
+    "word": "libra",
+    "translation": {
+      "pt": "libra"
+    },
+    "example": {
+      "pt": "Onde está o libra?",
+      "kea": "Undi ki libra sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3039",
+    "word": "licao",
+    "translation": {
+      "pt": "lição"
+    },
+    "example": {
+      "pt": "Onde está o lição?",
+      "kea": "Undi ki licao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3040",
+    "word": "licença",
+    "translation": {
+      "pt": "licença"
+    },
+    "example": {
+      "pt": "Eu vi um licença",
+      "kea": "N odja un licença"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3041",
+    "word": "lilas",
+    "translation": {
+      "pt": "lilás"
+    },
+    "example": {
+      "pt": "O lilás é interessante",
+      "kea": "Lilas e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3042",
+    "word": "limao",
+    "translation": {
+      "pt": "limão"
+    },
+    "example": {
+      "pt": "Onde está o limão?",
+      "kea": "Undi ki limao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3043",
+    "word": "limite",
+    "translation": {
+      "pt": "limite"
+    },
+    "example": {
+      "pt": "Onde está o limite?",
+      "kea": "Undi ki limite sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3044",
+    "word": "limonada",
+    "translation": {
+      "pt": "limonada"
+    },
+    "example": {
+      "pt": "Eu vi um limonada",
+      "kea": "N odja un limonada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3045",
+    "word": "limpo",
+    "translation": {
+      "pt": "limpo"
+    },
+    "example": {
+      "pt": "Isso parece limpo",
+      "kea": "Kel-la parse limpo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3046",
+    "word": "lince",
+    "translation": {
+      "pt": "lince"
+    },
+    "example": {
+      "pt": "Eu vi um lince",
+      "kea": "N odja un lince"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3047",
+    "word": "linguagem",
+    "translation": {
+      "pt": "linguagem"
+    },
+    "example": {
+      "pt": "Onde está o linguagem?",
+      "kea": "Undi ki linguagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3048",
+    "word": "linho",
+    "translation": {
+      "pt": "linho"
+    },
+    "example": {
+      "pt": "Onde está o linho?",
+      "kea": "Undi ki linho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3049",
+    "word": "liquido",
+    "translation": {
+      "pt": "líquido"
+    },
+    "example": {
+      "pt": "Eu vi um líquido",
+      "kea": "N odja un liquido"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3050",
+    "word": "lirio",
+    "translation": {
+      "pt": "lírio"
+    },
+    "example": {
+      "pt": "Onde está o lírio?",
+      "kea": "Undi ki lirio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3051",
+    "word": "lista",
+    "translation": {
+      "pt": "lista"
+    },
+    "example": {
+      "pt": "Eu vi um lista",
+      "kea": "N odja un lista"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3052",
+    "word": "literatura",
+    "translation": {
+      "pt": "literatura"
+    },
+    "example": {
+      "pt": "Onde está o literatura?",
+      "kea": "Undi ki literatura sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3053",
+    "word": "litro",
+    "translation": {
+      "pt": "litro"
+    },
+    "example": {
+      "pt": "Onde está o litro?",
+      "kea": "Undi ki litro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3054",
+    "word": "livro",
+    "translation": {
+      "pt": "livro"
+    },
+    "example": {
+      "pt": "Eu vi um livro",
+      "kea": "N odja un livro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3055",
+    "word": "lixo",
+    "translation": {
+      "pt": "lixo"
+    },
+    "example": {
+      "pt": "Onde está o lixo?",
+      "kea": "Undi ki lixo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3056",
+    "word": "lobo",
+    "translation": {
+      "pt": "lobo"
+    },
+    "example": {
+      "pt": "O lobo é interessante",
+      "kea": "Lobo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3057",
+    "word": "local",
+    "translation": {
+      "pt": "local"
+    },
+    "example": {
+      "pt": "Onde está o local?",
+      "kea": "Undi ki local sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3058",
+    "word": "logica",
+    "translation": {
+      "pt": "lógica"
+    },
+    "example": {
+      "pt": "O lógica é interessante",
+      "kea": "Logica e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3059",
+    "word": "lona",
+    "translation": {
+      "pt": "lona"
+    },
+    "example": {
+      "pt": "Eu vi um lona",
+      "kea": "N odja un lona"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3060",
+    "word": "longe",
+    "translation": {
+      "pt": "longe"
+    },
+    "example": {
+      "pt": "Ele fala longe",
+      "kea": "El ta fala longe"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3061",
+    "word": "longo",
+    "translation": {
+      "pt": "longo"
+    },
+    "example": {
+      "pt": "Isso parece longo",
+      "kea": "Kel-la parse longo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3062",
+    "word": "lontra",
+    "translation": {
+      "pt": "lontra"
+    },
+    "example": {
+      "pt": "Eu vi um lontra",
+      "kea": "N odja un lontra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3063",
+    "word": "lorde",
+    "translation": {
+      "pt": "lorde"
+    },
+    "example": {
+      "pt": "Eu vi um lorde",
+      "kea": "N odja un lorde"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3064",
+    "word": "lotaria",
+    "translation": {
+      "pt": "lotaria"
+    },
+    "example": {
+      "pt": "O lotaria é interessante",
+      "kea": "Lotaria e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3065",
+    "word": "lote",
+    "translation": {
+      "pt": "lote"
+    },
+    "example": {
+      "pt": "O lote é interessante",
+      "kea": "Lote e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3066",
+    "word": "louco",
+    "translation": {
+      "pt": "louco"
+    },
+    "example": {
+      "pt": "Ele é muito louco",
+      "kea": "El e muitu louco"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3067",
+    "word": "louro",
+    "translation": {
+      "pt": "louro"
+    },
+    "example": {
+      "pt": "Ele é muito louro",
+      "kea": "El e muitu louro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3068",
+    "word": "lousa",
+    "translation": {
+      "pt": "lousa"
+    },
+    "example": {
+      "pt": "O lousa é interessante",
+      "kea": "Lousa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3069",
+    "word": "lucro",
+    "translation": {
+      "pt": "lucro"
+    },
+    "example": {
+      "pt": "O lucro é interessante",
+      "kea": "Lucro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3070",
+    "word": "lula",
+    "translation": {
+      "pt": "lula"
+    },
+    "example": {
+      "pt": "O lula é interessante",
+      "kea": "Lula e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3071",
+    "word": "luto",
+    "translation": {
+      "pt": "luto"
+    },
+    "example": {
+      "pt": "Eu vi um luto",
+      "kea": "N odja un luto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3072",
+    "word": "luva",
+    "translation": {
+      "pt": "luva"
+    },
+    "example": {
+      "pt": "O luva é interessante",
+      "kea": "Luva e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3073",
+    "word": "luxo",
+    "translation": {
+      "pt": "luxo"
+    },
+    "example": {
+      "pt": "Eu vi um luxo",
+      "kea": "N odja un luxo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3074",
+    "word": "m",
+    "translation": {
+      "pt": "letra m"
+    },
+    "example": {
+      "pt": "Onde está o letra m?",
+      "kea": "Undi ki m sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3075",
+    "word": "maca",
+    "translation": {
+      "pt": "maca"
+    },
+    "example": {
+      "pt": "O maca é interessante",
+      "kea": "Maca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3076",
+    "word": "macacao",
+    "translation": {
+      "pt": "macacão"
+    },
+    "example": {
+      "pt": "O macacão é interessante",
+      "kea": "Macacao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3077",
+    "word": "macaco",
+    "translation": {
+      "pt": "macaco"
+    },
+    "example": {
+      "pt": "Eu vi um macaco",
+      "kea": "N odja un macaco"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3078",
+    "word": "machado",
+    "translation": {
+      "pt": "machado"
+    },
+    "example": {
+      "pt": "Eu vi um machado",
+      "kea": "N odja un machado"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3079",
+    "word": "macho",
+    "translation": {
+      "pt": "macho"
+    },
+    "example": {
+      "pt": "Eu vi um macho",
+      "kea": "N odja un macho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3080",
+    "word": "madeira",
+    "translation": {
+      "pt": "madeira"
+    },
+    "example": {
+      "pt": "Eu vi um madeira",
+      "kea": "N odja un madeira"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3081",
+    "word": "madrugada",
+    "translation": {
+      "pt": "madrugada"
+    },
+    "example": {
+      "pt": "Onde está o madrugada?",
+      "kea": "Undi ki madrugada sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3082",
+    "word": "maduro",
+    "translation": {
+      "pt": "maduro"
+    },
+    "example": {
+      "pt": "Ele é muito maduro",
+      "kea": "El e muitu maduro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3083",
+    "word": "magia",
+    "translation": {
+      "pt": "magia"
+    },
+    "example": {
+      "pt": "O magia é interessante",
+      "kea": "Magia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3084",
+    "word": "magico",
+    "translation": {
+      "pt": "mágico"
+    },
+    "example": {
+      "pt": "Eu vi um mágico",
+      "kea": "N odja un magico"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3085",
+    "word": "magnetismo",
+    "translation": {
+      "pt": "magnetismo"
+    },
+    "example": {
+      "pt": "Onde está o magnetismo?",
+      "kea": "Undi ki magnetismo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3086",
+    "word": "magnifico",
+    "translation": {
+      "pt": "magnífico"
+    },
+    "example": {
+      "pt": "Isso parece magnífico",
+      "kea": "Kel-la parse magnifico"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3087",
+    "word": "magoa",
+    "translation": {
+      "pt": "mágoa"
+    },
+    "example": {
+      "pt": "Onde está o mágoa?",
+      "kea": "Undi ki magoa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3088",
+    "word": "magro",
+    "translation": {
+      "pt": "magro"
+    },
+    "example": {
+      "pt": "Uma coisa magro",
+      "kea": "Un koiza magro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3089",
+    "word": "maio",
+    "translation": {
+      "pt": "maio"
+    },
+    "example": {
+      "pt": "O maio é interessante",
+      "kea": "Maio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3090",
+    "word": "maioria",
+    "translation": {
+      "pt": "maioria"
+    },
+    "example": {
+      "pt": "Eu vi um maioria",
+      "kea": "N odja un maioria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3091",
+    "word": "majestade",
+    "translation": {
+      "pt": "majestade"
+    },
+    "example": {
+      "pt": "Eu vi um majestade",
+      "kea": "N odja un majestade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3092",
+    "word": "malandro",
+    "translation": {
+      "pt": "malandro"
+    },
+    "example": {
+      "pt": "Eu vi um malandro",
+      "kea": "N odja un malandro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3093",
+    "word": "malaria",
+    "translation": {
+      "pt": "malária"
+    },
+    "example": {
+      "pt": "Eu vi um malária",
+      "kea": "N odja un malaria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3094",
+    "word": "maldade",
+    "translation": {
+      "pt": "maldade"
+    },
+    "example": {
+      "pt": "Eu vi um maldade",
+      "kea": "N odja un maldade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3095",
+    "word": "maldiçao",
+    "translation": {
+      "pt": "maldição"
+    },
+    "example": {
+      "pt": "Onde está o maldição?",
+      "kea": "Undi ki maldiçao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3096",
+    "word": "maleta",
+    "translation": {
+      "pt": "maleta"
+    },
+    "example": {
+      "pt": "Eu vi um maleta",
+      "kea": "N odja un maleta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3097",
+    "word": "malha",
+    "translation": {
+      "pt": "malha"
+    },
+    "example": {
+      "pt": "Onde está o malha?",
+      "kea": "Undi ki malha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3098",
+    "word": "maluco",
+    "translation": {
+      "pt": "maluco"
+    },
+    "example": {
+      "pt": "Ele é muito maluco",
+      "kea": "El e muitu maluco"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3099",
+    "word": "mamifero",
+    "translation": {
+      "pt": "mamífero"
+    },
+    "example": {
+      "pt": "Eu vi um mamífero",
+      "kea": "N odja un mamifero"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3100",
+    "word": "manada",
+    "translation": {
+      "pt": "manada"
+    },
+    "example": {
+      "pt": "Onde está o manada?",
+      "kea": "Undi ki manada sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3101",
+    "word": "mancha",
+    "translation": {
+      "pt": "mancha"
+    },
+    "example": {
+      "pt": "Onde está o mancha?",
+      "kea": "Undi ki mancha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3102",
+    "word": "mandato",
+    "translation": {
+      "pt": "mandato"
+    },
+    "example": {
+      "pt": "Eu vi um mandato",
+      "kea": "N odja un mandato"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3103",
+    "word": "manifestason",
+    "translation": {
+      "pt": "manifestação"
+    },
+    "example": {
+      "pt": "Eu vi um manifestação",
+      "kea": "N odja un manifestason"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3104",
+    "word": "manivela",
+    "translation": {
+      "pt": "manivela"
+    },
+    "example": {
+      "pt": "O manivela é interessante",
+      "kea": "Manivela e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3105",
+    "word": "manjericao",
+    "translation": {
+      "pt": "manjericão"
+    },
+    "example": {
+      "pt": "Eu vi um manjericão",
+      "kea": "N odja un manjericao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3106",
+    "word": "manso",
+    "translation": {
+      "pt": "manso"
+    },
+    "example": {
+      "pt": "Ele é muito manso",
+      "kea": "El e muitu manso"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3107",
+    "word": "manta",
+    "translation": {
+      "pt": "manta"
+    },
+    "example": {
+      "pt": "Onde está o manta?",
+      "kea": "Undi ki manta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3108",
+    "word": "manto",
+    "translation": {
+      "pt": "manto"
+    },
+    "example": {
+      "pt": "Onde está o manto?",
+      "kea": "Undi ki manto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3109",
+    "word": "manual",
+    "translation": {
+      "pt": "manual"
+    },
+    "example": {
+      "pt": "O manual é interessante",
+      "kea": "Manual e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3110",
+    "word": "manuscrito",
+    "translation": {
+      "pt": "manuscrito"
+    },
+    "example": {
+      "pt": "O manuscrito é interessante",
+      "kea": "Manuscrito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3111",
+    "word": "mapa",
+    "translation": {
+      "pt": "mapa"
+    },
+    "example": {
+      "pt": "O mapa é interessante",
+      "kea": "Mapa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3112",
+    "word": "maquete",
+    "translation": {
+      "pt": "maquete"
+    },
+    "example": {
+      "pt": "Eu vi um maquete",
+      "kea": "N odja un maquete"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3113",
+    "word": "maquina",
+    "translation": {
+      "pt": "máquina"
+    },
+    "example": {
+      "pt": "O máquina é interessante",
+      "kea": "Maquina e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3114",
+    "word": "maratona",
+    "translation": {
+      "pt": "maratona"
+    },
+    "example": {
+      "pt": "O maratona é interessante",
+      "kea": "Maratona e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3115",
+    "word": "maravilha",
+    "translation": {
+      "pt": "maravilha"
+    },
+    "example": {
+      "pt": "O maravilha é interessante",
+      "kea": "Maravilha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3116",
+    "word": "marca",
+    "translation": {
+      "pt": "marca"
+    },
+    "example": {
+      "pt": "Eu vi um marca",
+      "kea": "N odja un marca"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3117",
+    "word": "marcha",
+    "translation": {
+      "pt": "marcha"
+    },
+    "example": {
+      "pt": "Eu vi um marcha",
+      "kea": "N odja un marcha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3118",
+    "word": "março",
+    "translation": {
+      "pt": "março"
+    },
+    "example": {
+      "pt": "Onde está o março?",
+      "kea": "Undi ki março sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3119",
+    "word": "mare",
+    "translation": {
+      "pt": "maré"
+    },
+    "example": {
+      "pt": "Eu vi um maré",
+      "kea": "N odja un mare"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3120",
+    "word": "margem",
+    "translation": {
+      "pt": "margem"
+    },
+    "example": {
+      "pt": "Onde está o margem?",
+      "kea": "Undi ki margem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3121",
+    "word": "marido",
+    "translation": {
+      "pt": "marido"
+    },
+    "example": {
+      "pt": "Eu vi um marido",
+      "kea": "N odja un marido"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3122",
+    "word": "marinha",
+    "translation": {
+      "pt": "marinha"
+    },
+    "example": {
+      "pt": "Onde está o marinha?",
+      "kea": "Undi ki marinha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3123",
+    "word": "marinheiro",
+    "translation": {
+      "pt": "marinheiro"
+    },
+    "example": {
+      "pt": "O marinheiro é interessante",
+      "kea": "Marinheiro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3124",
+    "word": "marioneta",
+    "translation": {
+      "pt": "marioneta"
+    },
+    "example": {
+      "pt": "O marioneta é interessante",
+      "kea": "Marioneta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3125",
+    "word": "mrmore",
+    "translation": {
+      "pt": "mármore"
+    },
+    "example": {
+      "pt": "O mármore é interessante",
+      "kea": "Mrmore e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3126",
+    "word": "marquês",
+    "translation": {
+      "pt": "marquês"
+    },
+    "example": {
+      "pt": "O marquês é interessante",
+      "kea": "Marquês e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3127",
+    "word": "marrom",
+    "translation": {
+      "pt": "marrom"
+    },
+    "example": {
+      "pt": "Uma coisa marrom",
+      "kea": "Un koiza marrom"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3128",
+    "word": "marte",
+    "translation": {
+      "pt": "marte"
+    },
+    "example": {
+      "pt": "Eu vi um marte",
+      "kea": "N odja un marte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3129",
+    "word": "martelo",
+    "translation": {
+      "pt": "martelo"
+    },
+    "example": {
+      "pt": "O martelo é interessante",
+      "kea": "Martelo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3130",
+    "word": "mascara",
+    "translation": {
+      "pt": "máscara"
+    },
+    "example": {
+      "pt": "Eu vi um máscara",
+      "kea": "N odja un mascara"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3131",
+    "word": "mascote",
+    "translation": {
+      "pt": "mascote"
+    },
+    "example": {
+      "pt": "O mascote é interessante",
+      "kea": "Mascote e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3132",
+    "word": "massagem",
+    "translation": {
+      "pt": "massagem"
+    },
+    "example": {
+      "pt": "Onde está o massagem?",
+      "kea": "Undi ki massagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3133",
+    "word": "mastro",
+    "translation": {
+      "pt": "mastro"
+    },
+    "example": {
+      "pt": "Eu vi um mastro",
+      "kea": "N odja un mastro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3134",
+    "word": "materia",
+    "translation": {
+      "pt": "matéria"
+    },
+    "example": {
+      "pt": "Onde está o matéria?",
+      "kea": "Undi ki materia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3135",
+    "word": "matiz",
+    "translation": {
+      "pt": "matiz"
+    },
+    "example": {
+      "pt": "Onde está o matiz?",
+      "kea": "Undi ki matiz sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3136",
+    "word": "mato",
+    "translation": {
+      "pt": "mato"
+    },
+    "example": {
+      "pt": "Eu vi um mato",
+      "kea": "N odja un mato"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3137",
+    "word": "maximo",
+    "translation": {
+      "pt": "máximo"
+    },
+    "example": {
+      "pt": "O máximo é interessante",
+      "kea": "Maximo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3138",
+    "word": "mecaniko",
+    "translation": {
+      "pt": "mecânico"
+    },
+    "example": {
+      "pt": "O mecânico é interessante",
+      "kea": "Mecaniko e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3139",
+    "word": "medalha",
+    "translation": {
+      "pt": "medalha"
+    },
+    "example": {
+      "pt": "Eu vi um medalha",
+      "kea": "N odja un medalha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3140",
+    "word": "media",
+    "translation": {
+      "pt": "média"
+    },
+    "example": {
+      "pt": "Eu vi um média",
+      "kea": "N odja un media"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3141",
+    "word": "medico",
+    "translation": {
+      "pt": "médico"
+    },
+    "example": {
+      "pt": "Onde está o médico?",
+      "kea": "Undi ki medico sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3142",
+    "word": "medida",
+    "translation": {
+      "pt": "medida"
+    },
+    "example": {
+      "pt": "O medida é interessante",
+      "kea": "Medida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3143",
+    "word": "medo",
+    "translation": {
+      "pt": "medo"
+    },
+    "example": {
+      "pt": "Eu vi um medo",
+      "kea": "N odja un medo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3144",
+    "word": "melancia",
+    "translation": {
+      "pt": "melancia"
+    },
+    "example": {
+      "pt": "Onde está o melancia?",
+      "kea": "Undi ki melancia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3145",
+    "word": "melao",
+    "translation": {
+      "pt": "melão"
+    },
+    "example": {
+      "pt": "Eu vi um melão",
+      "kea": "N odja un melao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3146",
+    "word": "melodia",
+    "translation": {
+      "pt": "melodia"
+    },
+    "example": {
+      "pt": "Eu vi um melodia",
+      "kea": "N odja un melodia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3147",
+    "word": "membro",
+    "translation": {
+      "pt": "membro"
+    },
+    "example": {
+      "pt": "O membro é interessante",
+      "kea": "Membro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3148",
+    "word": "menina",
+    "translation": {
+      "pt": "menina"
+    },
+    "example": {
+      "pt": "Onde está o menina?",
+      "kea": "Undi ki menina sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3149",
+    "word": "menino",
+    "translation": {
+      "pt": "menino"
+    },
+    "example": {
+      "pt": "Eu vi um menino",
+      "kea": "N odja un menino"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3150",
+    "word": "menos",
+    "translation": {
+      "pt": "menos"
+    },
+    "example": {
+      "pt": "Vou menos",
+      "kea": "N ta bai menos"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3151",
+    "word": "mensagem",
+    "translation": {
+      "pt": "mensagem"
+    },
+    "example": {
+      "pt": "O mensagem é interessante",
+      "kea": "Mensagem e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3152",
+    "word": "mente",
+    "translation": {
+      "pt": "mente"
+    },
+    "example": {
+      "pt": "O mente é interessante",
+      "kea": "Mente e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3153",
+    "word": "menu",
+    "translation": {
+      "pt": "menu"
+    },
+    "example": {
+      "pt": "Eu vi um menu",
+      "kea": "N odja un menu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3154",
+    "word": "mercado",
+    "translation": {
+      "pt": "mercado"
+    },
+    "example": {
+      "pt": "Eu vi um mercado",
+      "kea": "N odja un mercado"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3155",
+    "word": "mercurio",
+    "translation": {
+      "pt": "mercúrio"
+    },
+    "example": {
+      "pt": "Onde está o mercúrio?",
+      "kea": "Undi ki mercurio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3156",
+    "word": "merecimentu",
+    "translation": {
+      "pt": "merecimento"
+    },
+    "example": {
+      "pt": "Eu vi um merecimento",
+      "kea": "N odja un merecimentu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3157",
+    "word": "mergulho",
+    "translation": {
+      "pt": "mergulho"
+    },
+    "example": {
+      "pt": "Onde está o mergulho?",
+      "kea": "Undi ki mergulho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3158",
+    "word": "mesmo",
+    "translation": {
+      "pt": "mesmo"
+    },
+    "example": {
+      "pt": "Ele é muito mesmo",
+      "kea": "El e muitu mesmo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3159",
+    "word": "metade",
+    "translation": {
+      "pt": "metade"
+    },
+    "example": {
+      "pt": "Eu vi um metade",
+      "kea": "N odja un metade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3160",
+    "word": "meteoro",
+    "translation": {
+      "pt": "meteoro"
+    },
+    "example": {
+      "pt": "Onde está o meteoro?",
+      "kea": "Undi ki meteoro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3161",
+    "word": "metodu",
+    "translation": {
+      "pt": "método"
+    },
+    "example": {
+      "pt": "Onde está o método?",
+      "kea": "Undi ki metodu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3162",
+    "word": "metro",
+    "translation": {
+      "pt": "metro"
+    },
+    "example": {
+      "pt": "O metro é interessante",
+      "kea": "Metro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3163",
+    "word": "mexilhao",
+    "translation": {
+      "pt": "mexilhão"
+    },
+    "example": {
+      "pt": "O mexilhão é interessante",
+      "kea": "Mexilhao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3164",
+    "word": "microbio",
+    "translation": {
+      "pt": "micróbio"
+    },
+    "example": {
+      "pt": "O micróbio é interessante",
+      "kea": "Microbio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3165",
+    "word": "microfone",
+    "translation": {
+      "pt": "microfone"
+    },
+    "example": {
+      "pt": "O microfone é interessante",
+      "kea": "Microfone e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3166",
+    "word": "microscopio",
+    "translation": {
+      "pt": "microscópio"
+    },
+    "example": {
+      "pt": "O microscópio é interessante",
+      "kea": "Microscopio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3167",
+    "word": "milhao",
+    "translation": {
+      "pt": "milhão"
+    },
+    "example": {
+      "pt": "O milhão é interessante",
+      "kea": "Milhao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3168",
+    "word": "milhar",
+    "translation": {
+      "pt": "milhar"
+    },
+    "example": {
+      "pt": "O milhar é interessante",
+      "kea": "Milhar e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3169",
+    "word": "milho",
+    "translation": {
+      "pt": "milho"
+    },
+    "example": {
+      "pt": "O milho é interessante",
+      "kea": "Milho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3170",
+    "word": "mim",
+    "translation": {
+      "pt": "mim"
+    },
+    "example": {
+      "pt": "É mim",
+      "kea": "E mim"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3171",
+    "word": "mimo",
+    "translation": {
+      "pt": "mimo"
+    },
+    "example": {
+      "pt": "Onde está o mimo?",
+      "kea": "Undi ki mimo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3172",
+    "word": "mineiro",
+    "translation": {
+      "pt": "mineiro"
+    },
+    "example": {
+      "pt": "Onde está o mineiro?",
+      "kea": "Undi ki mineiro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3173",
+    "word": "minerio",
+    "translation": {
+      "pt": "minério"
+    },
+    "example": {
+      "pt": "Eu vi um minério",
+      "kea": "N odja un minerio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3174",
+    "word": "miniatura",
+    "translation": {
+      "pt": "miniatura"
+    },
+    "example": {
+      "pt": "O miniatura é interessante",
+      "kea": "Miniatura e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3175",
+    "word": "minimo",
+    "translation": {
+      "pt": "mínimo"
+    },
+    "example": {
+      "pt": "Onde está o mínimo?",
+      "kea": "Undi ki minimo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3176",
+    "word": "ministerio",
+    "translation": {
+      "pt": "ministério"
+    },
+    "example": {
+      "pt": "Eu vi um ministério",
+      "kea": "N odja un ministerio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3177",
+    "word": "ministro",
+    "translation": {
+      "pt": "ministro"
+    },
+    "example": {
+      "pt": "Onde está o ministro?",
+      "kea": "Undi ki ministro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3178",
+    "word": "minuto",
+    "translation": {
+      "pt": "minuto"
+    },
+    "example": {
+      "pt": "O minuto é interessante",
+      "kea": "Minuto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3179",
+    "word": "miolo",
+    "translation": {
+      "pt": "miolo"
+    },
+    "example": {
+      "pt": "Eu vi um miolo",
+      "kea": "N odja un miolo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3180",
+    "word": "missa",
+    "translation": {
+      "pt": "missa"
+    },
+    "example": {
+      "pt": "O missa é interessante",
+      "kea": "Missa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3181",
+    "word": "missao",
+    "translation": {
+      "pt": "missão"
+    },
+    "example": {
+      "pt": "Onde está o missão?",
+      "kea": "Undi ki missao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3182",
+    "word": "misterio",
+    "translation": {
+      "pt": "mistério"
+    },
+    "example": {
+      "pt": "Eu vi um mistério",
+      "kea": "N odja un misterio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3183",
+    "word": "mito",
+    "translation": {
+      "pt": "mito"
+    },
+    "example": {
+      "pt": "O mito é interessante",
+      "kea": "Mito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3184",
+    "word": "mochila",
+    "translation": {
+      "pt": "mochila"
+    },
+    "example": {
+      "pt": "Onde está o mochila?",
+      "kea": "Undi ki mochila sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3185",
+    "word": "modelo",
+    "translation": {
+      "pt": "modelo"
+    },
+    "example": {
+      "pt": "O modelo é interessante",
+      "kea": "Modelo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3186",
+    "word": "moderno",
+    "translation": {
+      "pt": "moderno"
+    },
+    "example": {
+      "pt": "Isso parece moderno",
+      "kea": "Kel-la parse moderno"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3187",
+    "word": "modo",
+    "translation": {
+      "pt": "modo"
+    },
+    "example": {
+      "pt": "Onde está o modo?",
+      "kea": "Undi ki modo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3188",
+    "word": "moinho",
+    "translation": {
+      "pt": "moinho"
+    },
+    "example": {
+      "pt": "O moinho é interessante",
+      "kea": "Moinho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3189",
+    "word": "mola",
+    "translation": {
+      "pt": "mola"
+    },
+    "example": {
+      "pt": "O mola é interessante",
+      "kea": "Mola e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3190",
+    "word": "moldura",
+    "translation": {
+      "pt": "moldura"
+    },
+    "example": {
+      "pt": "O moldura é interessante",
+      "kea": "Moldura e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3191",
+    "word": "mole",
+    "translation": {
+      "pt": "mole"
+    },
+    "example": {
+      "pt": "Isso parece mole",
+      "kea": "Kel-la parse mole"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3192",
+    "word": "molho",
+    "translation": {
+      "pt": "molho"
+    },
+    "example": {
+      "pt": "Eu vi um molho",
+      "kea": "N odja un molho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3193",
+    "word": "momento",
+    "translation": {
+      "pt": "momento"
+    },
+    "example": {
+      "pt": "Eu vi um momento",
+      "kea": "N odja un momento"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3194",
+    "word": "monarca",
+    "translation": {
+      "pt": "monarca"
+    },
+    "example": {
+      "pt": "O monarca é interessante",
+      "kea": "Monarca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3195",
+    "word": "monstro",
+    "translation": {
+      "pt": "monstro"
+    },
+    "example": {
+      "pt": "Onde está o monstro?",
+      "kea": "Undi ki monstro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3196",
+    "word": "monte",
+    "translation": {
+      "pt": "monte"
+    },
+    "example": {
+      "pt": "Onde está o monte?",
+      "kea": "Undi ki monte sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3197",
+    "word": "monumento",
+    "translation": {
+      "pt": "monumento"
+    },
+    "example": {
+      "pt": "O monumento é interessante",
+      "kea": "Monumento e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3198",
+    "word": "morango",
+    "translation": {
+      "pt": "morango"
+    },
+    "example": {
+      "pt": "Eu vi um morango",
+      "kea": "N odja un morango"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3199",
+    "word": "morcego",
+    "translation": {
+      "pt": "morcego"
+    },
+    "example": {
+      "pt": "Eu vi um morcego",
+      "kea": "N odja un morcego"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3200",
+    "word": "moreno",
+    "translation": {
+      "pt": "moreno"
+    },
+    "example": {
+      "pt": "Uma coisa moreno",
+      "kea": "Un koiza moreno"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3201",
+    "word": "morno",
+    "translation": {
+      "pt": "morno"
+    },
+    "example": {
+      "pt": "Uma coisa morno",
+      "kea": "Un koiza morno"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3202",
+    "word": "morto",
+    "translation": {
+      "pt": "morto"
+    },
+    "example": {
+      "pt": "Isso parece morto",
+      "kea": "Kel-la parse morto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3203",
+    "word": "mosaico",
+    "translation": {
+      "pt": "mosaico"
+    },
+    "example": {
+      "pt": "Eu vi um mosaico",
+      "kea": "N odja un mosaico"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3204",
+    "word": "mosca",
+    "translation": {
+      "pt": "mosca"
+    },
+    "example": {
+      "pt": "O mosca é interessante",
+      "kea": "Mosca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3205",
+    "word": "mosquito",
+    "translation": {
+      "pt": "mosquito"
+    },
+    "example": {
+      "pt": "O mosquito é interessante",
+      "kea": "Mosquito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3206",
+    "word": "mostarda",
+    "translation": {
+      "pt": "mostarda"
+    },
+    "example": {
+      "pt": "Eu vi um mostarda",
+      "kea": "N odja un mostarda"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3207",
+    "word": "motivo",
+    "translation": {
+      "pt": "motivo"
+    },
+    "example": {
+      "pt": "Eu vi um motivo",
+      "kea": "N odja un motivo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3208",
+    "word": "moto",
+    "translation": {
+      "pt": "moto"
+    },
+    "example": {
+      "pt": "Eu vi um moto",
+      "kea": "N odja un moto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3209",
+    "word": "movimento",
+    "translation": {
+      "pt": "movimento"
+    },
+    "example": {
+      "pt": "Onde está o movimento?",
+      "kea": "Undi ki movimento sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3210",
+    "word": "mudança",
+    "translation": {
+      "pt": "mudança"
+    },
+    "example": {
+      "pt": "O mudança é interessante",
+      "kea": "Mudança e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3211",
+    "word": "mudo",
+    "translation": {
+      "pt": "mudo"
+    },
+    "example": {
+      "pt": "Isso parece mudo",
+      "kea": "Kel-la parse mudo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3212",
+    "word": "muita",
+    "translation": {
+      "pt": "muita"
+    },
+    "example": {
+      "pt": "Isso parece muita",
+      "kea": "Kel-la parse muita"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3213",
+    "word": "muito",
+    "translation": {
+      "pt": "muito"
+    },
+    "example": {
+      "pt": "Ele é muito muito",
+      "kea": "El e muitu muito"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3214",
+    "word": "multiplicason",
+    "translation": {
+      "pt": "multiplicação"
+    },
+    "example": {
+      "pt": "Eu vi um multiplicação",
+      "kea": "N odja un multiplicason"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3215",
+    "word": "multidao",
+    "translation": {
+      "pt": "multidão"
+    },
+    "example": {
+      "pt": "Onde está o multidão?",
+      "kea": "Undi ki multidao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3216",
+    "word": "mumía",
+    "translation": {
+      "pt": "múmia"
+    },
+    "example": {
+      "pt": "O múmia é interessante",
+      "kea": "Mumía e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3217",
+    "word": "mundo",
+    "translation": {
+      "pt": "mundo"
+    },
+    "example": {
+      "pt": "Eu vi um mundo",
+      "kea": "N odja un mundo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3218",
+    "word": "muralha",
+    "translation": {
+      "pt": "muralha"
+    },
+    "example": {
+      "pt": "O muralha é interessante",
+      "kea": "Muralha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3219",
+    "word": "musculo",
+    "translation": {
+      "pt": "músculo"
+    },
+    "example": {
+      "pt": "O músculo é interessante",
+      "kea": "Musculo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3220",
+    "word": "museu",
+    "translation": {
+      "pt": "museu"
+    },
+    "example": {
+      "pt": "Eu vi um museu",
+      "kea": "N odja un museu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3221",
+    "word": "musgo",
+    "translation": {
+      "pt": "musgo"
+    },
+    "example": {
+      "pt": "Onde está o musgo?",
+      "kea": "Undi ki musgo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3222",
+    "word": "musica",
+    "translation": {
+      "pt": "música"
+    },
+    "example": {
+      "pt": "Onde está o música?",
+      "kea": "Undi ki musica sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3223",
+    "word": "musico",
+    "translation": {
+      "pt": "músico"
+    },
+    "example": {
+      "pt": "O músico é interessante",
+      "kea": "Musico e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3224",
+    "word": "n",
+    "translation": {
+      "pt": "letra n"
+    },
+    "example": {
+      "pt": "O letra n é interessante",
+      "kea": "N e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3225",
+    "word": "nao",
+    "translation": {
+      "pt": "não"
+    },
+    "example": {
+      "pt": "Ele fala não",
+      "kea": "El ta fala nao"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3226",
+    "word": "nabo",
+    "translation": {
+      "pt": "nabo"
+    },
+    "example": {
+      "pt": "Onde está o nabo?",
+      "kea": "Undi ki nabo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3227",
+    "word": "nacao",
+    "translation": {
+      "pt": "nação"
+    },
+    "example": {
+      "pt": "O nação é interessante",
+      "kea": "Nacao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3228",
+    "word": "nadador",
+    "translation": {
+      "pt": "nadador"
+    },
+    "example": {
+      "pt": "Onde está o nadador?",
+      "kea": "Undi ki nadador sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3229",
+    "word": "namorado",
+    "translation": {
+      "pt": "namorado"
+    },
+    "example": {
+      "pt": "Onde está o namorado?",
+      "kea": "Undi ki namorado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3230",
+    "word": "nascimento",
+    "translation": {
+      "pt": "nascimento"
+    },
+    "example": {
+      "pt": "O nascimento é interessante",
+      "kea": "Nascimento e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3231",
+    "word": "nata",
+    "translation": {
+      "pt": "nata"
+    },
+    "example": {
+      "pt": "Onde está o nata?",
+      "kea": "Undi ki nata sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3232",
+    "word": "naufragio",
+    "translation": {
+      "pt": "naufrágio"
+    },
+    "example": {
+      "pt": "O naufrágio é interessante",
+      "kea": "Naufragio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3233",
+    "word": "navalha",
+    "translation": {
+      "pt": "navalha"
+    },
+    "example": {
+      "pt": "Eu vi um navalha",
+      "kea": "N odja un navalha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3234",
+    "word": "nave",
+    "translation": {
+      "pt": "nave"
+    },
+    "example": {
+      "pt": "Onde está o nave?",
+      "kea": "Undi ki nave sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3235",
+    "word": "navio",
+    "translation": {
+      "pt": "navio"
+    },
+    "example": {
+      "pt": "Eu vi um navio",
+      "kea": "N odja un navio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3236",
+    "word": "neblina",
+    "translation": {
+      "pt": "neblina"
+    },
+    "example": {
+      "pt": "Eu vi um neblina",
+      "kea": "N odja un neblina"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3237",
+    "word": "necessario",
+    "translation": {
+      "pt": "necessário"
+    },
+    "example": {
+      "pt": "Ele é muito necessário",
+      "kea": "El e muitu necessario"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3238",
+    "word": "negativo",
+    "translation": {
+      "pt": "negativo"
+    },
+    "example": {
+      "pt": "Ele é muito negativo",
+      "kea": "El e muitu negativo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3239",
+    "word": "negocio",
+    "translation": {
+      "pt": "negócio"
+    },
+    "example": {
+      "pt": "Eu vi um negócio",
+      "kea": "N odja un negocio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3240",
+    "word": "negro",
+    "translation": {
+      "pt": "negro"
+    },
+    "example": {
+      "pt": "Isso parece negro",
+      "kea": "Kel-la parse negro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3241",
+    "word": "nervo",
+    "translation": {
+      "pt": "nervo"
+    },
+    "example": {
+      "pt": "Eu vi um nervo",
+      "kea": "N odja un nervo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3242",
+    "word": "neto",
+    "translation": {
+      "pt": "neto"
+    },
+    "example": {
+      "pt": "Eu vi um neto",
+      "kea": "N odja un neto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3243",
+    "word": "nevoa",
+    "translation": {
+      "pt": "névoa"
+    },
+    "example": {
+      "pt": "Eu vi um névoa",
+      "kea": "N odja un nevoa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3244",
+    "word": "nobreza",
+    "translation": {
+      "pt": "nobreza"
+    },
+    "example": {
+      "pt": "Onde está o nobreza?",
+      "kea": "Undi ki nobreza sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3245",
+    "word": "noivo",
+    "translation": {
+      "pt": "noivo"
+    },
+    "example": {
+      "pt": "O noivo é interessante",
+      "kea": "Noivo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3246",
+    "word": "nora",
+    "translation": {
+      "pt": "nora"
+    },
+    "example": {
+      "pt": "O nora é interessante",
+      "kea": "Nora e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3247",
+    "word": "nordeste",
+    "translation": {
+      "pt": "nordeste"
+    },
+    "example": {
+      "pt": "O nordeste é interessante",
+      "kea": "Nordeste e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3248",
+    "word": "norma",
+    "translation": {
+      "pt": "norma"
+    },
+    "example": {
+      "pt": "Onde está o norma?",
+      "kea": "Undi ki norma sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3249",
+    "word": "noroeste",
+    "translation": {
+      "pt": "noroeste"
+    },
+    "example": {
+      "pt": "Onde está o noroeste?",
+      "kea": "Undi ki noroeste sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3250",
+    "word": "nossa",
+    "translation": {
+      "pt": "nossa"
+    },
+    "example": {
+      "pt": "Onde está o nossa?",
+      "kea": "Undi ki nossa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3251",
+    "word": "nosso",
+    "translation": {
+      "pt": "nosso"
+    },
+    "example": {
+      "pt": "Onde está o nosso?",
+      "kea": "Undi ki nosso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3252",
+    "word": "noticia",
+    "translation": {
+      "pt": "notícia"
+    },
+    "example": {
+      "pt": "Onde está o notícia?",
+      "kea": "Undi ki noticia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3253",
+    "word": "nova",
+    "translation": {
+      "pt": "nova"
+    },
+    "example": {
+      "pt": "Isso parece nova",
+      "kea": "Kel-la parse nova"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3254",
+    "word": "novembro",
+    "translation": {
+      "pt": "novembro"
+    },
+    "example": {
+      "pt": "Onde está o novembro?",
+      "kea": "Undi ki novembro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3255",
+    "word": "noventa",
+    "translation": {
+      "pt": "noventa"
+    },
+    "example": {
+      "pt": "Onde está o noventa?",
+      "kea": "Undi ki noventa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3256",
+    "word": "novidade",
+    "translation": {
+      "pt": "novidade"
+    },
+    "example": {
+      "pt": "O novidade é interessante",
+      "kea": "Novidade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3257",
+    "word": "novilha",
+    "translation": {
+      "pt": "novilha"
+    },
+    "example": {
+      "pt": "O novilha é interessante",
+      "kea": "Novilha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3258",
+    "word": "novelo",
+    "translation": {
+      "pt": "novelo"
+    },
+    "example": {
+      "pt": "Onde está o novelo?",
+      "kea": "Undi ki novelo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3259",
+    "word": "novo",
+    "translation": {
+      "pt": "novo"
+    },
+    "example": {
+      "pt": "Ele é muito novo",
+      "kea": "El e muitu novo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3260",
+    "word": "noz",
+    "translation": {
+      "pt": "noz"
+    },
+    "example": {
+      "pt": "Eu vi um noz",
+      "kea": "N odja un noz"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3261",
+    "word": "nublado",
+    "translation": {
+      "pt": "nublado"
+    },
+    "example": {
+      "pt": "Ele é muito nublado",
+      "kea": "El e muitu nublado"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3262",
+    "word": "nuclear",
+    "translation": {
+      "pt": "nuclear"
+    },
+    "example": {
+      "pt": "Isso parece nuclear",
+      "kea": "Kel-la parse nuclear"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3263",
+    "word": "nudez",
+    "translation": {
+      "pt": "nudez"
+    },
+    "example": {
+      "pt": "Eu vi um nudez",
+      "kea": "N odja un nudez"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3264",
+    "word": "num",
+    "translation": {
+      "pt": "num"
+    },
+    "example": {
+      "pt": "Eu vi um num",
+      "kea": "N odja un num"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3265",
+    "word": "numero",
+    "translation": {
+      "pt": "número"
+    },
+    "example": {
+      "pt": "Onde está o número?",
+      "kea": "Undi ki numero sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3266",
+    "word": "nunca",
+    "translation": {
+      "pt": "nunca"
+    },
+    "example": {
+      "pt": "Faça nunca",
+      "kea": "Faze nunca"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3267",
+    "word": "nuvem",
+    "translation": {
+      "pt": "nuvem"
+    },
+    "example": {
+      "pt": "Eu vi um nuvem",
+      "kea": "N odja un nuvem"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3268",
+    "word": "oasis",
+    "translation": {
+      "pt": "oásis"
+    },
+    "example": {
+      "pt": "O oásis é interessante",
+      "kea": "Oasis e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3269",
+    "word": "obedient",
+    "translation": {
+      "pt": "obediente"
+    },
+    "example": {
+      "pt": "Uma coisa obediente",
+      "kea": "Un koiza obedient"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3270",
+    "word": "objetivo",
+    "translation": {
+      "pt": "objetivo"
+    },
+    "example": {
+      "pt": "Onde está o objetivo?",
+      "kea": "Undi ki objetivo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3271",
+    "word": "objeto",
+    "translation": {
+      "pt": "objeto"
+    },
+    "example": {
+      "pt": "Onde está o objeto?",
+      "kea": "Undi ki objeto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3272",
+    "word": "obrigado",
+    "translation": {
+      "pt": "obrigado"
+    },
+    "example": {
+      "pt": "Isso parece obrigado",
+      "kea": "Kel-la parse obrigado"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3273",
+    "word": "observason",
+    "translation": {
+      "pt": "observação"
+    },
+    "example": {
+      "pt": "Onde está o observação?",
+      "kea": "Undi ki observason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3274",
+    "word": "obstaculo",
+    "translation": {
+      "pt": "obstáculo"
+    },
+    "example": {
+      "pt": "Onde está o obstáculo?",
+      "kea": "Undi ki obstaculo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3275",
+    "word": "oceano",
+    "translation": {
+      "pt": "oceano"
+    },
+    "example": {
+      "pt": "Eu vi um oceano",
+      "kea": "N odja un oceano"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3276",
+    "word": "ocidente",
+    "translation": {
+      "pt": "ocidente"
+    },
+    "example": {
+      "pt": "Eu vi um ocidente",
+      "kea": "N odja un ocidente"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3277",
+    "word": "oculos",
+    "translation": {
+      "pt": "óculos"
+    },
+    "example": {
+      "pt": "Eu vi um óculos",
+      "kea": "N odja un oculos"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3278",
+    "word": "odio",
+    "translation": {
+      "pt": "ódio"
+    },
+    "example": {
+      "pt": "O ódio é interessante",
+      "kea": "Odio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3279",
+    "word": "oeste",
+    "translation": {
+      "pt": "oeste"
+    },
+    "example": {
+      "pt": "Eu vi um oeste",
+      "kea": "N odja un oeste"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3280",
+    "word": "oferta",
+    "translation": {
+      "pt": "oferta"
+    },
+    "example": {
+      "pt": "Onde está o oferta?",
+      "kea": "Undi ki oferta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3281",
+    "word": "oficina",
+    "translation": {
+      "pt": "oficina"
+    },
+    "example": {
+      "pt": "O oficina é interessante",
+      "kea": "Oficina e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3282",
+    "word": "oficial",
+    "translation": {
+      "pt": "oficial"
+    },
+    "example": {
+      "pt": "Eu vi um oficial",
+      "kea": "N odja un oficial"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3283",
+    "word": "oitenta",
+    "translation": {
+      "pt": "oitenta"
+    },
+    "example": {
+      "pt": "Eu vi um oitenta",
+      "kea": "N odja un oitenta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3284",
+    "word": "oleo",
+    "translation": {
+      "pt": "óleo"
+    },
+    "example": {
+      "pt": "O óleo é interessante",
+      "kea": "Oleo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3285",
+    "word": "olho",
+    "translation": {
+      "pt": "olho"
+    },
+    "example": {
+      "pt": "Eu vi um olho",
+      "kea": "N odja un olho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3286",
+    "word": "olimpico",
+    "translation": {
+      "pt": "olímpico"
+    },
+    "example": {
+      "pt": "Uma coisa olímpico",
+      "kea": "Un koiza olimpico"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3287",
+    "word": "oliva",
+    "translation": {
+      "pt": "oliva"
+    },
+    "example": {
+      "pt": "Onde está o oliva?",
+      "kea": "Undi ki oliva sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3288",
+    "word": "ombro",
+    "translation": {
+      "pt": "ombro"
+    },
+    "example": {
+      "pt": "O ombro é interessante",
+      "kea": "Ombro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3289",
+    "word": "onde",
+    "translation": {
+      "pt": "onde"
+    },
+    "example": {
+      "pt": "Faça onde",
+      "kea": "Faze onde"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3290",
+    "word": "ontem",
+    "translation": {
+      "pt": "ontem"
+    },
+    "example": {
+      "pt": "Vou ontem",
+      "kea": "N ta bai ontem"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3291",
+    "word": "opale",
+    "translation": {
+      "pt": "opala"
+    },
+    "example": {
+      "pt": "Onde está o opala?",
+      "kea": "Undi ki opale sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3292",
+    "word": "operariu",
+    "translation": {
+      "pt": "operário"
+    },
+    "example": {
+      "pt": "O operário é interessante",
+      "kea": "Operariu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3293",
+    "word": "opiniao",
+    "translation": {
+      "pt": "opinião"
+    },
+    "example": {
+      "pt": "O opinião é interessante",
+      "kea": "Opiniao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3294",
+    "word": "oposison",
+    "translation": {
+      "pt": "oposição"
+    },
+    "example": {
+      "pt": "Onde está o oposição?",
+      "kea": "Undi ki oposison sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3295",
+    "word": "oracao",
+    "translation": {
+      "pt": "oração"
+    },
+    "example": {
+      "pt": "Onde está o oração?",
+      "kea": "Undi ki oracao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3296",
+    "word": "oraculo",
+    "translation": {
+      "pt": "oráculo"
+    },
+    "example": {
+      "pt": "O oráculo é interessante",
+      "kea": "Oraculo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3297",
+    "word": "oral",
+    "translation": {
+      "pt": "oral"
+    },
+    "example": {
+      "pt": "Uma coisa oral",
+      "kea": "Un koiza oral"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3298",
+    "word": "orbita",
+    "translation": {
+      "pt": "órbita"
+    },
+    "example": {
+      "pt": "O órbita é interessante",
+      "kea": "Orbita e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3299",
+    "word": "ordenado",
+    "translation": {
+      "pt": "ordenado"
+    },
+    "example": {
+      "pt": "Onde está o ordenado?",
+      "kea": "Undi ki ordenado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3300",
+    "word": "orelha",
+    "translation": {
+      "pt": "orelha"
+    },
+    "example": {
+      "pt": "Onde está o orelha?",
+      "kea": "Undi ki orelha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3301",
+    "word": "orfao",
+    "translation": {
+      "pt": "órfão"
+    },
+    "example": {
+      "pt": "Eu vi um órfão",
+      "kea": "N odja un orfao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3302",
+    "word": "orgao",
+    "translation": {
+      "pt": "órgão"
+    },
+    "example": {
+      "pt": "Eu vi um órgão",
+      "kea": "N odja un orgao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3303",
+    "word": "organismo",
+    "translation": {
+      "pt": "organismo"
+    },
+    "example": {
+      "pt": "Onde está o organismo?",
+      "kea": "Undi ki organismo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3304",
+    "word": "organizason",
+    "translation": {
+      "pt": "organização"
+    },
+    "example": {
+      "pt": "Onde está o organização?",
+      "kea": "Undi ki organizason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3305",
+    "word": "orgulho",
+    "translation": {
+      "pt": "orgulho"
+    },
+    "example": {
+      "pt": "Onde está o orgulho?",
+      "kea": "Undi ki orgulho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3306",
+    "word": "oriente",
+    "translation": {
+      "pt": "oriente"
+    },
+    "example": {
+      "pt": "Onde está o oriente?",
+      "kea": "Undi ki oriente sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3307",
+    "word": "origem",
+    "translation": {
+      "pt": "origem"
+    },
+    "example": {
+      "pt": "Onde está o origem?",
+      "kea": "Undi ki origem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3308",
+    "word": "original",
+    "translation": {
+      "pt": "original"
+    },
+    "example": {
+      "pt": "Ele é muito original",
+      "kea": "El e muitu original"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3309",
+    "word": "orizonte",
+    "translation": {
+      "pt": "horizonte"
+    },
+    "example": {
+      "pt": "Eu vi um horizonte",
+      "kea": "N odja un orizonte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3310",
+    "word": "orquestra",
+    "translation": {
+      "pt": "orquestra"
+    },
+    "example": {
+      "pt": "Onde está o orquestra?",
+      "kea": "Undi ki orquestra sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3311",
+    "word": "arroz",
+    "translation": {
+      "pt": "arroz"
+    },
+    "example": {
+      "pt": "Onde está o arroz?",
+      "kea": "Undi ki arroz sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3312",
+    "word": "osso",
+    "translation": {
+      "pt": "osso"
+    },
+    "example": {
+      "pt": "O osso é interessante",
+      "kea": "Osso e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3313",
+    "word": "ostra",
+    "translation": {
+      "pt": "ostra"
+    },
+    "example": {
+      "pt": "O ostra é interessante",
+      "kea": "Ostra e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3314",
+    "word": "ouro",
+    "translation": {
+      "pt": "ouro"
+    },
+    "example": {
+      "pt": "Onde está o ouro?",
+      "kea": "Undi ki ouro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3315",
+    "word": "outono",
+    "translation": {
+      "pt": "outono"
+    },
+    "example": {
+      "pt": "Onde está o outono?",
+      "kea": "Undi ki outono sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3316",
+    "word": "outro",
+    "translation": {
+      "pt": "outro"
+    },
+    "example": {
+      "pt": "É outro",
+      "kea": "E outro"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3317",
+    "word": "outubro",
+    "translation": {
+      "pt": "outubro"
+    },
+    "example": {
+      "pt": "Onde está o outubro?",
+      "kea": "Undi ki outubro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3318",
+    "word": "ouvido",
+    "translation": {
+      "pt": "ouvido"
+    },
+    "example": {
+      "pt": "O ouvido é interessante",
+      "kea": "Ouvido e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3319",
+    "word": "ovelha",
+    "translation": {
+      "pt": "ovelha"
+    },
+    "example": {
+      "pt": "Onde está o ovelha?",
+      "kea": "Undi ki ovelha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3320",
+    "word": "ovo",
+    "translation": {
+      "pt": "ovo"
+    },
+    "example": {
+      "pt": "O ovo é interessante",
+      "kea": "Ovo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3321",
+    "word": "p",
+    "translation": {
+      "pt": "letra p"
+    },
+    "example": {
+      "pt": "Onde está o letra p?",
+      "kea": "Undi ki p sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3322",
+    "word": "paciencia",
+    "translation": {
+      "pt": "paciência"
+    },
+    "example": {
+      "pt": "Onde está o paciência?",
+      "kea": "Undi ki paciencia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3323",
+    "word": "pacote",
+    "translation": {
+      "pt": "pacote"
+    },
+    "example": {
+      "pt": "Eu vi um pacote",
+      "kea": "N odja un pacote"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3324",
+    "word": "padaria",
+    "translation": {
+      "pt": "padaria"
+    },
+    "example": {
+      "pt": "Eu vi um padaria",
+      "kea": "N odja un padaria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3325",
+    "word": "padrinho",
+    "translation": {
+      "pt": "padrinho"
+    },
+    "example": {
+      "pt": "Onde está o padrinho?",
+      "kea": "Undi ki padrinho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3326",
+    "word": "pagamento",
+    "translation": {
+      "pt": "pagamento"
+    },
+    "example": {
+      "pt": "Onde está o pagamento?",
+      "kea": "Undi ki pagamento sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3327",
+    "word": "pagina",
+    "translation": {
+      "pt": "página"
+    },
+    "example": {
+      "pt": "O página é interessante",
+      "kea": "Pagina e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3328",
+    "word": "painel",
+    "translation": {
+      "pt": "painel"
+    },
+    "example": {
+      "pt": "Eu vi um painel",
+      "kea": "N odja un painel"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3329",
+    "word": "paisagem",
+    "translation": {
+      "pt": "paisagem"
+    },
+    "example": {
+      "pt": "O paisagem é interessante",
+      "kea": "Paisagem e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3330",
+    "word": "paixao",
+    "translation": {
+      "pt": "paixão"
+    },
+    "example": {
+      "pt": "O paixão é interessante",
+      "kea": "Paixao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3331",
+    "word": "pala",
+    "translation": {
+      "pt": "pala"
+    },
+    "example": {
+      "pt": "Eu vi um pala",
+      "kea": "N odja un pala"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3332",
+    "word": "palacio",
+    "translation": {
+      "pt": "palácio"
+    },
+    "example": {
+      "pt": "Eu vi um palácio",
+      "kea": "N odja un palacio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3333",
+    "word": "palha",
+    "translation": {
+      "pt": "palha"
+    },
+    "example": {
+      "pt": "Eu vi um palha",
+      "kea": "N odja un palha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3334",
+    "word": "palhaço",
+    "translation": {
+      "pt": "palhaço"
+    },
+    "example": {
+      "pt": "O palhaço é interessante",
+      "kea": "Palhaço e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3335",
+    "word": "palmeira",
+    "translation": {
+      "pt": "palmeira"
+    },
+    "example": {
+      "pt": "O palmeira é interessante",
+      "kea": "Palmeira e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3336",
+    "word": "palmito",
+    "translation": {
+      "pt": "palmito"
+    },
+    "example": {
+      "pt": "O palmito é interessante",
+      "kea": "Palmito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3337",
+    "word": "pancada",
+    "translation": {
+      "pt": "pancada"
+    },
+    "example": {
+      "pt": "Onde está o pancada?",
+      "kea": "Undi ki pancada sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3338",
+    "word": "panda",
+    "translation": {
+      "pt": "panda"
+    },
+    "example": {
+      "pt": "O panda é interessante",
+      "kea": "Panda e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3339",
+    "word": "panico",
+    "translation": {
+      "pt": "pânico"
+    },
+    "example": {
+      "pt": "Onde está o pânico?",
+      "kea": "Undi ki panico sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3340",
+    "word": "pantano",
+    "translation": {
+      "pt": "pântano"
+    },
+    "example": {
+      "pt": "Eu vi um pântano",
+      "kea": "N odja un pantano"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3341",
+    "word": "pantera",
+    "translation": {
+      "pt": "pantera"
+    },
+    "example": {
+      "pt": "Eu vi um pantera",
+      "kea": "N odja un pantera"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3342",
+    "word": "papai",
+    "translation": {
+      "pt": "papai"
+    },
+    "example": {
+      "pt": "Onde está o papai?",
+      "kea": "Undi ki papai sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3343",
+    "word": "papagaio",
+    "translation": {
+      "pt": "papagaio"
+    },
+    "example": {
+      "pt": "Eu vi um papagaio",
+      "kea": "N odja un papagaio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3344",
+    "word": "papeira",
+    "translation": {
+      "pt": "papeira"
+    },
+    "example": {
+      "pt": "O papeira é interessante",
+      "kea": "Papeira e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3345",
+    "word": "papelaria",
+    "translation": {
+      "pt": "papelaria"
+    },
+    "example": {
+      "pt": "Onde está o papelaria?",
+      "kea": "Undi ki papelaria sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3346",
+    "word": "paquete",
+    "translation": {
+      "pt": "paquete"
+    },
+    "example": {
+      "pt": "Eu vi um paquete",
+      "kea": "N odja un paquete"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3347",
+    "word": "parada",
+    "translation": {
+      "pt": "parada"
+    },
+    "example": {
+      "pt": "Eu vi um parada",
+      "kea": "N odja un parada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3348",
+    "word": "parafuso",
+    "translation": {
+      "pt": "parafuso"
+    },
+    "example": {
+      "pt": "Eu vi um parafuso",
+      "kea": "N odja un parafuso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3349",
+    "word": "paragrafo",
+    "translation": {
+      "pt": "parágrafo"
+    },
+    "example": {
+      "pt": "O parágrafo é interessante",
+      "kea": "Paragrafo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3350",
+    "word": "paraiso",
+    "translation": {
+      "pt": "paraíso"
+    },
+    "example": {
+      "pt": "O paraíso é interessante",
+      "kea": "Paraiso e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3351",
+    "word": "paralelepipedo",
+    "translation": {
+      "pt": "paralelepípedo"
+    },
+    "example": {
+      "pt": "Onde está o paralelepípedo?",
+      "kea": "Undi ki paralelepipedo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3352",
+    "word": "parente",
+    "translation": {
+      "pt": "parente"
+    },
+    "example": {
+      "pt": "Onde está o parente?",
+      "kea": "Undi ki parente sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3353",
+    "word": "parque",
+    "translation": {
+      "pt": "parque"
+    },
+    "example": {
+      "pt": "Eu vi um parque",
+      "kea": "N odja un parque"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3354",
+    "word": "parte",
+    "translation": {
+      "pt": "parte"
+    },
+    "example": {
+      "pt": "Onde está o parte?",
+      "kea": "Undi ki parte sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3355",
+    "word": "partida",
+    "translation": {
+      "pt": "partida"
+    },
+    "example": {
+      "pt": "Onde está o partida?",
+      "kea": "Undi ki partida sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3356",
+    "word": "partido",
+    "translation": {
+      "pt": "partido"
+    },
+    "example": {
+      "pt": "Onde está o partido?",
+      "kea": "Undi ki partido sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3357",
+    "word": "pascoa",
+    "translation": {
+      "pt": "páscoa"
+    },
+    "example": {
+      "pt": "Onde está o páscoa?",
+      "kea": "Undi ki pascoa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3358",
+    "word": "passado",
+    "translation": {
+      "pt": "passado"
+    },
+    "example": {
+      "pt": "O passado é interessante",
+      "kea": "Passado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3359",
+    "word": "passageiro",
+    "translation": {
+      "pt": "passageiro"
+    },
+    "example": {
+      "pt": "Eu vi um passageiro",
+      "kea": "N odja un passageiro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3360",
+    "word": "passagem",
+    "translation": {
+      "pt": "passagem"
+    },
+    "example": {
+      "pt": "Onde está o passagem?",
+      "kea": "Undi ki passagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3361",
+    "word": "passaporte",
+    "translation": {
+      "pt": "passaporte"
+    },
+    "example": {
+      "pt": "Eu vi um passaporte",
+      "kea": "N odja un passaporte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3362",
+    "word": "passaro",
+    "translation": {
+      "pt": "pássaro"
+    },
+    "example": {
+      "pt": "Onde está o pássaro?",
+      "kea": "Undi ki passaro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3363",
+    "word": "passatempo",
+    "translation": {
+      "pt": "passatempo"
+    },
+    "example": {
+      "pt": "Eu vi um passatempo",
+      "kea": "N odja un passatempo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3364",
+    "word": "passeio",
+    "translation": {
+      "pt": "passeio"
+    },
+    "example": {
+      "pt": "Eu vi um passeio",
+      "kea": "N odja un passeio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3365",
+    "word": "passo",
+    "translation": {
+      "pt": "passo"
+    },
+    "example": {
+      "pt": "O passo é interessante",
+      "kea": "Passo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3366",
+    "word": "pasta",
+    "translation": {
+      "pt": "pasta"
+    },
+    "example": {
+      "pt": "Onde está o pasta?",
+      "kea": "Undi ki pasta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3367",
+    "word": "pastel",
+    "translation": {
+      "pt": "pastel"
+    },
+    "example": {
+      "pt": "O pastel é interessante",
+      "kea": "Pastel e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3368",
+    "word": "pastilha",
+    "translation": {
+      "pt": "pastilha"
+    },
+    "example": {
+      "pt": "Eu vi um pastilha",
+      "kea": "N odja un pastilha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3369",
+    "word": "pasto",
+    "translation": {
+      "pt": "pasto"
+    },
+    "example": {
+      "pt": "Eu vi um pasto",
+      "kea": "N odja un pasto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3370",
+    "word": "pastor",
+    "translation": {
+      "pt": "pastor"
+    },
+    "example": {
+      "pt": "Onde está o pastor?",
+      "kea": "Undi ki pastor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3371",
+    "word": "patim",
+    "translation": {
+      "pt": "patim"
+    },
+    "example": {
+      "pt": "Eu vi um patim",
+      "kea": "N odja un patim"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3372",
+    "word": "patinha",
+    "translation": {
+      "pt": "patinha"
+    },
+    "example": {
+      "pt": "O patinha é interessante",
+      "kea": "Patinha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3373",
+    "word": "patio",
+    "translation": {
+      "pt": "pátio"
+    },
+    "example": {
+      "pt": "Eu vi um pátio",
+      "kea": "N odja un patio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3374",
+    "word": "pato",
+    "translation": {
+      "pt": "pato"
+    },
+    "example": {
+      "pt": "O pato é interessante",
+      "kea": "Pato e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3375",
+    "word": "patrao",
+    "translation": {
+      "pt": "patrão"
+    },
+    "example": {
+      "pt": "O patrão é interessante",
+      "kea": "Patrao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3376",
+    "word": "patria",
+    "translation": {
+      "pt": "pátria"
+    },
+    "example": {
+      "pt": "O pátria é interessante",
+      "kea": "Patria e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3377",
+    "word": "pausa",
+    "translation": {
+      "pt": "pausa"
+    },
+    "example": {
+      "pt": "Eu vi um pausa",
+      "kea": "N odja un pausa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3378",
+    "word": "pavao",
+    "translation": {
+      "pt": "pavão"
+    },
+    "example": {
+      "pt": "O pavão é interessante",
+      "kea": "Pavao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3379",
+    "word": "pecado",
+    "translation": {
+      "pt": "pecado"
+    },
+    "example": {
+      "pt": "O pecado é interessante",
+      "kea": "Pecado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3380",
+    "word": "peça",
+    "translation": {
+      "pt": "peça"
+    },
+    "example": {
+      "pt": "Onde está o peça?",
+      "kea": "Undi ki peça sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3381",
+    "word": "pedaco",
+    "translation": {
+      "pt": "pedaço"
+    },
+    "example": {
+      "pt": "Onde está o pedaço?",
+      "kea": "Undi ki pedaco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3382",
+    "word": "pedal",
+    "translation": {
+      "pt": "pedal"
+    },
+    "example": {
+      "pt": "Onde está o pedal?",
+      "kea": "Undi ki pedal sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3383",
+    "word": "pedido",
+    "translation": {
+      "pt": "pedido"
+    },
+    "example": {
+      "pt": "Eu vi um pedido",
+      "kea": "N odja un pedido"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3384",
+    "word": "pedreiro",
+    "translation": {
+      "pt": "pedreiro"
+    },
+    "example": {
+      "pt": "Eu vi um pedreiro",
+      "kea": "N odja un pedreiro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3385",
+    "word": "pegada",
+    "translation": {
+      "pt": "pegada"
+    },
+    "example": {
+      "pt": "Onde está o pegada?",
+      "kea": "Undi ki pegada sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3386",
+    "word": "peito",
+    "translation": {
+      "pt": "peito"
+    },
+    "example": {
+      "pt": "Eu vi um peito",
+      "kea": "N odja un peito"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3387",
+    "word": "peixe",
+    "translation": {
+      "pt": "peixe"
+    },
+    "example": {
+      "pt": "Eu vi um peixe",
+      "kea": "N odja un peixe"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3388",
+    "word": "pelicano",
+    "translation": {
+      "pt": "pelicano"
+    },
+    "example": {
+      "pt": "Eu vi um pelicano",
+      "kea": "N odja un pelicano"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3389",
+    "word": "pelo",
+    "translation": {
+      "pt": "pêlo"
+    },
+    "example": {
+      "pt": "Eu vi um pêlo",
+      "kea": "N odja un pelo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3390",
+    "word": "pendulo",
+    "translation": {
+      "pt": "pêndulo"
+    },
+    "example": {
+      "pt": "O pêndulo é interessante",
+      "kea": "Pendulo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3391",
+    "word": "peneira",
+    "translation": {
+      "pt": "peneira"
+    },
+    "example": {
+      "pt": "Onde está o peneira?",
+      "kea": "Undi ki peneira sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3392",
+    "word": "penha",
+    "translation": {
+      "pt": "penha"
+    },
+    "example": {
+      "pt": "Eu vi um penha",
+      "kea": "N odja un penha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3393",
+    "word": "peninsula",
+    "translation": {
+      "pt": "península"
+    },
+    "example": {
+      "pt": "Onde está o península?",
+      "kea": "Undi ki peninsula sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3394",
+    "word": "pensamento",
+    "translation": {
+      "pt": "pensamento"
+    },
+    "example": {
+      "pt": "O pensamento é interessante",
+      "kea": "Pensamento e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3395",
+    "word": "penso",
+    "translation": {
+      "pt": "penso"
+    },
+    "example": {
+      "pt": "Eu vi um penso",
+      "kea": "N odja un penso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3396",
+    "word": "pepino",
+    "translation": {
+      "pt": "pepino"
+    },
+    "example": {
+      "pt": "Eu vi um pepino",
+      "kea": "N odja un pepino"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3397",
+    "word": "pequeno",
+    "translation": {
+      "pt": "pequeno"
+    },
+    "example": {
+      "pt": "Uma coisa pequeno",
+      "kea": "Un koiza pequeno"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3398",
+    "word": "pera",
+    "translation": {
+      "pt": "pera"
+    },
+    "example": {
+      "pt": "O pera é interessante",
+      "kea": "Pera e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3399",
+    "word": "perdao",
+    "translation": {
+      "pt": "perdão"
+    },
+    "example": {
+      "pt": "Onde está o perdão?",
+      "kea": "Undi ki perdao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3400",
+    "word": "perdiz",
+    "translation": {
+      "pt": "perdiz"
+    },
+    "example": {
+      "pt": "Eu vi um perdiz",
+      "kea": "N odja un perdiz"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3401",
+    "word": "perfeito",
+    "translation": {
+      "pt": "perfeito"
+    },
+    "example": {
+      "pt": "Isso parece perfeito",
+      "kea": "Kel-la parse perfeito"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3402",
+    "word": "perfil",
+    "translation": {
+      "pt": "perfil"
+    },
+    "example": {
+      "pt": "Eu vi um perfil",
+      "kea": "N odja un perfil"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3403",
+    "word": "perfume",
+    "translation": {
+      "pt": "perfume"
+    },
+    "example": {
+      "pt": "Eu vi um perfume",
+      "kea": "N odja un perfume"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3404",
+    "word": "perigo",
+    "translation": {
+      "pt": "perigo"
+    },
+    "example": {
+      "pt": "Onde está o perigo?",
+      "kea": "Undi ki perigo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3405",
+    "word": "periodo",
+    "translation": {
+      "pt": "período"
+    },
+    "example": {
+      "pt": "O período é interessante",
+      "kea": "Periodo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3406",
+    "word": "perito",
+    "translation": {
+      "pt": "perito"
+    },
+    "example": {
+      "pt": "Eu vi um perito",
+      "kea": "N odja un perito"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3407",
+    "word": "perola",
+    "translation": {
+      "pt": "pérola"
+    },
+    "example": {
+      "pt": "O pérola é interessante",
+      "kea": "Perola e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3408",
+    "word": "persiana",
+    "translation": {
+      "pt": "persiana"
+    },
+    "example": {
+      "pt": "Eu vi um persiana",
+      "kea": "N odja un persiana"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3409",
+    "word": "personagem",
+    "translation": {
+      "pt": "personagem"
+    },
+    "example": {
+      "pt": "Eu vi um personagem",
+      "kea": "N odja un personagem"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3410",
+    "word": "peru",
+    "translation": {
+      "pt": "peru"
+    },
+    "example": {
+      "pt": "Onde está o peru?",
+      "kea": "Undi ki peru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3411",
+    "word": "pesca",
+    "translation": {
+      "pt": "pesca"
+    },
+    "example": {
+      "pt": "O pesca é interessante",
+      "kea": "Pesca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3412",
+    "word": "pescador",
+    "translation": {
+      "pt": "pescador"
+    },
+    "example": {
+      "pt": "Eu vi um pescador",
+      "kea": "N odja un pescador"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3413",
+    "word": "pescoço",
+    "translation": {
+      "pt": "pescoço"
+    },
+    "example": {
+      "pt": "O pescoço é interessante",
+      "kea": "Pescoço e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3414",
+    "word": "peso",
+    "translation": {
+      "pt": "peso"
+    },
+    "example": {
+      "pt": "Onde está o peso?",
+      "kea": "Undi ki peso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3415",
+    "word": "pessego",
+    "translation": {
+      "pt": "pêssego"
+    },
+    "example": {
+      "pt": "O pêssego é interessante",
+      "kea": "Pessego e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3416",
+    "word": "pessoa",
+    "translation": {
+      "pt": "pessoa"
+    },
+    "example": {
+      "pt": "Eu vi um pessoa",
+      "kea": "N odja un pessoa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3417",
+    "word": "pestana",
+    "translation": {
+      "pt": "pestana"
+    },
+    "example": {
+      "pt": "Onde está o pestana?",
+      "kea": "Undi ki pestana sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3418",
+    "word": "peste",
+    "translation": {
+      "pt": "peste"
+    },
+    "example": {
+      "pt": "O peste é interessante",
+      "kea": "Peste e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3419",
+    "word": "petala",
+    "translation": {
+      "pt": "pétala"
+    },
+    "example": {
+      "pt": "Eu vi um pétala",
+      "kea": "N odja un petala"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3420",
+    "word": "petroleo",
+    "translation": {
+      "pt": "petróleo"
+    },
+    "example": {
+      "pt": "Onde está o petróleo?",
+      "kea": "Undi ki petroleo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3421",
+    "word": "piano",
+    "translation": {
+      "pt": "piano"
+    },
+    "example": {
+      "pt": "O piano é interessante",
+      "kea": "Piano e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3422",
+    "word": "picada",
+    "translation": {
+      "pt": "picada"
+    },
+    "example": {
+      "pt": "O picada é interessante",
+      "kea": "Picada e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3423",
+    "word": "picareta",
+    "translation": {
+      "pt": "picareta"
+    },
+    "example": {
+      "pt": "Eu vi um picareta",
+      "kea": "N odja un picareta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3424",
+    "word": "pico",
+    "translation": {
+      "pt": "pico"
+    },
+    "example": {
+      "pt": "Onde está o pico?",
+      "kea": "Undi ki pico sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3425",
+    "word": "pijama",
+    "translation": {
+      "pt": "pijama"
+    },
+    "example": {
+      "pt": "Onde está o pijama?",
+      "kea": "Undi ki pijama sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3426",
+    "word": "pilao",
+    "translation": {
+      "pt": "pilão"
+    },
+    "example": {
+      "pt": "O pilão é interessante",
+      "kea": "Pilao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3427",
+    "word": "pilha",
+    "translation": {
+      "pt": "pilha"
+    },
+    "example": {
+      "pt": "O pilha é interessante",
+      "kea": "Pilha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3428",
+    "word": "piloto",
+    "translation": {
+      "pt": "piloto"
+    },
+    "example": {
+      "pt": "O piloto é interessante",
+      "kea": "Piloto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3429",
+    "word": "pimentao",
+    "translation": {
+      "pt": "pimentão"
+    },
+    "example": {
+      "pt": "Eu vi um pimentão",
+      "kea": "N odja un pimentao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3430",
+    "word": "pinça",
+    "translation": {
+      "pt": "pinça"
+    },
+    "example": {
+      "pt": "Onde está o pinça?",
+      "kea": "Undi ki pinça sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3431",
+    "word": "pincel",
+    "translation": {
+      "pt": "pincel"
+    },
+    "example": {
+      "pt": "Eu vi um pincel",
+      "kea": "N odja un pincel"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3432",
+    "word": "pingalim",
+    "translation": {
+      "pt": "pingalim"
+    },
+    "example": {
+      "pt": "O pingalim é interessante",
+      "kea": "Pingalim e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3433",
+    "word": "pinguim",
+    "translation": {
+      "pt": "pinguim"
+    },
+    "example": {
+      "pt": "Onde está o pinguim?",
+      "kea": "Undi ki pinguim sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3434",
+    "word": "pinha",
+    "translation": {
+      "pt": "pinha"
+    },
+    "example": {
+      "pt": "Eu vi um pinha",
+      "kea": "N odja un pinha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3435",
+    "word": "pinheiro",
+    "translation": {
+      "pt": "pinheiro"
+    },
+    "example": {
+      "pt": "Eu vi um pinheiro",
+      "kea": "N odja un pinheiro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3436",
+    "word": "pino",
+    "translation": {
+      "pt": "pino"
+    },
+    "example": {
+      "pt": "O pino é interessante",
+      "kea": "Pino e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3437",
+    "word": "pintar",
+    "translation": {
+      "pt": "pintar"
+    },
+    "example": {
+      "pt": "Eu vou pintar",
+      "kea": "N ta pintar"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-3438",
+    "word": "piolho",
+    "translation": {
+      "pt": "piolho"
+    },
+    "example": {
+      "pt": "O piolho é interessante",
+      "kea": "Piolho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3439",
+    "word": "pipoca",
+    "translation": {
+      "pt": "pipoca"
+    },
+    "example": {
+      "pt": "Eu vi um pipoca",
+      "kea": "N odja un pipoca"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3440",
+    "word": "piquenique",
+    "translation": {
+      "pt": "piquenique"
+    },
+    "example": {
+      "pt": "Eu vi um piquenique",
+      "kea": "N odja un piquenique"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3441",
+    "word": "piramide",
+    "translation": {
+      "pt": "pirâmide"
+    },
+    "example": {
+      "pt": "Onde está o pirâmide?",
+      "kea": "Undi ki piramide sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3442",
+    "word": "pirata",
+    "translation": {
+      "pt": "pirata"
+    },
+    "example": {
+      "pt": "Eu vi um pirata",
+      "kea": "N odja un pirata"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3443",
+    "word": "pires",
+    "translation": {
+      "pt": "pires"
+    },
+    "example": {
+      "pt": "Eu vi um pires",
+      "kea": "N odja un pires"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3444",
+    "word": "pirilampo",
+    "translation": {
+      "pt": "pirilampo"
+    },
+    "example": {
+      "pt": "O pirilampo é interessante",
+      "kea": "Pirilampo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3445",
+    "word": "piscinas",
+    "translation": {
+      "pt": "piscina"
+    },
+    "example": {
+      "pt": "Onde está o piscina?",
+      "kea": "Undi ki piscinas sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3446",
+    "word": "pista",
+    "translation": {
+      "pt": "pista"
+    },
+    "example": {
+      "pt": "Eu vi um pista",
+      "kea": "N odja un pista"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3447",
+    "word": "placa",
+    "translation": {
+      "pt": "placa"
+    },
+    "example": {
+      "pt": "O placa é interessante",
+      "kea": "Placa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3448",
+    "word": "planeta",
+    "translation": {
+      "pt": "planeta"
+    },
+    "example": {
+      "pt": "Eu vi um planeta",
+      "kea": "N odja un planeta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3449",
+    "word": "plano",
+    "translation": {
+      "pt": "plano"
+    },
+    "example": {
+      "pt": "Eu vi um plano",
+      "kea": "N odja un plano"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3450",
+    "word": "plastico",
+    "translation": {
+      "pt": "plástico"
+    },
+    "example": {
+      "pt": "Eu vi um plástico",
+      "kea": "N odja un plastico"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3451",
+    "word": "plataforma",
+    "translation": {
+      "pt": "plataforma"
+    },
+    "example": {
+      "pt": "O plataforma é interessante",
+      "kea": "Plataforma e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3452",
+    "word": "platina",
+    "translation": {
+      "pt": "platina"
+    },
+    "example": {
+      "pt": "Eu vi um platina",
+      "kea": "N odja un platina"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3453",
+    "word": "poco",
+    "translation": {
+      "pt": "poço"
+    },
+    "example": {
+      "pt": "Onde está o poço?",
+      "kea": "Undi ki poco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3454",
+    "word": "poder",
+    "translation": {
+      "pt": "poder"
+    },
+    "example": {
+      "pt": "O poder é interessante",
+      "kea": "Poder e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3455",
+    "word": "poema",
+    "translation": {
+      "pt": "poema"
+    },
+    "example": {
+      "pt": "O poema é interessante",
+      "kea": "Poema e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3456",
+    "word": "poesia",
+    "translation": {
+      "pt": "poesia"
+    },
+    "example": {
+      "pt": "Onde está o poesia?",
+      "kea": "Undi ki poesia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3457",
+    "word": "poeta",
+    "translation": {
+      "pt": "poeta"
+    },
+    "example": {
+      "pt": "Onde está o poeta?",
+      "kea": "Undi ki poeta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3458",
+    "word": "polegar",
+    "translation": {
+      "pt": "polegar"
+    },
+    "example": {
+      "pt": "Onde está o polegar?",
+      "kea": "Undi ki polegar sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3459",
+    "word": "polen",
+    "translation": {
+      "pt": "pólen"
+    },
+    "example": {
+      "pt": "Eu vi um pólen",
+      "kea": "N odja un polen"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3460",
+    "word": "politica",
+    "translation": {
+      "pt": "política"
+    },
+    "example": {
+      "pt": "Eu vi um política",
+      "kea": "N odja un politica"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3461",
+    "word": "politico",
+    "translation": {
+      "pt": "político"
+    },
+    "example": {
+      "pt": "O político é interessante",
+      "kea": "Politico e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3462",
+    "word": "polvo",
+    "translation": {
+      "pt": "polvo"
+    },
+    "example": {
+      "pt": "O polvo é interessante",
+      "kea": "Polvo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3463",
+    "word": "pomar",
+    "translation": {
+      "pt": "pomar"
+    },
+    "example": {
+      "pt": "O pomar é interessante",
+      "kea": "Pomar e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3464",
+    "word": "pombo",
+    "translation": {
+      "pt": "pombo"
+    },
+    "example": {
+      "pt": "O pombo é interessante",
+      "kea": "Pombo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3465",
+    "word": "ponte",
+    "translation": {
+      "pt": "ponte"
+    },
+    "example": {
+      "pt": "Onde está o ponte?",
+      "kea": "Undi ki ponte sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3466",
+    "word": "populacao",
+    "translation": {
+      "pt": "população"
+    },
+    "example": {
+      "pt": "O população é interessante",
+      "kea": "Populacao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3467",
+    "word": "porco",
+    "translation": {
+      "pt": "porco"
+    },
+    "example": {
+      "pt": "Onde está o porco?",
+      "kea": "Undi ki porco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3468",
+    "word": "porco-espinho",
+    "translation": {
+      "pt": "porco-espinho"
+    },
+    "example": {
+      "pt": "Onde está o porco-espinho?",
+      "kea": "Undi ki porco-espinho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3469",
+    "word": "poro",
+    "translation": {
+      "pt": "poro"
+    },
+    "example": {
+      "pt": "O poro é interessante",
+      "kea": "Poro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3470",
+    "word": "portao",
+    "translation": {
+      "pt": "portão"
+    },
+    "example": {
+      "pt": "Onde está o portão?",
+      "kea": "Undi ki portao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3471",
+    "word": "porto",
+    "translation": {
+      "pt": "porto"
+    },
+    "example": {
+      "pt": "Onde está o porto?",
+      "kea": "Undi ki porto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3472",
+    "word": "portugues",
+    "translation": {
+      "pt": "português"
+    },
+    "example": {
+      "pt": "O português é interessante",
+      "kea": "Portugues e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3473",
+    "word": "posiçao",
+    "translation": {
+      "pt": "posição"
+    },
+    "example": {
+      "pt": "Eu vi um posição",
+      "kea": "N odja un posiçao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3474",
+    "word": "possivel",
+    "translation": {
+      "pt": "possível"
+    },
+    "example": {
+      "pt": "Uma coisa possível",
+      "kea": "Un koiza possivel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3475",
+    "word": "poste",
+    "translation": {
+      "pt": "poste"
+    },
+    "example": {
+      "pt": "Eu vi um poste",
+      "kea": "N odja un poste"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3476",
+    "word": "pote",
+    "translation": {
+      "pt": "pote"
+    },
+    "example": {
+      "pt": "Onde está o pote?",
+      "kea": "Undi ki pote sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3477",
+    "word": "potro",
+    "translation": {
+      "pt": "potro"
+    },
+    "example": {
+      "pt": "Onde está o potro?",
+      "kea": "Undi ki potro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3478",
+    "word": "pouca",
+    "translation": {
+      "pt": "pouca"
+    },
+    "example": {
+      "pt": "Ele é muito pouca",
+      "kea": "El e muitu pouca"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3479",
+    "word": "pouco",
+    "translation": {
+      "pt": "pouco"
+    },
+    "example": {
+      "pt": "Uma coisa pouco",
+      "kea": "Un koiza pouco"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3480",
+    "word": "povo",
+    "translation": {
+      "pt": "povo"
+    },
+    "example": {
+      "pt": "O povo é interessante",
+      "kea": "Povo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3481",
+    "word": "praça",
+    "translation": {
+      "pt": "praça"
+    },
+    "example": {
+      "pt": "O praça é interessante",
+      "kea": "Praça e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3482",
+    "word": "praia",
+    "translation": {
+      "pt": "praia"
+    },
+    "example": {
+      "pt": "Onde está o praia?",
+      "kea": "Undi ki praia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3483",
+    "word": "prato",
+    "translation": {
+      "pt": "prato"
+    },
+    "example": {
+      "pt": "O prato é interessante",
+      "kea": "Prato e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3484",
+    "word": "prazo",
+    "translation": {
+      "pt": "prazo"
+    },
+    "example": {
+      "pt": "O prazo é interessante",
+      "kea": "Prazo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3485",
+    "word": "prece",
+    "translation": {
+      "pt": "prece"
+    },
+    "example": {
+      "pt": "Eu vi um prece",
+      "kea": "N odja un prece"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3486",
+    "word": "preco",
+    "translation": {
+      "pt": "preço"
+    },
+    "example": {
+      "pt": "O preço é interessante",
+      "kea": "Preco e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3487",
+    "word": "predio",
+    "translation": {
+      "pt": "prédio"
+    },
+    "example": {
+      "pt": "Eu vi um prédio",
+      "kea": "N odja un predio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3488",
+    "word": "prego",
+    "translation": {
+      "pt": "prego"
+    },
+    "example": {
+      "pt": "Onde está o prego?",
+      "kea": "Undi ki prego sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3489",
+    "word": "preguica",
+    "translation": {
+      "pt": "preguiça"
+    },
+    "example": {
+      "pt": "Eu vi um preguiça",
+      "kea": "N odja un preguica"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3490",
+    "word": "premio",
+    "translation": {
+      "pt": "prémio"
+    },
+    "example": {
+      "pt": "O prémio é interessante",
+      "kea": "Premio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3491",
+    "word": "prenda",
+    "translation": {
+      "pt": "prenda"
+    },
+    "example": {
+      "pt": "O prenda é interessante",
+      "kea": "Prenda e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3492",
+    "word": "preocupason",
+    "translation": {
+      "pt": "preocupação"
+    },
+    "example": {
+      "pt": "Onde está o preocupação?",
+      "kea": "Undi ki preocupason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3493",
+    "word": "preparason",
+    "translation": {
+      "pt": "preparação"
+    },
+    "example": {
+      "pt": "O preparação é interessante",
+      "kea": "Preparason e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3494",
+    "word": "presenca",
+    "translation": {
+      "pt": "presença"
+    },
+    "example": {
+      "pt": "Eu vi um presença",
+      "kea": "N odja un presenca"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3495",
+    "word": "presepio",
+    "translation": {
+      "pt": "presépio"
+    },
+    "example": {
+      "pt": "Onde está o presépio?",
+      "kea": "Undi ki presepio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3496",
+    "word": "pressa",
+    "translation": {
+      "pt": "pressa"
+    },
+    "example": {
+      "pt": "Eu vi um pressa",
+      "kea": "N odja un pressa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3497",
+    "word": "pressao",
+    "translation": {
+      "pt": "pressão"
+    },
+    "example": {
+      "pt": "O pressão é interessante",
+      "kea": "Pressao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3498",
+    "word": "preto",
+    "translation": {
+      "pt": "preto"
+    },
+    "example": {
+      "pt": "Isso parece preto",
+      "kea": "Kel-la parse preto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3499",
+    "word": "primeiro",
+    "translation": {
+      "pt": "primeiro"
+    },
+    "example": {
+      "pt": "Ele é muito primeiro",
+      "kea": "El e muitu primeiro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3500",
+    "word": "primo",
+    "translation": {
+      "pt": "primo"
+    },
+    "example": {
+      "pt": "Eu vi um primo",
+      "kea": "N odja un primo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3501",
+    "word": "princesa",
+    "translation": {
+      "pt": "princesa"
+    },
+    "example": {
+      "pt": "Eu vi um princesa",
+      "kea": "N odja un princesa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3502",
+    "word": "principe",
+    "translation": {
+      "pt": "príncipe"
+    },
+    "example": {
+      "pt": "O príncipe é interessante",
+      "kea": "Principe e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3503",
+    "word": "principio",
+    "translation": {
+      "pt": "princípio"
+    },
+    "example": {
+      "pt": "O princípio é interessante",
+      "kea": "Principio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3504",
+    "word": "privado",
+    "translation": {
+      "pt": "privado"
+    },
+    "example": {
+      "pt": "Isso parece privado",
+      "kea": "Kel-la parse privado"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3505",
+    "word": "procissao",
+    "translation": {
+      "pt": "procissão"
+    },
+    "example": {
+      "pt": "Onde está o procissão?",
+      "kea": "Undi ki procissao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3506",
+    "word": "produçao",
+    "translation": {
+      "pt": "produção"
+    },
+    "example": {
+      "pt": "Eu vi um produção",
+      "kea": "N odja un produçao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3507",
+    "word": "produto",
+    "translation": {
+      "pt": "produto"
+    },
+    "example": {
+      "pt": "Onde está o produto?",
+      "kea": "Undi ki produto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3508",
+    "word": "professor",
+    "translation": {
+      "pt": "professor"
+    },
+    "example": {
+      "pt": "Eu vi um professor",
+      "kea": "N odja un professor"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3509",
+    "word": "profissao",
+    "translation": {
+      "pt": "profissão"
+    },
+    "example": {
+      "pt": "Eu vi um profissão",
+      "kea": "N odja un profissao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3510",
+    "word": "profundo",
+    "translation": {
+      "pt": "profundo"
+    },
+    "example": {
+      "pt": "Ele é muito profundo",
+      "kea": "El e muitu profundo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3511",
+    "word": "progresso",
+    "translation": {
+      "pt": "progresso"
+    },
+    "example": {
+      "pt": "Onde está o progresso?",
+      "kea": "Undi ki progresso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3512",
+    "word": "promessa",
+    "translation": {
+      "pt": "promessa"
+    },
+    "example": {
+      "pt": "Onde está o promessa?",
+      "kea": "Undi ki promessa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3513",
+    "word": "pronto",
+    "translation": {
+      "pt": "pronto"
+    },
+    "example": {
+      "pt": "Ele é muito pronto",
+      "kea": "El e muitu pronto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3514",
+    "word": "propriedade",
+    "translation": {
+      "pt": "propriedade"
+    },
+    "example": {
+      "pt": "O propriedade é interessante",
+      "kea": "Propriedade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3515",
+    "word": "proprio",
+    "translation": {
+      "pt": "próprio"
+    },
+    "example": {
+      "pt": "Ele é muito próprio",
+      "kea": "El e muitu proprio"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3516",
+    "word": "proverbio",
+    "translation": {
+      "pt": "provérbio"
+    },
+    "example": {
+      "pt": "Onde está o provérbio?",
+      "kea": "Undi ki proverbio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3517",
+    "word": "proximo",
+    "translation": {
+      "pt": "próximo"
+    },
+    "example": {
+      "pt": "Ele é muito próximo",
+      "kea": "El e muitu proximo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3518",
+    "word": "publico",
+    "translation": {
+      "pt": "público"
+    },
+    "example": {
+      "pt": "Uma coisa público",
+      "kea": "Un koiza publico"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3519",
+    "word": "pudim",
+    "translation": {
+      "pt": "pudim"
+    },
+    "example": {
+      "pt": "Onde está o pudim?",
+      "kea": "Undi ki pudim sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3520",
+    "word": "pulga",
+    "translation": {
+      "pt": "pulga"
+    },
+    "example": {
+      "pt": "Eu vi um pulga",
+      "kea": "N odja un pulga"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3521",
+    "word": "pulmao",
+    "translation": {
+      "pt": "pulmão"
+    },
+    "example": {
+      "pt": "Onde está o pulmão?",
+      "kea": "Undi ki pulmao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3522",
+    "word": "pulso",
+    "translation": {
+      "pt": "pulso"
+    },
+    "example": {
+      "pt": "Onde está o pulso?",
+      "kea": "Undi ki pulso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3523",
+    "word": "punhado",
+    "translation": {
+      "pt": "punhado"
+    },
+    "example": {
+      "pt": "Onde está o punhado?",
+      "kea": "Undi ki punhado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3524",
+    "word": "punhal",
+    "translation": {
+      "pt": "punhal"
+    },
+    "example": {
+      "pt": "Eu vi um punhal",
+      "kea": "N odja un punhal"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3525",
+    "word": "punho",
+    "translation": {
+      "pt": "punho"
+    },
+    "example": {
+      "pt": "Onde está o punho?",
+      "kea": "Undi ki punho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3526",
+    "word": "pupilo",
+    "translation": {
+      "pt": "pupilo"
+    },
+    "example": {
+      "pt": "Onde está o pupilo?",
+      "kea": "Undi ki pupilo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3527",
+    "word": "pure",
+    "translation": {
+      "pt": "puré"
+    },
+    "example": {
+      "pt": "Eu vi um puré",
+      "kea": "N odja un pure"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3528",
+    "word": "puxador",
+    "translation": {
+      "pt": "puxador"
+    },
+    "example": {
+      "pt": "Eu vi um puxador",
+      "kea": "N odja un puxador"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3529",
+    "word": "q",
+    "translation": {
+      "pt": "letra q"
+    },
+    "example": {
+      "pt": "Eu vi um letra q",
+      "kea": "N odja un q"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3530",
+    "word": "quadrado",
+    "translation": {
+      "pt": "quadrado"
+    },
+    "example": {
+      "pt": "Onde está o quadrado?",
+      "kea": "Undi ki quadrado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3531",
+    "word": "quadril",
+    "translation": {
+      "pt": "quadril"
+    },
+    "example": {
+      "pt": "Onde está o quadril?",
+      "kea": "Undi ki quadril sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3532",
+    "word": "quadro",
+    "translation": {
+      "pt": "quadro"
+    },
+    "example": {
+      "pt": "O quadro é interessante",
+      "kea": "Quadro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3533",
+    "word": "qualidade",
+    "translation": {
+      "pt": "qualidade"
+    },
+    "example": {
+      "pt": "O qualidade é interessante",
+      "kea": "Qualidade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3534",
+    "word": "quantidade",
+    "translation": {
+      "pt": "quantidade"
+    },
+    "example": {
+      "pt": "O quantidade é interessante",
+      "kea": "Quantidade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3535",
+    "word": "quarto",
+    "translation": {
+      "pt": "quarto"
+    },
+    "example": {
+      "pt": "O quarto é interessante",
+      "kea": "Quarto e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3536",
+    "word": "quartzo",
+    "translation": {
+      "pt": "quartzo"
+    },
+    "example": {
+      "pt": "O quartzo é interessante",
+      "kea": "Quartzo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3537",
+    "word": "queijo",
+    "translation": {
+      "pt": "queijo"
+    },
+    "example": {
+      "pt": "Onde está o queijo?",
+      "kea": "Undi ki queijo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3538",
+    "word": "queimadura",
+    "translation": {
+      "pt": "queimadura"
+    },
+    "example": {
+      "pt": "O queimadura é interessante",
+      "kea": "Queimadura e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3539",
+    "word": "queixo",
+    "translation": {
+      "pt": "queixo"
+    },
+    "example": {
+      "pt": "O queixo é interessante",
+      "kea": "Queixo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3540",
+    "word": "queda",
+    "translation": {
+      "pt": "queda"
+    },
+    "example": {
+      "pt": "O queda é interessante",
+      "kea": "Queda e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3541",
+    "word": "quente",
+    "translation": {
+      "pt": "quente"
+    },
+    "example": {
+      "pt": "Isso parece quente",
+      "kea": "Kel-la parse quente"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3542",
+    "word": "querido",
+    "translation": {
+      "pt": "querido"
+    },
+    "example": {
+      "pt": "Isso parece querido",
+      "kea": "Kel-la parse querido"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3543",
+    "word": "questao",
+    "translation": {
+      "pt": "questão"
+    },
+    "example": {
+      "pt": "O questão é interessante",
+      "kea": "Questao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3544",
+    "word": "quilo",
+    "translation": {
+      "pt": "quilo"
+    },
+    "example": {
+      "pt": "Onde está o quilo?",
+      "kea": "Undi ki quilo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3545",
+    "word": "quilometro",
+    "translation": {
+      "pt": "quilómetro"
+    },
+    "example": {
+      "pt": "O quilómetro é interessante",
+      "kea": "Quilometro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3546",
+    "word": "quimica",
+    "translation": {
+      "pt": "química"
+    },
+    "example": {
+      "pt": "O química é interessante",
+      "kea": "Quimica e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3547",
+    "word": "quimico",
+    "translation": {
+      "pt": "químico"
+    },
+    "example": {
+      "pt": "Onde está o químico?",
+      "kea": "Undi ki quimico sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3548",
+    "word": "quinta",
+    "translation": {
+      "pt": "quinta"
+    },
+    "example": {
+      "pt": "O quinta é interessante",
+      "kea": "Quinta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3549",
+    "word": "quintal",
+    "translation": {
+      "pt": "quintal"
+    },
+    "example": {
+      "pt": "Onde está o quintal?",
+      "kea": "Undi ki quintal sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3550",
+    "word": "quinze",
+    "translation": {
+      "pt": "quinze"
+    },
+    "example": {
+      "pt": "Eu vi um quinze",
+      "kea": "N odja un quinze"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3551",
+    "word": "r",
+    "translation": {
+      "pt": "letra r"
+    },
+    "example": {
+      "pt": "O letra r é interessante",
+      "kea": "R e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3552",
+    "word": "ra",
+    "translation": {
+      "pt": "rã"
+    },
+    "example": {
+      "pt": "O rã é interessante",
+      "kea": "Ra e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3553",
+    "word": "rabisco",
+    "translation": {
+      "pt": "rabisco"
+    },
+    "example": {
+      "pt": "Onde está o rabisco?",
+      "kea": "Undi ki rabisco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3554",
+    "word": "rabo",
+    "translation": {
+      "pt": "rabo"
+    },
+    "example": {
+      "pt": "Onde está o rabo?",
+      "kea": "Undi ki rabo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3555",
+    "word": "raça",
+    "translation": {
+      "pt": "raça"
+    },
+    "example": {
+      "pt": "O raça é interessante",
+      "kea": "Raça e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3556",
+    "word": "racao",
+    "translation": {
+      "pt": "ração"
+    },
+    "example": {
+      "pt": "Eu vi um ração",
+      "kea": "N odja un racao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3557",
+    "word": "radar",
+    "translation": {
+      "pt": "radar"
+    },
+    "example": {
+      "pt": "Eu vi um radar",
+      "kea": "N odja un radar"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3558",
+    "word": "radio",
+    "translation": {
+      "pt": "rádio"
+    },
+    "example": {
+      "pt": "Eu vi um rádio",
+      "kea": "N odja un radio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3559",
+    "word": "rainha",
+    "translation": {
+      "pt": "rainha"
+    },
+    "example": {
+      "pt": "Eu vi um rainha",
+      "kea": "N odja un rainha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3560",
+    "word": "raiva",
+    "translation": {
+      "pt": "raiva"
+    },
+    "example": {
+      "pt": "Eu vi um raiva",
+      "kea": "N odja un raiva"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3561",
+    "word": "raiz",
+    "translation": {
+      "pt": "raiz"
+    },
+    "example": {
+      "pt": "O raiz é interessante",
+      "kea": "Raiz e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3562",
+    "word": "ralador",
+    "translation": {
+      "pt": "ralador"
+    },
+    "example": {
+      "pt": "Eu vi um ralador",
+      "kea": "N odja un ralador"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3563",
+    "word": "ramo",
+    "translation": {
+      "pt": "ramo"
+    },
+    "example": {
+      "pt": "O ramo é interessante",
+      "kea": "Ramo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3564",
+    "word": "rampa",
+    "translation": {
+      "pt": "rampa"
+    },
+    "example": {
+      "pt": "Eu vi um rampa",
+      "kea": "N odja un rampa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3565",
+    "word": "ranchu",
+    "translation": {
+      "pt": "rancho"
+    },
+    "example": {
+      "pt": "O rancho é interessante",
+      "kea": "Ranchu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3566",
+    "word": "rapaz",
+    "translation": {
+      "pt": "rapaz"
+    },
+    "example": {
+      "pt": "O rapaz é interessante",
+      "kea": "Rapaz e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3567",
+    "word": "rapido",
+    "translation": {
+      "pt": "rápido"
+    },
+    "example": {
+      "pt": "Ele é muito rápido",
+      "kea": "El e muitu rapido"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3568",
+    "word": "raposa",
+    "translation": {
+      "pt": "raposa"
+    },
+    "example": {
+      "pt": "Eu vi um raposa",
+      "kea": "N odja un raposa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3569",
+    "word": "raro",
+    "translation": {
+      "pt": "raro"
+    },
+    "example": {
+      "pt": "Isso parece raro",
+      "kea": "Kel-la parse raro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3570",
+    "word": "rato",
+    "translation": {
+      "pt": "rato"
+    },
+    "example": {
+      "pt": "O rato é interessante",
+      "kea": "Rato e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3571",
+    "word": "razao",
+    "translation": {
+      "pt": "razão"
+    },
+    "example": {
+      "pt": "Onde está o razão?",
+      "kea": "Undi ki razao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3572",
+    "word": "realidade",
+    "translation": {
+      "pt": "realidade"
+    },
+    "example": {
+      "pt": "Eu vi um realidade",
+      "kea": "N odja un realidade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3573",
+    "word": "rebanho",
+    "translation": {
+      "pt": "rebanho"
+    },
+    "example": {
+      "pt": "Eu vi um rebanho",
+      "kea": "N odja un rebanho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3574",
+    "word": "receita",
+    "translation": {
+      "pt": "receita"
+    },
+    "example": {
+      "pt": "O receita é interessante",
+      "kea": "Receita e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3575",
+    "word": "recheio",
+    "translation": {
+      "pt": "recheio"
+    },
+    "example": {
+      "pt": "Eu vi um recheio",
+      "kea": "N odja un recheio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3576",
+    "word": "recibo",
+    "translation": {
+      "pt": "recibo"
+    },
+    "example": {
+      "pt": "O recibo é interessante",
+      "kea": "Recibo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3577",
+    "word": "rede",
+    "translation": {
+      "pt": "rede"
+    },
+    "example": {
+      "pt": "Onde está o rede?",
+      "kea": "Undi ki rede sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3578",
+    "word": "redea",
+    "translation": {
+      "pt": "rédea"
+    },
+    "example": {
+      "pt": "O rédea é interessante",
+      "kea": "Redea e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3579",
+    "word": "redondo",
+    "translation": {
+      "pt": "redondo"
+    },
+    "example": {
+      "pt": "Ele é muito redondo",
+      "kea": "El e muitu redondo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3580",
+    "word": "referencia",
+    "translation": {
+      "pt": "referência"
+    },
+    "example": {
+      "pt": "Onde está o referência?",
+      "kea": "Undi ki referencia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3581",
+    "word": "refletor",
+    "translation": {
+      "pt": "refletor"
+    },
+    "example": {
+      "pt": "O refletor é interessante",
+      "kea": "Refletor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3582",
+    "word": "reflexo",
+    "translation": {
+      "pt": "reflexo"
+    },
+    "example": {
+      "pt": "Onde está o reflexo?",
+      "kea": "Undi ki reflexo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3583",
+    "word": "reforma",
+    "translation": {
+      "pt": "reforma"
+    },
+    "example": {
+      "pt": "Onde está o reforma?",
+      "kea": "Undi ki reforma sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3584",
+    "word": "refugio",
+    "translation": {
+      "pt": "refúgio"
+    },
+    "example": {
+      "pt": "O refúgio é interessante",
+      "kea": "Refugio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3585",
+    "word": "regiao",
+    "translation": {
+      "pt": "região"
+    },
+    "example": {
+      "pt": "Eu vi um região",
+      "kea": "N odja un regiao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3586",
+    "word": "registo",
+    "translation": {
+      "pt": "registo"
+    },
+    "example": {
+      "pt": "O registo é interessante",
+      "kea": "Registo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3587",
+    "word": "regua",
+    "translation": {
+      "pt": "régua"
+    },
+    "example": {
+      "pt": "O régua é interessante",
+      "kea": "Regua e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3588",
+    "word": "reino",
+    "translation": {
+      "pt": "reino"
+    },
+    "example": {
+      "pt": "Onde está o reino?",
+      "kea": "Undi ki reino sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3589",
+    "word": "relacao",
+    "translation": {
+      "pt": "relação"
+    },
+    "example": {
+      "pt": "O relação é interessante",
+      "kea": "Relacao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3590",
+    "word": "relampago",
+    "translation": {
+      "pt": "relâmpago"
+    },
+    "example": {
+      "pt": "Onde está o relâmpago?",
+      "kea": "Undi ki relampago sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3591",
+    "word": "relatorio",
+    "translation": {
+      "pt": "relatório"
+    },
+    "example": {
+      "pt": "Onde está o relatório?",
+      "kea": "Undi ki relatorio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3592",
+    "word": "relevo",
+    "translation": {
+      "pt": "relevo"
+    },
+    "example": {
+      "pt": "Eu vi um relevo",
+      "kea": "N odja un relevo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3593",
+    "word": "religiao",
+    "translation": {
+      "pt": "religião"
+    },
+    "example": {
+      "pt": "O religião é interessante",
+      "kea": "Religiao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3594",
+    "word": "relogio",
+    "translation": {
+      "pt": "relógio"
+    },
+    "example": {
+      "pt": "Eu vi um relógio",
+      "kea": "N odja un relogio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3595",
+    "word": "remedio",
+    "translation": {
+      "pt": "remédio"
+    },
+    "example": {
+      "pt": "Eu vi um remédio",
+      "kea": "N odja un remedio"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3596",
+    "word": "remo",
+    "translation": {
+      "pt": "remo"
+    },
+    "example": {
+      "pt": "O remo é interessante",
+      "kea": "Remo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3597",
+    "word": "rena",
+    "translation": {
+      "pt": "rena"
+    },
+    "example": {
+      "pt": "Onde está o rena?",
+      "kea": "Undi ki rena sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3598",
+    "word": "repolho",
+    "translation": {
+      "pt": "repolho"
+    },
+    "example": {
+      "pt": "O repolho é interessante",
+      "kea": "Repolho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3599",
+    "word": "repouso",
+    "translation": {
+      "pt": "repouso"
+    },
+    "example": {
+      "pt": "Onde está o repouso?",
+      "kea": "Undi ki repouso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3600",
+    "word": "represa",
+    "translation": {
+      "pt": "represa"
+    },
+    "example": {
+      "pt": "Onde está o represa?",
+      "kea": "Undi ki represa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3601",
+    "word": "representason",
+    "translation": {
+      "pt": "representação"
+    },
+    "example": {
+      "pt": "O representação é interessante",
+      "kea": "Representason e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3602",
+    "word": "reptil",
+    "translation": {
+      "pt": "réptil"
+    },
+    "example": {
+      "pt": "O réptil é interessante",
+      "kea": "Reptil e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3603",
+    "word": "republica",
+    "translation": {
+      "pt": "república"
+    },
+    "example": {
+      "pt": "Onde está o república?",
+      "kea": "Undi ki republica sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3604",
+    "word": "resina",
+    "translation": {
+      "pt": "resina"
+    },
+    "example": {
+      "pt": "Eu vi um resina",
+      "kea": "N odja un resina"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3605",
+    "word": "respeito",
+    "translation": {
+      "pt": "respeito"
+    },
+    "example": {
+      "pt": "O respeito é interessante",
+      "kea": "Respeito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3606",
+    "word": "respirason",
+    "translation": {
+      "pt": "respiração"
+    },
+    "example": {
+      "pt": "Onde está o respiração?",
+      "kea": "Undi ki respirason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3607",
+    "word": "resultado",
+    "translation": {
+      "pt": "resultado"
+    },
+    "example": {
+      "pt": "O resultado é interessante",
+      "kea": "Resultado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3608",
+    "word": "resumo",
+    "translation": {
+      "pt": "resumo"
+    },
+    "example": {
+      "pt": "O resumo é interessante",
+      "kea": "Resumo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3609",
+    "word": "retrato",
+    "translation": {
+      "pt": "retrato"
+    },
+    "example": {
+      "pt": "Onde está o retrato?",
+      "kea": "Undi ki retrato sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3610",
+    "word": "reuniao",
+    "translation": {
+      "pt": "reunião"
+    },
+    "example": {
+      "pt": "Eu vi um reunião",
+      "kea": "N odja un reuniao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3611",
+    "word": "revista",
+    "translation": {
+      "pt": "revista"
+    },
+    "example": {
+      "pt": "Eu vi um revista",
+      "kea": "N odja un revista"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3612",
+    "word": "revolta",
+    "translation": {
+      "pt": "revolta"
+    },
+    "example": {
+      "pt": "Onde está o revolta?",
+      "kea": "Undi ki revolta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3613",
+    "word": "rico",
+    "translation": {
+      "pt": "rico"
+    },
+    "example": {
+      "pt": "Isso parece rico",
+      "kea": "Kel-la parse rico"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3614",
+    "word": "rifa",
+    "translation": {
+      "pt": "rifa"
+    },
+    "example": {
+      "pt": "Onde está o rifa?",
+      "kea": "Undi ki rifa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3615",
+    "word": "rima",
+    "translation": {
+      "pt": "rima"
+    },
+    "example": {
+      "pt": "Onde está o rima?",
+      "kea": "Undi ki rima sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3616",
+    "word": "rinoceronte",
+    "translation": {
+      "pt": "rinoceronte"
+    },
+    "example": {
+      "pt": "Eu vi um rinoceronte",
+      "kea": "N odja un rinoceronte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3617",
+    "word": "rio",
+    "translation": {
+      "pt": "rio"
+    },
+    "example": {
+      "pt": "Onde está o rio?",
+      "kea": "Undi ki rio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3618",
+    "word": "riqueza",
+    "translation": {
+      "pt": "riqueza"
+    },
+    "example": {
+      "pt": "O riqueza é interessante",
+      "kea": "Riqueza e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3619",
+    "word": "rir",
+    "translation": {
+      "pt": "rir"
+    },
+    "example": {
+      "pt": "Precisamos rir agora",
+      "kea": "Nu ten ki rir agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-3620",
+    "word": "risco",
+    "translation": {
+      "pt": "risco"
+    },
+    "example": {
+      "pt": "O risco é interessante",
+      "kea": "Risco e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3621",
+    "word": "risu",
+    "translation": {
+      "pt": "riso"
+    },
+    "example": {
+      "pt": "O riso é interessante",
+      "kea": "Risu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3622",
+    "word": "ritmo",
+    "translation": {
+      "pt": "ritmo"
+    },
+    "example": {
+      "pt": "Onde está o ritmo?",
+      "kea": "Undi ki ritmo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3623",
+    "word": "rival",
+    "translation": {
+      "pt": "rival"
+    },
+    "example": {
+      "pt": "O rival é interessante",
+      "kea": "Rival e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3624",
+    "word": "robalo",
+    "translation": {
+      "pt": "robalo"
+    },
+    "example": {
+      "pt": "Eu vi um robalo",
+      "kea": "N odja un robalo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3625",
+    "word": "robo",
+    "translation": {
+      "pt": "robô"
+    },
+    "example": {
+      "pt": "O robô é interessante",
+      "kea": "Robo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3626",
+    "word": "rocha",
+    "translation": {
+      "pt": "rocha"
+    },
+    "example": {
+      "pt": "Onde está o rocha?",
+      "kea": "Undi ki rocha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3627",
+    "word": "rochedo",
+    "translation": {
+      "pt": "rochedo"
+    },
+    "example": {
+      "pt": "Eu vi um rochedo",
+      "kea": "N odja un rochedo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3628",
+    "word": "rodape",
+    "translation": {
+      "pt": "rodapé"
+    },
+    "example": {
+      "pt": "Eu vi um rodapé",
+      "kea": "N odja un rodape"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3629",
+    "word": "rodo",
+    "translation": {
+      "pt": "rodo"
+    },
+    "example": {
+      "pt": "O rodo é interessante",
+      "kea": "Rodo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3630",
+    "word": "rolha",
+    "translation": {
+      "pt": "rolha"
+    },
+    "example": {
+      "pt": "Eu vi um rolha",
+      "kea": "N odja un rolha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3631",
+    "word": "rolo",
+    "translation": {
+      "pt": "rolo"
+    },
+    "example": {
+      "pt": "Eu vi um rolo",
+      "kea": "N odja un rolo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3632",
+    "word": "romance",
+    "translation": {
+      "pt": "romance"
+    },
+    "example": {
+      "pt": "Onde está o romance?",
+      "kea": "Undi ki romance sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3633",
+    "word": "rosto",
+    "translation": {
+      "pt": "rosto"
+    },
+    "example": {
+      "pt": "Eu vi um rosto",
+      "kea": "N odja un rosto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3634",
+    "word": "rotulo",
+    "translation": {
+      "pt": "rótulo"
+    },
+    "example": {
+      "pt": "O rótulo é interessante",
+      "kea": "Rotulo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3635",
+    "word": "roubo",
+    "translation": {
+      "pt": "roubo"
+    },
+    "example": {
+      "pt": "Onde está o roubo?",
+      "kea": "Undi ki roubo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3636",
+    "word": "roupa",
+    "translation": {
+      "pt": "roupa"
+    },
+    "example": {
+      "pt": "O roupa é interessante",
+      "kea": "Roupa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3637",
+    "word": "roxo",
+    "translation": {
+      "pt": "roxo"
+    },
+    "example": {
+      "pt": "Isso parece roxo",
+      "kea": "Kel-la parse roxo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3638",
+    "word": "rubi",
+    "translation": {
+      "pt": "rubi"
+    },
+    "example": {
+      "pt": "Eu vi um rubi",
+      "kea": "N odja un rubi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3639",
+    "word": "ruivo",
+    "translation": {
+      "pt": "ruivo"
+    },
+    "example": {
+      "pt": "Uma coisa ruivo",
+      "kea": "Un koiza ruivo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3640",
+    "word": "rumo",
+    "translation": {
+      "pt": "rumo"
+    },
+    "example": {
+      "pt": "Onde está o rumo?",
+      "kea": "Undi ki rumo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3641",
+    "word": "s",
+    "translation": {
+      "pt": "letra s"
+    },
+    "example": {
+      "pt": "Eu vi um letra s",
+      "kea": "N odja un s"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3642",
+    "word": "sabado",
+    "translation": {
+      "pt": "sábado"
+    },
+    "example": {
+      "pt": "O sábado é interessante",
+      "kea": "Sabado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3643",
+    "word": "sabao",
+    "translation": {
+      "pt": "sabão"
+    },
+    "example": {
+      "pt": "Eu vi um sabão",
+      "kea": "N odja un sabao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3644",
+    "word": "saber",
+    "translation": {
+      "pt": "saber"
+    },
+    "example": {
+      "pt": "Ele gosta de saber",
+      "kea": "El ta gosta di saber"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-3645",
+    "word": "sabio",
+    "translation": {
+      "pt": "sábio"
+    },
+    "example": {
+      "pt": "Uma coisa sábio",
+      "kea": "Un koiza sabio"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3646",
+    "word": "sabor",
+    "translation": {
+      "pt": "sabor"
+    },
+    "example": {
+      "pt": "O sabor é interessante",
+      "kea": "Sabor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3647",
+    "word": "saca",
+    "translation": {
+      "pt": "saca"
+    },
+    "example": {
+      "pt": "Onde está o saca?",
+      "kea": "Undi ki saca sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3648",
+    "word": "saca-rolhas",
+    "translation": {
+      "pt": "saca-rolhas"
+    },
+    "example": {
+      "pt": "Eu vi um saca-rolhas",
+      "kea": "N odja un saca-rolhas"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3649",
+    "word": "saco",
+    "translation": {
+      "pt": "saco"
+    },
+    "example": {
+      "pt": "Eu vi um saco",
+      "kea": "N odja un saco"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3650",
+    "word": "sacrificio",
+    "translation": {
+      "pt": "sacrifício"
+    },
+    "example": {
+      "pt": "Onde está o sacrifício?",
+      "kea": "Undi ki sacrificio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3651",
+    "word": "sacristia",
+    "translation": {
+      "pt": "sacristia"
+    },
+    "example": {
+      "pt": "Onde está o sacristia?",
+      "kea": "Undi ki sacristia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3652",
+    "word": "saibro",
+    "translation": {
+      "pt": "saibro"
+    },
+    "example": {
+      "pt": "Onde está o saibro?",
+      "kea": "Undi ki saibro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3653",
+    "word": "salamandra",
+    "translation": {
+      "pt": "salamandra"
+    },
+    "example": {
+      "pt": "Eu vi um salamandra",
+      "kea": "N odja un salamandra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3654",
+    "word": "salario",
+    "translation": {
+      "pt": "salário"
+    },
+    "example": {
+      "pt": "Onde está o salário?",
+      "kea": "Undi ki salario sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3655",
+    "word": "salsa",
+    "translation": {
+      "pt": "salsa"
+    },
+    "example": {
+      "pt": "O salsa é interessante",
+      "kea": "Salsa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3656",
+    "word": "salsicha",
+    "translation": {
+      "pt": "salsicha"
+    },
+    "example": {
+      "pt": "O salsicha é interessante",
+      "kea": "Salsicha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3657",
+    "word": "salto",
+    "translation": {
+      "pt": "salto"
+    },
+    "example": {
+      "pt": "Eu vi um salto",
+      "kea": "N odja un salto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3658",
+    "word": "salva-vidas",
+    "translation": {
+      "pt": "salva-vidas"
+    },
+    "example": {
+      "pt": "Eu vi um salva-vidas",
+      "kea": "N odja un salva-vidas"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3659",
+    "word": "sandalia",
+    "translation": {
+      "pt": "sandália"
+    },
+    "example": {
+      "pt": "Eu vi um sandália",
+      "kea": "N odja un sandalia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3660",
+    "word": "sanduiche",
+    "translation": {
+      "pt": "sanduíche"
+    },
+    "example": {
+      "pt": "O sanduíche é interessante",
+      "kea": "Sanduiche e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3661",
+    "word": "sangue",
+    "translation": {
+      "pt": "sangue"
+    },
+    "example": {
+      "pt": "Eu vi um sangue",
+      "kea": "N odja un sangue"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3662",
+    "word": "sapo",
+    "translation": {
+      "pt": "sapo"
+    },
+    "example": {
+      "pt": "O sapo é interessante",
+      "kea": "Sapo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3663",
+    "word": "sapato",
+    "translation": {
+      "pt": "sapato"
+    },
+    "example": {
+      "pt": "Eu vi um sapato",
+      "kea": "N odja un sapato"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3664",
+    "word": "sargento",
+    "translation": {
+      "pt": "sargento"
+    },
+    "example": {
+      "pt": "Eu vi um sargento",
+      "kea": "N odja un sargento"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3665",
+    "word": "satelite",
+    "translation": {
+      "pt": "satélite"
+    },
+    "example": {
+      "pt": "Onde está o satélite?",
+      "kea": "Undi ki satelite sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3666",
+    "word": "saudade",
+    "translation": {
+      "pt": "saudade"
+    },
+    "example": {
+      "pt": "O saudade é interessante",
+      "kea": "Saudade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3667",
+    "word": "saude",
+    "translation": {
+      "pt": "saúde"
+    },
+    "example": {
+      "pt": "O saúde é interessante",
+      "kea": "Saude e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3668",
+    "word": "saxofone",
+    "translation": {
+      "pt": "saxofone"
+    },
+    "example": {
+      "pt": "O saxofone é interessante",
+      "kea": "Saxofone e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3669",
+    "word": "seara",
+    "translation": {
+      "pt": "seara"
+    },
+    "example": {
+      "pt": "Onde está o seara?",
+      "kea": "Undi ki seara sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3670",
+    "word": "seculo",
+    "translation": {
+      "pt": "século"
+    },
+    "example": {
+      "pt": "O século é interessante",
+      "kea": "Seculo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3671",
+    "word": "seda",
+    "translation": {
+      "pt": "seda"
+    },
+    "example": {
+      "pt": "Onde está o seda?",
+      "kea": "Undi ki seda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3672",
+    "word": "sede",
+    "translation": {
+      "pt": "sede"
+    },
+    "example": {
+      "pt": "O sede é interessante",
+      "kea": "Sede e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3673",
+    "word": "segredo",
+    "translation": {
+      "pt": "segredo"
+    },
+    "example": {
+      "pt": "Eu vi um segredo",
+      "kea": "N odja un segredo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3674",
+    "word": "segunda-feira",
+    "translation": {
+      "pt": "segunda-feira"
+    },
+    "example": {
+      "pt": "Onde está o segunda-feira?",
+      "kea": "Undi ki segunda-feira sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3675",
+    "word": "segundo",
+    "translation": {
+      "pt": "segundo"
+    },
+    "example": {
+      "pt": "Ele é muito segundo",
+      "kea": "El e muitu segundo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3676",
+    "word": "seguranca",
+    "translation": {
+      "pt": "segurança"
+    },
+    "example": {
+      "pt": "O segurança é interessante",
+      "kea": "Seguranca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3677",
+    "word": "seguro",
+    "translation": {
+      "pt": "seguro"
+    },
+    "example": {
+      "pt": "Uma coisa seguro",
+      "kea": "Un koiza seguro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3678",
+    "word": "selim",
+    "translation": {
+      "pt": "selim"
+    },
+    "example": {
+      "pt": "O selim é interessante",
+      "kea": "Selim e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3679",
+    "word": "selo",
+    "translation": {
+      "pt": "selo"
+    },
+    "example": {
+      "pt": "O selo é interessante",
+      "kea": "Selo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3680",
+    "word": "selva",
+    "translation": {
+      "pt": "selva"
+    },
+    "example": {
+      "pt": "O selva é interessante",
+      "kea": "Selva e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3681",
+    "word": "semente",
+    "translation": {
+      "pt": "semente"
+    },
+    "example": {
+      "pt": "O semente é interessante",
+      "kea": "Semente e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3682",
+    "word": "senhor",
+    "translation": {
+      "pt": "senhor"
+    },
+    "example": {
+      "pt": "Onde está o senhor?",
+      "kea": "Undi ki senhor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3683",
+    "word": "senhora",
+    "translation": {
+      "pt": "senhora"
+    },
+    "example": {
+      "pt": "O senhora é interessante",
+      "kea": "Senhora e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3684",
+    "word": "sensivel",
+    "translation": {
+      "pt": "sensível"
+    },
+    "example": {
+      "pt": "Ele é muito sensível",
+      "kea": "El e muitu sensivel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3685",
+    "word": "sentido",
+    "translation": {
+      "pt": "sentido"
+    },
+    "example": {
+      "pt": "Onde está o sentido?",
+      "kea": "Undi ki sentido sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3686",
+    "word": "sentimento",
+    "translation": {
+      "pt": "sentimento"
+    },
+    "example": {
+      "pt": "Onde está o sentimento?",
+      "kea": "Undi ki sentimento sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3687",
+    "word": "sentinela",
+    "translation": {
+      "pt": "sentinela"
+    },
+    "example": {
+      "pt": "O sentinela é interessante",
+      "kea": "Sentinela e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3688",
+    "word": "separason",
+    "translation": {
+      "pt": "separação"
+    },
+    "example": {
+      "pt": "Onde está o separação?",
+      "kea": "Undi ki separason sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3689",
+    "word": "seringa",
+    "translation": {
+      "pt": "seringa"
+    },
+    "example": {
+      "pt": "O seringa é interessante",
+      "kea": "Seringa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3690",
+    "word": "serio",
+    "translation": {
+      "pt": "sério"
+    },
+    "example": {
+      "pt": "Uma coisa sério",
+      "kea": "Un koiza serio"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3691",
+    "word": "serpente",
+    "translation": {
+      "pt": "serpente"
+    },
+    "example": {
+      "pt": "Onde está o serpente?",
+      "kea": "Undi ki serpente sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3692",
+    "word": "serradura",
+    "translation": {
+      "pt": "serradura"
+    },
+    "example": {
+      "pt": "Eu vi um serradura",
+      "kea": "N odja un serradura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3693",
+    "word": "serviço",
+    "translation": {
+      "pt": "serviço"
+    },
+    "example": {
+      "pt": "Onde está o serviço?",
+      "kea": "Undi ki serviço sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3694",
+    "word": "servidao",
+    "translation": {
+      "pt": "servidão"
+    },
+    "example": {
+      "pt": "Eu vi um servidão",
+      "kea": "N odja un servidao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3695",
+    "word": "sessao",
+    "translation": {
+      "pt": "sessão"
+    },
+    "example": {
+      "pt": "Eu vi um sessão",
+      "kea": "N odja un sessao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3696",
+    "word": "seta",
+    "translation": {
+      "pt": "seta"
+    },
+    "example": {
+      "pt": "Eu vi um seta",
+      "kea": "N odja un seta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3697",
+    "word": "setembro",
+    "translation": {
+      "pt": "setembro"
+    },
+    "example": {
+      "pt": "O setembro é interessante",
+      "kea": "Setembro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3698",
+    "word": "sexo",
+    "translation": {
+      "pt": "sexo"
+    },
+    "example": {
+      "pt": "Onde está o sexo?",
+      "kea": "Undi ki sexo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3699",
+    "word": "sexta-feira",
+    "translation": {
+      "pt": "sexta-feira"
+    },
+    "example": {
+      "pt": "Eu vi um sexta-feira",
+      "kea": "N odja un sexta-feira"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3700",
+    "word": "sigilo",
+    "translation": {
+      "pt": "sigilo"
+    },
+    "example": {
+      "pt": "Eu vi um sigilo",
+      "kea": "N odja un sigilo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3701",
+    "word": "sigla",
+    "translation": {
+      "pt": "sigla"
+    },
+    "example": {
+      "pt": "Eu vi um sigla",
+      "kea": "N odja un sigla"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3702",
+    "word": "significado",
+    "translation": {
+      "pt": "significado"
+    },
+    "example": {
+      "pt": "Onde está o significado?",
+      "kea": "Undi ki significado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3703",
+    "word": "signo",
+    "translation": {
+      "pt": "signo"
+    },
+    "example": {
+      "pt": "O signo é interessante",
+      "kea": "Signo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3704",
+    "word": "silaba",
+    "translation": {
+      "pt": "sílaba"
+    },
+    "example": {
+      "pt": "Eu vi um sílaba",
+      "kea": "N odja un silaba"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3705",
+    "word": "silencio",
+    "translation": {
+      "pt": "silêncio"
+    },
+    "example": {
+      "pt": "O silêncio é interessante",
+      "kea": "Silencio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3706",
+    "word": "silo",
+    "translation": {
+      "pt": "silo"
+    },
+    "example": {
+      "pt": "Eu vi um silo",
+      "kea": "N odja un silo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3707",
+    "word": "simbolo",
+    "translation": {
+      "pt": "símbolo"
+    },
+    "example": {
+      "pt": "O símbolo é interessante",
+      "kea": "Simbolo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3708",
+    "word": "simpatia",
+    "translation": {
+      "pt": "simpatia"
+    },
+    "example": {
+      "pt": "O simpatia é interessante",
+      "kea": "Simpatia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3709",
+    "word": "sino",
+    "translation": {
+      "pt": "sino"
+    },
+    "example": {
+      "pt": "Onde está o sino?",
+      "kea": "Undi ki sino sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3710",
+    "word": "sintoma",
+    "translation": {
+      "pt": "sintoma"
+    },
+    "example": {
+      "pt": "Eu vi um sintoma",
+      "kea": "N odja un sintoma"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3711",
+    "word": "sirene",
+    "translation": {
+      "pt": "sirene"
+    },
+    "example": {
+      "pt": "Eu vi um sirene",
+      "kea": "N odja un sirene"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3712",
+    "word": "sitio",
+    "translation": {
+      "pt": "sítio"
+    },
+    "example": {
+      "pt": "Onde está o sítio?",
+      "kea": "Undi ki sitio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3713",
+    "word": "situacao",
+    "translation": {
+      "pt": "situação"
+    },
+    "example": {
+      "pt": "Onde está o situação?",
+      "kea": "Undi ki situacao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3714",
+    "word": "soalho",
+    "translation": {
+      "pt": "soalho"
+    },
+    "example": {
+      "pt": "Onde está o soalho?",
+      "kea": "Undi ki soalho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3715",
+    "word": "sobrinho",
+    "translation": {
+      "pt": "sobrinho"
+    },
+    "example": {
+      "pt": "O sobrinho é interessante",
+      "kea": "Sobrinho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3716",
+    "word": "socio",
+    "translation": {
+      "pt": "sócio"
+    },
+    "example": {
+      "pt": "O sócio é interessante",
+      "kea": "Socio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3717",
+    "word": "socorro",
+    "translation": {
+      "pt": "socorro"
+    },
+    "example": {
+      "pt": "O socorro é interessante",
+      "kea": "Socorro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3718",
+    "word": "sofrimento",
+    "translation": {
+      "pt": "sofrimento"
+    },
+    "example": {
+      "pt": "Onde está o sofrimento?",
+      "kea": "Undi ki sofrimento sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3719",
+    "word": "sogro",
+    "translation": {
+      "pt": "sogro"
+    },
+    "example": {
+      "pt": "Eu vi um sogro",
+      "kea": "N odja un sogro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3720",
+    "word": "soldado",
+    "translation": {
+      "pt": "soldado"
+    },
+    "example": {
+      "pt": "Onde está o soldado?",
+      "kea": "Undi ki soldado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3721",
+    "word": "sola",
+    "translation": {
+      "pt": "sola"
+    },
+    "example": {
+      "pt": "O sola é interessante",
+      "kea": "Sola e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3722",
+    "word": "solidão",
+    "translation": {
+      "pt": "solidão"
+    },
+    "example": {
+      "pt": "O solidão é interessante",
+      "kea": "Solidão e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3723",
+    "word": "solo",
+    "translation": {
+      "pt": "solo"
+    },
+    "example": {
+      "pt": "Onde está o solo?",
+      "kea": "Undi ki solo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3724",
+    "word": "solteiro",
+    "translation": {
+      "pt": "solteiro"
+    },
+    "example": {
+      "pt": "Onde está o solteiro?",
+      "kea": "Undi ki solteiro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3725",
+    "word": "solucao",
+    "translation": {
+      "pt": "solução"
+    },
+    "example": {
+      "pt": "Eu vi um solução",
+      "kea": "N odja un solucao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3726",
+    "word": "sombrinha",
+    "translation": {
+      "pt": "sombrinha"
+    },
+    "example": {
+      "pt": "O sombrinha é interessante",
+      "kea": "Sombrinha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3727",
+    "word": "sonho",
+    "translation": {
+      "pt": "sonho"
+    },
+    "example": {
+      "pt": "Eu vi um sonho",
+      "kea": "N odja un sonho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3728",
+    "word": "sono",
+    "translation": {
+      "pt": "sono"
+    },
+    "example": {
+      "pt": "O sono é interessante",
+      "kea": "Sono e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3729",
+    "word": "sopé",
+    "translation": {
+      "pt": "sopé"
+    },
+    "example": {
+      "pt": "Onde está o sopé?",
+      "kea": "Undi ki sopé sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3730",
+    "word": "sopro",
+    "translation": {
+      "pt": "sopro"
+    },
+    "example": {
+      "pt": "Eu vi um sopro",
+      "kea": "N odja un sopro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3731",
+    "word": "sorriso",
+    "translation": {
+      "pt": "sorriso"
+    },
+    "example": {
+      "pt": "Eu vi um sorriso",
+      "kea": "N odja un sorriso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3732",
+    "word": "sorte",
+    "translation": {
+      "pt": "sorte"
+    },
+    "example": {
+      "pt": "Onde está o sorte?",
+      "kea": "Undi ki sorte sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3733",
+    "word": "sossegado",
+    "translation": {
+      "pt": "sossegado"
+    },
+    "example": {
+      "pt": "Ele é muito sossegado",
+      "kea": "El e muitu sossegado"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3734",
+    "word": "sotaque",
+    "translation": {
+      "pt": "sotaque"
+    },
+    "example": {
+      "pt": "Onde está o sotaque?",
+      "kea": "Undi ki sotaque sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3735",
+    "word": "sotao",
+    "translation": {
+      "pt": "sótão"
+    },
+    "example": {
+      "pt": "Eu vi um sótão",
+      "kea": "N odja un sotao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3736",
+    "word": "suave",
+    "translation": {
+      "pt": "suave"
+    },
+    "example": {
+      "pt": "Isso parece suave",
+      "kea": "Kel-la parse suave"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3737",
+    "word": "subida",
+    "translation": {
+      "pt": "subida"
+    },
+    "example": {
+      "pt": "O subida é interessante",
+      "kea": "Subida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3738",
+    "word": "submarino",
+    "translation": {
+      "pt": "submarino"
+    },
+    "example": {
+      "pt": "O submarino é interessante",
+      "kea": "Submarino e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3739",
+    "word": "substantivo",
+    "translation": {
+      "pt": "substantivo"
+    },
+    "example": {
+      "pt": "Onde está o substantivo?",
+      "kea": "Undi ki substantivo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3740",
+    "word": "substituto",
+    "translation": {
+      "pt": "substituto"
+    },
+    "example": {
+      "pt": "Eu vi um substituto",
+      "kea": "N odja un substituto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3741",
+    "word": "suburbio",
+    "translation": {
+      "pt": "subúrbio"
+    },
+    "example": {
+      "pt": "O subúrbio é interessante",
+      "kea": "Suburbio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3742",
+    "word": "sucesso",
+    "translation": {
+      "pt": "sucesso"
+    },
+    "example": {
+      "pt": "O sucesso é interessante",
+      "kea": "Sucesso e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3743",
+    "word": "suco",
+    "translation": {
+      "pt": "suco"
+    },
+    "example": {
+      "pt": "Onde está o suco?",
+      "kea": "Undi ki suco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3744",
+    "word": "suor",
+    "translation": {
+      "pt": "suor"
+    },
+    "example": {
+      "pt": "Onde está o suor?",
+      "kea": "Undi ki suor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3745",
+    "word": "suporte",
+    "translation": {
+      "pt": "suporte"
+    },
+    "example": {
+      "pt": "Eu vi um suporte",
+      "kea": "N odja un suporte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3746",
+    "word": "supremo",
+    "translation": {
+      "pt": "supremo"
+    },
+    "example": {
+      "pt": "Ele é muito supremo",
+      "kea": "El e muitu supremo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3747",
+    "word": "surdo",
+    "translation": {
+      "pt": "surdo"
+    },
+    "example": {
+      "pt": "Uma coisa surdo",
+      "kea": "Un koiza surdo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3748",
+    "word": "surpresa",
+    "translation": {
+      "pt": "surpresa"
+    },
+    "example": {
+      "pt": "Onde está o surpresa?",
+      "kea": "Undi ki surpresa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3749",
+    "word": "suspeito",
+    "translation": {
+      "pt": "suspeito"
+    },
+    "example": {
+      "pt": "Onde está o suspeito?",
+      "kea": "Undi ki suspeito sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3750",
+    "word": "susto",
+    "translation": {
+      "pt": "susto"
+    },
+    "example": {
+      "pt": "Onde está o susto?",
+      "kea": "Undi ki susto sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3751",
+    "word": "t",
+    "translation": {
+      "pt": "letra t"
+    },
+    "example": {
+      "pt": "O letra t é interessante",
+      "kea": "T e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3752",
+    "word": "tabaco",
+    "translation": {
+      "pt": "tabaco"
+    },
+    "example": {
+      "pt": "Eu vi um tabaco",
+      "kea": "N odja un tabaco"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3753",
+    "word": "tabela",
+    "translation": {
+      "pt": "tabela"
+    },
+    "example": {
+      "pt": "Onde está o tabela?",
+      "kea": "Undi ki tabela sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3754",
+    "word": "tabuada",
+    "translation": {
+      "pt": "tabuada"
+    },
+    "example": {
+      "pt": "Eu vi um tabuada",
+      "kea": "N odja un tabuada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3755",
+    "word": "tacho",
+    "translation": {
+      "pt": "tacho"
+    },
+    "example": {
+      "pt": "Eu vi um tacho",
+      "kea": "N odja un tacho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3756",
+    "word": "tacto",
+    "translation": {
+      "pt": "tato"
+    },
+    "example": {
+      "pt": "Eu vi um tato",
+      "kea": "N odja un tacto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3757",
+    "word": "talento",
+    "translation": {
+      "pt": "talento"
+    },
+    "example": {
+      "pt": "O talento é interessante",
+      "kea": "Talento e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3758",
+    "word": "talher",
+    "translation": {
+      "pt": "talher"
+    },
+    "example": {
+      "pt": "O talher é interessante",
+      "kea": "Talher e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3759",
+    "word": "talho",
+    "translation": {
+      "pt": "talho"
+    },
+    "example": {
+      "pt": "O talho é interessante",
+      "kea": "Talho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3760",
+    "word": "talao",
+    "translation": {
+      "pt": "talão"
+    },
+    "example": {
+      "pt": "Eu vi um talão",
+      "kea": "N odja un talao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3761",
+    "word": "tamanho",
+    "translation": {
+      "pt": "tamanho"
+    },
+    "example": {
+      "pt": "Eu vi um tamanho",
+      "kea": "N odja un tamanho"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3762",
+    "word": "tambor",
+    "translation": {
+      "pt": "tambor"
+    },
+    "example": {
+      "pt": "O tambor é interessante",
+      "kea": "Tambor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3763",
+    "word": "tampao",
+    "translation": {
+      "pt": "tampão"
+    },
+    "example": {
+      "pt": "Onde está o tampão?",
+      "kea": "Undi ki tampao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3764",
+    "word": "tanque",
+    "translation": {
+      "pt": "tanque"
+    },
+    "example": {
+      "pt": "Onde está o tanque?",
+      "kea": "Undi ki tanque sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3765",
+    "word": "tarde",
+    "translation": {
+      "pt": "tarde"
+    },
+    "example": {
+      "pt": "Eu vi um tarde",
+      "kea": "N odja un tarde"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3766",
+    "word": "tarefa",
+    "translation": {
+      "pt": "tarefa"
+    },
+    "example": {
+      "pt": "O tarefa é interessante",
+      "kea": "Tarefa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3767",
+    "word": "tarte",
+    "translation": {
+      "pt": "tarte"
+    },
+    "example": {
+      "pt": "Eu vi um tarte",
+      "kea": "N odja un tarte"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3768",
+    "word": "tartaruga",
+    "translation": {
+      "pt": "tartaruga"
+    },
+    "example": {
+      "pt": "O tartaruga é interessante",
+      "kea": "Tartaruga e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3769",
+    "word": "tatuagem",
+    "translation": {
+      "pt": "tatuagem"
+    },
+    "example": {
+      "pt": "Onde está o tatuagem?",
+      "kea": "Undi ki tatuagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3770",
+    "word": "taverna",
+    "translation": {
+      "pt": "taverna"
+    },
+    "example": {
+      "pt": "O taverna é interessante",
+      "kea": "Taverna e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3771",
+    "word": "taxi",
+    "translation": {
+      "pt": "táxi"
+    },
+    "example": {
+      "pt": "Eu vi um táxi",
+      "kea": "N odja un taxi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3772",
+    "word": "teatro",
+    "translation": {
+      "pt": "teatro"
+    },
+    "example": {
+      "pt": "Eu vi um teatro",
+      "kea": "N odja un teatro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3773",
+    "word": "tecido",
+    "translation": {
+      "pt": "tecido"
+    },
+    "example": {
+      "pt": "Eu vi um tecido",
+      "kea": "N odja un tecido"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3774",
+    "word": "tecla",
+    "translation": {
+      "pt": "tecla"
+    },
+    "example": {
+      "pt": "Eu vi um tecla",
+      "kea": "N odja un tecla"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3775",
+    "word": "teclado",
+    "translation": {
+      "pt": "teclado"
+    },
+    "example": {
+      "pt": "Onde está o teclado?",
+      "kea": "Undi ki teclado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3776",
+    "word": "tecnica",
+    "translation": {
+      "pt": "técnica"
+    },
+    "example": {
+      "pt": "O técnica é interessante",
+      "kea": "Tecnica e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3777",
+    "word": "tecto",
+    "translation": {
+      "pt": "teto"
+    },
+    "example": {
+      "pt": "Eu vi um teto",
+      "kea": "N odja un tecto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3778",
+    "word": "teimoso",
+    "translation": {
+      "pt": "teimoso"
+    },
+    "example": {
+      "pt": "Uma coisa teimoso",
+      "kea": "Un koiza teimoso"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3779",
+    "word": "telegrama",
+    "translation": {
+      "pt": "telegrama"
+    },
+    "example": {
+      "pt": "Onde está o telegrama?",
+      "kea": "Undi ki telegrama sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3780",
+    "word": "telescopio",
+    "translation": {
+      "pt": "telescópio"
+    },
+    "example": {
+      "pt": "Onde está o telescópio?",
+      "kea": "Undi ki telescopio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3781",
+    "word": "televisao",
+    "translation": {
+      "pt": "televisão"
+    },
+    "example": {
+      "pt": "Onde está o televisão?",
+      "kea": "Undi ki televisao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3782",
+    "word": "telha",
+    "translation": {
+      "pt": "telha"
+    },
+    "example": {
+      "pt": "Eu vi um telha",
+      "kea": "N odja un telha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3783",
+    "word": "telhado",
+    "translation": {
+      "pt": "telhado"
+    },
+    "example": {
+      "pt": "Onde está o telhado?",
+      "kea": "Undi ki telhado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3784",
+    "word": "tempero",
+    "translation": {
+      "pt": "tempero"
+    },
+    "example": {
+      "pt": "Onde está o tempero?",
+      "kea": "Undi ki tempero sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3785",
+    "word": "tempestade",
+    "translation": {
+      "pt": "tempestade"
+    },
+    "example": {
+      "pt": "O tempestade é interessante",
+      "kea": "Tempestade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3786",
+    "word": "templo",
+    "translation": {
+      "pt": "templo"
+    },
+    "example": {
+      "pt": "Eu vi um templo",
+      "kea": "N odja un templo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3787",
+    "word": "tempo",
+    "translation": {
+      "pt": "tempo"
+    },
+    "example": {
+      "pt": "Onde está o tempo?",
+      "kea": "Undi ki tempo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3788",
+    "word": "tenis",
+    "translation": {
+      "pt": "ténis"
+    },
+    "example": {
+      "pt": "Onde está o ténis?",
+      "kea": "Undi ki tenis sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3789",
+    "word": "tensao",
+    "translation": {
+      "pt": "tensão"
+    },
+    "example": {
+      "pt": "O tensão é interessante",
+      "kea": "Tensao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3790",
+    "word": "tentacao",
+    "translation": {
+      "pt": "tentação"
+    },
+    "example": {
+      "pt": "O tentação é interessante",
+      "kea": "Tentacao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3791",
+    "word": "teoria",
+    "translation": {
+      "pt": "teoria"
+    },
+    "example": {
+      "pt": "Eu vi um teoria",
+      "kea": "N odja un teoria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3792",
+    "word": "terca-feira",
+    "translation": {
+      "pt": "terça-feira"
+    },
+    "example": {
+      "pt": "Onde está o terça-feira?",
+      "kea": "Undi ki terca-feira sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3793",
+    "word": "terceiro",
+    "translation": {
+      "pt": "terceiro"
+    },
+    "example": {
+      "pt": "Isso parece terceiro",
+      "kea": "Kel-la parse terceiro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3794",
+    "word": "terco",
+    "translation": {
+      "pt": "terço"
+    },
+    "example": {
+      "pt": "Onde está o terço?",
+      "kea": "Undi ki terco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3795",
+    "word": "termino",
+    "translation": {
+      "pt": "término"
+    },
+    "example": {
+      "pt": "Onde está o término?",
+      "kea": "Undi ki termino sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3796",
+    "word": "terno",
+    "translation": {
+      "pt": "terno"
+    },
+    "example": {
+      "pt": "Ele é muito terno",
+      "kea": "El e muitu terno"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3797",
+    "word": "ternura",
+    "translation": {
+      "pt": "ternura"
+    },
+    "example": {
+      "pt": "Eu vi um ternura",
+      "kea": "N odja un ternura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3798",
+    "word": "terraco",
+    "translation": {
+      "pt": "terraço"
+    },
+    "example": {
+      "pt": "Eu vi um terraço",
+      "kea": "N odja un terraco"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3799",
+    "word": "terremoto",
+    "translation": {
+      "pt": "terramoto"
+    },
+    "example": {
+      "pt": "Eu vi um terramoto",
+      "kea": "N odja un terremoto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3800",
+    "word": "terreno",
+    "translation": {
+      "pt": "terreno"
+    },
+    "example": {
+      "pt": "O terreno é interessante",
+      "kea": "Terreno e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3801",
+    "word": "terrivel",
+    "translation": {
+      "pt": "terrível"
+    },
+    "example": {
+      "pt": "Isso parece terrível",
+      "kea": "Kel-la parse terrivel"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3802",
+    "word": "territorio",
+    "translation": {
+      "pt": "território"
+    },
+    "example": {
+      "pt": "Onde está o território?",
+      "kea": "Undi ki territorio sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3803",
+    "word": "terror",
+    "translation": {
+      "pt": "terror"
+    },
+    "example": {
+      "pt": "O terror é interessante",
+      "kea": "Terror e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3804",
+    "word": "tesouro",
+    "translation": {
+      "pt": "tesouro"
+    },
+    "example": {
+      "pt": "O tesouro é interessante",
+      "kea": "Tesouro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3805",
+    "word": "testamento",
+    "translation": {
+      "pt": "testamento"
+    },
+    "example": {
+      "pt": "Eu vi um testamento",
+      "kea": "N odja un testamento"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3806",
+    "word": "testemunha",
+    "translation": {
+      "pt": "testemunha"
+    },
+    "example": {
+      "pt": "Onde está o testemunha?",
+      "kea": "Undi ki testemunha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3807",
+    "word": "texto",
+    "translation": {
+      "pt": "texto"
+    },
+    "example": {
+      "pt": "Eu vi um texto",
+      "kea": "N odja un texto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3808",
+    "word": "tigela",
+    "translation": {
+      "pt": "tigela"
+    },
+    "example": {
+      "pt": "Eu vi um tigela",
+      "kea": "N odja un tigela"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3809",
+    "word": "tigre",
+    "translation": {
+      "pt": "tigre"
+    },
+    "example": {
+      "pt": "O tigre é interessante",
+      "kea": "Tigre e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3810",
+    "word": "tijolo",
+    "translation": {
+      "pt": "tijolo"
+    },
+    "example": {
+      "pt": "Onde está o tijolo?",
+      "kea": "Undi ki tijolo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3811",
+    "word": "tilia",
+    "translation": {
+      "pt": "tília"
+    },
+    "example": {
+      "pt": "O tília é interessante",
+      "kea": "Tilia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3812",
+    "word": "timido",
+    "translation": {
+      "pt": "tímido"
+    },
+    "example": {
+      "pt": "Isso parece tímido",
+      "kea": "Kel-la parse timido"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3813",
+    "word": "tinteiro",
+    "translation": {
+      "pt": "tinteiro"
+    },
+    "example": {
+      "pt": "Onde está o tinteiro?",
+      "kea": "Undi ki tinteiro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3814",
+    "word": "tinto",
+    "translation": {
+      "pt": "tinto"
+    },
+    "example": {
+      "pt": "Ele é muito tinto",
+      "kea": "El e muitu tinto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3815",
+    "word": "tipo",
+    "translation": {
+      "pt": "tipo"
+    },
+    "example": {
+      "pt": "Eu vi um tipo",
+      "kea": "N odja un tipo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3816",
+    "word": "tiro",
+    "translation": {
+      "pt": "tiro"
+    },
+    "example": {
+      "pt": "Eu vi um tiro",
+      "kea": "N odja un tiro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3817",
+    "word": "titulo",
+    "translation": {
+      "pt": "título"
+    },
+    "example": {
+      "pt": "O título é interessante",
+      "kea": "Titulo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3818",
+    "word": "toalha",
+    "translation": {
+      "pt": "toalha"
+    },
+    "example": {
+      "pt": "O toalha é interessante",
+      "kea": "Toalha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3819",
+    "word": "tocha",
+    "translation": {
+      "pt": "tocha"
+    },
+    "example": {
+      "pt": "O tocha é interessante",
+      "kea": "Tocha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3820",
+    "word": "todo",
+    "translation": {
+      "pt": "todo"
+    },
+    "example": {
+      "pt": "Uma coisa todo",
+      "kea": "Un koiza todo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3821",
+    "word": "tolerancia",
+    "translation": {
+      "pt": "tolerância"
+    },
+    "example": {
+      "pt": "Eu vi um tolerância",
+      "kea": "N odja un tolerancia"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3822",
+    "word": "tom",
+    "translation": {
+      "pt": "tom"
+    },
+    "example": {
+      "pt": "Onde está o tom?",
+      "kea": "Undi ki tom sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3823",
+    "word": "tomada",
+    "translation": {
+      "pt": "tomada"
+    },
+    "example": {
+      "pt": "Eu vi um tomada",
+      "kea": "N odja un tomada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3824",
+    "word": "tomate",
+    "translation": {
+      "pt": "tomate"
+    },
+    "example": {
+      "pt": "Onde está o tomate?",
+      "kea": "Undi ki tomate sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3825",
+    "word": "tonelada",
+    "translation": {
+      "pt": "tonelada"
+    },
+    "example": {
+      "pt": "Eu vi um tonelada",
+      "kea": "N odja un tonelada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3826",
+    "word": "tonto",
+    "translation": {
+      "pt": "tonto"
+    },
+    "example": {
+      "pt": "Ele é muito tonto",
+      "kea": "El e muitu tonto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3827",
+    "word": "topo",
+    "translation": {
+      "pt": "topo"
+    },
+    "example": {
+      "pt": "O topo é interessante",
+      "kea": "Topo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3828",
+    "word": "toque",
+    "translation": {
+      "pt": "toque"
+    },
+    "example": {
+      "pt": "O toque é interessante",
+      "kea": "Toque e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3829",
+    "word": "torada",
+    "translation": {
+      "pt": "tourada"
+    },
+    "example": {
+      "pt": "Eu vi um tourada",
+      "kea": "N odja un torada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3830",
+    "word": "torneira",
+    "translation": {
+      "pt": "torneira"
+    },
+    "example": {
+      "pt": "Eu vi um torneira",
+      "kea": "N odja un torneira"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3831",
+    "word": "tornozelo",
+    "translation": {
+      "pt": "tornozelo"
+    },
+    "example": {
+      "pt": "Eu vi um tornozelo",
+      "kea": "N odja un tornozelo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3832",
+    "word": "torre",
+    "translation": {
+      "pt": "torre"
+    },
+    "example": {
+      "pt": "Onde está o torre?",
+      "kea": "Undi ki torre sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3833",
+    "word": "torta",
+    "translation": {
+      "pt": "torta"
+    },
+    "example": {
+      "pt": "O torta é interessante",
+      "kea": "Torta e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3834",
+    "word": "torto",
+    "translation": {
+      "pt": "torto"
+    },
+    "example": {
+      "pt": "Uma coisa torto",
+      "kea": "Un koiza torto"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3835",
+    "word": "touca",
+    "translation": {
+      "pt": "touca"
+    },
+    "example": {
+      "pt": "Eu vi um touca",
+      "kea": "N odja un touca"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3836",
+    "word": "toucinho",
+    "translation": {
+      "pt": "toucinho"
+    },
+    "example": {
+      "pt": "O toucinho é interessante",
+      "kea": "Toucinho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3837",
+    "word": "toupeira",
+    "translation": {
+      "pt": "toupeira"
+    },
+    "example": {
+      "pt": "Eu vi um toupeira",
+      "kea": "N odja un toupeira"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3838",
+    "word": "touro",
+    "translation": {
+      "pt": "touro"
+    },
+    "example": {
+      "pt": "Onde está o touro?",
+      "kea": "Undi ki touro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3839",
+    "word": "trabalhador",
+    "translation": {
+      "pt": "trabalhador"
+    },
+    "example": {
+      "pt": "Eu vi um trabalhador",
+      "kea": "N odja un trabalhador"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3840",
+    "word": "trabalho",
+    "translation": {
+      "pt": "trabalho"
+    },
+    "example": {
+      "pt": "Onde está o trabalho?",
+      "kea": "Undi ki trabalho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3841",
+    "word": "trator",
+    "translation": {
+      "pt": "trator"
+    },
+    "example": {
+      "pt": "Eu vi um trator",
+      "kea": "N odja un trator"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3842",
+    "word": "tradicao",
+    "translation": {
+      "pt": "tradição"
+    },
+    "example": {
+      "pt": "Onde está o tradição?",
+      "kea": "Undi ki tradicao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3843",
+    "word": "traducao",
+    "translation": {
+      "pt": "tradução"
+    },
+    "example": {
+      "pt": "Eu vi um tradução",
+      "kea": "N odja un traducao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3844",
+    "word": "trafego",
+    "translation": {
+      "pt": "tráfego"
+    },
+    "example": {
+      "pt": "Onde está o tráfego?",
+      "kea": "Undi ki trafego sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3845",
+    "word": "traje",
+    "translation": {
+      "pt": "traje"
+    },
+    "example": {
+      "pt": "O traje é interessante",
+      "kea": "Traje e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3846",
+    "word": "trama",
+    "translation": {
+      "pt": "trama"
+    },
+    "example": {
+      "pt": "O trama é interessante",
+      "kea": "Trama e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3847",
+    "word": "tranquilo",
+    "translation": {
+      "pt": "tranquilo"
+    },
+    "example": {
+      "pt": "Ele é muito tranquilo",
+      "kea": "El e muitu tranquilo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3848",
+    "word": "transito",
+    "translation": {
+      "pt": "trânsito"
+    },
+    "example": {
+      "pt": "O trânsito é interessante",
+      "kea": "Transito e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3849",
+    "word": "transporte",
+    "translation": {
+      "pt": "transporte"
+    },
+    "example": {
+      "pt": "O transporte é interessante",
+      "kea": "Transporte e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3850",
+    "word": "trapo",
+    "translation": {
+      "pt": "trapo"
+    },
+    "example": {
+      "pt": "Eu vi um trapo",
+      "kea": "N odja un trapo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3851",
+    "word": "traseiro",
+    "translation": {
+      "pt": "traseiro"
+    },
+    "example": {
+      "pt": "Eu vi um traseiro",
+      "kea": "N odja un traseiro"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3852",
+    "word": "tratado",
+    "translation": {
+      "pt": "tratado"
+    },
+    "example": {
+      "pt": "O tratado é interessante",
+      "kea": "Tratado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3853",
+    "word": "tratamento",
+    "translation": {
+      "pt": "tratamento"
+    },
+    "example": {
+      "pt": "Onde está o tratamento?",
+      "kea": "Undi ki tratamento sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3854",
+    "word": "trave",
+    "translation": {
+      "pt": "trave"
+    },
+    "example": {
+      "pt": "Eu vi um trave",
+      "kea": "N odja un trave"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3855",
+    "word": "travesseiro",
+    "translation": {
+      "pt": "travesseiro"
+    },
+    "example": {
+      "pt": "Onde está o travesseiro?",
+      "kea": "Undi ki travesseiro sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3856",
+    "word": "treino",
+    "translation": {
+      "pt": "treino"
+    },
+    "example": {
+      "pt": "O treino é interessante",
+      "kea": "Treino e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3857",
+    "word": "trela",
+    "translation": {
+      "pt": "trela"
+    },
+    "example": {
+      "pt": "Eu vi um trela",
+      "kea": "N odja un trela"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3858",
+    "word": "trem",
+    "translation": {
+      "pt": "trem"
+    },
+    "example": {
+      "pt": "O trem é interessante",
+      "kea": "Trem e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3859",
+    "word": "trevo",
+    "translation": {
+      "pt": "trevo"
+    },
+    "example": {
+      "pt": "Eu vi um trevo",
+      "kea": "N odja un trevo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3860",
+    "word": "treze",
+    "translation": {
+      "pt": "treze"
+    },
+    "example": {
+      "pt": "O treze é interessante",
+      "kea": "Treze e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3861",
+    "word": "tribo",
+    "translation": {
+      "pt": "tribo"
+    },
+    "example": {
+      "pt": "Onde está o tribo?",
+      "kea": "Undi ki tribo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3862",
+    "word": "tribuna",
+    "translation": {
+      "pt": "tribuna"
+    },
+    "example": {
+      "pt": "Eu vi um tribuna",
+      "kea": "N odja un tribuna"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3863",
+    "word": "tribunal",
+    "translation": {
+      "pt": "tribunal"
+    },
+    "example": {
+      "pt": "Onde está o tribunal?",
+      "kea": "Undi ki tribunal sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3864",
+    "word": "trigo",
+    "translation": {
+      "pt": "trigo"
+    },
+    "example": {
+      "pt": "Onde está o trigo?",
+      "kea": "Undi ki trigo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3865",
+    "word": "trilho",
+    "translation": {
+      "pt": "trilho"
+    },
+    "example": {
+      "pt": "O trilho é interessante",
+      "kea": "Trilho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3866",
+    "word": "trinco",
+    "translation": {
+      "pt": "trinco"
+    },
+    "example": {
+      "pt": "Onde está o trinco?",
+      "kea": "Undi ki trinco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3867",
+    "word": "tripulacao",
+    "translation": {
+      "pt": "tripulação"
+    },
+    "example": {
+      "pt": "O tripulação é interessante",
+      "kea": "Tripulacao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3868",
+    "word": "triste",
+    "translation": {
+      "pt": "triste"
+    },
+    "example": {
+      "pt": "Ele é muito triste",
+      "kea": "El e muitu triste"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3869",
+    "word": "triunfo",
+    "translation": {
+      "pt": "triunfo"
+    },
+    "example": {
+      "pt": "Onde está o triunfo?",
+      "kea": "Undi ki triunfo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3870",
+    "word": "troca",
+    "translation": {
+      "pt": "troca"
+    },
+    "example": {
+      "pt": "O troca é interessante",
+      "kea": "Troca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3871",
+    "word": "troco",
+    "translation": {
+      "pt": "troco"
+    },
+    "example": {
+      "pt": "Onde está o troco?",
+      "kea": "Undi ki troco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3872",
+    "word": "tromba",
+    "translation": {
+      "pt": "tromba"
+    },
+    "example": {
+      "pt": "Eu vi um tromba",
+      "kea": "N odja un tromba"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3873",
+    "word": "trombeta",
+    "translation": {
+      "pt": "trombeta"
+    },
+    "example": {
+      "pt": "Onde está o trombeta?",
+      "kea": "Undi ki trombeta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3874",
+    "word": "tronco",
+    "translation": {
+      "pt": "tronco"
+    },
+    "example": {
+      "pt": "O tronco é interessante",
+      "kea": "Tronco e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3875",
+    "word": "trono",
+    "translation": {
+      "pt": "trono"
+    },
+    "example": {
+      "pt": "Onde está o trono?",
+      "kea": "Undi ki trono sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3876",
+    "word": "trovoada",
+    "translation": {
+      "pt": "trovoada"
+    },
+    "example": {
+      "pt": "O trovoada é interessante",
+      "kea": "Trovoada e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3877",
+    "word": "truque",
+    "translation": {
+      "pt": "truque"
+    },
+    "example": {
+      "pt": "Onde está o truque?",
+      "kea": "Undi ki truque sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3878",
+    "word": "tubarao",
+    "translation": {
+      "pt": "tubarão"
+    },
+    "example": {
+      "pt": "Eu vi um tubarão",
+      "kea": "N odja un tubarao"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3879",
+    "word": "tubo",
+    "translation": {
+      "pt": "tubo"
+    },
+    "example": {
+      "pt": "Eu vi um tubo",
+      "kea": "N odja un tubo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3880",
+    "word": "tudo",
+    "translation": {
+      "pt": "tudo"
+    },
+    "example": {
+      "pt": "Tudo está aqui",
+      "kea": "Tudo sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3881",
+    "word": "tulipa",
+    "translation": {
+      "pt": "tulipa"
+    },
+    "example": {
+      "pt": "O tulipa é interessante",
+      "kea": "Tulipa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3882",
+    "word": "tumulo",
+    "translation": {
+      "pt": "túmulo"
+    },
+    "example": {
+      "pt": "Onde está o túmulo?",
+      "kea": "Undi ki tumulo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3883",
+    "word": "tunel",
+    "translation": {
+      "pt": "túnel"
+    },
+    "example": {
+      "pt": "Onde está o túnel?",
+      "kea": "Undi ki tunel sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3884",
+    "word": "turismo",
+    "translation": {
+      "pt": "turismo"
+    },
+    "example": {
+      "pt": "O turismo é interessante",
+      "kea": "Turismo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3885",
+    "word": "turista",
+    "translation": {
+      "pt": "turista"
+    },
+    "example": {
+      "pt": "Onde está o turista?",
+      "kea": "Undi ki turista sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3886",
+    "word": "turma",
+    "translation": {
+      "pt": "turma"
+    },
+    "example": {
+      "pt": "Eu vi um turma",
+      "kea": "N odja un turma"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3887",
+    "word": "turno",
+    "translation": {
+      "pt": "turno"
+    },
+    "example": {
+      "pt": "O turno é interessante",
+      "kea": "Turno e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3888",
+    "word": "ultimo",
+    "translation": {
+      "pt": "último"
+    },
+    "example": {
+      "pt": "Isso parece último",
+      "kea": "Kel-la parse ultimo"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3889",
+    "word": "umbigo",
+    "translation": {
+      "pt": "umbigo"
+    },
+    "example": {
+      "pt": "O umbigo é interessante",
+      "kea": "Umbigo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3890",
+    "word": "uniao",
+    "translation": {
+      "pt": "união"
+    },
+    "example": {
+      "pt": "Onde está o união?",
+      "kea": "Undi ki uniao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3891",
+    "word": "unico",
+    "translation": {
+      "pt": "único"
+    },
+    "example": {
+      "pt": "Ele é muito único",
+      "kea": "El e muitu unico"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3892",
+    "word": "unidade",
+    "translation": {
+      "pt": "unidade"
+    },
+    "example": {
+      "pt": "O unidade é interessante",
+      "kea": "Unidade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3893",
+    "word": "uniforme",
+    "translation": {
+      "pt": "uniforme"
+    },
+    "example": {
+      "pt": "Eu vi um uniforme",
+      "kea": "N odja un uniforme"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3894",
+    "word": "universo",
+    "translation": {
+      "pt": "universo"
+    },
+    "example": {
+      "pt": "Eu vi um universo",
+      "kea": "N odja un universo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3895",
+    "word": "urano",
+    "translation": {
+      "pt": "urano"
+    },
+    "example": {
+      "pt": "Eu vi um urano",
+      "kea": "N odja un urano"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3896",
+    "word": "urgencia",
+    "translation": {
+      "pt": "urgência"
+    },
+    "example": {
+      "pt": "O urgência é interessante",
+      "kea": "Urgencia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3897",
+    "word": "urna",
+    "translation": {
+      "pt": "urna"
+    },
+    "example": {
+      "pt": "O urna é interessante",
+      "kea": "Urna e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3898",
+    "word": "urso",
+    "translation": {
+      "pt": "urso"
+    },
+    "example": {
+      "pt": "Onde está o urso?",
+      "kea": "Undi ki urso sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3899",
+    "word": "urtiga",
+    "translation": {
+      "pt": "urtiga"
+    },
+    "example": {
+      "pt": "Onde está o urtiga?",
+      "kea": "Undi ki urtiga sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3900",
+    "word": "uso",
+    "translation": {
+      "pt": "uso"
+    },
+    "example": {
+      "pt": "Eu vi um uso",
+      "kea": "N odja un uso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3901",
+    "word": "vaca",
+    "translation": {
+      "pt": "vaca"
+    },
+    "example": {
+      "pt": "Eu vi um vaca",
+      "kea": "N odja un vaca"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3902",
+    "word": "vacina",
+    "translation": {
+      "pt": "vacina"
+    },
+    "example": {
+      "pt": "Onde está o vacina?",
+      "kea": "Undi ki vacina sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3903",
+    "word": "vaga",
+    "translation": {
+      "pt": "vaga"
+    },
+    "example": {
+      "pt": "Eu vi um vaga",
+      "kea": "N odja un vaga"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3904",
+    "word": "vagabundo",
+    "translation": {
+      "pt": "vagabundo"
+    },
+    "example": {
+      "pt": "Eu vi um vagabundo",
+      "kea": "N odja un vagabundo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3905",
+    "word": "vagem",
+    "translation": {
+      "pt": "vagem"
+    },
+    "example": {
+      "pt": "Eu vi um vagem",
+      "kea": "N odja un vagem"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3906",
+    "word": "vago",
+    "translation": {
+      "pt": "vago"
+    },
+    "example": {
+      "pt": "Uma coisa vago",
+      "kea": "Un koiza vago"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3907",
+    "word": "vaidade",
+    "translation": {
+      "pt": "vaidade"
+    },
+    "example": {
+      "pt": "Eu vi um vaidade",
+      "kea": "N odja un vaidade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3908",
+    "word": "valente",
+    "translation": {
+      "pt": "valente"
+    },
+    "example": {
+      "pt": "Isso parece valente",
+      "kea": "Kel-la parse valente"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3909",
+    "word": "validade",
+    "translation": {
+      "pt": "validade"
+    },
+    "example": {
+      "pt": "Eu vi um validade",
+      "kea": "N odja un validade"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3910",
+    "word": "valido",
+    "translation": {
+      "pt": "válido"
+    },
+    "example": {
+      "pt": "Isso parece válido",
+      "kea": "Kel-la parse valido"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3911",
+    "word": "valioso",
+    "translation": {
+      "pt": "valioso"
+    },
+    "example": {
+      "pt": "Ele é muito valioso",
+      "kea": "El e muitu valioso"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3912",
+    "word": "valvula",
+    "translation": {
+      "pt": "válvula"
+    },
+    "example": {
+      "pt": "O válvula é interessante",
+      "kea": "Valvula e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3913",
+    "word": "vampiro",
+    "translation": {
+      "pt": "vampiro"
+    },
+    "example": {
+      "pt": "O vampiro é interessante",
+      "kea": "Vampiro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3914",
+    "word": "vantagem",
+    "translation": {
+      "pt": "vantagem"
+    },
+    "example": {
+      "pt": "Onde está o vantagem?",
+      "kea": "Undi ki vantagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3915",
+    "word": "variedade",
+    "translation": {
+      "pt": "variedade"
+    },
+    "example": {
+      "pt": "O variedade é interessante",
+      "kea": "Variedade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3916",
+    "word": "vaso",
+    "translation": {
+      "pt": "vaso"
+    },
+    "example": {
+      "pt": "Eu vi um vaso",
+      "kea": "N odja un vaso"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3917",
+    "word": "vassoura",
+    "translation": {
+      "pt": "vassoura"
+    },
+    "example": {
+      "pt": "Onde está o vassoura?",
+      "kea": "Undi ki vassoura sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3918",
+    "word": "vazio",
+    "translation": {
+      "pt": "vazio"
+    },
+    "example": {
+      "pt": "Ele é muito vazio",
+      "kea": "El e muitu vazio"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3919",
+    "word": "veado",
+    "translation": {
+      "pt": "veado"
+    },
+    "example": {
+      "pt": "Onde está o veado?",
+      "kea": "Undi ki veado sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3920",
+    "word": "vegetal",
+    "translation": {
+      "pt": "vegetal"
+    },
+    "example": {
+      "pt": "Eu vi um vegetal",
+      "kea": "N odja un vegetal"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3921",
+    "word": "veiculo",
+    "translation": {
+      "pt": "veículo"
+    },
+    "example": {
+      "pt": "Eu vi um veículo",
+      "kea": "N odja un veiculo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3922",
+    "word": "veia",
+    "translation": {
+      "pt": "veia"
+    },
+    "example": {
+      "pt": "Onde está o veia?",
+      "kea": "Undi ki veia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3923",
+    "word": "velho",
+    "translation": {
+      "pt": "velho"
+    },
+    "example": {
+      "pt": "Uma coisa velho",
+      "kea": "Un koiza velho"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3924",
+    "word": "velocidade",
+    "translation": {
+      "pt": "velocidade"
+    },
+    "example": {
+      "pt": "Onde está o velocidade?",
+      "kea": "Undi ki velocidade sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3925",
+    "word": "veludo",
+    "translation": {
+      "pt": "veludo"
+    },
+    "example": {
+      "pt": "O veludo é interessante",
+      "kea": "Veludo e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3926",
+    "word": "vencedor",
+    "translation": {
+      "pt": "vencedor"
+    },
+    "example": {
+      "pt": "O vencedor é interessante",
+      "kea": "Vencedor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3927",
+    "word": "venda",
+    "translation": {
+      "pt": "venda"
+    },
+    "example": {
+      "pt": "O venda é interessante",
+      "kea": "Venda e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3928",
+    "word": "veneno",
+    "translation": {
+      "pt": "veneno"
+    },
+    "example": {
+      "pt": "O veneno é interessante",
+      "kea": "Veneno e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3929",
+    "word": "ventania",
+    "translation": {
+      "pt": "ventania"
+    },
+    "example": {
+      "pt": "Eu vi um ventania",
+      "kea": "N odja un ventania"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3930",
+    "word": "vento",
+    "translation": {
+      "pt": "vento"
+    },
+    "example": {
+      "pt": "O vento é interessante",
+      "kea": "Vento e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3931",
+    "word": "ventoinha",
+    "translation": {
+      "pt": "ventoinha"
+    },
+    "example": {
+      "pt": "O ventoinha é interessante",
+      "kea": "Ventoinha e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3932",
+    "word": "verao",
+    "translation": {
+      "pt": "verão"
+    },
+    "example": {
+      "pt": "O verão é interessante",
+      "kea": "Verao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3933",
+    "word": "verba",
+    "translation": {
+      "pt": "verba"
+    },
+    "example": {
+      "pt": "Onde está o verba?",
+      "kea": "Undi ki verba sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3934",
+    "word": "verdade",
+    "translation": {
+      "pt": "verdade"
+    },
+    "example": {
+      "pt": "O verdade é interessante",
+      "kea": "Verdade e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3935",
+    "word": "verdadeiro",
+    "translation": {
+      "pt": "verdadeiro"
+    },
+    "example": {
+      "pt": "Isso parece verdadeiro",
+      "kea": "Kel-la parse verdadeiro"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3936",
+    "word": "verde",
+    "translation": {
+      "pt": "verde"
+    },
+    "example": {
+      "pt": "Ele é muito verde",
+      "kea": "El e muitu verde"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3937",
+    "word": "veredito",
+    "translation": {
+      "pt": "veredicto"
+    },
+    "example": {
+      "pt": "Eu vi um veredicto",
+      "kea": "N odja un veredito"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3938",
+    "word": "verme",
+    "translation": {
+      "pt": "verme"
+    },
+    "example": {
+      "pt": "Eu vi um verme",
+      "kea": "N odja un verme"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3939",
+    "word": "vermelho",
+    "translation": {
+      "pt": "vermelho"
+    },
+    "example": {
+      "pt": "Uma coisa vermelho",
+      "kea": "Un koiza vermelho"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3940",
+    "word": "verruga",
+    "translation": {
+      "pt": "verruga"
+    },
+    "example": {
+      "pt": "Onde está o verruga?",
+      "kea": "Undi ki verruga sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3941",
+    "word": "verso",
+    "translation": {
+      "pt": "verso"
+    },
+    "example": {
+      "pt": "O verso é interessante",
+      "kea": "Verso e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3942",
+    "word": "vespa",
+    "translation": {
+      "pt": "vespa"
+    },
+    "example": {
+      "pt": "Onde está o vespa?",
+      "kea": "Undi ki vespa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3943",
+    "word": "vestido",
+    "translation": {
+      "pt": "vestido"
+    },
+    "example": {
+      "pt": "O vestido é interessante",
+      "kea": "Vestido e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3944",
+    "word": "vestuario",
+    "translation": {
+      "pt": "vestuário"
+    },
+    "example": {
+      "pt": "O vestuário é interessante",
+      "kea": "Vestuario e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3945",
+    "word": "veterinario",
+    "translation": {
+      "pt": "veterinário"
+    },
+    "example": {
+      "pt": "Onde está o veterinário?",
+      "kea": "Undi ki veterinario sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3946",
+    "word": "veu",
+    "translation": {
+      "pt": "véu"
+    },
+    "example": {
+      "pt": "Onde está o véu?",
+      "kea": "Undi ki veu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3947",
+    "word": "viagem",
+    "translation": {
+      "pt": "viagem"
+    },
+    "example": {
+      "pt": "Onde está o viagem?",
+      "kea": "Undi ki viagem sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3948",
+    "word": "viajante",
+    "translation": {
+      "pt": "viajante"
+    },
+    "example": {
+      "pt": "Onde está o viajante?",
+      "kea": "Undi ki viajante sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3949",
+    "word": "vibraçao",
+    "translation": {
+      "pt": "vibração"
+    },
+    "example": {
+      "pt": "Onde está o vibração?",
+      "kea": "Undi ki vibraçao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3950",
+    "word": "vicio",
+    "translation": {
+      "pt": "vício"
+    },
+    "example": {
+      "pt": "O vício é interessante",
+      "kea": "Vicio e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3951",
+    "word": "vidraça",
+    "translation": {
+      "pt": "vidraça"
+    },
+    "example": {
+      "pt": "Onde está o vidraça?",
+      "kea": "Undi ki vidraça sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3952",
+    "word": "vidro",
+    "translation": {
+      "pt": "vidro"
+    },
+    "example": {
+      "pt": "O vidro é interessante",
+      "kea": "Vidro e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3953",
+    "word": "vinagre",
+    "translation": {
+      "pt": "vinagre"
+    },
+    "example": {
+      "pt": "O vinagre é interessante",
+      "kea": "Vinagre e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3954",
+    "word": "vingança",
+    "translation": {
+      "pt": "vingança"
+    },
+    "example": {
+      "pt": "O vingança é interessante",
+      "kea": "Vingança e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3955",
+    "word": "vinha",
+    "translation": {
+      "pt": "vinha"
+    },
+    "example": {
+      "pt": "Onde está o vinha?",
+      "kea": "Undi ki vinha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3956",
+    "word": "vinho",
+    "translation": {
+      "pt": "vinho"
+    },
+    "example": {
+      "pt": "Onde está o vinho?",
+      "kea": "Undi ki vinho sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3957",
+    "word": "vinte",
+    "translation": {
+      "pt": "vinte"
+    },
+    "example": {
+      "pt": "O vinte é interessante",
+      "kea": "Vinte e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3958",
+    "word": "violao",
+    "translation": {
+      "pt": "violão"
+    },
+    "example": {
+      "pt": "O violão é interessante",
+      "kea": "Violao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3959",
+    "word": "violencia",
+    "translation": {
+      "pt": "violência"
+    },
+    "example": {
+      "pt": "Onde está o violência?",
+      "kea": "Undi ki violencia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3960",
+    "word": "violento",
+    "translation": {
+      "pt": "violento"
+    },
+    "example": {
+      "pt": "Uma coisa violento",
+      "kea": "Un koiza violento"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3961",
+    "word": "violeta",
+    "translation": {
+      "pt": "violeta"
+    },
+    "example": {
+      "pt": "Onde está o violeta?",
+      "kea": "Undi ki violeta sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3962",
+    "word": "violino",
+    "translation": {
+      "pt": "violino"
+    },
+    "example": {
+      "pt": "O violino é interessante",
+      "kea": "Violino e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3963",
+    "word": "virgula",
+    "translation": {
+      "pt": "vírgula"
+    },
+    "example": {
+      "pt": "Onde está o vírgula?",
+      "kea": "Undi ki virgula sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3964",
+    "word": "virtude",
+    "translation": {
+      "pt": "virtude"
+    },
+    "example": {
+      "pt": "Onde está o virtude?",
+      "kea": "Undi ki virtude sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3965",
+    "word": "virus",
+    "translation": {
+      "pt": "vírus"
+    },
+    "example": {
+      "pt": "O vírus é interessante",
+      "kea": "Virus e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3966",
+    "word": "visao",
+    "translation": {
+      "pt": "visão"
+    },
+    "example": {
+      "pt": "Onde está o visão?",
+      "kea": "Undi ki visao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3967",
+    "word": "visto",
+    "translation": {
+      "pt": "visto"
+    },
+    "example": {
+      "pt": "Eu vi um visto",
+      "kea": "N odja un visto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3968",
+    "word": "vitamina",
+    "translation": {
+      "pt": "vitamina"
+    },
+    "example": {
+      "pt": "Onde está o vitamina?",
+      "kea": "Undi ki vitamina sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3969",
+    "word": "vitela",
+    "translation": {
+      "pt": "vitela"
+    },
+    "example": {
+      "pt": "Onde está o vitela?",
+      "kea": "Undi ki vitela sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3970",
+    "word": "viuvo",
+    "translation": {
+      "pt": "viúvo"
+    },
+    "example": {
+      "pt": "Onde está o viúvo?",
+      "kea": "Undi ki viuvo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3971",
+    "word": "vizinhanca",
+    "translation": {
+      "pt": "vizinhança"
+    },
+    "example": {
+      "pt": "O vizinhança é interessante",
+      "kea": "Vizinhanca e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3972",
+    "word": "vizinho",
+    "translation": {
+      "pt": "vizinho"
+    },
+    "example": {
+      "pt": "O vizinho é interessante",
+      "kea": "Vizinho e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3973",
+    "word": "voo",
+    "translation": {
+      "pt": "voo"
+    },
+    "example": {
+      "pt": "Eu vi um voo",
+      "kea": "N odja un voo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3974",
+    "word": "vocabulario",
+    "translation": {
+      "pt": "vocabulário"
+    },
+    "example": {
+      "pt": "Onde está o vocabulário?",
+      "kea": "Undi ki vocabulario sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3975",
+    "word": "vocacao",
+    "translation": {
+      "pt": "vocação"
+    },
+    "example": {
+      "pt": "Onde está o vocação?",
+      "kea": "Undi ki vocacao sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3976",
+    "word": "voce",
+    "translation": {
+      "pt": "você"
+    },
+    "example": {
+      "pt": "Você está aqui",
+      "kea": "Voce sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3977",
+    "word": "volume",
+    "translation": {
+      "pt": "volume"
+    },
+    "example": {
+      "pt": "Eu vi um volume",
+      "kea": "N odja un volume"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3978",
+    "word": "vontade",
+    "translation": {
+      "pt": "vontade"
+    },
+    "example": {
+      "pt": "Onde está o vontade?",
+      "kea": "Undi ki vontade sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3979",
+    "word": "voto",
+    "translation": {
+      "pt": "voto"
+    },
+    "example": {
+      "pt": "Eu vi um voto",
+      "kea": "N odja un voto"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3980",
+    "word": "vulcao",
+    "translation": {
+      "pt": "vulcão"
+    },
+    "example": {
+      "pt": "O vulcão é interessante",
+      "kea": "Vulcao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3981",
+    "word": "xadrez",
+    "translation": {
+      "pt": "xadrez"
+    },
+    "example": {
+      "pt": "Eu vi um xadrez",
+      "kea": "N odja un xadrez"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3982",
+    "word": "xaile",
+    "translation": {
+      "pt": "xaile"
+    },
+    "example": {
+      "pt": "Onde está o xaile?",
+      "kea": "Undi ki xaile sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3983",
+    "word": "xarope",
+    "translation": {
+      "pt": "xarope"
+    },
+    "example": {
+      "pt": "O xarope é interessante",
+      "kea": "Xarope e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3984",
+    "word": "xateu",
+    "translation": {
+      "pt": "chato / aborrecido"
+    },
+    "example": {
+      "pt": "Isso parece chato",
+      "kea": "Kel-la parse xateu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-3985",
+    "word": "xeke",
+    "translation": {
+      "pt": "cheque"
+    },
+    "example": {
+      "pt": "O cheque é interessante",
+      "kea": "Xeke e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3986",
+    "word": "xinel",
+    "translation": {
+      "pt": "chinelo"
+    },
+    "example": {
+      "pt": "Onde está o chinelo?",
+      "kea": "Undi ki xinel sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3987",
+    "word": "xok",
+    "translation": {
+      "pt": "choque"
+    },
+    "example": {
+      "pt": "O choque é interessante",
+      "kea": "Xok e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3988",
+    "word": "zelo",
+    "translation": {
+      "pt": "zelo"
+    },
+    "example": {
+      "pt": "Onde está o zelo?",
+      "kea": "Undi ki zelo sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3989",
+    "word": "zinco",
+    "translation": {
+      "pt": "zinco"
+    },
+    "example": {
+      "pt": "Onde está o zinco?",
+      "kea": "Undi ki zinco sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3990",
+    "word": "zumbido",
+    "translation": {
+      "pt": "zumbido"
+    },
+    "example": {
+      "pt": "Onde está o zumbido?",
+      "kea": "Undi ki zumbido sta?"
     },
     "category": "Nom"
   }

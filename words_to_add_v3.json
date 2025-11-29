@@ -1,0 +1,8782 @@
+[
+  {
+    "word": "abonu",
+    "translation": "subsídio",
+    "category": "Nom"
+  },
+  {
+    "word": "abordu",
+    "translation": "a bordo",
+    "category": "Adverbe"
+  },
+  {
+    "word": "aboresidu",
+    "translation": "aborrecido / chateado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "abribu",
+    "translation": "abrigo",
+    "category": "Nom"
+  },
+  {
+    "word": "admiradu",
+    "translation": "admirado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "admiravel",
+    "translation": "admirável",
+    "category": "Adjectif"
+  },
+  {
+    "word": "admiti",
+    "translation": "admitir",
+    "category": "Verbe"
+  },
+  {
+    "word": "adota",
+    "translation": "adotar",
+    "category": "Verbe"
+  },
+  {
+    "word": "adumbulo",
+    "translation": "adúltero",
+    "category": "Nom"
+  },
+  {
+    "word": "afogadu",
+    "translation": "afogado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "afta",
+    "translation": "afta",
+    "category": "Nom"
+  },
+  {
+    "word": "agencia",
+    "translation": "agência",
+    "category": "Nom"
+  },
+  {
+    "word": "agenti",
+    "translation": "agente",
+    "category": "Nom"
+  },
+  {
+    "word": "agonia",
+    "translation": "agonia",
+    "category": "Nom"
+  },
+  {
+    "word": "agresor",
+    "translation": "agressor",
+    "category": "Nom"
+  },
+  {
+    "word": "agu-pé",
+    "translation": "pé d'água / enxurrada",
+    "category": "Nom"
+  },
+  {
+    "word": "aì",
+    "translation": "aí",
+    "category": "Adverbe"
+  },
+  {
+    "word": "ainda",
+    "translation": "ainda",
+    "category": "Adverbe"
+  },
+  {
+    "word": "ajill",
+    "translation": "ágil",
+    "category": "Adjectif"
+  },
+  {
+    "word": "akampamentu",
+    "translation": "acampamento",
+    "category": "Nom"
+  },
+  {
+    "word": "akaso",
+    "translation": "acaso",
+    "category": "Nom"
+  },
+  {
+    "word": "akordadu",
+    "translation": "acordado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "alavanka",
+    "translation": "alavanca / mudanças (carro)",
+    "category": "Nom"
+  },
+  {
+    "word": "aleija",
+    "translation": "aleijar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aleijadu",
+    "translation": "aleijado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "algem",
+    "translation": "algúem",
+    "category": "Pronom"
+  },
+  {
+    "word": "aliança",
+    "translation": "aliança",
+    "category": "Nom"
+  },
+  {
+    "word": "alilas",
+    "translation": "lilás / roxo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "alimento",
+    "translation": "alimento",
+    "category": "Nom"
+  },
+  {
+    "word": "alkol",
+    "translation": "álcool",
+    "category": "Nom"
+  },
+  {
+    "word": "alkoliku",
+    "translation": "alcoólico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "almanak",
+    "translation": "almanaque",
+    "category": "Nom"
+  },
+  {
+    "word": "almiranti",
+    "translation": "almirante",
+    "category": "Nom"
+  },
+  {
+    "word": "almosu",
+    "translation": "almoço",
+    "category": "Nom"
+  },
+  {
+    "word": "almurudia",
+    "translation": "hemorróida",
+    "category": "Nom"
+  },
+  {
+    "word": "alta",
+    "translation": "alta (médica)",
+    "category": "Nom"
+  },
+  {
+    "word": "altar",
+    "translation": "altar",
+    "category": "Nom"
+  },
+  {
+    "word": "alternativa",
+    "translation": "alternativa",
+    "category": "Nom"
+  },
+  {
+    "word": "aluminiu",
+    "translation": "alumínio",
+    "category": "Nom"
+  },
+  {
+    "word": "amador",
+    "translation": "amador",
+    "category": "Nom"
+  },
+  {
+    "word": "amanti",
+    "translation": "amante",
+    "category": "Nom"
+  },
+  {
+    "word": "amarela",
+    "translation": "amarela",
+    "category": "Adjectif"
+  },
+  {
+    "word": "ambison",
+    "translation": "ambição",
+    "category": "Nom"
+  },
+  {
+    "word": "ambulansia",
+    "translation": "ambulância",
+    "category": "Nom"
+  },
+  {
+    "word": "amendoa",
+    "translation": "amêndoa",
+    "category": "Nom"
+  },
+  {
+    "word": "amper",
+    "translation": "ampere",
+    "category": "Nom"
+  },
+  {
+    "word": "amputa",
+    "translation": "amputar",
+    "category": "Verbe"
+  },
+  {
+    "word": "analizi",
+    "translation": "análise",
+    "category": "Nom"
+  },
+  {
+    "word": "anarkia",
+    "translation": "anarquia",
+    "category": "Nom"
+  },
+  {
+    "word": "anatomia",
+    "translation": "anatomia",
+    "category": "Nom"
+  },
+  {
+    "word": "anestesia",
+    "translation": "anestesia",
+    "category": "Nom"
+  },
+  {
+    "word": "anfiteatru",
+    "translation": "anfiteatro",
+    "category": "Nom"
+  },
+  {
+    "word": "anita",
+    "translation": "índigo / anil",
+    "category": "Nom"
+  },
+  {
+    "word": "anjo",
+    "translation": "anjo",
+    "category": "Nom"
+  },
+  {
+    "word": "anonymu",
+    "translation": "anónimo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "ansiol",
+    "translation": "anzol",
+    "category": "Nom"
+  },
+  {
+    "word": "anti-kristu",
+    "translation": "anticristo",
+    "category": "Nom"
+  },
+  {
+    "word": "antonia",
+    "translation": "Antónia",
+    "category": "Nom"
+  },
+  {
+    "word": "anunciu",
+    "translation": "anúncio",
+    "category": "Nom"
+  },
+  {
+    "word": "apagalume",
+    "translation": "vagalume",
+    "category": "Nom"
+  },
+  {
+    "word": "apelu",
+    "translation": "apelo",
+    "category": "Nom"
+  },
+  {
+    "word": "apena",
+    "translation": "apenas",
+    "category": "Adverbe"
+  },
+  {
+    "word": "aplausu",
+    "translation": "aplauso",
+    "category": "Nom"
+  },
+  {
+    "word": "apostolu",
+    "translation": "apóstolo",
+    "category": "Nom"
+  },
+  {
+    "word": "aprendis",
+    "translation": "aprendiz",
+    "category": "Nom"
+  },
+  {
+    "word": "aprozima",
+    "translation": "aproximar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aptidao",
+    "translation": "aptidão",
+    "category": "Nom"
+  },
+  {
+    "word": "ardu",
+    "translation": "árduo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "arena",
+    "translation": "arena",
+    "category": "Nom"
+  },
+  {
+    "word": "aritenetika",
+    "translation": "aritmética",
+    "category": "Nom"
+  },
+  {
+    "word": "arkanj",
+    "translation": "arcanjo",
+    "category": "Nom"
+  },
+  {
+    "word": "arkivu",
+    "translation": "arquivo",
+    "category": "Nom"
+  },
+  {
+    "word": "arku-iris",
+    "translation": "arco-íris",
+    "category": "Nom"
+  },
+  {
+    "word": "armada",
+    "translation": "armada",
+    "category": "Nom"
+  },
+  {
+    "word": "armaduria",
+    "translation": "armadura",
+    "category": "Nom"
+  },
+  {
+    "word": "armazem",
+    "translation": "armazém",
+    "category": "Nom"
+  },
+  {
+    "word": "aroma",
+    "translation": "aroma",
+    "category": "Nom"
+  },
+  {
+    "word": "aroz",
+    "translation": "arroz",
+    "category": "Nom"
+  },
+  {
+    "word": "arranja",
+    "translation": "arranjar",
+    "category": "Verbe"
+  },
+  {
+    "word": "arrependi",
+    "translation": "arrepender",
+    "category": "Verbe"
+  },
+  {
+    "word": "arte",
+    "translation": "arte",
+    "category": "Nom"
+  },
+  {
+    "word": "asaltu",
+    "translation": "assalto",
+    "category": "Nom"
+  },
+  {
+    "word": "asasinatu",
+    "translation": "assassinato",
+    "category": "Nom"
+  },
+  {
+    "word": "asasinu",
+    "translation": "assassino",
+    "category": "Nom"
+  },
+  {
+    "word": "aseita",
+    "translation": "aceitar",
+    "category": "Verbe"
+  },
+  {
+    "word": "aselerador",
+    "translation": "acelerador",
+    "category": "Nom"
+  },
+  {
+    "word": "asenta",
+    "translation": "assentar",
+    "category": "Verbe"
+  },
+  {
+    "word": "asertu",
+    "translation": "acerto",
+    "category": "Nom"
+  },
+  {
+    "word": "asesor",
+    "translation": "assessor",
+    "category": "Nom"
+  },
+  {
+    "word": "asidu",
+    "translation": "ácido",
+    "category": "Nom"
+  },
+  {
+    "word": "asinatura",
+    "translation": "assinatura",
+    "category": "Nom"
+  },
+  {
+    "word": "asocieson",
+    "translation": "associação",
+    "category": "Nom"
+  },
+  {
+    "word": "aspeta",
+    "translation": "aspeto",
+    "category": "Nom"
+  },
+  {
+    "word": "aspirador",
+    "translation": "aspirador",
+    "category": "Nom"
+  },
+  {
+    "word": "astronomia",
+    "translation": "astronomia",
+    "category": "Nom"
+  },
+  {
+    "word": "asucar",
+    "translation": "açúcar",
+    "category": "Nom"
+  },
+  {
+    "word": "ataki",
+    "translation": "ataque",
+    "category": "Nom"
+  },
+  {
+    "word": "ateu",
+    "translation": "ateu",
+    "category": "Nom"
+  },
+  {
+    "word": "atitud",
+    "translation": "atitude",
+    "category": "Nom"
+  },
+  {
+    "word": "atom",
+    "translation": "átomo",
+    "category": "Nom"
+  },
+  {
+    "word": "atrai",
+    "translation": "atrair",
+    "category": "Verbe"
+  },
+  {
+    "word": "atrapalia",
+    "translation": "atrapalhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "atras",
+    "translation": "atrás",
+    "category": "Adverbe"
+  },
+  {
+    "word": "atrevidu",
+    "translation": "atrevido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "atribuison",
+    "translation": "atribuição",
+    "category": "Nom"
+  },
+  {
+    "word": "atriz",
+    "translation": "atriz",
+    "category": "Nom"
+  },
+  {
+    "word": "audiensia",
+    "translation": "audiência",
+    "category": "Nom"
+  },
+  {
+    "word": "aumentu",
+    "translation": "aumento",
+    "category": "Nom"
+  },
+  {
+    "word": "aurora",
+    "translation": "aurora",
+    "category": "Nom"
+  },
+  {
+    "word": "autarkia",
+    "translation": "autarquia",
+    "category": "Nom"
+  },
+  {
+    "word": "autentiku",
+    "translation": "autêntico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "autonomia",
+    "translation": "autonomia",
+    "category": "Nom"
+  },
+  {
+    "word": "autoriza",
+    "translation": "autorizar",
+    "category": "Verbe"
+  },
+  {
+    "word": "auxilia",
+    "translation": "auxiliar",
+    "category": "Verbe"
+  },
+  {
+    "word": "avansadu",
+    "translation": "avançado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "avesu",
+    "translation": "avesso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "aviador",
+    "translation": "aviador",
+    "category": "Nom"
+  },
+  {
+    "word": "axibi",
+    "translation": "exibir",
+    "category": "Verbe"
+  },
+  {
+    "word": "azaron",
+    "translation": "azarão / azarado",
+    "category": "Nom"
+  },
+  {
+    "word": "azeadu",
+    "translation": "asseado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "azeitona",
+    "translation": "azeitona",
+    "category": "Nom"
+  },
+  {
+    "word": "bagajen",
+    "translation": "bagagem",
+    "category": "Nom"
+  },
+  {
+    "word": "bairu",
+    "translation": "bairro",
+    "category": "Nom"
+  },
+  {
+    "word": "bixu",
+    "translation": "bicho / inseto",
+    "category": "Nom"
+  },
+  {
+    "word": "bixu-kastu",
+    "translation": "escaravelho",
+    "category": "Nom"
+  },
+  {
+    "word": "bakan",
+    "translation": "bacano / porreiro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bakandesa",
+    "translation": "parvoíce / estupidez",
+    "category": "Nom"
+  },
+  {
+    "word": "balansu",
+    "translation": "balanço",
+    "category": "Nom"
+  },
+  {
+    "word": "balcon",
+    "translation": "balcão",
+    "category": "Nom"
+  },
+  {
+    "word": "baldia",
+    "translation": "baldear",
+    "category": "Verbe"
+  },
+  {
+    "word": "bambu",
+    "translation": "bambu",
+    "category": "Nom"
+  },
+  {
+    "word": "banana",
+    "translation": "banana",
+    "category": "Nom"
+  },
+  {
+    "word": "banana-berdi",
+    "translation": "banana verde",
+    "category": "Nom"
+  },
+  {
+    "word": "bandida",
+    "translation": "bandida",
+    "category": "Nom"
+  },
+  {
+    "word": "banka",
+    "translation": "banca",
+    "category": "Nom"
+  },
+  {
+    "word": "banku",
+    "translation": "banco",
+    "category": "Nom"
+  },
+  {
+    "word": "baon",
+    "translation": "baunilha",
+    "category": "Nom"
+  },
+  {
+    "word": "baradju",
+    "translation": "baralho",
+    "category": "Nom"
+  },
+  {
+    "word": "baraka",
+    "translation": "barraca",
+    "category": "Nom"
+  },
+  {
+    "word": "baranda",
+    "translation": "varanda",
+    "category": "Nom"
+  },
+  {
+    "word": "bardamerda",
+    "translation": "vai à merda (interjeição)",
+    "category": "Expression"
+  },
+  {
+    "word": "barodja",
+    "translation": "assar ligeiramente",
+    "category": "Verbe"
+  },
+  {
+    "word": "baroti",
+    "translation": "viga / barrote",
+    "category": "Nom"
+  },
+  {
+    "word": "barragem",
+    "translation": "barragem",
+    "category": "Nom"
+  },
+  {
+    "word": "barrer",
+    "translation": "varrer",
+    "category": "Verbe"
+  },
+  {
+    "word": "barulhentu",
+    "translation": "barulhento",
+    "category": "Adjectif"
+  },
+  {
+    "word": "barulhu",
+    "translation": "barulho",
+    "category": "Nom"
+  },
+  {
+    "word": "bas",
+    "translation": "baixo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "basa",
+    "translation": "vazar / bazar",
+    "category": "Verbe"
+  },
+  {
+    "word": "batalha",
+    "translation": "batalha",
+    "category": "Nom"
+  },
+  {
+    "word": "bataria",
+    "translation": "bateria",
+    "category": "Nom"
+  },
+  {
+    "word": "batata-inglesa",
+    "translation": "batata inglesa",
+    "category": "Nom"
+  },
+  {
+    "word": "batedera",
+    "translation": "batedeira",
+    "category": "Nom"
+  },
+  {
+    "word": "batiza",
+    "translation": "batizar",
+    "category": "Verbe"
+  },
+  {
+    "word": "batizmu",
+    "translation": "batismo",
+    "category": "Nom"
+  },
+  {
+    "word": "batoteru",
+    "translation": "batoteiro",
+    "category": "Nom"
+  },
+  {
+    "word": "baul",
+    "translation": "baú",
+    "category": "Nom"
+  },
+  {
+    "word": "bazadu",
+    "translation": "cheio / muito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bazi",
+    "translation": "vazio",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bazof",
+    "translation": "bazofo / vaidoso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bazofaria",
+    "translation": "bazófia / vaidade",
+    "category": "Nom"
+  },
+  {
+    "word": "bedja",
+    "translation": "velha",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bedjisa",
+    "translation": "velhice",
+    "category": "Nom"
+  },
+  {
+    "word": "behki",
+    "translation": "fermento em pó",
+    "category": "Nom"
+  },
+  {
+    "word": "beiju",
+    "translation": "beijo",
+    "category": "Nom"
+  },
+  {
+    "word": "bela",
+    "translation": "vela",
+    "category": "Nom"
+  },
+  {
+    "word": "beleza",
+    "translation": "beleza",
+    "category": "Nom"
+  },
+  {
+    "word": "belu",
+    "translation": "belo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bem",
+    "translation": "bem",
+    "category": "Adverbe"
+  },
+  {
+    "word": "bem-fetor",
+    "translation": "benfeitor",
+    "category": "Nom"
+  },
+  {
+    "word": "bem-vindu",
+    "translation": "bem-vindo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "benda",
+    "translation": "venda",
+    "category": "Nom"
+  },
+  {
+    "word": "bendito",
+    "translation": "bendito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "beneru",
+    "translation": "venerar",
+    "category": "Verbe"
+  },
+  {
+    "word": "benfitoria",
+    "translation": "benfeitoria",
+    "category": "Nom"
+  },
+  {
+    "word": "bengala",
+    "translation": "bengala",
+    "category": "Nom"
+  },
+  {
+    "word": "ben-u",
+    "translation": "bem-haja",
+    "category": "Expression"
+  },
+  {
+    "word": "bera",
+    "translation": "beira / margem",
+    "category": "Nom"
+  },
+  {
+    "word": "bera-mar",
+    "translation": "beira-mar",
+    "category": "Nom"
+  },
+  {
+    "word": "bersu",
+    "translation": "berço",
+    "category": "Nom"
+  },
+  {
+    "word": "bes",
+    "translation": "vez",
+    "category": "Nom"
+  },
+  {
+    "word": "bespra",
+    "translation": "véspera",
+    "category": "Nom"
+  },
+  {
+    "word": "besta",
+    "translation": "besta / burro",
+    "category": "Nom"
+  },
+  {
+    "word": "besti",
+    "translation": "vestir",
+    "category": "Verbe"
+  },
+  {
+    "word": "bestidu",
+    "translation": "vestido",
+    "category": "Nom"
+  },
+  {
+    "word": "beton",
+    "translation": "betão",
+    "category": "Nom"
+  },
+  {
+    "word": "bexiga",
+    "translation": "bexiga",
+    "category": "Nom"
+  },
+  {
+    "word": "biata",
+    "translation": "beata (cigarro)",
+    "category": "Nom"
+  },
+  {
+    "word": "bida",
+    "translation": "vida",
+    "category": "Nom"
+  },
+  {
+    "word": "bidon",
+    "translation": "bidão",
+    "category": "Nom"
+  },
+  {
+    "word": "bigodi",
+    "translation": "bigode",
+    "category": "Nom"
+  },
+  {
+    "word": "bikini",
+    "translation": "biquíni",
+    "category": "Nom"
+  },
+  {
+    "word": "bintem",
+    "translation": "vintém",
+    "category": "Nom"
+  },
+  {
+    "word": "bira",
+    "translation": "virar / tornar",
+    "category": "Verbe"
+  },
+  {
+    "word": "biri-biri",
+    "translation": "beribéri",
+    "category": "Nom"
+  },
+  {
+    "word": "birra",
+    "translation": "birra",
+    "category": "Nom"
+  },
+  {
+    "word": "bisavu",
+    "translation": "bisavô",
+    "category": "Nom"
+  },
+  {
+    "word": "biskaiti",
+    "translation": "biscate",
+    "category": "Nom"
+  },
+  {
+    "word": "biskleta",
+    "translation": "bicicleta",
+    "category": "Nom"
+  },
+  {
+    "word": "bisnetu",
+    "translation": "bisneto",
+    "category": "Nom"
+  },
+  {
+    "word": "bispo",
+    "translation": "bispo",
+    "category": "Nom"
+  },
+  {
+    "word": "biuda",
+    "translation": "viúva",
+    "category": "Nom"
+  },
+  {
+    "word": "biudu",
+    "translation": "viúvo",
+    "category": "Nom"
+  },
+  {
+    "word": "bizinhasu",
+    "translation": "vizinhança",
+    "category": "Nom"
+  },
+  {
+    "word": "bizinhu",
+    "translation": "vizinho",
+    "category": "Nom"
+  },
+  {
+    "word": "bizivi",
+    "translation": "visível / linha de pesca",
+    "category": "Nom"
+  },
+  {
+    "word": "bobo",
+    "translation": "bobo",
+    "category": "Nom"
+  },
+  {
+    "word": "boka-bedju",
+    "translation": "arma artesanal",
+    "category": "Nom"
+  },
+  {
+    "word": "boka-largu",
+    "translation": "boca larga / tagarela",
+    "category": "Nom"
+  },
+  {
+    "word": "boka-mofinu",
+    "translation": "esquisito (com comida)",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bolaxa",
+    "translation": "bolacha",
+    "category": "Nom"
+  },
+  {
+    "word": "bolbu",
+    "translation": "bolbo",
+    "category": "Nom"
+  },
+  {
+    "word": "boletin",
+    "translation": "boletim",
+    "category": "Nom"
+  },
+  {
+    "word": "bolta",
+    "translation": "volta",
+    "category": "Nom"
+  },
+  {
+    "word": "bolu",
+    "translation": "bolo",
+    "category": "Nom"
+  },
+  {
+    "word": "bombeiru",
+    "translation": "bombeiro",
+    "category": "Nom"
+  },
+  {
+    "word": "bonita",
+    "translation": "bonita",
+    "category": "Adjectif"
+  },
+  {
+    "word": "borbuleta",
+    "translation": "borboleta",
+    "category": "Nom"
+  },
+  {
+    "word": "bordadu",
+    "translation": "bordado",
+    "category": "Nom"
+  },
+  {
+    "word": "borisi",
+    "translation": "aborrecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "borota",
+    "translation": "brotoeja / erupção cutânea",
+    "category": "Nom"
+  },
+  {
+    "word": "borra",
+    "translation": "borra",
+    "category": "Nom"
+  },
+  {
+    "word": "botan",
+    "translation": "botão",
+    "category": "Nom"
+  },
+  {
+    "word": "boti",
+    "translation": "bote",
+    "category": "Nom"
+  },
+  {
+    "word": "boxer",
+    "translation": "boxer (calção)",
+    "category": "Nom"
+  },
+  {
+    "word": "braku",
+    "translation": "buraco",
+    "category": "Nom"
+  },
+  {
+    "word": "bramelu",
+    "translation": "vermelho",
+    "category": "Adjectif"
+  },
+  {
+    "word": "brasileti",
+    "translation": "pulseira",
+    "category": "Nom"
+  },
+  {
+    "word": "bravo",
+    "translation": "bravo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "braza",
+    "translation": "brasa",
+    "category": "Nom"
+  },
+  {
+    "word": "bregu",
+    "translation": "prego",
+    "category": "Nom"
+  },
+  {
+    "word": "brevi",
+    "translation": "breve",
+    "category": "Adjectif"
+  },
+  {
+    "word": "brida",
+    "translation": "rédea",
+    "category": "Nom"
+  },
+  {
+    "word": "brigadu",
+    "translation": "obrigado",
+    "category": "Expression"
+  },
+  {
+    "word": "brilho",
+    "translation": "brilho",
+    "category": "Nom"
+  },
+  {
+    "word": "brinku",
+    "translation": "brinco",
+    "category": "Nom"
+  },
+  {
+    "word": "brio",
+    "translation": "brio",
+    "category": "Nom"
+  },
+  {
+    "word": "brisa",
+    "translation": "brisa",
+    "category": "Nom"
+  },
+  {
+    "word": "bronze",
+    "translation": "bronze",
+    "category": "Nom"
+  },
+  {
+    "word": "brufa",
+    "translation": "chuvisco",
+    "category": "Nom"
+  },
+  {
+    "word": "bubu",
+    "translation": "bobo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bule",
+    "translation": "bule",
+    "category": "Nom"
+  },
+  {
+    "word": "bumbum",
+    "translation": "bumbum",
+    "category": "Nom"
+  },
+  {
+    "word": "bunda",
+    "translation": "bunda",
+    "category": "Nom"
+  },
+  {
+    "word": "buraxu",
+    "translation": "borracha",
+    "category": "Nom"
+  },
+  {
+    "word": "bureza",
+    "translation": "burrice",
+    "category": "Nom"
+  },
+  {
+    "word": "burla",
+    "translation": "burla",
+    "category": "Nom"
+  },
+  {
+    "word": "butu",
+    "translation": "boto",
+    "category": "Nom"
+  },
+  {
+    "word": "buzu",
+    "translation": "búzio",
+    "category": "Nom"
+  },
+  {
+    "word": "cabana",
+    "translation": "cabana",
+    "category": "Nom"
+  },
+  {
+    "word": "cabelo",
+    "translation": "cabelo",
+    "category": "Nom"
+  },
+  {
+    "word": "cabo",
+    "translation": "cabo",
+    "category": "Nom"
+  },
+  {
+    "word": "caça",
+    "translation": "caça",
+    "category": "Nom"
+  },
+  {
+    "word": "cachor",
+    "translation": "cachorro",
+    "category": "Nom"
+  },
+  {
+    "word": "cadeia",
+    "translation": "cadeia",
+    "category": "Nom"
+  },
+  {
+    "word": "cafe",
+    "translation": "café",
+    "category": "Nom"
+  },
+  {
+    "word": "caju",
+    "translation": "caju",
+    "category": "Nom"
+  },
+  {
+    "word": "calor",
+    "translation": "calor",
+    "category": "Nom"
+  },
+  {
+    "word": "cama",
+    "translation": "cama",
+    "category": "Nom"
+  },
+  {
+    "word": "camisa",
+    "translation": "camisa",
+    "category": "Nom"
+  },
+  {
+    "word": "campu",
+    "translation": "campo",
+    "category": "Nom"
+  },
+  {
+    "word": "canal",
+    "translation": "canal",
+    "category": "Nom"
+  },
+  {
+    "word": "caneta",
+    "translation": "caneta",
+    "category": "Nom"
+  },
+  {
+    "word": "canu",
+    "translation": "cano",
+    "category": "Nom"
+  },
+  {
+    "word": "capaz",
+    "translation": "capaz",
+    "category": "Adjectif"
+  },
+  {
+    "word": "capitulo",
+    "translation": "capítulo",
+    "category": "Nom"
+  },
+  {
+    "word": "cara",
+    "translation": "cara",
+    "category": "Nom"
+  },
+  {
+    "word": "caracter",
+    "translation": "carácter",
+    "category": "Nom"
+  },
+  {
+    "word": "carga",
+    "translation": "carga",
+    "category": "Nom"
+  },
+  {
+    "word": "carne",
+    "translation": "carne",
+    "category": "Nom"
+  },
+  {
+    "word": "caro",
+    "translation": "caro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "carta",
+    "translation": "carta",
+    "category": "Nom"
+  },
+  {
+    "word": "casa",
+    "translation": "casa",
+    "category": "Nom"
+  },
+  {
+    "word": "casamentu",
+    "translation": "casamento",
+    "category": "Nom"
+  },
+  {
+    "word": "cascu",
+    "translation": "casco",
+    "category": "Nom"
+  },
+  {
+    "word": "caso",
+    "translation": "caso",
+    "category": "Nom"
+  },
+  {
+    "word": "castigo",
+    "translation": "castigo",
+    "category": "Nom"
+  },
+  {
+    "word": "catoliku",
+    "translation": "católico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "cavalo",
+    "translation": "cavalo",
+    "category": "Nom"
+  },
+  {
+    "word": "cegu",
+    "translation": "cego",
+    "category": "Adjectif"
+  },
+  {
+    "word": "ceia",
+    "translation": "ceia",
+    "category": "Nom"
+  },
+  {
+    "word": "celebra",
+    "translation": "celebrar",
+    "category": "Verbe"
+  },
+  {
+    "word": "cemiteriu",
+    "translation": "cemitério",
+    "category": "Nom"
+  },
+  {
+    "word": "cena",
+    "translation": "cena",
+    "category": "Nom"
+  },
+  {
+    "word": "centru",
+    "translation": "centro",
+    "category": "Nom"
+  },
+  {
+    "word": "cera",
+    "translation": "cera",
+    "category": "Nom"
+  },
+  {
+    "word": "cerca",
+    "translation": "cerca",
+    "category": "Nom"
+  },
+  {
+    "word": "cerebru",
+    "translation": "cérebro",
+    "category": "Nom"
+  },
+  {
+    "word": "certo",
+    "translation": "certo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "cerveja",
+    "translation": "cerveja",
+    "category": "Nom"
+  },
+  {
+    "word": "ceu",
+    "translation": "céu",
+    "category": "Nom"
+  },
+  {
+    "word": "cha",
+    "translation": "chá",
+    "category": "Nom"
+  },
+  {
+    "word": "chamar",
+    "translation": "chamar",
+    "category": "Verbe"
+  },
+  {
+    "word": "chave",
+    "translation": "chave",
+    "category": "Nom"
+  },
+  {
+    "word": "chefe",
+    "translation": "chefe",
+    "category": "Nom"
+  },
+  {
+    "word": "chegadu",
+    "translation": "chegado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "cheiro",
+    "translation": "cheiro",
+    "category": "Nom"
+  },
+  {
+    "word": "choque",
+    "translation": "choque",
+    "category": "Nom"
+  },
+  {
+    "word": "chover",
+    "translation": "chover",
+    "category": "Verbe"
+  },
+  {
+    "word": "chumbo",
+    "translation": "chumbo",
+    "category": "Nom"
+  },
+  {
+    "word": "chuva",
+    "translation": "chuva",
+    "category": "Nom"
+  },
+  {
+    "word": "ciclu",
+    "translation": "ciclo",
+    "category": "Nom"
+  },
+  {
+    "word": "cidadania",
+    "translation": "cidadania",
+    "category": "Nom"
+  },
+  {
+    "word": "cidade",
+    "translation": "cidade",
+    "category": "Nom"
+  },
+  {
+    "word": "ciencia",
+    "translation": "ciência",
+    "category": "Nom"
+  },
+  {
+    "word": "cientista",
+    "translation": "cientista",
+    "category": "Nom"
+  },
+  {
+    "word": "cigarru",
+    "translation": "cigarro",
+    "category": "Nom"
+  },
+  {
+    "word": "cimentu",
+    "translation": "cimento",
+    "category": "Nom"
+  },
+  {
+    "word": "cinco",
+    "translation": "cinco",
+    "category": "Nombre"
+  },
+  {
+    "word": "cinema",
+    "translation": "cinema",
+    "category": "Nom"
+  },
+  {
+    "word": "cintu",
+    "translation": "cinto",
+    "category": "Nom"
+  },
+  {
+    "word": "cinza",
+    "translation": "cinza",
+    "category": "Nom"
+  },
+  {
+    "word": "circulu",
+    "translation": "círculo",
+    "category": "Nom"
+  },
+  {
+    "word": "cirurjia",
+    "translation": "cirurgia",
+    "category": "Nom"
+  },
+  {
+    "word": "civil",
+    "translation": "civil",
+    "category": "Adjectif"
+  },
+  {
+    "word": "clara",
+    "translation": "clara (ovo)",
+    "category": "Nom"
+  },
+  {
+    "word": "claru",
+    "translation": "claro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "classe",
+    "translation": "classe",
+    "category": "Nom"
+  },
+  {
+    "word": "clienti",
+    "translation": "cliente",
+    "category": "Nom"
+  },
+  {
+    "word": "clima",
+    "translation": "clima",
+    "category": "Nom"
+  },
+  {
+    "word": "clinika",
+    "translation": "clínica",
+    "category": "Nom"
+  },
+  {
+    "word": "clube",
+    "translation": "clube",
+    "category": "Nom"
+  },
+  {
+    "word": "cobertor",
+    "translation": "cobertor",
+    "category": "Nom"
+  },
+  {
+    "word": "cobre",
+    "translation": "cobre",
+    "category": "Nom"
+  },
+  {
+    "word": "coelho",
+    "translation": "coelho",
+    "category": "Nom"
+  },
+  {
+    "word": "cofre",
+    "translation": "cofre",
+    "category": "Nom"
+  },
+  {
+    "word": "coita",
+    "translation": "coita / dor",
+    "category": "Nom"
+  },
+  {
+    "word": "cola",
+    "translation": "cola",
+    "category": "Nom"
+  },
+  {
+    "word": "coler",
+    "translation": "colher",
+    "category": "Verbe"
+  },
+  {
+    "word": "colete",
+    "translation": "colete",
+    "category": "Nom"
+  },
+  {
+    "word": "colonia",
+    "translation": "colónia",
+    "category": "Nom"
+  },
+  {
+    "word": "coluna",
+    "translation": "coluna",
+    "category": "Nom"
+  },
+  {
+    "word": "comando",
+    "translation": "comando",
+    "category": "Nom"
+  },
+  {
+    "word": "combate",
+    "translation": "combate",
+    "category": "Nom"
+  },
+  {
+    "word": "combinason",
+    "translation": "combinação",
+    "category": "Nom"
+  },
+  {
+    "word": "come",
+    "translation": "comer",
+    "category": "Verbe"
+  },
+  {
+    "word": "comercio",
+    "translation": "comércio",
+    "category": "Nom"
+  },
+  {
+    "word": "comida",
+    "translation": "comida",
+    "category": "Nom"
+  },
+  {
+    "word": "comissari",
+    "translation": "comissário",
+    "category": "Nom"
+  },
+  {
+    "word": "como",
+    "translation": "como",
+    "category": "Adverbe"
+  },
+  {
+    "word": "companhia",
+    "translation": "companhia",
+    "category": "Nom"
+  },
+  {
+    "word": "completu",
+    "translation": "completo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "compra",
+    "translation": "compra",
+    "category": "Nom"
+  },
+  {
+    "word": "comun",
+    "translation": "comum",
+    "category": "Adjectif"
+  },
+  {
+    "word": "comunidadi",
+    "translation": "comunidade",
+    "category": "Nom"
+  },
+  {
+    "word": "concelhu",
+    "translation": "concelho",
+    "category": "Nom"
+  },
+  {
+    "word": "concha",
+    "translation": "concha",
+    "category": "Nom"
+  },
+  {
+    "word": "concorda",
+    "translation": "concordar",
+    "category": "Verbe"
+  },
+  {
+    "word": "concursu",
+    "translation": "concurso",
+    "category": "Nom"
+  },
+  {
+    "word": "condenadu",
+    "translation": "condenado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "conduta",
+    "translation": "conduta",
+    "category": "Nom"
+  },
+  {
+    "word": "cone",
+    "translation": "cone",
+    "category": "Nom"
+  },
+  {
+    "word": "conferensia",
+    "translation": "conferência",
+    "category": "Nom"
+  },
+  {
+    "word": "confiansa",
+    "translation": "confiança",
+    "category": "Nom"
+  },
+  {
+    "word": "confirma",
+    "translation": "confirmar",
+    "category": "Verbe"
+  },
+  {
+    "word": "conflitu",
+    "translation": "conflito",
+    "category": "Nom"
+  },
+  {
+    "word": "confortu",
+    "translation": "conforto",
+    "category": "Nom"
+  },
+  {
+    "word": "confuson",
+    "translation": "confusão",
+    "category": "Nom"
+  },
+  {
+    "word": "congeladu",
+    "translation": "congelado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "conhecimentu",
+    "translation": "conhecimento",
+    "category": "Nom"
+  },
+  {
+    "word": "conjuntu",
+    "translation": "conjunto",
+    "category": "Nom"
+  },
+  {
+    "word": "conquista",
+    "translation": "conquista",
+    "category": "Nom"
+  },
+  {
+    "word": "consagradu",
+    "translation": "consagrado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "consegu",
+    "translation": "conseguir",
+    "category": "Verbe"
+  },
+  {
+    "word": "conselhu",
+    "translation": "conselho",
+    "category": "Nom"
+  },
+  {
+    "word": "conserva",
+    "translation": "conserva",
+    "category": "Nom"
+  },
+  {
+    "word": "considera",
+    "translation": "considerar",
+    "category": "Verbe"
+  },
+  {
+    "word": "consoante",
+    "translation": "consoante",
+    "category": "Nom"
+  },
+  {
+    "word": "constante",
+    "translation": "constante",
+    "category": "Adjectif"
+  },
+  {
+    "word": "construi",
+    "translation": "construir",
+    "category": "Verbe"
+  },
+  {
+    "word": "connta",
+    "translation": "conta",
+    "category": "Nom"
+  },
+  {
+    "word": "contagi",
+    "translation": "contágio",
+    "category": "Nom"
+  },
+  {
+    "word": "contaminadu",
+    "translation": "contaminado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "conteudo",
+    "translation": "conteúdo",
+    "category": "Nom"
+  },
+  {
+    "word": "continu",
+    "translation": "contínuo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "contra",
+    "translation": "contra",
+    "category": "Préposition"
+  },
+  {
+    "word": "contrariu",
+    "translation": "contrário",
+    "category": "Adjectif"
+  },
+  {
+    "word": "contratu",
+    "translation": "contrato",
+    "category": "Nom"
+  },
+  {
+    "word": "controlu",
+    "translation": "controlo",
+    "category": "Nom"
+  },
+  {
+    "word": "convensi",
+    "translation": "convencer",
+    "category": "Verbe"
+  },
+  {
+    "word": "conversa",
+    "translation": "conversa",
+    "category": "Nom"
+  },
+  {
+    "word": "convite",
+    "translation": "convite",
+    "category": "Nom"
+  },
+  {
+    "word": "copia",
+    "translation": "cópia",
+    "category": "Nom"
+  },
+  {
+    "word": "copo",
+    "translation": "copo",
+    "category": "Nom"
+  },
+  {
+    "word": "cor",
+    "translation": "cor",
+    "category": "Nom"
+  },
+  {
+    "word": "coraji",
+    "translation": "coragem",
+    "category": "Nom"
+  },
+  {
+    "word": "corason",
+    "translation": "coração",
+    "category": "Nom"
+  },
+  {
+    "word": "corda",
+    "translation": "corda",
+    "category": "Nom"
+  },
+  {
+    "word": "coroa",
+    "translation": "coroa",
+    "category": "Nom"
+  },
+  {
+    "word": "corpu",
+    "translation": "corpo",
+    "category": "Nom"
+  },
+  {
+    "word": "corre",
+    "translation": "correr",
+    "category": "Verbe"
+  },
+  {
+    "word": "corredu",
+    "translation": "corrido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "correiu",
+    "translation": "correio",
+    "category": "Nom"
+  },
+  {
+    "word": "correnti",
+    "translation": "corrente",
+    "category": "Nom"
+  },
+  {
+    "word": "corrida",
+    "translation": "corrida",
+    "category": "Nom"
+  },
+  {
+    "word": "corta",
+    "translation": "cortar",
+    "category": "Verbe"
+  },
+  {
+    "word": "corte",
+    "translation": "corte",
+    "category": "Nom"
+  },
+  {
+    "word": "cortina",
+    "translation": "cortina",
+    "category": "Nom"
+  },
+  {
+    "word": "costa",
+    "translation": "costa",
+    "category": "Nom"
+  },
+  {
+    "word": "costuma",
+    "translation": "costumar",
+    "category": "Verbe"
+  },
+  {
+    "word": "costura",
+    "translation": "costura",
+    "category": "Nom"
+  },
+  {
+    "word": "cotovelo",
+    "translation": "cotovelo",
+    "category": "Nom"
+  },
+  {
+    "word": "couve",
+    "translation": "couve",
+    "category": "Nom"
+  },
+  {
+    "word": "cova",
+    "translation": "cova",
+    "category": "Nom"
+  },
+  {
+    "word": "cozinha",
+    "translation": "cozinha",
+    "category": "Nom"
+  },
+  {
+    "word": "craniu",
+    "translation": "crânio",
+    "category": "Nom"
+  },
+  {
+    "word": "cravo",
+    "translation": "cravo",
+    "category": "Nom"
+  },
+  {
+    "word": "creatura",
+    "translation": "criatura",
+    "category": "Nom"
+  },
+  {
+    "word": "credito",
+    "translation": "crédito",
+    "category": "Nom"
+  },
+  {
+    "word": "credo",
+    "translation": "credo",
+    "category": "Nom"
+  },
+  {
+    "word": "creme",
+    "translation": "creme",
+    "category": "Nom"
+  },
+  {
+    "word": "cresce",
+    "translation": "crescer",
+    "category": "Verbe"
+  },
+  {
+    "word": "criadu",
+    "translation": "criado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "criansa",
+    "translation": "criança",
+    "category": "Nom"
+  },
+  {
+    "word": "criar",
+    "translation": "criar",
+    "category": "Verbe"
+  },
+  {
+    "word": "crime",
+    "translation": "crime",
+    "category": "Nom"
+  },
+  {
+    "word": "crise",
+    "translation": "crise",
+    "category": "Nom"
+  },
+  {
+    "word": "cristal",
+    "translation": "cristal",
+    "category": "Nom"
+  },
+  {
+    "word": "cristao",
+    "translation": "cristão",
+    "category": "Nom"
+  },
+  {
+    "word": "critika",
+    "translation": "crítica",
+    "category": "Nom"
+  },
+  {
+    "word": "cruz",
+    "translation": "cruz",
+    "category": "Nom"
+  },
+  {
+    "word": "cubo",
+    "translation": "cubo",
+    "category": "Nom"
+  },
+  {
+    "word": "cuidadu",
+    "translation": "cuidado",
+    "category": "Nom"
+  },
+  {
+    "word": "culpa",
+    "translation": "culpa",
+    "category": "Nom"
+  },
+  {
+    "word": "cultura",
+    "translation": "cultura",
+    "category": "Nom"
+  },
+  {
+    "word": "cumpri",
+    "translation": "cumprir",
+    "category": "Verbe"
+  },
+  {
+    "word": "cura",
+    "translation": "cura",
+    "category": "Nom"
+  },
+  {
+    "word": "curiosidadi",
+    "translation": "curiosidade",
+    "category": "Nom"
+  },
+  {
+    "word": "curso",
+    "translation": "curso",
+    "category": "Nom"
+  },
+  {
+    "word": "curto",
+    "translation": "curto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "curva",
+    "translation": "curva",
+    "category": "Nom"
+  },
+  {
+    "word": "custo",
+    "translation": "custo",
+    "category": "Nom"
+  },
+  {
+    "word": "d",
+    "translation": "letra d",
+    "category": "Nom"
+  },
+  {
+    "word": "dança",
+    "translation": "dança",
+    "category": "Nom"
+  },
+  {
+    "word": "dano",
+    "translation": "dano",
+    "category": "Nom"
+  },
+  {
+    "word": "dar",
+    "translation": "dar",
+    "category": "Verbe"
+  },
+  {
+    "word": "diabetis",
+    "translation": "diabetes",
+    "category": "Nom"
+  },
+  {
+    "word": "diabo",
+    "translation": "diabo",
+    "category": "Nom"
+  },
+  {
+    "word": "diagrama",
+    "translation": "diagrama",
+    "category": "Nom"
+  },
+  {
+    "word": "dicionariu",
+    "translation": "dicionário",
+    "category": "Nom"
+  },
+  {
+    "word": "dieta",
+    "translation": "dieta",
+    "category": "Nom"
+  },
+  {
+    "word": "dignu",
+    "translation": "digno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dinamika",
+    "translation": "dinâmica",
+    "category": "Nom"
+  },
+  {
+    "word": "dinamite",
+    "translation": "dinamite",
+    "category": "Nom"
+  },
+  {
+    "word": "dinheiro",
+    "translation": "dinheiro",
+    "category": "Nom"
+  },
+  {
+    "word": "diploma",
+    "translation": "diploma",
+    "category": "Nom"
+  },
+  {
+    "word": "dirigi",
+    "translation": "dirigir",
+    "category": "Verbe"
+  },
+  {
+    "word": "disciplina",
+    "translation": "disciplina",
+    "category": "Nom"
+  },
+  {
+    "word": "discursu",
+    "translation": "discurso",
+    "category": "Nom"
+  },
+  {
+    "word": "diskutir",
+    "translation": "discutir",
+    "category": "Verbe"
+  },
+  {
+    "word": "distancia",
+    "translation": "distância",
+    "category": "Nom"
+  },
+  {
+    "word": "dita",
+    "translation": "dita",
+    "category": "Nom"
+  },
+  {
+    "word": "divorsiu",
+    "translation": "divórcio",
+    "category": "Nom"
+  },
+  {
+    "word": "dizim",
+    "translation": "dízimo",
+    "category": "Nom"
+  },
+  {
+    "word": "doce",
+    "translation": "doce",
+    "category": "Adjectif"
+  },
+  {
+    "word": "documentu",
+    "translation": "documento",
+    "category": "Nom"
+  },
+  {
+    "word": "doensa",
+    "translation": "doença",
+    "category": "Nom"
+  },
+  {
+    "word": "doidu",
+    "translation": "doido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dose",
+    "translation": "dose",
+    "category": "Nom"
+  },
+  {
+    "word": "doze",
+    "translation": "doze",
+    "category": "Nombre"
+  },
+  {
+    "word": "du",
+    "translation": "do",
+    "category": "Préposition"
+  },
+  {
+    "word": "duas",
+    "translation": "duas",
+    "category": "Nombre"
+  },
+  {
+    "word": "dueto",
+    "translation": "dueto",
+    "category": "Nom"
+  },
+  {
+    "word": "duzia",
+    "translation": "dúzia",
+    "category": "Nom"
+  },
+  {
+    "word": "economia",
+    "translation": "economia",
+    "category": "Nom"
+  },
+  {
+    "word": "edifisiu",
+    "translation": "edifício",
+    "category": "Nom"
+  },
+  {
+    "word": "editor",
+    "translation": "editor",
+    "category": "Nom"
+  },
+  {
+    "word": "educason",
+    "translation": "educação",
+    "category": "Nom"
+  },
+  {
+    "word": "egua",
+    "translation": "égua",
+    "category": "Nom"
+  },
+  {
+    "word": "eia",
+    "translation": "eia",
+    "category": "Interjection"
+  },
+  {
+    "word": "el",
+    "translation": "ele",
+    "category": "Pronom"
+  },
+  {
+    "word": "eletricidadi",
+    "translation": "eletricidade",
+    "category": "Nom"
+  },
+  {
+    "word": "elogi",
+    "translation": "elogio",
+    "category": "Nom"
+  },
+  {
+    "word": "emocion",
+    "translation": "emoção",
+    "category": "Nom"
+  },
+  {
+    "word": "encantu",
+    "translation": "encanto",
+    "category": "Nom"
+  },
+  {
+    "word": "enigma",
+    "translation": "enigma",
+    "category": "Nom"
+  },
+  {
+    "word": "enormi",
+    "translation": "enorme",
+    "category": "Adjectif"
+  },
+  {
+    "word": "ensaiu",
+    "translation": "ensaio",
+    "category": "Nom"
+  },
+  {
+    "word": "ensinu",
+    "translation": "ensino",
+    "category": "Nom"
+  },
+  {
+    "word": "entanto",
+    "translation": "entanto",
+    "category": "Adverbe"
+  },
+  {
+    "word": "entende",
+    "translation": "entender",
+    "category": "Verbe"
+  },
+  {
+    "word": "entrar",
+    "translation": "entrar",
+    "category": "Verbe"
+  },
+  {
+    "word": "envelopi",
+    "translation": "envelope",
+    "category": "Nom"
+  },
+  {
+    "word": "envolve",
+    "translation": "envolver",
+    "category": "Verbe"
+  },
+  {
+    "word": "epoca",
+    "translation": "época",
+    "category": "Nom"
+  },
+  {
+    "word": "equipa",
+    "translation": "equipa",
+    "category": "Nom"
+  },
+  {
+    "word": "era",
+    "translation": "era",
+    "category": "Nom"
+  },
+  {
+    "word": "escada",
+    "translation": "escada",
+    "category": "Nom"
+  },
+  {
+    "word": "escala",
+    "translation": "escala",
+    "category": "Nom"
+  },
+  {
+    "word": "escola",
+    "translation": "escola",
+    "category": "Nom"
+  },
+  {
+    "word": "escolha",
+    "translation": "escolha",
+    "category": "Nom"
+  },
+  {
+    "word": "escrita",
+    "translation": "escrita",
+    "category": "Nom"
+  },
+  {
+    "word": "escritu",
+    "translation": "escrito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "escudu",
+    "translation": "escudo",
+    "category": "Nom"
+  },
+  {
+    "word": "escuru",
+    "translation": "escuro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "esfera",
+    "translation": "esfera",
+    "category": "Nom"
+  },
+  {
+    "word": "esforsu",
+    "translation": "esforço",
+    "category": "Nom"
+  },
+  {
+    "word": "esgota",
+    "translation": "esgotar",
+    "category": "Verbe"
+  },
+  {
+    "word": "espacu",
+    "translation": "espaço",
+    "category": "Nom"
+  },
+  {
+    "word": "espada",
+    "translation": "espada",
+    "category": "Nom"
+  },
+  {
+    "word": "espelho",
+    "translation": "espelho",
+    "category": "Nom"
+  },
+  {
+    "word": "espia",
+    "translation": "espiar",
+    "category": "Verbe"
+  },
+  {
+    "word": "espinha",
+    "translation": "espinha",
+    "category": "Nom"
+  },
+  {
+    "word": "espirito",
+    "translation": "espírito",
+    "category": "Nom"
+  },
+  {
+    "word": "esquema",
+    "translation": "esquema",
+    "category": "Nom"
+  },
+  {
+    "word": "esquerda",
+    "translation": "esquerda",
+    "category": "Nom"
+  },
+  {
+    "word": "esquina",
+    "translation": "esquina",
+    "category": "Nom"
+  },
+  {
+    "word": "essencia",
+    "translation": "essência",
+    "category": "Nom"
+  },
+  {
+    "word": "estabelesi",
+    "translation": "estabelecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "estacao",
+    "translation": "estação",
+    "category": "Nom"
+  },
+  {
+    "word": "estadiu",
+    "translation": "estádio",
+    "category": "Nom"
+  },
+  {
+    "word": "estimula",
+    "translation": "estimular",
+    "category": "Verbe"
+  },
+  {
+    "word": "estomagu",
+    "translation": "estômago",
+    "category": "Nom"
+  },
+  {
+    "word": "estrada",
+    "translation": "estrada",
+    "category": "Nom"
+  },
+  {
+    "word": "estrela",
+    "translation": "estrela",
+    "category": "Nom"
+  },
+  {
+    "word": "estrutura",
+    "translation": "estrutura",
+    "category": "Nom"
+  },
+  {
+    "word": "estudante",
+    "translation": "estudante",
+    "category": "Nom"
+  },
+  {
+    "word": "etapa",
+    "translation": "etapa",
+    "category": "Nom"
+  },
+  {
+    "word": "eternu",
+    "translation": "eterno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "eu",
+    "translation": "eu",
+    "category": "Pronom"
+  },
+  {
+    "word": "eventu",
+    "translation": "evento",
+    "category": "Nom"
+  },
+  {
+    "word": "evoluson",
+    "translation": "evolução",
+    "category": "Nom"
+  },
+  {
+    "word": "exami",
+    "translation": "exame",
+    "category": "Nom"
+  },
+  {
+    "word": "excesu",
+    "translation": "excesso",
+    "category": "Nom"
+  },
+  {
+    "word": "exigensia",
+    "translation": "exigência",
+    "category": "Nom"
+  },
+  {
+    "word": "existensia",
+    "translation": "existência",
+    "category": "Nom"
+  },
+  {
+    "word": "exito",
+    "translation": "êxito",
+    "category": "Nom"
+  },
+  {
+    "word": "experiencia",
+    "translation": "experiência",
+    "category": "Nom"
+  },
+  {
+    "word": "explika",
+    "translation": "explicar",
+    "category": "Verbe"
+  },
+  {
+    "word": "exploson",
+    "translation": "explosão",
+    "category": "Nom"
+  },
+  {
+    "word": "exporta",
+    "translation": "exportar",
+    "category": "Verbe"
+  },
+  {
+    "word": "expresson",
+    "translation": "expressão",
+    "category": "Nom"
+  },
+  {
+    "word": "exterior",
+    "translation": "exterior",
+    "category": "Nom"
+  },
+  {
+    "word": "extra",
+    "translation": "extra",
+    "category": "Adjectif"
+  },
+  {
+    "word": "extremu",
+    "translation": "extremo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "faca",
+    "translation": "faca",
+    "category": "Nom"
+  },
+  {
+    "word": "face",
+    "translation": "face",
+    "category": "Nom"
+  },
+  {
+    "word": "fada",
+    "translation": "fada",
+    "category": "Nom"
+  },
+  {
+    "word": "fala",
+    "translation": "fala",
+    "category": "Nom"
+  },
+  {
+    "word": "falha",
+    "translation": "falha",
+    "category": "Nom"
+  },
+  {
+    "word": "falsu",
+    "translation": "falso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fama",
+    "translation": "fama",
+    "category": "Nom"
+  },
+  {
+    "word": "fantazia",
+    "translation": "fantasia",
+    "category": "Nom"
+  },
+  {
+    "word": "farda",
+    "translation": "farda",
+    "category": "Nom"
+  },
+  {
+    "word": "farol",
+    "translation": "farol",
+    "category": "Nom"
+  },
+  {
+    "word": "fartura",
+    "translation": "fartura",
+    "category": "Nom"
+  },
+  {
+    "word": "fatal",
+    "translation": "fatal",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fatia",
+    "translation": "fatia",
+    "category": "Nom"
+  },
+  {
+    "word": "fator",
+    "translation": "fator",
+    "category": "Nom"
+  },
+  {
+    "word": "fatu",
+    "translation": "fato",
+    "category": "Nom"
+  },
+  {
+    "word": "fazer",
+    "translation": "fazer",
+    "category": "Verbe"
+  },
+  {
+    "word": "febre",
+    "translation": "febre",
+    "category": "Nom"
+  },
+  {
+    "word": "fechadu",
+    "translation": "fechado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "federal",
+    "translation": "federal",
+    "category": "Adjectif"
+  },
+  {
+    "word": "felicidadi",
+    "translation": "felicidade",
+    "category": "Nom"
+  },
+  {
+    "word": "feliz",
+    "translation": "feliz",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fenda",
+    "translation": "fenda",
+    "category": "Nom"
+  },
+  {
+    "word": "ferias",
+    "translation": "férias",
+    "category": "Nom"
+  },
+  {
+    "word": "ferida",
+    "translation": "ferida",
+    "category": "Nom"
+  },
+  {
+    "word": "feru",
+    "translation": "ferro",
+    "category": "Nom"
+  },
+  {
+    "word": "feijon",
+    "translation": "feijão",
+    "category": "Nom"
+  },
+  {
+    "word": "ferramenta",
+    "translation": "ferramenta",
+    "category": "Nom"
+  },
+  {
+    "word": "fertil",
+    "translation": "fértil",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fiadu",
+    "translation": "fiado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fibra",
+    "translation": "fibra",
+    "category": "Nom"
+  },
+  {
+    "word": "fiel",
+    "translation": "fiel",
+    "category": "Adjectif"
+  },
+  {
+    "word": "figado",
+    "translation": "fígado",
+    "category": "Nom"
+  },
+  {
+    "word": "figo",
+    "translation": "figo",
+    "category": "Nom"
+  },
+  {
+    "word": "figura",
+    "translation": "figura",
+    "category": "Nom"
+  },
+  {
+    "word": "filha",
+    "translation": "filha",
+    "category": "Nom"
+  },
+  {
+    "word": "filho",
+    "translation": "filho",
+    "category": "Nom"
+  },
+  {
+    "word": "filosofia",
+    "translation": "filosofia",
+    "category": "Nom"
+  },
+  {
+    "word": "financas",
+    "translation": "finanças",
+    "category": "Nom"
+  },
+  {
+    "word": "fina",
+    "translation": "fina",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fio",
+    "translation": "fio",
+    "category": "Nom"
+  },
+  {
+    "word": "firme",
+    "translation": "firme",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fisiku",
+    "translation": "físico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fita",
+    "translation": "fita",
+    "category": "Nom"
+  },
+  {
+    "word": "fixu",
+    "translation": "fixo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "flor",
+    "translation": "flor",
+    "category": "Nom"
+  },
+  {
+    "word": "folha",
+    "translation": "folha",
+    "category": "Nom"
+  },
+  {
+    "word": "forma",
+    "translation": "forma",
+    "category": "Nom"
+  },
+  {
+    "word": "formiga",
+    "translation": "formiga",
+    "category": "Nom"
+  },
+  {
+    "word": "formula",
+    "translation": "fórmula",
+    "category": "Nom"
+  },
+  {
+    "word": "forno",
+    "translation": "forno",
+    "category": "Nom"
+  },
+  {
+    "word": "forte",
+    "translation": "forte",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fortuna",
+    "translation": "fortuna",
+    "category": "Nom"
+  },
+  {
+    "word": "fosforu",
+    "translation": "fósforo",
+    "category": "Nom"
+  },
+  {
+    "word": "fraco",
+    "translation": "fraco",
+    "category": "Adjectif"
+  },
+  {
+    "word": "frade",
+    "translation": "frade",
+    "category": "Nom"
+  },
+  {
+    "word": "frango",
+    "translation": "frango",
+    "category": "Nom"
+  },
+  {
+    "word": "frasco",
+    "translation": "frasco",
+    "category": "Nom"
+  },
+  {
+    "word": "frase",
+    "translation": "frase",
+    "category": "Nom"
+  },
+  {
+    "word": "frente",
+    "translation": "frente",
+    "category": "Nom"
+  },
+  {
+    "word": "frequencia",
+    "translation": "frequência",
+    "category": "Nom"
+  },
+  {
+    "word": "fresco",
+    "translation": "fresco",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fronteira",
+    "translation": "fronteira",
+    "category": "Nom"
+  },
+  {
+    "word": "fuga",
+    "translation": "fuga",
+    "category": "Nom"
+  },
+  {
+    "word": "fumo",
+    "translation": "fumo",
+    "category": "Nom"
+  },
+  {
+    "word": "funcao",
+    "translation": "função",
+    "category": "Nom"
+  },
+  {
+    "word": "funcionariu",
+    "translation": "funcionário",
+    "category": "Nom"
+  },
+  {
+    "word": "fundo",
+    "translation": "fundo",
+    "category": "Nom"
+  },
+  {
+    "word": "funeral",
+    "translation": "funeral",
+    "category": "Nom"
+  },
+  {
+    "word": "funil",
+    "translation": "funil",
+    "category": "Nom"
+  },
+  {
+    "word": "furia",
+    "translation": "fúria",
+    "category": "Nom"
+  },
+  {
+    "word": "furo",
+    "translation": "furo",
+    "category": "Nom"
+  },
+  {
+    "word": "g",
+    "translation": "letra g",
+    "category": "Nom"
+  },
+  {
+    "word": "gabinete",
+    "translation": "gabinete",
+    "category": "Nom"
+  },
+  {
+    "word": "gado",
+    "translation": "gado",
+    "category": "Nom"
+  },
+  {
+    "word": "gaivota",
+    "translation": "gaivota",
+    "category": "Nom"
+  },
+  {
+    "word": "galo",
+    "translation": "galo",
+    "category": "Nom"
+  },
+  {
+    "word": "ganhar",
+    "translation": "ganhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "garagem",
+    "translation": "garagem",
+    "category": "Nom"
+  },
+  {
+    "word": "garantia",
+    "translation": "garantia",
+    "category": "Nom"
+  },
+  {
+    "word": "garfo",
+    "translation": "garfo",
+    "category": "Nom"
+  },
+  {
+    "word": "garrafa",
+    "translation": "garrafa",
+    "category": "Nom"
+  },
+  {
+    "word": "gas",
+    "translation": "gás",
+    "category": "Nom"
+  },
+  {
+    "word": "gastar",
+    "translation": "gastar",
+    "category": "Verbe"
+  },
+  {
+    "word": "gaveta",
+    "translation": "gaveta",
+    "category": "Nom"
+  },
+  {
+    "word": "gelo",
+    "translation": "gelo",
+    "category": "Nom"
+  },
+  {
+    "word": "gemeos",
+    "translation": "gémeos",
+    "category": "Nom"
+  },
+  {
+    "word": "general",
+    "translation": "general",
+    "category": "Nom"
+  },
+  {
+    "word": "genero",
+    "translation": "género",
+    "category": "Nom"
+  },
+  {
+    "word": "genio",
+    "translation": "génio",
+    "category": "Nom"
+  },
+  {
+    "word": "gente",
+    "translation": "gente",
+    "category": "Nom"
+  },
+  {
+    "word": "geral",
+    "translation": "geral",
+    "category": "Adjectif"
+  },
+  {
+    "word": "gerente",
+    "translation": "gerente",
+    "category": "Nom"
+  },
+  {
+    "word": "gesso",
+    "translation": "gesso",
+    "category": "Nom"
+  },
+  {
+    "word": "gesto",
+    "translation": "gesto",
+    "category": "Nom"
+  },
+  {
+    "word": "gigante",
+    "translation": "gigante",
+    "category": "Nom"
+  },
+  {
+    "word": "ginastica",
+    "translation": "ginástica",
+    "category": "Nom"
+  },
+  {
+    "word": "girar",
+    "translation": "girar",
+    "category": "Verbe"
+  },
+  {
+    "word": "golfo",
+    "translation": "golfo",
+    "category": "Nom"
+  },
+  {
+    "word": "golpe",
+    "translation": "golpe",
+    "category": "Nom"
+  },
+  {
+    "word": "goma",
+    "translation": "goma",
+    "category": "Nom"
+  },
+  {
+    "word": "gordo",
+    "translation": "gordo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "gorro",
+    "translation": "gorro",
+    "category": "Nom"
+  },
+  {
+    "word": "gostar",
+    "translation": "gostar",
+    "category": "Verbe"
+  },
+  {
+    "word": "gosto",
+    "translation": "gosto",
+    "category": "Nom"
+  },
+  {
+    "word": "gota",
+    "translation": "gota",
+    "category": "Nom"
+  },
+  {
+    "word": "governo",
+    "translation": "governo",
+    "category": "Nom"
+  },
+  {
+    "word": "graça",
+    "translation": "graça",
+    "category": "Nom"
+  },
+  {
+    "word": "grade",
+    "translation": "grade",
+    "category": "Nom"
+  },
+  {
+    "word": "grafiko",
+    "translation": "gráfico",
+    "category": "Nom"
+  },
+  {
+    "word": "grama",
+    "translation": "grama",
+    "category": "Nom"
+  },
+  {
+    "word": "grande",
+    "translation": "grande",
+    "category": "Adjectif"
+  },
+  {
+    "word": "granizo",
+    "translation": "granizo",
+    "category": "Nom"
+  },
+  {
+    "word": "gravidez",
+    "translation": "gravidez",
+    "category": "Nom"
+  },
+  {
+    "word": "grego",
+    "translation": "grego",
+    "category": "Nom"
+  },
+  {
+    "word": "grelha",
+    "translation": "grelha",
+    "category": "Nom"
+  },
+  {
+    "word": "grito",
+    "translation": "grito",
+    "category": "Nom"
+  },
+  {
+    "word": "grosso",
+    "translation": "grosso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "grupo",
+    "translation": "grupo",
+    "category": "Nom"
+  },
+  {
+    "word": "h",
+    "translation": "letra h",
+    "category": "Nom"
+  },
+  {
+    "word": "habitante",
+    "translation": "habitante",
+    "category": "Nom"
+  },
+  {
+    "word": "hamburguer",
+    "translation": "hambúrguer",
+    "category": "Nom"
+  },
+  {
+    "word": "helice",
+    "translation": "hélice",
+    "category": "Nom"
+  },
+  {
+    "word": "hemisferiu",
+    "translation": "hemisfério",
+    "category": "Nom"
+  },
+  {
+    "word": "herança",
+    "translation": "herança",
+    "category": "Nom"
+  },
+  {
+    "word": "heroi",
+    "translation": "herói",
+    "category": "Nom"
+  },
+  {
+    "word": "higiene",
+    "translation": "higiene",
+    "category": "Nom"
+  },
+  {
+    "word": "holofote",
+    "translation": "holofote",
+    "category": "Nom"
+  },
+  {
+    "word": "homenagem",
+    "translation": "homenagem",
+    "category": "Nom"
+  },
+  {
+    "word": "honestu",
+    "translation": "honesto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "horariu",
+    "translation": "horário",
+    "category": "Nom"
+  },
+  {
+    "word": "horizonte",
+    "translation": "horizonte",
+    "category": "Nom"
+  },
+  {
+    "word": "hormona",
+    "translation": "hormona",
+    "category": "Nom"
+  },
+  {
+    "word": "horror",
+    "translation": "horror",
+    "category": "Nom"
+  },
+  {
+    "word": "hospede",
+    "translation": "hóspede",
+    "category": "Nom"
+  },
+  {
+    "word": "humano",
+    "translation": "humano",
+    "category": "Adjectif"
+  },
+  {
+    "word": "humilde",
+    "translation": "humilde",
+    "category": "Adjectif"
+  },
+  {
+    "word": "humor",
+    "translation": "humor",
+    "category": "Nom"
+  },
+  {
+    "word": "idade",
+    "translation": "idade",
+    "category": "Nom"
+  },
+  {
+    "word": "ideia",
+    "translation": "ideia",
+    "category": "Nom"
+  },
+  {
+    "word": "identidadi",
+    "translation": "identidade",
+    "category": "Nom"
+  },
+  {
+    "word": "idolo",
+    "translation": "ídolo",
+    "category": "Nom"
+  },
+  {
+    "word": "ilegal",
+    "translation": "ilegal",
+    "category": "Adjectif"
+  },
+  {
+    "word": "iluminason",
+    "translation": "iluminação",
+    "category": "Nom"
+  },
+  {
+    "word": "ilusao",
+    "translation": "ilusão",
+    "category": "Nom"
+  },
+  {
+    "word": "imagem",
+    "translation": "imagem",
+    "category": "Nom"
+  },
+  {
+    "word": "imagina",
+    "translation": "imaginar",
+    "category": "Verbe"
+  },
+  {
+    "word": "iman",
+    "translation": "íman",
+    "category": "Nom"
+  },
+  {
+    "word": "imediato",
+    "translation": "imediato",
+    "category": "Adjectif"
+  },
+  {
+    "word": "imenso",
+    "translation": "imenso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "imigrante",
+    "translation": "imigrante",
+    "category": "Nom"
+  },
+  {
+    "word": "impacto",
+    "translation": "impacto",
+    "category": "Nom"
+  },
+  {
+    "word": "imperador",
+    "translation": "imperador",
+    "category": "Nom"
+  },
+  {
+    "word": "imperio",
+    "translation": "império",
+    "category": "Nom"
+  },
+  {
+    "word": "importante",
+    "translation": "importante",
+    "category": "Adjectif"
+  },
+  {
+    "word": "imposto",
+    "translation": "imposto",
+    "category": "Nom"
+  },
+  {
+    "word": "impossivel",
+    "translation": "impossível",
+    "category": "Adjectif"
+  },
+  {
+    "word": "imprensa",
+    "translation": "imprensa",
+    "category": "Nom"
+  },
+  {
+    "word": "impulso",
+    "translation": "impulso",
+    "category": "Nom"
+  },
+  {
+    "word": "incendio",
+    "translation": "incêndio",
+    "category": "Nom"
+  },
+  {
+    "word": "incenso",
+    "translation": "incenso",
+    "category": "Nom"
+  },
+  {
+    "word": "inchaço",
+    "translation": "inchaço",
+    "category": "Nom"
+  },
+  {
+    "word": "incrivel",
+    "translation": "incrível",
+    "category": "Adjectif"
+  },
+  {
+    "word": "independencia",
+    "translation": "independência",
+    "category": "Nom"
+  },
+  {
+    "word": "indio",
+    "translation": "índio",
+    "category": "Nom"
+  },
+  {
+    "word": "infantaria",
+    "translation": "infantaria",
+    "category": "Nom"
+  },
+  {
+    "word": "infeliz",
+    "translation": "infeliz",
+    "category": "Adjectif"
+  },
+  {
+    "word": "inferior",
+    "translation": "inferior",
+    "category": "Adjectif"
+  },
+  {
+    "word": "inferno",
+    "translation": "inferno",
+    "category": "Nom"
+  },
+  {
+    "word": "infinito",
+    "translation": "infinito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "inflamason",
+    "translation": "inflamação",
+    "category": "Nom"
+  },
+  {
+    "word": "ingrediente",
+    "translation": "ingrediente",
+    "category": "Nom"
+  },
+  {
+    "word": "inicio",
+    "translation": "início",
+    "category": "Nom"
+  },
+  {
+    "word": "inimigo",
+    "translation": "inimigo",
+    "category": "Nom"
+  },
+  {
+    "word": "injel",
+    "translation": "ingénuo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "injustica",
+    "translation": "injustiça",
+    "category": "Nom"
+  },
+  {
+    "word": "inocente",
+    "translation": "inocente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "inquerito",
+    "translation": "inquérito",
+    "category": "Nom"
+  },
+  {
+    "word": "inseto",
+    "translation": "inseto",
+    "category": "Nom"
+  },
+  {
+    "word": "insignia",
+    "translation": "insígnia",
+    "category": "Nom"
+  },
+  {
+    "word": "insonia",
+    "translation": "insónia",
+    "category": "Nom"
+  },
+  {
+    "word": "inspetor",
+    "translation": "inspetor",
+    "category": "Nom"
+  },
+  {
+    "word": "instinto",
+    "translation": "instinto",
+    "category": "Nom"
+  },
+  {
+    "word": "instrumento",
+    "translation": "instrumento",
+    "category": "Nom"
+  },
+  {
+    "word": "insulto",
+    "translation": "insulto",
+    "category": "Nom"
+  },
+  {
+    "word": "inteiro",
+    "translation": "inteiro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "inteligencia",
+    "translation": "inteligência",
+    "category": "Nom"
+  },
+  {
+    "word": "inteligente",
+    "translation": "inteligente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "intencao",
+    "translation": "intenção",
+    "category": "Nom"
+  },
+  {
+    "word": "interesse",
+    "translation": "interesse",
+    "category": "Nom"
+  },
+  {
+    "word": "interior",
+    "translation": "interior",
+    "category": "Nom"
+  },
+  {
+    "word": "internacional",
+    "translation": "internacional",
+    "category": "Adjectif"
+  },
+  {
+    "word": "internet",
+    "translation": "internet",
+    "category": "Nom"
+  },
+  {
+    "word": "interprete",
+    "translation": "intérprete",
+    "category": "Nom"
+  },
+  {
+    "word": "intervalo",
+    "translation": "intervalo",
+    "category": "Nom"
+  },
+  {
+    "word": "intimo",
+    "translation": "íntimo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "invasao",
+    "translation": "invasão",
+    "category": "Nom"
+  },
+  {
+    "word": "inverno",
+    "translation": "inverno",
+    "category": "Nom"
+  },
+  {
+    "word": "investigason",
+    "translation": "investigação",
+    "category": "Nom"
+  },
+  {
+    "word": "invisivel",
+    "translation": "invisível",
+    "category": "Adjectif"
+  },
+  {
+    "word": "irmao",
+    "translation": "irmão",
+    "category": "Nom"
+  },
+  {
+    "word": "ironia",
+    "translation": "ironia",
+    "category": "Nom"
+  },
+  {
+    "word": "isca",
+    "translation": "isca",
+    "category": "Nom"
+  },
+  {
+    "word": "isqueiro",
+    "translation": "isqueiro",
+    "category": "Nom"
+  },
+  {
+    "word": "isso",
+    "translation": "isso",
+    "category": "Pronom"
+  },
+  {
+    "word": "isto",
+    "translation": "isto",
+    "category": "Pronom"
+  },
+  {
+    "word": "j",
+    "translation": "letra j",
+    "category": "Nom"
+  },
+  {
+    "word": "jacare",
+    "translation": "jacaré",
+    "category": "Nom"
+  },
+  {
+    "word": "janela",
+    "translation": "janela",
+    "category": "Nom"
+  },
+  {
+    "word": "jardim",
+    "translation": "jardim",
+    "category": "Nom"
+  },
+  {
+    "word": "jarra",
+    "translation": "jarra",
+    "category": "Nom"
+  },
+  {
+    "word": "jaula",
+    "translation": "jaula",
+    "category": "Nom"
+  },
+  {
+    "word": "javali",
+    "translation": "javali",
+    "category": "Nom"
+  },
+  {
+    "word": "jazz",
+    "translation": "jazz",
+    "category": "Nom"
+  },
+  {
+    "word": "jeito",
+    "translation": "jeito",
+    "category": "Nom"
+  },
+  {
+    "word": "jejum",
+    "translation": "jejum",
+    "category": "Nom"
+  },
+  {
+    "word": "joelho",
+    "translation": "joelho",
+    "category": "Nom"
+  },
+  {
+    "word": "jogo",
+    "translation": "jogo",
+    "category": "Nom"
+  },
+  {
+    "word": "jornalista",
+    "translation": "jornalista",
+    "category": "Nom"
+  },
+  {
+    "word": "jovem",
+    "translation": "jovem",
+    "category": "Adjectif"
+  },
+  {
+    "word": "juba",
+    "translation": "juba",
+    "category": "Nom"
+  },
+  {
+    "word": "julgamento",
+    "translation": "julgamento",
+    "category": "Nom"
+  },
+  {
+    "word": "julho",
+    "translation": "julho",
+    "category": "Nom"
+  },
+  {
+    "word": "junho",
+    "translation": "junho",
+    "category": "Nom"
+  },
+  {
+    "word": "juramento",
+    "translation": "juramento",
+    "category": "Nom"
+  },
+  {
+    "word": "juri",
+    "translation": "júri",
+    "category": "Nom"
+  },
+  {
+    "word": "justica",
+    "translation": "justiça",
+    "category": "Nom"
+  },
+  {
+    "word": "justo",
+    "translation": "justo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "juventude",
+    "translation": "juventude",
+    "category": "Nom"
+  },
+  {
+    "word": "k",
+    "translation": "letra k",
+    "category": "Nom"
+  },
+  {
+    "word": "kg",
+    "translation": "quilograma",
+    "category": "Nom"
+  },
+  {
+    "word": "km",
+    "translation": "quilómetro",
+    "category": "Nom"
+  },
+  {
+    "word": "l",
+    "translation": "letra l",
+    "category": "Nom"
+  },
+  {
+    "word": "labirinto",
+    "translation": "labirinto",
+    "category": "Nom"
+  },
+  {
+    "word": "laboratoriu",
+    "translation": "laboratório",
+    "category": "Nom"
+  },
+  {
+    "word": "ladrao",
+    "translation": "ladrão",
+    "category": "Nom"
+  },
+  {
+    "word": "lago",
+    "translation": "lago",
+    "category": "Nom"
+  },
+  {
+    "word": "lagoa",
+    "translation": "lagoa",
+    "category": "Nom"
+  },
+  {
+    "word": "lagosta",
+    "translation": "lagosta",
+    "category": "Nom"
+  },
+  {
+    "word": "lamina",
+    "translation": "lâmina",
+    "category": "Nom"
+  },
+  {
+    "word": "lampada",
+    "translation": "lâmpada",
+    "category": "Nom"
+  },
+  {
+    "word": "lança",
+    "translation": "lança",
+    "category": "Nom"
+  },
+  {
+    "word": "lancha",
+    "translation": "lancha",
+    "category": "Nom"
+  },
+  {
+    "word": "lanterna",
+    "translation": "lanterna",
+    "category": "Nom"
+  },
+  {
+    "word": "lar",
+    "translation": "lar",
+    "category": "Nom"
+  },
+  {
+    "word": "laranja",
+    "translation": "laranja",
+    "category": "Nom"
+  },
+  {
+    "word": "largo",
+    "translation": "largo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "latim",
+    "translation": "latim",
+    "category": "Nom"
+  },
+  {
+    "word": "leao",
+    "translation": "leão",
+    "category": "Nom"
+  },
+  {
+    "word": "lebre",
+    "translation": "lebre",
+    "category": "Nom"
+  },
+  {
+    "word": "legenda",
+    "translation": "legenda",
+    "category": "Nom"
+  },
+  {
+    "word": "legiao",
+    "translation": "legião",
+    "category": "Nom"
+  },
+  {
+    "word": "legislason",
+    "translation": "legislação",
+    "category": "Nom"
+  },
+  {
+    "word": "legitimo",
+    "translation": "legítimo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "legume",
+    "translation": "legume",
+    "category": "Nom"
+  },
+  {
+    "word": "leilao",
+    "translation": "leilão",
+    "category": "Nom"
+  },
+  {
+    "word": "leito",
+    "translation": "leito",
+    "category": "Nom"
+  },
+  {
+    "word": "lema",
+    "translation": "lema",
+    "category": "Nom"
+  },
+  {
+    "word": "lembrança",
+    "translation": "lembrança",
+    "category": "Nom"
+  },
+  {
+    "word": "leme",
+    "translation": "leme",
+    "category": "Nom"
+  },
+  {
+    "word": "lenço",
+    "translation": "lenço",
+    "category": "Nom"
+  },
+  {
+    "word": "lenda",
+    "translation": "lenda",
+    "category": "Nom"
+  },
+  {
+    "word": "lente",
+    "translation": "lente",
+    "category": "Nom"
+  },
+  {
+    "word": "lento",
+    "translation": "lento",
+    "category": "Adjectif"
+  },
+  {
+    "word": "leopardo",
+    "translation": "leopardo",
+    "category": "Nom"
+  },
+  {
+    "word": "leque",
+    "translation": "leque",
+    "category": "Nom"
+  },
+  {
+    "word": "leste",
+    "translation": "leste",
+    "category": "Nom"
+  },
+  {
+    "word": "letra",
+    "translation": "letra",
+    "category": "Nom"
+  },
+  {
+    "word": "liberdade",
+    "translation": "liberdade",
+    "category": "Nom"
+  },
+  {
+    "word": "libra",
+    "translation": "libra",
+    "category": "Nom"
+  },
+  {
+    "word": "licao",
+    "translation": "lição",
+    "category": "Nom"
+  },
+  {
+    "word": "licença",
+    "translation": "licença",
+    "category": "Nom"
+  },
+  {
+    "word": "lilas",
+    "translation": "lilás",
+    "category": "Nom"
+  },
+  {
+    "word": "limao",
+    "translation": "limão",
+    "category": "Nom"
+  },
+  {
+    "word": "limite",
+    "translation": "limite",
+    "category": "Nom"
+  },
+  {
+    "word": "limonada",
+    "translation": "limonada",
+    "category": "Nom"
+  },
+  {
+    "word": "limpo",
+    "translation": "limpo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "lince",
+    "translation": "lince",
+    "category": "Nom"
+  },
+  {
+    "word": "linguagem",
+    "translation": "linguagem",
+    "category": "Nom"
+  },
+  {
+    "word": "linho",
+    "translation": "linho",
+    "category": "Nom"
+  },
+  {
+    "word": "liquido",
+    "translation": "líquido",
+    "category": "Nom"
+  },
+  {
+    "word": "lirio",
+    "translation": "lírio",
+    "category": "Nom"
+  },
+  {
+    "word": "lista",
+    "translation": "lista",
+    "category": "Nom"
+  },
+  {
+    "word": "literatura",
+    "translation": "literatura",
+    "category": "Nom"
+  },
+  {
+    "word": "litro",
+    "translation": "litro",
+    "category": "Nom"
+  },
+  {
+    "word": "livro",
+    "translation": "livro",
+    "category": "Nom"
+  },
+  {
+    "word": "lixo",
+    "translation": "lixo",
+    "category": "Nom"
+  },
+  {
+    "word": "lobo",
+    "translation": "lobo",
+    "category": "Nom"
+  },
+  {
+    "word": "local",
+    "translation": "local",
+    "category": "Nom"
+  },
+  {
+    "word": "logica",
+    "translation": "lógica",
+    "category": "Nom"
+  },
+  {
+    "word": "lona",
+    "translation": "lona",
+    "category": "Nom"
+  },
+  {
+    "word": "longe",
+    "translation": "longe",
+    "category": "Adverbe"
+  },
+  {
+    "word": "longo",
+    "translation": "longo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "lontra",
+    "translation": "lontra",
+    "category": "Nom"
+  },
+  {
+    "word": "lorde",
+    "translation": "lorde",
+    "category": "Nom"
+  },
+  {
+    "word": "lotaria",
+    "translation": "lotaria",
+    "category": "Nom"
+  },
+  {
+    "word": "lote",
+    "translation": "lote",
+    "category": "Nom"
+  },
+  {
+    "word": "louco",
+    "translation": "louco",
+    "category": "Adjectif"
+  },
+  {
+    "word": "louro",
+    "translation": "louro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "lousa",
+    "translation": "lousa",
+    "category": "Nom"
+  },
+  {
+    "word": "lucro",
+    "translation": "lucro",
+    "category": "Nom"
+  },
+  {
+    "word": "lula",
+    "translation": "lula",
+    "category": "Nom"
+  },
+  {
+    "word": "luto",
+    "translation": "luto",
+    "category": "Nom"
+  },
+  {
+    "word": "luva",
+    "translation": "luva",
+    "category": "Nom"
+  },
+  {
+    "word": "luxo",
+    "translation": "luxo",
+    "category": "Nom"
+  },
+  {
+    "word": "m",
+    "translation": "letra m",
+    "category": "Nom"
+  },
+  {
+    "word": "maca",
+    "translation": "maca",
+    "category": "Nom"
+  },
+  {
+    "word": "macacao",
+    "translation": "macacão",
+    "category": "Nom"
+  },
+  {
+    "word": "macaco",
+    "translation": "macaco",
+    "category": "Nom"
+  },
+  {
+    "word": "machado",
+    "translation": "machado",
+    "category": "Nom"
+  },
+  {
+    "word": "macho",
+    "translation": "macho",
+    "category": "Nom"
+  },
+  {
+    "word": "madeira",
+    "translation": "madeira",
+    "category": "Nom"
+  },
+  {
+    "word": "madrugada",
+    "translation": "madrugada",
+    "category": "Nom"
+  },
+  {
+    "word": "maduro",
+    "translation": "maduro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "magia",
+    "translation": "magia",
+    "category": "Nom"
+  },
+  {
+    "word": "magico",
+    "translation": "mágico",
+    "category": "Nom"
+  },
+  {
+    "word": "magnetismo",
+    "translation": "magnetismo",
+    "category": "Nom"
+  },
+  {
+    "word": "magnifico",
+    "translation": "magnífico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "magoa",
+    "translation": "mágoa",
+    "category": "Nom"
+  },
+  {
+    "word": "magro",
+    "translation": "magro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "maio",
+    "translation": "maio",
+    "category": "Nom"
+  },
+  {
+    "word": "maioria",
+    "translation": "maioria",
+    "category": "Nom"
+  },
+  {
+    "word": "majestade",
+    "translation": "majestade",
+    "category": "Nom"
+  },
+  {
+    "word": "malandro",
+    "translation": "malandro",
+    "category": "Nom"
+  },
+  {
+    "word": "malaria",
+    "translation": "malária",
+    "category": "Nom"
+  },
+  {
+    "word": "maldade",
+    "translation": "maldade",
+    "category": "Nom"
+  },
+  {
+    "word": "maldiçao",
+    "translation": "maldição",
+    "category": "Nom"
+  },
+  {
+    "word": "maleta",
+    "translation": "maleta",
+    "category": "Nom"
+  },
+  {
+    "word": "malha",
+    "translation": "malha",
+    "category": "Nom"
+  },
+  {
+    "word": "maluco",
+    "translation": "maluco",
+    "category": "Adjectif"
+  },
+  {
+    "word": "mamifero",
+    "translation": "mamífero",
+    "category": "Nom"
+  },
+  {
+    "word": "manada",
+    "translation": "manada",
+    "category": "Nom"
+  },
+  {
+    "word": "mancha",
+    "translation": "mancha",
+    "category": "Nom"
+  },
+  {
+    "word": "mandato",
+    "translation": "mandato",
+    "category": "Nom"
+  },
+  {
+    "word": "manifestason",
+    "translation": "manifestação",
+    "category": "Nom"
+  },
+  {
+    "word": "manivela",
+    "translation": "manivela",
+    "category": "Nom"
+  },
+  {
+    "word": "manjericao",
+    "translation": "manjericão",
+    "category": "Nom"
+  },
+  {
+    "word": "manso",
+    "translation": "manso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "manta",
+    "translation": "manta",
+    "category": "Nom"
+  },
+  {
+    "word": "manto",
+    "translation": "manto",
+    "category": "Nom"
+  },
+  {
+    "word": "manual",
+    "translation": "manual",
+    "category": "Nom"
+  },
+  {
+    "word": "manuscrito",
+    "translation": "manuscrito",
+    "category": "Nom"
+  },
+  {
+    "word": "mapa",
+    "translation": "mapa",
+    "category": "Nom"
+  },
+  {
+    "word": "maquete",
+    "translation": "maquete",
+    "category": "Nom"
+  },
+  {
+    "word": "maquina",
+    "translation": "máquina",
+    "category": "Nom"
+  },
+  {
+    "word": "maratona",
+    "translation": "maratona",
+    "category": "Nom"
+  },
+  {
+    "word": "maravilha",
+    "translation": "maravilha",
+    "category": "Nom"
+  },
+  {
+    "word": "marca",
+    "translation": "marca",
+    "category": "Nom"
+  },
+  {
+    "word": "marcha",
+    "translation": "marcha",
+    "category": "Nom"
+  },
+  {
+    "word": "março",
+    "translation": "março",
+    "category": "Nom"
+  },
+  {
+    "word": "mare",
+    "translation": "maré",
+    "category": "Nom"
+  },
+  {
+    "word": "margem",
+    "translation": "margem",
+    "category": "Nom"
+  },
+  {
+    "word": "marido",
+    "translation": "marido",
+    "category": "Nom"
+  },
+  {
+    "word": "marinha",
+    "translation": "marinha",
+    "category": "Nom"
+  },
+  {
+    "word": "marinheiro",
+    "translation": "marinheiro",
+    "category": "Nom"
+  },
+  {
+    "word": "marioneta",
+    "translation": "marioneta",
+    "category": "Nom"
+  },
+  {
+    "word": "mrmore",
+    "translation": "mármore",
+    "category": "Nom"
+  },
+  {
+    "word": "marquês",
+    "translation": "marquês",
+    "category": "Nom"
+  },
+  {
+    "word": "marrom",
+    "translation": "marrom",
+    "category": "Adjectif"
+  },
+  {
+    "word": "marte",
+    "translation": "marte",
+    "category": "Nom"
+  },
+  {
+    "word": "martelo",
+    "translation": "martelo",
+    "category": "Nom"
+  },
+  {
+    "word": "mascara",
+    "translation": "máscara",
+    "category": "Nom"
+  },
+  {
+    "word": "mascote",
+    "translation": "mascote",
+    "category": "Nom"
+  },
+  {
+    "word": "massagem",
+    "translation": "massagem",
+    "category": "Nom"
+  },
+  {
+    "word": "mastro",
+    "translation": "mastro",
+    "category": "Nom"
+  },
+  {
+    "word": "materia",
+    "translation": "matéria",
+    "category": "Nom"
+  },
+  {
+    "word": "matiz",
+    "translation": "matiz",
+    "category": "Nom"
+  },
+  {
+    "word": "mato",
+    "translation": "mato",
+    "category": "Nom"
+  },
+  {
+    "word": "maximo",
+    "translation": "máximo",
+    "category": "Nom"
+  },
+  {
+    "word": "mecaniko",
+    "translation": "mecânico",
+    "category": "Nom"
+  },
+  {
+    "word": "medalha",
+    "translation": "medalha",
+    "category": "Nom"
+  },
+  {
+    "word": "media",
+    "translation": "média",
+    "category": "Nom"
+  },
+  {
+    "word": "medico",
+    "translation": "médico",
+    "category": "Nom"
+  },
+  {
+    "word": "medida",
+    "translation": "medida",
+    "category": "Nom"
+  },
+  {
+    "word": "medo",
+    "translation": "medo",
+    "category": "Nom"
+  },
+  {
+    "word": "melancia",
+    "translation": "melancia",
+    "category": "Nom"
+  },
+  {
+    "word": "melao",
+    "translation": "melão",
+    "category": "Nom"
+  },
+  {
+    "word": "melodia",
+    "translation": "melodia",
+    "category": "Nom"
+  },
+  {
+    "word": "membro",
+    "translation": "membro",
+    "category": "Nom"
+  },
+  {
+    "word": "menina",
+    "translation": "menina",
+    "category": "Nom"
+  },
+  {
+    "word": "menino",
+    "translation": "menino",
+    "category": "Nom"
+  },
+  {
+    "word": "menos",
+    "translation": "menos",
+    "category": "Adverbe"
+  },
+  {
+    "word": "mensagem",
+    "translation": "mensagem",
+    "category": "Nom"
+  },
+  {
+    "word": "mente",
+    "translation": "mente",
+    "category": "Nom"
+  },
+  {
+    "word": "menu",
+    "translation": "menu",
+    "category": "Nom"
+  },
+  {
+    "word": "mercado",
+    "translation": "mercado",
+    "category": "Nom"
+  },
+  {
+    "word": "mercurio",
+    "translation": "mercúrio",
+    "category": "Nom"
+  },
+  {
+    "word": "merecimentu",
+    "translation": "merecimento",
+    "category": "Nom"
+  },
+  {
+    "word": "mergulho",
+    "translation": "mergulho",
+    "category": "Nom"
+  },
+  {
+    "word": "mesmo",
+    "translation": "mesmo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "metade",
+    "translation": "metade",
+    "category": "Nom"
+  },
+  {
+    "word": "meteoro",
+    "translation": "meteoro",
+    "category": "Nom"
+  },
+  {
+    "word": "metodu",
+    "translation": "método",
+    "category": "Nom"
+  },
+  {
+    "word": "metro",
+    "translation": "metro",
+    "category": "Nom"
+  },
+  {
+    "word": "mexilhao",
+    "translation": "mexilhão",
+    "category": "Nom"
+  },
+  {
+    "word": "microbio",
+    "translation": "micróbio",
+    "category": "Nom"
+  },
+  {
+    "word": "microfone",
+    "translation": "microfone",
+    "category": "Nom"
+  },
+  {
+    "word": "microscopio",
+    "translation": "microscópio",
+    "category": "Nom"
+  },
+  {
+    "word": "milhao",
+    "translation": "milhão",
+    "category": "Nombre"
+  },
+  {
+    "word": "milhar",
+    "translation": "milhar",
+    "category": "Nombre"
+  },
+  {
+    "word": "milho",
+    "translation": "milho",
+    "category": "Nom"
+  },
+  {
+    "word": "mim",
+    "translation": "mim",
+    "category": "Pronom"
+  },
+  {
+    "word": "mimo",
+    "translation": "mimo",
+    "category": "Nom"
+  },
+  {
+    "word": "mineiro",
+    "translation": "mineiro",
+    "category": "Nom"
+  },
+  {
+    "word": "minerio",
+    "translation": "minério",
+    "category": "Nom"
+  },
+  {
+    "word": "miniatura",
+    "translation": "miniatura",
+    "category": "Nom"
+  },
+  {
+    "word": "minimo",
+    "translation": "mínimo",
+    "category": "Nom"
+  },
+  {
+    "word": "ministerio",
+    "translation": "ministério",
+    "category": "Nom"
+  },
+  {
+    "word": "ministro",
+    "translation": "ministro",
+    "category": "Nom"
+  },
+  {
+    "word": "minuto",
+    "translation": "minuto",
+    "category": "Nom"
+  },
+  {
+    "word": "miolo",
+    "translation": "miolo",
+    "category": "Nom"
+  },
+  {
+    "word": "missa",
+    "translation": "missa",
+    "category": "Nom"
+  },
+  {
+    "word": "missao",
+    "translation": "missão",
+    "category": "Nom"
+  },
+  {
+    "word": "misterio",
+    "translation": "mistério",
+    "category": "Nom"
+  },
+  {
+    "word": "mito",
+    "translation": "mito",
+    "category": "Nom"
+  },
+  {
+    "word": "mochila",
+    "translation": "mochila",
+    "category": "Nom"
+  },
+  {
+    "word": "modelo",
+    "translation": "modelo",
+    "category": "Nom"
+  },
+  {
+    "word": "moderno",
+    "translation": "moderno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "modo",
+    "translation": "modo",
+    "category": "Nom"
+  },
+  {
+    "word": "moinho",
+    "translation": "moinho",
+    "category": "Nom"
+  },
+  {
+    "word": "mola",
+    "translation": "mola",
+    "category": "Nom"
+  },
+  {
+    "word": "moldura",
+    "translation": "moldura",
+    "category": "Nom"
+  },
+  {
+    "word": "mole",
+    "translation": "mole",
+    "category": "Adjectif"
+  },
+  {
+    "word": "molho",
+    "translation": "molho",
+    "category": "Nom"
+  },
+  {
+    "word": "momento",
+    "translation": "momento",
+    "category": "Nom"
+  },
+  {
+    "word": "monarca",
+    "translation": "monarca",
+    "category": "Nom"
+  },
+  {
+    "word": "monstro",
+    "translation": "monstro",
+    "category": "Nom"
+  },
+  {
+    "word": "monte",
+    "translation": "monte",
+    "category": "Nom"
+  },
+  {
+    "word": "monumento",
+    "translation": "monumento",
+    "category": "Nom"
+  },
+  {
+    "word": "morango",
+    "translation": "morango",
+    "category": "Nom"
+  },
+  {
+    "word": "morcego",
+    "translation": "morcego",
+    "category": "Nom"
+  },
+  {
+    "word": "moreno",
+    "translation": "moreno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "morno",
+    "translation": "morno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "morto",
+    "translation": "morto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "mosaico",
+    "translation": "mosaico",
+    "category": "Nom"
+  },
+  {
+    "word": "mosca",
+    "translation": "mosca",
+    "category": "Nom"
+  },
+  {
+    "word": "mosquito",
+    "translation": "mosquito",
+    "category": "Nom"
+  },
+  {
+    "word": "mostarda",
+    "translation": "mostarda",
+    "category": "Nom"
+  },
+  {
+    "word": "motivo",
+    "translation": "motivo",
+    "category": "Nom"
+  },
+  {
+    "word": "moto",
+    "translation": "moto",
+    "category": "Nom"
+  },
+  {
+    "word": "movimento",
+    "translation": "movimento",
+    "category": "Nom"
+  },
+  {
+    "word": "mudança",
+    "translation": "mudança",
+    "category": "Nom"
+  },
+  {
+    "word": "mudo",
+    "translation": "mudo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "muita",
+    "translation": "muita",
+    "category": "Adjectif"
+  },
+  {
+    "word": "muito",
+    "translation": "muito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "multiplicason",
+    "translation": "multiplicação",
+    "category": "Nom"
+  },
+  {
+    "word": "multidao",
+    "translation": "multidão",
+    "category": "Nom"
+  },
+  {
+    "word": "mumía",
+    "translation": "múmia",
+    "category": "Nom"
+  },
+  {
+    "word": "mundo",
+    "translation": "mundo",
+    "category": "Nom"
+  },
+  {
+    "word": "muralha",
+    "translation": "muralha",
+    "category": "Nom"
+  },
+  {
+    "word": "musculo",
+    "translation": "músculo",
+    "category": "Nom"
+  },
+  {
+    "word": "museu",
+    "translation": "museu",
+    "category": "Nom"
+  },
+  {
+    "word": "musgo",
+    "translation": "musgo",
+    "category": "Nom"
+  },
+  {
+    "word": "musica",
+    "translation": "música",
+    "category": "Nom"
+  },
+  {
+    "word": "musico",
+    "translation": "músico",
+    "category": "Nom"
+  },
+  {
+    "word": "n",
+    "translation": "letra n",
+    "category": "Nom"
+  },
+  {
+    "word": "nao",
+    "translation": "não",
+    "category": "Adverbe"
+  },
+  {
+    "word": "nabo",
+    "translation": "nabo",
+    "category": "Nom"
+  },
+  {
+    "word": "nacao",
+    "translation": "nação",
+    "category": "Nom"
+  },
+  {
+    "word": "nadador",
+    "translation": "nadador",
+    "category": "Nom"
+  },
+  {
+    "word": "namorado",
+    "translation": "namorado",
+    "category": "Nom"
+  },
+  {
+    "word": "nascimento",
+    "translation": "nascimento",
+    "category": "Nom"
+  },
+  {
+    "word": "nata",
+    "translation": "nata",
+    "category": "Nom"
+  },
+  {
+    "word": "naufragio",
+    "translation": "naufrágio",
+    "category": "Nom"
+  },
+  {
+    "word": "navalha",
+    "translation": "navalha",
+    "category": "Nom"
+  },
+  {
+    "word": "nave",
+    "translation": "nave",
+    "category": "Nom"
+  },
+  {
+    "word": "navio",
+    "translation": "navio",
+    "category": "Nom"
+  },
+  {
+    "word": "neblina",
+    "translation": "neblina",
+    "category": "Nom"
+  },
+  {
+    "word": "necessario",
+    "translation": "necessário",
+    "category": "Adjectif"
+  },
+  {
+    "word": "negativo",
+    "translation": "negativo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "negocio",
+    "translation": "negócio",
+    "category": "Nom"
+  },
+  {
+    "word": "negro",
+    "translation": "negro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "nervo",
+    "translation": "nervo",
+    "category": "Nom"
+  },
+  {
+    "word": "neto",
+    "translation": "neto",
+    "category": "Nom"
+  },
+  {
+    "word": "nevoa",
+    "translation": "névoa",
+    "category": "Nom"
+  },
+  {
+    "word": "nobreza",
+    "translation": "nobreza",
+    "category": "Nom"
+  },
+  {
+    "word": "noivo",
+    "translation": "noivo",
+    "category": "Nom"
+  },
+  {
+    "word": "nora",
+    "translation": "nora",
+    "category": "Nom"
+  },
+  {
+    "word": "nordeste",
+    "translation": "nordeste",
+    "category": "Nom"
+  },
+  {
+    "word": "norma",
+    "translation": "norma",
+    "category": "Nom"
+  },
+  {
+    "word": "noroeste",
+    "translation": "noroeste",
+    "category": "Nom"
+  },
+  {
+    "word": "nossa",
+    "translation": "nossa",
+    "category": "Possessif"
+  },
+  {
+    "word": "nosso",
+    "translation": "nosso",
+    "category": "Possessif"
+  },
+  {
+    "word": "noticia",
+    "translation": "notícia",
+    "category": "Nom"
+  },
+  {
+    "word": "nova",
+    "translation": "nova",
+    "category": "Adjectif"
+  },
+  {
+    "word": "novembro",
+    "translation": "novembro",
+    "category": "Nom"
+  },
+  {
+    "word": "noventa",
+    "translation": "noventa",
+    "category": "Nombre"
+  },
+  {
+    "word": "novidade",
+    "translation": "novidade",
+    "category": "Nom"
+  },
+  {
+    "word": "novilha",
+    "translation": "novilha",
+    "category": "Nom"
+  },
+  {
+    "word": "novelo",
+    "translation": "novelo",
+    "category": "Nom"
+  },
+  {
+    "word": "novo",
+    "translation": "novo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "noz",
+    "translation": "noz",
+    "category": "Nom"
+  },
+  {
+    "word": "nublado",
+    "translation": "nublado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "nuclear",
+    "translation": "nuclear",
+    "category": "Adjectif"
+  },
+  {
+    "word": "nudez",
+    "translation": "nudez",
+    "category": "Nom"
+  },
+  {
+    "word": "num",
+    "translation": "num",
+    "category": "Préposition"
+  },
+  {
+    "word": "numero",
+    "translation": "número",
+    "category": "Nom"
+  },
+  {
+    "word": "nunca",
+    "translation": "nunca",
+    "category": "Adverbe"
+  },
+  {
+    "word": "nuvem",
+    "translation": "nuvem",
+    "category": "Nom"
+  },
+  {
+    "word": "oasis",
+    "translation": "oásis",
+    "category": "Nom"
+  },
+  {
+    "word": "obedient",
+    "translation": "obediente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "objetivo",
+    "translation": "objetivo",
+    "category": "Nom"
+  },
+  {
+    "word": "objeto",
+    "translation": "objeto",
+    "category": "Nom"
+  },
+  {
+    "word": "obrigado",
+    "translation": "obrigado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "observason",
+    "translation": "observação",
+    "category": "Nom"
+  },
+  {
+    "word": "obstaculo",
+    "translation": "obstáculo",
+    "category": "Nom"
+  },
+  {
+    "word": "oceano",
+    "translation": "oceano",
+    "category": "Nom"
+  },
+  {
+    "word": "ocidente",
+    "translation": "ocidente",
+    "category": "Nom"
+  },
+  {
+    "word": "oculos",
+    "translation": "óculos",
+    "category": "Nom"
+  },
+  {
+    "word": "odio",
+    "translation": "ódio",
+    "category": "Nom"
+  },
+  {
+    "word": "oeste",
+    "translation": "oeste",
+    "category": "Nom"
+  },
+  {
+    "word": "oferta",
+    "translation": "oferta",
+    "category": "Nom"
+  },
+  {
+    "word": "oficina",
+    "translation": "oficina",
+    "category": "Nom"
+  },
+  {
+    "word": "oficial",
+    "translation": "oficial",
+    "category": "Nom"
+  },
+  {
+    "word": "oitenta",
+    "translation": "oitenta",
+    "category": "Nombre"
+  },
+  {
+    "word": "oleo",
+    "translation": "óleo",
+    "category": "Nom"
+  },
+  {
+    "word": "olho",
+    "translation": "olho",
+    "category": "Nom"
+  },
+  {
+    "word": "olimpico",
+    "translation": "olímpico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "oliva",
+    "translation": "oliva",
+    "category": "Nom"
+  },
+  {
+    "word": "ombro",
+    "translation": "ombro",
+    "category": "Nom"
+  },
+  {
+    "word": "onde",
+    "translation": "onde",
+    "category": "Adverbe"
+  },
+  {
+    "word": "ontem",
+    "translation": "ontem",
+    "category": "Adverbe"
+  },
+  {
+    "word": "opale",
+    "translation": "opala",
+    "category": "Nom"
+  },
+  {
+    "word": "operariu",
+    "translation": "operário",
+    "category": "Nom"
+  },
+  {
+    "word": "opiniao",
+    "translation": "opinião",
+    "category": "Nom"
+  },
+  {
+    "word": "oposison",
+    "translation": "oposição",
+    "category": "Nom"
+  },
+  {
+    "word": "oracao",
+    "translation": "oração",
+    "category": "Nom"
+  },
+  {
+    "word": "oraculo",
+    "translation": "oráculo",
+    "category": "Nom"
+  },
+  {
+    "word": "oral",
+    "translation": "oral",
+    "category": "Adjectif"
+  },
+  {
+    "word": "orbita",
+    "translation": "órbita",
+    "category": "Nom"
+  },
+  {
+    "word": "ordenado",
+    "translation": "ordenado",
+    "category": "Nom"
+  },
+  {
+    "word": "orelha",
+    "translation": "orelha",
+    "category": "Nom"
+  },
+  {
+    "word": "orfao",
+    "translation": "órfão",
+    "category": "Nom"
+  },
+  {
+    "word": "orgao",
+    "translation": "órgão",
+    "category": "Nom"
+  },
+  {
+    "word": "organismo",
+    "translation": "organismo",
+    "category": "Nom"
+  },
+  {
+    "word": "organizason",
+    "translation": "organização",
+    "category": "Nom"
+  },
+  {
+    "word": "orgulho",
+    "translation": "orgulho",
+    "category": "Nom"
+  },
+  {
+    "word": "oriente",
+    "translation": "oriente",
+    "category": "Nom"
+  },
+  {
+    "word": "origem",
+    "translation": "origem",
+    "category": "Nom"
+  },
+  {
+    "word": "original",
+    "translation": "original",
+    "category": "Adjectif"
+  },
+  {
+    "word": "orizonte",
+    "translation": "horizonte",
+    "category": "Nom"
+  },
+  {
+    "word": "orquestra",
+    "translation": "orquestra",
+    "category": "Nom"
+  },
+  {
+    "word": "arroz",
+    "translation": "arroz",
+    "category": "Nom"
+  },
+  {
+    "word": "osso",
+    "translation": "osso",
+    "category": "Nom"
+  },
+  {
+    "word": "ostra",
+    "translation": "ostra",
+    "category": "Nom"
+  },
+  {
+    "word": "ouro",
+    "translation": "ouro",
+    "category": "Nom"
+  },
+  {
+    "word": "outono",
+    "translation": "outono",
+    "category": "Nom"
+  },
+  {
+    "word": "outro",
+    "translation": "outro",
+    "category": "Pronom"
+  },
+  {
+    "word": "outubro",
+    "translation": "outubro",
+    "category": "Nom"
+  },
+  {
+    "word": "ouvido",
+    "translation": "ouvido",
+    "category": "Nom"
+  },
+  {
+    "word": "ovelha",
+    "translation": "ovelha",
+    "category": "Nom"
+  },
+  {
+    "word": "ovo",
+    "translation": "ovo",
+    "category": "Nom"
+  },
+  {
+    "word": "p",
+    "translation": "letra p",
+    "category": "Nom"
+  },
+  {
+    "word": "paciencia",
+    "translation": "paciência",
+    "category": "Nom"
+  },
+  {
+    "word": "pacote",
+    "translation": "pacote",
+    "category": "Nom"
+  },
+  {
+    "word": "padaria",
+    "translation": "padaria",
+    "category": "Nom"
+  },
+  {
+    "word": "padrinho",
+    "translation": "padrinho",
+    "category": "Nom"
+  },
+  {
+    "word": "pagamento",
+    "translation": "pagamento",
+    "category": "Nom"
+  },
+  {
+    "word": "pagina",
+    "translation": "página",
+    "category": "Nom"
+  },
+  {
+    "word": "painel",
+    "translation": "painel",
+    "category": "Nom"
+  },
+  {
+    "word": "paisagem",
+    "translation": "paisagem",
+    "category": "Nom"
+  },
+  {
+    "word": "paixao",
+    "translation": "paixão",
+    "category": "Nom"
+  },
+  {
+    "word": "pala",
+    "translation": "pala",
+    "category": "Nom"
+  },
+  {
+    "word": "palacio",
+    "translation": "palácio",
+    "category": "Nom"
+  },
+  {
+    "word": "palha",
+    "translation": "palha",
+    "category": "Nom"
+  },
+  {
+    "word": "palhaço",
+    "translation": "palhaço",
+    "category": "Nom"
+  },
+  {
+    "word": "palmeira",
+    "translation": "palmeira",
+    "category": "Nom"
+  },
+  {
+    "word": "palmito",
+    "translation": "palmito",
+    "category": "Nom"
+  },
+  {
+    "word": "pancada",
+    "translation": "pancada",
+    "category": "Nom"
+  },
+  {
+    "word": "panda",
+    "translation": "panda",
+    "category": "Nom"
+  },
+  {
+    "word": "panico",
+    "translation": "pânico",
+    "category": "Nom"
+  },
+  {
+    "word": "pantano",
+    "translation": "pântano",
+    "category": "Nom"
+  },
+  {
+    "word": "pantera",
+    "translation": "pantera",
+    "category": "Nom"
+  },
+  {
+    "word": "papai",
+    "translation": "papai",
+    "category": "Nom"
+  },
+  {
+    "word": "papagaio",
+    "translation": "papagaio",
+    "category": "Nom"
+  },
+  {
+    "word": "papeira",
+    "translation": "papeira",
+    "category": "Nom"
+  },
+  {
+    "word": "papelaria",
+    "translation": "papelaria",
+    "category": "Nom"
+  },
+  {
+    "word": "paquete",
+    "translation": "paquete",
+    "category": "Nom"
+  },
+  {
+    "word": "parada",
+    "translation": "parada",
+    "category": "Nom"
+  },
+  {
+    "word": "parafuso",
+    "translation": "parafuso",
+    "category": "Nom"
+  },
+  {
+    "word": "paragrafo",
+    "translation": "parágrafo",
+    "category": "Nom"
+  },
+  {
+    "word": "paraiso",
+    "translation": "paraíso",
+    "category": "Nom"
+  },
+  {
+    "word": "paralelepipedo",
+    "translation": "paralelepípedo",
+    "category": "Nom"
+  },
+  {
+    "word": "parente",
+    "translation": "parente",
+    "category": "Nom"
+  },
+  {
+    "word": "parque",
+    "translation": "parque",
+    "category": "Nom"
+  },
+  {
+    "word": "parte",
+    "translation": "parte",
+    "category": "Nom"
+  },
+  {
+    "word": "partida",
+    "translation": "partida",
+    "category": "Nom"
+  },
+  {
+    "word": "partido",
+    "translation": "partido",
+    "category": "Nom"
+  },
+  {
+    "word": "pascoa",
+    "translation": "páscoa",
+    "category": "Nom"
+  },
+  {
+    "word": "passado",
+    "translation": "passado",
+    "category": "Nom"
+  },
+  {
+    "word": "passageiro",
+    "translation": "passageiro",
+    "category": "Nom"
+  },
+  {
+    "word": "passagem",
+    "translation": "passagem",
+    "category": "Nom"
+  },
+  {
+    "word": "passaporte",
+    "translation": "passaporte",
+    "category": "Nom"
+  },
+  {
+    "word": "passaro",
+    "translation": "pássaro",
+    "category": "Nom"
+  },
+  {
+    "word": "passatempo",
+    "translation": "passatempo",
+    "category": "Nom"
+  },
+  {
+    "word": "passeio",
+    "translation": "passeio",
+    "category": "Nom"
+  },
+  {
+    "word": "passo",
+    "translation": "passo",
+    "category": "Nom"
+  },
+  {
+    "word": "pasta",
+    "translation": "pasta",
+    "category": "Nom"
+  },
+  {
+    "word": "pastel",
+    "translation": "pastel",
+    "category": "Nom"
+  },
+  {
+    "word": "pastilha",
+    "translation": "pastilha",
+    "category": "Nom"
+  },
+  {
+    "word": "pasto",
+    "translation": "pasto",
+    "category": "Nom"
+  },
+  {
+    "word": "pastor",
+    "translation": "pastor",
+    "category": "Nom"
+  },
+  {
+    "word": "patim",
+    "translation": "patim",
+    "category": "Nom"
+  },
+  {
+    "word": "patinha",
+    "translation": "patinha",
+    "category": "Nom"
+  },
+  {
+    "word": "patio",
+    "translation": "pátio",
+    "category": "Nom"
+  },
+  {
+    "word": "pato",
+    "translation": "pato",
+    "category": "Nom"
+  },
+  {
+    "word": "patrao",
+    "translation": "patrão",
+    "category": "Nom"
+  },
+  {
+    "word": "patria",
+    "translation": "pátria",
+    "category": "Nom"
+  },
+  {
+    "word": "pausa",
+    "translation": "pausa",
+    "category": "Nom"
+  },
+  {
+    "word": "pavao",
+    "translation": "pavão",
+    "category": "Nom"
+  },
+  {
+    "word": "pecado",
+    "translation": "pecado",
+    "category": "Nom"
+  },
+  {
+    "word": "peça",
+    "translation": "peça",
+    "category": "Nom"
+  },
+  {
+    "word": "pedaco",
+    "translation": "pedaço",
+    "category": "Nom"
+  },
+  {
+    "word": "pedal",
+    "translation": "pedal",
+    "category": "Nom"
+  },
+  {
+    "word": "pedido",
+    "translation": "pedido",
+    "category": "Nom"
+  },
+  {
+    "word": "pedreiro",
+    "translation": "pedreiro",
+    "category": "Nom"
+  },
+  {
+    "word": "pegada",
+    "translation": "pegada",
+    "category": "Nom"
+  },
+  {
+    "word": "peito",
+    "translation": "peito",
+    "category": "Nom"
+  },
+  {
+    "word": "peixe",
+    "translation": "peixe",
+    "category": "Nom"
+  },
+  {
+    "word": "pelicano",
+    "translation": "pelicano",
+    "category": "Nom"
+  },
+  {
+    "word": "pelo",
+    "translation": "pêlo",
+    "category": "Nom"
+  },
+  {
+    "word": "pendulo",
+    "translation": "pêndulo",
+    "category": "Nom"
+  },
+  {
+    "word": "peneira",
+    "translation": "peneira",
+    "category": "Nom"
+  },
+  {
+    "word": "penha",
+    "translation": "penha",
+    "category": "Nom"
+  },
+  {
+    "word": "peninsula",
+    "translation": "península",
+    "category": "Nom"
+  },
+  {
+    "word": "pensamento",
+    "translation": "pensamento",
+    "category": "Nom"
+  },
+  {
+    "word": "penso",
+    "translation": "penso",
+    "category": "Nom"
+  },
+  {
+    "word": "pepino",
+    "translation": "pepino",
+    "category": "Nom"
+  },
+  {
+    "word": "pequeno",
+    "translation": "pequeno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "pera",
+    "translation": "pera",
+    "category": "Nom"
+  },
+  {
+    "word": "perdao",
+    "translation": "perdão",
+    "category": "Nom"
+  },
+  {
+    "word": "perdiz",
+    "translation": "perdiz",
+    "category": "Nom"
+  },
+  {
+    "word": "perfeito",
+    "translation": "perfeito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "perfil",
+    "translation": "perfil",
+    "category": "Nom"
+  },
+  {
+    "word": "perfume",
+    "translation": "perfume",
+    "category": "Nom"
+  },
+  {
+    "word": "perigo",
+    "translation": "perigo",
+    "category": "Nom"
+  },
+  {
+    "word": "periodo",
+    "translation": "período",
+    "category": "Nom"
+  },
+  {
+    "word": "perito",
+    "translation": "perito",
+    "category": "Nom"
+  },
+  {
+    "word": "perola",
+    "translation": "pérola",
+    "category": "Nom"
+  },
+  {
+    "word": "persiana",
+    "translation": "persiana",
+    "category": "Nom"
+  },
+  {
+    "word": "personagem",
+    "translation": "personagem",
+    "category": "Nom"
+  },
+  {
+    "word": "peru",
+    "translation": "peru",
+    "category": "Nom"
+  },
+  {
+    "word": "pesca",
+    "translation": "pesca",
+    "category": "Nom"
+  },
+  {
+    "word": "pescador",
+    "translation": "pescador",
+    "category": "Nom"
+  },
+  {
+    "word": "pescoço",
+    "translation": "pescoço",
+    "category": "Nom"
+  },
+  {
+    "word": "peso",
+    "translation": "peso",
+    "category": "Nom"
+  },
+  {
+    "word": "pessego",
+    "translation": "pêssego",
+    "category": "Nom"
+  },
+  {
+    "word": "pessoa",
+    "translation": "pessoa",
+    "category": "Nom"
+  },
+  {
+    "word": "pestana",
+    "translation": "pestana",
+    "category": "Nom"
+  },
+  {
+    "word": "peste",
+    "translation": "peste",
+    "category": "Nom"
+  },
+  {
+    "word": "petala",
+    "translation": "pétala",
+    "category": "Nom"
+  },
+  {
+    "word": "petroleo",
+    "translation": "petróleo",
+    "category": "Nom"
+  },
+  {
+    "word": "piano",
+    "translation": "piano",
+    "category": "Nom"
+  },
+  {
+    "word": "picada",
+    "translation": "picada",
+    "category": "Nom"
+  },
+  {
+    "word": "picareta",
+    "translation": "picareta",
+    "category": "Nom"
+  },
+  {
+    "word": "pico",
+    "translation": "pico",
+    "category": "Nom"
+  },
+  {
+    "word": "pijama",
+    "translation": "pijama",
+    "category": "Nom"
+  },
+  {
+    "word": "pilao",
+    "translation": "pilão",
+    "category": "Nom"
+  },
+  {
+    "word": "pilha",
+    "translation": "pilha",
+    "category": "Nom"
+  },
+  {
+    "word": "piloto",
+    "translation": "piloto",
+    "category": "Nom"
+  },
+  {
+    "word": "pimentao",
+    "translation": "pimentão",
+    "category": "Nom"
+  },
+  {
+    "word": "pinça",
+    "translation": "pinça",
+    "category": "Nom"
+  },
+  {
+    "word": "pincel",
+    "translation": "pincel",
+    "category": "Nom"
+  },
+  {
+    "word": "pingalim",
+    "translation": "pingalim",
+    "category": "Nom"
+  },
+  {
+    "word": "pinguim",
+    "translation": "pinguim",
+    "category": "Nom"
+  },
+  {
+    "word": "pinha",
+    "translation": "pinha",
+    "category": "Nom"
+  },
+  {
+    "word": "pinheiro",
+    "translation": "pinheiro",
+    "category": "Nom"
+  },
+  {
+    "word": "pino",
+    "translation": "pino",
+    "category": "Nom"
+  },
+  {
+    "word": "pintar",
+    "translation": "pintar",
+    "category": "Verbe"
+  },
+  {
+    "word": "piolho",
+    "translation": "piolho",
+    "category": "Nom"
+  },
+  {
+    "word": "pipoca",
+    "translation": "pipoca",
+    "category": "Nom"
+  },
+  {
+    "word": "piquenique",
+    "translation": "piquenique",
+    "category": "Nom"
+  },
+  {
+    "word": "piramide",
+    "translation": "pirâmide",
+    "category": "Nom"
+  },
+  {
+    "word": "pirata",
+    "translation": "pirata",
+    "category": "Nom"
+  },
+  {
+    "word": "pires",
+    "translation": "pires",
+    "category": "Nom"
+  },
+  {
+    "word": "pirilampo",
+    "translation": "pirilampo",
+    "category": "Nom"
+  },
+  {
+    "word": "piscinas",
+    "translation": "piscina",
+    "category": "Nom"
+  },
+  {
+    "word": "pista",
+    "translation": "pista",
+    "category": "Nom"
+  },
+  {
+    "word": "placa",
+    "translation": "placa",
+    "category": "Nom"
+  },
+  {
+    "word": "planeta",
+    "translation": "planeta",
+    "category": "Nom"
+  },
+  {
+    "word": "plano",
+    "translation": "plano",
+    "category": "Nom"
+  },
+  {
+    "word": "plastico",
+    "translation": "plástico",
+    "category": "Nom"
+  },
+  {
+    "word": "plataforma",
+    "translation": "plataforma",
+    "category": "Nom"
+  },
+  {
+    "word": "platina",
+    "translation": "platina",
+    "category": "Nom"
+  },
+  {
+    "word": "poco",
+    "translation": "poço",
+    "category": "Nom"
+  },
+  {
+    "word": "poder",
+    "translation": "poder",
+    "category": "Nom"
+  },
+  {
+    "word": "poema",
+    "translation": "poema",
+    "category": "Nom"
+  },
+  {
+    "word": "poesia",
+    "translation": "poesia",
+    "category": "Nom"
+  },
+  {
+    "word": "poeta",
+    "translation": "poeta",
+    "category": "Nom"
+  },
+  {
+    "word": "polegar",
+    "translation": "polegar",
+    "category": "Nom"
+  },
+  {
+    "word": "polen",
+    "translation": "pólen",
+    "category": "Nom"
+  },
+  {
+    "word": "politica",
+    "translation": "política",
+    "category": "Nom"
+  },
+  {
+    "word": "politico",
+    "translation": "político",
+    "category": "Nom"
+  },
+  {
+    "word": "polvo",
+    "translation": "polvo",
+    "category": "Nom"
+  },
+  {
+    "word": "pomar",
+    "translation": "pomar",
+    "category": "Nom"
+  },
+  {
+    "word": "pombo",
+    "translation": "pombo",
+    "category": "Nom"
+  },
+  {
+    "word": "ponte",
+    "translation": "ponte",
+    "category": "Nom"
+  },
+  {
+    "word": "populacao",
+    "translation": "população",
+    "category": "Nom"
+  },
+  {
+    "word": "porco",
+    "translation": "porco",
+    "category": "Nom"
+  },
+  {
+    "word": "porco-espinho",
+    "translation": "porco-espinho",
+    "category": "Nom"
+  },
+  {
+    "word": "poro",
+    "translation": "poro",
+    "category": "Nom"
+  },
+  {
+    "word": "portao",
+    "translation": "portão",
+    "category": "Nom"
+  },
+  {
+    "word": "porto",
+    "translation": "porto",
+    "category": "Nom"
+  },
+  {
+    "word": "portugues",
+    "translation": "português",
+    "category": "Nom"
+  },
+  {
+    "word": "posiçao",
+    "translation": "posição",
+    "category": "Nom"
+  },
+  {
+    "word": "possivel",
+    "translation": "possível",
+    "category": "Adjectif"
+  },
+  {
+    "word": "poste",
+    "translation": "poste",
+    "category": "Nom"
+  },
+  {
+    "word": "pote",
+    "translation": "pote",
+    "category": "Nom"
+  },
+  {
+    "word": "potro",
+    "translation": "potro",
+    "category": "Nom"
+  },
+  {
+    "word": "pouca",
+    "translation": "pouca",
+    "category": "Adjectif"
+  },
+  {
+    "word": "pouco",
+    "translation": "pouco",
+    "category": "Adjectif"
+  },
+  {
+    "word": "povo",
+    "translation": "povo",
+    "category": "Nom"
+  },
+  {
+    "word": "praça",
+    "translation": "praça",
+    "category": "Nom"
+  },
+  {
+    "word": "praia",
+    "translation": "praia",
+    "category": "Nom"
+  },
+  {
+    "word": "prato",
+    "translation": "prato",
+    "category": "Nom"
+  },
+  {
+    "word": "prazo",
+    "translation": "prazo",
+    "category": "Nom"
+  },
+  {
+    "word": "prece",
+    "translation": "prece",
+    "category": "Nom"
+  },
+  {
+    "word": "preco",
+    "translation": "preço",
+    "category": "Nom"
+  },
+  {
+    "word": "predio",
+    "translation": "prédio",
+    "category": "Nom"
+  },
+  {
+    "word": "prego",
+    "translation": "prego",
+    "category": "Nom"
+  },
+  {
+    "word": "preguica",
+    "translation": "preguiça",
+    "category": "Nom"
+  },
+  {
+    "word": "premio",
+    "translation": "prémio",
+    "category": "Nom"
+  },
+  {
+    "word": "prenda",
+    "translation": "prenda",
+    "category": "Nom"
+  },
+  {
+    "word": "preocupason",
+    "translation": "preocupação",
+    "category": "Nom"
+  },
+  {
+    "word": "preparason",
+    "translation": "preparação",
+    "category": "Nom"
+  },
+  {
+    "word": "presenca",
+    "translation": "presença",
+    "category": "Nom"
+  },
+  {
+    "word": "presepio",
+    "translation": "presépio",
+    "category": "Nom"
+  },
+  {
+    "word": "pressa",
+    "translation": "pressa",
+    "category": "Nom"
+  },
+  {
+    "word": "pressao",
+    "translation": "pressão",
+    "category": "Nom"
+  },
+  {
+    "word": "preto",
+    "translation": "preto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "primeiro",
+    "translation": "primeiro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "primo",
+    "translation": "primo",
+    "category": "Nom"
+  },
+  {
+    "word": "princesa",
+    "translation": "princesa",
+    "category": "Nom"
+  },
+  {
+    "word": "principe",
+    "translation": "príncipe",
+    "category": "Nom"
+  },
+  {
+    "word": "principio",
+    "translation": "princípio",
+    "category": "Nom"
+  },
+  {
+    "word": "privado",
+    "translation": "privado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "procissao",
+    "translation": "procissão",
+    "category": "Nom"
+  },
+  {
+    "word": "produçao",
+    "translation": "produção",
+    "category": "Nom"
+  },
+  {
+    "word": "produto",
+    "translation": "produto",
+    "category": "Nom"
+  },
+  {
+    "word": "professor",
+    "translation": "professor",
+    "category": "Nom"
+  },
+  {
+    "word": "profissao",
+    "translation": "profissão",
+    "category": "Nom"
+  },
+  {
+    "word": "profundo",
+    "translation": "profundo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "progresso",
+    "translation": "progresso",
+    "category": "Nom"
+  },
+  {
+    "word": "promessa",
+    "translation": "promessa",
+    "category": "Nom"
+  },
+  {
+    "word": "pronto",
+    "translation": "pronto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "propriedade",
+    "translation": "propriedade",
+    "category": "Nom"
+  },
+  {
+    "word": "proprio",
+    "translation": "próprio",
+    "category": "Adjectif"
+  },
+  {
+    "word": "proverbio",
+    "translation": "provérbio",
+    "category": "Nom"
+  },
+  {
+    "word": "proximo",
+    "translation": "próximo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "publico",
+    "translation": "público",
+    "category": "Adjectif"
+  },
+  {
+    "word": "pudim",
+    "translation": "pudim",
+    "category": "Nom"
+  },
+  {
+    "word": "pulga",
+    "translation": "pulga",
+    "category": "Nom"
+  },
+  {
+    "word": "pulmao",
+    "translation": "pulmão",
+    "category": "Nom"
+  },
+  {
+    "word": "pulso",
+    "translation": "pulso",
+    "category": "Nom"
+  },
+  {
+    "word": "punhado",
+    "translation": "punhado",
+    "category": "Nom"
+  },
+  {
+    "word": "punhal",
+    "translation": "punhal",
+    "category": "Nom"
+  },
+  {
+    "word": "punho",
+    "translation": "punho",
+    "category": "Nom"
+  },
+  {
+    "word": "pupilo",
+    "translation": "pupilo",
+    "category": "Nom"
+  },
+  {
+    "word": "pure",
+    "translation": "puré",
+    "category": "Nom"
+  },
+  {
+    "word": "puxador",
+    "translation": "puxador",
+    "category": "Nom"
+  },
+  {
+    "word": "q",
+    "translation": "letra q",
+    "category": "Nom"
+  },
+  {
+    "word": "quadrado",
+    "translation": "quadrado",
+    "category": "Nom"
+  },
+  {
+    "word": "quadril",
+    "translation": "quadril",
+    "category": "Nom"
+  },
+  {
+    "word": "quadro",
+    "translation": "quadro",
+    "category": "Nom"
+  },
+  {
+    "word": "qualidade",
+    "translation": "qualidade",
+    "category": "Nom"
+  },
+  {
+    "word": "quantidade",
+    "translation": "quantidade",
+    "category": "Nom"
+  },
+  {
+    "word": "quarto",
+    "translation": "quarto",
+    "category": "Nom"
+  },
+  {
+    "word": "quartzo",
+    "translation": "quartzo",
+    "category": "Nom"
+  },
+  {
+    "word": "queijo",
+    "translation": "queijo",
+    "category": "Nom"
+  },
+  {
+    "word": "queimadura",
+    "translation": "queimadura",
+    "category": "Nom"
+  },
+  {
+    "word": "queixo",
+    "translation": "queixo",
+    "category": "Nom"
+  },
+  {
+    "word": "queda",
+    "translation": "queda",
+    "category": "Nom"
+  },
+  {
+    "word": "quente",
+    "translation": "quente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "querido",
+    "translation": "querido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "questao",
+    "translation": "questão",
+    "category": "Nom"
+  },
+  {
+    "word": "quilo",
+    "translation": "quilo",
+    "category": "Nom"
+  },
+  {
+    "word": "quilometro",
+    "translation": "quilómetro",
+    "category": "Nom"
+  },
+  {
+    "word": "quimica",
+    "translation": "química",
+    "category": "Nom"
+  },
+  {
+    "word": "quimico",
+    "translation": "químico",
+    "category": "Nom"
+  },
+  {
+    "word": "quinta",
+    "translation": "quinta",
+    "category": "Nom"
+  },
+  {
+    "word": "quintal",
+    "translation": "quintal",
+    "category": "Nom"
+  },
+  {
+    "word": "quinze",
+    "translation": "quinze",
+    "category": "Nombre"
+  },
+  {
+    "word": "r",
+    "translation": "letra r",
+    "category": "Nom"
+  },
+  {
+    "word": "ra",
+    "translation": "rã",
+    "category": "Nom"
+  },
+  {
+    "word": "rabisco",
+    "translation": "rabisco",
+    "category": "Nom"
+  },
+  {
+    "word": "rabo",
+    "translation": "rabo",
+    "category": "Nom"
+  },
+  {
+    "word": "raça",
+    "translation": "raça",
+    "category": "Nom"
+  },
+  {
+    "word": "racao",
+    "translation": "ração",
+    "category": "Nom"
+  },
+  {
+    "word": "radar",
+    "translation": "radar",
+    "category": "Nom"
+  },
+  {
+    "word": "radio",
+    "translation": "rádio",
+    "category": "Nom"
+  },
+  {
+    "word": "rainha",
+    "translation": "rainha",
+    "category": "Nom"
+  },
+  {
+    "word": "raiva",
+    "translation": "raiva",
+    "category": "Nom"
+  },
+  {
+    "word": "raiz",
+    "translation": "raiz",
+    "category": "Nom"
+  },
+  {
+    "word": "ralador",
+    "translation": "ralador",
+    "category": "Nom"
+  },
+  {
+    "word": "ramo",
+    "translation": "ramo",
+    "category": "Nom"
+  },
+  {
+    "word": "rampa",
+    "translation": "rampa",
+    "category": "Nom"
+  },
+  {
+    "word": "ranchu",
+    "translation": "rancho",
+    "category": "Nom"
+  },
+  {
+    "word": "rapaz",
+    "translation": "rapaz",
+    "category": "Nom"
+  },
+  {
+    "word": "rapido",
+    "translation": "rápido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "raposa",
+    "translation": "raposa",
+    "category": "Nom"
+  },
+  {
+    "word": "raro",
+    "translation": "raro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "rato",
+    "translation": "rato",
+    "category": "Nom"
+  },
+  {
+    "word": "razao",
+    "translation": "razão",
+    "category": "Nom"
+  },
+  {
+    "word": "realidade",
+    "translation": "realidade",
+    "category": "Nom"
+  },
+  {
+    "word": "rebanho",
+    "translation": "rebanho",
+    "category": "Nom"
+  },
+  {
+    "word": "receita",
+    "translation": "receita",
+    "category": "Nom"
+  },
+  {
+    "word": "recheio",
+    "translation": "recheio",
+    "category": "Nom"
+  },
+  {
+    "word": "recibo",
+    "translation": "recibo",
+    "category": "Nom"
+  },
+  {
+    "word": "rede",
+    "translation": "rede",
+    "category": "Nom"
+  },
+  {
+    "word": "redea",
+    "translation": "rédea",
+    "category": "Nom"
+  },
+  {
+    "word": "redondo",
+    "translation": "redondo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "referencia",
+    "translation": "referência",
+    "category": "Nom"
+  },
+  {
+    "word": "refletor",
+    "translation": "refletor",
+    "category": "Nom"
+  },
+  {
+    "word": "reflexo",
+    "translation": "reflexo",
+    "category": "Nom"
+  },
+  {
+    "word": "reforma",
+    "translation": "reforma",
+    "category": "Nom"
+  },
+  {
+    "word": "refugio",
+    "translation": "refúgio",
+    "category": "Nom"
+  },
+  {
+    "word": "regiao",
+    "translation": "região",
+    "category": "Nom"
+  },
+  {
+    "word": "registo",
+    "translation": "registo",
+    "category": "Nom"
+  },
+  {
+    "word": "regua",
+    "translation": "régua",
+    "category": "Nom"
+  },
+  {
+    "word": "reino",
+    "translation": "reino",
+    "category": "Nom"
+  },
+  {
+    "word": "relacao",
+    "translation": "relação",
+    "category": "Nom"
+  },
+  {
+    "word": "relampago",
+    "translation": "relâmpago",
+    "category": "Nom"
+  },
+  {
+    "word": "relatorio",
+    "translation": "relatório",
+    "category": "Nom"
+  },
+  {
+    "word": "relevo",
+    "translation": "relevo",
+    "category": "Nom"
+  },
+  {
+    "word": "religiao",
+    "translation": "religião",
+    "category": "Nom"
+  },
+  {
+    "word": "relogio",
+    "translation": "relógio",
+    "category": "Nom"
+  },
+  {
+    "word": "remedio",
+    "translation": "remédio",
+    "category": "Nom"
+  },
+  {
+    "word": "remo",
+    "translation": "remo",
+    "category": "Nom"
+  },
+  {
+    "word": "rena",
+    "translation": "rena",
+    "category": "Nom"
+  },
+  {
+    "word": "repolho",
+    "translation": "repolho",
+    "category": "Nom"
+  },
+  {
+    "word": "repouso",
+    "translation": "repouso",
+    "category": "Nom"
+  },
+  {
+    "word": "represa",
+    "translation": "represa",
+    "category": "Nom"
+  },
+  {
+    "word": "representason",
+    "translation": "representação",
+    "category": "Nom"
+  },
+  {
+    "word": "reptil",
+    "translation": "réptil",
+    "category": "Nom"
+  },
+  {
+    "word": "republica",
+    "translation": "república",
+    "category": "Nom"
+  },
+  {
+    "word": "resina",
+    "translation": "resina",
+    "category": "Nom"
+  },
+  {
+    "word": "respeito",
+    "translation": "respeito",
+    "category": "Nom"
+  },
+  {
+    "word": "respirason",
+    "translation": "respiração",
+    "category": "Nom"
+  },
+  {
+    "word": "resultado",
+    "translation": "resultado",
+    "category": "Nom"
+  },
+  {
+    "word": "resumo",
+    "translation": "resumo",
+    "category": "Nom"
+  },
+  {
+    "word": "retrato",
+    "translation": "retrato",
+    "category": "Nom"
+  },
+  {
+    "word": "reuniao",
+    "translation": "reunião",
+    "category": "Nom"
+  },
+  {
+    "word": "revista",
+    "translation": "revista",
+    "category": "Nom"
+  },
+  {
+    "word": "revolta",
+    "translation": "revolta",
+    "category": "Nom"
+  },
+  {
+    "word": "rico",
+    "translation": "rico",
+    "category": "Adjectif"
+  },
+  {
+    "word": "rifa",
+    "translation": "rifa",
+    "category": "Nom"
+  },
+  {
+    "word": "rima",
+    "translation": "rima",
+    "category": "Nom"
+  },
+  {
+    "word": "rinoceronte",
+    "translation": "rinoceronte",
+    "category": "Nom"
+  },
+  {
+    "word": "rio",
+    "translation": "rio",
+    "category": "Nom"
+  },
+  {
+    "word": "riqueza",
+    "translation": "riqueza",
+    "category": "Nom"
+  },
+  {
+    "word": "rir",
+    "translation": "rir",
+    "category": "Verbe"
+  },
+  {
+    "word": "risco",
+    "translation": "risco",
+    "category": "Nom"
+  },
+  {
+    "word": "risu",
+    "translation": "riso",
+    "category": "Nom"
+  },
+  {
+    "word": "ritmo",
+    "translation": "ritmo",
+    "category": "Nom"
+  },
+  {
+    "word": "rival",
+    "translation": "rival",
+    "category": "Nom"
+  },
+  {
+    "word": "robalo",
+    "translation": "robalo",
+    "category": "Nom"
+  },
+  {
+    "word": "robo",
+    "translation": "robô",
+    "category": "Nom"
+  },
+  {
+    "word": "rocha",
+    "translation": "rocha",
+    "category": "Nom"
+  },
+  {
+    "word": "rochedo",
+    "translation": "rochedo",
+    "category": "Nom"
+  },
+  {
+    "word": "rodape",
+    "translation": "rodapé",
+    "category": "Nom"
+  },
+  {
+    "word": "rodo",
+    "translation": "rodo",
+    "category": "Nom"
+  },
+  {
+    "word": "rolha",
+    "translation": "rolha",
+    "category": "Nom"
+  },
+  {
+    "word": "rolo",
+    "translation": "rolo",
+    "category": "Nom"
+  },
+  {
+    "word": "romance",
+    "translation": "romance",
+    "category": "Nom"
+  },
+  {
+    "word": "rosto",
+    "translation": "rosto",
+    "category": "Nom"
+  },
+  {
+    "word": "rotulo",
+    "translation": "rótulo",
+    "category": "Nom"
+  },
+  {
+    "word": "roubo",
+    "translation": "roubo",
+    "category": "Nom"
+  },
+  {
+    "word": "roupa",
+    "translation": "roupa",
+    "category": "Nom"
+  },
+  {
+    "word": "roxo",
+    "translation": "roxo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "rubi",
+    "translation": "rubi",
+    "category": "Nom"
+  },
+  {
+    "word": "ruivo",
+    "translation": "ruivo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "rumo",
+    "translation": "rumo",
+    "category": "Nom"
+  },
+  {
+    "word": "s",
+    "translation": "letra s",
+    "category": "Nom"
+  },
+  {
+    "word": "sabado",
+    "translation": "sábado",
+    "category": "Nom"
+  },
+  {
+    "word": "sabao",
+    "translation": "sabão",
+    "category": "Nom"
+  },
+  {
+    "word": "saber",
+    "translation": "saber",
+    "category": "Verbe"
+  },
+  {
+    "word": "sabio",
+    "translation": "sábio",
+    "category": "Adjectif"
+  },
+  {
+    "word": "sabor",
+    "translation": "sabor",
+    "category": "Nom"
+  },
+  {
+    "word": "saca",
+    "translation": "saca",
+    "category": "Nom"
+  },
+  {
+    "word": "saca-rolhas",
+    "translation": "saca-rolhas",
+    "category": "Nom"
+  },
+  {
+    "word": "saco",
+    "translation": "saco",
+    "category": "Nom"
+  },
+  {
+    "word": "sacrificio",
+    "translation": "sacrifício",
+    "category": "Nom"
+  },
+  {
+    "word": "sacristia",
+    "translation": "sacristia",
+    "category": "Nom"
+  },
+  {
+    "word": "saibro",
+    "translation": "saibro",
+    "category": "Nom"
+  },
+  {
+    "word": "salamandra",
+    "translation": "salamandra",
+    "category": "Nom"
+  },
+  {
+    "word": "salario",
+    "translation": "salário",
+    "category": "Nom"
+  },
+  {
+    "word": "salsa",
+    "translation": "salsa",
+    "category": "Nom"
+  },
+  {
+    "word": "salsicha",
+    "translation": "salsicha",
+    "category": "Nom"
+  },
+  {
+    "word": "salto",
+    "translation": "salto",
+    "category": "Nom"
+  },
+  {
+    "word": "salva-vidas",
+    "translation": "salva-vidas",
+    "category": "Nom"
+  },
+  {
+    "word": "sandalia",
+    "translation": "sandália",
+    "category": "Nom"
+  },
+  {
+    "word": "sanduiche",
+    "translation": "sanduíche",
+    "category": "Nom"
+  },
+  {
+    "word": "sangue",
+    "translation": "sangue",
+    "category": "Nom"
+  },
+  {
+    "word": "sapo",
+    "translation": "sapo",
+    "category": "Nom"
+  },
+  {
+    "word": "sapato",
+    "translation": "sapato",
+    "category": "Nom"
+  },
+  {
+    "word": "sargento",
+    "translation": "sargento",
+    "category": "Nom"
+  },
+  {
+    "word": "satelite",
+    "translation": "satélite",
+    "category": "Nom"
+  },
+  {
+    "word": "saudade",
+    "translation": "saudade",
+    "category": "Nom"
+  },
+  {
+    "word": "saude",
+    "translation": "saúde",
+    "category": "Nom"
+  },
+  {
+    "word": "saxofone",
+    "translation": "saxofone",
+    "category": "Nom"
+  },
+  {
+    "word": "seara",
+    "translation": "seara",
+    "category": "Nom"
+  },
+  {
+    "word": "seculo",
+    "translation": "século",
+    "category": "Nom"
+  },
+  {
+    "word": "seda",
+    "translation": "seda",
+    "category": "Nom"
+  },
+  {
+    "word": "sede",
+    "translation": "sede",
+    "category": "Nom"
+  },
+  {
+    "word": "segredo",
+    "translation": "segredo",
+    "category": "Nom"
+  },
+  {
+    "word": "segunda-feira",
+    "translation": "segunda-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "segundo",
+    "translation": "segundo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "seguranca",
+    "translation": "segurança",
+    "category": "Nom"
+  },
+  {
+    "word": "seguro",
+    "translation": "seguro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "selim",
+    "translation": "selim",
+    "category": "Nom"
+  },
+  {
+    "word": "selo",
+    "translation": "selo",
+    "category": "Nom"
+  },
+  {
+    "word": "selva",
+    "translation": "selva",
+    "category": "Nom"
+  },
+  {
+    "word": "semente",
+    "translation": "semente",
+    "category": "Nom"
+  },
+  {
+    "word": "senhor",
+    "translation": "senhor",
+    "category": "Nom"
+  },
+  {
+    "word": "senhora",
+    "translation": "senhora",
+    "category": "Nom"
+  },
+  {
+    "word": "sensivel",
+    "translation": "sensível",
+    "category": "Adjectif"
+  },
+  {
+    "word": "sentido",
+    "translation": "sentido",
+    "category": "Nom"
+  },
+  {
+    "word": "sentimento",
+    "translation": "sentimento",
+    "category": "Nom"
+  },
+  {
+    "word": "sentinela",
+    "translation": "sentinela",
+    "category": "Nom"
+  },
+  {
+    "word": "separason",
+    "translation": "separação",
+    "category": "Nom"
+  },
+  {
+    "word": "seringa",
+    "translation": "seringa",
+    "category": "Nom"
+  },
+  {
+    "word": "serio",
+    "translation": "sério",
+    "category": "Adjectif"
+  },
+  {
+    "word": "serpente",
+    "translation": "serpente",
+    "category": "Nom"
+  },
+  {
+    "word": "serradura",
+    "translation": "serradura",
+    "category": "Nom"
+  },
+  {
+    "word": "serviço",
+    "translation": "serviço",
+    "category": "Nom"
+  },
+  {
+    "word": "servidao",
+    "translation": "servidão",
+    "category": "Nom"
+  },
+  {
+    "word": "sessao",
+    "translation": "sessão",
+    "category": "Nom"
+  },
+  {
+    "word": "seta",
+    "translation": "seta",
+    "category": "Nom"
+  },
+  {
+    "word": "setembro",
+    "translation": "setembro",
+    "category": "Nom"
+  },
+  {
+    "word": "sexo",
+    "translation": "sexo",
+    "category": "Nom"
+  },
+  {
+    "word": "sexta-feira",
+    "translation": "sexta-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "sigilo",
+    "translation": "sigilo",
+    "category": "Nom"
+  },
+  {
+    "word": "sigla",
+    "translation": "sigla",
+    "category": "Nom"
+  },
+  {
+    "word": "significado",
+    "translation": "significado",
+    "category": "Nom"
+  },
+  {
+    "word": "signo",
+    "translation": "signo",
+    "category": "Nom"
+  },
+  {
+    "word": "silaba",
+    "translation": "sílaba",
+    "category": "Nom"
+  },
+  {
+    "word": "silencio",
+    "translation": "silêncio",
+    "category": "Nom"
+  },
+  {
+    "word": "silo",
+    "translation": "silo",
+    "category": "Nom"
+  },
+  {
+    "word": "simbolo",
+    "translation": "símbolo",
+    "category": "Nom"
+  },
+  {
+    "word": "simpatia",
+    "translation": "simpatia",
+    "category": "Nom"
+  },
+  {
+    "word": "sino",
+    "translation": "sino",
+    "category": "Nom"
+  },
+  {
+    "word": "sintoma",
+    "translation": "sintoma",
+    "category": "Nom"
+  },
+  {
+    "word": "sirene",
+    "translation": "sirene",
+    "category": "Nom"
+  },
+  {
+    "word": "sitio",
+    "translation": "sítio",
+    "category": "Nom"
+  },
+  {
+    "word": "situacao",
+    "translation": "situação",
+    "category": "Nom"
+  },
+  {
+    "word": "soalho",
+    "translation": "soalho",
+    "category": "Nom"
+  },
+  {
+    "word": "sobrinho",
+    "translation": "sobrinho",
+    "category": "Nom"
+  },
+  {
+    "word": "socio",
+    "translation": "sócio",
+    "category": "Nom"
+  },
+  {
+    "word": "socorro",
+    "translation": "socorro",
+    "category": "Nom"
+  },
+  {
+    "word": "sofrimento",
+    "translation": "sofrimento",
+    "category": "Nom"
+  },
+  {
+    "word": "sogro",
+    "translation": "sogro",
+    "category": "Nom"
+  },
+  {
+    "word": "soldado",
+    "translation": "soldado",
+    "category": "Nom"
+  },
+  {
+    "word": "sola",
+    "translation": "sola",
+    "category": "Nom"
+  },
+  {
+    "word": "solidão",
+    "translation": "solidão",
+    "category": "Nom"
+  },
+  {
+    "word": "solo",
+    "translation": "solo",
+    "category": "Nom"
+  },
+  {
+    "word": "solteiro",
+    "translation": "solteiro",
+    "category": "Nom"
+  },
+  {
+    "word": "solucao",
+    "translation": "solução",
+    "category": "Nom"
+  },
+  {
+    "word": "sombrinha",
+    "translation": "sombrinha",
+    "category": "Nom"
+  },
+  {
+    "word": "sonho",
+    "translation": "sonho",
+    "category": "Nom"
+  },
+  {
+    "word": "sono",
+    "translation": "sono",
+    "category": "Nom"
+  },
+  {
+    "word": "sopé",
+    "translation": "sopé",
+    "category": "Nom"
+  },
+  {
+    "word": "sopro",
+    "translation": "sopro",
+    "category": "Nom"
+  },
+  {
+    "word": "sorriso",
+    "translation": "sorriso",
+    "category": "Nom"
+  },
+  {
+    "word": "sorte",
+    "translation": "sorte",
+    "category": "Nom"
+  },
+  {
+    "word": "sossegado",
+    "translation": "sossegado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "sotaque",
+    "translation": "sotaque",
+    "category": "Nom"
+  },
+  {
+    "word": "sotao",
+    "translation": "sótão",
+    "category": "Nom"
+  },
+  {
+    "word": "suave",
+    "translation": "suave",
+    "category": "Adjectif"
+  },
+  {
+    "word": "subida",
+    "translation": "subida",
+    "category": "Nom"
+  },
+  {
+    "word": "submarino",
+    "translation": "submarino",
+    "category": "Nom"
+  },
+  {
+    "word": "substantivo",
+    "translation": "substantivo",
+    "category": "Nom"
+  },
+  {
+    "word": "substituto",
+    "translation": "substituto",
+    "category": "Nom"
+  },
+  {
+    "word": "suburbio",
+    "translation": "subúrbio",
+    "category": "Nom"
+  },
+  {
+    "word": "sucesso",
+    "translation": "sucesso",
+    "category": "Nom"
+  },
+  {
+    "word": "suco",
+    "translation": "suco",
+    "category": "Nom"
+  },
+  {
+    "word": "suor",
+    "translation": "suor",
+    "category": "Nom"
+  },
+  {
+    "word": "suporte",
+    "translation": "suporte",
+    "category": "Nom"
+  },
+  {
+    "word": "supremo",
+    "translation": "supremo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "surdo",
+    "translation": "surdo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "surpresa",
+    "translation": "surpresa",
+    "category": "Nom"
+  },
+  {
+    "word": "suspeito",
+    "translation": "suspeito",
+    "category": "Nom"
+  },
+  {
+    "word": "susto",
+    "translation": "susto",
+    "category": "Nom"
+  },
+  {
+    "word": "t",
+    "translation": "letra t",
+    "category": "Nom"
+  },
+  {
+    "word": "tabaco",
+    "translation": "tabaco",
+    "category": "Nom"
+  },
+  {
+    "word": "tabela",
+    "translation": "tabela",
+    "category": "Nom"
+  },
+  {
+    "word": "tabuada",
+    "translation": "tabuada",
+    "category": "Nom"
+  },
+  {
+    "word": "tacho",
+    "translation": "tacho",
+    "category": "Nom"
+  },
+  {
+    "word": "tacto",
+    "translation": "tato",
+    "category": "Nom"
+  },
+  {
+    "word": "talento",
+    "translation": "talento",
+    "category": "Nom"
+  },
+  {
+    "word": "talher",
+    "translation": "talher",
+    "category": "Nom"
+  },
+  {
+    "word": "talho",
+    "translation": "talho",
+    "category": "Nom"
+  },
+  {
+    "word": "talao",
+    "translation": "talão",
+    "category": "Nom"
+  },
+  {
+    "word": "tamanho",
+    "translation": "tamanho",
+    "category": "Nom"
+  },
+  {
+    "word": "tambor",
+    "translation": "tambor",
+    "category": "Nom"
+  },
+  {
+    "word": "tampao",
+    "translation": "tampão",
+    "category": "Nom"
+  },
+  {
+    "word": "tanque",
+    "translation": "tanque",
+    "category": "Nom"
+  },
+  {
+    "word": "tarde",
+    "translation": "tarde",
+    "category": "Nom"
+  },
+  {
+    "word": "tarefa",
+    "translation": "tarefa",
+    "category": "Nom"
+  },
+  {
+    "word": "tarte",
+    "translation": "tarte",
+    "category": "Nom"
+  },
+  {
+    "word": "tartaruga",
+    "translation": "tartaruga",
+    "category": "Nom"
+  },
+  {
+    "word": "tatuagem",
+    "translation": "tatuagem",
+    "category": "Nom"
+  },
+  {
+    "word": "taverna",
+    "translation": "taverna",
+    "category": "Nom"
+  },
+  {
+    "word": "taxi",
+    "translation": "táxi",
+    "category": "Nom"
+  },
+  {
+    "word": "teatro",
+    "translation": "teatro",
+    "category": "Nom"
+  },
+  {
+    "word": "tecido",
+    "translation": "tecido",
+    "category": "Nom"
+  },
+  {
+    "word": "tecla",
+    "translation": "tecla",
+    "category": "Nom"
+  },
+  {
+    "word": "teclado",
+    "translation": "teclado",
+    "category": "Nom"
+  },
+  {
+    "word": "tecnica",
+    "translation": "técnica",
+    "category": "Nom"
+  },
+  {
+    "word": "tecto",
+    "translation": "teto",
+    "category": "Nom"
+  },
+  {
+    "word": "teimoso",
+    "translation": "teimoso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "telegrama",
+    "translation": "telegrama",
+    "category": "Nom"
+  },
+  {
+    "word": "telescopio",
+    "translation": "telescópio",
+    "category": "Nom"
+  },
+  {
+    "word": "televisao",
+    "translation": "televisão",
+    "category": "Nom"
+  },
+  {
+    "word": "telha",
+    "translation": "telha",
+    "category": "Nom"
+  },
+  {
+    "word": "telhado",
+    "translation": "telhado",
+    "category": "Nom"
+  },
+  {
+    "word": "tempero",
+    "translation": "tempero",
+    "category": "Nom"
+  },
+  {
+    "word": "tempestade",
+    "translation": "tempestade",
+    "category": "Nom"
+  },
+  {
+    "word": "templo",
+    "translation": "templo",
+    "category": "Nom"
+  },
+  {
+    "word": "tempo",
+    "translation": "tempo",
+    "category": "Nom"
+  },
+  {
+    "word": "tenis",
+    "translation": "ténis",
+    "category": "Nom"
+  },
+  {
+    "word": "tensao",
+    "translation": "tensão",
+    "category": "Nom"
+  },
+  {
+    "word": "tentacao",
+    "translation": "tentação",
+    "category": "Nom"
+  },
+  {
+    "word": "teoria",
+    "translation": "teoria",
+    "category": "Nom"
+  },
+  {
+    "word": "terca-feira",
+    "translation": "terça-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "terceiro",
+    "translation": "terceiro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "terco",
+    "translation": "terço",
+    "category": "Nom"
+  },
+  {
+    "word": "termino",
+    "translation": "término",
+    "category": "Nom"
+  },
+  {
+    "word": "terno",
+    "translation": "terno",
+    "category": "Adjectif"
+  },
+  {
+    "word": "ternura",
+    "translation": "ternura",
+    "category": "Nom"
+  },
+  {
+    "word": "terraco",
+    "translation": "terraço",
+    "category": "Nom"
+  },
+  {
+    "word": "terremoto",
+    "translation": "terramoto",
+    "category": "Nom"
+  },
+  {
+    "word": "terreno",
+    "translation": "terreno",
+    "category": "Nom"
+  },
+  {
+    "word": "terrivel",
+    "translation": "terrível",
+    "category": "Adjectif"
+  },
+  {
+    "word": "territorio",
+    "translation": "território",
+    "category": "Nom"
+  },
+  {
+    "word": "terror",
+    "translation": "terror",
+    "category": "Nom"
+  },
+  {
+    "word": "tesouro",
+    "translation": "tesouro",
+    "category": "Nom"
+  },
+  {
+    "word": "testamento",
+    "translation": "testamento",
+    "category": "Nom"
+  },
+  {
+    "word": "testemunha",
+    "translation": "testemunha",
+    "category": "Nom"
+  },
+  {
+    "word": "texto",
+    "translation": "texto",
+    "category": "Nom"
+  },
+  {
+    "word": "tigela",
+    "translation": "tigela",
+    "category": "Nom"
+  },
+  {
+    "word": "tigre",
+    "translation": "tigre",
+    "category": "Nom"
+  },
+  {
+    "word": "tijolo",
+    "translation": "tijolo",
+    "category": "Nom"
+  },
+  {
+    "word": "tilia",
+    "translation": "tília",
+    "category": "Nom"
+  },
+  {
+    "word": "timido",
+    "translation": "tímido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "tinteiro",
+    "translation": "tinteiro",
+    "category": "Nom"
+  },
+  {
+    "word": "tinto",
+    "translation": "tinto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "tipo",
+    "translation": "tipo",
+    "category": "Nom"
+  },
+  {
+    "word": "tiro",
+    "translation": "tiro",
+    "category": "Nom"
+  },
+  {
+    "word": "titulo",
+    "translation": "título",
+    "category": "Nom"
+  },
+  {
+    "word": "toalha",
+    "translation": "toalha",
+    "category": "Nom"
+  },
+  {
+    "word": "tocha",
+    "translation": "tocha",
+    "category": "Nom"
+  },
+  {
+    "word": "todo",
+    "translation": "todo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "tolerancia",
+    "translation": "tolerância",
+    "category": "Nom"
+  },
+  {
+    "word": "tom",
+    "translation": "tom",
+    "category": "Nom"
+  },
+  {
+    "word": "tomada",
+    "translation": "tomada",
+    "category": "Nom"
+  },
+  {
+    "word": "tomate",
+    "translation": "tomate",
+    "category": "Nom"
+  },
+  {
+    "word": "tonelada",
+    "translation": "tonelada",
+    "category": "Nom"
+  },
+  {
+    "word": "tonto",
+    "translation": "tonto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "topo",
+    "translation": "topo",
+    "category": "Nom"
+  },
+  {
+    "word": "toque",
+    "translation": "toque",
+    "category": "Nom"
+  },
+  {
+    "word": "torada",
+    "translation": "tourada",
+    "category": "Nom"
+  },
+  {
+    "word": "torneira",
+    "translation": "torneira",
+    "category": "Nom"
+  },
+  {
+    "word": "tornozelo",
+    "translation": "tornozelo",
+    "category": "Nom"
+  },
+  {
+    "word": "torre",
+    "translation": "torre",
+    "category": "Nom"
+  },
+  {
+    "word": "torta",
+    "translation": "torta",
+    "category": "Nom"
+  },
+  {
+    "word": "torto",
+    "translation": "torto",
+    "category": "Adjectif"
+  },
+  {
+    "word": "touca",
+    "translation": "touca",
+    "category": "Nom"
+  },
+  {
+    "word": "toucinho",
+    "translation": "toucinho",
+    "category": "Nom"
+  },
+  {
+    "word": "toupeira",
+    "translation": "toupeira",
+    "category": "Nom"
+  },
+  {
+    "word": "touro",
+    "translation": "touro",
+    "category": "Nom"
+  },
+  {
+    "word": "trabalhador",
+    "translation": "trabalhador",
+    "category": "Nom"
+  },
+  {
+    "word": "trabalho",
+    "translation": "trabalho",
+    "category": "Nom"
+  },
+  {
+    "word": "trator",
+    "translation": "trator",
+    "category": "Nom"
+  },
+  {
+    "word": "tradicao",
+    "translation": "tradição",
+    "category": "Nom"
+  },
+  {
+    "word": "traducao",
+    "translation": "tradução",
+    "category": "Nom"
+  },
+  {
+    "word": "trafego",
+    "translation": "tráfego",
+    "category": "Nom"
+  },
+  {
+    "word": "traje",
+    "translation": "traje",
+    "category": "Nom"
+  },
+  {
+    "word": "trama",
+    "translation": "trama",
+    "category": "Nom"
+  },
+  {
+    "word": "tranquilo",
+    "translation": "tranquilo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "transito",
+    "translation": "trânsito",
+    "category": "Nom"
+  },
+  {
+    "word": "transporte",
+    "translation": "transporte",
+    "category": "Nom"
+  },
+  {
+    "word": "trapo",
+    "translation": "trapo",
+    "category": "Nom"
+  },
+  {
+    "word": "traseiro",
+    "translation": "traseiro",
+    "category": "Nom"
+  },
+  {
+    "word": "tratado",
+    "translation": "tratado",
+    "category": "Nom"
+  },
+  {
+    "word": "tratamento",
+    "translation": "tratamento",
+    "category": "Nom"
+  },
+  {
+    "word": "trave",
+    "translation": "trave",
+    "category": "Nom"
+  },
+  {
+    "word": "travesseiro",
+    "translation": "travesseiro",
+    "category": "Nom"
+  },
+  {
+    "word": "treino",
+    "translation": "treino",
+    "category": "Nom"
+  },
+  {
+    "word": "trela",
+    "translation": "trela",
+    "category": "Nom"
+  },
+  {
+    "word": "trem",
+    "translation": "trem",
+    "category": "Nom"
+  },
+  {
+    "word": "trevo",
+    "translation": "trevo",
+    "category": "Nom"
+  },
+  {
+    "word": "treze",
+    "translation": "treze",
+    "category": "Nombre"
+  },
+  {
+    "word": "tribo",
+    "translation": "tribo",
+    "category": "Nom"
+  },
+  {
+    "word": "tribuna",
+    "translation": "tribuna",
+    "category": "Nom"
+  },
+  {
+    "word": "tribunal",
+    "translation": "tribunal",
+    "category": "Nom"
+  },
+  {
+    "word": "trigo",
+    "translation": "trigo",
+    "category": "Nom"
+  },
+  {
+    "word": "trilho",
+    "translation": "trilho",
+    "category": "Nom"
+  },
+  {
+    "word": "trinco",
+    "translation": "trinco",
+    "category": "Nom"
+  },
+  {
+    "word": "tripulacao",
+    "translation": "tripulação",
+    "category": "Nom"
+  },
+  {
+    "word": "triste",
+    "translation": "triste",
+    "category": "Adjectif"
+  },
+  {
+    "word": "triunfo",
+    "translation": "triunfo",
+    "category": "Nom"
+  },
+  {
+    "word": "troca",
+    "translation": "troca",
+    "category": "Nom"
+  },
+  {
+    "word": "troco",
+    "translation": "troco",
+    "category": "Nom"
+  },
+  {
+    "word": "tromba",
+    "translation": "tromba",
+    "category": "Nom"
+  },
+  {
+    "word": "trombeta",
+    "translation": "trombeta",
+    "category": "Nom"
+  },
+  {
+    "word": "tronco",
+    "translation": "tronco",
+    "category": "Nom"
+  },
+  {
+    "word": "trono",
+    "translation": "trono",
+    "category": "Nom"
+  },
+  {
+    "word": "trovoada",
+    "translation": "trovoada",
+    "category": "Nom"
+  },
+  {
+    "word": "truque",
+    "translation": "truque",
+    "category": "Nom"
+  },
+  {
+    "word": "tubarao",
+    "translation": "tubarão",
+    "category": "Nom"
+  },
+  {
+    "word": "tubo",
+    "translation": "tubo",
+    "category": "Nom"
+  },
+  {
+    "word": "tudo",
+    "translation": "tudo",
+    "category": "Pronom"
+  },
+  {
+    "word": "tulipa",
+    "translation": "tulipa",
+    "category": "Nom"
+  },
+  {
+    "word": "tumulo",
+    "translation": "túmulo",
+    "category": "Nom"
+  },
+  {
+    "word": "tunel",
+    "translation": "túnel",
+    "category": "Nom"
+  },
+  {
+    "word": "turismo",
+    "translation": "turismo",
+    "category": "Nom"
+  },
+  {
+    "word": "turista",
+    "translation": "turista",
+    "category": "Nom"
+  },
+  {
+    "word": "turma",
+    "translation": "turma",
+    "category": "Nom"
+  },
+  {
+    "word": "turno",
+    "translation": "turno",
+    "category": "Nom"
+  },
+  {
+    "word": "ultimo",
+    "translation": "último",
+    "category": "Adjectif"
+  },
+  {
+    "word": "umbigo",
+    "translation": "umbigo",
+    "category": "Nom"
+  },
+  {
+    "word": "uniao",
+    "translation": "união",
+    "category": "Nom"
+  },
+  {
+    "word": "unico",
+    "translation": "único",
+    "category": "Adjectif"
+  },
+  {
+    "word": "unidade",
+    "translation": "unidade",
+    "category": "Nom"
+  },
+  {
+    "word": "uniforme",
+    "translation": "uniforme",
+    "category": "Nom"
+  },
+  {
+    "word": "universo",
+    "translation": "universo",
+    "category": "Nom"
+  },
+  {
+    "word": "urano",
+    "translation": "urano",
+    "category": "Nom"
+  },
+  {
+    "word": "urgencia",
+    "translation": "urgência",
+    "category": "Nom"
+  },
+  {
+    "word": "urna",
+    "translation": "urna",
+    "category": "Nom"
+  },
+  {
+    "word": "urso",
+    "translation": "urso",
+    "category": "Nom"
+  },
+  {
+    "word": "urtiga",
+    "translation": "urtiga",
+    "category": "Nom"
+  },
+  {
+    "word": "uso",
+    "translation": "uso",
+    "category": "Nom"
+  },
+  {
+    "word": "vaca",
+    "translation": "vaca",
+    "category": "Nom"
+  },
+  {
+    "word": "vacina",
+    "translation": "vacina",
+    "category": "Nom"
+  },
+  {
+    "word": "vaga",
+    "translation": "vaga",
+    "category": "Nom"
+  },
+  {
+    "word": "vagabundo",
+    "translation": "vagabundo",
+    "category": "Nom"
+  },
+  {
+    "word": "vagem",
+    "translation": "vagem",
+    "category": "Nom"
+  },
+  {
+    "word": "vago",
+    "translation": "vago",
+    "category": "Adjectif"
+  },
+  {
+    "word": "vaidade",
+    "translation": "vaidade",
+    "category": "Nom"
+  },
+  {
+    "word": "valente",
+    "translation": "valente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "validade",
+    "translation": "validade",
+    "category": "Nom"
+  },
+  {
+    "word": "valido",
+    "translation": "válido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "valioso",
+    "translation": "valioso",
+    "category": "Adjectif"
+  },
+  {
+    "word": "valvula",
+    "translation": "válvula",
+    "category": "Nom"
+  },
+  {
+    "word": "vampiro",
+    "translation": "vampiro",
+    "category": "Nom"
+  },
+  {
+    "word": "vantagem",
+    "translation": "vantagem",
+    "category": "Nom"
+  },
+  {
+    "word": "variedade",
+    "translation": "variedade",
+    "category": "Nom"
+  },
+  {
+    "word": "vaso",
+    "translation": "vaso",
+    "category": "Nom"
+  },
+  {
+    "word": "vassoura",
+    "translation": "vassoura",
+    "category": "Nom"
+  },
+  {
+    "word": "vazio",
+    "translation": "vazio",
+    "category": "Adjectif"
+  },
+  {
+    "word": "veado",
+    "translation": "veado",
+    "category": "Nom"
+  },
+  {
+    "word": "vegetal",
+    "translation": "vegetal",
+    "category": "Nom"
+  },
+  {
+    "word": "veiculo",
+    "translation": "veículo",
+    "category": "Nom"
+  },
+  {
+    "word": "veia",
+    "translation": "veia",
+    "category": "Nom"
+  },
+  {
+    "word": "velho",
+    "translation": "velho",
+    "category": "Adjectif"
+  },
+  {
+    "word": "velocidade",
+    "translation": "velocidade",
+    "category": "Nom"
+  },
+  {
+    "word": "veludo",
+    "translation": "veludo",
+    "category": "Nom"
+  },
+  {
+    "word": "vencedor",
+    "translation": "vencedor",
+    "category": "Nom"
+  },
+  {
+    "word": "venda",
+    "translation": "venda",
+    "category": "Nom"
+  },
+  {
+    "word": "veneno",
+    "translation": "veneno",
+    "category": "Nom"
+  },
+  {
+    "word": "ventania",
+    "translation": "ventania",
+    "category": "Nom"
+  },
+  {
+    "word": "vento",
+    "translation": "vento",
+    "category": "Nom"
+  },
+  {
+    "word": "ventoinha",
+    "translation": "ventoinha",
+    "category": "Nom"
+  },
+  {
+    "word": "verao",
+    "translation": "verão",
+    "category": "Nom"
+  },
+  {
+    "word": "verba",
+    "translation": "verba",
+    "category": "Nom"
+  },
+  {
+    "word": "verdade",
+    "translation": "verdade",
+    "category": "Nom"
+  },
+  {
+    "word": "verdadeiro",
+    "translation": "verdadeiro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "verde",
+    "translation": "verde",
+    "category": "Adjectif"
+  },
+  {
+    "word": "veredito",
+    "translation": "veredicto",
+    "category": "Nom"
+  },
+  {
+    "word": "verme",
+    "translation": "verme",
+    "category": "Nom"
+  },
+  {
+    "word": "vermelho",
+    "translation": "vermelho",
+    "category": "Adjectif"
+  },
+  {
+    "word": "verruga",
+    "translation": "verruga",
+    "category": "Nom"
+  },
+  {
+    "word": "verso",
+    "translation": "verso",
+    "category": "Nom"
+  },
+  {
+    "word": "vespa",
+    "translation": "vespa",
+    "category": "Nom"
+  },
+  {
+    "word": "vestido",
+    "translation": "vestido",
+    "category": "Nom"
+  },
+  {
+    "word": "vestuario",
+    "translation": "vestuário",
+    "category": "Nom"
+  },
+  {
+    "word": "veterinario",
+    "translation": "veterinário",
+    "category": "Nom"
+  },
+  {
+    "word": "veu",
+    "translation": "véu",
+    "category": "Nom"
+  },
+  {
+    "word": "viagem",
+    "translation": "viagem",
+    "category": "Nom"
+  },
+  {
+    "word": "viajante",
+    "translation": "viajante",
+    "category": "Nom"
+  },
+  {
+    "word": "vibraçao",
+    "translation": "vibração",
+    "category": "Nom"
+  },
+  {
+    "word": "vicio",
+    "translation": "vício",
+    "category": "Nom"
+  },
+  {
+    "word": "vidraça",
+    "translation": "vidraça",
+    "category": "Nom"
+  },
+  {
+    "word": "vidro",
+    "translation": "vidro",
+    "category": "Nom"
+  },
+  {
+    "word": "vinagre",
+    "translation": "vinagre",
+    "category": "Nom"
+  },
+  {
+    "word": "vingança",
+    "translation": "vingança",
+    "category": "Nom"
+  },
+  {
+    "word": "vinha",
+    "translation": "vinha",
+    "category": "Nom"
+  },
+  {
+    "word": "vinho",
+    "translation": "vinho",
+    "category": "Nom"
+  },
+  {
+    "word": "vinte",
+    "translation": "vinte",
+    "category": "Nombre"
+  },
+  {
+    "word": "violao",
+    "translation": "violão",
+    "category": "Nom"
+  },
+  {
+    "word": "violencia",
+    "translation": "violência",
+    "category": "Nom"
+  },
+  {
+    "word": "violento",
+    "translation": "violento",
+    "category": "Adjectif"
+  },
+  {
+    "word": "violeta",
+    "translation": "violeta",
+    "category": "Nom"
+  },
+  {
+    "word": "violino",
+    "translation": "violino",
+    "category": "Nom"
+  },
+  {
+    "word": "virgula",
+    "translation": "vírgula",
+    "category": "Nom"
+  },
+  {
+    "word": "virtude",
+    "translation": "virtude",
+    "category": "Nom"
+  },
+  {
+    "word": "virus",
+    "translation": "vírus",
+    "category": "Nom"
+  },
+  {
+    "word": "visao",
+    "translation": "visão",
+    "category": "Nom"
+  },
+  {
+    "word": "visto",
+    "translation": "visto",
+    "category": "Nom"
+  },
+  {
+    "word": "vitamina",
+    "translation": "vitamina",
+    "category": "Nom"
+  },
+  {
+    "word": "vitela",
+    "translation": "vitela",
+    "category": "Nom"
+  },
+  {
+    "word": "viuvo",
+    "translation": "viúvo",
+    "category": "Nom"
+  },
+  {
+    "word": "vizinhanca",
+    "translation": "vizinhança",
+    "category": "Nom"
+  },
+  {
+    "word": "vizinho",
+    "translation": "vizinho",
+    "category": "Nom"
+  },
+  {
+    "word": "voo",
+    "translation": "voo",
+    "category": "Nom"
+  },
+  {
+    "word": "vocabulario",
+    "translation": "vocabulário",
+    "category": "Nom"
+  },
+  {
+    "word": "vocacao",
+    "translation": "vocação",
+    "category": "Nom"
+  },
+  {
+    "word": "voce",
+    "translation": "você",
+    "category": "Pronom"
+  },
+  {
+    "word": "volume",
+    "translation": "volume",
+    "category": "Nom"
+  },
+  {
+    "word": "vontade",
+    "translation": "vontade",
+    "category": "Nom"
+  },
+  {
+    "word": "voto",
+    "translation": "voto",
+    "category": "Nom"
+  },
+  {
+    "word": "vulcao",
+    "translation": "vulcão",
+    "category": "Nom"
+  },
+  {
+    "word": "xadrez",
+    "translation": "xadrez",
+    "category": "Nom"
+  },
+  {
+    "word": "xaile",
+    "translation": "xaile",
+    "category": "Nom"
+  },
+  {
+    "word": "xarope",
+    "translation": "xarope",
+    "category": "Nom"
+  },
+  {
+    "word": "xateu",
+    "translation": "chato / aborrecido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "xeke",
+    "translation": "cheque",
+    "category": "Nom"
+  },
+  {
+    "word": "xinel",
+    "translation": "chinelo",
+    "category": "Nom"
+  },
+  {
+    "word": "xok",
+    "translation": "choque",
+    "category": "Nom"
+  },
+  {
+    "word": "zelo",
+    "translation": "zelo",
+    "category": "Nom"
+  },
+  {
+    "word": "zinco",
+    "translation": "zinco",
+    "category": "Nom"
+  },
+  {
+    "word": "zumbido",
+    "translation": "zumbido",
+    "category": "Nom"
+  }
+]

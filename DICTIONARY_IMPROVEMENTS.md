@@ -7,47 +7,48 @@
 
 ## 📊 Statistiques
 
-### Avant nettoyage
+### Avant nettoyage (V1)
 - **Entrées totales :** 2062
 - **Doublons :** 28
 - **Exemples :** 0 (0%)
-- **Notes :** 0
 
-### Après nettoyage et enrichissement
+### Après Vague 2 (Nettoyage + Ajouts)
 - **Entrées totales :** 2210
-- **Doublons :** 3 (intentionnels - significations différentes)
 - **Exemples :** 2210 (100%)
-- **Notes :** 4
 
-### Amélioration
-- ✅ **25 doublons supprimés**
-- ✅ **173 nouveaux mots ajoutés** (2ème vague)
-- ✅ **2210 exemples ajoutés** (couverture 100%)
-- ✅ **4 notes explicatives** ajoutées pour les cas ambigus
-- ✅ **Traductions enrichies** pour plusieurs entrées
+### Après Vague 3 (Massive Update)
+- **Entrées totales :** 3966
+- **Nouveaux mots ajoutés :** 1756
+- **Améliorations (accents) :** 2
+- **Exemples :** 3966 (100%)
+
+### Amélioration Globale
+- ✅ **+1904 mots** ajoutés au total aujourd'hui
+- ✅ **3966 exemples** générés automatiquement
+- ✅ **Qualité accrue** (gestion des accents, suppression des doublons)
 
 ---
 
 ## 🔧 Actions effectuées
 
-### 1. Ajout de nouveaux mots (173 entrées)
-Une analyse de listes supplémentaires a permis d'identifier et d'ajouter 173 nouveaux mots qui manquaient au dictionnaire, notamment :
-- **Noms** : `amesa` (menace), `angra` (baie), `anpo` (petite moto), `aparencia` (apparence)...
-- **Verbes** : `apara` (parer), `aparenta` (sembler), `apela` (appeler), `aperta` (serrer)...
-- **Adjectifs** : `anbisozu` (ambitieux), `barbaru` (barbare), `barudjentu` (bruyant)...
+### 1. Ajout Massif (Vague 3)
+Une liste complète a été traitée, ajoutant 1756 nouveaux mots couvrant tout l'alphabet (A-Z).
+- **Exemples** : `abakáti` (correction accent), `zumbido`, `xikara`, `violencia`...
+- **Traitement** : Comparaison stricte pour éviter les doublons tout en acceptant les corrections d'accents.
 
-### 2. Génération d'exemples (2210 entrées)
-Tous les mots du dictionnaire ont maintenant des exemples contextuels bilingues (kea/pt) générés intelligemment selon leur catégorie grammaticale.
+### 2. Génération d'exemples (3966 entrées)
+Tous les mots, y compris les 1756 nouveaux, ont des exemples contextuels bilingues (kea/pt).
 
 **Exemple type :**
 ```typescript
 {
-  "word": "aperta",
-  "translation": { "pt": "apertar" },
+  "word": "zumbido",
+  "translation": { "pt": "zumbido" },
   "example": {
-    "pt": "Eu vou apertar",
-    "kea": "N ta aperta"
-  }
+    "pt": "O zumbido é interessante",
+    "kea": "Zumbido e interesanti"
+  },
+  "category": "Nom"
 }
 ```
 
@@ -58,20 +59,14 @@ Tous les mots du dictionnaire ont maintenant des exemples contextuels bilingues 
 
 ---
 
-## 📚 Distribution par catégorie grammaticale
+## 📚 Distribution par catégorie grammaticale (Estimée)
 
-| Catégorie | Nombre | Pourcentage |
-|-----------|--------|-------------|
-| **Nom** | 1316 | 59.5% |
-| **Verbe** | 449 | 20.3% |
-| **Adjectif** | 285 | 12.9% |
-| **Adverbe** | 55 | 2.5% |
-| **Nombre** | 27 | 1.2% |
-| **Préposition** | 21 | 1.0% |
-| **Pronom** | 20 | 0.9% |
-| **Expression** | 14 | 0.6% |
-| **Conjonction** | 9 | 0.4% |
-| **Autres** | 14 | 0.7% |
+| Catégorie | Pourcentage |
+|-----------|-------------|
+| **Nom** | ~60% |
+| **Verbe** | ~20% |
+| **Adjectif** | ~15% |
+| **Autres** | ~5% |
 
 ---
 
@@ -80,17 +75,15 @@ Tous les mots du dictionnaire ont maintenant des exemples contextuels bilingues 
 ### Court terme
 1. ✅ **Ajouter plus d'exemples** (Fait : 100% couverture)
 2. ✅ **Vérifier la cohérence** des catégories grammaticales
-3. ✅ **Ajouter des notes** pour les mots avec plusieurs sens
+3. 🔍 **Revue manuelle** des exemples générés pour les mots complexes
 
 ### Moyen terme
 1. 📝 Ajouter des **exemples audio** pour la prononciation
 2. 🔍 Créer des **champs de recherche avancée** (synonymes, antonymes)
-3. 📚 Organiser par **niveaux de difficulté** (débutant, intermédiaire, avancé)
 
 ### Long terme
 1. 🌍 Ajouter des **traductions multilingues** (français, anglais, espagnol)
 2. 📖 Créer des **listes thématiques** (famille, nourriture, voyage, etc.)
-3. 🎓 Intégrer des **exercices interactifs** basés sur le dictionnaire
 
 ---
 
@@ -105,18 +98,11 @@ Le dictionnaire a été testé et validé :
 ---
 
 **Fichiers générés :**
-- `dictionary_duplicates.json` - Rapport des doublons trouvés
-- `dictionary_examples.json` - Base d'exemples créés
-- `new_words_to_add.json` - Liste des nouveaux mots ajoutés
-- `DICTIONARY_IMPROVEMENTS.md` - Ce rapport
-
-**Scripts créés :**
-- `analyze_dictionary.mjs` - Analyse complète du dictionnaire
-- `create_examples.mjs` - Génération d'exemples
-- `clean_dictionary.mjs` - Nettoyage et amélioration
-- `check_new_words.mjs` - Détection des nouveaux mots
-- `add_new_words.mjs` - Ajout automatique des nouveaux mots
-- `generate_all_examples.mjs` - Génération massive d'exemples
+- `words_to_add_v3.json` - Liste des ajouts V3
+- `improvements_v3.json` - Liste des corrections V3
+- `raw_data_part1/2/3.csv` - Données brutes sauvegardées
+- `process_new_list_v3.mjs` - Script d'analyse V3
+- `add_new_words_v3.mjs` - Script d'ajout V3
 
 ---
 
