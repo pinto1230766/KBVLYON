@@ -51352,5 +51352,605 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "El e muitu zangadu"
     },
     "category": "Adjectif"
+  },
+  {
+    "id": "entry-4303",
+    "word": "kuzê",
+    "translation": {
+      "pt": "o quê / que"
+    },
+    "example": {
+      "pt": "Na o quê ki Tistimunhas di Jeová ta kridita",
+      "kea": "Na kuzê ki Tistimunhas di Jeová ta kridita"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4304",
+    "word": "mórti",
+    "translation": {
+      "pt": "morte"
+    },
+    "example": {
+      "pt": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jesus",
+      "kea": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4305",
+    "word": "resgati",
+    "translation": {
+      "pt": "resgate"
+    },
+    "example": {
+      "pt": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jesus",
+      "kea": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4306",
+    "word": "jizus",
+    "translation": {
+      "pt": "Jesus"
+    },
+    "example": {
+      "pt": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jesus",
+      "kea": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4307",
+    "word": "má",
+    "translation": {
+      "pt": "mas"
+    },
+    "example": {
+      "pt": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jesus má tanbê muda ses manera di vive...",
+      "kea": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive..."
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-4308",
+    "word": "tanbê",
+    "translation": {
+      "pt": "também"
+    },
+    "example": {
+      "pt": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jesus má tanbê muda ses manera di vive...",
+      "kea": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive..."
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4309",
+    "word": "kuza",
+    "translation": {
+      "pt": "coisa"
+    },
+    "example": {
+      "pt": "Má, salvason é ka un kuza ki nu ta ganha",
+      "kea": "Má, salvason é ka un kuza ki nu ta ganha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4310",
+    "word": "kristu",
+    "translation": {
+      "pt": "Cristo"
+    },
+    "example": {
+      "pt": "Jeová Deus, Jesus Kristu i kes anju fiel ta mora na Séu",
+      "kea": "Jeová Deus, Jizus Kristu i kes anju fiel ta mora na Séu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4311",
+    "word": "kes",
+    "translation": {
+      "pt": "os / as (artigo plural)"
+    },
+    "example": {
+      "pt": "Jeová Deus, Jesus Kristu i kes anju fiel ta mora na Séu",
+      "kea": "Jeová Deus, Jizus Kristu i kes anju fiel ta mora na Séu"
+    },
+    "category": "Article"
+  },
+  {
+    "id": "entry-4312",
+    "word": "ben",
+    "translation": {
+      "pt": "vir / bem"
+    },
+    "example": {
+      "pt": "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jesus na R...",
+      "kea": "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jizus na R..."
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4313",
+    "word": "sufrimentu",
+    "translation": {
+      "pt": "sofrimento"
+    },
+    "example": {
+      "pt": "Maldadi ku sufrimentu",
+      "kea": "Maldadi ku sufrimentu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4314",
+    "word": "kóntra",
+    "translation": {
+      "pt": "contra"
+    },
+    "example": {
+      "pt": "Maldadi ku sufrimentu kumesa kantu un anju di Deus rabela kóntra el",
+      "kea": "Maldadi ku sufrimentu kumesa kantu un anju di Deus rabela kóntra el"
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-4315",
+    "word": "ómi",
+    "translation": {
+      "pt": "homem"
+    },
+    "example": {
+      "pt": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se...",
+      "kea": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4316",
+    "word": "fidjus",
+    "translation": {
+      "pt": "filhos"
+    },
+    "example": {
+      "pt": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se...",
+      "kea": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4317",
+    "word": "adon",
+    "translation": {
+      "pt": "Adão"
+    },
+    "example": {
+      "pt": "Kel primeru ómi, Adon, kriadu di manera perfetu ô sen pekadu",
+      "kea": "Kel primeru ómi, Adon, kriadu di manera perfetu ô sen pekadu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4318",
+    "word": "pur",
+    "translation": {
+      "pt": "por"
+    },
+    "example": {
+      "pt": "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+      "kea": "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-4319",
+    "word": "isu",
+    "translation": {
+      "pt": "isso"
+    },
+    "example": {
+      "pt": "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+      "kea": "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4320",
+    "word": "bíblia",
+    "translation": {
+      "pt": "Bíblia"
+    },
+    "example": {
+      "pt": "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+      "kea": "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4321",
+    "word": "krê",
+    "translation": {
+      "pt": "quer / significa"
+    },
+    "example": {
+      "pt": "Valor izatu ô igual di o quê ki algen krê resgata",
+      "kea": "Valor izatu ô igual di kuzê ki algen krê resgata"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4322",
+    "word": "língua",
+    "translation": {
+      "pt": "língua"
+    },
+    "example": {
+      "pt": "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jesus Krist...",
+      "kea": "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Krist..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4323",
+    "word": "faze",
+    "translation": {
+      "pt": "fazer"
+    },
+    "example": {
+      "pt": "Kel sakrifisiu li ta djuda tudu kes algen ki ta faze o quê ki Deus ta fla",
+      "kea": "Kel sakrifisiu li ta djuda tudu kes algen ki ta faze kuzê ki Deus ta fla"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4324",
+    "word": "óras",
+    "translation": {
+      "pt": "vezes / horas"
+    },
+    "example": {
+      "pt": "Bíblia tanbê ta fla ma óras ki nu ta dexa di faze un kuza dretu ki nu devia faze, kel-la tanbê é ...",
+      "kea": "Bíblia tanbê ta fla ma óras ki nu ta dexa di faze un kuza dretu ki nu devia faze, kel-la tanbê é ..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4325",
+    "word": "jeová",
+    "translation": {
+      "pt": "Jeová"
+    },
+    "example": {
+      "pt": "Na o quê ki Tistimunhas di Jeová ta kridita",
+      "kea": "Na kuzê ki Tistimunhas di Jeová ta kridita"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4326",
+    "word": "pesoas",
+    "translation": {
+      "pt": "pessoas"
+    },
+    "example": {
+      "pt": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jesus má tanbê muda ses manera di vive...",
+      "kea": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4327",
+    "word": "fé",
+    "translation": {
+      "pt": "fé"
+    },
+    "example": {
+      "pt": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jesus má tanbê muda ses manera di vive...",
+      "kea": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4328",
+    "word": "se",
+    "translation": {
+      "pt": "se / seu"
+    },
+    "example": {
+      "pt": "Manera ki un algen ta vive ta prova si se fé sta bibu",
+      "kea": "Manera ki un algen ta vive ta prova si se fé sta bibu"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4329",
+    "word": "salvason",
+    "translation": {
+      "pt": "salvação"
+    },
+    "example": {
+      "pt": "Má, salvason é ka un kuza ki nu ta ganha",
+      "kea": "Má, salvason é ka un kuza ki nu ta ganha"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4330",
+    "word": "satanás",
+    "translation": {
+      "pt": "Satanás"
+    },
+    "example": {
+      "pt": "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\"",
+      "kea": "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4331",
+    "word": "kel-la",
+    "translation": {
+      "pt": "aquilo / isso"
+    },
+    "example": {
+      "pt": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se...",
+      "kea": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se..."
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4332",
+    "word": "kontise",
+    "translation": {
+      "pt": "acontecer / continuar"
+    },
+    "example": {
+      "pt": "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El k...",
+      "kea": "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El k..."
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4333",
+    "word": "meste",
+    "translation": {
+      "pt": "precisar / dever"
+    },
+    "example": {
+      "pt": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jesus má tanbê muda ses manera di vive...",
+      "kea": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive..."
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4334",
+    "word": "batiza",
+    "translation": {
+      "pt": "batizar"
+    },
+    "example": {
+      "pt": "Exemplo com \"batizar\"",
+      "kea": "Exenplu ku \"batiza\""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4335",
+    "word": "pruvetu",
+    "translation": {
+      "pt": "proveito / benefício"
+    },
+    "example": {
+      "pt": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jesus má tanbê muda ses manera di vive...",
+      "kea": "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4336",
+    "word": "kridita",
+    "translation": {
+      "pt": "acreditar"
+    },
+    "example": {
+      "pt": "Na o quê ki Tistimunhas di Jeová ta kridita",
+      "kea": "Na kuzê ki Tistimunhas di Jeová ta kridita"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4337",
+    "word": "pode",
+    "translation": {
+      "pt": "poder"
+    },
+    "example": {
+      "pt": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jesus",
+      "kea": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4338",
+    "word": "salvadu",
+    "translation": {
+      "pt": "salvado"
+    },
+    "example": {
+      "pt": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jesus",
+      "kea": "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4339",
+    "word": "tistimunhas",
+    "translation": {
+      "pt": "testemunhas"
+    },
+    "example": {
+      "pt": "Na o quê ki Tistimunhas di Jeová ta kridita",
+      "kea": "Na kuzê ki Tistimunhas di Jeová ta kridita"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4340",
+    "word": "anju",
+    "translation": {
+      "pt": "anjo"
+    },
+    "example": {
+      "pt": "Exemplo com \"anjo\"",
+      "kea": "Exenplu ku \"anju\""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4341",
+    "word": "pikinoti",
+    "translation": {
+      "pt": "pequeno"
+    },
+    "example": {
+      "pt": "Exemplo com \"pequeno\"",
+      "kea": "Exenplu ku \"pikinoti\""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4342",
+    "word": "resusitadu",
+    "translation": {
+      "pt": "ressuscitado"
+    },
+    "example": {
+      "pt": "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jesus na R...",
+      "kea": "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jizus na R..."
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4343",
+    "word": "reinu",
+    "translation": {
+      "pt": "reino"
+    },
+    "example": {
+      "pt": "Exemplo com \"reino\"",
+      "kea": "Exenplu ku \"reinu\""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4344",
+    "word": "umanus",
+    "translation": {
+      "pt": "humanos"
+    },
+    "example": {
+      "pt": "Deus kria Téra pa ser kaza di umanus pa tudu tempo",
+      "kea": "Deus kria Téra pa ser kaza di umanus pa tudu ténpu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4345",
+    "word": "paraízu",
+    "translation": {
+      "pt": "paraíso"
+    },
+    "example": {
+      "pt": "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu tempo na paraízu na...",
+      "kea": "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu ténpu na paraízu na..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4346",
+    "word": "saúdi",
+    "translation": {
+      "pt": "saúde"
+    },
+    "example": {
+      "pt": "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu tempo na paraízu na...",
+      "kea": "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu ténpu na paraízu na..."
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4347",
+    "word": "rabela",
+    "translation": {
+      "pt": "rebelar"
+    },
+    "example": {
+      "pt": "Exemplo com \"rebelar\"",
+      "kea": "Exenplu ku \"rabela\""
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4348",
+    "word": "txomadu",
+    "translation": {
+      "pt": "chamado"
+    },
+    "example": {
+      "pt": "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\"",
+      "kea": "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\""
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4349",
+    "word": "diabu",
+    "translation": {
+      "pt": "diabo"
+    },
+    "example": {
+      "pt": "Exemplo com \"diabo\"",
+      "kea": "Exenplu ku \"diabu\""
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4350",
+    "word": "konvense",
+    "translation": {
+      "pt": "convencer"
+    },
+    "example": {
+      "pt": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se...",
+      "kea": "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa se..."
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4351",
+    "word": "djuntu",
+    "translation": {
+      "pt": "junto"
+    },
+    "example": {
+      "pt": "Exemplo com \"junto\"",
+      "kea": "Exenplu ku \"djuntu\""
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4352",
+    "word": "txeu",
+    "translation": {
+      "pt": "muito / cheio"
+    },
+    "example": {
+      "pt": "Exemplo com \"muito / cheio\"",
+      "kea": "Exenplu ku \"txeu\""
+    },
+    "category": "Adverbe"
   }
 ];

@@ -1,0 +1,846 @@
+{
+  "totalWordsInCorpus": 217,
+  "missingWordsCount": 111,
+  "missingWords": [
+    {
+      "word": "kuzê",
+      "frequency": 3,
+      "exampleSentences": [
+        "Na kuzê ki Tistimunhas di Jeová ta kridita",
+        "Valor izatu ô igual di kuzê ki algen krê resgata",
+        "Kel sakrifisiu li ta djuda tudu kes algen ki ta faze kuzê ki Deus ta fla"
+      ]
+    },
+    {
+      "word": "mórti",
+      "frequency": 3,
+      "exampleSentences": [
+        "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus",
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "resgati",
+      "frequency": 3,
+      "exampleSentences": [
+        "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus",
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza",
+        "Resgati é kel manera justu ki el ranja"
+      ]
+    },
+    {
+      "word": "jizus",
+      "frequency": 3,
+      "exampleSentences": [
+        "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus",
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza",
+        "Jeová Deus, Jizus Kristu i kes anju fiel ta mora na Séu"
+      ]
+    },
+    {
+      "word": "má",
+      "frequency": 3,
+      "exampleSentences": [
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza",
+        "Má, salvason é ka un kuza ki nu ta ganha",
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "tanbê",
+      "frequency": 3,
+      "exampleSentences": [
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza",
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador",
+        "Bíblia tanbê ta fla ma óras ki nu ta dexa di faze un kuza dretu ki nu devia faze, kel-la tanbê é pekadu"
+      ]
+    },
+    {
+      "word": "kuza",
+      "frequency": 3,
+      "exampleSentences": [
+        "Má, salvason é ka un kuza ki nu ta ganha",
+        "Na Bíblia, palavra 'resgati' ta inklui três kuza:\nEl é un pagamentu",
+        "Odja modi ki kes três kuza li ta aplika na resgati di Jizus Kristu"
+      ]
+    },
+    {
+      "word": "kristu",
+      "frequency": 3,
+      "exampleSentences": [
+        "Jeová Deus, Jizus Kristu i kes anju fiel ta mora na Séu",
+        "Odja modi ki kes três kuza li ta aplika na resgati di Jizus Kristu",
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "kes",
+      "frequency": 3,
+      "exampleSentences": [
+        "Jeová Deus, Jizus Kristu i kes anju fiel ta mora na Séu",
+        "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu ténpu na paraízu na Téra",
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "ben",
+      "frequency": 3,
+      "exampleSentences": [
+        "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jizus na Reinu di Deus",
+        "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu ténpu na paraízu na Téra",
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "sufrimentu",
+      "frequency": 3,
+      "exampleSentences": [
+        "Maldadi ku sufrimentu",
+        "Maldadi ku sufrimentu kumesa kantu un anju di Deus rabela kóntra el",
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "kóntra",
+      "frequency": 3,
+      "exampleSentences": [
+        "Maldadi ku sufrimentu kumesa kantu un anju di Deus rabela kóntra el",
+        "Pekadu é tudu kuza ki nu ta faze, ki nu ta xinti ô ki nu ta pensa ki é kóntra kes lei di Deus",
+        "Pekadu é faze un kuza mariadu ô injustu ki ta bai kóntra kel ki Deus ta fla"
+      ]
+    },
+    {
+      "word": "ómi",
+      "frequency": 3,
+      "exampleSentences": [
+        "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa ses fidjus",
+        "Kel primeru ómi, Adon, kriadu di manera perfetu ô sen pekadu",
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "fidjus",
+      "frequency": 3,
+      "exampleSentences": [
+        "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa ses fidjus",
+        "Kantu el tevi fidjus, el pasa-s kel pekadu, ki é sima un defetu",
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+      ]
+    },
+    {
+      "word": "adon",
+      "frequency": 3,
+      "exampleSentences": [
+        "Kel primeru ómi, Adon, kriadu di manera perfetu ô sen pekadu",
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+        "Dja ki tudu kes fidju di Adon éra inperfetu, es ka ta podia rekupera kel ki Adon perde"
+      ]
+    },
+    {
+      "word": "pur",
+      "frequency": 3,
+      "exampleSentences": [
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+        "Deus ta ama-nu, pur isu el ranja un manera justu pa púrdua ô ti pa paga nos pekadu",
+        "Deus é nos Kriador, pur isu el ten direitu di fla-nu kuzê ki é dretu ô mariadu"
+      ]
+    },
+    {
+      "word": "isu",
+      "frequency": 3,
+      "exampleSentences": [
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+        "Deus ta ama-nu, pur isu el ranja un manera justu pa púrdua ô ti pa paga nos pekadu",
+        "Deus é nos Kriador, pur isu el ten direitu di fla-nu kuzê ki é dretu ô mariadu"
+      ]
+    },
+    {
+      "word": "bíblia",
+      "frequency": 3,
+      "exampleSentences": [
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti",
+        "Na Bíblia, palavra 'resgati' ta inklui três kuza:\nEl é un pagamentu",
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "krê",
+      "frequency": 3,
+      "exampleSentences": [
+        "Valor izatu ô igual di kuzê ki algen krê resgata",
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "língua",
+      "frequency": 3,
+      "exampleSentences": [
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'",
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "faze",
+      "frequency": 3,
+      "exampleSentences": [
+        "Kel sakrifisiu li ta djuda tudu kes algen ki ta faze kuzê ki Deus ta fla",
+        "Pekadu é tudu kuza ki nu ta faze, ki nu ta xinti ô ki nu ta pensa ki é kóntra kes lei di Deus",
+        "Pekadu é faze un kuza mariadu ô injustu ki ta bai kóntra kel ki Deus ta fla"
+      ]
+    },
+    {
+      "word": "óras",
+      "frequency": 3,
+      "exampleSentences": [
+        "Bíblia tanbê ta fla ma óras ki nu ta dexa di faze un kuza dretu ki nu devia faze, kel-la tanbê é pekadu",
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "jeová",
+      "frequency": 2,
+      "exampleSentences": [
+        "Na kuzê ki Tistimunhas di Jeová ta kridita",
+        "Jeová Deus, Jizus Kristu i kes anju fiel ta mora na Séu"
+      ]
+    },
+    {
+      "word": "pesoas",
+      "frequency": 2,
+      "exampleSentences": [
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza",
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "fé",
+      "frequency": 2,
+      "exampleSentences": [
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza",
+        "Manera ki un algen ta vive ta prova si se fé sta bibu"
+      ]
+    },
+    {
+      "word": "se",
+      "frequency": 2,
+      "exampleSentences": [
+        "Manera ki un algen ta vive ta prova si se fé sta bibu",
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+      ]
+    },
+    {
+      "word": "salvason",
+      "frequency": 2,
+      "exampleSentences": [
+        "Má, salvason é ka un kuza ki nu ta ganha",
+        "El ta traze libertason, ô salvason"
+      ]
+    },
+    {
+      "word": "satanás",
+      "frequency": 2,
+      "exampleSentences": [
+        "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\"",
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "kel-la",
+      "frequency": 2,
+      "exampleSentences": [
+        "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa ses fidjus",
+        "Bíblia tanbê ta fla ma óras ki nu ta dexa di faze un kuza dretu ki nu devia faze, kel-la tanbê é pekadu"
+      ]
+    },
+    {
+      "word": "kontise",
+      "frequency": 2,
+      "exampleSentences": [
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu",
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu"
+      ]
+    },
+    {
+      "word": "tinha",
+      "frequency": 2,
+      "exampleSentences": [
+        "El tinha speransa di vive pa tudu ténpu, má el perde kel oportunidadi li pamodi el skodje ka obi ku Deus",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "speransa",
+      "frequency": 2,
+      "exampleSentences": [
+        "El tinha speransa di vive pa tudu ténpu, má el perde kel oportunidadi li pamodi el skodje ka obi ku Deus",
+        "Deus xinti péna di kes disendenti di Adon ki fika sen speransa"
+      ]
+    },
+    {
+      "word": "dja",
+      "frequency": 2,
+      "exampleSentences": [
+        "Dja ki tudu kes fidju di Adon éra inperfetu, es ka ta podia rekupera kel ki Adon perde",
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu"
+      ]
+    },
+    {
+      "word": "podia",
+      "frequency": 2,
+      "exampleSentences": [
+        "Dja ki tudu kes fidju di Adon éra inperfetu, es ka ta podia rekupera kel ki Adon perde",
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu"
+      ]
+    },
+    {
+      "word": "púrdua",
+      "frequency": 2,
+      "exampleSentences": [
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu",
+        "Deus ta ama-nu, pur isu el ranja un manera justu pa púrdua ô ti pa paga nos pekadu"
+      ]
+    },
+    {
+      "word": "izatu",
+      "frequency": 2,
+      "exampleSentences": [
+        "Valor izatu ô igual di kuzê ki algen krê resgata",
+        "Nton, sakrifisiu di Jizus é 'un resgati di valor izatu'"
+      ]
+    },
+    {
+      "word": "mésmu",
+      "frequency": 2,
+      "exampleSentences": [
+        "Mésmu valor",
+        "Kel sakrifisiu di Jizus ten kel mésmu valor di vida perfetu ki Adon perde"
+      ]
+    },
+    {
+      "word": "nton",
+      "frequency": 2,
+      "exampleSentences": [
+        "Nton, sakrifisiu di Jizus é 'un resgati di valor izatu'",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "mariadu",
+      "frequency": 2,
+      "exampleSentences": [
+        "Pekadu é faze un kuza mariadu ô injustu ki ta bai kóntra kel ki Deus ta fla",
+        "Deus é nos Kriador, pur isu el ten direitu di fla-nu kuzê ki é dretu ô mariadu"
+      ]
+    },
+    {
+      "word": "skrebedu",
+      "frequency": 2,
+      "exampleSentences": [
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "traduzidu",
+      "frequency": 2,
+      "exampleSentences": [
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa",
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "tistimunhas",
+      "frequency": 1,
+      "exampleSentences": [
+        "Na kuzê ki Tistimunhas di Jeová ta kridita"
+      ]
+    },
+    {
+      "word": "kridita",
+      "frequency": 1,
+      "exampleSentences": [
+        "Na kuzê ki Tistimunhas di Jeová ta kridita"
+      ]
+    },
+    {
+      "word": "pode",
+      "frequency": 1,
+      "exampleSentences": [
+        "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+      ]
+    },
+    {
+      "word": "salvadu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Nu pode salvadu di pekadu ku mórti pamodi di resgati di Jizus"
+      ]
+    },
+    {
+      "word": "pruvetu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza"
+      ]
+    },
+    {
+      "word": "meste",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pa tra pruvetu di resgati, pesoas meste ka sô mostra fé na Jizus má tanbê muda ses manera di vive i batiza"
+      ]
+    },
+    {
+      "word": "dadu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Nu ta dadu el pamodi 'bondadi di Deus ki ka meresedu'"
+      ]
+    },
+    {
+      "word": "meresedu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Nu ta dadu el pamodi 'bondadi di Deus ki ka meresedu'"
+      ]
+    },
+    {
+      "word": "resusitadu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jizus na Reinu di Deus"
+      ]
+    },
+    {
+      "word": "governa",
+      "frequency": 1,
+      "exampleSentences": [
+        "Un grupu pikinoti di 144 mil algen ta ben resusitadu pa bai vive na Séu, pa governa ku Jizus na Reinu di Deus"
+      ]
+    },
+    {
+      "word": "kria",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus kria Téra pa ser kaza di umanus pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "umanus",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus kria Téra pa ser kaza di umanus pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "saúdi",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu ténpu na paraízu na Téra"
+      ]
+    },
+    {
+      "word": "paraízu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus ta ben abênsua kes algen ki ta obi ku el ku saúdi perfetu i vida pa tudu ténpu na paraízu na Téra"
+      ]
+    },
+    {
+      "word": "kumesa",
+      "frequency": 1,
+      "exampleSentences": [
+        "Maldadi ku sufrimentu kumesa kantu un anju di Deus rabela kóntra el"
+      ]
+    },
+    {
+      "word": "dipôs",
+      "frequency": 1,
+      "exampleSentences": [
+        "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\""
+      ]
+    },
+    {
+      "word": "txomadu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Dipôs ki el rabela el fika ta txomadu di \"Satanás\" i \"Diabu\""
+      ]
+    },
+    {
+      "word": "konvense",
+      "frequency": 1,
+      "exampleSentences": [
+        "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa ses fidjus"
+      ]
+    },
+    {
+      "word": "prubléma",
+      "frequency": 1,
+      "exampleSentences": [
+        "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa ses fidjus"
+      ]
+    },
+    {
+      "word": "gravi",
+      "frequency": 1,
+      "exampleSentences": [
+        "El konvense primeru ómi ku mudjer pa rabela djuntu ku el i kel-la traze txeu prubléma gravi pa ses fidjus"
+      ]
+    },
+    {
+      "word": "rezolve",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "dúvida",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "labanta",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "dexa-s",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pa rezolve kes dúvida ki Satanás labanta, Deus sta ta dexa maldadi ku sufrimentu kontise, má El ka ta dexa-s kontinua pa tudu ténpu"
+      ]
+    },
+    {
+      "word": "kriadu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Kel primeru ómi, Adon, kriadu di manera perfetu ô sen pekadu"
+      ]
+    },
+    {
+      "word": "skodje",
+      "frequency": 1,
+      "exampleSentences": [
+        "El tinha speransa di vive pa tudu ténpu, má el perde kel oportunidadi li pamodi el skodje ka obi ku Deus"
+      ]
+    },
+    {
+      "word": "tevi",
+      "frequency": 1,
+      "exampleSentences": [
+        "Kantu el tevi fidjus, el pasa-s kel pekadu, ki é sima un defetu"
+      ]
+    },
+    {
+      "word": "pasa-s",
+      "frequency": 1,
+      "exampleSentences": [
+        "Kantu el tevi fidjus, el pasa-s kel pekadu, ki é sima un defetu"
+      ]
+    },
+    {
+      "word": "defetu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Kantu el tevi fidjus, el pasa-s kel pekadu, ki é sima un defetu"
+      ]
+    },
+    {
+      "word": "bende",
+      "frequency": 1,
+      "exampleSentences": [
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+      ]
+    },
+    {
+      "word": "skravu",
+      "frequency": 1,
+      "exampleSentences": [
+        "É pur isu ki Bíblia ta fla ma Adon 'bende' el ku se fidjus pa ser skravu di pekadu i mórti"
+      ]
+    },
+    {
+      "word": "éra",
+      "frequency": 1,
+      "exampleSentences": [
+        "Dja ki tudu kes fidju di Adon éra inperfetu, es ka ta podia rekupera kel ki Adon perde"
+      ]
+    },
+    {
+      "word": "inperfetu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Dja ki tudu kes fidju di Adon éra inperfetu, es ka ta podia rekupera kel ki Adon perde"
+      ]
+    },
+    {
+      "word": "rekupera",
+      "frequency": 1,
+      "exampleSentences": [
+        "Dja ki tudu kes fidju di Adon éra inperfetu, es ka ta podia rekupera kel ki Adon perde"
+      ]
+    },
+    {
+      "word": "péna",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus xinti péna di kes disendenti di Adon ki fika sen speransa"
+      ]
+    },
+    {
+      "word": "disendenti",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus xinti péna di kes disendenti di Adon ki fika sen speransa"
+      ]
+    },
+    {
+      "word": "finji",
+      "frequency": 1,
+      "exampleSentences": [
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu"
+      ]
+    },
+    {
+      "word": "disendentis",
+      "frequency": 1,
+      "exampleSentences": [
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu"
+      ]
+    },
+    {
+      "word": "bon",
+      "frequency": 1,
+      "exampleSentences": [
+        "Má dja ki justisa di Deus é perfetu, el ka podia sô finji ma nada ka kontise ô púrdua pekadu di disendentis di Adon sen un bon motivu"
+      ]
+    },
+    {
+      "word": "ama-nu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus ta ama-nu, pur isu el ranja un manera justu pa púrdua ô ti pa paga nos pekadu"
+      ]
+    },
+    {
+      "word": "inklui",
+      "frequency": 1,
+      "exampleSentences": [
+        "Na Bíblia, palavra 'resgati' ta inklui três kuza:\nEl é un pagamentu"
+      ]
+    },
+    {
+      "word": "libertason",
+      "frequency": 1,
+      "exampleSentences": [
+        "El ta traze libertason, ô salvason"
+      ]
+    },
+    {
+      "word": "resgata",
+      "frequency": 1,
+      "exampleSentences": [
+        "Valor izatu ô igual di kuzê ki algen krê resgata"
+      ]
+    },
+    {
+      "word": "sirbi",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "kunpradu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "présu.",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "présu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "kunpra",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma kes ki ta sirbi Deus 'kunpradu pa un présu.'\nKel présu li é sangi di Jizus Kristu ki 'kunpra pesoas pa Deus, di tudu tribu, língua, povu i nason'"
+      ]
+    },
+    {
+      "word": "liberta-nu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Sakrifisiu di resgati di Jizus ta liberta-nu di pekadu"
+      ]
+    },
+    {
+      "word": "dizobidese",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "obidese.",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "testu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "splika",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla: 'Sima txeu algen bira pekador pamodi sô un ómi [Adon] ki dizobidese, tanbê txeu algen ta ben bira justu pamodi sô un [Jizus Kristu] ki obidese.'\nKel testu li ta splika modi ki mórti di un ómi sô paga resgati pa un monti di pekador"
+      ]
+    },
+    {
+      "word": "injustu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Pekadu é faze un kuza mariadu ô injustu ki ta bai kóntra kel ki Deus ta fla"
+      ]
+    },
+    {
+      "word": "devia",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia tanbê ta fla ma óras ki nu ta dexa di faze un kuza dretu ki nu devia faze, kel-la tanbê é pekadu"
+      ]
+    },
+    {
+      "word": "smira",
+      "frequency": 1,
+      "exampleSentences": [
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa"
+      ]
+    },
+    {
+      "word": "flexa",
+      "frequency": 1,
+      "exampleSentences": [
+        "Na kes língua ki Bíblia skrebedu, kes palavra ki traduzidu pa pekadu krê fla 'fadja', sima óras ki un algen ta fadja kel pontu ki el sta ta smira pa el da ku flexa"
+      ]
+    },
+    {
+      "word": "uns",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "trópa",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "israel",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "spiriénsa",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "daba",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "pédra",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "fadjaba.",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "fadjaba",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "pekaba.",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "kunpri",
+      "frequency": 1,
+      "exampleSentences": [
+        "Bíblia ta fla ma na ténpu antigu uns trópa di Israel ki tinha txeu spiriénsa ta daba ku pédra i es 'ka ta fadjaba.'\nKes palavra ki traduzidu 'ka ta fadjaba', na kes língua ki Bíblia skrebedu na el, krê fla 'ka ta pekaba.'\nNton, peka é óras ki un algen ta fadja pamodi el ka kunpri ku kes lei perfetu di Deus"
+      ]
+    },
+    {
+      "word": "kriador",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus é nos Kriador, pur isu el ten direitu di fla-nu kuzê ki é dretu ô mariadu"
+      ]
+    },
+    {
+      "word": "fla-nu",
+      "frequency": 1,
+      "exampleSentences": [
+        "Deus é nos Kriador, pur isu el ten direitu di fla-nu kuzê ki é dretu ô mariadu"
+      ]
+    },
+    {
+      "word": "kónta",
+      "frequency": 1,
+      "exampleSentences": [
+        "Nu ten ki presta kónta na el pa kel ki nu ta faze"
+      ]
+    }
+  ]
+}
