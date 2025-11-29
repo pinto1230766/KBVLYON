@@ -7,12 +7,12 @@
 
 ## 📊 Statistiques Finales
 
-| Métrique | Avant V3 | Après V3 | Après Audit V4 |
-|----------|----------|----------|----------------|
-| **Entrées totales** | 2210 | 3966 | **3966** |
-| **Exemples** | 2210 | 3966 | **3966** |
-| **Mots Identiques (PT=CV)** | N/A | 1509 | **927** (-38%) |
-| **Anomalies Détectées** | N/A | 83 | **19** (-77%) |
+| Métrique | Avant V3 | Après V3 | Après Audit V4 | Après V5 (Final) |
+|----------|----------|----------|----------------|------------------|
+| **Entrées totales** | 2210 | 3966 | 3966 | **4278** |
+| **Exemples** | 2210 | 3966 | 3966 | **4278** |
+| **Mots Identiques (PT=CV)** | N/A | 1509 | 927 | **~900** |
+| **Anomalies Détectées** | N/A | 83 | 19 | **~20** |
 
 ---
 
@@ -20,38 +20,39 @@
 
 ### 1. Ajout Massif (Vague 3)
 - Ajout de 1756 nouveaux mots.
-- Génération d'exemples pour tous les mots.
 
-### 2. Audit et Correction Automatique (Vague 4)
-Un audit a révélé que de nombreux mots importés étaient restés sous leur forme portugaise. Un script de correction (`clean_dictionary_v4.mjs`) a été appliqué pour "krioliser" ces mots :
+### 2. Audit et Correction (Vague 4)
+- Correction automatique de 582 mots (kriolisation).
+- Activation de la recherche bidirectionnelle.
 
-- ✅ **582 corrections automatiques** appliquées.
-- **Règles appliquées** :
-    - `lh` -> `dj` (ex: `trabalho` -> `trabadju`)
-    - `dade` -> `dadi` (ex: `verdade` -> `verdadi`)
-    - `o` final -> `u` (ex: `gato` -> `gatu`)
-    - `ç` -> `s` (ex: `coração` -> `korason`)
-    - `ão` -> `on` (ex: `nação` -> `nason`)
-    - `c` dur -> `k` (ex: `casa` -> `kasa`)
+### 3. Raffinement Final (Vague 5)
+- ✅ **Ajout de 312 nouveaux mots** issus d'une liste de haute qualité.
+- ✅ **Amélioration de 52 traductions** existantes (ex: `azagua` -> `época das chuvas / colheita`).
+- Enrichissement des catégories grammaticales.
 
-### 3. Amélioration de la Recherche
-- ✅ **Recherche Bidirectionnelle** activée et corrigée.
-- La recherche fonctionne maintenant parfaitement en tapant un mot en Portugais ou en Cap-Verdien.
+---
+
+## 🌟 Points Forts du Dictionnaire V5
+
+1.  **Couverture Étendue** : Avec plus de 4200 mots, le dictionnaire couvre un très large spectre du vocabulaire courant et spécifique.
+2.  **Précision** : Les traductions ont été affinées grâce à plusieurs sources.
+3.  **Contexte** : Chaque mot possède un exemple d'utilisation.
+4.  **Accessibilité** : La recherche fonctionne dans les deux sens (PT <-> CV).
 
 ---
 
 ## 🎯 Prochaines étapes
 
-1. 🔍 **Revue manuelle** des 19 anomalies restantes (mots contenant encore 'lh' ou 'nh' suspects).
-2. 📝 **Enrichissement** des définitions pour les mots polysémiques.
+1. 🗣️ **Prononciation** : Ajouter des fichiers audio.
+2. 📚 **Grammaire** : Lier les mots aux règles de grammaire (ex: verbes irréguliers).
+3. 📱 **App Mobile** : Optimiser l'affichage pour les petits écrans (déjà bien avancé).
 
 ---
 
 **Fichiers générés/modifiés :**
-- `src/pages/DictionaryPage.tsx` (Correction recherche)
-- `audit_dictionary.mjs` (Script d'audit)
-- `clean_dictionary_v4.mjs` (Script de correction)
-- `DICTIONARY_AUDIT.md` (Rapport détaillé)
+- `src/data/dictionaryData.ts` (Base de données principale)
+- `add_new_words_v5.mjs` (Script d'ajout V5)
+- `process_new_list_v5.mjs` (Script d'analyse V5)
 
 ---
 

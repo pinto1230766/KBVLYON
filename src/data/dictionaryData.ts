@@ -3413,7 +3413,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-284",
     "word": "armum",
     "translation": {
-      "pt": "irmão"
+      "pt": "irmão / irmã"
     },
     "example": {
       "pt": "Eu tenho um irmão",
@@ -4577,7 +4577,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-381",
     "word": "badju",
     "translation": {
-      "pt": "dança"
+      "pt": "dança / baile"
     },
     "example": {
       "pt": "O dança é bonito",
@@ -4625,7 +4625,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-385",
     "word": "bafiu",
     "translation": {
-      "pt": "aperitivo"
+      "pt": "petisco"
     },
     "example": {
       "pt": "Onde está o aperitivo?",
@@ -5321,7 +5321,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-443",
     "word": "basta",
     "translation": {
-      "pt": "bastar"
+      "pt": "bastar / ser suficiente"
     },
     "example": {
       "pt": "Eu vou bastar",
@@ -5381,7 +5381,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-448",
     "word": "batata",
     "translation": {
-      "pt": "batata"
+      "pt": "batata doce"
     },
     "example": {
       "pt": "O batata é bonito",
@@ -5453,7 +5453,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-454",
     "word": "batuku",
     "translation": {
-      "pt": "batuque"
+      "pt": "batuque (dança tradicional)"
     },
     "example": {
       "pt": "Onde está o batuque?",
@@ -5609,7 +5609,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-467",
     "word": "bika",
     "translation": {
-      "pt": "bico"
+      "pt": "fome / sem dinheiro (gíria)"
     },
     "example": {
       "pt": "O bico é bonito",
@@ -6354,7 +6354,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-530",
     "word": "buati",
     "translation": {
-      "pt": "boate / discoteca"
+      "pt": "discoteca / boate"
     },
     "example": {
       "pt": "Gosto deste boate",
@@ -7698,7 +7698,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-642",
     "word": "donu",
     "translation": {
-      "pt": "dono"
+      "pt": "dono / avô"
     },
     "example": {
       "pt": "Onde está o dono?",
@@ -7806,7 +7806,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-651",
     "word": "dretu",
     "translation": {
-      "pt": "direito / correto"
+      "pt": "direito / bem / correto"
     },
     "example": {
       "pt": "Uma pessoa direito",
@@ -7902,7 +7902,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-659",
     "word": "e",
     "translation": {
-      "pt": "e (conjonction) / é (verbo ser)"
+      "pt": "ele / ela"
     },
     "example": {
       "pt": "Eu e (conjonction) tu",
@@ -8442,7 +8442,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-705",
     "word": "es",
     "translation": {
-      "pt": "este / esse"
+      "pt": "este / esta / isto"
     },
     "example": {
       "pt": "O este é bonito",
@@ -9426,7 +9426,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-787",
     "word": "fora",
     "translation": {
-      "pt": "fora"
+      "pt": "fora / campo"
     },
     "example": {
       "pt": "Que fora!",
@@ -9450,7 +9450,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-789",
     "word": "forti",
     "translation": {
-      "pt": "forte"
+      "pt": "forte / muito"
     },
     "example": {
       "pt": "Uma pessoa forte",
@@ -11454,7 +11454,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-956",
     "word": "kapas",
     "translation": {
-      "pt": "capaz"
+      "pt": "capaz / possível"
     },
     "example": {
       "pt": "Que capaz!",
@@ -11682,7 +11682,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-975",
     "word": "ki",
     "translation": {
-      "pt": "que / quem"
+      "pt": "que / qual"
     },
     "example": {
       "pt": "Para que",
@@ -11910,7 +11910,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-994",
     "word": "konta",
     "translation": {
-      "pt": "conta / contar"
+      "pt": "contar"
     },
     "example": {
       "pt": "Precisamos conta agora",
@@ -13362,7 +13362,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1115",
     "word": "mas",
     "translation": {
-      "pt": "mas"
+      "pt": "mais"
     },
     "example": {
       "pt": "Aqui mas ali",
@@ -13458,7 +13458,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1123",
     "word": "me",
     "translation": {
-      "pt": "me"
+      "pt": "mesmo"
     },
     "example": {
       "pt": "Para me",
@@ -13950,7 +13950,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1164",
     "word": "moda",
     "translation": {
-      "pt": "moda"
+      "pt": "como / maneira"
     },
     "example": {
       "pt": "Eu tenho um moda",
@@ -14346,7 +14346,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1197",
     "word": "na",
     "translation": {
-      "pt": "na / em"
+      "pt": "em / no / na"
     },
     "example": {
       "pt": "Vou na casa",
@@ -14742,7 +14742,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1230",
     "word": "nos",
     "translation": {
-      "pt": "nós"
+      "pt": "nós / nosso"
     },
     "example": {
       "pt": "É nós",
@@ -14838,7 +14838,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1238",
     "word": "o",
     "translation": {
-      "pt": "o"
+      "pt": "ou"
     },
     "example": {
       "pt": "Eu o tu",
@@ -14934,7 +14934,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1246",
     "word": "odja",
     "translation": {
-      "pt": "olhar / ver"
+      "pt": "ver / olhar"
     },
     "example": {
       "pt": "Ele gosta de olhar",
@@ -15654,7 +15654,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1306",
     "word": "parti",
     "translation": {
-      "pt": "partir"
+      "pt": "parte / partir"
     },
     "example": {
       "pt": "Não quero partir",
@@ -18174,7 +18174,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1516",
     "word": "riba",
     "translation": {
-      "pt": "riba / em cima"
+      "pt": "cima / sobre"
     },
     "example": {
       "pt": "Riba aqui",
@@ -18582,7 +18582,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1550",
     "word": "sabe",
     "translation": {
-      "pt": "saber / saboroso"
+      "pt": "saber"
     },
     "example": {
       "pt": "Você sabe falar crioulo?",
@@ -18594,7 +18594,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1551",
     "word": "sabi",
     "translation": {
-      "pt": "sabe / gostoso / agradável"
+      "pt": "saber / saboroso / bom"
     },
     "example": {
       "pt": "Que sabe!",
@@ -19062,7 +19062,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1590",
     "word": "sem",
     "translation": {
-      "pt": "sem"
+      "pt": "sem / cem"
     },
     "example": {
       "pt": "Sem onde?",
@@ -19458,7 +19458,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1623",
     "word": "sima",
     "translation": {
-      "pt": "como / assim como"
+      "pt": "como"
     },
     "example": {
       "pt": "Vou como casa",
@@ -19626,7 +19626,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1637",
     "word": "so",
     "translation": {
-      "pt": "só / somente"
+      "pt": "só"
     },
     "example": {
       "pt": "Ele fala só",
@@ -20742,7 +20742,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1730",
     "word": "ti",
     "translation": {
-      "pt": "até / ti"
+      "pt": "até"
     },
     "example": {
       "pt": "Até onde?",
@@ -20862,7 +20862,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1740",
     "word": "toma",
     "translation": {
-      "pt": "tomar"
+      "pt": "tomar / beber"
     },
     "example": {
       "pt": "Não quero tomar",
@@ -21138,7 +21138,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1763",
     "word": "tras",
     "translation": {
-      "pt": "trás / atrás"
+      "pt": "trás"
     },
     "example": {
       "pt": "Trás está bem",
@@ -22362,7 +22362,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1865",
     "word": "volta",
     "translation": {
-      "pt": "volta / voltar"
+      "pt": "voltar"
     },
     "example": {
       "pt": "Este volta é meu",
@@ -23706,7 +23706,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1980",
     "word": "azagua",
     "translation": {
-      "pt": "azágua / época das chuvas"
+      "pt": "época das chuvas / colheita"
     },
     "example": {
       "pt": "O azágua é bonito",
@@ -23887,7 +23887,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-1995",
     "word": "bafa",
     "translation": {
-      "pt": "abafar / amadurecer fruta / lanchar"
+      "pt": "aperitivo / lanche"
     },
     "example": {
       "pt": "Precisamos abafar agora",
@@ -26373,7 +26373,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2221",
     "word": "djuga",
     "translation": {
-      "pt": "jogar / brincar"
+      "pt": "jogar"
     },
     "example": {
       "pt": "Eu vou jogar",
@@ -26409,7 +26409,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2224",
     "word": "dodu",
     "translation": {
-      "pt": "doido / maluco"
+      "pt": "doido"
     },
     "example": {
       "pt": "Ele é muito doido",
@@ -28557,7 +28557,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2403",
     "word": "bem",
     "translation": {
-      "pt": "bem"
+      "pt": "vir"
     },
     "example": {
       "pt": "Faça bem",
@@ -28665,7 +28665,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2412",
     "word": "bera",
     "translation": {
-      "pt": "beira / margem"
+      "pt": "beira / borda"
     },
     "example": {
       "pt": "O beira é interessante",
@@ -28677,7 +28677,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2413",
     "word": "bera-mar",
     "translation": {
-      "pt": "beira-mar"
+      "pt": "beira-mar / praia"
     },
     "example": {
       "pt": "O beira-mar é interessante",
@@ -28857,7 +28857,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2428",
     "word": "bira",
     "translation": {
-      "pt": "virar / tornar"
+      "pt": "virar / tornar-se"
     },
     "example": {
       "pt": "Eu vou virar",
@@ -29781,7 +29781,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2505",
     "word": "karu",
     "translation": {
-      "pt": "caro"
+      "pt": "carro / caro"
     },
     "example": {
       "pt": "Isso parece caro",
@@ -29805,7 +29805,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2507",
     "word": "kasa",
     "translation": {
-      "pt": "casa"
+      "pt": "casar"
     },
     "example": {
       "pt": "Onde está o casa?",
@@ -31041,7 +31041,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2610",
     "word": "kontra",
     "translation": {
-      "pt": "contra"
+      "pt": "encontrar"
     },
     "example": {
       "pt": "Onde está o contra?",
@@ -31449,7 +31449,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2644",
     "word": "kredu",
     "translation": {
-      "pt": "credo"
+      "pt": "credo (interjeição)"
     },
     "example": {
       "pt": "Eu vi um credo",
@@ -32181,7 +32181,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-2705",
     "word": "el",
     "translation": {
-      "pt": "ele"
+      "pt": "ele / ela (objeto)"
     },
     "example": {
       "pt": "É ele",
@@ -36177,7 +36177,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-3038",
     "word": "libra",
     "translation": {
-      "pt": "libra"
+      "pt": "livrar"
     },
     "example": {
       "pt": "Onde está o libra?",
@@ -41073,7 +41073,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-3446",
     "word": "pista",
     "translation": {
-      "pt": "pista"
+      "pt": "emprestar"
     },
     "example": {
       "pt": "Eu vi um pista",
@@ -41505,7 +41505,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-3482",
     "word": "praia",
     "translation": {
-      "pt": "praia"
+      "pt": "Praia (capital)"
     },
     "example": {
       "pt": "Onde está o praia?",
@@ -46281,7 +46281,7 @@ export const dictionaryData: DictionaryEntry[] = [
     "id": "entry-3880",
     "word": "tudu",
     "translation": {
-      "pt": "tudo"
+      "pt": "tudo / todo"
     },
     "example": {
       "pt": "Tudo está aqui",
@@ -47608,5 +47608,3749 @@ export const dictionaryData: DictionaryEntry[] = [
       "kea": "Undi ki zumbidu sta?"
     },
     "category": "Nom"
+  },
+  {
+    "id": "entry-3991",
+    "word": "a-bo",
+    "translation": {
+      "pt": "tu (enfático)"
+    },
+    "example": {
+      "pt": "Tu (enfático) está aqui",
+      "kea": "A-bo sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3992",
+    "word": "a-el",
+    "translation": {
+      "pt": "ele / ela (enfático)"
+    },
+    "example": {
+      "pt": "Ele está aqui",
+      "kea": "A-el sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3993",
+    "word": "a-gô",
+    "translation": {
+      "pt": "agora / então / no entanto"
+    },
+    "example": {
+      "pt": "Vou agora",
+      "kea": "N ta bai a-gô"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3994",
+    "word": "a-li",
+    "translation": {
+      "pt": "aqui (enfático)"
+    },
+    "example": {
+      "pt": "Faça aqui (enfático)",
+      "kea": "Faze a-li"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3995",
+    "word": "altura",
+    "translation": {
+      "pt": "altura / época / momento"
+    },
+    "example": {
+      "pt": "Eu vi um altura",
+      "kea": "N odja un altura"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3996",
+    "word": "a-mi",
+    "translation": {
+      "pt": "eu (enfático)"
+    },
+    "example": {
+      "pt": "Eu (enfático) está aqui",
+      "kea": "A-mi sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3997",
+    "word": "a-nho",
+    "translation": {
+      "pt": "o senhor (tratamento)"
+    },
+    "example": {
+      "pt": "É o senhor (tratamento)",
+      "kea": "E a-nho"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3998",
+    "word": "a-nhos",
+    "translation": {
+      "pt": "vocês (enfático)"
+    },
+    "example": {
+      "pt": "Vocês (enfático) está aqui",
+      "kea": "A-nhos sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-3999",
+    "word": "a-nos",
+    "translation": {
+      "pt": "nós (enfático)"
+    },
+    "example": {
+      "pt": "É nós (enfático)",
+      "kea": "E a-nos"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4000",
+    "word": "a-si",
+    "translation": {
+      "pt": "assim"
+    },
+    "example": {
+      "pt": "Ele fala assim",
+      "kea": "El ta fala a-si"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4001",
+    "word": "atcha",
+    "translation": {
+      "pt": "achar / encontrar"
+    },
+    "example": {
+      "pt": "Eu vou achar",
+      "kea": "N ta atcha"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4002",
+    "word": "bap",
+    "translation": {
+      "pt": "papo / conversa"
+    },
+    "example": {
+      "pt": "Eu vi um papo",
+      "kea": "N odja un bap"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4003",
+    "word": "bazofu",
+    "translation": {
+      "pt": "vaidoso / elegante"
+    },
+    "example": {
+      "pt": "Ele é muito vaidoso",
+      "kea": "El e muitu bazofu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4004",
+    "word": "bendidera",
+    "translation": {
+      "pt": "vendedeira"
+    },
+    "example": {
+      "pt": "Onde está o vendedeira?",
+      "kea": "Undi ki bendidera sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4005",
+    "word": "berdianu",
+    "translation": {
+      "pt": "cabo-verdiano"
+    },
+    "example": {
+      "pt": "Isso parece cabo-verdiano",
+      "kea": "Kel-la parse berdianu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4006",
+    "word": "bibi",
+    "translation": {
+      "pt": "viver"
+    },
+    "example": {
+      "pt": "Ele gosta de viver",
+      "kea": "El ta gosta di bibi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4007",
+    "word": "Bisenti",
+    "translation": {
+      "pt": "Vicente"
+    },
+    "example": {
+      "pt": "O Vicente é interessante",
+      "kea": "Bisenti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4008",
+    "word": "bo-tardi",
+    "translation": {
+      "pt": "boa tarde"
+    },
+    "example": {
+      "pt": "boa tarde",
+      "kea": "bo-tardi"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-4009",
+    "word": "bu",
+    "translation": {
+      "pt": "teu / tua / você"
+    },
+    "example": {
+      "pt": "Teu está aqui",
+      "kea": "Bu sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4010",
+    "word": "bunitu",
+    "translation": {
+      "pt": "bonito"
+    },
+    "example": {
+      "pt": "Isso parece bonito",
+      "kea": "Kel-la parse bunitu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4011",
+    "word": "buru",
+    "translation": {
+      "pt": "burro"
+    },
+    "example": {
+      "pt": "Onde está o burro?",
+      "kea": "Undi ki buru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4012",
+    "word": "debi",
+    "translation": {
+      "pt": "dever"
+    },
+    "example": {
+      "pt": "Ele gosta de dever",
+      "kea": "El ta gosta di debi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4013",
+    "word": "desk-e",
+    "translation": {
+      "pt": "desde que"
+    },
+    "example": {
+      "pt": "Use \"desde que\" na frase",
+      "kea": "Uza \"desk-e\" na frazi"
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-4014",
+    "word": "dexa",
+    "translation": {
+      "pt": "deixar"
+    },
+    "example": {
+      "pt": "Precisamos deixar agora",
+      "kea": "Nu ten ki dexa agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4015",
+    "word": "di",
+    "translation": {
+      "pt": "de"
+    },
+    "example": {
+      "pt": "Vou de casa",
+      "kea": "N ta bai di kasa"
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-4016",
+    "word": "dibidi",
+    "translation": {
+      "pt": "dividir"
+    },
+    "example": {
+      "pt": "Precisamos dividir agora",
+      "kea": "Nu ten ki dibidi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4017",
+    "word": "difisi",
+    "translation": {
+      "pt": "difícil"
+    },
+    "example": {
+      "pt": "Uma coisa difícil",
+      "kea": "Un koiza difisi"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4018",
+    "word": "dimas",
+    "translation": {
+      "pt": "demais"
+    },
+    "example": {
+      "pt": "Ele fala demais",
+      "kea": "El ta fala dimas"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4019",
+    "word": "Dios",
+    "translation": {
+      "pt": "Deus"
+    },
+    "example": {
+      "pt": "O Deus é interessante",
+      "kea": "Dios e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4020",
+    "word": "diskesi",
+    "translation": {
+      "pt": "esquecer"
+    },
+    "example": {
+      "pt": "Precisamos esquecer agora",
+      "kea": "Nu ten ki diskesi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4021",
+    "word": "diskansa",
+    "translation": {
+      "pt": "descansar"
+    },
+    "example": {
+      "pt": "Eu vou descansar",
+      "kea": "N ta diskansa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4022",
+    "word": "dispidida",
+    "translation": {
+      "pt": "despedida"
+    },
+    "example": {
+      "pt": "O despedida é interessante",
+      "kea": "Dispidida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4023",
+    "word": "dispos",
+    "translation": {
+      "pt": "depois"
+    },
+    "example": {
+      "pt": "Vou depois",
+      "kea": "N ta bai dispos"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4024",
+    "word": "dixa",
+    "translation": {
+      "pt": "deixar"
+    },
+    "example": {
+      "pt": "Precisamos deixar agora",
+      "kea": "Nu ten ki dixa agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4025",
+    "word": "dixi",
+    "translation": {
+      "pt": "descer"
+    },
+    "example": {
+      "pt": "Eu vou descer",
+      "kea": "N ta dixi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4026",
+    "word": "dizanovi",
+    "translation": {
+      "pt": "dezanove"
+    },
+    "example": {
+      "pt": "Onde está o dezanove?",
+      "kea": "Undi ki dizanovi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4027",
+    "word": "dizasax",
+    "translation": {
+      "pt": "dezasseis"
+    },
+    "example": {
+      "pt": "Eu vi um dezasseis",
+      "kea": "N odja un dizasax"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4028",
+    "word": "dizaséti",
+    "translation": {
+      "pt": "dezassete"
+    },
+    "example": {
+      "pt": "O dezassete é interessante",
+      "kea": "Dizaséti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4029",
+    "word": "Djom",
+    "translation": {
+      "pt": "João"
+    },
+    "example": {
+      "pt": "Eu vi um João",
+      "kea": "N odja un Djom"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4030",
+    "word": "Djonsinhu",
+    "translation": {
+      "pt": "Joaozinho"
+    },
+    "example": {
+      "pt": "Eu vi um Joaozinho",
+      "kea": "N odja un Djonsinhu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4031",
+    "word": "djuda",
+    "translation": {
+      "pt": "ajudar"
+    },
+    "example": {
+      "pt": "Eu vou ajudar",
+      "kea": "N ta djuda"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4032",
+    "word": "Djuzé",
+    "translation": {
+      "pt": "José"
+    },
+    "example": {
+      "pt": "Eu vi um José",
+      "kea": "N odja un Djuzé"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4033",
+    "word": "duenti",
+    "translation": {
+      "pt": "doente"
+    },
+    "example": {
+      "pt": "Ele é muito doente",
+      "kea": "El e muitu duenti"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4034",
+    "word": "dura",
+    "translation": {
+      "pt": "durar"
+    },
+    "example": {
+      "pt": "Precisamos durar agora",
+      "kea": "Nu ten ki dura agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4035",
+    "word": "duru",
+    "translation": {
+      "pt": "duro"
+    },
+    "example": {
+      "pt": "Isso parece duro",
+      "kea": "Kel-la parse duru"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4036",
+    "word": "duzentus",
+    "translation": {
+      "pt": "duzentos"
+    },
+    "example": {
+      "pt": "Onde está o duzentos?",
+      "kea": "Undi ki duzentus sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4037",
+    "word": "entri",
+    "translation": {
+      "pt": "entre"
+    },
+    "example": {
+      "pt": "Vou entre casa",
+      "kea": "N ta bai entri kasa"
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-4038",
+    "word": "fabor",
+    "translation": {
+      "pt": "favor"
+    },
+    "example": {
+      "pt": "O favor é interessante",
+      "kea": "Fabor e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4039",
+    "word": "fasedu",
+    "translation": {
+      "pt": "feito (passivo)"
+    },
+    "example": {
+      "pt": "Precisamos feito (passivo) agora",
+      "kea": "Nu ten ki fasedu agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4040",
+    "word": "Fazenda",
+    "translation": {
+      "pt": "Fazenda (bairro)"
+    },
+    "example": {
+      "pt": "O Fazenda (bairro) é interessante",
+      "kea": "Fazenda e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4041",
+    "word": "feia",
+    "translation": {
+      "pt": "feia"
+    },
+    "example": {
+      "pt": "Uma coisa feia",
+      "kea": "Un koiza feia"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4042",
+    "word": "fixi",
+    "translation": {
+      "pt": "fixe / legal"
+    },
+    "example": {
+      "pt": "Isso parece fixe",
+      "kea": "Kel-la parse fixi"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4043",
+    "word": "fla",
+    "translation": {
+      "pt": "dizer"
+    },
+    "example": {
+      "pt": "Ele gosta de dizer",
+      "kea": "El ta gosta di fla"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4044",
+    "word": "fladu",
+    "translation": {
+      "pt": "dito (passivo)"
+    },
+    "example": {
+      "pt": "Eu vou dito (passivo)",
+      "kea": "N ta fladu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4045",
+    "word": "fomi",
+    "translation": {
+      "pt": "fome"
+    },
+    "example": {
+      "pt": "Eu vi um fome",
+      "kea": "N odja un fomi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4046",
+    "word": "fra",
+    "translation": {
+      "pt": "dizer (variante)"
+    },
+    "example": {
+      "pt": "Precisamos dizer (variante) agora",
+      "kea": "Nu ten ki fra agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4047",
+    "word": "Fransa",
+    "translation": {
+      "pt": "França"
+    },
+    "example": {
+      "pt": "Onde está o França?",
+      "kea": "Undi ki Fransa sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4048",
+    "word": "franses",
+    "translation": {
+      "pt": "francês"
+    },
+    "example": {
+      "pt": "Ele é muito francês",
+      "kea": "El e muitu franses"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4049",
+    "word": "friu",
+    "translation": {
+      "pt": "frio"
+    },
+    "example": {
+      "pt": "Ele é muito frio",
+      "kea": "El e muitu friu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4050",
+    "word": "fronta",
+    "translation": {
+      "pt": "afligir / chatear"
+    },
+    "example": {
+      "pt": "Eu vou afligir",
+      "kea": "N ta fronta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4051",
+    "word": "fuxi",
+    "translation": {
+      "pt": "fugir"
+    },
+    "example": {
+      "pt": "Eu vou fugir",
+      "kea": "N ta fuxi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4052",
+    "word": "gazadju",
+    "translation": {
+      "pt": "hospitalidade"
+    },
+    "example": {
+      "pt": "O hospitalidade é interessante",
+      "kea": "Gazadju e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4053",
+    "word": "gentis",
+    "translation": {
+      "pt": "gente / família"
+    },
+    "example": {
+      "pt": "O gente é interessante",
+      "kea": "Gentis e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4054",
+    "word": "gia",
+    "translation": {
+      "pt": "guiar / conduzir"
+    },
+    "example": {
+      "pt": "Precisamos guiar agora",
+      "kea": "Nu ten ki gia agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4055",
+    "word": "gizado",
+    "translation": {
+      "pt": "guisado"
+    },
+    "example": {
+      "pt": "O guisado é interessante",
+      "kea": "Gizado e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4056",
+    "word": "go",
+    "translation": {
+      "pt": "agora / pois"
+    },
+    "example": {
+      "pt": "Vou agora",
+      "kea": "N ta bai go"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4057",
+    "word": "Gomi",
+    "translation": {
+      "pt": "Gomes"
+    },
+    "example": {
+      "pt": "Onde está o Gomes?",
+      "kea": "Undi ki Gomi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4058",
+    "word": "gosi",
+    "translation": {
+      "pt": "agora"
+    },
+    "example": {
+      "pt": "Faça agora",
+      "kea": "Faze gosi"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4059",
+    "word": "grogu",
+    "translation": {
+      "pt": "grogue (aguardente)"
+    },
+    "example": {
+      "pt": "Onde está o grogue (aguardente)?",
+      "kea": "Undi ki grogu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4060",
+    "word": "ilia",
+    "translation": {
+      "pt": "ilha"
+    },
+    "example": {
+      "pt": "Onde está o ilha?",
+      "kea": "Undi ki ilia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4061",
+    "word": "inda",
+    "translation": {
+      "pt": "ainda"
+    },
+    "example": {
+      "pt": "Faça ainda",
+      "kea": "Faze inda"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4062",
+    "word": "ingri",
+    "translation": {
+      "pt": "íngreme"
+    },
+    "example": {
+      "pt": "Uma coisa íngreme",
+      "kea": "Un koiza ingri"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4063",
+    "word": "intchi",
+    "translation": {
+      "pt": "encher"
+    },
+    "example": {
+      "pt": "Eu vou encher",
+      "kea": "N ta intchi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4064",
+    "word": "Kabrinka",
+    "translation": {
+      "pt": "Cabrinha (nome)"
+    },
+    "example": {
+      "pt": "Eu vi um Cabrinha (nome)",
+      "kea": "N odja un Kabrinka"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4065",
+    "word": "kada",
+    "translation": {
+      "pt": "cada"
+    },
+    "example": {
+      "pt": "Uma coisa cada",
+      "kea": "Un koiza kada"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4066",
+    "word": "kai",
+    "translation": {
+      "pt": "cair"
+    },
+    "example": {
+      "pt": "Precisamos cair agora",
+      "kea": "Nu ten ki kai agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4067",
+    "word": "kal",
+    "translation": {
+      "pt": "qual"
+    },
+    "example": {
+      "pt": "Qual está aqui",
+      "kea": "Kal sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4068",
+    "word": "kansa",
+    "translation": {
+      "pt": "cansar"
+    },
+    "example": {
+      "pt": "Ele gosta de cansar",
+      "kea": "El ta gosta di kansa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4069",
+    "word": "kansadu",
+    "translation": {
+      "pt": "cansado"
+    },
+    "example": {
+      "pt": "Ele é muito cansado",
+      "kea": "El e muitu kansadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4070",
+    "word": "kantu",
+    "translation": {
+      "pt": "quanto"
+    },
+    "example": {
+      "pt": "Vou quanto",
+      "kea": "N ta bai kantu"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4071",
+    "word": "kasaku",
+    "translation": {
+      "pt": "casaco"
+    },
+    "example": {
+      "pt": "Onde está o casaco?",
+      "kea": "Undi ki kasaku sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4072",
+    "word": "katorzi",
+    "translation": {
+      "pt": "catorze"
+    },
+    "example": {
+      "pt": "Onde está o catorze?",
+      "kea": "Undi ki katorzi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4073",
+    "word": "Kau",
+    "translation": {
+      "pt": "lugar / Cabo"
+    },
+    "example": {
+      "pt": "Onde está o lugar?",
+      "kea": "Undi ki Kau sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4074",
+    "word": "kenha",
+    "translation": {
+      "pt": "quem"
+    },
+    "example": {
+      "pt": "Quem está aqui",
+      "kea": "Kenha sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4075",
+    "word": "kilu",
+    "translation": {
+      "pt": "quilo"
+    },
+    "example": {
+      "pt": "Eu vi um quilo",
+      "kea": "N odja un kilu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4076",
+    "word": "kinhentus",
+    "translation": {
+      "pt": "quinhentos"
+    },
+    "example": {
+      "pt": "O quinhentos é interessante",
+      "kea": "Kinhentus e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4077",
+    "word": "kinta-fera",
+    "translation": {
+      "pt": "quinta-feira"
+    },
+    "example": {
+      "pt": "O quinta-feira é interessante",
+      "kea": "Kinta-fera e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4078",
+    "word": "kinzi",
+    "translation": {
+      "pt": "quinze"
+    },
+    "example": {
+      "pt": "O quinze é interessante",
+      "kea": "Kinzi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4079",
+    "word": "kiria",
+    "translation": {
+      "pt": "criar"
+    },
+    "example": {
+      "pt": "Ele gosta de criar",
+      "kea": "El ta gosta di kiria"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4080",
+    "word": "kiriolu",
+    "translation": {
+      "pt": "crioulo"
+    },
+    "example": {
+      "pt": "Eu vi um crioulo",
+      "kea": "N odja un kiriolu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4081",
+    "word": "koku",
+    "translation": {
+      "pt": "coco / coqueiro"
+    },
+    "example": {
+      "pt": "Onde está o coco?",
+      "kea": "Undi ki koku sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4082",
+    "word": "koladera",
+    "translation": {
+      "pt": "coladeira (música)"
+    },
+    "example": {
+      "pt": "O coladeira (música) é interessante",
+      "kea": "Koladera e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4083",
+    "word": "kombersu",
+    "translation": {
+      "pt": "conversa"
+    },
+    "example": {
+      "pt": "Onde está o conversa?",
+      "kea": "Undi ki kombersu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4084",
+    "word": "kompu",
+    "translation": {
+      "pt": "arranjar / consertar"
+    },
+    "example": {
+      "pt": "Ele gosta de arranjar",
+      "kea": "El ta gosta di kompu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4085",
+    "word": "konku",
+    "translation": {
+      "pt": "bater (porta)"
+    },
+    "example": {
+      "pt": "Precisamos bater (porta) agora",
+      "kea": "Nu ten ki konku agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4086",
+    "word": "konsi",
+    "translation": {
+      "pt": "conhecer"
+    },
+    "example": {
+      "pt": "Eu vou conhecer",
+      "kea": "N ta konsi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4087",
+    "word": "konxe",
+    "translation": {
+      "pt": "conhecer"
+    },
+    "example": {
+      "pt": "Eu vou conhecer",
+      "kea": "N ta konxe"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4088",
+    "word": "koraxu",
+    "translation": {
+      "pt": "coragem"
+    },
+    "example": {
+      "pt": "Onde está o coragem?",
+      "kea": "Undi ki koraxu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4089",
+    "word": "kori",
+    "translation": {
+      "pt": "correr"
+    },
+    "example": {
+      "pt": "Ele gosta de correr",
+      "kea": "El ta gosta di kori"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4090",
+    "word": "kotchi",
+    "translation": {
+      "pt": "pilar (milho)"
+    },
+    "example": {
+      "pt": "Eu vou pilar (milho)",
+      "kea": "N ta kotchi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4091",
+    "word": "kretxeu",
+    "translation": {
+      "pt": "amor / querido"
+    },
+    "example": {
+      "pt": "Onde está o amor?",
+      "kea": "Undi ki kretxeu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4092",
+    "word": "ku",
+    "translation": {
+      "pt": "com"
+    },
+    "example": {
+      "pt": "Vou com casa",
+      "kea": "N ta bai ku kasa"
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-4093",
+    "word": "kuarta",
+    "translation": {
+      "pt": "quarta-feira"
+    },
+    "example": {
+      "pt": "Eu vi um quarta-feira",
+      "kea": "N odja un kuarta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4094",
+    "word": "kuatu",
+    "translation": {
+      "pt": "quatro"
+    },
+    "example": {
+      "pt": "Eu vi um quatro",
+      "kea": "N odja un kuatu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4095",
+    "word": "kudadu",
+    "translation": {
+      "pt": "cuidado"
+    },
+    "example": {
+      "pt": "O cuidado é interessante",
+      "kea": "Kudadu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4096",
+    "word": "kudi",
+    "translation": {
+      "pt": "responder"
+    },
+    "example": {
+      "pt": "Eu vou responder",
+      "kea": "N ta kudi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4097",
+    "word": "kuma",
+    "translation": {
+      "pt": "como / que"
+    },
+    "example": {
+      "pt": "Use \"como / que\" na frase",
+      "kea": "Uza \"kuma\" na frazi"
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-4098",
+    "word": "kumbida",
+    "translation": {
+      "pt": "convidar"
+    },
+    "example": {
+      "pt": "Precisamos convidar agora",
+      "kea": "Nu ten ki kumbida agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4099",
+    "word": "kumi",
+    "translation": {
+      "pt": "comer"
+    },
+    "example": {
+      "pt": "Eu vou comer",
+      "kea": "N ta kumi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4100",
+    "word": "kumida",
+    "translation": {
+      "pt": "comida"
+    },
+    "example": {
+      "pt": "O comida é interessante",
+      "kea": "Kumida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4101",
+    "word": "kumpanha",
+    "translation": {
+      "pt": "acompanhar"
+    },
+    "example": {
+      "pt": "Precisamos acompanhar agora",
+      "kea": "Nu ten ki kumpanha agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4102",
+    "word": "kumpanheru",
+    "translation": {
+      "pt": "companheiro"
+    },
+    "example": {
+      "pt": "O companheiro é interessante",
+      "kea": "Kumpanheru e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4103",
+    "word": "kumpra",
+    "translation": {
+      "pt": "comprar"
+    },
+    "example": {
+      "pt": "Ele gosta de comprar",
+      "kea": "El ta gosta di kumpra"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4104",
+    "word": "kumpridu",
+    "translation": {
+      "pt": "comprido"
+    },
+    "example": {
+      "pt": "Isso parece comprido",
+      "kea": "Kel-la parse kumpridu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4105",
+    "word": "kunsa",
+    "translation": {
+      "pt": "começar"
+    },
+    "example": {
+      "pt": "Precisamos começar agora",
+      "kea": "Nu ten ki kunsa agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4106",
+    "word": "kusa",
+    "translation": {
+      "pt": "coisa"
+    },
+    "example": {
+      "pt": "O coisa é interessante",
+      "kea": "Kusa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4107",
+    "word": "kuse",
+    "translation": {
+      "pt": "o quê"
+    },
+    "example": {
+      "pt": "O quê está aqui",
+      "kea": "Kuse sta li"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4108",
+    "word": "kusia",
+    "translation": {
+      "pt": "cozinhar"
+    },
+    "example": {
+      "pt": "Eu vou cozinhar",
+      "kea": "N ta kusia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4109",
+    "word": "limia",
+    "translation": {
+      "pt": "iluminar / brilhar"
+    },
+    "example": {
+      "pt": "Ele gosta de iluminar",
+      "kea": "El ta gosta di limia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4110",
+    "word": "liseu",
+    "translation": {
+      "pt": "liceu"
+    },
+    "example": {
+      "pt": "O liceu é interessante",
+      "kea": "Liseu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4111",
+    "word": "lisom",
+    "translation": {
+      "pt": "lição"
+    },
+    "example": {
+      "pt": "Eu vi um lição",
+      "kea": "N odja un lisom"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4112",
+    "word": "lus",
+    "translation": {
+      "pt": "luz"
+    },
+    "example": {
+      "pt": "Onde está o luz?",
+      "kea": "Undi ki lus sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4113",
+    "word": "mafafa",
+    "translation": {
+      "pt": "mandioca"
+    },
+    "example": {
+      "pt": "O mandioca é interessante",
+      "kea": "Mafafa e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4114",
+    "word": "mangi",
+    "translation": {
+      "pt": "manga (fruta)"
+    },
+    "example": {
+      "pt": "Onde está o manga (fruta)?",
+      "kea": "Undi ki mangi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4115",
+    "word": "manham",
+    "translation": {
+      "pt": "manhã / amanhã"
+    },
+    "example": {
+      "pt": "Eu vi um manhã",
+      "kea": "N odja un manham"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4116",
+    "word": "mantenha",
+    "translation": {
+      "pt": "saudação"
+    },
+    "example": {
+      "pt": "Onde está o saudação?",
+      "kea": "Undi ki mantenha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4117",
+    "word": "maria",
+    "translation": {
+      "pt": "enjoar"
+    },
+    "example": {
+      "pt": "Ele gosta de enjoar",
+      "kea": "El ta gosta di maria"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4118",
+    "word": "matchu",
+    "translation": {
+      "pt": "macho"
+    },
+    "example": {
+      "pt": "Eu vi um macho",
+      "kea": "N odja un matchu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4119",
+    "word": "matimatika",
+    "translation": {
+      "pt": "matemática"
+    },
+    "example": {
+      "pt": "Onde está o matemática?",
+      "kea": "Undi ki matimatika sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4120",
+    "word": "meiu",
+    "translation": {
+      "pt": "meio"
+    },
+    "example": {
+      "pt": "O meio é interessante",
+      "kea": "Meiu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4121",
+    "word": "Mendonsa",
+    "translation": {
+      "pt": "Mendonça"
+    },
+    "example": {
+      "pt": "Eu vi um Mendonça",
+      "kea": "N odja un Mendonsa"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4122",
+    "word": "menus",
+    "translation": {
+      "pt": "menos"
+    },
+    "example": {
+      "pt": "Vou menos",
+      "kea": "N ta bai menus"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4123",
+    "word": "meres",
+    "translation": {
+      "pt": "escudos (moeda)"
+    },
+    "example": {
+      "pt": "O escudos (moeda) é interessante",
+      "kea": "Meres e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4124",
+    "word": "Merka",
+    "translation": {
+      "pt": "América"
+    },
+    "example": {
+      "pt": "Eu vi um América",
+      "kea": "N odja un Merka"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4125",
+    "word": "merkanu",
+    "translation": {
+      "pt": "americano"
+    },
+    "example": {
+      "pt": "Ele é muito americano",
+      "kea": "El e muitu merkanu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4126",
+    "word": "mesti",
+    "translation": {
+      "pt": "precisar"
+    },
+    "example": {
+      "pt": "Eu vou precisar",
+      "kea": "N ta mesti"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4127",
+    "word": "midida",
+    "translation": {
+      "pt": "medida"
+    },
+    "example": {
+      "pt": "O medida é interessante",
+      "kea": "Midida e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4128",
+    "word": "midjora",
+    "translation": {
+      "pt": "melhorar"
+    },
+    "example": {
+      "pt": "Ele gosta de melhorar",
+      "kea": "El ta gosta di midjora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4129",
+    "word": "minina",
+    "translation": {
+      "pt": "menina"
+    },
+    "example": {
+      "pt": "Eu vi um menina",
+      "kea": "N odja un minina"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4130",
+    "word": "mininu",
+    "translation": {
+      "pt": "menino"
+    },
+    "example": {
+      "pt": "Eu vi um menino",
+      "kea": "N odja un mininu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4131",
+    "word": "minotu",
+    "translation": {
+      "pt": "minuto"
+    },
+    "example": {
+      "pt": "Eu vi um minuto",
+      "kea": "N odja un minotu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4132",
+    "word": "mo",
+    "translation": {
+      "pt": "mão / braço"
+    },
+    "example": {
+      "pt": "Eu vi um mão",
+      "kea": "N odja un mo"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4133",
+    "word": "modi",
+    "translation": {
+      "pt": "como"
+    },
+    "example": {
+      "pt": "Faça como",
+      "kea": "Faze modi"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4134",
+    "word": "modja",
+    "translation": {
+      "pt": "molhar"
+    },
+    "example": {
+      "pt": "Ele gosta de molhar",
+      "kea": "El ta gosta di modja"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4135",
+    "word": "moki",
+    "translation": {
+      "pt": "como que"
+    },
+    "example": {
+      "pt": "Faça como que",
+      "kea": "Faze moki"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4136",
+    "word": "moku",
+    "translation": {
+      "pt": "bêbado"
+    },
+    "example": {
+      "pt": "Uma coisa bêbado",
+      "kea": "Un koiza moku"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4137",
+    "word": "mora",
+    "translation": {
+      "pt": "morar"
+    },
+    "example": {
+      "pt": "Ele gosta de morar",
+      "kea": "El ta gosta di mora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4138",
+    "word": "morna",
+    "translation": {
+      "pt": "morna (música)"
+    },
+    "example": {
+      "pt": "Onde está o morna (música)?",
+      "kea": "Undi ki morna sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4139",
+    "word": "morti",
+    "translation": {
+      "pt": "morte"
+    },
+    "example": {
+      "pt": "Eu vi um morte",
+      "kea": "N odja un morti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4140",
+    "word": "mos",
+    "translation": {
+      "pt": "moço"
+    },
+    "example": {
+      "pt": "Onde está o moço?",
+      "kea": "Undi ki mos sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4141",
+    "word": "mosindadi",
+    "translation": {
+      "pt": "mocidade / juventude"
+    },
+    "example": {
+      "pt": "Onde está o mocidade?",
+      "kea": "Undi ki mosindadi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4142",
+    "word": "mporta",
+    "translation": {
+      "pt": "importar"
+    },
+    "example": {
+      "pt": "Eu vou importar",
+      "kea": "N ta mporta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4143",
+    "word": "munti",
+    "translation": {
+      "pt": "monte / muito"
+    },
+    "example": {
+      "pt": "Eu vi um monte",
+      "kea": "N odja un munti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4144",
+    "word": "musturu",
+    "translation": {
+      "pt": "mistura"
+    },
+    "example": {
+      "pt": "O mistura é interessante",
+      "kea": "Musturu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4145",
+    "word": "mutu",
+    "translation": {
+      "pt": "muito"
+    },
+    "example": {
+      "pt": "Ele fala muito",
+      "kea": "El ta fala mutu"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4146",
+    "word": "nad-aver",
+    "translation": {
+      "pt": "nada a ver"
+    },
+    "example": {
+      "pt": "nada a ver",
+      "kea": "nad-aver"
+    },
+    "category": "Expression"
+  },
+  {
+    "id": "entry-4147",
+    "word": "napundi",
+    "translation": {
+      "pt": "onde / em que lugar"
+    },
+    "example": {
+      "pt": "Ele fala onde",
+      "kea": "El ta fala napundi"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4148",
+    "word": "nasi",
+    "translation": {
+      "pt": "nascer"
+    },
+    "example": {
+      "pt": "Precisamos nascer agora",
+      "kea": "Nu ten ki nasi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4149",
+    "word": "nau",
+    "translation": {
+      "pt": "não"
+    },
+    "example": {
+      "pt": "Faça não",
+      "kea": "Faze nau"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4150",
+    "word": "n-es",
+    "translation": {
+      "pt": "neste / nesta"
+    },
+    "example": {
+      "pt": "É neste",
+      "kea": "E n-es"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4151",
+    "word": "Ngenhu",
+    "translation": {
+      "pt": "Engenho"
+    },
+    "example": {
+      "pt": "O Engenho é interessante",
+      "kea": "Ngenhu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4152",
+    "word": "ngles",
+    "translation": {
+      "pt": "inglês"
+    },
+    "example": {
+      "pt": "Onde está o inglês?",
+      "kea": "Undi ki ngles sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4153",
+    "word": "nha",
+    "translation": {
+      "pt": "minha / senhora"
+    },
+    "example": {
+      "pt": "É minha",
+      "kea": "E nha"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4154",
+    "word": "nhu",
+    "translation": {
+      "pt": "senhor"
+    },
+    "example": {
+      "pt": "É senhor",
+      "kea": "E nhu"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4155",
+    "word": "nomi",
+    "translation": {
+      "pt": "nome"
+    },
+    "example": {
+      "pt": "Eu vi um nome",
+      "kea": "N odja un nomi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4156",
+    "word": "nonti",
+    "translation": {
+      "pt": "ontem à noite"
+    },
+    "example": {
+      "pt": "Faça ontem à noite",
+      "kea": "Faze nonti"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4157",
+    "word": "noti",
+    "translation": {
+      "pt": "noite"
+    },
+    "example": {
+      "pt": "O noite é interessante",
+      "kea": "Noti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4158",
+    "word": "novi",
+    "translation": {
+      "pt": "nove"
+    },
+    "example": {
+      "pt": "O nove é interessante",
+      "kea": "Novi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4159",
+    "word": "ntendi",
+    "translation": {
+      "pt": "entender"
+    },
+    "example": {
+      "pt": "Ele gosta de entender",
+      "kea": "El ta gosta di ntendi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4160",
+    "word": "ntridja",
+    "translation": {
+      "pt": "torcer (pé)"
+    },
+    "example": {
+      "pt": "Precisamos torcer (pé) agora",
+      "kea": "Nu ten ki ntridja agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4161",
+    "word": "numbru",
+    "translation": {
+      "pt": "número"
+    },
+    "example": {
+      "pt": "Eu vi um número",
+      "kea": "N odja un numbru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4162",
+    "word": "nunhum",
+    "translation": {
+      "pt": "nenhum"
+    },
+    "example": {
+      "pt": "Uma coisa nenhum",
+      "kea": "Un koiza nunhum"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4163",
+    "word": "nxina",
+    "translation": {
+      "pt": "ensinar"
+    },
+    "example": {
+      "pt": "Eu vou ensinar",
+      "kea": "N ta nxina"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4164",
+    "word": "obi",
+    "translation": {
+      "pt": "ouvir"
+    },
+    "example": {
+      "pt": "Ele gosta de ouvir",
+      "kea": "El ta gosta di obi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4165",
+    "word": "oi",
+    "translation": {
+      "pt": "olha / oi"
+    },
+    "example": {
+      "pt": "Onde está o olha?",
+      "kea": "Undi ki oi sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4166",
+    "word": "oki",
+    "translation": {
+      "pt": "quando"
+    },
+    "example": {
+      "pt": "Ele fala quando",
+      "kea": "El ta fala oki"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4167",
+    "word": "omesmu",
+    "translation": {
+      "pt": "o mesmo"
+    },
+    "example": {
+      "pt": "É o mesmo",
+      "kea": "E omesmu"
+    },
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-4168",
+    "word": "ontom",
+    "translation": {
+      "pt": "então"
+    },
+    "example": {
+      "pt": "Ele fala então",
+      "kea": "El ta fala ontom"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4169",
+    "word": "onzi",
+    "translation": {
+      "pt": "onze"
+    },
+    "example": {
+      "pt": "O onze é interessante",
+      "kea": "Onzi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4170",
+    "word": "ori",
+    "translation": {
+      "pt": "ouri (jogo)"
+    },
+    "example": {
+      "pt": "Eu vi um ouri (jogo)",
+      "kea": "N odja un ori"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4171",
+    "word": "oroportu",
+    "translation": {
+      "pt": "aeroporto"
+    },
+    "example": {
+      "pt": "Onde está o aeroporto?",
+      "kea": "Undi ki oroportu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4172",
+    "word": "oxi",
+    "translation": {
+      "pt": "hoje"
+    },
+    "example": {
+      "pt": "Faça hoje",
+      "kea": "Faze oxi"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4173",
+    "word": "padisi",
+    "translation": {
+      "pt": "padecer / sofrer"
+    },
+    "example": {
+      "pt": "Eu vou padecer",
+      "kea": "N ta padisi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4174",
+    "word": "padri",
+    "translation": {
+      "pt": "padre"
+    },
+    "example": {
+      "pt": "Eu vi um padre",
+      "kea": "N odja un padri"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4175",
+    "word": "paga",
+    "translation": {
+      "pt": "pagar"
+    },
+    "example": {
+      "pt": "Eu vou pagar",
+      "kea": "N ta paga"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4176",
+    "word": "palabra",
+    "translation": {
+      "pt": "palavra"
+    },
+    "example": {
+      "pt": "O palavra é interessante",
+      "kea": "Palabra e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4177",
+    "word": "Palu",
+    "translation": {
+      "pt": "Paulo"
+    },
+    "example": {
+      "pt": "O Paulo é interessante",
+      "kea": "Palu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4178",
+    "word": "palumenu",
+    "translation": {
+      "pt": "pelo menos"
+    },
+    "example": {
+      "pt": "Vou pelo menos",
+      "kea": "N ta bai palumenu"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4179",
+    "word": "pamodi",
+    "translation": {
+      "pt": "porque"
+    },
+    "example": {
+      "pt": "Use \"porque\" na frase",
+      "kea": "Uza \"pamodi\" na frazi"
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-4180",
+    "word": "papaia",
+    "translation": {
+      "pt": "papaia / mamão"
+    },
+    "example": {
+      "pt": "Onde está o papaia?",
+      "kea": "Undi ki papaia sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4181",
+    "word": "papia",
+    "translation": {
+      "pt": "falar"
+    },
+    "example": {
+      "pt": "Ele gosta de falar",
+      "kea": "El ta gosta di papia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4182",
+    "word": "pari",
+    "translation": {
+      "pt": "parir"
+    },
+    "example": {
+      "pt": "Ele gosta de parir",
+      "kea": "El ta gosta di pari"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4183",
+    "word": "parmanhan",
+    "translation": {
+      "pt": "manhã cedo"
+    },
+    "example": {
+      "pt": "Faça manhã cedo",
+      "kea": "Faze parmanhan"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4184",
+    "word": "parsi",
+    "translation": {
+      "pt": "parecer"
+    },
+    "example": {
+      "pt": "Eu vou parecer",
+      "kea": "N ta parsi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4185",
+    "word": "pasia",
+    "translation": {
+      "pt": "passear"
+    },
+    "example": {
+      "pt": "Precisamos passear agora",
+      "kea": "Nu ten ki pasia agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4186",
+    "word": "Pedru",
+    "translation": {
+      "pt": "Pedro"
+    },
+    "example": {
+      "pt": "Onde está o Pedro?",
+      "kea": "Undi ki Pedru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4187",
+    "word": "pekador",
+    "translation": {
+      "pt": "pecador / pessoa"
+    },
+    "example": {
+      "pt": "Onde está o pecador?",
+      "kea": "Undi ki pekador sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4188",
+    "word": "perdi",
+    "translation": {
+      "pt": "perder"
+    },
+    "example": {
+      "pt": "Eu vou perder",
+      "kea": "N ta perdi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4189",
+    "word": "pidi",
+    "translation": {
+      "pt": "pedir"
+    },
+    "example": {
+      "pt": "Precisamos pedir agora",
+      "kea": "Nu ten ki pidi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4190",
+    "word": "pikena",
+    "translation": {
+      "pt": "rapariga / namorada"
+    },
+    "example": {
+      "pt": "Eu vi um rapariga",
+      "kea": "N odja un pikena"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4191",
+    "word": "pilidu",
+    "translation": {
+      "pt": "apelido / sobrenome"
+    },
+    "example": {
+      "pt": "O apelido é interessante",
+      "kea": "Pilidu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4192",
+    "word": "pilorinhu",
+    "translation": {
+      "pt": "pelourinho / mercado"
+    },
+    "example": {
+      "pt": "Onde está o pelourinho?",
+      "kea": "Undi ki pilorinhu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4193",
+    "word": "pobri",
+    "translation": {
+      "pt": "pobre"
+    },
+    "example": {
+      "pt": "Uma coisa pobre",
+      "kea": "Un koiza pobri"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4194",
+    "word": "poda",
+    "translation": {
+      "pt": "podar"
+    },
+    "example": {
+      "pt": "Precisamos podar agora",
+      "kea": "Nu ten ki poda agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4195",
+    "word": "podi",
+    "translation": {
+      "pt": "poder"
+    },
+    "example": {
+      "pt": "Ele gosta de poder",
+      "kea": "El ta gosta di podi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4196",
+    "word": "podu",
+    "translation": {
+      "pt": "posto (colocado)"
+    },
+    "example": {
+      "pt": "Ele gosta de posto (colocado)",
+      "kea": "El ta gosta di podu"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4197",
+    "word": "poi",
+    "translation": {
+      "pt": "pôr"
+    },
+    "example": {
+      "pt": "Eu vou pôr",
+      "kea": "N ta poi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4198",
+    "word": "pontchi",
+    "translation": {
+      "pt": "ponche"
+    },
+    "example": {
+      "pt": "O ponche é interessante",
+      "kea": "Pontchi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4199",
+    "word": "prabulema",
+    "translation": {
+      "pt": "problema"
+    },
+    "example": {
+      "pt": "Onde está o problema?",
+      "kea": "Undi ki prabulema sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4200",
+    "word": "prendi",
+    "translation": {
+      "pt": "aprender"
+    },
+    "example": {
+      "pt": "Eu vou aprender",
+      "kea": "N ta prendi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4201",
+    "word": "propi",
+    "translation": {
+      "pt": "próprio / mesmo"
+    },
+    "example": {
+      "pt": "Isso parece próprio",
+      "kea": "Kel-la parse propi"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4202",
+    "word": "prufisom",
+    "translation": {
+      "pt": "profissão"
+    },
+    "example": {
+      "pt": "O profissão é interessante",
+      "kea": "Prufisom e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4203",
+    "word": "prugresu",
+    "translation": {
+      "pt": "progresso"
+    },
+    "example": {
+      "pt": "Eu vi um progresso",
+      "kea": "N odja un prugresu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4204",
+    "word": "puns",
+    "translation": {
+      "pt": "punho"
+    },
+    "example": {
+      "pt": "Onde está o punho?",
+      "kea": "Undi ki puns sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4205",
+    "word": "purba",
+    "translation": {
+      "pt": "provar"
+    },
+    "example": {
+      "pt": "Eu vou provar",
+      "kea": "N ta purba"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4206",
+    "word": "purisu",
+    "translation": {
+      "pt": "por isso"
+    },
+    "example": {
+      "pt": "Use \"por isso\" na frase",
+      "kea": "Uza \"purisu\" na frazi"
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-4207",
+    "word": "purmeru",
+    "translation": {
+      "pt": "primeiro"
+    },
+    "example": {
+      "pt": "Eu vi um primeiro",
+      "kea": "N odja un purmeru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4208",
+    "word": "purpara",
+    "translation": {
+      "pt": "preparar"
+    },
+    "example": {
+      "pt": "Ele gosta de preparar",
+      "kea": "El ta gosta di purpara"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4209",
+    "word": "pursebi",
+    "translation": {
+      "pt": "perceber"
+    },
+    "example": {
+      "pt": "Precisamos perceber agora",
+      "kea": "Nu ten ki pursebi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4210",
+    "word": "pursor",
+    "translation": {
+      "pt": "professor"
+    },
+    "example": {
+      "pt": "Onde está o professor?",
+      "kea": "Undi ki pursor sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4211",
+    "word": "purtuges",
+    "translation": {
+      "pt": "português"
+    },
+    "example": {
+      "pt": "Eu vi um português",
+      "kea": "N odja un purtuges"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4212",
+    "word": "Purtugal",
+    "translation": {
+      "pt": "Portugal"
+    },
+    "example": {
+      "pt": "Eu vi um Portugal",
+      "kea": "N odja un Purtugal"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4213",
+    "word": "ranxa",
+    "translation": {
+      "pt": "arranjar"
+    },
+    "example": {
+      "pt": "Precisamos arranjar agora",
+      "kea": "Nu ten ki ranxa agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4214",
+    "word": "rapendi",
+    "translation": {
+      "pt": "arrepender"
+    },
+    "example": {
+      "pt": "Precisamos arrepender agora",
+      "kea": "Nu ten ki rapendi agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4215",
+    "word": "rastora",
+    "translation": {
+      "pt": "restaurar / recuperar"
+    },
+    "example": {
+      "pt": "Ele gosta de restaurar",
+      "kea": "El ta gosta di rastora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4216",
+    "word": "resibi",
+    "translation": {
+      "pt": "receber"
+    },
+    "example": {
+      "pt": "Eu vou receber",
+      "kea": "N ta resibi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4217",
+    "word": "ria",
+    "translation": {
+      "pt": "areia"
+    },
+    "example": {
+      "pt": "Eu vi um areia",
+      "kea": "N odja un ria"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4218",
+    "word": "rotcha",
+    "translation": {
+      "pt": "rocha"
+    },
+    "example": {
+      "pt": "Onde está o rocha?",
+      "kea": "Undi ki rotcha sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4219",
+    "word": "rueda",
+    "translation": {
+      "pt": "ruela"
+    },
+    "example": {
+      "pt": "Onde está o ruela?",
+      "kea": "Undi ki rueda sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4220",
+    "word": "ruspeta",
+    "translation": {
+      "pt": "respeitar"
+    },
+    "example": {
+      "pt": "Ele gosta de respeitar",
+      "kea": "El ta gosta di ruspeta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4221",
+    "word": "sabru",
+    "translation": {
+      "pt": "sábado (variante)"
+    },
+    "example": {
+      "pt": "O sábado (variante) é interessante",
+      "kea": "Sabru e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4222",
+    "word": "saisentus",
+    "translation": {
+      "pt": "seiscentos"
+    },
+    "example": {
+      "pt": "Eu vi um seiscentos",
+      "kea": "N odja un saisentus"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4223",
+    "word": "Sam",
+    "translation": {
+      "pt": "São (santo)"
+    },
+    "example": {
+      "pt": "Eu vi um São (santo)",
+      "kea": "N odja un Sam"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4224",
+    "word": "Sandra",
+    "translation": {
+      "pt": "Sandra"
+    },
+    "example": {
+      "pt": "Eu vi um Sandra",
+      "kea": "N odja un Sandra"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4225",
+    "word": "Santiagu",
+    "translation": {
+      "pt": "Santiago"
+    },
+    "example": {
+      "pt": "O Santiago é interessante",
+      "kea": "Santiagu e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4226",
+    "word": "sarabedja",
+    "translation": {
+      "pt": "cerveja"
+    },
+    "example": {
+      "pt": "Onde está o cerveja?",
+      "kea": "Undi ki sarabedja sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4227",
+    "word": "sata",
+    "translation": {
+      "pt": "estar a (progressivo)"
+    },
+    "example": {
+      "pt": "Eu vou estar a (progressivo)",
+      "kea": "N ta sata"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4228",
+    "word": "sax",
+    "translation": {
+      "pt": "seis"
+    },
+    "example": {
+      "pt": "O seis é interessante",
+      "kea": "Sax e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4229",
+    "word": "sempri",
+    "translation": {
+      "pt": "sempre"
+    },
+    "example": {
+      "pt": "Faça sempre",
+      "kea": "Faze sempri"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4230",
+    "word": "Senegal",
+    "translation": {
+      "pt": "Senegal"
+    },
+    "example": {
+      "pt": "O Senegal é interessante",
+      "kea": "Senegal e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4231",
+    "word": "senh",
+    "translation": {
+      "pt": "sem (variante)"
+    },
+    "example": {
+      "pt": "Vou sem (variante) casa",
+      "kea": "N ta bai senh kasa"
+    },
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-4232",
+    "word": "senti",
+    "translation": {
+      "pt": "sentir"
+    },
+    "example": {
+      "pt": "Precisamos sentir agora",
+      "kea": "Nu ten ki senti agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4233",
+    "word": "ser",
+    "translation": {
+      "pt": "ser"
+    },
+    "example": {
+      "pt": "Ele gosta de ser",
+      "kea": "El ta gosta di ser"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4234",
+    "word": "serba",
+    "translation": {
+      "pt": "servir"
+    },
+    "example": {
+      "pt": "Eu vou servir",
+      "kea": "N ta serba"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4235",
+    "word": "sesta-fera",
+    "translation": {
+      "pt": "sexta-feira"
+    },
+    "example": {
+      "pt": "Onde está o sexta-feira?",
+      "kea": "Undi ki sesta-fera sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4236",
+    "word": "seti",
+    "translation": {
+      "pt": "sete"
+    },
+    "example": {
+      "pt": "O sete é interessante",
+      "kea": "Seti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4237",
+    "word": "setusentus",
+    "translation": {
+      "pt": "setecentos"
+    },
+    "example": {
+      "pt": "Onde está o setecentos?",
+      "kea": "Undi ki setusentus sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4238",
+    "word": "sime",
+    "translation": {
+      "pt": "assim mesmo"
+    },
+    "example": {
+      "pt": "Faça assim mesmo",
+      "kea": "Faze sime"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4239",
+    "word": "simenti",
+    "translation": {
+      "pt": "semente"
+    },
+    "example": {
+      "pt": "Onde está o semente?",
+      "kea": "Undi ki simenti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4240",
+    "word": "sinema",
+    "translation": {
+      "pt": "cinema"
+    },
+    "example": {
+      "pt": "Onde está o cinema?",
+      "kea": "Undi ki sinema sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4241",
+    "word": "Sinhor",
+    "translation": {
+      "pt": "Senhor"
+    },
+    "example": {
+      "pt": "Eu vi um Senhor",
+      "kea": "N odja un Sinhor"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4242",
+    "word": "sinku",
+    "translation": {
+      "pt": "cinco"
+    },
+    "example": {
+      "pt": "Onde está o cinco?",
+      "kea": "Undi ki sinku sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4243",
+    "word": "skesê",
+    "translation": {
+      "pt": "esquecer"
+    },
+    "example": {
+      "pt": "Eu vou esquecer",
+      "kea": "N ta skesê"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4244",
+    "word": "skola",
+    "translation": {
+      "pt": "escola"
+    },
+    "example": {
+      "pt": "Eu vi um escola",
+      "kea": "N odja un skola"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4245",
+    "word": "skrebi",
+    "translation": {
+      "pt": "escrever"
+    },
+    "example": {
+      "pt": "Ele gosta de escrever",
+      "kea": "El ta gosta di skrebi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4246",
+    "word": "Somada",
+    "translation": {
+      "pt": "Assomada"
+    },
+    "example": {
+      "pt": "Eu vi um Assomada",
+      "kea": "N odja un Somada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4247",
+    "word": "som",
+    "translation": {
+      "pt": "som"
+    },
+    "example": {
+      "pt": "Eu vi um som",
+      "kea": "N odja un som"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4248",
+    "word": "spadjadu",
+    "translation": {
+      "pt": "espalhado"
+    },
+    "example": {
+      "pt": "Ele é muito espalhado",
+      "kea": "El e muitu spadjadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4249",
+    "word": "spera",
+    "translation": {
+      "pt": "esperar"
+    },
+    "example": {
+      "pt": "Ele gosta de esperar",
+      "kea": "El ta gosta di spera"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4250",
+    "word": "spital",
+    "translation": {
+      "pt": "hospital"
+    },
+    "example": {
+      "pt": "Eu vi um hospital",
+      "kea": "N odja un spital"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4251",
+    "word": "sta",
+    "translation": {
+      "pt": "estar"
+    },
+    "example": {
+      "pt": "Ele gosta de estar",
+      "kea": "El ta gosta di sta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4252",
+    "word": "storia",
+    "translation": {
+      "pt": "estória / história"
+    },
+    "example": {
+      "pt": "O estória é interessante",
+      "kea": "Storia e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4253",
+    "word": "strada",
+    "translation": {
+      "pt": "estrada"
+    },
+    "example": {
+      "pt": "Eu vi um estrada",
+      "kea": "N odja un strada"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4254",
+    "word": "stranjeru",
+    "translation": {
+      "pt": "estrangeiro"
+    },
+    "example": {
+      "pt": "Onde está o estrangeiro?",
+      "kea": "Undi ki stranjeru sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4255",
+    "word": "studa",
+    "translation": {
+      "pt": "estudar"
+    },
+    "example": {
+      "pt": "Eu vou estudar",
+      "kea": "N ta studa"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4256",
+    "word": "sugundu",
+    "translation": {
+      "pt": "segundo"
+    },
+    "example": {
+      "pt": "Eu vi um segundo",
+      "kea": "N odja un sugundu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4257",
+    "word": "sukri",
+    "translation": {
+      "pt": "açúcar"
+    },
+    "example": {
+      "pt": "O açúcar é interessante",
+      "kea": "Sukri e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4258",
+    "word": "sumu",
+    "translation": {
+      "pt": "sumo"
+    },
+    "example": {
+      "pt": "Onde está o sumo?",
+      "kea": "Undi ki sumu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4259",
+    "word": "sunkuenta",
+    "translation": {
+      "pt": "cinquenta"
+    },
+    "example": {
+      "pt": "Eu vi um cinquenta",
+      "kea": "N odja un sunkuenta"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4260",
+    "word": "ta",
+    "translation": {
+      "pt": "estar (habitual)"
+    },
+    "example": {
+      "pt": "Ele gosta de estar (habitual)",
+      "kea": "El ta gosta di ta"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4261",
+    "word": "talbes",
+    "translation": {
+      "pt": "talvez"
+    },
+    "example": {
+      "pt": "Vou talvez",
+      "kea": "N ta bai talbes"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4262",
+    "word": "Tarafal",
+    "translation": {
+      "pt": "Tarrafal"
+    },
+    "example": {
+      "pt": "Eu vi um Tarrafal",
+      "kea": "N odja un Tarafal"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4263",
+    "word": "tarsi",
+    "translation": {
+      "pt": "trazer"
+    },
+    "example": {
+      "pt": "Ele gosta de trazer",
+      "kea": "El ta gosta di tarsi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4264",
+    "word": "tchabi",
+    "translation": {
+      "pt": "chave"
+    },
+    "example": {
+      "pt": "Eu vi um chave",
+      "kea": "N odja un tchabi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4265",
+    "word": "tchada",
+    "translation": {
+      "pt": "achada / planalto"
+    },
+    "example": {
+      "pt": "O achada é interessante",
+      "kea": "Tchada e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4266",
+    "word": "tchao",
+    "translation": {
+      "pt": "tchau"
+    },
+    "example": {
+      "pt": "O tchau é interessante",
+      "kea": "Tchao e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4267",
+    "word": "tcheu",
+    "translation": {
+      "pt": "muito / cheio"
+    },
+    "example": {
+      "pt": "Isso parece muito",
+      "kea": "Kel-la parse tcheu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4268",
+    "word": "tchiga",
+    "translation": {
+      "pt": "chegar"
+    },
+    "example": {
+      "pt": "Ele gosta de chegar",
+      "kea": "El ta gosta di tchiga"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4269",
+    "word": "tchom",
+    "translation": {
+      "pt": "chão / terra"
+    },
+    "example": {
+      "pt": "Eu vi um chão",
+      "kea": "N odja un tchom"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4270",
+    "word": "tchoma",
+    "translation": {
+      "pt": "chamar"
+    },
+    "example": {
+      "pt": "Ele gosta de chamar",
+      "kea": "El ta gosta di tchoma"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4271",
+    "word": "tem",
+    "translation": {
+      "pt": "ter"
+    },
+    "example": {
+      "pt": "Eu vou ter",
+      "kea": "N ta tem"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4272",
+    "word": "temba",
+    "translation": {
+      "pt": "ter (passado)"
+    },
+    "example": {
+      "pt": "Precisamos ter (passado) agora",
+      "kea": "Nu ten ki temba agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4273",
+    "word": "teni",
+    "translation": {
+      "pt": "ter (posse)"
+    },
+    "example": {
+      "pt": "Eu vou ter (posse)",
+      "kea": "N ta teni"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4274",
+    "word": "tera",
+    "translation": {
+      "pt": "terra / país"
+    },
+    "example": {
+      "pt": "O terra é interessante",
+      "kea": "Tera e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4275",
+    "word": "tersa-fera",
+    "translation": {
+      "pt": "terça-feira"
+    },
+    "example": {
+      "pt": "Eu vi um terça-feira",
+      "kea": "N odja un tersa-fera"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4276",
+    "word": "tilifona",
+    "translation": {
+      "pt": "telefonar"
+    },
+    "example": {
+      "pt": "Ele gosta de telefonar",
+      "kea": "El ta gosta di tilifona"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4277",
+    "word": "tirmodi",
+    "translation": {
+      "pt": "de qualquer modo"
+    },
+    "example": {
+      "pt": "Ele fala de qualquer modo",
+      "kea": "El ta fala tirmodi"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4278",
+    "word": "tirseru",
+    "translation": {
+      "pt": "terceiro"
+    },
+    "example": {
+      "pt": "O terceiro é interessante",
+      "kea": "Tirseru e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4279",
+    "word": "tiu",
+    "translation": {
+      "pt": "tio"
+    },
+    "example": {
+      "pt": "Onde está o tio?",
+      "kea": "Undi ki tiu sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4280",
+    "word": "tizora",
+    "translation": {
+      "pt": "tesoura"
+    },
+    "example": {
+      "pt": "Eu vi um tesoura",
+      "kea": "N odja un tizora"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4281",
+    "word": "tizoru",
+    "translation": {
+      "pt": "tesouro"
+    },
+    "example": {
+      "pt": "Eu vi um tesouro",
+      "kea": "N odja un tizoru"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4282",
+    "word": "toki",
+    "translation": {
+      "pt": "até que"
+    },
+    "example": {
+      "pt": "Use \"até que\" na frase",
+      "kea": "Uza \"toki\" na frazi"
+    },
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-4283",
+    "word": "tont",
+    "translation": {
+      "pt": "tanto"
+    },
+    "example": {
+      "pt": "Faça tanto",
+      "kea": "Faze tont"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4284",
+    "word": "toresma",
+    "translation": {
+      "pt": "torresmo"
+    },
+    "example": {
+      "pt": "O torresmo é interessante",
+      "kea": "Toresma e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4285",
+    "word": "tra",
+    "translation": {
+      "pt": "tirar"
+    },
+    "example": {
+      "pt": "Ele gosta de tirar",
+      "kea": "El ta gosta di tra"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4286",
+    "word": "trankadu",
+    "translation": {
+      "pt": "trancado"
+    },
+    "example": {
+      "pt": "Ele é muito trancado",
+      "kea": "El e muitu trankadu"
+    },
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-4287",
+    "word": "treizi",
+    "translation": {
+      "pt": "treze"
+    },
+    "example": {
+      "pt": "Eu vi um treze",
+      "kea": "N odja un treizi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4288",
+    "word": "trena",
+    "translation": {
+      "pt": "treinar"
+    },
+    "example": {
+      "pt": "Precisamos treinar agora",
+      "kea": "Nu ten ki trena agora"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4289",
+    "word": "trinti",
+    "translation": {
+      "pt": "trinta"
+    },
+    "example": {
+      "pt": "Onde está o trinta?",
+      "kea": "Undi ki trinti sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4290",
+    "word": "txau",
+    "translation": {
+      "pt": "tchau"
+    },
+    "example": {
+      "pt": "O tchau é interessante",
+      "kea": "Txau e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4291",
+    "word": "ui",
+    "translation": {
+      "pt": "ui (dor/surpresa)"
+    },
+    "example": {
+      "pt": "Onde está o ui (dor?",
+      "kea": "Undi ki ui sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4292",
+    "word": "um",
+    "translation": {
+      "pt": "um"
+    },
+    "example": {
+      "pt": "O um é interessante",
+      "kea": "Um e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4293",
+    "word": "uma",
+    "translation": {
+      "pt": "uma"
+    },
+    "example": {
+      "pt": "Eu vi um uma",
+      "kea": "N odja un uma"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4294",
+    "word": "undi",
+    "translation": {
+      "pt": "onde"
+    },
+    "example": {
+      "pt": "Ele fala onde",
+      "kea": "El ta fala undi"
+    },
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-4295",
+    "word": "viaxi",
+    "translation": {
+      "pt": "viagem"
+    },
+    "example": {
+      "pt": "Eu vi um viagem",
+      "kea": "N odja un viaxi"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4296",
+    "word": "vinti",
+    "translation": {
+      "pt": "vinte"
+    },
+    "example": {
+      "pt": "O vinte é interessante",
+      "kea": "Vinti e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4297",
+    "word": "vurdadi",
+    "translation": {
+      "pt": "verdade"
+    },
+    "example": {
+      "pt": "O verdade é interessante",
+      "kea": "Vurdadi e interesanti"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4298",
+    "word": "xatia",
+    "translation": {
+      "pt": "chatear"
+    },
+    "example": {
+      "pt": "Eu vou chatear",
+      "kea": "N ta xatia"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4299",
+    "word": "xefri",
+    "translation": {
+      "pt": "chefe"
+    },
+    "example": {
+      "pt": "Onde está o chefe?",
+      "kea": "Undi ki xefri sta?"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4300",
+    "word": "xintidu",
+    "translation": {
+      "pt": "sentido"
+    },
+    "example": {
+      "pt": "Eu vi um sentido",
+      "kea": "N odja un xintidu"
+    },
+    "category": "Nom"
+  },
+  {
+    "id": "entry-4301",
+    "word": "xipi",
+    "translation": {
+      "pt": "fazer (sexo)"
+    },
+    "example": {
+      "pt": "Eu vou fazer (sexo)",
+      "kea": "N ta xipi"
+    },
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-4302",
+    "word": "zangadu",
+    "translation": {
+      "pt": "zangado"
+    },
+    "example": {
+      "pt": "Ele é muito zangado",
+      "kea": "El e muitu zangadu"
+    },
+    "category": "Adjectif"
   }
 ];

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "entry-284",
+    "word": "armum",
+    "currentTranslation": "irmão",
+    "newTranslation": "irmão / irmã",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1980",
+    "word": "azagua",
+    "currentTranslation": "azágua / época das chuvas",
+    "newTranslation": "época das chuvas / colheita",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-381",
+    "word": "badju",
+    "currentTranslation": "dança",
+    "newTranslation": "dança / baile",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1995",
+    "word": "bafa",
+    "currentTranslation": "abafar / amadurecer fruta / lanchar",
+    "newTranslation": "aperitivo / lanche",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-385",
+    "word": "bafiu",
+    "currentTranslation": "aperitivo",
+    "newTranslation": "petisco",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-443",
+    "word": "basta",
+    "currentTranslation": "bastar",
+    "newTranslation": "bastar / ser suficiente",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-448",
+    "word": "batata",
+    "currentTranslation": "batata",
+    "newTranslation": "batata doce",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-454",
+    "word": "batuku",
+    "currentTranslation": "batuque",
+    "newTranslation": "batuque (dança tradicional)",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2403",
+    "word": "bem",
+    "currentTranslation": "bem",
+    "newTranslation": "vir",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2412",
+    "word": "bera",
+    "currentTranslation": "beira / margem",
+    "newTranslation": "beira / borda",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2413",
+    "word": "bera-mar",
+    "currentTranslation": "beira-mar",
+    "newTranslation": "beira-mar / praia",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-467",
+    "word": "bika",
+    "currentTranslation": "bico",
+    "newTranslation": "fome / sem dinheiro (gíria)",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2428",
+    "word": "bira",
+    "currentTranslation": "virar / tornar",
+    "newTranslation": "virar / tornar-se",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-530",
+    "word": "buati",
+    "currentTranslation": "boate / discoteca",
+    "newTranslation": "discoteca / boate",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2221",
+    "word": "djuga",
+    "currentTranslation": "jogar / brincar",
+    "newTranslation": "jogar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2224",
+    "word": "dodu",
+    "currentTranslation": "doido / maluco",
+    "newTranslation": "doido",
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-642",
+    "word": "donu",
+    "currentTranslation": "dono",
+    "newTranslation": "dono / avô",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-651",
+    "word": "dretu",
+    "currentTranslation": "direito / correto",
+    "newTranslation": "direito / bem / correto",
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-659",
+    "word": "e",
+    "currentTranslation": "e (conjonction) / é (verbo ser)",
+    "newTranslation": "ele / ela",
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-2705",
+    "word": "el",
+    "currentTranslation": "ele",
+    "newTranslation": "ele / ela (objeto)",
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-705",
+    "word": "es",
+    "currentTranslation": "este / esse",
+    "newTranslation": "este / esta / isto",
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-787",
+    "word": "fora",
+    "currentTranslation": "fora",
+    "newTranslation": "fora / campo",
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-789",
+    "word": "forti",
+    "currentTranslation": "forte",
+    "newTranslation": "forte / muito",
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-956",
+    "word": "kapas",
+    "currentTranslation": "capaz",
+    "newTranslation": "capaz / possível",
+    "category": "Adjectif"
+  },
+  {
+    "id": "entry-2505",
+    "word": "karu",
+    "currentTranslation": "caro",
+    "newTranslation": "carro / caro",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-2507",
+    "word": "kasa",
+    "currentTranslation": "casa",
+    "newTranslation": "casar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-975",
+    "word": "ki",
+    "currentTranslation": "que / quem",
+    "newTranslation": "que / qual",
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-994",
+    "word": "konta",
+    "currentTranslation": "conta / contar",
+    "newTranslation": "contar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2610",
+    "word": "kontra",
+    "currentTranslation": "contra",
+    "newTranslation": "encontrar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-2644",
+    "word": "kredu",
+    "currentTranslation": "credo",
+    "newTranslation": "credo (interjeição)",
+    "category": "Expression"
+  },
+  {
+    "id": "entry-3038",
+    "word": "libra",
+    "currentTranslation": "libra",
+    "newTranslation": "livrar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1115",
+    "word": "mas",
+    "currentTranslation": "mas",
+    "newTranslation": "mais",
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1123",
+    "word": "me",
+    "currentTranslation": "me",
+    "newTranslation": "mesmo",
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1164",
+    "word": "moda",
+    "currentTranslation": "moda",
+    "newTranslation": "como / maneira",
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-1197",
+    "word": "na",
+    "currentTranslation": "na / em",
+    "newTranslation": "em / no / na",
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1230",
+    "word": "nos",
+    "currentTranslation": "nós",
+    "newTranslation": "nós / nosso",
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-1238",
+    "word": "o",
+    "currentTranslation": "o",
+    "newTranslation": "ou",
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-1246",
+    "word": "odja",
+    "currentTranslation": "olhar / ver",
+    "newTranslation": "ver / olhar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1306",
+    "word": "parti",
+    "currentTranslation": "partir",
+    "newTranslation": "parte / partir",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-3446",
+    "word": "pista",
+    "currentTranslation": "pista",
+    "newTranslation": "emprestar",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-3482",
+    "word": "Praia",
+    "currentTranslation": "praia",
+    "newTranslation": "Praia (capital)",
+    "category": "Nom"
+  },
+  {
+    "id": "entry-1516",
+    "word": "riba",
+    "currentTranslation": "riba / em cima",
+    "newTranslation": "cima / sobre",
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1550",
+    "word": "sabe",
+    "currentTranslation": "saber / saboroso",
+    "newTranslation": "saber",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1551",
+    "word": "sabi",
+    "currentTranslation": "sabe / gostoso / agradável",
+    "newTranslation": "saber / saboroso / bom",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1590",
+    "word": "sem",
+    "currentTranslation": "sem",
+    "newTranslation": "sem / cem",
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1623",
+    "word": "sima",
+    "currentTranslation": "como / assim como",
+    "newTranslation": "como",
+    "category": "Conjonction"
+  },
+  {
+    "id": "entry-1637",
+    "word": "so",
+    "currentTranslation": "só / somente",
+    "newTranslation": "só",
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-1730",
+    "word": "ti",
+    "currentTranslation": "até / ti",
+    "newTranslation": "até",
+    "category": "Préposition"
+  },
+  {
+    "id": "entry-1740",
+    "word": "toma",
+    "currentTranslation": "tomar",
+    "newTranslation": "tomar / beber",
+    "category": "Verbe"
+  },
+  {
+    "id": "entry-1763",
+    "word": "tras",
+    "currentTranslation": "trás / atrás",
+    "newTranslation": "trás",
+    "category": "Adverbe"
+  },
+  {
+    "id": "entry-3880",
+    "word": "tudu",
+    "currentTranslation": "tudo",
+    "newTranslation": "tudo / todo",
+    "category": "Pronom"
+  },
+  {
+    "id": "entry-1865",
+    "word": "volta",
+    "currentTranslation": "volta / voltar",
+    "newTranslation": "voltar",
+    "category": "Verbe"
+  }
+]

@@ -1,0 +1,1562 @@
+[
+  {
+    "word": "a-bo",
+    "translation": "tu (enfático)",
+    "category": "Pronom"
+  },
+  {
+    "word": "a-el",
+    "translation": "ele / ela (enfático)",
+    "category": "Pronom"
+  },
+  {
+    "word": "a-gô",
+    "translation": "agora / então / no entanto",
+    "category": "Adverbe"
+  },
+  {
+    "word": "a-li",
+    "translation": "aqui (enfático)",
+    "category": "Adverbe"
+  },
+  {
+    "word": "altura",
+    "translation": "altura / época / momento",
+    "category": "Nom"
+  },
+  {
+    "word": "a-mi",
+    "translation": "eu (enfático)",
+    "category": "Pronom"
+  },
+  {
+    "word": "a-nho",
+    "translation": "o senhor (tratamento)",
+    "category": "Pronom"
+  },
+  {
+    "word": "a-nhos",
+    "translation": "vocês (enfático)",
+    "category": "Pronom"
+  },
+  {
+    "word": "a-nos",
+    "translation": "nós (enfático)",
+    "category": "Pronom"
+  },
+  {
+    "word": "a-si",
+    "translation": "assim",
+    "category": "Adverbe"
+  },
+  {
+    "word": "atcha",
+    "translation": "achar / encontrar",
+    "category": "Verbe"
+  },
+  {
+    "word": "bap",
+    "translation": "papo / conversa",
+    "category": "Nom"
+  },
+  {
+    "word": "bazofu",
+    "translation": "vaidoso / elegante",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bendidera",
+    "translation": "vendedeira",
+    "category": "Nom"
+  },
+  {
+    "word": "berdianu",
+    "translation": "cabo-verdiano",
+    "category": "Adjectif"
+  },
+  {
+    "word": "bibi",
+    "translation": "viver",
+    "category": "Verbe"
+  },
+  {
+    "word": "Bisenti",
+    "translation": "Vicente",
+    "category": "Nom"
+  },
+  {
+    "word": "bo-tardi",
+    "translation": "boa tarde",
+    "category": "Expression"
+  },
+  {
+    "word": "bu",
+    "translation": "teu / tua / você",
+    "category": "Pronom"
+  },
+  {
+    "word": "bunitu",
+    "translation": "bonito",
+    "category": "Adjectif"
+  },
+  {
+    "word": "buru",
+    "translation": "burro",
+    "category": "Nom"
+  },
+  {
+    "word": "debi",
+    "translation": "dever",
+    "category": "Verbe"
+  },
+  {
+    "word": "desk-e",
+    "translation": "desde que",
+    "category": "Conjonction"
+  },
+  {
+    "word": "dexa",
+    "translation": "deixar",
+    "category": "Verbe"
+  },
+  {
+    "word": "di",
+    "translation": "de",
+    "category": "Préposition"
+  },
+  {
+    "word": "dibidi",
+    "translation": "dividir",
+    "category": "Verbe"
+  },
+  {
+    "word": "difisi",
+    "translation": "difícil",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dimas",
+    "translation": "demais",
+    "category": "Adverbe"
+  },
+  {
+    "word": "Dios",
+    "translation": "Deus",
+    "category": "Nom"
+  },
+  {
+    "word": "diskesi",
+    "translation": "esquecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "diskansa",
+    "translation": "descansar",
+    "category": "Verbe"
+  },
+  {
+    "word": "dispidida",
+    "translation": "despedida",
+    "category": "Nom"
+  },
+  {
+    "word": "dispos",
+    "translation": "depois",
+    "category": "Adverbe"
+  },
+  {
+    "word": "dixa",
+    "translation": "deixar",
+    "category": "Verbe"
+  },
+  {
+    "word": "dixi",
+    "translation": "descer",
+    "category": "Verbe"
+  },
+  {
+    "word": "dizanovi",
+    "translation": "dezanove",
+    "category": "Nombre"
+  },
+  {
+    "word": "dizasax",
+    "translation": "dezasseis",
+    "category": "Nombre"
+  },
+  {
+    "word": "dizaséti",
+    "translation": "dezassete",
+    "category": "Nombre"
+  },
+  {
+    "word": "Djom",
+    "translation": "João",
+    "category": "Nom"
+  },
+  {
+    "word": "Djonsinhu",
+    "translation": "Joaozinho",
+    "category": "Nom"
+  },
+  {
+    "word": "djuda",
+    "translation": "ajudar",
+    "category": "Verbe"
+  },
+  {
+    "word": "Djuzé",
+    "translation": "José",
+    "category": "Nom"
+  },
+  {
+    "word": "duenti",
+    "translation": "doente",
+    "category": "Adjectif"
+  },
+  {
+    "word": "dura",
+    "translation": "durar",
+    "category": "Verbe"
+  },
+  {
+    "word": "duru",
+    "translation": "duro",
+    "category": "Adjectif"
+  },
+  {
+    "word": "duzentus",
+    "translation": "duzentos",
+    "category": "Nombre"
+  },
+  {
+    "word": "entri",
+    "translation": "entre",
+    "category": "Préposition"
+  },
+  {
+    "word": "fabor",
+    "translation": "favor",
+    "category": "Nom"
+  },
+  {
+    "word": "fasedu",
+    "translation": "feito (passivo)",
+    "category": "Verbe"
+  },
+  {
+    "word": "Fazenda",
+    "translation": "Fazenda (bairro)",
+    "category": "Nom"
+  },
+  {
+    "word": "feia",
+    "translation": "feia",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fixi",
+    "translation": "fixe / legal",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fla",
+    "translation": "dizer",
+    "category": "Verbe"
+  },
+  {
+    "word": "fladu",
+    "translation": "dito (passivo)",
+    "category": "Verbe"
+  },
+  {
+    "word": "fomi",
+    "translation": "fome",
+    "category": "Nom"
+  },
+  {
+    "word": "fra",
+    "translation": "dizer (variante)",
+    "category": "Verbe"
+  },
+  {
+    "word": "Fransa",
+    "translation": "França",
+    "category": "Nom"
+  },
+  {
+    "word": "franses",
+    "translation": "francês",
+    "category": "Adjectif"
+  },
+  {
+    "word": "friu",
+    "translation": "frio",
+    "category": "Adjectif"
+  },
+  {
+    "word": "fronta",
+    "translation": "afligir / chatear",
+    "category": "Verbe"
+  },
+  {
+    "word": "fuxi",
+    "translation": "fugir",
+    "category": "Verbe"
+  },
+  {
+    "word": "gazadju",
+    "translation": "hospitalidade",
+    "category": "Nom"
+  },
+  {
+    "word": "gentis",
+    "translation": "gente / família",
+    "category": "Nom"
+  },
+  {
+    "word": "gia",
+    "translation": "guiar / conduzir",
+    "category": "Verbe"
+  },
+  {
+    "word": "gizado",
+    "translation": "guisado",
+    "category": "Nom"
+  },
+  {
+    "word": "go",
+    "translation": "agora / pois",
+    "category": "Adverbe"
+  },
+  {
+    "word": "Gomi",
+    "translation": "Gomes",
+    "category": "Nom"
+  },
+  {
+    "word": "gosi",
+    "translation": "agora",
+    "category": "Adverbe"
+  },
+  {
+    "word": "grogu",
+    "translation": "grogue (aguardente)",
+    "category": "Nom"
+  },
+  {
+    "word": "ilia",
+    "translation": "ilha",
+    "category": "Nom"
+  },
+  {
+    "word": "inda",
+    "translation": "ainda",
+    "category": "Adverbe"
+  },
+  {
+    "word": "ingri",
+    "translation": "íngreme",
+    "category": "Adjectif"
+  },
+  {
+    "word": "intchi",
+    "translation": "encher",
+    "category": "Verbe"
+  },
+  {
+    "word": "Kabrinka",
+    "translation": "Cabrinha (nome)",
+    "category": "Nom"
+  },
+  {
+    "word": "kada",
+    "translation": "cada",
+    "category": "Adjectif"
+  },
+  {
+    "word": "kai",
+    "translation": "cair",
+    "category": "Verbe"
+  },
+  {
+    "word": "kal",
+    "translation": "qual",
+    "category": "Pronom"
+  },
+  {
+    "word": "kansa",
+    "translation": "cansar",
+    "category": "Verbe"
+  },
+  {
+    "word": "kansadu",
+    "translation": "cansado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "kantu",
+    "translation": "quanto",
+    "category": "Adverbe"
+  },
+  {
+    "word": "kasaku",
+    "translation": "casaco",
+    "category": "Nom"
+  },
+  {
+    "word": "katorzi",
+    "translation": "catorze",
+    "category": "Nombre"
+  },
+  {
+    "word": "Kau",
+    "translation": "lugar / Cabo",
+    "category": "Nom"
+  },
+  {
+    "word": "kenha",
+    "translation": "quem",
+    "category": "Pronom"
+  },
+  {
+    "word": "kilu",
+    "translation": "quilo",
+    "category": "Nom"
+  },
+  {
+    "word": "kinhentus",
+    "translation": "quinhentos",
+    "category": "Nombre"
+  },
+  {
+    "word": "kinta-fera",
+    "translation": "quinta-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "kinzi",
+    "translation": "quinze",
+    "category": "Nombre"
+  },
+  {
+    "word": "kiria",
+    "translation": "criar",
+    "category": "Verbe"
+  },
+  {
+    "word": "kiriolu",
+    "translation": "crioulo",
+    "category": "Nom"
+  },
+  {
+    "word": "koku",
+    "translation": "coco / coqueiro",
+    "category": "Nom"
+  },
+  {
+    "word": "koladera",
+    "translation": "coladeira (música)",
+    "category": "Nom"
+  },
+  {
+    "word": "kombersu",
+    "translation": "conversa",
+    "category": "Nom"
+  },
+  {
+    "word": "kompu",
+    "translation": "arranjar / consertar",
+    "category": "Verbe"
+  },
+  {
+    "word": "konku",
+    "translation": "bater (porta)",
+    "category": "Verbe"
+  },
+  {
+    "word": "konsi",
+    "translation": "conhecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "konxe",
+    "translation": "conhecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "koraxu",
+    "translation": "coragem",
+    "category": "Nom"
+  },
+  {
+    "word": "kori",
+    "translation": "correr",
+    "category": "Verbe"
+  },
+  {
+    "word": "kotchi",
+    "translation": "pilar (milho)",
+    "category": "Verbe"
+  },
+  {
+    "word": "kretxeu",
+    "translation": "amor / querido",
+    "category": "Nom"
+  },
+  {
+    "word": "ku",
+    "translation": "com",
+    "category": "Préposition"
+  },
+  {
+    "word": "kuarta",
+    "translation": "quarta-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "kuatu",
+    "translation": "quatro",
+    "category": "Nombre"
+  },
+  {
+    "word": "kudadu",
+    "translation": "cuidado",
+    "category": "Nom"
+  },
+  {
+    "word": "kudi",
+    "translation": "responder",
+    "category": "Verbe"
+  },
+  {
+    "word": "kuma",
+    "translation": "como / que",
+    "category": "Conjonction"
+  },
+  {
+    "word": "kumbida",
+    "translation": "convidar",
+    "category": "Verbe"
+  },
+  {
+    "word": "kumi",
+    "translation": "comer",
+    "category": "Verbe"
+  },
+  {
+    "word": "kumida",
+    "translation": "comida",
+    "category": "Nom"
+  },
+  {
+    "word": "kumpanha",
+    "translation": "acompanhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "kumpanheru",
+    "translation": "companheiro",
+    "category": "Nom"
+  },
+  {
+    "word": "kumpra",
+    "translation": "comprar",
+    "category": "Verbe"
+  },
+  {
+    "word": "kumpridu",
+    "translation": "comprido",
+    "category": "Adjectif"
+  },
+  {
+    "word": "kunsa",
+    "translation": "começar",
+    "category": "Verbe"
+  },
+  {
+    "word": "kusa",
+    "translation": "coisa",
+    "category": "Nom"
+  },
+  {
+    "word": "kuse",
+    "translation": "o quê",
+    "category": "Pronom"
+  },
+  {
+    "word": "kusia",
+    "translation": "cozinhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "limia",
+    "translation": "iluminar / brilhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "liseu",
+    "translation": "liceu",
+    "category": "Nom"
+  },
+  {
+    "word": "lisom",
+    "translation": "lição",
+    "category": "Nom"
+  },
+  {
+    "word": "lus",
+    "translation": "luz",
+    "category": "Nom"
+  },
+  {
+    "word": "mafafa",
+    "translation": "mandioca",
+    "category": "Nom"
+  },
+  {
+    "word": "mangi",
+    "translation": "manga (fruta)",
+    "category": "Nom"
+  },
+  {
+    "word": "manham",
+    "translation": "manhã / amanhã",
+    "category": "Nom"
+  },
+  {
+    "word": "mantenha",
+    "translation": "saudação",
+    "category": "Nom"
+  },
+  {
+    "word": "maria",
+    "translation": "enjoar",
+    "category": "Verbe"
+  },
+  {
+    "word": "matchu",
+    "translation": "macho",
+    "category": "Nom"
+  },
+  {
+    "word": "matimatika",
+    "translation": "matemática",
+    "category": "Nom"
+  },
+  {
+    "word": "meiu",
+    "translation": "meio",
+    "category": "Nom"
+  },
+  {
+    "word": "Mendonsa",
+    "translation": "Mendonça",
+    "category": "Nom"
+  },
+  {
+    "word": "menus",
+    "translation": "menos",
+    "category": "Adverbe"
+  },
+  {
+    "word": "meres",
+    "translation": "escudos (moeda)",
+    "category": "Nom"
+  },
+  {
+    "word": "Merka",
+    "translation": "América",
+    "category": "Nom"
+  },
+  {
+    "word": "merkanu",
+    "translation": "americano",
+    "category": "Adjectif"
+  },
+  {
+    "word": "mesti",
+    "translation": "precisar",
+    "category": "Verbe"
+  },
+  {
+    "word": "midida",
+    "translation": "medida",
+    "category": "Nom"
+  },
+  {
+    "word": "midjora",
+    "translation": "melhorar",
+    "category": "Verbe"
+  },
+  {
+    "word": "minina",
+    "translation": "menina",
+    "category": "Nom"
+  },
+  {
+    "word": "mininu",
+    "translation": "menino",
+    "category": "Nom"
+  },
+  {
+    "word": "minotu",
+    "translation": "minuto",
+    "category": "Nom"
+  },
+  {
+    "word": "mo",
+    "translation": "mão / braço",
+    "category": "Nom"
+  },
+  {
+    "word": "modi",
+    "translation": "como",
+    "category": "Adverbe"
+  },
+  {
+    "word": "modja",
+    "translation": "molhar",
+    "category": "Verbe"
+  },
+  {
+    "word": "moki",
+    "translation": "como que",
+    "category": "Adverbe"
+  },
+  {
+    "word": "moku",
+    "translation": "bêbado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "mora",
+    "translation": "morar",
+    "category": "Verbe"
+  },
+  {
+    "word": "morna",
+    "translation": "morna (música)",
+    "category": "Nom"
+  },
+  {
+    "word": "morti",
+    "translation": "morte",
+    "category": "Nom"
+  },
+  {
+    "word": "mos",
+    "translation": "moço",
+    "category": "Nom"
+  },
+  {
+    "word": "mosindadi",
+    "translation": "mocidade / juventude",
+    "category": "Nom"
+  },
+  {
+    "word": "mporta",
+    "translation": "importar",
+    "category": "Verbe"
+  },
+  {
+    "word": "munti",
+    "translation": "monte / muito",
+    "category": "Nom"
+  },
+  {
+    "word": "musturu",
+    "translation": "mistura",
+    "category": "Nom"
+  },
+  {
+    "word": "mutu",
+    "translation": "muito",
+    "category": "Adverbe"
+  },
+  {
+    "word": "nad-aver",
+    "translation": "nada a ver",
+    "category": "Expression"
+  },
+  {
+    "word": "napundi",
+    "translation": "onde / em que lugar",
+    "category": "Adverbe"
+  },
+  {
+    "word": "nasi",
+    "translation": "nascer",
+    "category": "Verbe"
+  },
+  {
+    "word": "nau",
+    "translation": "não",
+    "category": "Adverbe"
+  },
+  {
+    "word": "n-es",
+    "translation": "neste / nesta",
+    "category": "Pronom"
+  },
+  {
+    "word": "Ngenhu",
+    "translation": "Engenho",
+    "category": "Nom"
+  },
+  {
+    "word": "ngles",
+    "translation": "inglês",
+    "category": "Nom"
+  },
+  {
+    "word": "nha",
+    "translation": "minha / senhora",
+    "category": "Pronom"
+  },
+  {
+    "word": "nhu",
+    "translation": "senhor",
+    "category": "Pronom"
+  },
+  {
+    "word": "nomi",
+    "translation": "nome",
+    "category": "Nom"
+  },
+  {
+    "word": "nonti",
+    "translation": "ontem à noite",
+    "category": "Adverbe"
+  },
+  {
+    "word": "noti",
+    "translation": "noite",
+    "category": "Nom"
+  },
+  {
+    "word": "novi",
+    "translation": "nove",
+    "category": "Nombre"
+  },
+  {
+    "word": "ntendi",
+    "translation": "entender",
+    "category": "Verbe"
+  },
+  {
+    "word": "ntridja",
+    "translation": "torcer (pé)",
+    "category": "Verbe"
+  },
+  {
+    "word": "numbru",
+    "translation": "número",
+    "category": "Nom"
+  },
+  {
+    "word": "nunhum",
+    "translation": "nenhum",
+    "category": "Adjectif"
+  },
+  {
+    "word": "nxina",
+    "translation": "ensinar",
+    "category": "Verbe"
+  },
+  {
+    "word": "obi",
+    "translation": "ouvir",
+    "category": "Verbe"
+  },
+  {
+    "word": "oi",
+    "translation": "olha / oi",
+    "category": "Interjection"
+  },
+  {
+    "word": "oki",
+    "translation": "quando",
+    "category": "Adverbe"
+  },
+  {
+    "word": "omesmu",
+    "translation": "o mesmo",
+    "category": "Pronom"
+  },
+  {
+    "word": "ontom",
+    "translation": "então",
+    "category": "Adverbe"
+  },
+  {
+    "word": "onzi",
+    "translation": "onze",
+    "category": "Nombre"
+  },
+  {
+    "word": "ori",
+    "translation": "ouri (jogo)",
+    "category": "Nom"
+  },
+  {
+    "word": "oroportu",
+    "translation": "aeroporto",
+    "category": "Nom"
+  },
+  {
+    "word": "oxi",
+    "translation": "hoje",
+    "category": "Adverbe"
+  },
+  {
+    "word": "padisi",
+    "translation": "padecer / sofrer",
+    "category": "Verbe"
+  },
+  {
+    "word": "padri",
+    "translation": "padre",
+    "category": "Nom"
+  },
+  {
+    "word": "paga",
+    "translation": "pagar",
+    "category": "Verbe"
+  },
+  {
+    "word": "palabra",
+    "translation": "palavra",
+    "category": "Nom"
+  },
+  {
+    "word": "Palu",
+    "translation": "Paulo",
+    "category": "Nom"
+  },
+  {
+    "word": "palumenu",
+    "translation": "pelo menos",
+    "category": "Adverbe"
+  },
+  {
+    "word": "pamodi",
+    "translation": "porque",
+    "category": "Conjonction"
+  },
+  {
+    "word": "papaia",
+    "translation": "papaia / mamão",
+    "category": "Nom"
+  },
+  {
+    "word": "papia",
+    "translation": "falar",
+    "category": "Verbe"
+  },
+  {
+    "word": "pari",
+    "translation": "parir",
+    "category": "Verbe"
+  },
+  {
+    "word": "parmanhan",
+    "translation": "manhã cedo",
+    "category": "Adverbe"
+  },
+  {
+    "word": "parsi",
+    "translation": "parecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "pasia",
+    "translation": "passear",
+    "category": "Verbe"
+  },
+  {
+    "word": "Pedru",
+    "translation": "Pedro",
+    "category": "Nom"
+  },
+  {
+    "word": "pekador",
+    "translation": "pecador / pessoa",
+    "category": "Nom"
+  },
+  {
+    "word": "perdi",
+    "translation": "perder",
+    "category": "Verbe"
+  },
+  {
+    "word": "pidi",
+    "translation": "pedir",
+    "category": "Verbe"
+  },
+  {
+    "word": "pikena",
+    "translation": "rapariga / namorada",
+    "category": "Nom"
+  },
+  {
+    "word": "pilidu",
+    "translation": "apelido / sobrenome",
+    "category": "Nom"
+  },
+  {
+    "word": "pilorinhu",
+    "translation": "pelourinho / mercado",
+    "category": "Nom"
+  },
+  {
+    "word": "pobri",
+    "translation": "pobre",
+    "category": "Adjectif"
+  },
+  {
+    "word": "poda",
+    "translation": "podar",
+    "category": "Verbe"
+  },
+  {
+    "word": "podi",
+    "translation": "poder",
+    "category": "Verbe"
+  },
+  {
+    "word": "podu",
+    "translation": "posto (colocado)",
+    "category": "Verbe"
+  },
+  {
+    "word": "poi",
+    "translation": "pôr",
+    "category": "Verbe"
+  },
+  {
+    "word": "pontchi",
+    "translation": "ponche",
+    "category": "Nom"
+  },
+  {
+    "word": "prabulema",
+    "translation": "problema",
+    "category": "Nom"
+  },
+  {
+    "word": "prendi",
+    "translation": "aprender",
+    "category": "Verbe"
+  },
+  {
+    "word": "propi",
+    "translation": "próprio / mesmo",
+    "category": "Adjectif"
+  },
+  {
+    "word": "prufisom",
+    "translation": "profissão",
+    "category": "Nom"
+  },
+  {
+    "word": "prugresu",
+    "translation": "progresso",
+    "category": "Nom"
+  },
+  {
+    "word": "puns",
+    "translation": "punho",
+    "category": "Nom"
+  },
+  {
+    "word": "purba",
+    "translation": "provar",
+    "category": "Verbe"
+  },
+  {
+    "word": "purisu",
+    "translation": "por isso",
+    "category": "Conjonction"
+  },
+  {
+    "word": "purmeru",
+    "translation": "primeiro",
+    "category": "Nombre"
+  },
+  {
+    "word": "purpara",
+    "translation": "preparar",
+    "category": "Verbe"
+  },
+  {
+    "word": "pursebi",
+    "translation": "perceber",
+    "category": "Verbe"
+  },
+  {
+    "word": "pursor",
+    "translation": "professor",
+    "category": "Nom"
+  },
+  {
+    "word": "purtuges",
+    "translation": "português",
+    "category": "Nom"
+  },
+  {
+    "word": "Purtugal",
+    "translation": "Portugal",
+    "category": "Nom"
+  },
+  {
+    "word": "ranxa",
+    "translation": "arranjar",
+    "category": "Verbe"
+  },
+  {
+    "word": "rapendi",
+    "translation": "arrepender",
+    "category": "Verbe"
+  },
+  {
+    "word": "rastora",
+    "translation": "restaurar / recuperar",
+    "category": "Verbe"
+  },
+  {
+    "word": "resibi",
+    "translation": "receber",
+    "category": "Verbe"
+  },
+  {
+    "word": "ria",
+    "translation": "areia",
+    "category": "Nom"
+  },
+  {
+    "word": "rotcha",
+    "translation": "rocha",
+    "category": "Nom"
+  },
+  {
+    "word": "rueda",
+    "translation": "ruela",
+    "category": "Nom"
+  },
+  {
+    "word": "ruspeta",
+    "translation": "respeitar",
+    "category": "Verbe"
+  },
+  {
+    "word": "sabru",
+    "translation": "sábado (variante)",
+    "category": "Nom"
+  },
+  {
+    "word": "saisentus",
+    "translation": "seiscentos",
+    "category": "Nombre"
+  },
+  {
+    "word": "Sam",
+    "translation": "São (santo)",
+    "category": "Nom"
+  },
+  {
+    "word": "Sandra",
+    "translation": "Sandra",
+    "category": "Nom"
+  },
+  {
+    "word": "Santiagu",
+    "translation": "Santiago",
+    "category": "Nom"
+  },
+  {
+    "word": "sarabedja",
+    "translation": "cerveja",
+    "category": "Nom"
+  },
+  {
+    "word": "sata",
+    "translation": "estar a (progressivo)",
+    "category": "Verbe"
+  },
+  {
+    "word": "sax",
+    "translation": "seis",
+    "category": "Nombre"
+  },
+  {
+    "word": "sempri",
+    "translation": "sempre",
+    "category": "Adverbe"
+  },
+  {
+    "word": "Senegal",
+    "translation": "Senegal",
+    "category": "Nom"
+  },
+  {
+    "word": "senh",
+    "translation": "sem (variante)",
+    "category": "Préposition"
+  },
+  {
+    "word": "senti",
+    "translation": "sentir",
+    "category": "Verbe"
+  },
+  {
+    "word": "ser",
+    "translation": "ser",
+    "category": "Verbe"
+  },
+  {
+    "word": "serba",
+    "translation": "servir",
+    "category": "Verbe"
+  },
+  {
+    "word": "sesta-fera",
+    "translation": "sexta-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "seti",
+    "translation": "sete",
+    "category": "Nombre"
+  },
+  {
+    "word": "setusentus",
+    "translation": "setecentos",
+    "category": "Nombre"
+  },
+  {
+    "word": "sime",
+    "translation": "assim mesmo",
+    "category": "Adverbe"
+  },
+  {
+    "word": "simenti",
+    "translation": "semente",
+    "category": "Nom"
+  },
+  {
+    "word": "sinema",
+    "translation": "cinema",
+    "category": "Nom"
+  },
+  {
+    "word": "Sinhor",
+    "translation": "Senhor",
+    "category": "Nom"
+  },
+  {
+    "word": "sinku",
+    "translation": "cinco",
+    "category": "Nombre"
+  },
+  {
+    "word": "skesê",
+    "translation": "esquecer",
+    "category": "Verbe"
+  },
+  {
+    "word": "skola",
+    "translation": "escola",
+    "category": "Nom"
+  },
+  {
+    "word": "skrebi",
+    "translation": "escrever",
+    "category": "Verbe"
+  },
+  {
+    "word": "Somada",
+    "translation": "Assomada",
+    "category": "Nom"
+  },
+  {
+    "word": "som",
+    "translation": "som",
+    "category": "Nom"
+  },
+  {
+    "word": "spadjadu",
+    "translation": "espalhado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "spera",
+    "translation": "esperar",
+    "category": "Verbe"
+  },
+  {
+    "word": "spital",
+    "translation": "hospital",
+    "category": "Nom"
+  },
+  {
+    "word": "sta",
+    "translation": "estar",
+    "category": "Verbe"
+  },
+  {
+    "word": "storia",
+    "translation": "estória / história",
+    "category": "Nom"
+  },
+  {
+    "word": "strada",
+    "translation": "estrada",
+    "category": "Nom"
+  },
+  {
+    "word": "stranjeru",
+    "translation": "estrangeiro",
+    "category": "Nom"
+  },
+  {
+    "word": "studa",
+    "translation": "estudar",
+    "category": "Verbe"
+  },
+  {
+    "word": "sugundu",
+    "translation": "segundo",
+    "category": "Nombre"
+  },
+  {
+    "word": "sukri",
+    "translation": "açúcar",
+    "category": "Nom"
+  },
+  {
+    "word": "sumu",
+    "translation": "sumo",
+    "category": "Nom"
+  },
+  {
+    "word": "sunkuenta",
+    "translation": "cinquenta",
+    "category": "Nombre"
+  },
+  {
+    "word": "ta",
+    "translation": "estar (habitual)",
+    "category": "Verbe"
+  },
+  {
+    "word": "talbes",
+    "translation": "talvez",
+    "category": "Adverbe"
+  },
+  {
+    "word": "Tarafal",
+    "translation": "Tarrafal",
+    "category": "Nom"
+  },
+  {
+    "word": "tarsi",
+    "translation": "trazer",
+    "category": "Verbe"
+  },
+  {
+    "word": "tchabi",
+    "translation": "chave",
+    "category": "Nom"
+  },
+  {
+    "word": "tchada",
+    "translation": "achada / planalto",
+    "category": "Nom"
+  },
+  {
+    "word": "tchao",
+    "translation": "tchau",
+    "category": "Interjection"
+  },
+  {
+    "word": "tcheu",
+    "translation": "muito / cheio",
+    "category": "Adjectif"
+  },
+  {
+    "word": "tchiga",
+    "translation": "chegar",
+    "category": "Verbe"
+  },
+  {
+    "word": "tchom",
+    "translation": "chão / terra",
+    "category": "Nom"
+  },
+  {
+    "word": "tchoma",
+    "translation": "chamar",
+    "category": "Verbe"
+  },
+  {
+    "word": "tem",
+    "translation": "ter",
+    "category": "Verbe"
+  },
+  {
+    "word": "temba",
+    "translation": "ter (passado)",
+    "category": "Verbe"
+  },
+  {
+    "word": "teni",
+    "translation": "ter (posse)",
+    "category": "Verbe"
+  },
+  {
+    "word": "tera",
+    "translation": "terra / país",
+    "category": "Nom"
+  },
+  {
+    "word": "tersa-fera",
+    "translation": "terça-feira",
+    "category": "Nom"
+  },
+  {
+    "word": "tilifona",
+    "translation": "telefonar",
+    "category": "Verbe"
+  },
+  {
+    "word": "tirmodi",
+    "translation": "de qualquer modo",
+    "category": "Adverbe"
+  },
+  {
+    "word": "tirseru",
+    "translation": "terceiro",
+    "category": "Nombre"
+  },
+  {
+    "word": "tiu",
+    "translation": "tio",
+    "category": "Nom"
+  },
+  {
+    "word": "tizora",
+    "translation": "tesoura",
+    "category": "Nom"
+  },
+  {
+    "word": "tizoru",
+    "translation": "tesouro",
+    "category": "Nom"
+  },
+  {
+    "word": "toki",
+    "translation": "até que",
+    "category": "Conjonction"
+  },
+  {
+    "word": "tont",
+    "translation": "tanto",
+    "category": "Adverbe"
+  },
+  {
+    "word": "toresma",
+    "translation": "torresmo",
+    "category": "Nom"
+  },
+  {
+    "word": "tra",
+    "translation": "tirar",
+    "category": "Verbe"
+  },
+  {
+    "word": "trankadu",
+    "translation": "trancado",
+    "category": "Adjectif"
+  },
+  {
+    "word": "treizi",
+    "translation": "treze",
+    "category": "Nombre"
+  },
+  {
+    "word": "trena",
+    "translation": "treinar",
+    "category": "Verbe"
+  },
+  {
+    "word": "trinti",
+    "translation": "trinta",
+    "category": "Nombre"
+  },
+  {
+    "word": "txau",
+    "translation": "tchau",
+    "category": "Interjection"
+  },
+  {
+    "word": "ui",
+    "translation": "ui (dor/surpresa)",
+    "category": "Interjection"
+  },
+  {
+    "word": "um",
+    "translation": "um",
+    "category": "Nombre"
+  },
+  {
+    "word": "uma",
+    "translation": "uma",
+    "category": "Nombre"
+  },
+  {
+    "word": "undi",
+    "translation": "onde",
+    "category": "Adverbe"
+  },
+  {
+    "word": "viaxi",
+    "translation": "viagem",
+    "category": "Nom"
+  },
+  {
+    "word": "vinti",
+    "translation": "vinte",
+    "category": "Nombre"
+  },
+  {
+    "word": "vurdadi",
+    "translation": "verdade",
+    "category": "Nom"
+  },
+  {
+    "word": "xatia",
+    "translation": "chatear",
+    "category": "Verbe"
+  },
+  {
+    "word": "xefri",
+    "translation": "chefe",
+    "category": "Nom"
+  },
+  {
+    "word": "xintidu",
+    "translation": "sentido",
+    "category": "Nom"
+  },
+  {
+    "word": "xipi",
+    "translation": "fazer (sexo)",
+    "category": "Verbe"
+  },
+  {
+    "word": "zangadu",
+    "translation": "zangado",
+    "category": "Adjectif"
+  }
+]
