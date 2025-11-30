@@ -22,6 +22,7 @@ export default {
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
+      '3xl': '2048px', // Samsung Tab S10 Ultra and similar ultra-large tablets
     },
     extend: {
       colors: {

@@ -62,7 +62,7 @@ function App() {
     const configureStatusBar = async () => {
       try {
         if (Capacitor.isPluginAvailable('StatusBar')) {
-          await StatusBar.setOverlaysWebView({ overlay: false });
+          await StatusBar.setOverlaysWebView({ overlay: true });
           await StatusBar.setStyle({ style: Style.Dark });
           await StatusBar.setBackgroundColor({ color: '#333333' });
           console.log('StatusBar configured');

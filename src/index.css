@@ -7,16 +7,24 @@
   .container {
     @apply px-3 py-2;
   }
-  
+
   .page-container {
     @apply py-2 px-3;
   }
-  
+
   /* Réduction des marges et paddings par défaut */
-  h1 { @apply mb-2; }
-  h2 { @apply mb-2; }
-  h3 { @apply mb-1; }
-  p { @apply mb-1; }
+  h1 {
+    @apply mb-2;
+  }
+  h2 {
+    @apply mb-2;
+  }
+  h3 {
+    @apply mb-1;
+  }
+  p {
+    @apply mb-1;
+  }
 }
 
 /* ADAPTATION SAMSUNG S10 ULTRA (14.6" tablette) et S25 ULTRA */
@@ -26,12 +34,32 @@
     padding-left: 2rem !important;
     padding-right: 2rem !important;
   }
-  
+
   /* Police plus grande pour grand écran */
   body {
     font-size: 18px;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Classes utilitaires pour les zones de sécurité */
+  .safe-area-padding-top {
+    padding-top: env(safe-area-inset-top);
   }
   
+  .safe-area-padding-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .safe-area-padding-left {
+    padding-left: env(safe-area-inset-left);
+  }
+  
+  .safe-area-padding-right {
+    padding-right: env(safe-area-inset-right);
+  }
+
   /* Grilles optimisées */
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;

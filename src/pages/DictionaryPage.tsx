@@ -358,7 +358,7 @@ const DictionaryPage = () => {
             </div>
 
             {/* Grille de mots améliorée */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5 gap-1">
               {filteredDictionary.map((entry: DictionaryEntry) => (
                 <div key={entry.id} className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow">
                   <div className="flex justify-between items-start mb-3">
@@ -409,7 +409,7 @@ const DictionaryPage = () => {
         ) : (
           <div>
             {favoriteEntries.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5 gap-1">
                 {favoriteEntries.map((entry: DictionaryEntry) => (
                   <div key={entry.id} className="bg-card border border-border rounded-lg p-4 hover:shadow-md transition-shadow">
                     <div className="flex justify-between items-start mb-3">

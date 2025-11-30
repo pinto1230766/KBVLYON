@@ -280,7 +280,7 @@ const HomePage = () => {
             {t('home.resources') || 'Recursos Disponíveis'}
           </h2>
 
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-2 md:gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-2 md:gap-3 sm:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4">
             {cards.map((card) => {
               const Icon = card.icon;
               return (
